@@ -129,7 +129,7 @@ class Site:
                                trim_blocks=True, lstrip_blocks=True)
         codes = self.meta["codes"]
         self.env.globals.update(
-            asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, source_series=source_series,
+            asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, contact_email=CONTACT_EMAIL, source_series=source_series,
             code_text=lambda c: codes.get(c, {}).get("explain", "") if c else "",
         )
         self.pages = 0
