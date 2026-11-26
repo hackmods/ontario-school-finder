@@ -47,7 +47,9 @@ for host in "$DOMAIN" "www.$DOMAIN"; do
   echo "https for $host"; api /user/apps/appDefinitions/enablecustomdomainssl "{\"appName\":\"$APP\",\"customDomain\":\"$host\"}"; echo
 done
 
-echo "redirect every other address to https://$DOMAIN"
+# www and the CapRover address are sent to https://$DOMAIN by the site's own nginx (deploy/nginx.conf),
+# in one hop. CapRover's "redirect domain" setting is left empty: it sends https visitors to http:// first.
+echo "HTTPS only; CapRover's own domain redirect off (nginx redirects to https://$DOMAIN)"
 MSYS_NO_PATHCONV=1 caprover api -n "$MACHINE" -t /user/apps/appDefinitions -m GET -d '{}' -o "$TMP/apps.json" < /dev/null >/dev/null 2>&1
 node -e '
 const fs=require("fs");const [file,app,domain,out]=process.argv.slice(1);
@@ -55,7 +57,7 @@ const j=JSON.parse(fs.readFileSync(file,"utf8"));const d=j.data||j;const a=d.app
 if(!a){console.error("app not found");process.exit(1)}
 const keep=["appName","instanceCount","captainDefinitionRelativeFilePath","notExposeAsWebApp","forceSsl","websocketSupport","volumes","ports","envVars","containerHttpPort","description","appDeployTokenConfig","httpAuth","preDeployFunction","serviceUpdateOverride","customNginxConfig","tags"];
 const up={};for(const k of keep) if(a[k]!==undefined) up[k]=a[k];
-up.forceSsl=true;up.redirectDomain=domain;
+up.forceSsl=true;up.redirectDomain="";
 fs.writeFileSync(out,JSON.stringify(up));' "$TMP/apps.json" "$APP" "$DOMAIN" "$TMP/update.json"
 # only redirect once the apex itself is attached with HTTPS, or the site would point at nothing
 node -e 'const fs=require("fs");const j=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));const a=(j.data||j).appDefinitions.find(x=>x.appName===process.argv[2]);process.exit((a.customDomain||[]).some(d=>d.publicDomain===process.argv[3]&&d.hasSsl)?0:1)' "$TMP/apps.json" "$APP" "$DOMAIN" \

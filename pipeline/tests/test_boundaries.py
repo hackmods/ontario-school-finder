@@ -98,6 +98,16 @@ def test_split_grade_pair_on_one_site_shares_the_area(layer):
     assert out["by_school"] == {} and out["report"]["bdy-test"]["unmatched"] == ["Frank Panabaker"]
 
 
+def test_namesakes_go_to_the_one_inside_even_with_other_schools_there(layer):
+    feats = [{"type": "Feature", "properties": {"NAME": "Centennial P.S. (W)"}, "geometry": _square(-80.0, 43.0)}]
+    (layer / "bdy-test.json").write_text(json.dumps({"type": "FeatureCollection", "features": feats}), encoding="utf-8")
+    schools = [_school("1", "Centennial (Waterloo) Public School", -79.99, 43.01),
+               _school("2", "Centennial (Cambridge) Public School", -79.5, 43.3),
+               _school("3", "Lincoln Heights Public School", -79.985, 43.005)]  # another school inside the same area
+    out = boundaries.build(schools, {}, log=lambda *_: None)
+    assert set(out["by_school"]) == {"1"}
+
+
 def test_build_fails_loudly_when_the_name_field_changes(layer):
     lay = dict(sources.BOUNDARY_LAYERS[0], name_field="SCHOOL")
     sources.BOUNDARY_LAYERS[:] = [lay]
