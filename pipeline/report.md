@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 20:11 UTC in 148 s.
+Generated 2026-11-26 20:36 UTC in 133 s.
 
 ## Output
 
@@ -190,7 +190,7 @@ Generated 2026-11-26 20:11 UTC in 148 s.
 | 090816 | Central Public School | N3W | N3T |
 | 203009 | Frank W Begley Public School | N9A | N8Y |
 | 283347 | John Campbell Public School | N8W | N8X |
-| 452734 | Legacy Oak Trail Public School Public School | N9A | N9J |
+| 452734 | Legacy Oak Trail Public School | N9A | N9J |
 | 454168 | Prince Edward Public School | N9A | N8X |
 | 491217 | Roseland Public School | N9G | N9E |
 | 094455 | Central Public School | L7R | L7S |
@@ -204,7 +204,7 @@ Generated 2026-11-26 20:11 UTC in 148 s.
 | 854336 | St. Thomas Catholic Elementary School | L0R | L8B |
 | 011568 | Allan A Greenleaf | L0R | L8B |
 | 050415 | Balaclava Public School | L8B | L0R |
-| 898848 | Bernie Custis Secondary School Secondary School | L8M | L8L |
+| 898848 | Bernie Custis Secondary School | L8M | L8L |
 | 198668 | Flamborough Centre School | L8N | L8B |
 | 891401 | Hill Park System Alternative Education | L8P | L8V |
 | 360309 | Memorial Elementary School Public School | L8M | L8L |
@@ -228,7 +228,7 @@ Generated 2026-11-26 20:11 UTC in 148 s.
 | 353159 | McKenzie Public School | P7A | P0T |
 | 491080 | Rosedale Public School | N7V | N7S |
 | 920592 | La Salle Secondary School | K7L | K7K |
-| 052045 | LaSalle Intermediate School Intermediate School | K7L | K7K |
+| 052045 | LaSalle Intermediate School | K7L | K7K |
 | 704237 | Holy Family School | N4S | N4T |
 | 819769 | LDCSB Online School High School | N6E | N6N |
 | 752827 | Regina Mundi College | N6E | N6N |
@@ -410,9 +410,9 @@ Codes are stored as `null` with a flag, never as 0.
 
 ## Class sizes (matched to schools by board and school name)
 
-- Class-list rows matched to a school: 62409 school-years; ambiguous names skipped: 1319
+- Class-list rows matched to a school: 62414 school-years; ambiguous names skipped: 1319
 - Schools with class sizes: 3863
-- Unmatched school-years by year (closed or renamed schools, private/other boards): 2007-08: 692, 2008-09: 675, 2009-10: 641, 2010-11: 605, 2011-12: 578, 2012-13: 526, 2013-14: 503, 2014-15: 506, 2015-16: 565, 2016-17: 516, 2017-18: 482, 2018-19: 422, 2019-20: 428, 2020-21: 295, 2021-22: 222, 2022-23: 206, 2023-24: 160, 2024-25: 152, 2025-26: 39
+- Unmatched school-years by year (closed or renamed schools, private/other boards): 2007-08: 692, 2008-09: 675, 2009-10: 641, 2010-11: 605, 2011-12: 578, 2012-13: 526, 2013-14: 503, 2014-15: 506, 2015-16: 564, 2016-17: 515, 2017-18: 481, 2018-19: 421, 2019-20: 427, 2020-21: 295, 2021-22: 222, 2022-23: 206, 2023-24: 160, 2024-25: 152, 2025-26: 39
 
 ## Official attendance boundaries (boards' public map layers)
 

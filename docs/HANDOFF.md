@@ -28,6 +28,17 @@ CI: `./check.sh` on your own machine is the definition of done (it passed on 202
 - Home map follows the search box; school names on every map; corrections through the GitHub issue
   form; every script, data file and the map library are versioned so deploys reach visitors at once;
   MapLibre 6.4.1 (critical XSS fix).
+- Full audit of the live site: 33 pages (every page type) at phone, tablet and desktop widths plus dark
+  mode, 1,104 internal links, colour contrast, data spot-checks against the source files, headers,
+  sitemap and robots. Clean on errors, links, overflow, labels, alt text, contrast (lowest 4.67:1)
+  and data. Fixed:
+  - 31 Ministry names that repeat a phrase ("Glenwood School School"), now shown once;
+  - board pages downloading every board's area (1.7 MB), now only their own (3–30 KB);
+  - `/favicon.ico` missing;
+  - school descriptions over 160 characters, and long titles;
+  - the Data page heading skipping a level;
+  - phone polish: the breadcrumb wrapping, the compare search box and the compare tray text cut off,
+    and "elementary" in lowercase on Compare.
 
 ## Open engineering items
 

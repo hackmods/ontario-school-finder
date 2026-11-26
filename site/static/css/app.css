@@ -596,6 +596,9 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 /* touch targets: 44px minimum on everything tappable */
 .crumbs a { display: inline-flex; align-items: center; min-height: 44px; }
 .crumbs { margin-bottom: 6px; }
+/* phones: the current page's crumb repeats the heading right below it and pushed the trail onto a
+   second line starting with a stray "/", so show only the way back */
+@media (max-width: 600px) { .crumbs li[aria-current="page"] { display: none; } }
 .site-footer li a { min-height: 44px; }
 .search-sm .search-box input { min-height: 44px; }
 .facts { grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 10px 20px; }

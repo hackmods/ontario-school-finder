@@ -57,7 +57,12 @@ test("saved and automatic theme choices show the right artwork; print uses colou
 test("published logo, favicon, share card and installable icons use the selected asset set", async ({ page, request }) => {
   await page.goto("/");
   const logoUrl = await page.locator(".site-header .brand-logo-light").getAttribute("src");
-  const iconUrl = await page.locator('link[rel="icon"]').getAttribute("href");
+  const iconUrl = await page.locator('link[rel="icon"][type="image/svg+xml"]').getAttribute("href");
+  // /favicon.ico (for browsers, bookmarks and crawlers that ask for it) is the same mark, as an ICO
+  const ico = await request.get("/favicon.ico");
+  expect(ico.ok()).toBeTruthy();
+  expect([...(await ico.body()).subarray(0, 4)]).toEqual([0, 0, 1, 0]);
+  expect(Buffer.compare(await ico.body(), readFileSync(path.join(root, "site/static/favicon.ico")))).toBe(0);
   const appleUrl = await page.locator('link[rel="apple-touch-icon"]').getAttribute("href");
   const ogUrl = new URL(await page.locator('meta[property="og:image"]').getAttribute("content"));
   for (const [url, name] of [[logoUrl, "brand-logo.svg"], [iconUrl, "icon.svg"], [appleUrl, "icon-180.png"], [ogUrl.pathname + ogUrl.search, "og.png"]]) {

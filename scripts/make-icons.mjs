@@ -71,3 +71,5 @@ try {
 } finally {
   await browser.close();
 }
+// /favicon.ico from the icon just activated
+await import("./make-favicon.mjs");

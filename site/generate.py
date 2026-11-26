@@ -91,6 +91,14 @@ def human_date(iso: str | None) -> str:
     return f"{d.strftime('%B')} {d.day}, {d.year}"
 
 
+def clip(text: str, limit: int) -> str:
+    """Shorten to at most `limit` characters at a word boundary, ending with an ellipsis."""
+    if len(text) <= limit:
+        return text
+    cut = text[: limit - 1].rsplit(" ", 1)[0].rstrip(" ,.;:—-")
+    return cut + "…"
+
+
 def short_hash(*parts: bytes) -> str:
     h = hashlib.sha256()
     for p in parts:
@@ -346,11 +354,12 @@ class Site:
             jsonld["sameAs"] = s["website"]
         sys_label = self.meta["systems"][s["system"]]
         latest_eqao = max((e["year"] for e in s["eqao"]), default=None)
-        desc = f"{s['name']} in {s['city'] or 'Ontario'} ({s['board_name']}): {s['level']} school, grades {s['grades']}. "
+        desc = f"{s['name']}, {s['city'] or 'Ontario'}: {s['level']} school ({s['grades']}), {s['board_name']}. "
         if latest_eqao:
-            desc += f"EQAO results {min(e['year'] for e in s['eqao'])} to {latest_eqao} next to the board and Ontario, enrolment and sources."
+            desc += f"EQAO {min(e['year'] for e in s['eqao'])} to {latest_eqao} with board and Ontario medians, enrolment and sources."
         else:
             desc += "Enrolment, student context, nearby schools and child care, with sources."
+        desc = clip(desc, 160)  # search results cut descriptions at about 160 characters
         self.render(f"school/{s['bsid']}/index.html", "school.html",
                     title=f"{s['name']} — {s['city'] or s['board_name']}", description=desc, page_kind="school", map=True,
                     s=s, results=results, system_label=sys_label, address_line=addr, official_label=official_label,
@@ -608,6 +617,7 @@ class Site:
         sm.append("</urlset>")
         (DIST / "sitemap.xml").write_text("\n".join(sm), encoding="utf-8")
         (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8")
+        shutil.copy2(STATIC / "favicon.ico", DIST / "favicon.ico")  # browsers and crawlers still ask for /favicon.ico
         manifest = {
             "name": "Ontario School Finder", "short_name": "School Finder", "start_url": "/?source=app", "scope": "/",
             "display": "standalone", "background_color": "#f6f5f1", "theme_color": "#0b5d4f",
@@ -647,6 +657,19 @@ def hero_svg(index: list[dict]) -> tuple[str, int, int]:
         groups.setdefault(r["sys"], []).append(f'<circle cx="{px:.0f}" cy="{py:.0f}" r="1.9"/>')
     body = "".join(f'<g fill="{colors.get(k, "#8a8f98")}">{"".join(v)}</g>' for k, v in groups.items())
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}"><g opacity=".92">{body}</g></svg>', w, h)
+
+
+def split_board_areas() -> int:
+    """One small area file per board (data/geo/board/<number>.geojson) for the board pages, which used
+    to download every board's area (1.7 MB) to draw one. The Map page still uses boards.geojson."""
+    by_board = defaultdict(list)
+    for f in load(DATA / "geo" / "boards.geojson")["features"]:
+        by_board[f["properties"]["board"]].append(f)
+    out = DIST / "data" / "geo" / "board"
+    out.mkdir(parents=True, exist_ok=True)
+    for board, feats in by_board.items():
+        (out / f"{board}.geojson").write_text(json.dumps({"type": "FeatureCollection", "features": feats}, separators=(",", ":")), encoding="utf-8")
+    return len(by_board)
 
 
 def copy_static_and_data() -> None:
@@ -707,6 +730,7 @@ def main() -> int:
         site.fsa_page(f)
     site.index_pages()
     copy_static_and_data()
+    split_board_areas()
     if not version_scripts(DIST / "static" / "js", site.assets.js_v):
         raise SystemExit("version_scripts found no imports to version: check _IMPORT_RE against site/static/js")
     site.extras()

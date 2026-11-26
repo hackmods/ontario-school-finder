@@ -51,7 +51,10 @@ function renderCompare() {
     const onComparePage = document.body.classList.contains("page-compare");
     tray.hidden = list.length === 0 || onComparePage;
     document.body.classList.toggle("has-tray", !tray.hidden);
-    qs("[data-compare-label]", tray).textContent = list.length === 1 ? `1 school: ${list[0].name} · add another` : `${list.length} of 6 schools to compare`;
+    // phones get the short form: the long one was cut to "3 of 6 schools to comp…"
+    const narrow = matchMedia("(max-width: 480px)").matches;
+    qs("[data-compare-label]", tray).textContent =
+      list.length === 1 ? (narrow ? "1 school · add another" : `1 school: ${list[0].name} · add another`) : narrow ? `${list.length} of 6 schools` : `${list.length} of 6 schools to compare`;
     qs("[data-compare-link]", tray).href = `/compare/?ids=${list.map((x) => encodeURIComponent(x.id)).join(",")}`;
   }
 }

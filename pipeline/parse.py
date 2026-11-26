@@ -210,6 +210,25 @@ def clean_text(v) -> str | None:
     return s or None
 
 
+# A phrase ending in "School", said twice in a row: "Glenwood School School",
+# "B Davison Secondary School Secondary School", "Forest City Public School Public School".
+_REPEATED_SCHOOL = re.compile(r"\b((?:[\w'’.-]+ ){0,2}School) \1\b", re.IGNORECASE)
+
+
+def tidy_school_name(name: str | None) -> str | None:
+    """The Ministry's files add a type to some names and so repeat a phrase; show it once.
+
+    Different words are kept as they are: "Trenton High School Elementary School" is the elementary
+    part of a secondary school, with its own school number.
+    """
+    if not name:
+        return name
+    prev = None
+    while prev != name:
+        prev, name = name, _REPEATED_SCHOOL.sub(r"\1", name)
+    return name
+
+
 def clean_url(v) -> str | None:
     s = clean_text(v)
     if not s:
