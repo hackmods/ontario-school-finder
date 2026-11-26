@@ -1,9 +1,10 @@
 # Handoff: open items and lessons
 
-State at the end of 2026-11-26: PRs #1–#19 merged (Dependabot's #14 closed as superseded by #18),
+State at the end of 2026-11-26: PRs #1–#21 merged (Dependabot's #14 closed as superseded by #18),
 `main` deployed to https://ontarioschoolfinder.ca (CapRover app `ontario-schools`). The repo is
-**public** with no licence (all rights reserved). No open PRs or branches. There is no GitHub Actions
-CI: `./check.sh` on your own machine is the definition of done (it passed on 2026-11-26).
+**public** with no licence (all rights reserved). There is no GitHub Actions CI: `./check.sh` on
+your own machine is the definition of done (it passed on 2026-11-26). The browser suite also runs
+against production: `BASE_URL=https://ontarioschoolfinder.ca npx playwright test` (52 passed).
 
 ## Open items for the owner
 
@@ -38,7 +39,9 @@ CI: `./check.sh` on your own machine is the definition of done (it passed on 202
   - school descriptions over 160 characters, and long titles;
   - the Data page heading skipping a level;
   - phone polish: the breadcrumb wrapping, the compare search box and the compare tray text cut off,
-    and "elementary" in lowercase on Compare.
+    and "elementary" in lowercase on Compare;
+  - search ignoring letters typed before its script loaded (Compare, slow connections), found by
+    running the browser suite against production.
 
 ## Open engineering items
 
