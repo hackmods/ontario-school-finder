@@ -125,9 +125,17 @@ class Combobox {
     });
   }
 
+  // Tells the page what the box matched (the home map lights these up); null when the box is empty.
+  emit(name, detail) {
+    this.root.dispatchEvent(new CustomEvent(name, { bubbles: true, detail }));
+  }
+
   async update() {
     const q = this.input.value.trim();
-    if (!q) return this.close();
+    if (!q) {
+      this.emit("osf:results", null);
+      return this.close();
+    }
     let rows, boards;
     if (!this.loaded) {
       this.list.innerHTML = '<div class="empty" role="status">Loading the school list…</div>';
@@ -142,6 +150,7 @@ class Combobox {
     }
     if (this.input.value.trim() !== q) return;
     const res = searchAll(rows, this.mode === "compare" ? null : boards, q, { limit: 7 });
+    this.emit("osf:results", { q, kind: res.kind, fsa: res.fsa, schools: res.allSchools || res.schools });
     const items = [];
     let html = "";
     const add = (group, item) => {
@@ -170,15 +179,17 @@ class Combobox {
     this.items = items;
     this.active = -1;
     this.list.innerHTML = html;
-    this.list.querySelectorAll("a[role=option]").forEach((a) =>
+    this.list.querySelectorAll("a[role=option]").forEach((a) => {
       a.addEventListener("click", (e) => {
         const it = this.items[+a.dataset.i];
         if (this.mode === "compare") {
           e.preventDefault();
           this.choose(it);
         }
-      }),
-    );
+      });
+      a.addEventListener("mouseenter", () => this.emit("osf:active", { id: this.items[+a.dataset.i]?.id || null }));
+      a.addEventListener("mouseleave", () => this.emit("osf:active", { id: null }));
+    });
     this.open();
   }
 
@@ -216,6 +227,7 @@ class Combobox {
       o.scrollIntoView({ block: "nearest" });
       this.input.setAttribute("aria-activedescendant", o.id);
     }
+    this.emit("osf:active", { id: this.items[i]?.id || null });
   }
 
   open() {
@@ -224,6 +236,7 @@ class Combobox {
   }
 
   close() {
+    if (this.active >= 0) this.emit("osf:active", { id: null });
     this.list.hidden = true;
     this.active = -1;
     this.input.setAttribute("aria-expanded", "false");

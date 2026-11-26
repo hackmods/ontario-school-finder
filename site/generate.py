@@ -140,7 +140,8 @@ class Site:
         self.env.filters["month_year"] = lambda ym: datetime.strptime(ym, "%Y-%m").strftime("%B %Y") if ym else ""
         self.pages = 0
         svg, w, h = hero_svg(self.index)
-        self.hero = {"svg": svg, "w": w, "h": h}
+        # bounds and colours go to the page too, so home.js can light up search matches on the same picture
+        self.hero = {"svg": svg, "w": w, "h": h, "bounds": HERO_BOUNDS, "colors": HERO_COLORS}
         self.context_medians()
         self.official_by_board = self._official()
 
@@ -557,6 +558,10 @@ class Site:
         (DIST / "healthz").write_text("ok\n", encoding="utf-8")
 
 
+HERO_BOUNDS = (-83.3, -74.3, 41.9, 46.4)  # min lon, max lon, min lat, max lat: southern Ontario
+HERO_COLORS = {"english-public": "#1f8fb0", "english-catholic": "#9a5cc0", "french-public": "#d0682f", "french-catholic": "#4c9a44", "other": "#8a8f98"}
+
+
 def hero_svg(index: list[dict]) -> tuple[str, int, int]:
     """Dot map of every school in southern Ontario, drawn from the data.
 
@@ -565,11 +570,11 @@ def hero_svg(index: list[dict]) -> tuple[str, int, int]:
     read on both the light and the dark card; the legend lives in HTML so it follows the theme.
     """
     import math
-    minx, maxx, miny, maxy = -83.3, -74.3, 41.9, 46.4
+    minx, maxx, miny, maxy = HERO_BOUNDS
     kx = math.cos(math.radians((miny + maxy) / 2))  # equirectangular correction
     w = 440
     h = round(w * (maxy - miny) / ((maxx - minx) * kx))
-    colors = {"english-public": "#1f8fb0", "english-catholic": "#9a5cc0", "french-public": "#d0682f", "french-catholic": "#4c9a44", "other": "#8a8f98"}
+    colors = HERO_COLORS
     groups: dict[str, list[str]] = {}
     for r in index:
         if not (minx <= r["x"] <= maxx and miny <= r["y"] <= maxy):

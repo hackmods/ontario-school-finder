@@ -304,6 +304,49 @@ test.describe("pages", () => {
   });
 });
 
+test.describe("home map answers the search box", () => {
+  test("matches light up, the active suggestion pulses, and the card links to them", async ({ page }) => {
+    const w = watch(page);
+    await page.goto("/");
+    const hero = page.locator("[data-hero-map]");
+    await expect(hero).toHaveAttribute("href", "/map/");
+    await page.locator("#q").fill("Kingston");
+    await expect(page.locator("[data-hero-cap]")).toHaveText(/^\d+ schools match “Kingston”$/);
+    expect(await hero.locator(".hero-hits > circle").count()).toBeGreaterThan(10);
+    // zoomed onto the town, with the schools around it drawn at their usual size
+    await expect(hero).toHaveClass(/is-zoomed/);
+    await expect(hero.locator(".hero-hits .ctx circle").first()).toBeAttached();
+    await expect(hero).toHaveClass(/is-lit/);
+    await expect(hero).toHaveAttribute("href", "/search/?q=Kingston");
+    await page.locator("#q").press("ArrowDown");
+    await page.locator("#q").press("ArrowDown");
+    await expect(hero.locator(".hero-hits .ring")).toHaveCount(1);
+    await page.locator("#q").fill("K7L");
+    await expect(page.locator("[data-hero-cap]")).toHaveText(/schools? in postal area K7L/);
+    await expect(hero).toHaveAttribute("href", "/fsa/K7L/");
+    await page.locator("#q").fill("Thunder Bay");
+    await expect(page.locator("[data-hero-cap]")).toContainText("north of this map");
+    await page.locator("#q").fill("");
+    await expect(hero.locator(".hero-hits circle")).toHaveCount(0);
+    await expect(hero).toHaveAttribute("href", "/map/");
+    await expect(page.locator("[data-hero-cap]")).toHaveText(/Each dot is a publicly funded school/);
+    expect(w.errors).toEqual([]);
+  });
+
+  test("Use my location marks you and your nearest schools", async ({ page, context }) => {
+    await context.grantPermissions(["geolocation"]);
+    await context.setGeolocation({ latitude: 44.2312, longitude: -76.486 });
+    await page.goto("/");
+    await page.locator("[data-near-me]").click();
+    const hero = page.locator("[data-hero-map]");
+    await expect(hero.locator(".hero-hits .you")).toHaveCount(1);
+    await expect(hero.locator(".hero-hits > circle:not(.you)")).toHaveCount(12);
+    await expect(hero).toHaveClass(/is-zoomed/);
+    await expect(page.locator("[data-hero-cap]")).toHaveText("Your 12 nearest schools");
+    await expect(hero).toHaveAttribute("href", "#near");
+  });
+});
+
 test.describe("privacy and robustness", () => {
   test("no console errors and no third-party requests except map tiles", async ({ page }) => {
     const w = watch(page);
