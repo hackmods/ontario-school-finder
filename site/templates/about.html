@@ -20,6 +20,13 @@
 
 <h2 id="free">Why it’s free</h2>
 <p>It is built on open data that taxpayers already paid for, and it costs very little to run: there is no server-side database and no accounts. There are no ads and there never will be. The cleaned data is <a href="/data/">free to download</a> under the same open licences.</p>
+{% if support_url %}
+
+<h2 id="support">Support the site</h2>
+<p>The goal is a careful, high-quality site, not a business. There is nothing to buy, no premium version and no ads to switch off. If the site helped you and you’d like to chip in for hosting and the hours that go into it, you can buy me a coffee. It is entirely optional, and nothing on the site changes either way.</p>
+<p><a class="btn btn-sm" href="{{ support_url }}" target="_blank" rel="noopener">{{ icon("heart") }}Buy me a coffee</a></p>
+<p class="muted">Opens buymeacoffee.com in a new tab. It is a plain link: this site loads nothing from Buy Me a Coffee, and they see only what you choose to give them there.</p>
+{% endif %}
 
 <h2 id="privacy">Privacy</h2>
 <ul>
@@ -48,6 +55,7 @@
     <div class="doc-actions">
       <a class="btn btn-sm" href="/methodology/">{{ icon("info") }}How it works</a>
       <a class="btn btn-sm" href="/data/">{{ icon("download") }}Download the data</a>
+      {% if support_url %}<a class="btn btn-sm btn-ghost" href="#support">{{ icon("heart") }}Support the site</a>{% endif %}
       {% if contact_email %}<a class="btn btn-sm btn-ghost" href="mailto:{{ contact_email }}?subject=Ontario%20School%20Finder">{{ icon("mail") }}Email us</a>{% endif %}
     </div>
   </div>

@@ -100,7 +100,7 @@
       </div>
       <div>
         <h2>About</h2>
-        <ul><li><a href="/about/">About this site</a></li><li><a href="/about/#privacy">Privacy</a></li>{% if contact_email %}<li><a href="/about/#contact">Contact</a></li>{% endif %}<li><button class="theme-btn" type="button" data-theme-toggle>{{ icon("sun") }}<span>Theme: auto</span></button></li></ul>
+        <ul><li><a href="/about/">About this site</a></li><li><a href="/about/#privacy">Privacy</a></li>{% if contact_email %}<li><a href="/about/#contact">Contact</a></li>{% endif %}{% if support_url %}<li><a href="/about/#support">Support the site</a></li>{% endif %}<li><button class="theme-btn" type="button" data-theme-toggle>{{ icon("sun") }}<span>Theme: auto</span></button></li></ul>
       </div>
     </div>
     <div class="footer-legal">
