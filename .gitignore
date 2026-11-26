@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+pipeline/cache/
+site/data/
+site/dist/
+test-results/
+playwright-report/
+deploy.tar
+*.log
+.DS_Store
