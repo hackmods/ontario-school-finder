@@ -17,7 +17,7 @@
   </div>
   {% for g in groups %}
   <h2 id="region-{{ g.letter }}" style="margin-top:28px">{{ g.letter }} · {{ g.label }} <span class="muted small" style="font-weight:500">{{ g.entries|length }} areas</span></h2>
-  <div class="cols">{% for a in g.entries %}<a href="/fsa/{{ a.fsa }}/">{{ a.fsa }}{% if a.place %} · {{ a.place }}{% endif %} <span>{{ a.count }}</span></a>{% endfor %}</div>
+  <div class="cols cols-tight">{% for a in g.entries %}<a href="/fsa/{{ a.fsa }}/">{{ a.fsa }}{% if a.place %} · {{ a.place }}{% endif %} <span>{{ a.count }}</span></a>{% endfor %}</div>
   {% endfor %}
 </div></section>
 {% endblock %}

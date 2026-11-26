@@ -4,6 +4,8 @@ import { nearest, locate } from "./near.js";
 import { schoolRow } from "./results.js";
 
 const input = qs("#q");
+// the example placeholder doesn't fit a phone-width box; the "Or try" links below give the examples there
+if (input && matchMedia("(max-width: 480px)").matches) input.placeholder = "School, city or postal code";
 for (const b of qsa("[data-try]")) {
   b.addEventListener("click", () => {
     input.value = b.dataset.try;

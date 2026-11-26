@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {%- from "_icons.html" import icon, sysbadge -%}
+{%- from "_sources.html" import source_groups -%}
 {% block main %}
 <div class="page-head">
   <div class="wrap">
@@ -97,20 +98,28 @@
       </div>
       <label class="search-sm" style="flex:1 1 220px;max-width:320px"><span class="visually-hidden">Filter schools by name or city</span><input type="search" placeholder="Filter by name or city" data-filter-text style="width:100%"></label>
     </div>
-    <div class="card" style="padding:4px 16px">
-      <ul class="list" data-filter-list>
-      {% for s in schools %}
-        <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.level|capitalize }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ s.special }}{% endif %}</span></span><span class="side">{% if s.enrol is not none %}{{ "{:,}".format(s.enrol) }}<br><span class="small">students</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
+    {%- set az = schools|length > 30 and school_groups|length > 3 %}
+    {% if az %}<nav class="az" aria-label="Jump to schools starting with a letter" data-az-nav>{% for g in school_groups %}<a href="#az-{{ g.letter }}">{{ g.letter }}</a>{% endfor %}</nav>{% endif %}
+    <div class="card school-list{% if az %} is-az{% endif %}" data-filter-list>
+      {% for g in school_groups %}
+      <div class="az-group"{% if az %} id="az-{{ g.letter }}"{% endif %} data-az="{{ g.letter }}">
+        {% if az %}<h3 class="az-letter" aria-hidden="true">{{ g.letter }}</h3>{% endif %}
+        <ul class="list">
+        {% for s in g.schools %}
+          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.level|capitalize }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ s.special }}{% endif %}</span></span><span class="side">{% if s.enrol is not none %}{{ "{:,}".format(s.enrol) }}<br><span class="small">students</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
       {% endfor %}
-      </ul>
     </div>
+    <p class="muted" data-filter-empty hidden style="margin-top:12px">No schools match that filter.</p>
   </div>
 </section>
 
 <section class="block" id="sources">
   <div class="wrap">
     <h2>Sources</h2>
-    <ul class="src-list">{% for src in b.sources %}<li id="src-{{ src.source_id }}"><div class="t"><a href="{{ src.url }}" rel="noopener">{{ src.title }}</a></div><div class="m">{{ src.publisher }} · <a href="{{ src.licence_url }}" rel="noopener">{{ src.licence }}</a>{% if src.retrieved %} · retrieved {{ src.retrieved }}{% endif %}</div></li>{% endfor %}</ul>
+    {{ source_groups(b.sources) }}
   </div>
 </section>
 {% endblock %}

@@ -21,13 +21,26 @@ const list = qs("[data-filter-list]");
 if (list) {
   let level = "all";
   const text = qs("[data-filter-text]");
+  const items = qsa("li[data-level]", list);
+  const groups = qsa("[data-az]", list);
+  const empty = qs("[data-filter-empty]");
   const apply = () => {
     const q = norm(text?.value || "");
-    for (const li of list.children) {
+    for (const li of items) {
       const okL = level === "all" || li.dataset.level === level;
       const okT = !q || norm(li.dataset.text).includes(q);
       li.hidden = !(okL && okT);
     }
+    // hide empty letter groups and their jump links
+    let shown = 0;
+    for (const g of groups) {
+      const any = !!g.querySelector("li:not([hidden])");
+      g.hidden = !any;
+      shown += any ? 1 : 0;
+      const link = qs(`[data-az-nav] a[href="#az-${g.dataset.az}"]`);
+      if (link) link.hidden = !any;
+    }
+    if (empty) empty.hidden = shown > 0;
   };
   for (const b of qsa("[data-filter]")) {
     b.addEventListener("click", () => {
