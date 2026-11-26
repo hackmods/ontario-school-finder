@@ -762,3 +762,6 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 .levels .l1 { background: var(--accent); }
 .levels-text { margin: 0; font-size: .8rem; color: var(--ink-3); }
 .levels-text b { color: var(--ink-2); font-weight: 650; }
+
+/* official attendance areas (boards' own maps): solid orange, unlike the dashed nearest-school estimate */
+.legend .sw-official-on, .sw-official-on { border: 2px solid #c2410c; background: color-mix(in srgb, #c2410c 12%, transparent); }

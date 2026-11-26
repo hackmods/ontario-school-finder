@@ -22,6 +22,7 @@ class Report:
         self.relocated: list[dict] = []
         self.class_size: dict = {}
         self.programs: dict = {}
+        self.boundaries: dict = {}
         self.eqao_open: dict = {}
         self.elapsed = 0
 
@@ -107,6 +108,15 @@ class Report:
                   f"- Schools with class sizes: {cs['schools_with_class_sizes']}",
                   "- Unmatched school-years by year (closed or renamed schools, private/other boards): "
                   + ", ".join(f"{y}: {n}" for y, n in cs["unmatched_by_year"].items()), ""]
+        if self.boundaries:
+            L += ["## Official attendance boundaries (boards' public map layers)", "",
+                  "Areas are matched to schools by name within the board and level (or by the one school inside the area). "
+                  "Unmatched areas are left out: development, holding and dual-attendance areas that don't name one school.", ""]
+            for lid, r in self.boundaries.items():
+                L.append(f"- {lid} ({r['board']}, {r['level']}, edited {r['edited']}): {r['matched']} of {r['areas']} areas matched"
+                         + (f"; not matched: {', '.join(r['unmatched'][:10])}{'…' if len(r['unmatched']) > 10 else ''}" if r["unmatched"] else "")
+                         + (f"; name matched but too far from the school, left out: {len(r['far'])}" if r.get("far") else ""))
+            L += [""]
         if self.eqao_open:
             L += ["## EQAO open data (years not yet in the Ministry's school file)", ""]
             L += [f"- {sid}: {v['schools']} schools in EQAO's file, {v['matched']} matched to the school list" for sid, v in self.eqao_open.items()]

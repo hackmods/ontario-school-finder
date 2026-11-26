@@ -209,9 +209,9 @@ DATASETS: dict[str, dict] = {
         "title": "Board-published attendance boundaries",
         "publisher": "Individual school boards",
         "landing": "",
-        "licence": ("Per board; written permission recorded before use", ""),
-        "used_for": "Not used yet. Checked November 2026: no Ontario board publishes its attendance boundaries under an open licence. Several boards (Waterloo Region DSB, Hamilton-Wentworth DSB, Simcoe County DSB, Grand Erie DSB, Dufferin-Peel CDSB, Kawartha Pine Ridge DSB, Halton CDSB) post map layers without a licence, so they need the board's written permission first. Every school page links to its board's own school locator instead.",
-        "status": "phase2",
+        "licence": ("No licence stated: public map layers on each board's own map service. Shown while the site asks each board for permission; removed on request", ""),
+        "used_for": "Official attendance areas for seven boards that publish them as public map layers (Waterloo Region DSB, Hamilton-Wentworth DSB, Simcoe County DSB, Grand Erie DSB, Dufferin-Peel CDSB, Kawartha Pine Ridge DSB, Halton CDSB), labelled with the board and the layer's last-edit date. Not used: layers whose terms forbid reuse (Halton DSB's is staff-only; Lennox and Addington and Grey County forbid redistribution) and consultants' copies.",
+        "status": "used",
     },
 }
 
@@ -368,6 +368,8 @@ def all_resources() -> list[dict]:
     out.append({**FSL_ENROL_RESOURCE, "dataset": "fsl_enrol"})
     out.append({**EARLYON_RESOURCE, "dataset": "earlyon"})
     out.append({**NUTRITION_RESOURCE, "dataset": "nutrition"})
+    for r in BOUNDARY_LAYERS:
+        out.append({**r, "dataset": "attendance"})
     out.append({**FSA_RESOURCE, "dataset": "fsa_boundary"})
     out.append({**CENSUS_RESOURCE, "dataset": "census"})
     return out
@@ -468,3 +470,44 @@ EFIS_BOARDS = {
     "CSD catholique Franco-Nord": "B29114", "CSD cath. du Nouvel-Ontario": "B29122", "CSD cath. des Aurores boréales": "B29130",
     "CSC Providence": "B67300", "CSC MonAvenir": "B67318", "CSD cath. Centre-Est de l'Ont.": "B67334", "CSD cath. de l'Est ontarien": "B67326",
 }
+
+# Official attendance boundaries (brief #11): public ArcGIS layers on each board's own account.
+# No licence is stated on any of them; the owner publishes them while asking each board for
+# permission (docs/attendance-boundaries.md). To take a board down, delete its entries here.
+# where: ArcGIS SQL filter; name_field: the school name; dissolve: build areas by another field;
+# split: keep same-named areas apart by this field (Dufferin-Peel has two "St. Joseph CES");
+# Dufferin-Peel's Program field lists programs a school offers, not separate areas, so it isn't filtered;
+# skip: regex patterns for area names that aren't schools.
+BOUNDARY_LAYERS = [
+    dict(id="bdy-wrdsb-elem", board="B66176", level="elementary", label="Waterloo Region DSB, elementary", name_field="NAME",
+         url="https://services1.arcgis.com/xKY66Gy3crN5ZX2F/arcgis/rest/services/Boundaries_Elementary_2026/FeatureServer/0"),
+    dict(id="bdy-wrdsb-sec", board="B66176", level="secondary", label="Waterloo Region DSB, secondary", name_field="NAME",
+         url="https://services1.arcgis.com/xKY66Gy3crN5ZX2F/arcgis/rest/services/Boundaries_Secondary_2026/FeatureServer/0"),
+    dict(id="bdy-hwdsb-elem", board="B66141", level="elementary", label="Hamilton-Wentworth DSB, elementary", name_field="SchoolName",
+         url="https://services3.arcgis.com/xa1UBgwOXoenQ2Ob/arcgis/rest/services/2025_2026_School_Locations_and_Boundaries_WFL1/FeatureServer/0"),
+    dict(id="bdy-hwdsb-sec", board="B66141", level="secondary", label="Hamilton-Wentworth DSB, secondary", name_field="SchoolName",
+         url="https://services3.arcgis.com/xa1UBgwOXoenQ2Ob/arcgis/rest/services/2025_HWDSB_Secondary_Boundaries/FeatureServer/0"),
+    dict(id="bdy-scdsb-elem", board="B66109", level="elementary", label="Simcoe County DSB, elementary", name_field="SCHOOL_NAM",
+         url="https://services.arcgis.com/gV678DkT4msvdr0P/arcgis/rest/services/2025_2026_Elementary_Attendance_Areas/FeatureServer/0"),
+    dict(id="bdy-scdsb-sec", board="B66109", level="secondary", label="Simcoe County DSB, secondary", name_field="SCHOOL_NAM",
+         url="https://services.arcgis.com/gV678DkT4msvdr0P/arcgis/rest/services/2025_2026_Secondary_Attendance_Areas/FeatureServer/0"),
+    dict(id="bdy-gedsb-elem", board="B66168", level="elementary", label="Grand Erie DSB, elementary", name_field="NAME",
+         url="https://services8.arcgis.com/XcIMWbWgADdwHqBM/arcgis/rest/services/Elementary_Boundaries_2025_/FeatureServer/0"),
+    dict(id="bdy-gedsb-sec", board="B66168", level="secondary", label="Grand Erie DSB, secondary", name_field="NAME",
+         url="https://services8.arcgis.com/XcIMWbWgADdwHqBM/arcgis/rest/services/SecondaryBoundaries2025_26/FeatureServer/0"),
+    dict(id="bdy-dpcdsb-elem", board="B67083", level="elementary", label="Dufferin-Peel CDSB, elementary", name_field="School_Nam",
+         where="Panel='Elementary'", split="Code",
+         url="https://services5.arcgis.com/OTdNpvC9YulsqUyQ/arcgis/rest/services/School_Locator_Boundaries_2023_2024_NEW/FeatureServer/0"),
+    dict(id="bdy-dpcdsb-sec", board="B67083", level="secondary", label="Dufferin-Peel CDSB, secondary", name_field="School_Nam",
+         where="Panel='Secondary'", split="Code",
+         url="https://services5.arcgis.com/OTdNpvC9YulsqUyQ/arcgis/rest/services/School_Locator_Boundaries_2023_2024_NEW/FeatureServer/0"),
+    dict(id="bdy-kprdsb-elem", board="B66079", level="elementary", label="Kawartha Pine Ridge DSB, elementary", name_field="Name",
+         skip=[r"^KPRDSB Area"],
+         url="https://services5.arcgis.com/zWVGGWdq5YnrBtnA/arcgis/rest/services/School_Boundary_July_22/FeatureServer/0"),
+    dict(id="bdy-kprdsb-sec", board="B66079", level="secondary", label="Kawartha Pine Ridge DSB, secondary", name_field="Name", dissolve="Highschool",
+         skip=[r"^KPRDSB Area"],
+         url="https://services5.arcgis.com/zWVGGWdq5YnrBtnA/arcgis/rest/services/School_Boundary_July_22/FeatureServer/0"),
+    dict(id="bdy-hcdsb-elem", board="B67113", level="elementary", label="Halton CDSB, elementary (2025-2026)", name_field="SCH_NAM",
+         where="YEAR='2025-2026'",
+         url="https://services1.arcgis.com/Z2ZyXpStrYRDJ1cf/arcgis/rest/services/Elementary_Regular_Track_Boundary/FeatureServer/0"),
+]

@@ -16,7 +16,7 @@ import time
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
-from . import config, fetch, geo, loaders, parse, report, sources
+from . import boundaries, config, fetch, geo, loaders, parse, report, sources
 from .fetch import SourceUnavailable
 
 LEVELS = {"Elementary": "elementary", "Secondary": "secondary"}
@@ -561,6 +561,16 @@ def build(clean: bool = False) -> dict:
     for s in schools:
         s["nearest_area"] = layers["cells"].get(s["bsid"])
 
+    # ---------------- official attendance boundaries (boards' public map layers) ----------------
+    log("official attendance boundaries")
+    official = boundaries.build(schools, {s["board_number"]: s["board_name"] for s in schools}, log=log)
+    for s in schools:
+        o = official["by_school"].get(s["bsid"])
+        s["official_area"] = {"geometry": o["geometry"], "edited": o["edited"], "source_id": o["layer"]} if o else None
+    for lvl, feats in official["layers"].items():
+        geo.write_geojson(geo_dir / f"official-{lvl}.geojson", feats)
+    rep.boundaries = official["report"]
+
     # ---------------- links + sources per school ----------------
     manifest = {res["id"]: fetch.manifest_entry(res["id"]) for res in sources.all_resources()}
     src_table = build_sources_table(manifest)
@@ -575,6 +585,8 @@ def build(clean: bool = False) -> dict:
         used |= {e["source_id"] for e in s["eqao"]} | {e["source_id"] for e in s["enrolment"]}
         used |= {e["source_id"] for e in s["grade_enrolment"]} | {e["source_id"] for e in s["class_size"]}
         used |= {p["source_id"] for p in s["programs"].values() if p}
+        if s["official_area"]:
+            used.add(s["official_area"]["source_id"])
         if s["earlyon_in_fsa"]:
             used.add(sources.EARLYON_RESOURCE["id"])
         used.discard("geocoder")
@@ -755,7 +767,7 @@ def build_sources_table(manifest: dict) -> dict:
         url = (m.get("url") or res["url"]) if res["dataset"] == "fsa_boundary" else res["url"]
         table[res["id"]] = {
             "source_id": res["id"], "dataset": res["dataset"], "brief_no": ds["brief_no"],
-            "title": ds["title"] + (f" ({res.get('label') or res['year']})" if res.get("year") else ""),
+            "title": ds["title"] + (f" ({res.get('label') or res['year']})" if (res.get("label") or res.get("year")) else ""),
             "publisher": ds["publisher"], "url": url, "landing": ds["landing"],
             "licence": ds["licence"][0], "licence_url": ds["licence"][1], "retrieved": retrieved,
             "year": res.get("year"), "note": res.get("note", "") + (f" {m['note']}" if m.get("note") else ""),
@@ -824,6 +836,9 @@ def write_outputs(schools, boards, fsas, src_table, census, rep, eqao_years, pro
         "eqao_years": list(reversed(eqao_years)),
         "latest_eqao_year": eqao_years[0],
         "latest_sif": sources.SIF_RESOURCES[0]["id"],
+        # boards whose official attendance areas are on the site (map legend, How it works)
+        "official_boundaries": [{"board": r["board"], "level": r["level"], "edited": r["edited"], "areas": r["matched"], "source_id": lid}
+                                for lid, r in rep.boundaries.items() if r["matched"]],
         "assessments": loaders.ASSESSMENTS,
         "context_fields": [{"key": k, "label": lab, "definition": d} for k, lab, _c, d in loaders.SIF_CONTEXT_COLS],
         "census_fields": [{"key": k, "label": lab, "unit": u} for k, _c, _s, lab, u in sources.CENSUS_FIELDS],

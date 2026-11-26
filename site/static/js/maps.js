@@ -12,7 +12,7 @@ export const SYSTEM_COLORS = {
   light: { "english-public": "#0b6e8a", "english-catholic": "#7a3d9b", "french-public": "#b04a17", "french-catholic": "#2f6f2a", other: "#5b6068" },
   dark: { "english-public": "#4fb6d6", "english-catholic": "#c193e0", "french-public": "#f08a5a", "french-catholic": "#7fc477", other: "#a1a7af" },
 };
-export const LAYER_COLORS = { fsa: "#1f6feb", board: "#b0640a", nearest: "#6b4fbb", school: "#0b5d4f", schoolDark: "#56c9ad" };
+export const LAYER_COLORS = { fsa: "#1f6feb", board: "#b0640a", nearest: "#6b4fbb", official: "#c2410c", school: "#0b5d4f", schoolDark: "#56c9ad" };
 
 let libPromise;
 export function loadMapLib() {

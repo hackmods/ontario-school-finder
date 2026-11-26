@@ -238,14 +238,39 @@ test.describe("pages", () => {
     await expect(shown).toHaveClass(/v-narrow/);
   });
 
-  // The brief's label is "Official boundary from <board>, <date>"; until a board publishes its areas the
-  // layer is a disabled placeholder, so it reads "from the board" instead of showing the literal brackets.
+  // The map layer covers several boards, so it reads "from the board"; each school page names its board and date.
   test("map legend shows every layer label", async ({ page }) => {
     await page.goto("/map/");
     const legend = page.locator("[data-legend]");
     for (const label of ["Postal code area (first 3 characters)", "Approximate school board area", "Nearest school, NOT the official boundary", "Official boundary from the board"]) {
       await expect(legend).toContainText(label);
     }
+  });
+
+  test("official boundaries: school page names the board and date, map layer loads", async ({ page }) => {
+    const w = watch(page);
+    const meta = await (await page.request.get("/data/meta.json")).json();
+    const covered = meta.official_boundaries.find((b) => b.board === "Waterloo Region DSB" && b.level === "elementary");
+    expect(covered).toBeTruthy();
+    const fc = await (await page.request.get("/data/geo/official-elementary.geojson")).json();
+    const id = fc.features.find((f) => f.properties.b === "B66176").properties.id;
+    await page.goto(`/school/${id}/`);
+    await expect(page.locator(".sw-official-on").first()).toBeVisible();
+    await expect(page.locator(".sw-official-on").first().locator("xpath=..")).toHaveText(/^Official boundary from Waterloo Region DSB, [A-Z][a-z]+ \d{4}$/);
+    await page.goto("/map/");
+    await waitForMap(page);
+    const radio = page.locator('input[name="area"][value="official"]');
+    await expect(radio).toBeEnabled();
+    await Promise.all([page.waitForResponse((r) => r.url().includes("/data/geo/official-elementary")), radio.check()]);
+    await expect(page.locator("#area-system")).toBeHidden();
+    await expect(page.locator("#area-level")).toBeVisible();
+    expect(w.errors).toEqual([]);
+  });
+
+  test("school outside the covered boards keeps the nearest-school estimate", async ({ page }) => {
+    await page.goto(`/school/${SCHOOL}/`);
+    await expect(page.locator(".sw-official-on")).toHaveCount(0);
+    await expect(page.getByText("Nearest school, NOT the official boundary").first()).toBeVisible();
   });
 
   test("map layers load on demand", async ({ page }) => {
