@@ -116,6 +116,50 @@ test.describe("pages", () => {
     await expect(page.locator("#indicators table")).toBeVisible();
   });
 
+  test("board school list: A-Z letters, filter hides empty letters and says when nothing matches", async ({ page }) => {
+    await page.goto("/board/B66052/"); // Toronto DSB, hundreds of schools
+    const letters = page.locator("[data-az-nav] a:visible");
+    const before = await letters.count();
+    expect(before).toBeGreaterThan(15);
+    await page.locator("[data-filter-text]").fill("collegiate");
+    expect(await letters.count()).toBeLessThan(before);
+    await expect(page.locator("[data-filter-list] li:visible").first()).toContainText(/Collegiate/i);
+    await page.locator("[data-filter-text]").fill("zzzz no such school");
+    await expect(page.locator("[data-filter-empty]")).toBeVisible();
+    // "École ..." sorts with the E schools, not after Z
+    const groups = await page.locator("[data-az]").evaluateAll((els) => els.map((e) => e.dataset.az));
+    expect(groups.every((g) => /^[A-Z#]$/.test(g))).toBe(true);
+  });
+
+  test("when location is unavailable the message offers a postal code instead", async ({ browser }) => {
+    // no geolocation permission granted: the browser answers "denied" without asking, like a phone with location off
+    const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+    const page = await ctx.newPage();
+    for (const [url, box] of [["/", "q"], ["/search/", "sq"]]) {
+      await page.goto(url);
+      await page.locator("[data-near-me]").click();
+      await expect(page.locator("[data-near-status]")).toContainText("didn’t share a location");
+      await page.locator("[data-postal-fallback]").click();
+      expect(await page.evaluate(() => document.activeElement?.id)).toBe(box);
+      await expect(page.locator(`#${box}`)).toHaveAttribute("placeholder", /Postal code/);
+    }
+    await ctx.close();
+  });
+
+  test("compare charts are drawn at phone width with readable labels", async ({ browser }) => {
+    const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });
+    const page = await ctx.newPage();
+    const ids = await pickSchools(page, 3);
+    await page.goto(`/compare/?ids=${ids.join(",")}`);
+    const svg = page.locator("#cmp-eqao .chart svg").first();
+    await svg.waitFor();
+    // the drawing is 1:1 with the screen, so 12px labels stay 12px
+    const ratio = await svg.evaluate((s) => s.getBoundingClientRect().width / s.viewBox.baseVal.width);
+    expect(ratio).toBeGreaterThan(0.95);
+    expect(ratio).toBeLessThan(1.05);
+    await ctx.close();
+  });
+
   for (const n of [2, 3, 6]) {
     test(`compare works with ${n} schools`, async ({ page }) => {
       const ids = await pickSchools(page, n);

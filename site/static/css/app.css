@@ -152,6 +152,8 @@ h1 { font-size: clamp(1.9rem, 1.2rem + 3vw, 3.1rem); letter-spacing: -0.032em; }
 h2 { font-size: clamp(1.35rem, 1.1rem + 1vw, 1.75rem); }
 h3 { font-size: 1.1rem; letter-spacing: -0.012em; }
 p { margin: 0 0 1em; }
+p, li, dd { overflow-wrap: break-word; }
+.prose p, .prose li, .note p { overflow-wrap: anywhere; } /* long URLs in pipeline notes (break-word still overflowed inside the flex .note) */
 small, .small { font-size: .875rem; }
 .muted { color: var(--ink-3); }
 .num, .tnum { font-variant-numeric: tabular-nums; }
@@ -664,10 +666,15 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 .school-list .az-group:last-child .list > li:last-child { border-bottom: 0; }
 
 /* postal areas: codes are short, so two columns fit even on a phone */
-.cols-tight { columns: 4 160px; column-gap: 20px; }
+.cols-tight { columns: 4 150px; column-gap: 16px; }
 .cols-tight a { font-size: .92rem; }
 @media (max-width: 640px) {
   .school-list .row-link { min-height: 52px; padding: 8px 2px; gap: 10px; }
   .school-list .row-link .s { font-size: .82rem; }
 }
 @media (pointer: coarse) { .src-set .yrs a { min-height: 44px; padding: 0 11px; } }
+@media print {
+  .fade-l, .fade-r { -webkit-mask-image: none !important; mask-image: none !important; }
+  .az { display: none !important; }
+  .school-list.is-az { columns: 2; }
+}

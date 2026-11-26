@@ -10,6 +10,8 @@ const input = qs("#sq");
 const params = new URLSearchParams(location.search);
 const q = (params.get("q") || "").trim();
 if (input) input.value = q;
+// the full placeholder is cut off in a phone-width box; the hint below the box spells out every option
+if (input && matchMedia("(max-width: 480px)").matches) input.placeholder = "School, city, postal code…";
 
 const GEOCODER = "https://www.geolocator.api.geo.ca/geolocation/en/locate";
 let lastGeocode = 0;

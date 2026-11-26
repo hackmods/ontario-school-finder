@@ -98,6 +98,7 @@ const sub = qsa(".subnav a");
 if (sub.length && "IntersectionObserver" in window) {
   const map = new Map(sub.map((a) => [a.getAttribute("href").slice(1), a]));
   const strip = qs(".subnav .wrap");
+  const calm = matchMedia("(prefers-reduced-motion: reduce)");
   const io = new IntersectionObserver(
     (entries) => {
       for (const en of entries) {
@@ -107,7 +108,7 @@ if (sub.length && "IntersectionObserver" in window) {
           if (!a) continue;
           a.classList.add("active");
           // keep the current section visible in the strip on phones
-          if (strip && strip.scrollWidth > strip.clientWidth) strip.scrollTo({ left: a.offsetLeft - (strip.clientWidth - a.offsetWidth) / 2, behavior: "smooth" });
+          if (strip && strip.scrollWidth > strip.clientWidth) strip.scrollTo({ left: a.offsetLeft - (strip.clientWidth - a.offsetWidth) / 2, behavior: calm.matches ? "auto" : "smooth" });
         }
       }
     },
@@ -119,3 +120,15 @@ if (sub.length && "IntersectionObserver" in window) {
   });
 }
 
+
+// ---- print: show every "Show the numbers" table, then put them back --------
+// Phones fold the year tables; a printed page should carry the numbers whatever the screen was.
+let printOpened = [];
+window.addEventListener("beforeprint", () => {
+  printOpened = qsa("details.data-table:not([open])");
+  printOpened.forEach((d) => (d.open = true));
+});
+window.addEventListener("afterprint", () => {
+  printOpened.forEach((d) => (d.open = false));
+  printOpened = [];
+});

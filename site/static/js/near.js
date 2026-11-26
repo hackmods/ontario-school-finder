@@ -25,11 +25,12 @@ function showFailure(statusEl, key) {
   const [head, help] = FAIL[key] || FAIL[2];
   statusEl.innerHTML = `<strong>${head}</strong> ${help} <button type="button" class="link-btn" data-postal-fallback>Type a postal code instead</button>`;
   statusEl.querySelector("[data-postal-fallback]").addEventListener("click", () => {
-    const input = document.querySelector("#q, #sq, #hq");
+    // the page's own search box first; the header one is hidden on phones
+    const input = ["#q", "#sq", "#hq"].map((s) => document.querySelector(s)).find((el) => el && el.getClientRects().length);
     if (!input) return;
     input.placeholder = "Postal code, like K7L 3N6";
-    input.focus();
-    input.scrollIntoView({ block: "center", behavior: "smooth" });
+    input.focus({ preventScroll: true });
+    input.scrollIntoView({ block: "center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
   });
 }
 

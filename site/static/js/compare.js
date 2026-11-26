@@ -281,7 +281,7 @@ function sourcesList(schools) {
         return `<li><a class="t" href="${esc(src.url)}" rel="noopener">${esc(src.title)}</a><span class="m">${one ? "" : `<a href="${esc(src.licence_url)}" rel="noopener">${esc(src.licence)}</a> · `}${src.retrieved ? `retrieved ${esc(src.retrieved)} · ` : ""}<span class="tnum">${esc(src.source_id)}</span></span></li>`;
       }
       const yrs = items.map((src) => `<a href="${esc(src.url)}" rel="noopener" title="${esc(src.title)} · ${esc(src.source_id)}">${esc(src.label)}</a>`).join("");
-      return `<li class="src-set"><span class="t">${esc(stem)}</span><span class="yrs">${yrs}</span><span class="m">${items.length} files, one per school year</span></li>`;
+      return `<li class="src-set"><span class="t">${esc(stem)}</span><span class="yrs">${yrs}</span><span class="m">${items.length} files</span></li>`;
     }).join("");
     return `<div class="src-group"><h3 class="src-pub">${head}</h3><ul class="src-list">${lis}</ul></div>`;
   });

@@ -11,7 +11,7 @@
       {%- if set["items"]|length == 1 %}{% set src = set["items"][0] %}
       <li id="src-{{ src.source_id }}"><a class="t" href="{{ src.url }}" rel="noopener" data-source-link>{{ src.title }}</a><span class="m">{% if not g.licence %}<a href="{{ src.licence_url }}" rel="noopener">{{ src.licence }}</a> · {% endif %}{% if src.retrieved %}retrieved {{ src.retrieved }} · {% endif %}<span class="tnum">{{ src.source_id }}</span></span></li>
       {%- else %}
-      <li class="src-set"><span class="t">{{ set.stem }}</span><span class="yrs">{% for src in set["items"] %}<a id="src-{{ src.source_id }}" href="{{ src.url }}" rel="noopener" data-source-link title="{{ src.title }} · {{ src.source_id }}">{{ src.label }}</a>{% endfor %}</span><span class="m">{{ set["items"]|length }} files, one per school year{% if set.retrieved %} · retrieved {{ set.retrieved }}{% endif %}</span></li>
+      <li class="src-set"><span class="t">{{ set.stem }}</span><span class="yrs">{% for src in set["items"] %}<a id="src-{{ src.source_id }}" href="{{ src.url }}" rel="noopener" data-source-link title="{{ src.title }} · {{ src.source_id }}">{{ src.label }}</a>{% endfor %}</span><span class="m">{{ set["items"]|length }} files{% if set.retrieved %} · retrieved {{ set.retrieved }}{% endif %}</span></li>
       {%- endif %}
     {%- endfor %}
     </ul>
