@@ -16,7 +16,7 @@ import time
 from collections import Counter, defaultdict
 from datetime import datetime, timezone
 
-from . import boundaries, config, fetch, geo, loaders, parse, report, sources
+from . import boundaries, config, eras, fetch, geo, loaders, parse, report, sources
 from .fetch import SourceUnavailable
 
 LEVELS = {"Elementary": "elementary", "Secondary": "secondary"}
@@ -180,6 +180,12 @@ def build(clean: bool = False) -> dict:
         eqao_open[res["id"]] = loaders.load_eqao_open(res)
         rep.count(res["id"], eqao_open[res["id"]]["stats"]["schools"], "schools in EQAO's file")
         rep.suppressed[res["id"]] = {k: v for k, v in eqao_open[res["id"]]["stats"].items() if k.startswith("code_")}
+    eqao_sq = {}
+    for res in sources.EQAO_SQ_RESOURCES:
+        log(f"loading {res['id']} (EQAO student questionnaire)")
+        eqao_sq[res["id"]] = loaders.load_eqao_sq(res)
+        rep.count(res["id"], eqao_sq[res["id"]]["stats"]["schools"], "schools in EQAO's questionnaire file")
+        rep.suppressed[res["id"]] = {k: v for k, v in eqao_sq[res["id"]]["stats"].items() if k.startswith("code_")}
     log("loading board context (suspensions, expulsions, spending, French enrolment)")
     susp = loaders.load_board_rates(sources.SUSPENSION_RESOURCE, what="suspension")
     expul = loaders.load_board_rates(sources.EXPULSION_RESOURCE, what="expulsion")
@@ -349,7 +355,19 @@ def build(clean: bool = False) -> dict:
     if config.OUT.exists():
         shutil.rmtree(config.OUT)
     geo_dir.mkdir(parents=True, exist_ok=True)
-    layer_input = [s for s in schools if s["system"] != "other" and s["regular"]]
+    # A nearest-school area only makes sense for a school families attend by neighbourhood. Leave out
+    # special-purpose schools (s["regular"]) and English-language elementary schools the Ministry lists as
+    # offering French Immersion but neither Core nor Extended French: Core French is required in Grades 4-8
+    # of the regular English program, so such a school is almost certainly an Immersion centre families
+    # choose for the program. Its page says why no area is drawn; nothing is inferred about eligibility.
+    for s in schools:
+        f = fsl["rows"].get(s["bsid"])
+        s["immersion_only"] = bool(f and f.get("immersion") and not f.get("core") and not f.get("extended")
+                                   and s["level"] == "elementary" and s["language"] == "English")
+        s["proximity_area"] = "drawn" if (s["system"] != "other" and s["regular"] and not s["immersion_only"]) else (
+            "immersion_only" if s["immersion_only"] else "not_regular" if not s["regular"] else "other_system")
+    layer_input = [s for s in schools if s["proximity_area"] == "drawn"]
+    rep.proximity = Counter(s["proximity_area"] for s in schools)
     layers = geo.build_layers(layer_input, fsa_gdf, geo_dir, log=log)
     rep.layers = layers["stats"]
     all_proj = geo.to_projected(geo.points_gdf(schools))
@@ -408,7 +426,7 @@ def build(clean: bool = False) -> dict:
                     "pct_at_or_above_standard": rec["v"],
                     "board_median": bm[0] if bm else None, "board_n": bm[1] if bm else None,
                     "province_median": pm[0] if pm else None, "province_n": pm[1] if pm else None,
-                    **parse.flags(rec["code"]), "source_id": res["id"],
+                    **parse.flags(rec["code"]), "source_id": res["id"], "era": eras.era_of(aid, res["year"]),
                     # the extra detail EQAO publishes: share at levels 4, 3, 2, 1 and how many took part
                     "levels": rec["levels"], "participation": rec["participation"],
                 })
@@ -427,7 +445,7 @@ def build(clean: bool = False) -> dict:
                     "pct_at_or_above_standard": v,
                     "board_median": bm[0] if bm else None, "board_n": bm[1] if bm else None,
                     "province_median": pm[0] if pm else None, "province_n": pm[1] if pm else None,
-                    **parse.flags(code), "source_id": res["id"],
+                    **parse.flags(code), "source_id": res["id"], "era": eras.era_of(aid, res["eqao_year"]),
                 })
         s["eqao"] = series
 
@@ -513,6 +531,8 @@ def build(clean: bool = False) -> dict:
                 name_index[school_key(r["School Name"])].add(bsid)
                 name_index[school_key(parse.tidy_school_name(r["School Name"]))].add(bsid)  # "Glenwood School School" as "Glenwood School"
     cs_by_school = defaultdict(list)
+    cs_ambiguous = defaultdict(set)  # bsid -> other schools in its board that the class list can't tell apart from it
+    cs_ambiguous_years = defaultdict(set)
     matched, unmatched, ambiguous = 0, Counter(), 0
     for res in sources.CLASS_SIZE_RESOURCES:
         for (year, board, school), a in csize[res["id"]]["rows"].items():
@@ -522,6 +542,9 @@ def build(clean: bool = False) -> dict:
             if len(hits) != 1:
                 if len(hits) > 1:
                     ambiguous += 1
+                    for b in hits:
+                        cs_ambiguous[b] |= set(hits) - {b}
+                        cs_ambiguous_years[b].add(year)
                 else:
                     unmatched[year] += 1
                 continue
@@ -536,8 +559,24 @@ def build(clean: bool = False) -> dict:
                 seen.add(r["year"])
                 keep.append(r)
         s["class_size"] = keep
+        # why a page has (or hasn't) class sizes, in words a parent can act on
+        if s["level"] != "elementary":
+            st = {"status": "not_applicable"}
+        elif s["bsid"] in cs_ambiguous and not keep:
+            st = {"status": "match_unresolved", "others": sorted(cs_ambiguous[s["bsid"]]),
+                  "years": sorted(cs_ambiguous_years[s["bsid"]])}
+        elif keep:
+            st = {"status": "reported"}
+            if s["bsid"] in cs_ambiguous:  # matched in some years, but a same-named school blocks others
+                st["unresolved_years"] = sorted(cs_ambiguous_years[s["bsid"]] - {r["year"] for r in keep})
+        else:
+            st = {"status": "not_listed"}
+        s["class_size_status"] = st
     rep.class_size = {"matched": matched, "ambiguous": ambiguous, "unmatched_by_year": dict(sorted(unmatched.items())),
-                      "schools_with_class_sizes": sum(1 for s in schools if s["class_size"])}
+                      "schools_with_class_sizes": sum(1 for s in schools if s["class_size"]),
+                      "by_status": dict(Counter(s["class_size_status"]["status"] for s in schools)),
+                      "unresolved": sorted(({"bsid": s["bsid"], "name": s["name"], "board": s["board_name"], "others": s["class_size_status"]["others"]}
+                                            for s in schools if s["class_size_status"]["status"] == "match_unresolved"), key=lambda x: (x["board"], x["name"]))}
 
     # class size medians (board and province) per year, for comparison lines
     cs_board, cs_prov = defaultdict(list), defaultdict(list)
@@ -562,12 +601,40 @@ def build(clean: bool = False) -> dict:
     for s in schools:
         s["nearest_area"] = layers["cells"].get(s["bsid"])
 
+    # ---------------- EQAO student questionnaire (school, its whole board, Ontario: kept apart) ----------------
+    sq_report = {}
+    for res in sources.EQAO_SQ_RESOURCES:
+        d = eqao_sq[res["id"]]
+        sq_report[res["id"]] = {"schools": len(d["schools"]), "matched": sum(1 for b in d["schools"] if b in by_id),
+                                "withheld": sum(1 for b, o in d["schools"].items() if b in by_id and o["withheld"])}
+    for s in schools:
+        blocks = []
+        for res in sources.EQAO_SQ_RESOURCES:
+            d = eqao_sq[res["id"]]
+            org = d["schools"].get(s["bsid"])
+            if not org:
+                continue
+            board = d["boards"].get(s["board_number"])
+            prov = d["province"].get(s["language"])
+            items = []
+            for key, q in d["questions"].items():
+                mine = org["items"].get(key, {"code": "N/D", **parse.flags("N/D")})
+                items.append({"key": key, **mine,
+                              "board_pct": (board or {}).get("items", {}).get(key, {}).get("agree_pct"),
+                              "province_pct": (prov or {}).get("items", {}).get(key, {}).get("agree_pct")})
+            blocks.append({"assessment": res["kind"], "grade": res["grade"], "year": res["year"], "source_id": res["id"],
+                           "withheld": org["withheld"], "respondents": org["respondents"], "items": items})
+        s["student_experience"] = blocks
+    rep.eqao_sq = sq_report
+
     # ---------------- official attendance boundaries (boards' public map layers) ----------------
     log("official attendance boundaries")
     official = boundaries.build(schools, {s["board_number"]: s["board_name"] for s in schools}, log=log)
     for s in schools:
         o = official["by_school"].get(s["bsid"])
-        s["official_area"] = {"geometry": o["geometry"], "edited": o["edited"], "source_id": o["layer"]} if o else None
+        lay = next((x for x in sources.BOUNDARY_LAYERS if o and x["id"] == o["layer"]), {})
+        s["official_area"] = {"geometry": o["geometry"], "edited": o["edited"], "source_id": o["layer"],
+                              "effective": lay.get("effective"), "effective_note": lay.get("effective_note")} if o else None
     for lvl, feats in official["layers"].items():
         geo.write_geojson(geo_dir / f"official-{lvl}.geojson", feats)
     rep.boundaries = official["report"]
@@ -586,6 +653,7 @@ def build(clean: bool = False) -> dict:
         used |= {e["source_id"] for e in s["eqao"]} | {e["source_id"] for e in s["enrolment"]}
         used |= {e["source_id"] for e in s["grade_enrolment"]} | {e["source_id"] for e in s["class_size"]}
         used |= {p["source_id"] for p in s["programs"].values() if p}
+        used |= {b["source_id"] for b in s["student_experience"]}
         if s["official_area"]:
             used.add(s["official_area"]["source_id"])
         if s["earlyon_in_fsa"]:
@@ -655,7 +723,7 @@ def build(clean: bool = False) -> dict:
                     pm = prov_median.get((aid, year, b["language"]))
                     b["eqao_medians"].append({"assessment": aid, "year": year, "board_median": bm[0], "board_n": bm[1],
                                               "province_median": pm[0] if pm else None, "province_n": pm[1] if pm else None,
-                                              "source_id": src_of(aid)})
+                                              "source_id": src_of(aid), "era": eras.era_of(aid, year)})
         b["area"] = rep.layers["boards"].get(bn)
         b["levels"] = dict(b["levels"])
         b["systems"] = dict(b["systems"])
@@ -708,7 +776,11 @@ def build(clean: bool = False) -> dict:
 
     # ---------------- write outputs ----------------
     log("writing site/data")
-    write_outputs(schools, boards, fsas, src_table, census, rep, [y for y, _ in eqao_years_all], prov_median)
+    sq_meta = {}
+    for res in sources.EQAO_SQ_RESOURCES:
+        sq_meta[res["id"]] = {"kind": res["kind"], "grade": res["grade"], "year": res["year"],
+                              "questions": list(eqao_sq[res["id"]]["questions"].values())}
+    write_outputs(schools, boards, fsas, src_table, census, rep, [y for y, _ in eqao_years_all], prov_median, sq_meta)
     rep.elapsed = round(time.time() - t0)
     rep.write(config.REPORT, schools=schools, boards=boards, fsas=fsas, sources_table=src_table)
     log(f"done in {rep.elapsed}s: {len(schools)} schools, {len(boards)} boards, {len(fsas)} FSAs")
@@ -770,14 +842,16 @@ def build_sources_table(manifest: dict) -> dict:
             "source_id": res["id"], "dataset": res["dataset"], "brief_no": ds["brief_no"],
             "title": ds["title"] + (f" ({res.get('label') or res['year']})" if (res.get("label") or res.get("year")) else ""),
             "publisher": ds["publisher"], "url": url, "landing": ds["landing"],
-            "licence": ds["licence"][0], "licence_url": ds["licence"][1], "retrieved": retrieved,
-            "year": res.get("year"), "note": res.get("note", "") + (f" {m['note']}" if m.get("note") else ""),
+            "licence": ds["licence"][0], "licence_url": ds["licence"][1], "licence_status": ds["licence_status"], "retrieved": retrieved,
+            # "year" is the period the file describes (reference period); "retrieved" is only when we downloaded it
+            "year": res.get("year"), "release": res.get("release"), "historical": bool(ds.get("historical")),
+            "note": res.get("note", "") + (f" {m['note']}" if m.get("note") else ""),
             "downloaded": bool(m),
         }
     return table
 
 
-def write_outputs(schools, boards, fsas, src_table, census, rep, eqao_years, prov_median) -> None:
+def write_outputs(schools, boards, fsas, src_table, census, rep, eqao_years, prov_median, sq_meta=None) -> None:
     out = config.OUT
     (out / "schools").mkdir(parents=True, exist_ok=True)
     (out / "boards").mkdir(parents=True, exist_ok=True)
@@ -841,10 +915,14 @@ def write_outputs(schools, boards, fsas, src_table, census, rep, eqao_years, pro
         "official_boundaries": [{"board": r["board"], "level": r["level"], "edited": r["edited"], "areas": r["matched"], "source_id": lid}
                                 for lid, r in rep.boundaries.items() if r["matched"]],
         "assessments": loaders.ASSESSMENTS,
+        "eqao_eras": eras.meta(),
+        "student_questionnaire": sq_meta or {},
+        "licence_status": sources.LICENCE_STATUS,
         "context_fields": [{"key": k, "label": lab, "definition": d} for k, lab, _c, d in loaders.SIF_CONTEXT_COLS],
         "census_fields": [{"key": k, "label": lab, "unit": u} for k, _c, _s, lab, u in sources.CENSUS_FIELDS],
         "codes": {k: {x: v[x] for x in ("label", "explain")} for k, v in parse.CODES.items()},
-        "datasets": {k: {x: v[x] for x in ("brief_no", "title", "publisher", "landing", "used_for", "status")} | {"licence": v["licence"][0], "licence_url": v["licence"][1]}
+        "datasets": {k: {x: v[x] for x in ("brief_no", "title", "publisher", "landing", "used_for", "status", "licence_status", "cadence")}
+                     | {"licence": v["licence"][0], "licence_url": v["licence"][1], "historical": bool(v.get("historical"))}
                      for k, v in sources.DATASETS.items()},
         "references": sources.REFERENCES,
         "systems": SYSTEM_LABEL,
@@ -862,18 +940,41 @@ def write_outputs(schools, boards, fsas, src_table, census, rep, eqao_years, pro
         w = csv.writer(fh)
         cols = ["bsid", "name", "board_number", "board_name", "board_type", "language", "level", "grades", "special", "address",
                 "city", "postal_code", "fsa", "lat", "lon", "geocoded", "phone", "email", "website", "status", "date_open"]
-        w.writerow(cols + ["source_id"])
+        # program flags come from their own files (FSL list, SHSM list, the 2017 nutrition list): see programs_source_ids
+        extra = ["french_immersion", "extended_french", "core_french", "fsl_list_year", "shsm_sectors",
+                 "nutrition_program_historical", "class_size_status", "nearest_school_area"]
+        w.writerow(cols + ["source_id"] + extra + ["programs_source_ids"])
+        yn = {True: "yes", False: "no", None: ""}
         for s in schools:
-            w.writerow([s.get(c) for c in cols] + [s["contact_source"]])
+            f, sh, nu = s["programs"]["fsl"], s["programs"]["shsm"], s["programs"]["nutrition"]
+            w.writerow([s.get(c) for c in cols] + [s["contact_source"]] + [
+                yn[f["immersion"]] if f else "", yn[f["extended"]] if f else "", yn[f["core"]] if f else "", f["year"] if f else "",
+                "; ".join(x["sector"] for x in sh["sectors"]) if sh else "",
+                f"historically listed ({nu['year']}): {', '.join(nu['meals'])}; current availability unverified" if nu else "",
+                s["class_size_status"]["status"], s["proximity_area"],
+                " ".join(p["source_id"] for p in s["programs"].values() if p)])
     with open(d / "eqao.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
-        w.writerow(["bsid", "name", "year", "assessment", "grade", "subject", "pct_at_or_above_standard", "suppressed", "small_cohort", "code",
+        # era: "current" (2021-22 on, EQAO's new trend line) or "paper" (2016-17 to 2018-19, reference only).
+        # Never compute a change between rows of different eras.
+        w.writerow(["bsid", "name", "year", "era", "assessment", "grade", "subject", "pct_at_or_above_standard", "suppressed", "small_cohort", "code",
                     "board_median", "board_n", "province_median", "province_n", "source_id"])
         for s in schools:
             for e in s["eqao"]:
-                w.writerow([s["bsid"], s["name"], e["year"], e["assessment"], e["grade"], e["subject"], e["pct_at_or_above_standard"],
+                w.writerow([s["bsid"], s["name"], e["year"], e["era"], e["assessment"], e["grade"], e["subject"], e["pct_at_or_above_standard"],
                             e["suppressed"], e["small_cohort"], e.get("code"), e["board_median"], e["board_n"], e["province_median"],
                             e["province_n"], e["source_id"]])
+    with open(d / "student-experience.csv", "w", newline="", encoding="utf-8") as fh:
+        w = csv.writer(fh)
+        qtext = {(sid, q["key"]): q["question"] for sid, m in (sq_meta or {}).items() for q in m["questions"]}
+        w.writerow(["bsid", "name", "year", "grade", "question_key", "question", "students", "agree_pct", "agree_pct_derived",
+                    "missing_pct", "code", "board_agree_pct", "province_agree_pct", "source_id"])
+        for s in schools:
+            for b in s["student_experience"]:
+                for it in b["items"]:
+                    w.writerow([s["bsid"], s["name"], b["year"], b["grade"], it["key"], qtext.get((b["source_id"], it["key"]), ""),
+                                it.get("n"), it.get("agree_pct"), it.get("agree_derived"), it.get("missing_pct"), it.get("code"),
+                                it.get("board_pct"), it.get("province_pct"), b["source_id"]])
     with open(d / "enrolment.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(["bsid", "name", "year", "enrolment", "suppressed", "code", "source_id"])
@@ -889,9 +990,11 @@ def write_outputs(schools, boards, fsas, src_table, census, rep, eqao_years, pro
                 w.writerow([f] + [rec["census"].get(k) for k in keys] + [sources.CENSUS_RESOURCE["id"]])
     with open(d / "sources.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
-        w.writerow(["source_id", "title", "publisher", "url", "licence", "licence_url", "retrieved", "year"])
+        # year = the period the file describes; retrieved = when this site downloaded it (not how current it is)
+        w.writerow(["source_id", "title", "publisher", "url", "licence", "licence_url", "licence_status", "retrieved", "year", "release", "historical"])
         for x in src_table.values():
-            w.writerow([x["source_id"], x["title"], x["publisher"], x["url"], x["licence"], x["licence_url"], x["retrieved"], x["year"]])
+            w.writerow([x["source_id"], x["title"], x["publisher"], x["url"], x["licence"], x["licence_url"], x["licence_status"], x["retrieved"],
+                        x["year"], x["release"] or "", "yes" if x["historical"] else ""])
 
 
 def main(argv=None) -> int:

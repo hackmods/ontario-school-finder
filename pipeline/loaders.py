@@ -723,6 +723,172 @@ def load_eqao_open(res: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# 21. EQAO student questionnaire results (one ZIP of several CSVs per assessment and year)
+# ---------------------------------------------------------------------------
+# A small, deliberate set of questions (key, field stem, plain label). The exact wording and the answer
+# choices are read from EQAO's field definitions every run, never typed here. Grades 3 and 6 report the
+# same answers against three bases (students who fully took part in reading, writing or math); we use
+# the math base for math questions and the reading base for the rest. Grade 9 (math) and the OSSLT
+# (literacy, first-time eligible students) have one base. Home language and home technology questions
+# are left out on purpose: they describe families, not the school.
+SQ_ITEMS = {
+    "g36": [("like_read", "R", "Interest_LikeRead", "Like to read"),
+            ("good_reader", "R", "Confidence_GoodReader", "See themselves as good readers"),
+            ("like_math", "M", "Interest_LikeMath", "Like math"),
+            ("good_math", "M", "Confidence_GoodAtMath", "See themselves as good at math"),
+            ("keep_trying", "R", "Persevere_KeepTrying", "Keep trying when something is difficult"),
+            ("feel_prepared", "R", "Persevere_FeelPrepared", "Feel prepared for next year"),
+            ("group_work", "R", "Group_WorkWell", "Work well in a group")],
+    "g9": [("like_math", "", "Interest_LikeMath", "Like math"),
+           ("good_math", "", "Confidence_GoodAtMath", "See themselves as good at math"),
+           ("keep_trying", "", "Persevere_KeepTrying", "Keep trying when something is difficult"),
+           ("feel_prepared", "", "Persevere_FeelPrepared", "Feel prepared for next semester or year"),
+           ("group_work", "", "Group_WorkWell", "Work well in a group")],
+    "osslt": [("like_read", "", "Interest_LikeRead", "Like to read"),
+              ("good_reader", "", "Confidence_GoodReader", "See themselves as good readers"),
+              ("keep_trying", "", "Persevere_KeepTrying", "Keep trying when something is difficult"),
+              ("feel_prepared", "", "Persevere_FeelPrepared", "Feel prepared for next semester or year"),
+              ("group_work", "", "Group_WorkWell", "Work well in a group")],
+}
+SQ_BASE_LABEL = {"R": "who fully took part in the reading assessment", "M": "who fully took part in the math assessment",
+                 "": "who fully took part in the assessment"}
+SQ_SCALES = {"g36": (1, 2, 3), "g9": (1, 2, 3, 4, 5), "osslt": (1, 2, 3, 4, 5)}
+SQ_AGREE = {"g36": (3,), "g9": (4, 5), "osslt": (4, 5)}  # "Yes, I agree" / "Somewhat" + "Strongly agree"
+
+
+def _sq_field(base: str, stem: str) -> str:
+    return f"{base}_{stem}" if base else stem
+
+
+def load_eqao_sq_definitions(res: dict, items: list | None = None) -> dict:
+    """field stem -> {question, options: {category: label}} from EQAO's field-definitions workbook."""
+    path = fetch.download(res["id"] + "-defs", res["definitions"], expect="xlsx")
+    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+    ws = next((w for w in wb.worksheets if "SQ" in w.title), None)
+    if ws is None:
+        raise SchemaChanged(f"{res['id']}: no questionnaire sheet in the field definitions ({[w.title for w in wb.worksheets]})")
+    name_col = def_col = None
+    defs: dict[str, str] = {}
+    for r in ws.iter_rows(values_only=True):
+        cells = [norm_header(x) if x is not None else "" for x in r]
+        if name_col is None:
+            label = next((x for x in ("Definition", "Description") if x in cells), None)  # the OSSLT workbook says "Description"
+            if "Field Name" in cells and label:
+                name_col, def_col = cells.index("Field Name"), cells.index(label)
+            continue
+        if len(cells) > def_col and cells[name_col].startswith("cnt"):
+            defs[cells[name_col]] = cells[def_col]
+    wb.close()
+    out = {}
+    for _key, base, stem, _label in (items if items is not None else SQ_ITEMS[res["kind"]]):
+        field = _sq_field(base, stem)
+        cats = {int(m.group(1)): d for f, d in defs.items() if (m := re.fullmatch(rf"cnt{re.escape(field)}(\d)", f))}
+        if not cats or 9 not in cats:
+            raise SchemaChanged(f"{res['id']}: question {field!r} is not in EQAO's field definitions any more; check the questionnaire")
+        texts = [cats[c] for c in sorted(cats)]
+        common = texts[0]
+        for t in texts[1:]:
+            while not t.startswith(common):
+                common = common[:-1]
+        cut = common[: common.rfind(", ") + 2]  # "Number of fully participating students in Reading, I like to read, "
+        question = cut.rstrip(", ").split(", ", 1)[1] if ", " in cut.rstrip(", ") else cut
+        out[field] = {"question": question.strip(), "options": {c: cats[c][len(cut):].strip() for c in sorted(cats)}}
+    return out
+
+
+def _sq_int(v: str):
+    s = (v or "").strip()
+    return int(s) if s.isdigit() else None
+
+
+def load_eqao_sq(res: dict) -> dict:
+    """Student questionnaire answers for the questions in SQ_ITEMS, for schools, boards and Ontario.
+
+    Returns {"schools": {bsid: org}, "boards": {"B66150": org}, "province": {"English": org, "French": org},
+    "questions": {key: {...}}, "stats": {...}}. Each org has, per question, the count and EQAO's published
+    percentage for every answer (including "Response missing"), the number of students (the sum of every
+    answer, EQAO's denominator) and, when EQAO withholds the figures, the code it shows instead (N/R,
+    S. R., N/D) and no numbers. Nothing is filled in or inferred.
+    """
+    kind = res["kind"]
+    path = fetch.download(res["id"], res["url"], expect="zip")
+    merged: dict[tuple, dict] = {}
+    with zipfile.ZipFile(path) as z:
+        members = [n for n in z.namelist() if n.lower().endswith(".csv") and (kind != "osslt" or "_FTE_" in n)]
+        if not members:
+            raise SchemaChanged(f"{res['id']}: no questionnaire CSVs in the ZIP ({z.namelist()})")
+        for name in members:
+            rd = csv.DictReader(io.StringIO(z.read(name).decode("utf-8-sig")))
+            for r in rd:
+                if "Eligibility" in r and (r["Eligibility"] or "").strip() not in ("1", ""):
+                    continue
+                # the OSSLT files have no OrgID: board and school numbers identify every row
+                key = (r["OrgType"], r.get("OrgID") or "", r["BoardMident"], r["SchoolMident"], r["Language"], r.get("Administration") or "")
+                merged.setdefault(key, {}).update(r)
+    scale, agree = SQ_SCALES[kind], SQ_AGREE[kind]
+    columns = set().union(*(r.keys() for r in merged.values()))
+    # Grades 3 and 6 share one questionnaire design, but not every question is asked in both grades
+    # (Grade 3 isn't asked about feeling prepared for next year). A question is used when its answers
+    # are in the file; the ones that aren't are recorded, never filled in.
+    asked = [it for it in SQ_ITEMS[kind] if f"cnt{_sq_field(it[1], it[2])}1" in columns]
+    not_asked = [it[0] for it in SQ_ITEMS[kind] if it not in asked]
+    if len(asked) < 3:
+        raise SchemaChanged(f"{res['id']}: only {len(asked)} of the expected questions are in the file; check the questionnaire")
+    needed = [f"{p}{_sq_field(b, st)}{c}" for _k, b, st, _l in asked for c in (*scale, 9) for p in ("cnt", "pct")]
+    require_columns(res["id"], sorted(columns), ["OrgType", "Language", "BoardMident", "SchoolMident", "Suppressed"] + needed)
+    defs = load_eqao_sq_definitions(res, asked)
+    out = {"schools": {}, "boards": {}, "province": {}, "stats": Counter(), "not_asked": not_asked}
+    for (otype, _oid, _bn, _sn, lang, _adm), r in merged.items():
+        withheld = (r.get("Suppressed") or "").strip() == "1"
+        items = {}
+        for key, base, stem, _label in asked:
+            field = _sq_field(base, stem)
+            counts = [_sq_int(r.get(f"cnt{field}{c}")) for c in (*scale, 9)]
+            raw_pct = [r.get(f"pct{field}{c}") for c in (*scale, 9)]
+            if withheld or any(c is None for c in counts):
+                # the code EQAO printed (N/R, S. R., N/D, A/D); a cell missing from every file reads as "no data"
+                codes = [parse.code_of(v) for v in [r.get(f"cnt{field}{scale[0]}"), *raw_pct]]
+                code = next((c for c in codes if c and c != "BLANK"), None) or ("N/R" if withheld else "N/D")
+                items[key] = {"code": code, **parse.flags(code)}
+                out["stats"][f"code_{code}"] += 1
+                continue
+            n = sum(counts)
+            if n == 0:
+                items[key] = {"code": "N/D", **parse.flags("N/D")}
+                continue
+            pct = [_level_pct(v) for v in raw_pct]
+            agree_n = sum(counts[scale.index(c)] for c in agree)
+            items[key] = {
+                "n": n, "counts": counts, "pct": pct,
+                # one published percentage for a 3-point scale; two categories added up (from the counts) for a 5-point one
+                "agree_pct": pct[scale.index(agree[0])] if len(agree) == 1 else round(100 * agree_n / n),
+                "agree_n": agree_n, "agree_derived": len(agree) > 1,
+                "missing_pct": pct[-1],
+            }
+            out["stats"]["values"] += 1
+        org = {"withheld": withheld, "respondents": _sq_int(r.get("cntSQRespondents")), "items": items}
+        lang_name = EQAO_LANG.get((lang or "").strip().lower())
+        if otype == "S":
+            bsid = school_number(r["SchoolMident"])
+            if bsid:
+                out["schools"][bsid] = org
+        elif otype == "B":
+            bn = (r["BoardMident"] or "").strip()
+            out["boards"][f"B{bn}" if bn.isdigit() else bn] = org
+        elif otype == "P" and lang_name:
+            out["province"][lang_name] = org
+    out["questions"] = {}
+    for key, base, stem, label in asked:
+        d = defs[_sq_field(base, stem)]
+        out["questions"][key] = {"key": key, "label": label, "question": d["question"], "base": SQ_BASE_LABEL[base],
+                                 "options": [d["options"][c] for c in (*scale, 9)], "agree": [d["options"][c] for c in agree],
+                                 "field": _sq_field(base, stem)}
+    out["stats"]["schools"] = len(out["schools"])
+    out["stats"] = dict(out["stats"])
+    return out
+
+
+# ---------------------------------------------------------------------------
 # 16. Suspension and expulsion rates by board (one wide sheet: two columns per school year)
 # ---------------------------------------------------------------------------
 def _rate_pct(v, context: str):

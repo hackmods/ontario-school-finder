@@ -108,7 +108,7 @@
 <section class="block" id="results">
   <div class="wrap">
     <h2>EQAO results across the board’s schools</h2>
-    <p class="block-intro">The median school in {{ b.name }} compared with the median {{ b.language }}-language school in Ontario. A median is the middle value: half of schools are above it, half below.</p>
+    <p class="block-intro">The median school in {{ b.name }} compared with the median {{ b.language }}-language school in Ontario. A median is the middle value: half of schools are above it, half below. Charts start in {{ meta.eqao_eras.current_from }}, when EQAO’s current assessments began a new trend line; <a href="#results-paper">earlier paper-based results</a> are listed separately below.</p>
     <ul class="legend-inline"><li><i class="l-school"></i>Board median</li><li><i class="l-prov"></i>Ontario median</li></ul>
     <div class="charts">
       {% for r in medians %}
@@ -122,6 +122,17 @@
       </figure>
       {% endfor %}
     </div>
+    {% if medians_paper %}
+    <details class="data-table card" id="results-paper" style="margin-top:16px">
+      <summary>Earlier results: {{ meta.eqao_eras.eras.paper.label }} (a different test, not comparable)</summary>
+      <p class="small muted">{{ meta.eqao_eras.eras.paper.explain }} No change is calculated between these years and {{ meta.eqao_eras.current_from }} or later.</p>
+      <div class="table-wrap"><table>
+        <caption>Paper-based EQAO results: board median and Ontario median</caption>
+        <thead><tr><th scope="col">Assessment</th><th scope="col">Year</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Schools</th><th scope="col" class="n">Ontario median</th></tr></thead>
+        <tbody>{% for r in medians_paper %}{% for row in r.rows %}<tr><th scope="row">{{ r.grade }} {{ r.subject }}</th><td>{{ row.year }}</td><td class="n">{{ pct(row.board_median) }}</td><td class="n">{{ row.board_n }}</td><td class="n">{{ pct(row.province_median) }}</td></tr>{% endfor %}{% endfor %}</tbody>
+      </table></div>
+    </details>
+    {% endif %}
   </div>
 </section>
 {% endif %}

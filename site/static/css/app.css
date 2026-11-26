@@ -794,3 +794,38 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 
 /* official attendance areas (boards' own maps): solid orange, unlike the dashed nearest-school estimate */
 .legend .sw-official-on, .sw-official-on { border: 2px solid #c2410c; background: color-mix(in srgb, #c2410c 12%, transparent); }
+
+/* ---- families: attendance, programs, sourced board records, student experience, questions ---- */
+.badge-prog { background: var(--brand-tint); color: var(--brand); border-color: var(--brand-soft); }
+.badge-prog.prog-french-language { background: color-mix(in srgb, var(--c-fp) 10%, var(--surface)); color: var(--c-fp); border-color: color-mix(in srgb, var(--c-fp) 30%, transparent); }
+.grade-strip { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px; }
+.grade-strip li { min-width: 2.2em; padding: 4px 6px; border-radius: 6px; text-align: center; font: 650 .82rem/1.2 var(--font); border: 1px solid var(--line); }
+.grade-strip li.on { background: var(--brand); color: var(--brand-ink); border-color: var(--brand); }
+.grade-strip li.off { color: var(--ink-3); background: var(--surface-2); text-decoration: line-through; text-decoration-color: color-mix(in srgb, var(--ink-3) 50%, transparent); }
+.recs { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+.rec { border-left: 3px solid var(--brand-soft); padding: 2px 0 2px 12px; }
+.rec-not_found { border-left-color: var(--line); }
+.rec-decision { border-left-color: var(--brand); }
+.rec-proposal, .rec-projection { border-left-color: color-mix(in srgb, var(--accent) 45%, transparent); }
+.rec-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 8px; }
+.rec-head .t { font-weight: 650; }
+.rec p { margin: 6px 0 0; font-size: .92rem; }
+.rec .rec-meta { font-size: .78rem; color: var(--ink-3); }
+.rec-kind { font-size: .72rem; }
+.rec-links { margin: 6px 0 0; padding-left: 18px; font-size: .88rem; }
+.rec-missing { margin: 0; }
+table.mini { margin: 8px 0 0; font-size: .86rem; border-collapse: collapse; }
+table.mini th, table.mini td { padding: 3px 10px 3px 0; border-bottom: 1px solid var(--line); text-align: left; font-weight: 450; }
+table.mini td.n { text-align: right; font-variant-numeric: tabular-nums; }
+table.mini caption { text-align: left; font-size: .8rem; color: var(--ink-3); padding-bottom: 2px; }
+.note-inline { padding: 8px 10px; border-radius: var(--r-1); background: var(--warn-tint); margin: 0 0 10px; }
+.sq-table th[scope=row] { font-weight: 500; }
+.sq-dist { list-style: none; margin: 0 0 6px; padding: 0; font-size: .86rem; }
+.sq-dist li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dotted var(--line); padding: 2px 0; }
+.questions { margin: 0; padding-left: 22px; display: grid; gap: 8px; }
+.questions li { padding-left: 4px; }
+.prog-badges { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.prog-badges .badge { font-size: .72rem; padding: 1px 7px; }
+.cmp-diff-hidden { display: none; }
+.cmp-warn { margin: 10px 0 0; }
+@media print { .grade-strip li.on { background: none; color: inherit; border: 2px solid currentColor; } }

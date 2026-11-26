@@ -1,0 +1,28 @@
+{#- Sourced board records (site/board-info.json). Every record says what kind of fact it is, where it came from and when we checked it. -#}
+{%- set KIND = {"rule": "Published rule", "process": "How to ask: decided case by case", "decision": "Approved by the board",
+                "proposal": "Proposal, not decided", "projection": "From a published plan (includes forecasts)", "plan": "Board plan",
+                "not_found": "Not published"} -%}
+{% macro record(r) -%}
+<li class="rec rec-{{ r.kind }}">
+  <div class="rec-head"><a class="t" href="{{ r.url }}" rel="noopener">{{ r.title }}</a><span class="badge rec-kind">{{ KIND.get(r.kind, r.kind) }}</span>{% if r.scope == "school" %}<span class="badge">This school</span>{% endif %}</div>
+  <p>{{ r.summary }}</p>
+  {%- if r.facts and r.facts.walk_km %}
+  <table class="mini"><caption class="visually-hidden">Walking distance for transportation</caption><thead><tr><th scope="col">Grades</th><th scope="col" class="n">Walk distance</th></tr></thead>
+    <tbody>{% for g, km in r.facts.walk_km.items() %}<tr><th scope="row">{{ g }}</th><td class="n">{{ km }} km or more</td></tr>{% endfor %}</tbody></table>
+  {%- endif %}
+  {%- if r.facts and r.facts.capacity_otg %}
+  <table class="mini"><caption>Figures from the plan</caption><tbody>
+    <tr><th scope="row">Capacity (on-the-ground)</th><td class="n">{{ r.facts.capacity_otg }}</td></tr>
+    {% for e in r.facts.enrolment %}<tr><th scope="row">Enrolment, {{ e.year }}</th><td class="n">{{ e.value }}</td></tr>{% endfor %}
+    {% for e in r.facts.projected %}<tr><th scope="row">Projected, {{ e.year }}</th><td class="n">{{ e.value }} <span class="muted small">forecast</span></td></tr>{% endfor %}
+  </tbody></table>
+  <p class="small muted">{{ r.facts.capacity_definition }}.</p>
+  {%- endif %}
+  {%- if r.related %}<ul class="rec-links">{% for x in r.related %}<li><a href="{{ x.url }}" rel="noopener">{{ x.title }}</a></li>{% endfor %}</ul>{% endif %}
+  <p class="rec-meta">{% if r.source_date %}{{ r.source_date }} · {% endif %}{% if r.decided %}Decided {{ r.decided }} · {% endif %}Checked {{ r.verified }}{% if r.stale %} · <strong>may be out of date: check the board’s page</strong>{% endif %}</p>
+</li>
+{%- endmacro %}
+{% macro records(list) -%}<ul class="recs">{% for r in list %}{{ record(r) }}{% endfor %}</ul>{%- endmacro %}
+{% macro not_collected(board_name, website) -%}
+<p class="muted small rec-missing"><span class="badge">Not yet collected for this board</span> We haven’t checked {{ board_name }}’s pages for this yet. {% if website %}Its <a href="{{ website }}" rel="noopener">website</a> is the place to ask.{% else %}Ask the board.{% endif %}</p>
+{%- endmacro %}
