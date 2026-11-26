@@ -55,6 +55,8 @@ SLOW=1 npx playwright test tests/e2e/links.slow.spec.js   # check external sourc
 ```
 
 Generator settings (environment variables): `SITE_URL`, `CONTACT_EMAIL`, `CORRECTIONS_URL`, `OPERATOR`.
+The public contact address is never committed: set `CONTACT_EMAIL` in your own environment (once, e.g. as a Windows user variable)
+so every rebuild includes it. To rebuild pages and deploy in one step: `bash scripts/publish.sh`.
 
 ## Deploy
 
