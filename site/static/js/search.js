@@ -114,6 +114,9 @@ class Combobox {
     document.addEventListener("click", (e) => {
       if (!root.contains(e.target)) this.close();
     });
+    // typed before this script arrived (it loads after the page, so on a slow connection the first
+    // letters can land first): catch up, or the list wouldn't open until the next key press
+    if (this.input.value.trim() && document.activeElement === this.input) this.update();
     this.form?.addEventListener("submit", (e) => {
       if (this.active >= 0 && this.items[this.active]) {
         e.preventDefault();

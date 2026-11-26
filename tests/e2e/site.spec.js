@@ -72,6 +72,15 @@ test.describe("search", () => {
 });
 
 test.describe("pages", () => {
+  test("letters typed before the search script loads still open the list", async ({ page }) => {
+    // a slow connection: the page and its box arrive, the search script 1.5 s later
+    await page.route("**/static/js/search.js*", async (route) => { await new Promise((r) => setTimeout(r, 1500)); await route.continue(); });
+    // Compare loads the search script after the page (the home page bundles it), so the gap shows here
+    await page.goto("/compare/");
+    await page.locator("#cq").fill("McCrea");
+    await expect(page.locator("#cq-list [role=option]", { hasText: "Anna McCrea" }).first()).toBeVisible({ timeout: 10_000 });
+  });
+
   test("school page has EQAO charts, text tables and sources", async ({ page }) => {
     const w = watch(page);
     await page.goto(`/school/${SCHOOL}/`);
