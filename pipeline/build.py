@@ -158,6 +158,17 @@ def build(clean: bool = False) -> dict:
         rep.count(res["id"], enrol[res["id"]]["stats"]["schools"], "schools")
         rep.suppressed[res["id"]] = {k: v for k, v in enrol[res["id"]]["stats"].items() if k.startswith("code_")}
 
+    egrade = {}
+    for res in sources.ENROL_GRADE_RESOURCES:
+        log(f"loading {res['id']}")
+        egrade[res["id"]] = loaders.load_grade_enrolment(res)
+        rep.count(res["id"], egrade[res["id"]]["stats"]["schools"], "schools with enrolment by grade")
+    csize = {}
+    for res in sources.CLASS_SIZE_RESOURCES:
+        log(f"loading {res['id']} (class lists)")
+        csize[res["id"]] = loaders.load_class_size(res)
+        rep.count(res["id"], csize[res["id"]]["stats"]["school_years"], "school-years of elementary class lists")
+
     log("loading child care")
     childcare = loaders.load_childcare(sources.CHILDCARE_RESOURCE)
     rep.count(sources.CHILDCARE_RESOURCE["id"], len(childcare["rows"]), f"active licensed sites (snapshot {childcare['snapshot']})")
@@ -398,6 +409,63 @@ def build(clean: bool = False) -> dict:
         }
     rep.childcare_at_school = cc_at_school
 
+    # ---------------- enrolment by grade ----------------
+    for s in schools:
+        series = []
+        for res in reversed(sources.ENROL_GRADE_RESOURCES):
+            hit = egrade[res["id"]]["rows"].get(s["bsid"])
+            if hit:
+                series.append({"year": res["year"], "grades": hit["grades"], "codes": hit["codes"], "source_id": res["id"]})
+        s["grade_enrolment"] = series
+
+    # ---------------- class sizes (matched by board + school name) ----------------
+    log("class sizes: matching class lists to schools by name")
+    name_index = defaultdict(set)
+    for res in sources.SIF_RESOURCES:  # every name a school has used since 2015-16
+        for bsid, r in sif[res["id"]]["rows"].items():
+            if bsid in by_id and r["School Name"]:
+                name_index[school_key(r["School Name"])].add(bsid)
+    cs_by_school = defaultdict(list)
+    matched, unmatched, ambiguous = 0, Counter(), 0
+    for res in sources.CLASS_SIZE_RESOURCES:
+        for (year, board, school), a in csize[res["id"]]["rows"].items():
+            cands = name_index.get(school_key(school), set())
+            bk = board_key(board)
+            hits = [b for b in cands if board_key(by_id[b]["board_name"]) == bk]
+            if len(hits) != 1:
+                if len(hits) > 1:
+                    ambiguous += 1
+                else:
+                    unmatched[year] += 1
+                continue
+            matched += 1
+            cs_by_school[hits[0]].append(class_size_row(year, a, res["id"]))
+    for s in schools:
+        rows = sorted(cs_by_school.get(s["bsid"], []), key=lambda r: r["year"])
+        # two files can cover one year only if a school appears twice under one name; keep the first
+        seen, keep = set(), []
+        for r in rows:
+            if r["year"] not in seen:
+                seen.add(r["year"])
+                keep.append(r)
+        s["class_size"] = keep
+    rep.class_size = {"matched": matched, "ambiguous": ambiguous, "unmatched_by_year": dict(sorted(unmatched.items())),
+                      "schools_with_class_sizes": sum(1 for s in schools if s["class_size"])}
+
+    # class size medians (board and province) per year, for comparison lines
+    cs_board, cs_prov = defaultdict(list), defaultdict(list)
+    for s in schools:
+        for r in s["class_size"]:
+            if r["primary_avg"] is not None:
+                cs_board[(s["board_number"], r["year"])].append(r["primary_avg"])
+                cs_prov[(s["language"], r["year"])].append(r["primary_avg"])
+    for s in schools:
+        for r in s["class_size"]:
+            bm = cs_board.get((s["board_number"], r["year"]), [])
+            pm = cs_prov.get((s["language"], r["year"]), [])
+            r["primary_board_median"] = median(bm) if len(bm) >= 3 else None
+            r["primary_province_median"] = median(pm) if pm else None
+
     # ---------------- nearby ----------------
     for s in schools:
         s["nearby"] = [{"bsid": n["bsid"], "km": n["km"], "name": by_id[n["bsid"]]["name"], "level": by_id[n["bsid"]]["level"],
@@ -419,6 +487,7 @@ def build(clean: bool = False) -> dict:
         }
         used = {s["coord_source"], s["contact_source"], s["context"]["source_id"], s["childcare"]["source_id"]}
         used |= {e["source_id"] for e in s["eqao"]} | {e["source_id"] for e in s["enrolment"]}
+        used |= {e["source_id"] for e in s["grade_enrolment"]} | {e["source_id"] for e in s["class_size"]}
         used.discard("geocoder")
         s["sources"] = [src_table[i] for i in sorted(used) if i in src_ids]
 
@@ -455,6 +524,8 @@ def build(clean: bool = False) -> dict:
                 b.setdefault("sbpr_city", row["city"])
                 for key, v in row["indicators"].items():
                     b["indicators"].append({"key": key, "label": loaders.SBPR_LABELS[key], **v, "source_id": res["id"]})
+        b["class_size_medians"] = [{"year": y, "primary_median": median(v), "n": len(v), "province_median": median(cs_prov.get((b["language"], y), []))}
+                                   for (bn2, y), v in sorted(cs_board.items()) if bn2 == bn and len(v) >= 3]
         b["eqao_medians"] = []
         for res in sif_eqao:
             for aid in loaders.ASSESSMENTS:
@@ -512,6 +583,49 @@ def build(clean: bool = False) -> dict:
     rep.write(config.REPORT, schools=schools, boards=boards, fsas=fsas, sources_table=src_table)
     log(f"done in {rep.elapsed}s: {len(schools)} schools, {len(boards)} boards, {len(fsas)} FSAs")
     return {"schools": len(schools), "boards": len(boards), "fsas": len(fsas)}
+
+
+GENERIC_SCHOOL_WORDS = {"school", "public", "ps", "catholic", "cs", "ces", "elementary", "separate", "ecole", "elementaire", "catholique",
+                        "publique", "the", "of", "and", "de", "du", "des", "la", "le", "l", "d", "sr", "jr"}
+GENERIC_BOARD_WORDS = {"district", "school", "board", "dsb", "cdsb", "catholic", "public", "conseil", "scolaire", "catholique", "public",
+                       "de", "du", "des", "la", "le", "l", "d", "csd", "csdc", "csc", "cscd", "cs", "the", "of", "and", "separate",
+                       "roman", "rcssb", "rcss", "dssb", "authority", "sa", "isolate", "area", "boards", "des", "ecoles", "publiques"}
+
+
+def _tokens(name: str) -> list[str]:
+    import unicodedata
+    t = unicodedata.normalize("NFD", name or "")
+    t = "".join(ch for ch in t if unicodedata.category(ch) != "Mn").lower()
+    t = re.sub(r"\b(saint|sainte|ste|st)\b\.?", "st", t)
+    return re.findall(r"[a-z0-9]+", t)
+
+
+def school_key(name: str) -> str:
+    return " ".join(w for w in _tokens(name) if w not in GENERIC_SCHOOL_WORDS)
+
+
+def board_key(name: str) -> tuple:
+    toks = _tokens(name)
+    catholic = any(w in ("catholic", "catholique", "cdsb", "csc", "cscd", "csdc", "separate", "rcssb", "rcss") for w in toks)
+    return (frozenset(w for w in toks if w not in GENERIC_BOARD_WORDS), catholic)
+
+
+def class_size_row(year: str, a: dict, source_id: str) -> dict:
+    """Per-school figures computed from the Ministry's class list (one row per class)."""
+    def avg(v):
+        return round(sum(v) / len(v), 1) if v else None
+    complete = year >= "2014-15"  # earlier files list only primary (JK to Grade 3) classes
+    p = a["primary"]
+    return {
+        "year": year, "source_id": source_id, "complete": complete,
+        "classes": a["classes"] if complete else None,
+        "avg_all": round(a["students"] / a["classes"], 1) if complete and a["classes"] else None,
+        "primary_classes": len(p), "primary_avg": avg(p),
+        "primary_le20_pct": round(100 * sum(1 for x in p if x <= 20) / len(p)) if p else None,
+        "primary_max": max(p) if p else None,
+        "kinder_avg": avg(a["kinder"]), "junior_avg": avg(a["junior"]) if complete else None,
+        "combined_classes": a["combined"],
+    }
 
 
 def build_sources_table(manifest: dict) -> dict:

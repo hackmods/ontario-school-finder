@@ -27,6 +27,12 @@ The brief ([idea.md](idea.md)) was treated as a strong starting point. These are
 ## The FSA check threshold
 - The brief asked for postal-code FSA = polygon FSA for at least 98% of schools. The measured agreement is lower (see `pipeline/report.md`): schools within a few hundred metres of a boundary, rural schools that use a post-office postal code, new postal areas created since 2021, and a few postal-code errors in the source. The test therefore uses a calibrated floor (`FSA_MATCH_FLOOR` in `pipeline/tests/test_output.py`) that still catches real bugs, and every mismatch is listed in the report. **This is a known departure for the owner to accept or change.**
 
+## Longer history and more measures (added after the first release)
+- **EQAO 2016-17**: the Ministry's 2015-16 school file (sheet `SIF_1516Data_EQAO1617_EN`) is no longer listed on the dataset page but is still published on files.ontario.ca. Only its school details and EQAO columns are read (its student-context columns use different definitions). Its French-language rows use `S. R.` and `A/D`, the French forms of N/R and N/D. EQAO results now cover 2016-17 to 2024-25. Earlier school files were not found (the Internet Archive was offline when checked).
+- **Class sizes, 2007-08 to 2025-26** from the Ministry's *Elementary class size* class lists. The lists name schools rather than numbering them, so classes are matched to schools by board and school name (including every name a school used since 2015-16); ambiguous or unmatched names are skipped and counted in the report. Before 2014-15 only primary classes were listed, so long trends use Grades 1–3 classes; averages are computed by this site and labelled as such.
+- **Students by grade, 2017-18 to 2024-25** from *School enrolment by grade*.
+- **Compare** now takes up to six schools and shows every published measure (EQAO for every year with the change over the period, enrolment, grades, class sizes, student context, area census, child care, nearby), with a share link, CSV download and print layout.
+
 ## Child care
 - The licensed child care file has addresses but no coordinates. Instead of geocoding 6,000 sites, the site shows child care **at the school's own address** (same postal code and street number — about 2,800 schools have one) and a count and list for the school's postal area.
 

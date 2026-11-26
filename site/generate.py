@@ -158,7 +158,7 @@ class Site:
             elif aid == "g9-math":
                 yrs = [y for y in years_all if y >= "2021-22"]
             last = rows[-1]
-            summary = self.summary_sentence(s, a, last)
+            summary = self.summary_sentence(s, a, last, rows)
             off = None
             key = {"g6-reading": "g6_reading", "osslt": "osslt"}.get(aid)
             if key and key in official:
@@ -182,6 +182,32 @@ class Site:
         for it in s["context"]["items"]:
             context_rows.append({**it, "board_median": self.ctx_board.get((s["board_number"], it["key"])),
                                  "province_median": self.ctx_prov.get((s["language"], it["key"]))})
+        cs = s.get("class_size") or []
+        cs_view = None
+        if cs:
+            cyears = [r["year"] for r in cs]
+            latest_cs = cs[-1]
+            cs_view = {
+                "latest": latest_cs, "first": cs[0]["year"],
+                "svg": charts.eqao_chart(cs, cyears, title=f"Average Grades 1 to 3 class size at {s['name']}, board median and Ontario median by year",
+                                         main_key="primary_avg", board_key="primary_board_median", prov_key="primary_province_median",
+                                         ymax=30, unit="", gap=False, w=640, h=220),
+            }
+        ge = s.get("grade_enrolment") or []
+        grade_view = None
+        if ge:
+            order = ["JK", "K"] + [f"G{i}" for i in range(1, 13)]
+            used = [g for g in order if any(g in r["grades"] for r in ge)]
+            grade_view = {"years": [r["year"] for r in ge][-5:], "rows": [], "latest": ge[-1]}
+            for g in used:
+                label = "Junior kindergarten" if g == "JK" else "Kindergarten" if g == "K" else f"Grade {g[1:]}"
+                cells = []
+                for r in ge[-5:]:
+                    if g not in r["grades"]:
+                        cells.append({"v": None, "code": None})
+                    else:
+                        cells.append({"v": r["grades"][g], "code": r["codes"].get(g)})
+                grade_view["rows"].append({"label": label, "cells": cells})
         neighbours = [self.schools[n["bsid"]] for n in s["nearby"] if n["bsid"] in self.schools]
         map_data = {
             "center": [s["lon"], s["lat"]],
@@ -216,11 +242,11 @@ class Site:
                     enrol_latest=enrol_latest, enrol_change=enrol_change,
                     enrol_svg=charts.bar_chart(enrol, title=f"Enrolment at {s['name']} by school year"),
                     latest_eqao=latest_eqao, eqao_span=f"{min(e['year'] for e in s['eqao'])} to {latest_eqao}" if latest_eqao else "",
-                    context_rows=context_rows, childcare_date=human_date(s["childcare"]["snapshot"]),
+                    context_rows=context_rows, childcare_date=human_date(s["childcare"]["snapshot"]), cs_view=cs_view, grade_view=grade_view,
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"),
                     jsonld=json.dumps({k: v for k, v in jsonld.items() if v}, ensure_ascii=False).replace("</", "<\\/"))
 
-    def summary_sentence(self, s, a, last) -> str:
+    def summary_sentence(self, s, a, last, rows=()) -> str:
         subj = a["subject"].lower()
         who = f"{a['grade']} students"
         if a["grade"] == "Grade 10":
@@ -242,6 +268,11 @@ class Site:
         if cmp:
             txt = ", ".join(cmp)
             parts.append(" " + txt[0].upper() + txt[1:] + ".")
+        pts = [r for r in rows if r["pct_at_or_above_standard"] is not None]
+        if len(pts) >= 2 and pts[0]["year"] != pts[-1]["year"]:
+            d = round(pts[-1]["pct_at_or_above_standard"] - pts[0]["pct_at_or_above_standard"], 1)
+            word = "Up" if d > 0 else "Down" if d < 0 else "Unchanged"
+            parts.append(f" {word}{f' {abs(d):g} points' if d else ''} since {pts[0]['year']}.")
         return "".join(parts)
 
     # ------------------------------------------------------------------
@@ -296,11 +327,17 @@ class Site:
                  "french-public": "French-language public district school board", "french-catholic": "French-language Catholic district school board",
                  "other": "Provincial school, hospital school or school authority"}
         b = {**b, "full_type": types[b["system"]]}
+        csm = b.get("class_size_medians") or []
+        cs_board = None
+        if csm:
+            rows_cs = [{"year": r["year"], "board_median": r["primary_median"], "province_median": r["province_median"], "board_n": r["n"]} for r in csm]
+            cs_board = {"rows": rows_cs, "svg": charts.eqao_chart(rows_cs, [r["year"] for r in rows_cs], title="Average Grades 1 to 3 class size: median school in the board and in Ontario",
+                                                                  main_key="board_median", board_key="_none", prov_key="province_median", ymax=30, unit="", gap=False, w=640, h=220)}
         map_data = {"schools": [{"id": s["bsid"], "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"], "l": "E" if s["level"] == "elementary" else "S", "g": s["grades"]} for s in schools],
                     "board": b["number"], "system": b["system"]}
         self.render(f"board/{b['number']}/index.html", "board.html", title=b["name"], page_kind="board", map=True,
                     description=f"{b['name']}: {len(schools)} schools, official board results, EQAO medians across its schools and a map, with sources.",
-                    b=b, schools=rows, indicators=indicators, indicator_releases=releases, headline=headline, medians=medians,
+                    b=b, schools=rows, cs_board=cs_board, indicators=indicators, indicator_releases=releases, headline=headline, medians=medians,
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"))
 
     # ------------------------------------------------------------------
@@ -486,14 +523,29 @@ def precompress() -> int:
     return n
 
 
+def clear_dir(d: Path) -> None:
+    """Empty the output folder but keep it (Windows refuses to delete a folder a local preview server is serving)."""
+    d.mkdir(parents=True, exist_ok=True)
+    for child in d.iterdir():
+        for attempt in range(5):
+            try:
+                if child.is_dir():
+                    shutil.rmtree(child)
+                else:
+                    child.unlink()
+                break
+            except PermissionError:
+                if attempt == 4:
+                    raise
+                time.sleep(0.5)
+
+
 def main() -> int:
     t0 = time.time()
     if not (DATA / "meta.json").exists():
         print("site/data is missing: run `python -m pipeline.build` first", file=sys.stderr)
         return 2
-    if DIST.exists():
-        shutil.rmtree(DIST)
-    DIST.mkdir(parents=True)
+    clear_dir(DIST)
     site = Site()
     for s in site.schools.values():
         site.school_page(s)
@@ -505,6 +557,12 @@ def main() -> int:
     copy_static_and_data()
     site.extras()
     (DIST / "static" / "img" / "hero-map.svg").write_text(site.hero["svg"], encoding="utf-8")
+    ctx = {"board": defaultdict(dict), "province": defaultdict(dict)}
+    for (bn, key), v in site.ctx_board.items():
+        ctx["board"][bn][key] = v
+    for (lang, key), v in site.ctx_prov.items():
+        ctx["province"][lang][key] = v
+    (DIST / "data" / "context-medians.json").write_text(json.dumps(ctx, separators=(",", ":")), encoding="utf-8")
     gz = precompress()
     counts = {"school": len(list((DIST / "school").glob("*/index.html"))), "board": len(list((DIST / "board").glob("*/index.html"))),
               "fsa": len(list((DIST / "fsa").glob("*/index.html")))}

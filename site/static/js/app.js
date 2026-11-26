@@ -42,15 +42,16 @@ function renderCompare() {
   for (const btn of qsa("[data-compare-toggle]")) {
     const on = list.some((x) => x.id === btn.dataset.compareToggle);
     btn.setAttribute("aria-pressed", String(on));
-    const label = btn.querySelector("span");
+    const label = btn.querySelector("span:not(.visually-hidden)");
     if (label) label.textContent = on ? "Added to compare" : "Compare";
+    btn.title = on ? "Remove from compare" : "Add to compare";
   }
   const tray = qs("[data-compare-tray]");
   if (tray) {
     const onComparePage = document.body.classList.contains("page-compare");
     tray.hidden = list.length === 0 || onComparePage;
     document.body.classList.toggle("has-tray", !tray.hidden);
-    qs("[data-compare-label]", tray).textContent = list.length === 1 ? `1 school: ${list[0].name}` : `${list.length} schools to compare`;
+    qs("[data-compare-label]", tray).textContent = list.length === 1 ? `1 school: ${list[0].name} · add another` : `${list.length} of 6 schools to compare`;
     qs("[data-compare-link]", tray).href = `/compare/?ids=${list.map((x) => encodeURIComponent(x.id)).join(",")}`;
   }
 }

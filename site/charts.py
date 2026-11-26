@@ -25,26 +25,28 @@ def short_year(y: str) -> str:
 
 
 def eqao_chart(rows: list[dict], years: list[str], *, title: str, main_key: str = "pct_at_or_above_standard",
-               main_label: str = "This school", w: int = 360, h: int = 200) -> str:
+               main_label: str = "This school", w: int = 360, h: int = 200, board_key: str = "board_median",
+               prov_key: str = "province_median", ymax: float = 100, unit: str = "%", gap: bool = True) -> str:
     """Line chart: school (solid), board median (dashed), Ontario median (dotted)."""
     pad_l, pad_r, pad_t, pad_b = 34, 34, 14, 34
     xs = _x_positions(years, pad_l, w - pad_r)
 
     def y_of(v):
-        return pad_t + (h - pad_t - pad_b) * (1 - v / 100)
+        return pad_t + (h - pad_t - pad_b) * (1 - min(v, ymax) / ymax)
 
     by_year = {r["year"]: r for r in rows}
     out = [f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="{escape(title)}" preserveAspectRatio="xMidYMid meet">']
     # pandemic gap band
-    if EQAO_GAP[0] in xs and EQAO_GAP[1] in xs:
+    if gap and EQAO_GAP[0] in xs and EQAO_GAP[1] in xs:
         x0, x1 = xs[EQAO_GAP[0]] + 10, xs[EQAO_GAP[1]] - 10
         if x1 > x0:
             out.append(f'<rect class="gap-band" x="{x0:.1f}" y="{pad_t}" width="{x1 - x0:.1f}" height="{h - pad_t - pad_b}" rx="4"/>')
             out.append(f'<text class="gap-label" x="{(x0 + x1) / 2:.1f}" y="{pad_t + 12}" text-anchor="middle">no tests</text>')
-    for g in (0, 25, 50, 75, 100):
+    for g in [ymax * f for f in (0, .25, .5, .75, 1)]:
+        g = int(g) if float(g).is_integer() else round(g, 1)
         y = y_of(g)
         out.append(f'<line class="grid-line" x1="{pad_l}" x2="{w - pad_r}" y1="{y:.1f}" y2="{y:.1f}"/>')
-        out.append(f'<text class="axis-label" x="{pad_l - 6}" y="{y + 4:.1f}" text-anchor="end">{g}%</text>')
+        out.append(f'<text class="axis-label" x="{pad_l - 6}" y="{y + 4:.1f}" text-anchor="end">{g}{unit}</text>')
     for yv, x in xs.items():
         out.append(f'<text class="axis-label" x="{x:.1f}" y="{h - 12}" text-anchor="middle">{short_year(yv)}</text>')
 
@@ -68,15 +70,15 @@ def eqao_chart(rows: list[dict], years: list[str], *, title: str, main_key: str 
             out.append(f'<path class="{cls}" d="{d}"/>')
         return segs
 
-    path("province_median", "s-prov")
-    path("board_median", "s-board")
+    path(prov_key, "s-prov")
+    path(board_key, "s-board")
     for yv in years:
         r = by_year.get(yv)
         if not r:
             continue
-        for key, cls, rad in (("province_median", "p-prov", 2.5), ("board_median", "p-board", 2.5)):
+        for key, cls, rad in ((prov_key, "p-prov", 2.5), (board_key, "p-board", 2.5)):
             if r.get(key) is not None:
-                out.append(f'<circle class="{cls}" cx="{xs[yv]:.1f}" cy="{y_of(r[key]):.1f}" r="{rad}"><title>{escape(short_year(yv))}: {r[key]}%</title></circle>')
+                out.append(f'<circle class="{cls}" cx="{xs[yv]:.1f}" cy="{y_of(r[key]):.1f}" r="{rad}"><title>{escape(short_year(yv))}: {r[key]}{unit}</title></circle>')
     path(main_key, "s-school")
     last_val = None
     for yv in years:
@@ -85,13 +87,13 @@ def eqao_chart(rows: list[dict], years: list[str], *, title: str, main_key: str 
             continue
         v = r.get(main_key)
         if v is not None:
-            out.append(f'<circle class="p-school" cx="{xs[yv]:.1f}" cy="{y_of(v):.1f}" r="4"><title>{escape(main_label)} {escape(short_year(yv))}: {v}%</title></circle>')
+            out.append(f'<circle class="p-school" cx="{xs[yv]:.1f}" cy="{y_of(v):.1f}" r="4"><title>{escape(main_label)} {escape(short_year(yv))}: {v}{unit}</title></circle>')
             last_val = (xs[yv], y_of(v), v)
         elif r.get("code"):
             out.append(f'<text class="code-label" x="{xs[yv]:.1f}" y="{h - pad_b - 6}" text-anchor="middle">{escape(r["code"])}</text>')
     if last_val:
         x, y, v = last_val
-        out.append(f'<text class="v-label" x="{x + 8:.1f}" y="{y + 4:.1f}">{v:g}%</text>')
+        out.append(f'<text class="v-label" x="{x + 8:.1f}" y="{y + 4:.1f}">{v:g}{unit}</text>')
     out.append("</svg>")
     return "".join(out)
 

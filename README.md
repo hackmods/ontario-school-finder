@@ -22,13 +22,15 @@ check.sh    the definition of done: clean rebuild + every test + screenshots
 
 | # | Source | Used for | Licence |
 |---|--------|----------|---------|
-| 1 | Ontario *School information and student demographics* (8 school years, 2017-18 to 2024-25) | school list, coordinates, EQAO results, student context | OGL – Ontario |
+| 1 | Ontario *School information and student demographics* (9 files: 2015-16, 2017-18 to 2024-25) | school list, coordinates, EQAO results 2016-17 to 2024-25, student context | OGL – Ontario |
 | 2 | Ontario *public school contact information* (Nov 2026) | phone, email, website, open status, opening date | OGL – Ontario |
 | 4 | Ontario *School board achievements and progress* (May + Nov 2026 releases) | official board results, credits, graduation | OGL – Ontario |
 | 5 | Ontario *public schools enrolment* (2011-12 to 2024-25) | enrolment trend | OGL – Ontario |
 | 7 | Statistics Canada 2021 FSA boundary file | postal-area outlines | Statistics Canada Open Licence |
 | 9 | Statistics Canada 2021 Census Profile by FSA (Census Profile API) | area context | Statistics Canada Open Licence |
 | 10 | Ontario *Licensed child care facilities* (Sept 2026) | child care at each school's address and in each area | OGL – Ontario |
+| 12 | Ontario *School enrolment by grade* (2017-18 to 2024-25) | students in each grade | OGL – Ontario |
+| 13 | Ontario *Elementary class size* (2007-08 to 2025-26) | class sizes per school, 19 years | OGL – Ontario |
 
 Skipped: #6 *Board service area* (listed as "under review" with no files), #8 census subdivisions (only needed for #6), #3 EQAO repository and #11 board attendance boundaries (Phase 2). Details and retrieval dates are on `/methodology/` and in `pipeline/report.md`.
 

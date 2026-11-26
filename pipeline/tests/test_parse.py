@@ -79,3 +79,8 @@ def test_postal_and_fsa():
     assert parse.norm_postal("p6a 3m7") == "P6A3M7"
     assert parse.norm_postal("P6A3M") is None
     assert parse.fsa_of("P6A3M7") == "P6A"
+
+
+def test_french_codes_map_to_their_english_meaning():
+    assert parse.parse_pct("S. R.", context="t") == (None, "N/R")
+    assert parse.parse_pct("A/D", context="t") == (None, "N/D")

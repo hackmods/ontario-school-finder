@@ -58,6 +58,7 @@ function render(extraTop = "") {
     shown += 30;
     render(extraTop);
   });
+  document.dispatchEvent(new CustomEvent("osf:compare"));
   mapRows = rows.slice(0, 300);
   const m = qs('[data-map="results"]', root);
   if (m) {

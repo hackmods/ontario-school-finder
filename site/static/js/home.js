@@ -21,6 +21,7 @@ let level = "all";
 function render() {
   if (!state) return;
   list.innerHTML = nearest(state.rows, state.at, { level, limit: 12 }).map((r) => schoolRow(r, { distance: r.d })).join("");
+  document.dispatchEvent(new CustomEvent("osf:compare"));
 }
 btn?.addEventListener("click", async () => {
   btn.disabled = true;

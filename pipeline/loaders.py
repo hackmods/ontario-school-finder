@@ -122,8 +122,8 @@ EQAO_COLS = [
 ASSESSMENTS = {a: {"id": a, "grade": g, "subject": s} for a, g, s, _, _ in EQAO_COLS}
 
 
-def sif_expected_columns(g9: str) -> list[str]:
-    cols = list(SIF_INFO_COLS) + [c[2] for c in SIF_CONTEXT_COLS]
+def sif_expected_columns(g9: str, eqao_only: bool = False) -> list[str]:
+    cols = list(SIF_INFO_COLS) + ([] if eqao_only else [c[2] for c in SIF_CONTEXT_COLS])
     cols += [c for _, _, _, c, layout in EQAO_COLS if layout in (None, g9)]
     return cols
 
@@ -134,7 +134,7 @@ def load_sif(res: dict) -> dict:
     title, header, body = read_xlsx(path)
     if res.get("sheet_must_contain") and res["sheet_must_contain"] not in title:
         raise SchemaChanged(f"{res['id']}: sheet '{title}' does not name EQAO year {res['sheet_must_contain']} — the file may have been replaced.")
-    require_columns(res["id"], header, sif_expected_columns(res["g9"]))
+    require_columns(res["id"], header, sif_expected_columns(res["g9"], res.get("eqao_only", False)))
     idx = {h: i for i, h in enumerate(header) if h}
     rows: dict[str, dict] = {}
     stats = Counter()
@@ -153,7 +153,7 @@ def load_sif(res: dict) -> dict:
         for col in SIF_INFO_COLS:
             rec[col] = g(col)
         ctx = {}
-        for key, _label, col, _d in SIF_CONTEXT_COLS:
+        for key, _label, col, _d in ([] if res.get("eqao_only") else SIF_CONTEXT_COLS):
             v, code = parse.parse_pct(g(col), context=f"{res['id']} {bsid} {col}", numeric=res.get("context_numeric"))
             ctx[key] = {"value": v, **parse.flags(code)}
             if code:
@@ -433,3 +433,148 @@ def load_census(fsas: list[str]) -> dict:
                 rec[key] = int(x) if unit in ("count", "dollars") else round(x, 1)
         out[f] = rec
     return {"rows": out, "stats": {"fsas_with_census": len(out), "fsas_requested": len(fsas)}}
+
+
+# ---------------------------------------------------------------------------
+# 12. School enrolment by grade (one file per year)
+# ---------------------------------------------------------------------------
+
+GRADE_KEYS = ["JK", "K"] + [f"G{i}" for i in range(1, 13)]
+
+
+def grade_key(header: str) -> str | None:
+    h = header.lower()
+    if re.match(r"^(junior kindergarten|jk)\b", h):
+        return "JK"
+    if re.match(r"^(kindergarten|senior kindergarten|sk|k)\b", h):
+        return "K"
+    m = re.match(r"^(grade|gr\.?)\s*(\d{1,2})\b", h)
+    return f"G{int(m.group(2))}" if m and 1 <= int(m.group(2)) <= 12 else None
+
+
+def load_grade_enrolment(res: dict) -> dict:
+    fmt = res.get("fmt", "txt")
+    path = fetch.download(res["id"], res["url"], expect=fmt)
+    if fmt == "xlsx":
+        _t, header, body = read_xlsx(path)
+        body = [["" if v is None else v for v in r] for r in body]
+    else:
+        header, body = read_pipe_txt(path)
+    header = [h or "" for h in header]
+    require_columns(res["id"], header, ["School Number"])
+    gcols = {}
+    for i, h in enumerate(header):
+        k = grade_key(h)
+        if k and k not in gcols:
+            gcols[k] = i
+    if set(gcols) != set(GRADE_KEYS):
+        raise SchemaChanged(f"{res['id']}: expected grade columns JK, K, Grade 1-12; found {sorted(gcols)} in {header}")
+    si = header.index("School Number")
+    out, stats = {}, Counter()
+    for r in body:
+        if si >= len(r):
+            continue
+        bsid = school_number(r[si])
+        if not bsid or not re.fullmatch(r"[0-9A-Z]{6}", bsid):
+            stats["skipped_rows"] += 1
+            continue
+        grades, codes = {}, {}
+        for k, i in gcols.items():
+            raw = r[i] if i < len(r) else None
+            v, code = parse.parse_count(raw, context=f"{res['id']} {bsid} {k}")
+            if code == "BLANK":
+                continue  # grade not offered
+            grades[k] = v
+            if code:
+                codes[k] = code
+                stats[f"code_{code}"] += 1
+        if grades:
+            out[bsid] = {"grades": grades, "codes": codes}
+    stats["schools"] = len(out)
+    return {"rows": out, "stats": dict(stats)}
+
+
+# ---------------------------------------------------------------------------
+# 13. Elementary class size (one row per class; keyed by board and school NAME)
+# ---------------------------------------------------------------------------
+
+CS_COLS = {
+    "year": r"^(schoolyear|academic year)$",
+    "board": r"^(boardname|board_long_name)$",
+    "school": r"^(schoolname|school_long_name)$",
+    "JK": r"^jk$", "K": r"^k$", "G1": r"^g1$", "G2": r"^g2$", "G3": r"^g3$",
+    "G48": r"^(g4to8|gr4to8|g4g8)$",
+}
+
+
+def _cs_year(v) -> str:
+    s = str(v).strip()
+    m = re.match(r"^(\d{4})-(\d{2,4})$", s)
+    if not m:
+        raise SchemaChanged(f"class size: unreadable school year {v!r}")
+    return f"{m.group(1)}-{m.group(2)[-2:]}"
+
+
+def load_class_size(res: dict) -> dict:
+    """Aggregate class lists into per-school, per-year figures (keys are board + school names)."""
+    path = fetch.download(res["id"], res["url"], expect="xlsx")
+    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
+    agg: dict[tuple, dict] = {}
+    stats = Counter()
+    for ws in wb.worksheets:
+        rows = ws.iter_rows(values_only=True)
+        try:
+            header = [norm_header(h).lower() if h is not None else "" for h in next(rows)]
+        except StopIteration:
+            continue
+        idx = {}
+        for key, pat in CS_COLS.items():
+            hits = [i for i, h in enumerate(header) if re.match(pat, h)]
+            if hits:
+                idx[key] = hits[0]
+        if "year" not in idx:
+            stats["sheets_skipped_other_language"] += 1  # the French copy of the same data
+            continue
+        missing = [k for k in CS_COLS if k not in idx]
+        if missing:
+            raise SchemaChanged(f"{res['id']} sheet {ws.title!r}: class size columns missing {missing}; found {header}")
+        for r in rows:
+            if r is None or r[idx["school"]] in (None, ""):
+                continue
+            counts = {}
+            bad = False
+            for k in ("JK", "K", "G1", "G2", "G3", "G48"):
+                v = r[idx[k]]
+                if v in (None, ""):
+                    v = 0
+                if isinstance(v, str):
+                    if v.strip().isdigit():
+                        v = int(v.strip())
+                    else:
+                        bad = True
+                        break
+                counts[k] = int(v)
+            if bad:
+                stats["classes_with_withheld_counts"] += 1
+                continue
+            size = sum(counts.values())
+            if size <= 0:
+                continue
+            year = _cs_year(r[idx["year"]])
+            key = (year, str(r[idx["board"]]).strip(), str(r[idx["school"]]).strip())
+            a = agg.setdefault(key, {"classes": 0, "students": 0, "primary": [], "kinder": [], "junior": [], "combined": 0})
+            a["classes"] += 1
+            a["students"] += size
+            groups = {"k": counts["JK"] + counts["K"] > 0, "p": counts["G1"] + counts["G2"] + counts["G3"] > 0, "j": counts["G48"] > 0}
+            if sum(groups.values()) > 1:
+                a["combined"] += 1
+            elif groups["p"]:
+                a["primary"].append(size)
+            elif groups["k"]:
+                a["kinder"].append(size)
+            else:
+                a["junior"].append(size)
+            stats[f"classes_{year}"] += 1
+    wb.close()
+    stats["school_years"] = len(agg)
+    return {"rows": agg, "stats": dict(stats)}

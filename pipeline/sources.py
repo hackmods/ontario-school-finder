@@ -112,6 +112,26 @@ DATASETS: dict[str, dict] = {
         "used_for": "Licensed child care at each school's address and in each postal area.",
         "status": "used",
     },
+    "enrol_grade": {
+        "brief_no": 12,
+        "title": "School enrolment by grade",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "school-enrolment-by-grade",
+        "ckan_id": "school-enrolment-by-grade",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: how many students are in each grade at each school, 2017-18 to 2024-25.",
+        "status": "used",
+    },
+    "class_size": {
+        "brief_no": 13,
+        "title": "Elementary class size",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "elementary-class-size",
+        "ckan_id": "elementary-class-size",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: class sizes at each elementary school, 2007-08 to 2025-26 (primary classes every year; all classes from 2014-15).",
+        "status": "used",
+    },
     "attendance": {
         "brief_no": 11,
         "title": "Board-published attendance boundaries",
@@ -150,6 +170,11 @@ SIF_RESOURCES = [
          url=SIF_URL.format("bbbac037-b1c9-4b32-8f67-4fed1dfcac06", "sif_data_table_2018_2019_en.xlsx"), sheet_must_contain="EQAO1819"),
     dict(id="sif-2017-18", year="2017-18", context_numeric="whole", eqao_year="2017-18", g9=G9_STREAMED, note="",
          url=SIF_URL.format("3d8e7824-d033-4ca5-a5de-aa0dbec99002", "sif_data_table_2017_2018_en.xlsx"), sheet_must_contain="EQAO1718"),
+    # Older file, no longer listed on the dataset page but still published on files.ontario.ca.
+    # Its student-context columns differ (and use decimals), so only school details + EQAO are read.
+    dict(id="sif-2015-16", year="2015-16", eqao_year="2016-17", g9=G9_STREAMED, eqao_only=True, sheet_must_contain="EQAO1617",
+         note="Archived 2015-16 file; carries 2016-17 EQAO results (sheet SIF_1516Data_EQAO1617_EN)",
+         url="https://files.ontario.ca/opendata/sif_data_table_2015_2016_en.xlsx"),
 ]
 
 CONTACT_RESOURCE = dict(
@@ -257,6 +282,32 @@ def all_resources() -> list[dict]:
     for r in ENROL_RESOURCES:
         out.append({**r, "dataset": "enrol"})
     out.append({**CHILDCARE_RESOURCE, "dataset": "childcare"})
+    for r in ENROL_GRADE_RESOURCES:
+        out.append({**r, "dataset": "enrol_grade"})
+    for r in CLASS_SIZE_RESOURCES:
+        out.append({**r, "dataset": "class_size"})
     out.append({**FSA_RESOURCE, "dataset": "fsa_boundary"})
     out.append({**CENSUS_RESOURCE, "dataset": "census"})
     return out
+
+
+EGR_URL = "https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/{}/download/{}"
+ENROL_GRADE_RESOURCES = [
+    dict(id="egrade-2024-25", year="2024-25", url=EGR_URL.format("9b8f3fb2-5008-4f04-9857-5e0e35feff60", "enrolment_by_grade_2024-2025_en.txt")),
+    dict(id="egrade-2023-24", year="2023-24", url=EGR_URL.format("aa4bae0d-95b0-4d13-b7ee-20bdca16f432", "enrol_by_grade_en.txt")),
+    dict(id="egrade-2022-23", year="2022-23", url=EGR_URL.format("5771f96b-0c04-4f87-8c18-a2258a163cdf", "enrol_grade_en.txt")),
+    dict(id="egrade-2021-22", year="2021-22", url=EGR_URL.format("948c3dc9-f3a0-4cfa-a70a-e2fb779b09dc", "enrol_grade_2122_en.txt")),
+    dict(id="egrade-2020-21", year="2020-21", url=EGR_URL.format("7b5d32cf-4f67-43c7-9aef-c435c5158d29", "en_school_enrolment_by_grade_2020-2021.txt")),
+    dict(id="egrade-2019-20", year="2019-20", url=EGR_URL.format("0e44519d-0d49-426b-87cb-a209afeb21d0", "enrol_grade_en_1920.txt")),
+    dict(id="egrade-2018-19", year="2018-19", fmt="xlsx", url=EGR_URL.format("daf0e0e2-2fb0-41a3-b8db-d80a9f77d4b5", "pubschenrolgr1819en_supp.xlsx")),
+    dict(id="egrade-2017-18", year="2017-18", fmt="xlsx", url=EGR_URL.format("3db3bb6a-7dff-4015-9534-e78a19425feb", "pubschenrolgr1718en_supp.xlsx")),
+]
+
+CS_URL = "https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/{}/download/{}"
+CLASS_SIZE_RESOURCES = [
+    dict(id="classsize-2007-23", year="2007-08 to 2022-23", url=CS_URL.format("95db507f-ccae-4711-836f-f5571fcea753", "2007-08_to_2022-23_class_size_data_june_15.xlsx"),
+         note="One sheet per school year; before 2014-15 only primary (JK to Grade 3) classes are listed"),
+    dict(id="classsize-2023-24", year="2023-24", url=CS_URL.format("41110399-2d30-43f3-8967-e8e55185aa6a", "elementary_class_size_open_data_suppressed_2023-24_fr.xlsx")),
+    dict(id="classsize-2024-25", year="2024-25", url=CS_URL.format("abc5d307-ecfb-482f-b74f-f1703d2af039", "2024-25_elementary_class_size_open_data_v.1_engfr.xlsx")),
+    dict(id="classsize-2025-26", year="2025-26", url=CS_URL.format("6f67ef06-a420-47cb-bf6b-2621adc2ffb0", "2025-26_elementary_class_sizes_open_data1.xlsx")),
+]

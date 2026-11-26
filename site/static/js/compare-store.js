@@ -1,7 +1,7 @@
-// The compare list: up to 3 schools, kept only in this browser's local storage.
+// The compare list: up to 6 schools, kept only in this browser's local storage.
 import { store } from "./lib.js";
 
-export const MAX_COMPARE = 3;
+export const MAX_COMPARE = 6;
 
 export function getCompare() {
   const v = store.get("osf-compare", []);

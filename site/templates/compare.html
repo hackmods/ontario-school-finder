@@ -3,20 +3,45 @@
 {% block main %}
 <div class="page-head"><div class="wrap">
   <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">Compare</li></ol>
-  <h1>Compare schools</h1>
-  <p class="lede" style="margin:0">Up to three schools side by side, using the same measures and the same school years.</p>
+  <div class="head-row">
+    <div style="min-width:0">
+      <h1>Compare schools</h1>
+      <p class="lede" style="margin:0">Up to six schools side by side — every measure we publish, the same school years, with board and Ontario medians for context.</p>
+    </div>
+    <div class="head-actions" data-cmp-actions hidden>
+      <button class="btn" type="button" data-cmp-share>{{ icon("link") }}<span>Copy link</span></button>
+      <button class="btn" type="button" data-cmp-csv>{{ icon("download") }}Download CSV</button>
+      <button class="btn btn-ghost" type="button" data-cmp-print>Print</button>
+    </div>
+  </div>
+  <div class="cmp-picker">
+    <div class="search search-sm" data-search data-search-compare>
+      <form class="search-box" action="/search/" role="search">
+        {{ icon("search", "lead") }}
+        <label class="visually-hidden" for="cq">Add a school to compare</label>
+        <input id="cq" name="q" type="search" placeholder="Add a school by name, city or postal code" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="cq-list">
+        <button class="icon-btn" type="submit" aria-label="Add">{{ icon("plus") }}</button>
+      </form>
+      <div class="suggest" id="cq-list" role="listbox" hidden></div>
+    </div>
+    <ul class="cmp-chips" data-cmp-chips aria-label="Schools being compared"></ul>
+  </div>
+  <div class="cmp-options" data-cmp-options hidden>
+    <label class="cmp-toggle"><input type="checkbox" data-opt="prov" checked> Ontario median</label>
+    <label class="cmp-toggle"><input type="checkbox" data-opt="board"> Board medians</label>
+  </div>
 </div></div>
+
+<nav class="subnav" aria-label="Comparison sections" data-cmp-nav hidden>
+  <div class="wrap">
+    <a href="#cmp-overview">Overview</a><a href="#cmp-eqao">EQAO</a><a href="#cmp-enrolment">Enrolment</a><a href="#cmp-grades">By grade</a>
+    <a href="#cmp-class">Class sizes</a><a href="#cmp-students">Students</a><a href="#cmp-area">Area</a><a href="#cmp-nearby">Child care</a><a href="#cmp-sources">Sources</a>
+  </div>
+</nav>
+
 <section class="block"><div class="wrap">
   <noscript><div class="note">{{ icon("info") }}<div><p>Comparing needs JavaScript. Every school page has the full figures.</p></div></div></noscript>
-  <div class="search search-sm" data-search data-search-compare style="max-width:520px;margin-bottom:16px">
-    <form class="search-box" action="/search/" role="search">
-      <label class="visually-hidden" for="cq">Add a school to compare</label>
-      <input id="cq" name="q" type="search" placeholder="Add a school by name" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="cq-list">
-      <button class="icon-btn" type="submit" aria-label="Search">{{ icon("plus") }}</button>
-    </form>
-    <div class="suggest" id="cq-list" role="listbox" hidden></div>
-  </div>
-  <div data-compare-root><p class="loading">Loading…</p></div>
+  <div data-compare-root aria-live="polite"><p class="loading">Loading…</p></div>
 </div></section>
 {% endblock %}
 {% block scripts %}<script type="module" src="{{ asset('js/compare.js') }}"></script>{% endblock %}

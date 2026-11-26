@@ -73,6 +73,19 @@
 </section>
 {% endif %}
 
+{% if cs_board %}
+<section class="block" id="class-sizes">
+  <div class="wrap">
+    <h2>Class sizes over time</h2>
+    <p class="block-intro">Average Grades 1–3 class size at the median school in {{ b.name }}, against the median {{ b.language }}-language school in Ontario. Computed from the Ministry’s elementary class lists.</p>
+    <div class="card"><ul class="legend-inline"><li><i class="l-school"></i>Board median</li><li><i class="l-prov"></i>Ontario median</li></ul>
+    <div class="chart">{{ cs_board.svg|safe }}</div>
+    <details class="data-table"><summary>Show the numbers</summary><div class="table-wrap"><table><thead><tr><th scope="col">Year</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Schools</th><th scope="col" class="n">Ontario median</th></tr></thead>
+    <tbody>{% for r in cs_board.rows|reverse %}<tr><th scope="row">{{ r.year }}</th><td class="n">{{ r.board_median }}</td><td class="n">{{ r.board_n }}</td><td class="n">{{ r.province_median if r.province_median is not none else "—" }}</td></tr>{% endfor %}</tbody></table></div></details></div>
+  </div>
+</section>
+{% endif %}
+
 <section class="block" id="schools">
   <div class="wrap">
     <h2>All {{ b.schools|length }} schools</h2>

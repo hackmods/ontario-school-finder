@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 03:39 UTC in 108 s.
+Generated 2026-11-26 03:53 UTC in 266 s.
 
 ## Output
 
@@ -23,6 +23,7 @@ Generated 2026-11-26 03:39 UTC in 108 s.
 | sif-2019-20 | 4889 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/602a5186-67f5-4faf-94f3-7c61ffc4719a/download/sif_data_table_2019_2020_en.xlsx |
 | sif-2018-19 | 4853 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/bbbac037-b1c9-4b32-8f67-4fed1dfcac06/download/sif_data_table_2018_2019_en.xlsx |
 | sif-2017-18 | 4876 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/3d8e7824-d033-4ca5-a5de-aa0dbec99002/download/sif_data_table_2017_2018_en.xlsx |
+| sif-2015-16 | 4934 | schools | 2026-11-26 | https://files.ontario.ca/opendata/sif_data_table_2015_2016_en.xlsx |
 | contact-2026-11 | 5853 | schools and sites | 2026-11-26 | https://data.ontario.ca/dataset/fb3a7c18-90af-453e-bc0a-a76ecc471862/resource/f3a8c2a3-09d9-4715-9044-d8a0189f572c/download/public_school_contact_list_november2026_en.txt |
 | sbpr-2026-11 | 73 | boards | 2026-11-26 | https://data.ontario.ca/en/dataset/71244894-f3e1-4be0-a69a-9bdc4eb45ac1/resource/53f3c491-98dc-44b6-9ed2-6a9e0d5f310a/download/updated_sbpr_data_table_en_nov2026.xlsx |
 | sbpr-2026-05 | 73 | boards | 2026-11-26 | https://data.ontario.ca/en/dataset/71244894-f3e1-4be0-a69a-9bdc4eb45ac1/resource/9d81dc27-32ef-4864-94b5-f09950d00c72/download/updated_sbpr_data_table_en_may2026.xlsx |
@@ -40,6 +41,18 @@ Generated 2026-11-26 03:39 UTC in 108 s.
 | enrol-2013-14 | 4895 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrolment_by_school_2013-14_en.txt |
 | enrol-2012-13 | 4890 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrolment_by_school_2012-2013_en.txt |
 | enrol-2011-12 | 4899 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrolment_by_school_2011-2012_en_2.txt |
+| egrade-2024-25 | 4884 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/9b8f3fb2-5008-4f04-9857-5e0e35feff60/download/enrolment_by_grade_2024-2025_en.txt |
+| egrade-2023-24 | 4891 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/aa4bae0d-95b0-4d13-b7ee-20bdca16f432/download/enrol_by_grade_en.txt |
+| egrade-2022-23 | 4876 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/5771f96b-0c04-4f87-8c18-a2258a163cdf/download/enrol_grade_en.txt |
+| egrade-2021-22 | 4875 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/948c3dc9-f3a0-4cfa-a70a-e2fb779b09dc/download/enrol_grade_2122_en.txt |
+| egrade-2020-21 | 4966 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/7b5d32cf-4f67-43c7-9aef-c435c5158d29/download/en_school_enrolment_by_grade_2020-2021.txt |
+| egrade-2019-20 | 4843 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/0e44519d-0d49-426b-87cb-a209afeb21d0/download/enrol_grade_en_1920.txt |
+| egrade-2018-19 | 4826 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/daf0e0e2-2fb0-41a3-b8db-d80a9f77d4b5/download/pubschenrolgr1819en_supp.xlsx |
+| egrade-2017-18 | 4848 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/3db3bb6a-7dff-4015-9534-e78a19425feb/download/pubschenrolgr1718en_supp.xlsx |
+| classsize-2007-23 | 60197 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/95db507f-ccae-4711-836f-f5571fcea753/download/2007-08_to_2022-23_class_size_data_june_15.xlsx |
+| classsize-2023-24 | 3908 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/41110399-2d30-43f3-8967-e8e55185aa6a/download/elementary_class_size_open_data_suppressed_2023-24_fr.xlsx |
+| classsize-2024-25 | 3906 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/abc5d307-ecfb-482f-b74f-f1703d2af039/download/2024-25_elementary_class_size_open_data_v.1_engfr.xlsx |
+| classsize-2025-26 | 3930 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/6f67ef06-a420-47cb-bf6b-2621adc2ffb0/download/2025-26_elementary_class_sizes_open_data1.xlsx |
 | childcare-2026-09 | 6355 | active licensed sites (snapshot 2026-09-30) | 2026-11-26 | https://data.ontario.ca/dataset/7efd8b4b-cc63-4337-a551-c940a346605b/resource/2b81313c-9ada-4680-abba-4470ec386a2e/download/child_care_facilities_open_data_sep_2026.xlsx |
 | fsa-boundary-2021 | 520 | Ontario FSA polygons | 2026-11-26 | https://services.arcgis.com/wjcPoefzjpzCgffS/arcgis/rest/services/Forward_Sortation_Area_(FSA)_Boundaries_2021/FeatureServer/0 |
 | census-2021-fsa | 520 | FSAs with census figures (of 520) | 2026-11-26 | https://api.statcan.gc.ca/census-recensement/profile/sdmx/rest/dataflow/STC_CP/DF_FSA/1.0 |
@@ -351,6 +364,7 @@ Codes are stored as `null` with a flag, never as 0.
 | sif-2019-20 | context_code_NA: 512, context_code_SP: 1240 |
 | sif-2018-19 | context_code_SP: 1248, eqao_N/D: 1516, eqao_N/R: 1251, eqao_NA: 19014, eqao_value: 21896 |
 | sif-2017-18 | context_code_SP: 1360, eqao_N/D: 1518, eqao_N/R: 1292, eqao_NA: 19165, eqao_value: 21909 |
+| sif-2015-16 | eqao_N/D: 1509, eqao_N/R: 1251, eqao_NA: 19668, eqao_value: 21978 |
 | sbpr-2026-11 | code_-: 4, code_BLANK: 16, code_N/A: 20 |
 | sbpr-2026-05 | code_-: 5, code_BLANK: 15, code_N/A: 20 |
 | enrol-2024-25 | code_<10: 25 |
@@ -381,11 +395,17 @@ Codes are stored as `null` with a flag, never as 0.
 - Nearest-school areas french-public|elementary: 126 cells for 126 schools (0 shared buildings), 942 KB
 - Nearest-school areas french-public|secondary: 47 cells for 47 schools (0 shared buildings), 833 KB
 
+## Class sizes (matched to schools by board and school name)
+
+- Class-list rows matched to a school: 62409 school-years; ambiguous names skipped: 1319
+- Schools with class sizes: 3863
+- Unmatched school-years by year (closed or renamed schools, private/other boards): 2007-08: 692, 2008-09: 675, 2009-10: 641, 2010-11: 605, 2011-12: 578, 2012-13: 526, 2013-14: 503, 2014-15: 506, 2015-16: 565, 2016-17: 516, 2017-18: 482, 2018-19: 422, 2019-20: 428, 2020-21: 295, 2021-22: 222, 2022-23: 206, 2023-24: 160, 2024-25: 152, 2025-26: 39
+
 ## Other gaps
 
 - Schools with a licensed child care site at the same address: 2786
 - Schools not in the current contact list: 0
-- Schools with no EQAO rows at all: 341
+- Schools with no EQAO rows at all: 338
 - FSAs without census figures: 2
 - FSAs with no school inside: 22
 

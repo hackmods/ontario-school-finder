@@ -553,3 +553,37 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
   .stack-table td[data-label]::before { content: attr(data-label) ": "; color: var(--ink-3); font-weight: 600; font-size: .85rem; }
 }
 .has-tray .site-footer { padding-bottom: 96px; }
+
+/* ---------- compare (up to six schools) ---------- */
+:root { --s1: #0b5d4f; --s2: #c2410c; --s3: #2f54d4; --s4: #a21caf; --s5: #4d7c0f; --s6: #b45309; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --s1: #56c9ad; --s2: #fb923c; --s3: #8ea7ff; --s4: #e879f9; --s5: #a3e635; --s6: #fbbf24; } }
+:root[data-theme="dark"] { --s1: #56c9ad; --s2: #fb923c; --s3: #8ea7ff; --s4: #e879f9; --s5: #a3e635; --s6: #fbbf24; }
+.swatch { display: inline-block; width: 12px; height: 12px; border-radius: 4px; margin-right: 6px; vertical-align: -1px; flex: none; }
+.cmp-picker { display: grid; gap: 12px; margin-top: 18px; max-width: 900px; }
+.cmp-chips { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.cmp-chip { display: inline-flex; align-items: center; gap: 2px; min-height: 44px; padding: 0 4px 0 12px; border: 1px solid var(--line-2); border-radius: 999px; background: var(--surface); font-weight: 600; font-size: .9rem; max-width: 100%; }
+.cmp-chip a { color: var(--ink); text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-chip-empty { color: var(--ink-3); border-style: dashed; padding-right: 14px; font-weight: 500; }
+.cmp-options { display: flex; flex-wrap: wrap; gap: 4px 18px; margin-top: 10px; }
+.cmp-toggle { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 600; font-size: .9rem; cursor: pointer; }
+.cmp-toggle input { width: 20px; height: 20px; accent-color: var(--brand); }
+.cmp-section { padding-top: 28px; }
+.cmp-section > h2 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; }
+.cmp-table table { min-width: 520px; }
+.cmp-table th, .cmp-table td { min-width: 120px; }
+.cmp-table thead th { text-transform: none; letter-spacing: 0; font-size: .82rem; color: var(--ink); vertical-align: bottom; white-space: normal; }
+.cmp-table thead th a { color: var(--ink); }
+.cmp-table .sticky { position: sticky; left: 0; z-index: 1; background: var(--surface); min-width: 150px; max-width: 220px; box-shadow: 1px 0 0 var(--line); }
+.cmp-table tbody th.sticky { font-weight: 600; }
+.cmp-table td.n { text-align: left; }
+.cmp-chart .table-wrap { margin-top: 8px; }
+.cmp-chart .legend-inline li, #cmp-enrolment .legend-inline li, #cmp-class .legend-inline li { font-weight: 600; }
+.row-wrap { display: flex; align-items: center; gap: 4px; }
+.row-wrap .row-link { flex: 1; min-width: 0; }
+.row-wrap .icon-btn[aria-pressed="true"] { color: var(--brand); background: var(--brand-tint); }
+@media print {
+  .cmp-picker, .cmp-options, .head-actions, .subnav { display: none !important; }
+  details.data-table { display: block; }
+  details.data-table > * { display: block; }
+  .cmp-table .sticky { position: static; }
+}

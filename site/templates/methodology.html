@@ -39,7 +39,7 @@
   <thead><tr><th scope="col">Code</th><th scope="col">Meaning</th><th scope="col">Shown as</th></tr></thead>
   <tbody>{% for k, c in codes %}<tr><td><span class="code">{{ k }}</span></td><td>{{ c.explain }}</td><td>{{ c.label }}</td></tr>{% endfor %}</tbody>
 </table></div>
-<p class="small muted">Definitions from the Ministry’s dataset notes and <a href="https://www.eqao.com/explanation-of-terms/" rel="noopener">EQAO’s explanation of terms</a>. Assessments a school doesn’t offer (code NA, for example Grade 9 math at an elementary school) are left out of that school’s page.</p>
+<p class="small muted">Definitions from the Ministry’s dataset notes and <a href="https://www.eqao.com/explanation-of-terms/" rel="noopener">EQAO’s explanation of terms</a>. Assessments a school doesn’t offer (code NA, for example Grade 9 math at an elementary school) are left out of that school’s page. Older files use the French forms <span class="code">S. R.</span> and <span class="code">A/D</span> for French-language schools; they mean N/R and N/D and are shown that way.</p>
 
 <h2 id="context">Student population and enrolment</h2>
 <p>The “About the students” figures (first language, newcomers, special education, gifted, low-income households and parents’ education) come from the latest Ministry file ({{ meta.latest_sif }}). The last two are estimates the Ministry builds by matching student postal codes to Statistics Canada census data. Values are suppressed (<span class="code">SP</span>) when fewer than 10 students are represented.</p>

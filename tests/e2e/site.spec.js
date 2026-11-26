@@ -114,16 +114,40 @@ test.describe("pages", () => {
     await expect(page.locator("#indicators table")).toBeVisible();
   });
 
-  for (const n of [2, 3]) {
+  for (const n of [2, 3, 6]) {
     test(`compare works with ${n} schools`, async ({ page }) => {
       const ids = await pickSchools(page, n);
       const w = watch(page);
       await page.goto(`/compare/?ids=${ids.join(",")}`);
-      await expect(page.locator(".compare-col")).toHaveCount(n);
-      await expect(page.locator(".compare-col").first()).toContainText("EQAO");
+      await expect(page.locator("[data-cmp-chips] .cmp-chip:not(.cmp-chip-empty)")).toHaveCount(n);
+      // every comparison table has one column per school plus the measure column
+      await expect(page.locator("#cmp-overview thead th")).toHaveCount(n + 1);
+      for (const id of ["#cmp-eqao", "#cmp-enrolment", "#cmp-grades", "#cmp-class", "#cmp-students", "#cmp-area", "#cmp-sources"]) {
+        await expect(page.locator(id)).toBeVisible();
+      }
+      await expect(page.locator("#cmp-eqao svg").first()).toBeVisible();
       expect(w.errors).toEqual([]);
     });
   }
+
+  test("compare adds a school from search, removes one, and downloads CSV", async ({ page }) => {
+    const ids = await pickSchools(page, 2);
+    await page.goto(`/compare/?ids=${ids.join(",")}`);
+    await page.fill("#cq", "McCrea");
+    await page.locator("#cq-list [role=option]", { hasText: "Anna McCrea" }).first().click();
+    await expect(page.locator("[data-cmp-chips] .cmp-chip:not(.cmp-chip-empty)")).toHaveCount(ids.includes("019186") ? 2 : 3);
+    await expect(page).toHaveURL(/019186/);
+    const [download] = await Promise.all([page.waitForEvent("download"), page.locator("[data-cmp-csv]").click()]);
+    expect(download.suggestedFilename()).toMatch(/^school-comparison-.*\.csv$/);
+    await page.locator("[data-remove]").first().click();
+    await expect(page.locator("[data-cmp-chips] .cmp-chip:not(.cmp-chip-empty)")).toHaveCount(ids.includes("019186") ? 1 : 2);
+  });
+
+  test("school page shows class sizes and students by grade", async ({ page }) => {
+    await page.goto(`/school/${SCHOOL}/`);
+    await expect(page.locator("#class-sizes svg")).toBeVisible();
+    await expect(page.locator("#grades table")).toBeVisible();
+  });
 
   test("map legend shows every layer label", async ({ page }) => {
     await page.goto("/map/");
@@ -230,9 +254,9 @@ test.describe("evidence screenshots", () => {
     await waitForMap(page);
     await page.evaluate(() => window.scrollTo(0, 0));
     await page.screenshot({ path: path.join(EVIDENCE, "school-page-1280.png"), fullPage: true });
-    const ids = await pickSchools(page, 3);
+    const ids = await pickSchools(page, 4);
     await page.goto(`/compare/?ids=${ids.join(",")}`);
-    await page.locator(".compare-col").nth(2).waitFor();
+    await page.locator("#cmp-eqao svg").first().waitFor();
     await page.screenshot({ path: path.join(EVIDENCE, "compare-1280.png"), fullPage: true });
     await page.goto("/methodology/");
     await page.screenshot({ path: path.join(EVIDENCE, "methodology-1280.png"), fullPage: true });

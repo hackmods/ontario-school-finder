@@ -20,6 +20,7 @@ class Report:
         self.boards_without_area: list[str] = []
         self.childcare_at_school = 0
         self.relocated: list[dict] = []
+        self.class_size: dict = {}
         self.elapsed = 0
 
     def count(self, source_id: str, n: int, what: str) -> None:
@@ -97,6 +98,13 @@ class Report:
         if self.boards_without_area:
             L.append(f"- Boards with regular schools but no area polygon: {', '.join(self.boards_without_area)}")
         L.append("")
+        cs = self.class_size
+        if cs:
+            L += ["## Class sizes (matched to schools by board and school name)", "",
+                  f"- Class-list rows matched to a school: {cs['matched']} school-years; ambiguous names skipped: {cs['ambiguous']}",
+                  f"- Schools with class sizes: {cs['schools_with_class_sizes']}",
+                  "- Unmatched school-years by year (closed or renamed schools, private/other boards): "
+                  + ", ".join(f"{y}: {n}" for y, n in cs["unmatched_by_year"].items()), ""]
         L += ["## Other gaps", "",
               f"- Schools with a licensed child care site at the same address: {self.childcare_at_school}",
               f"- Schools not in the current contact list: {sum(1 for s in schools if s['status'] != 'open')}",

@@ -80,12 +80,18 @@ def _blank(v) -> bool:
     return v is None or (isinstance(v, float) and math.isnan(v)) or (isinstance(v, str) and v.strip() == "")
 
 
+# French-language rows in older files use French codes for the same meanings.
+CODE_ALIASES = {"S.R.": "N/R", "SR": "N/R", "A/D": "N/D"}
+
+
 def code_of(v) -> str | None:
     """Return the source code for a non-numeric cell, or None if the cell holds a number."""
     if _blank(v):
         return "BLANK"
     if isinstance(v, str):
         s = v.strip().upper().replace(" ", "")
+        if s in CODE_ALIASES:
+            return CODE_ALIASES[s]
         for key in CODES:
             if s == key.replace(" ", ""):
                 return key
