@@ -305,7 +305,8 @@ class Site:
         if len(pts) >= 2 and pts[0]["year"] != pts[-1]["year"]:
             d = round(pts[-1]["pct_at_or_above_standard"] - pts[0]["pct_at_or_above_standard"], 1)
             word = "Up" if d > 0 else "Down" if d < 0 else "Unchanged"
-            parts.append(f" {word}{f' {abs(d):g} points' if d else ''} since {pts[0]['year']}.")
+            unit = "point" if abs(d) == 1 else "points"
+            parts.append(f" {word}{f' {abs(d):g} {unit}' if d else ''} since {pts[0]['year']}.")
         return "".join(parts)
 
     # ------------------------------------------------------------------
