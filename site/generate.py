@@ -568,17 +568,17 @@ def clear_dir(d: Path) -> None:
     """Empty the output folder but keep it (Windows refuses to delete a folder a local preview server is serving)."""
     d.mkdir(parents=True, exist_ok=True)
     for child in d.iterdir():
-        for attempt in range(5):
+        for attempt in range(8):
             try:
                 if child.is_dir():
                     shutil.rmtree(child)
                 else:
                     child.unlink()
                 break
-            except PermissionError:
-                if attempt == 4:
+            except OSError:  # file locks / "directory not empty" while Windows indexing or scanning catches up
+                if attempt == 7:
                     raise
-                time.sleep(0.5)
+                time.sleep(1 + attempt)
 
 
 def main() -> int:
