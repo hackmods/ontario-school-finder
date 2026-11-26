@@ -8,10 +8,13 @@ export const shortYear = (y) => (y && y.length === 7 ? `${y.slice(2, 4)}–${y.s
 /**
  * years: ordered list of school years on the x axis
  * series: [{label, color, values: {year: number|null}, dash, width, marker}]
- * opts: {min, max, unit: "%"|"", gap: bool, title, h}
+ * opts: {min, max, unit: "%"|"", gap: bool, title, h, w}
+ * Pass w = the chart's real width in CSS pixels so the drawing is 1:1 and labels stay 12px on any screen.
  */
 export function lineChart(years, series, opts = {}) {
-  const w = 640, h = opts.h || 260, pl = 44, pr = 16, pt = 14, pb = 30;
+  const w = Math.max(260, Math.round(opts.w || 640));
+  const h = opts.h || Math.round(Math.min(300, Math.max(200, w * 0.36)));
+  const pl = 44, pr = 16, pt = 14, pb = 30;
   const unit = opts.unit ?? "%";
   const vals = series.flatMap((s) => years.map((y) => s.values[y])).filter((v) => v != null);
   let min = opts.min ?? 0;
@@ -43,7 +46,9 @@ export function lineChart(years, series, opts = {}) {
     out.push(`<line class="grid-line" x1="${pl}" x2="${w - pr}" y1="${Y(t)}" y2="${Y(t)}"/>`);
     out.push(`<text class="axis-label" x="${pl - 6}" y="${Y(t) + 4}" text-anchor="end">${fmt(t)}${unit}</text>`);
   }
-  const every = years.length > 10 ? 2 : 1;
+  // label every k-th year (always the latest) so labels keep at least 44px apart
+  const slot = (w - pl - pr) / span; // span counts the extra room drawn for the pandemic gap
+  const every = Math.max(1, Math.ceil(44 / slot));
   years.forEach((y, i) => {
     if ((years.length - 1 - i) % every === 0) out.push(`<text class="axis-label" x="${X(i)}" y="${h - 10}" text-anchor="middle">${shortYear(y)}</text>`);
   });

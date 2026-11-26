@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {%- from "_icons.html" import icon, sysbadge -%}
+{%- from "_sources.html" import source_groups -%}
 {% block head %}
 <script type="application/ld+json">{{ jsonld|safe }}</script>
 {% endblock %}
@@ -194,14 +195,14 @@
     <h2>About the students <span class="badge">{{ s.context.year }}</span></h2>
     <p class="block-intro">Context the Ministry publishes for every school. It describes who the school serves — it is not a measure of quality.</p>
     <div class="card">
-      <div class="table-wrap"><table>
+      <div class="table-wrap"><table class="ctx-table">
         <caption>Student population, {{ s.context.year }}</caption>
         <thead><tr><th scope="col">Measure</th><th scope="col" class="n">This school</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Ontario median</th></tr></thead>
         <tbody>
         {% for c in context_rows %}
           <tr><th scope="row" style="font-weight:550">{{ c.label }}<div class="small muted" style="font-weight:400">{{ c.definition }}</div></th>
-            <td class="n">{% if c.value is not none %}{{ c.value }}%{% else %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% endif %}</td>
-            <td class="n">{{ pct(c.board_median) }}</td><td class="n">{{ pct(c.province_median) }}</td></tr>
+            <td class="n" data-label="This school">{% if c.value is not none %}{{ c.value }}%{% else %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% endif %}</td>
+            <td class="n" data-label="Board median">{{ pct(c.board_median) }}</td><td class="n" data-label="Ontario median">{{ pct(c.province_median) }}</td></tr>
         {% endfor %}
         </tbody>
       </table></div>
@@ -211,7 +212,7 @@
 </section>
 
 <section class="block" id="nearby">
-  <div class="wrap grid grid-2">
+  <div class="wrap grid grid-2 grid-top">
     <div class="card">
       <h2 style="font-size:1.2rem">{{ icon("child", "card-ic") }}Licensed child care</h2>
       {% if s.childcare.at_address %}
@@ -237,13 +238,8 @@
   <div class="wrap">
     <h2>Sources</h2>
     <p class="block-intro">Every number on this page comes from one of these public files. Codes such as <span class="code">N/R</span> are explained in <a href="/methodology/#codes">How it works</a>.</p>
-    <ul class="src-list">
-      {% for src in s.sources %}
-      <li id="src-{{ src.source_id }}"><div class="t"><a href="{{ src.url }}" rel="noopener" data-source-link>{{ src.title }}</a></div>
-        <div class="m">{{ src.publisher }} · <a href="{{ src.licence_url }}" rel="noopener">{{ src.licence }}</a>{% if src.retrieved %} · retrieved {{ src.retrieved }}{% endif %} · <span class="tnum">{{ src.source_id }}</span></div></li>
-      {% endfor %}
-      {% if s.geocoded %}<li><div class="t">Location found by address search</div><div class="m">{% if s.coord_note %}{{ s.coord_note }}{% else %}No source year had coordinates for this school.{% endif %} Its address was matched with the <a href="https://natural-resources.canada.ca/maps-tools-and-publications/maps/geolocation-service" rel="noopener">Natural Resources Canada Geolocation Service</a> ({{ s.geocode_precision|lower|replace("_", " ") }}).</div></li>{% endif %}
-    </ul>
+    {{ source_groups(s.sources) }}
+    {% if s.geocoded %}<p class="small muted" style="margin:14px 0 0"><strong>Location found by address search.</strong> {% if s.coord_note %}{{ s.coord_note }}{% else %}No source year had coordinates for this school.{% endif %} Its address was matched with the <a href="https://natural-resources.canada.ca/maps-tools-and-publications/maps/geolocation-service" rel="noopener">Natural Resources Canada Geolocation Service</a> ({{ s.geocode_precision|lower|replace("_", " ") }}).</p>{% endif %}
     <h3 style="margin-top:24px">Check it yourself</h3>
     <div class="chips">
       <a class="chip" href="{{ s.links.eqao }}" rel="noopener">{{ icon("ext", "card-ic") }}EQAO school results</a>

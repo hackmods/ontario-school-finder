@@ -19,6 +19,7 @@ import shutil
 import statistics
 import sys
 import time
+import unicodedata
 from collections import Counter, defaultdict
 from datetime import date, datetime
 from pathlib import Path
@@ -28,6 +29,38 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import charts  # noqa: E402
+
+
+SERIES_RE = re.compile(r"^(.*?)\s*\(([^()]*)\)$")
+
+
+def source_series(sources: list[dict]) -> list[dict]:
+    """Sources grouped by publisher, then by dataset. A dataset published once a year (enrolment
+    2011-12 ... 2024-25) becomes one row with a link per year instead of fourteen near-identical rows."""
+    pubs: dict[str, dict] = {}
+    for src in sources:
+        m = SERIES_RE.match(src["title"])
+        stem, label = (m.group(1), m.group(2)) if m else (src["title"], "")
+        p = pubs.setdefault(src["publisher"], {"publisher": src["publisher"], "sets": {}, "licences": {}})
+        p["licences"][src["licence"]] = src.get("licence_url")
+        p["sets"].setdefault(stem, []).append({**src, "label": label})
+    out = []
+    for p in sorted(pubs.values(), key=lambda p: p["publisher"]):
+        sets = []
+        for stem, items in p["sets"].items():
+            items = sorted(items, key=lambda x: x["label"])
+            retrieved = {x.get("retrieved") for x in items}
+            sets.append({"stem": stem, "items": items, "retrieved": retrieved.pop() if len(retrieved) == 1 else None})
+        sets.sort(key=lambda s: (len(s["items"]) > 1, s["stem"]))  # single files first, then yearly series
+        lic = list(p["licences"].items())
+        out.append({"publisher": p["publisher"], "licence": lic[0] if len(lic) == 1 else None, "sets": sets})
+    return out
+
+
+def plain(text: str) -> str:
+    """Accent-free, case-free sort key: "École Sainte-Anne" sorts with the E schools."""
+    return "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c)).casefold()
+
 
 DATA = HERE / "data"
 DIST = HERE / "dist"
@@ -96,7 +129,7 @@ class Site:
                                trim_blocks=True, lstrip_blocks=True)
         codes = self.meta["codes"]
         self.env.globals.update(
-            asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, contact_email=CONTACT_EMAIL,
+            asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, source_series=source_series,
             code_text=lambda c: codes.get(c, {}).get("explain", "") if c else "",
         )
         self.pages = 0
@@ -189,9 +222,9 @@ class Site:
             latest_cs = cs[-1]
             cs_view = {
                 "latest": latest_cs, "first": cs[0]["year"],
-                "svg": charts.eqao_chart(cs, cyears, title=f"Average Grades 1 to 3 class size at {s['name']}, board median and Ontario median by year",
-                                         main_key="primary_avg", board_key="primary_board_median", prov_key="primary_province_median",
-                                         ymax=30, unit="", gap=False, w=640, h=220),
+                "svg": charts.wide_line_chart(cs, cyears, title=f"Average Grades 1 to 3 class size at {s['name']}, board median and Ontario median by year",
+                                              main_key="primary_avg", board_key="primary_board_median", prov_key="primary_province_median",
+                                              ymax=30, unit="", gap=False),
             }
         ge = s.get("grade_enrolment") or []
         grade_view = None
@@ -240,7 +273,7 @@ class Site:
                     s=s, results=results, system_label=sys_label, address_line=addr,
                     contact_label=self.sources.get("contact-2026-11", {}).get("year", "current"),
                     enrol_latest=enrol_latest, enrol_change=enrol_change,
-                    enrol_svg=charts.bar_chart(enrol, title=f"Enrolment at {s['name']} by school year"),
+                    enrol_svg=charts.wide_bar_chart(enrol, title=f"Enrolment at {s['name']} by school year"),
                     latest_eqao=latest_eqao, eqao_span=f"{min(e['year'] for e in s['eqao'])} to {latest_eqao}" if latest_eqao else "",
                     context_rows=context_rows, childcare_date=human_date(s["childcare"]["snapshot"]), cs_view=cs_view, grade_view=grade_view,
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"),
@@ -278,12 +311,19 @@ class Site:
 
     # ------------------------------------------------------------------
     def board_page(self, b: dict) -> None:
-        schools = sorted((self.schools[x] for x in b["schools"] if x in self.schools), key=lambda s: s["name"])
+        schools = sorted((self.schools[x] for x in b["schools"] if x in self.schools), key=lambda s: plain(s["name"]))
         rows = []
         for s in schools:
             e = s["enrolment"][-1] if s["enrolment"] else None
             rows.append({"bsid": s["bsid"], "name": s["name"], "level": s["level"], "grades": s["grades"], "city": s["city"],
                          "special": s["special"], "enrol": e["value"] if e and e["year"] == b["enrolment_total"]["year"] else None})
+        school_groups = []  # A-Z groups for the school list; "École" files under E
+        for r in rows:
+            first = plain(r["name"])[:1].upper()
+            letter = first if first.isalpha() else "#"
+            if not school_groups or school_groups[-1]["letter"] != letter:
+                school_groups.append({"letter": letter, "schools": []})
+            school_groups[-1]["schools"].append(r)
         releases = []
         for i in b["indicators"]:
             if i["source_id"] not in [r["source_id"] for r in releases]:
@@ -332,13 +372,13 @@ class Site:
         cs_board = None
         if csm:
             rows_cs = [{"year": r["year"], "board_median": r["primary_median"], "province_median": r["province_median"], "board_n": r["n"]} for r in csm]
-            cs_board = {"rows": rows_cs, "svg": charts.eqao_chart(rows_cs, [r["year"] for r in rows_cs], title="Average Grades 1 to 3 class size: median school in the board and in Ontario",
-                                                                  main_key="board_median", board_key="_none", prov_key="province_median", ymax=30, unit="", gap=False, w=640, h=220)}
+            cs_board = {"rows": rows_cs, "svg": charts.wide_line_chart(rows_cs, [r["year"] for r in rows_cs], title="Average Grades 1 to 3 class size: median school in the board and in Ontario",
+                                                                      main_key="board_median", board_key="_none", prov_key="province_median", ymax=30, unit="", gap=False)}
         map_data = {"schools": [{"id": s["bsid"], "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"], "l": "E" if s["level"] == "elementary" else "S", "g": s["grades"]} for s in schools],
                     "board": b["number"], "system": b["system"]}
         self.render(f"board/{b['number']}/index.html", "board.html", title=b["name"], page_kind="board", map=True,
                     description=f"{b['name']}: {len(schools)} schools, official board results, EQAO medians across its schools and a map, with sources.",
-                    b=b, schools=rows, cs_board=cs_board, indicators=indicators, indicator_releases=releases, headline=headline, medians=medians,
+                    b=b, schools=rows, school_groups=school_groups, cs_board=cs_board, indicators=indicators, indicator_releases=releases, headline=headline, medians=medians,
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"))
 
     # ------------------------------------------------------------------

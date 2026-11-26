@@ -3,7 +3,9 @@ const { test, expect } = require("@playwright/test");
 const path = require("path");
 
 const EVIDENCE = path.join(__dirname, "..", "..", "evidence");
-const ALLOWED_HOSTS = new Set(["127.0.0.1:8078", "localhost:8078", "tiles.openfreemap.org", "www.geolocator.api.geo.ca"]);
+// the site itself (whatever port it is served on for the test) plus the two third parties it may call
+const SITE_HOST = new URL(process.env.BASE_URL || "http://127.0.0.1:8078").host;
+const ALLOWED_HOSTS = new Set([SITE_HOST, "127.0.0.1:8078", "localhost:8078", "tiles.openfreemap.org", "www.geolocator.api.geo.ca"]);
 const SCHOOL = "019186"; // Anna McCrea Public School, Sault Ste. Marie
 const FSA = "P6A";
 
@@ -145,14 +147,21 @@ test.describe("pages", () => {
 
   test("school page shows class sizes and students by grade", async ({ page }) => {
     await page.goto(`/school/${SCHOOL}/`);
-    await expect(page.locator("#class-sizes svg")).toBeVisible();
+    // long series are drawn twice (phone and wide copies); exactly one shows, picked by the chart's width
+    const shown = page.locator("#class-sizes .chart svg").filter({ visible: true });
+    await expect(shown).toHaveCount(1);
+    await expect(shown).toHaveClass(/v-wide/);
     await expect(page.locator("#grades table")).toBeVisible();
+    await page.setViewportSize({ width: 390, height: 844 });
+    await expect(shown).toHaveClass(/v-narrow/);
   });
 
+  // The brief's label is "Official boundary from <board>, <date>"; until a board publishes its areas the
+  // layer is a disabled placeholder, so it reads "from the board" instead of showing the literal brackets.
   test("map legend shows every layer label", async ({ page }) => {
     await page.goto("/map/");
     const legend = page.locator("[data-legend]");
-    for (const label of ["Postal code area (first 3 characters)", "Approximate school board area", "Nearest school, NOT the official boundary", "Official boundary from <board>, <date>"]) {
+    for (const label of ["Postal code area (first 3 characters)", "Approximate school board area", "Nearest school, NOT the official boundary", "Official boundary from the board"]) {
       await expect(legend).toContainText(label);
     }
   });

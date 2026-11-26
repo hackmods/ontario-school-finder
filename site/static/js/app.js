@@ -67,16 +67,47 @@ renderCompare();
 // ---- search boxes: load the search module only when a page has one -------
 if (qs("[data-search]")) import("./search.js");
 
+// ---- sideways-scrolling strips: fade the edge that has more to show -----
+// Tables, the section nav and the letter bar scroll sideways on phones; without a cue people
+// never find the columns or links past the edge. Tables with a sticky first column only fade right.
+const seen = new WeakSet();
+const ro = "ResizeObserver" in window ? new ResizeObserver((es) => es.forEach((e) => e.target._fade?.())) : null;
+function fadeEdges(el) {
+  if (seen.has(el)) return;
+  seen.add(el);
+  const keepLeft = !!el.querySelector(".sticky");
+  el._fade = () => {
+    const max = el.scrollWidth - el.clientWidth;
+    el.classList.toggle("fade-l", !keepLeft && max > 2 && el.scrollLeft > 2);
+    el.classList.toggle("fade-r", max > 2 && el.scrollLeft < max - 2);
+  };
+  el.addEventListener("scroll", el._fade, { passive: true });
+  ro?.observe(el);
+  el._fade();
+}
+const scanStrips = () => qsa(".table-wrap, .subnav .wrap, .az").forEach(fadeEdges);
+scanStrips();
+const mainEl = qs("#main");
+if (mainEl && "MutationObserver" in window) {
+  let t = 0;
+  new MutationObserver(() => { cancelAnimationFrame(t); t = requestAnimationFrame(scanStrips); }).observe(mainEl, { childList: true, subtree: true });
+}
+
 // ---- sticky sub-navigation highlight -------------------------------------
 const sub = qsa(".subnav a");
 if (sub.length && "IntersectionObserver" in window) {
   const map = new Map(sub.map((a) => [a.getAttribute("href").slice(1), a]));
+  const strip = qs(".subnav .wrap");
   const io = new IntersectionObserver(
     (entries) => {
       for (const en of entries) {
         if (en.isIntersecting) {
           sub.forEach((a) => a.classList.remove("active"));
-          map.get(en.target.id)?.classList.add("active");
+          const a = map.get(en.target.id);
+          if (!a) continue;
+          a.classList.add("active");
+          // keep the current section visible in the strip on phones
+          if (strip && strip.scrollWidth > strip.clientWidth) strip.scrollTo({ left: a.offsetLeft - (strip.clientWidth - a.offsetWidth) / 2, behavior: "smooth" });
         }
       }
     },
