@@ -1,5 +1,5 @@
 // /map/ — every school, with optional area layers. Each layer is labelled with exactly what it is.
-import { qs, qsa, loadIndex } from "./lib.js";
+import { qs, qsa, loadIndex, dataUrl } from "./lib.js";
 import { lazyMap, addSchoolLayer, addArea, removeArea, pointsFC, LAYER_COLORS } from "./maps.js";
 
 const container = qs('[data-map="explore"]');
@@ -8,7 +8,7 @@ const cache = new Map();
 let mapRef, glRef;
 
 async function geo(name) {
-  if (!cache.has(name)) cache.set(name, fetch(`/data/geo/${name}`).then((r) => r.json()));
+  if (!cache.has(name)) cache.set(name, fetch(dataUrl(`/data/geo/${name}`)).then((r) => r.json()));
   return cache.get(name);
 }
 

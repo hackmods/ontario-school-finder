@@ -91,18 +91,51 @@ def human_date(iso: str | None) -> str:
     return f"{d.strftime('%B')} {d.day}, {d.year}"
 
 
+def short_hash(*parts: bytes) -> str:
+    h = hashlib.sha256()
+    for p in parts:
+        h.update(p)
+    return h.hexdigest()[:10]
+
+
 class Assets:
-    """Content-hashed URLs for static files so browsers can cache them for a year."""
+    """Versioned URLs (?v=) for static files, which nginx lets browsers keep for a year.
+
+    Scripts are ES modules that import each other, so they all share one version: a hash of every
+    script and the vendored map library. The import specifiers inside them get the same ?v= at
+    copy time (`version_scripts`), so a deploy that changes any script changes every script URL and
+    no browser can pair a new page with an old cached module.
+    """
 
     def __init__(self, root: Path):
         self.root = root
         self.cache: dict[str, str] = {}
+        code = sorted(p for p in [*(root / "js").glob("*.js"), *(root / "vendor").rglob("*")] if p.is_file())
+        self.js_v = short_hash(*(p.relative_to(root).as_posix().encode() + p.read_bytes() for p in code))
 
     def __call__(self, rel: str) -> str:
         if rel not in self.cache:
-            h = hashlib.sha256((self.root / rel).read_bytes()).hexdigest()[:10]
+            h = self.js_v if rel.startswith("js/") else short_hash((self.root / rel).read_bytes())
             self.cache[rel] = f"/static/{rel}?v={h}"
         return self.cache[rel]
+
+
+# `from "./x.js"`, `import "./x.js"`, `import("./x.js")`, and the vendored map library's URLs in maps.js
+_IMPORT_RE = re.compile(r"""((?:\bfrom|\bimport)\s*\(?\s*)(["'])(\./[\w.-]+\.js)\2""")
+_VENDOR_RE = re.compile(r"""(["'])(/static/vendor/[^"'?]+)\1""")
+
+
+def version_scripts(js_dir: Path, v: str) -> int:
+    """Give every relative import and vendor URL in the copied scripts the build's script version."""
+    n = 0
+    for p in js_dir.glob("*.js"):
+        src = p.read_text(encoding="utf-8")
+        out, k1 = _IMPORT_RE.subn(lambda m: f"{m[1]}{m[2]}{m[3]}?v={v}{m[2]}", src)
+        out, k2 = _VENDOR_RE.subn(lambda m: f"{m[1]}{m[2]}?v={v}{m[1]}", out)
+        if k1 or k2:
+            p.write_text(out, encoding="utf-8")
+            n += k1 + k2
+    return n
 
 
 def pct(v) -> str:
@@ -141,11 +174,25 @@ class Site:
         self.pages = 0
         svg, w, h = hero_svg(self.index)
         # bounds and colours go to the page too, so home.js can light up search matches on the same picture
-        self.hero = {"svg": svg, "w": w, "h": h, "bounds": HERO_BOUNDS, "colors": HERO_COLORS}
+        self.hero = {"svg": svg, "w": w, "h": h, "bounds": HERO_BOUNDS, "colors": HERO_COLORS,
+                     "src": f"/static/img/hero-map.svg?v={short_hash(svg.encode())}"}
         self.context_medians()
+        # Data the scripts fetch (/data/...) is versioned by the pipeline run plus what this generator
+        # derives from it, and stamped on every page as <html data-v> for lib.js's dataUrl().
+        self.ctx_json = self.context_json()
+        self.env.globals["data_v"] = short_hash((DATA / "meta.json").read_bytes(), self.ctx_json.encode())
         self.official_by_board = self._official()
 
     # ------------------------------------------------------------------
+    def context_json(self) -> str:
+        """/data/context-medians.json: board and province medians of each student-context measure, for Compare."""
+        ctx = {"board": defaultdict(dict), "province": defaultdict(dict)}
+        for (bn, key), v in self.ctx_board.items():
+            ctx["board"][bn][key] = v
+        for (lang, key), v in self.ctx_prov.items():
+            ctx["province"][lang][key] = v
+        return json.dumps(ctx, separators=(",", ":"))
+
     def context_medians(self):
         board_vals, prov_vals = defaultdict(list), defaultdict(list)
         for s in self.schools.values():
@@ -644,14 +691,11 @@ def main() -> int:
         site.fsa_page(f)
     site.index_pages()
     copy_static_and_data()
+    if not version_scripts(DIST / "static" / "js", site.assets.js_v):
+        raise SystemExit("version_scripts found no imports to version: check _IMPORT_RE against site/static/js")
     site.extras()
     (DIST / "static" / "img" / "hero-map.svg").write_text(site.hero["svg"], encoding="utf-8")
-    ctx = {"board": defaultdict(dict), "province": defaultdict(dict)}
-    for (bn, key), v in site.ctx_board.items():
-        ctx["board"][bn][key] = v
-    for (lang, key), v in site.ctx_prov.items():
-        ctx["province"][lang][key] = v
-    (DIST / "data" / "context-medians.json").write_text(json.dumps(ctx, separators=(",", ":")), encoding="utf-8")
+    (DIST / "data" / "context-medians.json").write_text(site.ctx_json, encoding="utf-8")
     gz = precompress()
     counts = {"school": len(list((DIST / "school").glob("*/index.html"))), "board": len(list((DIST / "board").glob("*/index.html"))),
               "fsa": len(list((DIST / "fsa").glob("*/index.html")))}

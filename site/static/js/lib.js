@@ -65,10 +65,15 @@ export const fmtKm = (d) => (d < 1 ? `${Math.round(d * 1000)} m` : `${d < 10 ? d
 
 export const levelName = (l) => (l === "E" ? "Elementary" : l === "S" ? "Secondary" : l);
 
+// Every page carries the build's data version (<html data-v>). Data fetched with it can be cached
+// for good, and the next build's pages ask for fresh copies straight away.
+const DATA_V = document.documentElement.dataset.v || "";
+export const dataUrl = (path) => (DATA_V ? `${path}${path.includes("?") ? "&" : "?"}v=${DATA_V}` : path);
+
 let indexPromise;
 /** The compact school index (one fetch, cached for the page). */
 export function loadIndex() {
-  indexPromise ||= fetch("/data/schools-index.json")
+  indexPromise ||= fetch(dataUrl("/data/schools-index.json"))
     .then((r) => {
       if (!r.ok) throw new Error(`index ${r.status}`);
       return r.json();
@@ -86,7 +91,7 @@ export function loadIndex() {
 
 let boardsPromise;
 export function loadBoards() {
-  boardsPromise ||= fetch("/data/boards-index.json").then((r) => r.json());
+  boardsPromise ||= fetch(dataUrl("/data/boards-index.json")).then((r) => r.json());
   return boardsPromise;
 }
 
