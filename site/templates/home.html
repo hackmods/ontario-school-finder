@@ -28,18 +28,22 @@
         <li>{{ icon("check") }}No rankings</li>
       </ul>
     </div>
-    <div class="hero-art" aria-hidden="true">
-      <img src="/static/img/hero-map.svg" width="{{ hero.w }}" height="{{ hero.h }}" alt="Dot map: each dot is a publicly funded school in southern Ontario, coloured by system" decoding="async" style="display:block;width:100%;height:auto">
+    {# the picture answers the search box: matches light up as you type, and it opens them on a real map #}
+    <a class="hero-art" href="/map/" data-hero-map data-bounds="{{ hero.bounds|join(',') }}" data-w="{{ hero.w }}" data-h="{{ hero.h }}" data-colors='{{ hero.colors|tojson }}'>
+      <span class="hero-map"><span class="hero-zoom" data-hero-zoom>
+        <img src="/static/img/hero-map.svg" width="{{ hero.w }}" height="{{ hero.h }}" alt="Dot map: each dot is a publicly funded school in southern Ontario, coloured by system" decoding="async">
+        <svg class="hero-hits" viewBox="0 0 {{ hero.w }} {{ hero.h }}" aria-hidden="true" data-hero-hits></svg>
+      </span></span>
       <ul class="legend-inline" style="margin:12px 0 4px">
         <li><span class="pin sys-english-public"></span>English public</li><li><span class="pin sys-english-catholic"></span>English Catholic</li>
         <li><span class="pin sys-french-public"></span>French public</li><li><span class="pin sys-french-catholic"></span>French Catholic</li>
       </ul>
-      <p class="small muted" style="margin:0">Each dot is a publicly funded school · southern Ontario</p>
-    </div>
+      <span class="hero-cap small"><span class="muted" data-hero-cap>Each dot is a publicly funded school · southern Ontario</span><span class="hero-go" data-hero-go>Open the map →</span></span>
+    </a>
   </div>
 </section>
 
-<section class="wrap" aria-label="Results near you" data-near-results hidden>
+<section class="wrap" id="near" aria-label="Results near you" data-near-results hidden>
   <div class="card">
     <div class="toolbar"><h2 style="margin:0">Schools nearest to you</h2>
       <div class="chips" role="group" aria-label="Level">

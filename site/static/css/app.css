@@ -285,6 +285,29 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
 .trust svg { width: 18px; height: 18px; color: var(--brand); flex: none; }
 .hero-art { position: relative; border-radius: var(--r-3); background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow-3); padding: 18px; }
 .hero-art svg { display: block; width: 100%; height: auto; }
+/* the home map is a link: it lights up search matches and opens them on a real map */
+a.hero-art { display: block; color: inherit; text-decoration: none; transition: border-color .15s, box-shadow .15s; }
+a.hero-art:hover { border-color: color-mix(in srgb, var(--brand) 45%, var(--line)); }
+a.hero-art:focus-visible { outline: 3px solid var(--brand); outline-offset: 3px; }
+.hero-map { position: relative; display: block; overflow: hidden; border-radius: 8px; }
+.hero-zoom { position: relative; display: block; transform-origin: 0 0; }
+.hero-map img { display: block; width: 100%; height: auto; transition: opacity .2s; }
+.hero-art.is-lit .hero-map img { opacity: .22; }
+.hero-art.is-zoomed .hero-map img { opacity: 0; }
+.hero-hits .ctx circle { opacity: .3; stroke: none; }
+.hero-art .hero-hits { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+/* --s is the zoom: dots and strokes keep their on-screen size when the picture zooms in */
+.hero-hits circle { stroke: var(--surface); stroke-width: calc(.9px / var(--s, 1)); }
+.hero-hits .you { fill: var(--brand); stroke: var(--surface); stroke-width: calc(2px / var(--s, 1)); }
+.hero-hits .ring { fill: none; stroke: var(--brand); stroke-width: calc(1.8px / var(--s, 1)); }
+.hero-cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; margin: 0; }
+.hero-go { color: var(--brand); font-weight: 600; white-space: nowrap; }
+a.hero-art:hover .hero-go { text-decoration: underline; }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-zoom { transition: transform .45s cubic-bezier(.2, .7, .2, 1); }
+  .hero-hits .pulse { transform-box: fill-box; transform-origin: center; animation: hero-pulse 1.4s ease-out infinite; }
+  @keyframes hero-pulse { from { transform: scale(.7); opacity: 1; } to { transform: scale(2.4); opacity: 0; } }
+}
 @media (max-width: 900px) { .hero-art { display: none; } }
 
 /* ---------- search ---------- */
