@@ -22,6 +22,7 @@ class Report:
         self.relocated: list[dict] = []
         self.class_size: dict = {}
         self.programs: dict = {}
+        self.eqao_open: dict = {}
         self.elapsed = 0
 
     def count(self, source_id: str, n: int, what: str) -> None:
@@ -106,6 +107,10 @@ class Report:
                   f"- Schools with class sizes: {cs['schools_with_class_sizes']}",
                   "- Unmatched school-years by year (closed or renamed schools, private/other boards): "
                   + ", ".join(f"{y}: {n}" for y, n in cs["unmatched_by_year"].items()), ""]
+        if self.eqao_open:
+            L += ["## EQAO open data (years not yet in the Ministry's school file)", ""]
+            L += [f"- {sid}: {v['schools']} schools in EQAO's file, {v['matched']} matched to the school list" for sid, v in self.eqao_open.items()]
+            L += [""]
         if self.programs:
             pg = self.programs
             L += ["## Programs (French as a second language, SHSM)", "",

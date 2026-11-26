@@ -78,6 +78,17 @@
   </div>
 </section>
 
+<section class="block" id="earlyon">
+  <div class="wrap">
+    <h2>EarlyON Child and Family Centres in {{ f.fsa }} <span class="badge">{{ f.earlyon.count }}</span></h2>
+    <p class="block-intro">Free drop-in programs for children up to age 6 and their parents and caregivers, run by local agencies for the province.</p>
+    {% if f.earlyon.sites %}
+    <ul class="src-list eo-list">{% for e in f.earlyon.sites|sort(attribute="name") %}<li><span class="t">{{ e.name }}</span><span class="m">{{ e.address }}{% if e.city %}, {{ e.city }}{% endif %}</span></li>{% endfor %}</ul>
+    {% else %}<p class="muted">No EarlyON centre lists a postal code in {{ f.fsa }}. Your municipality’s EarlyON page lists centres nearby.</p>{% endif %}
+    {% if f.earlyon.sites %}<p class="small muted" style="margin-top:10px">Ministry list of EarlyON locations, November 2026. <a class="ref" href="#src-{{ f.earlyon.source_id }}">source</a></p>{% endif %}
+  </div>
+</section>
+
 <section class="block" id="sources">
   <div class="wrap">
     <h2>Sources</h2>

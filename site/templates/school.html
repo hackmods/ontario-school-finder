@@ -114,6 +114,14 @@
         {% endif %}
       </div>
       {% endif %}
+      {%- set nut = s.programs.nutrition %}
+      {% if nut %}
+      <div class="card">
+        <h3>{{ icon("child", "card-ic") }}Student nutrition program <span class="badge">{{ nut.year }} list</span></h3>
+        <p style="margin:0">Listed as offering <strong>{{ nut.meals|join(", ")|lower }}</strong> through Ontario’s Student Nutrition Program.</p>
+        <p class="small muted" style="margin:8px 0 0">The Ministry’s most recent list is from {{ nut.year }}. Programs change, so check with the school. <a class="ref" href="#src-{{ nut.source_id }}">source</a></p>
+      </div>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -122,7 +130,7 @@
 <section class="block" id="results">
   <div class="wrap">
     <h2>EQAO results <span class="badge">{{ eqao_span }}</span></h2>
-    <p class="block-intro">Share of this school’s students who met the provincial standard (level 3 or 4) on each EQAO assessment, next to the <strong>median school</strong> in {{ s.board_name }} and in Ontario ({{ s.language }}-language schools). Half of schools are above a median and half below. EQAO did not run assessments in 2019-20 or 2020-21.</p>
+    <p class="block-intro">Share of this school’s students who met the provincial standard (level 3 or 4) on each EQAO assessment, next to the <strong>median school</strong> in {{ s.board_name }} and in Ontario ({{ s.language }}-language schools). Half of schools are above a median and half below. EQAO did not run assessments in 2019-20 or 2020-21.{% if results|selectattr("detail")|list %} The latest year comes from EQAO’s own open data (used under licence), which also gives the share at each level.{% endif %}</p>
     <ul class="legend-inline" aria-label="Chart legend">
       <li><i class="l-school"></i>This school</li>
       <li><i class="l-board"></i>Board median</li>
@@ -134,6 +142,12 @@
         <h3>{{ r.grade }} · {{ r.subject }}</h3>
         <p class="sum">{{ r.summary|safe }}</p>
         <div class="chart">{{ r.svg|safe }}</div>
+        {% if r.detail and r.detail.levels %}
+        <div class="levels" role="img" aria-label="{{ r.detail.year }}: {% for l in r.detail.levels %}level {{ l.n }} {{ l.v }}%{{ ', ' if not loop.last }}{% endfor %}">{% for l in r.detail.levels %}<i class="l{{ l.n }}" style="width:{{ l.w }}%"></i>{% endfor %}</div>
+        <p class="levels-text"><b>{{ r.detail.year }}</b> · {% for l in r.detail.levels %}level {{ l.n }}: {{ l.v }}%{{ " · " if not loop.last }}{% endfor %}{% if r.detail.participation is not none %} · {{ r.detail.participation }}% of students took part{% endif %}</p>
+        {% elif r.detail and r.detail.participation is not none %}
+        <p class="levels-text"><b>{{ r.detail.year }}</b> · {{ r.detail.participation }}% of eligible students wrote the test</p>
+        {% endif %}
         {% if r.official %}<p class="small muted" style="margin:6px 0 0">Board’s official result (all students), {{ r.official.year }}: <b>{{ r.official.value }}%</b> <a class="ref" href="#src-{{ r.official.source_id }}">source</a></p>{% endif %}
         <details class="data-table">
           <summary>Show the numbers</summary>
@@ -264,6 +278,7 @@
       <p class="muted">No licensed child care is listed at this school’s street address.</p>
       {% endif %}
       <p class="small"><a href="/fsa/{{ s.fsa }}/#childcare">{{ s.childcare.in_fsa_count }} licensed child care site{{ "" if s.childcare.in_fsa_count == 1 else "s" }} in postal area {{ s.fsa }}</a> · <a class="ref" href="#src-{{ s.childcare.source_id }}">source</a></p>
+      {% if s.earlyon_in_fsa %}<p class="small" style="margin:0"><a href="/fsa/{{ s.fsa }}/#earlyon">{{ s.earlyon_in_fsa }} EarlyON Child and Family Centre{{ "" if s.earlyon_in_fsa == 1 else "s" }} in {{ s.fsa }}</a> <span class="muted">· free drop-in programs for children up to age 6</span></p>{% endif %}
     </div>
     <div class="card">
       <h2 style="font-size:1.2rem">{{ icon("pin", "card-ic") }}Other {{ s.level }} schools nearby</h2>

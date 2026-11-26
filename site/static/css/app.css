@@ -739,3 +739,26 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 .prog-list .d { display: block; font-size: .85rem; color: var(--ink-3); }
 .shsm-list { list-style: none; padding: 0; margin: 0; }
 .chip-static { display: inline-flex; align-items: center; gap: .3em; min-height: 34px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface-2); font-size: .88rem; font-weight: 600; color: var(--ink); }
+
+/* board context: spending split, suspensions, French programs */
+.ctx-big { margin: 4px 0 12px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.ctx-big b { font-size: 1.7rem; letter-spacing: -0.02em; }
+.ctx-big .muted { font-size: .9rem; }
+.spend-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.spend-list li { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(60px, 1fr) auto; gap: 12px; align-items: center; }
+.spend-list .lab { font-weight: 600; font-size: .92rem; }
+.spend-list .lab .d { display: block; font-weight: 400; font-size: .8rem; color: var(--ink-3); }
+.spend-list .bar { height: 10px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.spend-list .bar i { display: block; height: 100%; background: var(--brand); border-radius: 999px; }
+.spend-list .v { font-weight: 650; font-size: .92rem; min-width: 4.5em; text-align: right; }
+.glance-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+/* EQAO level split under each chart (EQAO open-data years) */
+.levels { display: flex; height: 10px; border-radius: 999px; overflow: hidden; margin: 10px 0 6px; background: var(--surface-2); }
+.levels i { display: block; height: 100%; }
+.levels .l4 { background: var(--brand); }
+.levels .l3 { background: color-mix(in srgb, var(--brand) 55%, var(--surface)); }
+.levels .l2 { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); }
+.levels .l1 { background: var(--accent); }
+.levels-text { margin: 0; font-size: .8rem; color: var(--ink-3); }
+.levels-text b { color: var(--ink-2); font-weight: 650; }

@@ -648,3 +648,259 @@ def load_shsm(res: dict) -> dict:
         progs.sort(key=lambda p: p["sector"])
     stats["schools"] = len(rows)
     return {"rows": rows, "stats": dict(stats)}
+
+
+# ---------------------------------------------------------------------------
+# 3. EQAO open data (achievement results, one ZIP per assessment and year)
+# ---------------------------------------------------------------------------
+EQAO_OD_ID = ["OrgType", "Language", "BoardMident", "SchoolMident", "SchoolName", "Suppressed"]
+EQAO_SUBJECTS = (("R", "reading", "Read"), ("W", "writing", "Write"), ("M", "math", "Math"))
+EQAO_LANG = {"en": "English", "fr": "French"}
+
+
+def _level_pct(v: str | None):
+    """Level shares: '45%' -> 45, '<1 %' -> '<1' (shown as written), codes -> None."""
+    s = (v or "").strip().replace(" ", "")
+    if s.startswith("<1"):
+        return "<1"
+    m = re.fullmatch(r"(\d+(?:\.\d+)?)%", s)
+    return (int(float(m.group(1))) if float(m.group(1)).is_integer() else float(m.group(1))) if m else None
+
+
+def load_eqao_open(res: dict) -> dict:
+    """bsid -> {board, language, results: {assessment: {v, code, levels, participation}}}.
+
+    ``v`` is the share of students at or above the provincial standard (levels 3 and 4; for the
+    OSSLT, first-time eligible students who were successful), the same figure the Ministry's
+    school file publishes. Codes (N/R, N/D and the French S. R. / A/D) are kept, never 0.
+    """
+    path = fetch.download(res["id"], res["url"], expect="zip")
+    with zipfile.ZipFile(path) as z:
+        name = next((n for n in z.namelist() if n.endswith(res["member"])), None)
+        if not name:
+            raise SchemaChanged(f"{res['id']}: {res['member']} not found in the ZIP (found {z.namelist()}).")
+        text = z.read(name).decode("utf-8-sig")
+    table = list(csv.reader(io.StringIO(text)))
+    header = [norm_header(h) for h in table[0]]
+    kind = res["kind"]
+    if kind == "g36":
+        specs = [(f"g{res['grade']}-{sub}", f"pctOverall{k}_L34", [f"pctOverall{k}_L{n}" for n in (4, 3, 2, 1)], f"pctFullyParticipating_{p}")
+                 for k, sub, p in EQAO_SUBJECTS]
+    elif kind == "g9":
+        specs = [("g9-math", "pctOverallM_L34", [f"pctOverallM_L{n}" for n in (4, 3, 2, 1)], "pctFullyParticipating")]
+    elif kind == "osslt":
+        specs = [("osslt", "pctSuccessful", None, "pctFullyParticipating")]
+    else:  # pragma: no cover
+        raise ValueError(kind)
+    expected = list(EQAO_OD_ID) + [c for _a, v, lv, p in specs for c in [v, p, *(lv or [])]]
+    require_columns(res["id"], header, expected + (["Eligibility"] if kind == "osslt" else []))
+    idx = {h: i for i, h in enumerate(header)}
+    rows, stats = {}, Counter()
+    for r in table[1:]:
+        if len(r) < len(header) or r[idx["OrgType"]] != "S":
+            continue
+        if kind == "osslt" and r[idx["Eligibility"]].strip() != "1":
+            continue  # first-time eligible students only, as in the Ministry's file
+        bsid = school_number(r[idx["SchoolMident"]])
+        if not bsid:
+            continue
+        results = {}
+        for aid, vcol, lcols, pcol in specs:
+            v, code = parse.parse_pct(r[idx[vcol]], context=f"{res['id']} {bsid} {vcol}")
+            if code == "BLANK":
+                continue
+            results[aid] = {
+                "v": v, "code": code,
+                "levels": [_level_pct(r[idx[c]]) for c in lcols] if (lcols and v is not None) else None,
+                "participation": _level_pct(r[idx[pcol]]) if v is not None else None,
+            }
+            stats["values" if v is not None else f"code_{code}"] += 1
+        bn = r[idx["BoardMident"]].strip()
+        rows[bsid] = {"board": f"B{bn}" if bn and bn.isdigit() else bn or None,
+                      "language": EQAO_LANG.get(r[idx["Language"]].strip().lower()), "results": results}
+    stats["schools"] = len(rows)
+    return {"rows": rows, "stats": dict(stats)}
+
+
+# ---------------------------------------------------------------------------
+# 16. Suspension and expulsion rates by board (one wide sheet: two columns per school year)
+# ---------------------------------------------------------------------------
+def _rate_pct(v, context: str):
+    """Rates are 0-1 fractions in these files; codes (<10, blank) are kept."""
+    if v is None or (isinstance(v, str) and not v.strip()):
+        return None, "BLANK"
+    if isinstance(v, (int, float)):
+        if not 0 <= v <= 1:
+            raise SchemaChanged(f"{context}: rate {v!r} is not a 0-1 fraction")
+        return round(v * 100, 2), None
+    return parse.parse_pct(v, context=context, numeric="fraction")
+
+
+def load_board_rates(res: dict, *, what: str) -> dict:
+    """{'boards': {Bnumber: {year: {count, count_code, rate, rate_code}}}, 'province': {...}, 'years': [...]}."""
+    path = fetch.download(res["id"], res["url"], expect="xlsx")
+    _t, header, body = read_xlsx(path)
+    require_columns(res["id"], header, ["Board Number", "Board Name"])
+    years = []
+    for h in header:
+        m = re.match(r"^(\d{4})-(\d{4}) .*Rate$", h or "")
+        if m:
+            years.append(f"{m.group(1)}-{m.group(2)[2:]}")
+    if not years:
+        raise SchemaChanged(f"{res['id']}: no '<year> ... Rate' columns found (found {header[:6]}).")
+    idx = {h: i for i, h in enumerate(header) if h}
+    noun = "Suspended" if what == "suspension" else "Expelled"
+    out, province = {}, {}
+    for r in body:
+        bn, name = r[idx["Board Number"]], parse.clean_text(r[idx["Board Name"]])
+        series = {}
+        for y in years:
+            full = f"{y[:4]}-{int(y[:4]) + 1}"
+            count_col = next((h for h in idx if h.startswith(full) and noun in h), None)
+            rate_col = next((h for h in idx if h.startswith(full) and h.endswith("Rate")), None)
+            if not count_col or not rate_col:
+                raise SchemaChanged(f"{res['id']}: missing the {full} count or rate column.")
+            c, cc = parse.parse_count(r[idx[count_col]], context=f"{res['id']} {bn} {count_col}")
+            v, vc = _rate_pct(r[idx[rate_col]], f"{res['id']} {bn} {rate_col}")
+            if cc == "BLANK" and vc == "BLANK":
+                continue
+            series[y] = {"count": c, "count_code": cc, "rate": v, "rate_code": vc}
+        if bn:
+            out[str(bn).strip()] = series
+        elif name and "ontario" in name.lower():
+            province = series
+    if not province:
+        raise SchemaChanged(f"{res['id']}: the 'Province of Ontario' total row is missing.")
+    return {"boards": out, "province": province, "years": years, "stats": {"boards": len(out)}}
+
+
+# ---------------------------------------------------------------------------
+# 17. Board financial statements (EFIS): spending per student
+# ---------------------------------------------------------------------------
+EFIS_CELLS = {
+    "total": "SC10_00529C",           # Sch. 10 total expenses
+    "instruction": "SC10_00573C",     # classroom teachers, assistants, supplies, principals, guidance...
+    "administration": "SC10_00579C",  # trustees, director, board administration
+    "transportation": "SC10_00585C",  # student transportation
+    "accommodation": "SC10_00596C",   # school operations, maintenance, renewal, amortization of buildings
+    "ade": "SC13_00165C",             # Sch. 13-3 total day-school average daily enrolment
+}
+
+
+def load_finance(res: dict) -> dict:
+    path = fetch.download(res["id"], res["url"], expect="csv")
+    text = path.read_bytes().decode("utf-8-sig")
+    reader = csv.reader(io.StringIO(text))
+    header = [norm_header(h) for h in next(reader)]
+    require_columns(res["id"], header, ["Cell Name:", "Area:", "Year:"])
+    board_cols = header[8:]
+    unknown = [b for b in board_cols if b and b not in sources.EFIS_BOARDS]
+    if unknown:
+        raise SchemaChanged(f"{res['id']}: board columns not in sources.EFIS_BOARDS: {unknown}. Map them to Ministry board numbers.")
+    wanted = {v: k for k, v in EFIS_CELLS.items()}
+    found = {}
+    for r in reader:
+        if r and r[0] in wanted:
+            found[wanted[r[0]]] = r[8:]
+    missing = sorted(set(EFIS_CELLS) - set(found))
+    if missing:
+        raise SchemaChanged(f"{res['id']}: cells {[EFIS_CELLS[m] for m in missing]} not found; the EFIS layout changed (check the Cell Name Reference Book).")
+    boards = {}
+    for i, name in enumerate(board_cols):
+        if not name:
+            continue
+
+        def num(key, i=i):
+            v = (found[key][i] or "").replace(",", "").strip()
+            try:
+                return float(v)
+            except ValueError:
+                return None
+        ade, total = num("ade"), num("total")
+        if not ade or not total:
+            continue
+        parts = {k: num(k) for k in ("instruction", "administration", "transportation", "accommodation")}
+        other = total - sum(v for v in parts.values() if v)
+        boards[sources.EFIS_BOARDS[name]] = {
+            "ade": round(ade), "total": round(total), "per_student": round(total / ade),
+            "parts": {**{k: round(v / ade) for k, v in parts.items() if v is not None}, "other": round(other / ade)},
+        }
+    return {"boards": boards, "stats": {"boards": len(boards)}}
+
+
+# ---------------------------------------------------------------------------
+# 18. French as a Second Language enrolment by board
+# ---------------------------------------------------------------------------
+FSL_ENROL_COLS = ["Board Number", "Board Name", "FSL-Core Total", "FSL-Extended Total", "FSL-Immersion Total", "Overall Total"]
+
+
+def load_fsl_enrolment(res: dict) -> dict:
+    path = fetch.download(res["id"], res["url"], expect="txt")
+    header, body = read_pipe_txt(path)
+    require_columns(res["id"], header, FSL_ENROL_COLS)
+    idx = {h: i for i, h in enumerate(header)}
+    out = {}
+    for r in body:
+        bn = (r[idx["Board Number"]] or "").strip()
+        if not re.fullmatch(r"B\d{5}", bn):
+            continue  # totals and notes
+
+        def n(col, r=r, bn=bn):
+            v, code = parse.parse_count(r[idx[col]], context=f"{res['id']} {bn} {col}")
+            return 0 if code == "BLANK" else v
+        out[bn] = {"core": n("FSL-Core Total"), "extended": n("FSL-Extended Total"), "immersion": n("FSL-Immersion Total"), "total": n("Overall Total")}
+    return {"boards": out, "stats": {"boards": len(out)}}
+
+
+# ---------------------------------------------------------------------------
+# 19. EarlyON Child and Family Centres
+# ---------------------------------------------------------------------------
+EARLYON_COLS = ["Service System Managers", "Name of Location", "Street Address", "Postal Code", "Municipality/City/Town"]
+
+
+def load_earlyon(res: dict) -> dict:
+    path = fetch.download(res["id"], res["url"], expect="xlsx")
+    _t, header, body = read_xlsx(path)
+    require_columns(res["id"], header, EARLYON_COLS)
+    idx = {h: i for i, h in enumerate(header) if h}
+    rows = []
+    for r in body:
+        name = parse.clean_text(r[idx["Name of Location"]])
+        postal = parse.norm_postal(r[idx["Postal Code"]])
+        if not name:
+            continue
+        rows.append({"name": name, "address": parse.clean_text(r[idx["Street Address"]]),
+                     "city": parse.clean_text(r[idx["Municipality/City/Town"]]),
+                     "postal_code": postal, "fsa": parse.fsa_of(postal)})
+    return {"rows": rows, "stats": {"sites": len(rows), "no_postal": sum(1 for x in rows if not x["fsa"])}}
+
+
+# ---------------------------------------------------------------------------
+# 20. Student Nutrition Program sites (December 2017)
+# ---------------------------------------------------------------------------
+NUTRITION_COLS = ["School_Name", "School_ID", "Breakfast", "Lunch", "Snack"]
+MEALS = ["Breakfast", "Lunch", "Snack"]
+
+
+def load_nutrition(res: dict) -> dict:
+    path = fetch.download(res["id"], res["url"], expect="csv")
+    raw = path.read_bytes()
+    try:
+        text = raw.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        text = raw.decode("cp1252")
+    table = [r for r in csv.reader(io.StringIO(text)) if any(c.strip() for c in r)]
+    header = [norm_header(h) for h in table[0]]
+    require_columns(res["id"], header, NUTRITION_COLS)
+    idx = {h: i for i, h in enumerate(header)}
+    out, stats = {}, Counter()
+    for r in table[1:]:
+        bsid = school_number(r[idx["School_ID"]])
+        if not bsid or not bsid.isdigit():
+            stats["no_school_number"] += 1
+            continue
+        meals = [m for m in MEALS if (r[idx[m]] or "").strip().lower() in ("yes", "y", "oui")]
+        if meals:
+            out[bsid] = sorted(set(out.get(bsid, [])) | set(meals), key=MEALS.index)
+    stats["schools"] = len(out)
+    return {"rows": out, "stats": dict(stats)}

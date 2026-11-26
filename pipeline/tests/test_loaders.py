@@ -173,3 +173,40 @@ def test_shsm_loader_needs_the_program_age_column(raw_dir):
     (raw_dir / "shsm-test.csv").write_text("Board_Name,Sector,School_Name,MIDENT,City,Language\nA,B,C,123456,D,English\n", encoding="utf-8")
     with pytest.raises(SchemaChanged):
         loaders.load_shsm({"id": "shsm-test", "url": "https://example.invalid"})
+
+
+def _eqao_zip(raw_dir, name, member, header, rows):
+    import io as _io
+    import zipfile as _zf
+    buf = _io.BytesIO()
+    with _zf.ZipFile(buf, "w") as z:
+        z.writestr(member, "﻿" + ",".join(header) + "\n" + "\n".join(",".join(r) for r in rows) + "\n")
+    (raw_dir / f"{name}.zip").write_bytes(buf.getvalue())
+
+
+G9_HEAD = ["OrgType", "Language", "BoardMident", "SchoolMident", "SchoolName", "Suppressed", "pctFullyParticipating",
+           "pctOverallM_L4", "pctOverallM_L3", "pctOverallM_L2", "pctOverallM_L1", "pctOverallM_L34"]
+
+
+def test_eqao_open_loader_pads_ids_keeps_codes_and_reads_levels(raw_dir):
+    _eqao_zip(raw_dir, "eqao-test", "x/G9_2026.csv", G9_HEAD, [
+        ["P", "en", "", "", "", "0", "95%", "10%", "50%", "30%", "10%", "60%"],
+        ["S", "en", "66052", "12345", "A", "0", "96%", "12%", "50%", "37%", "<1 %", "62%"],
+        ["S", "fr", "66311", "67890", "B", "1", "N/R", "N/R", "N/R", "N/R", "N/R", "N/R"],
+        ["S", "fr", "66311", "67891", "C", "1", "S. R.", "S. R.", "S. R.", "S. R.", "S. R.", "S. R."],
+    ])
+    out = loaders.load_eqao_open({"id": "eqao-test", "kind": "g9", "grade": "9", "member": "G9_2026.csv", "url": "https://example.invalid"})
+    a = out["rows"]["012345"]
+    assert a["board"] == "B66052" and a["language"] == "English"
+    assert a["results"]["g9-math"]["v"] == 62
+    assert a["results"]["g9-math"]["levels"] == [12, 50, 37, "<1"]
+    assert a["results"]["g9-math"]["participation"] == 96
+    assert out["rows"]["067890"]["results"]["g9-math"] == {"v": None, "code": "N/R", "levels": None, "participation": None}
+    assert out["rows"]["067891"]["results"]["g9-math"]["code"] == "N/R"  # French form S. R. means N/R
+    assert "P" not in str(out["rows"].keys())
+
+
+def test_eqao_open_loader_fails_when_the_standard_column_is_renamed(raw_dir):
+    _eqao_zip(raw_dir, "eqao-test", "x/G9_2026.csv", [h.replace("pctOverallM_L34", "pctM_L34") for h in G9_HEAD], [])
+    with pytest.raises(SchemaChanged):
+        loaders.load_eqao_open({"id": "eqao-test", "kind": "g9", "grade": "9", "member": "G9_2026.csv", "url": "https://example.invalid"})
