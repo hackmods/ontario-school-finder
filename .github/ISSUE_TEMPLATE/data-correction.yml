@@ -1,0 +1,44 @@
+name: Data correction
+description: A number, name, location or boundary on the site looks wrong.
+title: "Correction: "
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Every number comes from a public source, so please tell us where the right value is published.
+        Don't include personal information about students or staff.
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The page link, or the school's name and school number (BSID).
+      placeholder: https://ontarioschoolfinder.ca/school/019186/
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong
+      description: What the site shows, and what it should show.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where the right value is published
+      description: A link to the board, Ministry, EQAO or other official page, if you have one.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of problem
+      options:
+        - School details (name, address, phone, grades, status)
+        - Location on the map
+        - Attendance boundary
+        - Test results (EQAO)
+        - Enrolment, class sizes or programs
+        - Board or postal-area figures
+        - Something else
+    validations:
+      required: true

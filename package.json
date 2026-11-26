@@ -1,7 +1,13 @@
 {
   "name": "ontario-school-finder",
   "private": true,
-  "description": "Site tests (Playwright) and vendored front-end assets for Ontario School Finder",
+  "description": "Ontario School Finder: free, ad-free finder for Ontario public schools. This package holds the site tests (Playwright) and vendored front-end assets.",
+  "license": "UNLICENSED",
+  "homepage": "https://ontarioschoolfinder.ca",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackmods/ontario-school-finder.git"
+  },
   "scripts": {
     "brand": "node scripts/make-icons.mjs",
     "test:e2e": "playwright test",
