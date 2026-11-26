@@ -78,6 +78,7 @@ export function lazyMap(container, opts, onReady) {
       maxPitch: 0,
       ...opts.map,
     });
+    container._map = map; // lets tests ask the map what it drew (labels live on the canvas, not in the DOM)
     map.touchZoomRotate?.disableRotation();
     map.addControl(new gl.AttributionControl({ compact: true }), "bottom-right");
     map.addControl(new gl.NavigationControl({ showCompass: false }), "top-right");
@@ -124,8 +125,12 @@ export function popupHTML(p) {
   return `<div class="pop"><div class="t">${esc(p.n)}</div><div class="s">${esc(sub)}${p.c ? ` · ${esc(p.c)}` : ""}</div><a href="/school/${encodeURIComponent(p.id)}/">View school →</a></div>`;
 }
 
-/** Circle layer for schools, coloured by system, with a hover/tap popup. */
-export function addSchoolLayer(map, gl, id, fc, { radius = 6, cluster = false, filter } = {}) {
+/**
+ * Circle layer for schools, coloured by system, with names beside the dots and a popup.
+ * labels: the zoom from which names show (MapLibre leaves out any that would overlap, so crowded
+ * schools get theirs as you zoom in); false for none. Desktop pointers also get the name on hover.
+ */
+export function addSchoolLayer(map, gl, id, fc, { radius = 6, cluster = false, filter, labels = 9 } = {}) {
   if (map.getSource(id)) map.getSource(id).setData(fc);
   else map.addSource(id, { type: "geojson", data: fc, cluster, clusterRadius: 38, clusterMaxZoom: 10 });
   const color = systemColorExpr();
@@ -160,15 +165,55 @@ export function addSchoolLayer(map, gl, id, fc, { radius = 6, cluster = false, f
         "circle-opacity": ["case", ["boolean", ["get", "in"], true], 1, 0.55],
       },
     });
-    if (bound(map, id)) return;
-    const popup = new gl.Popup({ closeButton: true, maxWidth: "280px", offset: 10 });
-    map.on("click", id, (e) => {
-      const f = e.features[0];
-      popup.setLngLat(f.geometry.coordinates).setHTML(popupHTML(f.properties)).addTo(map);
-    });
-    map.on("mouseenter", id, () => (map.getCanvas().style.cursor = "pointer"));
-    map.on("mouseleave", id, () => (map.getCanvas().style.cursor = ""));
   }
+  if (labels !== false && !map.getLayer(`${id}-labels`)) {
+    map.addLayer({
+      id: `${id}-labels`, type: "symbol", source: id, minzoom: labels,
+      filter: filter || (cluster ? ["!", ["has", "point_count"]] : ["all"]),
+      layout: {
+        "text-field": ["get", "n"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": ["interpolate", ["linear"], ["zoom"], 9, 11, 14, 13],
+        "text-max-width": 11,
+        "text-variable-anchor": ["left", "right", "top", "bottom"],
+        "text-radial-offset": 0.75,
+        "text-justify": "auto",
+        "symbol-sort-key": ["case", ["boolean", ["get", "main"], false], 0, 1], // the page's own school first
+      },
+      paint: {
+        "text-color": isDark() ? "#e6e8eb" : "#23272d",
+        "text-halo-color": isDark() ? "#16191c" : "#ffffff",
+        "text-halo-width": 1.5,
+        "text-opacity": ["case", ["boolean", ["get", "in"], true], 1, 0.7],
+      },
+    });
+  }
+  if (bound(map, id)) return;
+  const popup = new gl.Popup({ closeButton: true, maxWidth: "280px", offset: 10 });
+  const hover = new gl.Popup({ closeButton: false, closeOnClick: false, offset: 10, className: "pop-hover" });
+  map.on("click", id, (e) => {
+    const f = e.features[0];
+    hover.remove();
+    popup.setLngLat(f.geometry.coordinates).setHTML(popupHTML(f.properties)).addTo(map);
+  });
+  map.on("mouseenter", id, () => (map.getCanvas().style.cursor = "pointer"));
+  map.on("mouseleave", id, () => {
+    map.getCanvas().style.cursor = "";
+    hover.remove();
+  });
+  if (matchMedia("(hover: hover)").matches) {
+    map.on("mousemove", id, (e) => {
+      const f = e.features[0];
+      if (popup.isOpen()) return;
+      hover.setLngLat(f.geometry.coordinates).setText(f.properties.n).addTo(map);
+    });
+  }
+}
+
+/** Show or hide the schools and their names together (the Map page's level and system filters). */
+export function setSchoolFilter(map, id, filter) {
+  map.setFilter(id, filter);
+  if (map.getLayer(`${id}-labels`)) map.setFilter(`${id}-labels`, filter);
 }
 
 /** True if handlers for this layer id were already attached to this map (then marks it). */

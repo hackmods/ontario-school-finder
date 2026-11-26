@@ -1,6 +1,6 @@
 // /map/ — every school, with optional area layers. Each layer is labelled with exactly what it is.
 import { qs, qsa, loadIndex, dataUrl } from "./lib.js";
-import { lazyMap, addSchoolLayer, addArea, removeArea, pointsFC, LAYER_COLORS } from "./maps.js";
+import { lazyMap, addSchoolLayer, addArea, removeArea, pointsFC, LAYER_COLORS, setSchoolFilter } from "./maps.js";
 
 const container = qs('[data-map="explore"]');
 const state = { level: "all", systems: new Set(qsa("[data-system]").map((x) => x.dataset.system)), area: "none" };
@@ -51,9 +51,9 @@ if (container) {
       const c = qs(`[data-system-count="${k}"]`);
       if (c) c.textContent = rows.filter((r) => r.sys === k).length.toLocaleString("en-CA");
     }
-    addSchoolLayer(map, gl, "schools", pointsFC(rows), { radius: 4.5 });
+    addSchoolLayer(map, gl, "schools", pointsFC(rows), { radius: 4.5, labels: 12 });
     map.setPaintProperty("schools", "circle-radius", ["interpolate", ["linear"], ["zoom"], 5, 2.2, 9, 4.5, 13, 7]);
-    map.setFilter("schools", schoolFilter());
+    setSchoolFilter(map, "schools", schoolFilter());
     if (info?.restyle || state.area !== "none") drawArea();
   });
 }
@@ -62,14 +62,14 @@ for (const b of qsa("[data-level]")) {
   b.addEventListener("click", () => {
     state.level = b.dataset.level;
     qsa("[data-level]").forEach((x) => { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); });
-    mapRef?.setFilter("schools", schoolFilter());
+    if (mapRef) setSchoolFilter(mapRef, "schools", schoolFilter());
   });
 }
 for (const c of qsa("[data-system]")) {
   c.addEventListener("change", () => {
     if (c.checked) state.systems.add(c.dataset.system);
     else state.systems.delete(c.dataset.system);
-    mapRef?.setFilter("schools", schoolFilter());
+    if (mapRef) setSchoolFilter(mapRef, "schools", schoolFilter());
   });
 }
 for (const r of qsa('input[name="area"]')) {
