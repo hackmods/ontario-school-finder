@@ -80,7 +80,7 @@ SKIP_PIPELINE=1 ./check.sh                    # tests + screenshots on the curre
 SLOW=1 npx playwright test tests/e2e/links.slow.spec.js   # check external source links
 ```
 
-Generator settings (environment variables): `SITE_URL`, `CONTACT_EMAIL`, `CORRECTIONS_URL` (default: this repo's Data correction issue form), `REPO_URL` (footer link), `OPERATOR`.
+Generator settings (environment variables): `SITE_URL`, `CONTACT_EMAIL`, `CORRECTIONS_URL` (default: this repo's Data correction issue form), `REPO_URL` (footer link), `OPERATOR`, `SUPPORT_URL` (optional tip-jar link on /about/#support; default Buy Me a Coffee, `off` hides it).
 The public contact address is never committed: set `CONTACT_EMAIL` in your own environment (once, e.g. as a Windows user variable)
 so every rebuild includes it. To rebuild pages and deploy in one step: `bash scripts/publish.sh`.
 

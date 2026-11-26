@@ -276,6 +276,15 @@ test.describe("pages", () => {
     expect(w.errors).toEqual([]);
   });
 
+  test("about: optional Buy Me a Coffee link is a plain link, footer points to it", async ({ page }) => {
+    await page.goto("/about/");
+    const link = page.locator("#support ~ p a", { hasText: "Buy me a coffee" });
+    await expect(link).toHaveAttribute("href", /^https:\/\/buymeacoffee\.com\/[\w-]+$/);
+    await expect(link).toHaveAttribute("rel", /noopener/);
+    await expect(page.locator(".site-footer a", { hasText: "Support the site" })).toHaveAttribute("href", "/about/#support");
+    expect(await page.locator('script[src*="buymeacoffee"], iframe[src*="buymeacoffee"]').count()).toBe(0);
+  });
+
   test("corrections: GitHub form is pre-filled for the school, footer links the source", async ({ page }) => {
     await page.goto(`/corrections/?school=${SCHOOL}`);
     await expect(page.locator("[data-correction-school]")).toBeVisible();
