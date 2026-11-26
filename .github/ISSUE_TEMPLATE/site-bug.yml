@@ -1,0 +1,27 @@
+name: Site bug
+description: Something on the site doesn't work or looks broken.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: https://ontarioschoolfinder.ca/map/
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and browser
+      placeholder: iPhone 13, Safari / Windows 11, Chrome
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to see it (optional)

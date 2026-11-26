@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a correction on the site
+    url: https://ontarioschoolfinder.ca/corrections/
+    about: The site's own corrections page, if you'd rather not use GitHub.
+  - name: How every number is built
+    url: https://ontarioschoolfinder.ca/methodology/
+    about: Sources, licences, retrieval dates and methods.

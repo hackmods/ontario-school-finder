@@ -6,6 +6,18 @@ A free, fast, ad-free website where parents can find Ontario's publicly funded s
 - No rankings and no single score. Withheld or missing values are labelled, never shown as 0.
 - Every page is pre-generated static HTML, so it is fast, cheap to host, shareable, and the core facts work without JavaScript.
 
+**Live at [ontarioschoolfinder.ca](https://ontarioschoolfinder.ca).** Not affiliated with EQAO, the Ministry of Education or any school board.
+
+![Ontario School Finder home page: search box, map of every school, and counts of schools, boards and postal areas](evidence/brand-home-1280-light.png)
+
+What's on it:
+
+- **A page for every school** (4,945): EQAO results since 2016-17 next to the board and Ontario medians, enrolment since 2011-12, students by grade, class sizes, French and SHSM programs, student context, child care and EarlyON nearby, the nearest schools, and its attendance area (the board's official boundary where one is published, otherwise a clearly labelled estimate).
+- **Board pages** (84) with official board results, spending per student and other context, and **postal-area pages** (522) with census figures and every school inside.
+- **Compare** up to six schools on every measure, with a share link, CSV download and print layout.
+- **A province-wide map** with filters and labelled area layers, and **search** by name, city, postal code, street address or your location (never stored or sent).
+- **How it works** (`/methodology/`) lists every source with its licence, retrieval date and how each number is built.
+
 ## How it fits together
 
 ```
@@ -94,3 +106,19 @@ Run the pipeline again. It re-downloads every source, checks every column it rea
 
 See [docs/DECISIONS.md](docs/DECISIONS.md) for where this build departs from the original brief ([docs/idea.md](docs/idea.md)) and why,
 and [docs/HANDOFF.md](docs/HANDOFF.md) for open items and lessons learned (read it before changing the pipeline or deploying).
+
+## Corrections, issues and security
+
+- Spotted a wrong number or a school in the wrong place? Use the **Report a correction** link on any school page, or open a
+  [data correction issue](../../issues/new/choose). See [CONTRIBUTING.md](CONTRIBUTING.md).
+- Found a security problem? Please report it privately: see [SECURITY.md](SECURITY.md).
+
+## Copyright and reuse
+
+© 2026 Ryan Morris. All rights reserved. The code is public so anyone can see how every number is built, but it is
+**not** released under an open-source licence: please ask before copying or reusing it.
+
+The data belongs to its publishers and keeps their licences (listed in the table above and on `/methodology/`): mostly the
+Open Government Licence – Ontario and the Statistics Canada Open Licence. The generated data files (`site/data/`) and the
+downloaded sources (`pipeline/cache/`) are not stored in this repository; the pipeline fetches them from the original
+publishers. School boards' attendance boundaries are shown on the site with each board's credit and are not redistributed here.

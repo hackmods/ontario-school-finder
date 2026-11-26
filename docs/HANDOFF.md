@@ -11,8 +11,21 @@ GitHub Actions CI: `./check.sh` on your own machine is the definition of done.
    If a board says no, take it down the same day (steps in that file).
 2. **FSA check threshold.** Postal code vs. postal-area outline agree for about 95.5% of schools; the
    brief asked for 98%. Accept the calibrated floor or change it ([DECISIONS.md](DECISIONS.md)).
-3. **Make the repo public?** Still undecided. Nothing secret is committed (`CONTACT_EMAIL` lives only in
-   your Windows user environment).
+3. **Make the repo public** (owner flips it in GitHub settings). Prepared 2026-11-26:
+   - Every blob in all 37 commits, including every PR's commits (GitHub keeps `refs/pull/*`), was scanned for keys,
+     tokens, passwords, private keys and personal addresses: none. PR text is clean too. GitHub
+     holds no Actions/Dependabot/Codespaces secrets, variables, environments, deploy keys or
+     webhooks. `CONTACT_EMAIL` lives only in your Windows user environment.
+   - What *will* be public: the owner's name (already on `/about/`), the commit author emails
+     (the owner's two addresses, which can't be changed without rewriting history,
+     and PR refs keep the old commits anyway), and the server's host name and public IP in
+     `deploy.sh` / `scripts/connect-domain.sh` (already public through DNS).
+   - Licence: none on purpose (all rights reserved; README "Copyright and reuse", `package.json`
+     `UNLICENSED`). Data keeps its source licences; `site/data` and `pipeline/cache` are not in the repo.
+   - After going public: turn on secret scanning and push protection, and private vulnerability
+     reporting (Settings → Code security). Upload `site/static/img/og.png` as the social preview
+     (Settings → General). Optionally set `CORRECTIONS_URL` to the issue chooser so the site's
+     corrections page offers GitHub issues as well as email.
 
 ## Open engineering items
 
