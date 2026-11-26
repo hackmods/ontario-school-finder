@@ -11,5 +11,13 @@ if (id && box) {
     box.innerHTML = `<p class="eyebrow" style="margin:0">Reporting about</p><h2 style="margin:.2em 0">${esc(r.n)}</h2><p class="muted" style="margin:0">${esc(levelName(r.l))} · ${esc(r.bn)} · school number ${esc(r.id)}</p>`;
     const mail = document.querySelector("[data-correction-mail]");
     if (mail) mail.href = `${mail.href.split("?")[0]}?subject=${encodeURIComponent(`Correction: ${r.n} (${r.id})`)}`;
+    // GitHub issue forms take the title and any field by its id ("page" in data-correction.yml)
+    const link = document.querySelector("[data-correction-link]");
+    if (link && link.hostname === "github.com") {
+      const u = new URL(link.href);
+      u.searchParams.set("title", `Correction: ${r.n} (${r.id})`);
+      u.searchParams.set("page", `${location.origin}/school/${r.id}/`);
+      link.href = u.toString();
+    }
   });
 }

@@ -5,7 +5,8 @@
 Environment (all optional):
     SITE_URL         canonical origin, default https://ontarioschoolfinder.ca
     CONTACT_EMAIL    contact address shown on /about/, /corrections/ and in the footer (set it in your environment)
-    CORRECTIONS_URL  a public form or issue tracker for corrections
+    CORRECTIONS_URL  a public form or issue tracker for corrections, default the repo's "Data correction" issue form
+    REPO_URL         the public source repository, linked in the footer
     OPERATOR         who runs the site, for /about/ "Who runs it"
 """
 from __future__ import annotations
@@ -67,7 +68,9 @@ DIST = HERE / "dist"
 STATIC = HERE / "static"
 SITE_URL = os.environ.get("SITE_URL", "https://ontarioschoolfinder.ca").rstrip("/")
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "").strip()  # set by the site owner; never stored in the repo
-CORRECTIONS_URL = os.environ.get("CORRECTIONS_URL", "").strip()
+REPO_URL = (os.environ.get("REPO_URL", "").strip() or "https://github.com/hackmods/ontario-school-finder").rstrip("/")
+# GitHub issue form; corrections.js adds the school's page and a title when the visitor came from a school
+CORRECTIONS_URL = os.environ.get("CORRECTIONS_URL", "").strip() or f"{REPO_URL}/issues/new?template=data-correction.yml"
 OPERATOR = os.environ.get("OPERATOR", "").strip() or "Ontario School Finder is built and run by Ryan Morris, independently, for Ontario families."
 
 ASSESSMENT_ORDER = ["g3-reading", "g3-writing", "g3-math", "g6-reading", "g6-writing", "g6-math", "g9-math", "g9-math-academic", "g9-math-applied", "osslt"]
@@ -130,7 +133,7 @@ class Site:
         codes = self.meta["codes"]
         loc = load(HERE / "locators.json")  # hand-checked links to each board's "which school serves my address" page
         self.env.globals.update(
-            asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, contact_email=CONTACT_EMAIL, source_series=source_series,
+            asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, contact_email=CONTACT_EMAIL, source_series=source_series, repo_url=REPO_URL,
             code_text=lambda c: codes.get(c, {}).get("explain", "") if c else "",
             locators=loc["boards"], locators_checked=loc["checked"],
         )
