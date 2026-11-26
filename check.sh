@@ -41,9 +41,11 @@ else
   trap '[ -n "$SERVER_PID" ] && kill "$SERVER_PID" 2>/dev/null || true' EXIT
   for _ in $(seq 1 50); do curl -fsS "http://127.0.0.1:$PORT/build.json" >/dev/null 2>&1 && break; sleep 0.2; done
 fi
-rm -f evidence/*.png
+# only the screenshots the tests make: evidence/brand-*.png come from the branding work and the README shows one
+EVIDENCE="home-390 search-results-390 school-page-390 school-page-1280 fsa-page-390 compare-1280 map-legend-390 methodology-1280"
+for f in $EVIDENCE; do rm -f "evidence/$f.png"; done
 npx playwright test
-for f in home-390 search-results-390 school-page-390 school-page-1280 fsa-page-390 compare-1280 map-legend-390 methodology-1280; do
+for f in $EVIDENCE; do
   test -s "evidence/$f.png" || { echo "missing evidence/$f.png"; exit 1; }
 done
 echo "all 8 screenshots present"

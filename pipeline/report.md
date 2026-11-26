@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 12:52 UTC in 133 s.
+Generated 2026-11-26 20:11 UTC in 148 s.
 
 ## Output
 
@@ -418,7 +418,7 @@ Codes are stored as `null` with a flag, never as 0.
 
 Areas are matched to schools by name within the board and level (or by the one school inside the area). Unmatched areas are left out: development, holding and dual-attendance areas that don't name one school.
 
-- bdy-wrdsb-elem (Waterloo Region DSB, elementary, edited 2026-08): 115 of 141 areas matched; not matched: Beaver Creek Meadows, Cambridge West, Centennial P.S. (W), Doon South I, Doon South IV, Doon South VI, East Side Lands Secondary Plan Area, Hunt Club (River Mill North), Hunt Club (River Mill South), Laurentian West I…
+- bdy-wrdsb-elem (Waterloo Region DSB, elementary, edited 2026-08): 116 of 141 areas matched; not matched: Beaver Creek Meadows, Cambridge West, Doon South I, Doon South IV, Doon South VI, East Side Lands Secondary Plan Area, Hunt Club (River Mill North), Hunt Club (River Mill South), Laurentian West I, North Cambridge (Arriscraft)…
 - bdy-wrdsb-sec (Waterloo Region DSB, secondary, edited 2026-09): 16 of 36 areas matched; not matched: Beaver Creek Meadows, Cambridge West, Doon South I, Doon South IV, Doon South VI, Hunt Club (River Mill North), Hunt Club (River Mill South), Huron South (Tartan), Huron South II, Laurentian West I…
 - bdy-hwdsb-elem (Hamilton-Wentworth DSB, elementary, edited 2025-09): 74 of 74 areas matched
 - bdy-hwdsb-sec (Hamilton-Wentworth DSB, secondary, edited 2025-07): 12 of 12 areas matched

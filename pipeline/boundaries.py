@@ -121,6 +121,8 @@ def build(schools: list[dict], board_names: dict[str, str], log=print) -> dict:
                     far.append(f"{name} -> {tied[0]}")
             elif tied and set(tied) <= set(inside):
                 picks = tied  # one area for a split-grade pair on one site ("Frank Panabaker North" and "South")
+            elif len([b for b in tied if b in inside]) == 1:
+                picks = [b for b in tied if b in inside]  # namesakes ("Centennial (Waterloo)" / "(Cambridge)"): the one inside
             elif len(inside) == 1:
                 picks = inside
             if not picks:

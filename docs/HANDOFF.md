@@ -1,56 +1,58 @@
 # Handoff: open items and lessons
 
-State on 2026-11-26: PRs #1–#10 merged, `main` deployed to https://ontarioschoolfinder.ca
-(CapRover app `ontario-schools`, build 2026-11-26T08:01:58). No open PRs or branches. There is no
-GitHub Actions CI: `./check.sh` on your own machine is the definition of done.
+State at the end of 2026-11-26: PRs #1–#19 merged (Dependabot's #14 closed as superseded by #18),
+`main` deployed to https://ontarioschoolfinder.ca (CapRover app `ontario-schools`). The repo is
+**public** with no licence (all rights reserved). No open PRs or branches. There is no GitHub Actions
+CI: `./check.sh` on your own machine is the definition of done (it passed on 2026-11-26).
 
 ## Open items for the owner
 
-1. **Ask the 7 boards for permission to show their boundaries.** They are live now, labelled as
-   shown pending permission. Letter and reply log: [attendance-boundaries.md](attendance-boundaries.md).
+1. **Ask the 7 boards for permission to show their boundaries.** They are live, labelled as shown
+   pending permission. Letter and reply log: [attendance-boundaries.md](attendance-boundaries.md).
    If a board says no, take it down the same day (steps in that file).
 2. **FSA check threshold.** Postal code vs. postal-area outline agree for about 95.5% of schools; the
    brief asked for 98%. Accept the calibrated floor or change it ([DECISIONS.md](DECISIONS.md)).
-3. **Make the repo public** (owner flips it in GitHub settings). Prepared 2026-11-26:
-   - Every blob in all 37 commits, including every PR's commits (GitHub keeps `refs/pull/*`), was scanned for keys,
-     tokens, passwords, private keys and personal addresses: none. PR text is clean too. GitHub
-     holds no Actions/Dependabot/Codespaces secrets, variables, environments, deploy keys or
-     webhooks. `CONTACT_EMAIL` lives only in your Windows user environment.
-   - What *will* be public: the owner's name (already on `/about/`), the commit author emails
-     (the owner's two addresses, which can't be changed without rewriting history,
-     and PR refs keep the old commits anyway), and the server's host name and public IP in
-     `deploy.sh` / `scripts/connect-domain.sh` (already public through DNS).
-   - Licence: none on purpose (all rights reserved; README "Copyright and reuse", `package.json`
-     `UNLICENSED`). Data keeps its source licences; `site/data` and `pipeline/cache` are not in the repo.
-   - After going public: turn on secret scanning and push protection, and private vulnerability
-     reporting (Settings → Code security). Upload `site/static/img/og.png` as the social preview
-     (Settings → General).
-   - The site links to the repo: "Source code on GitHub" in the footer's small print, and "Report it
-     on GitHub" on `/corrections/` (the Data correction issue form, pre-filled with the school), both
-     from `REPO_URL` / `CORRECTIONS_URL` defaults in `site/generate.py`. While the repo is private these
-     links show visitors a GitHub 404, so deploy them only once it is public.
+3. **Social preview image**: upload `site/static/img/og.png` in GitHub → Settings → General (web only,
+   no API), so links to the repo show the brand instead of a generic card.
+4. **Watch the new inbox**: corrections can now arrive as GitHub issues (the *Data correction* form,
+   label `data`) as well as email, and security reports through GitHub's private vulnerability reporting.
+
+## Done on 2026-11-26 (for reference)
+
+- Repo made public after a secret scan of every blob in all commits and PR refs (clean). Secret
+  scanning, push protection, private vulnerability reporting, Dependabot alerts and security updates
+  are on. What is public anyway: the owner's name (on `/about/`), the commit author emails (can't be
+  changed without rewriting history), and the server's host name and IP (already in DNS).
+- `www` and the CapRover address now go straight to `https://ontarioschoolfinder.ca` in one hop: the
+  site's nginx redirects them, and CapRover's own redirect setting (which went to `http://` first) is off.
+- Home map follows the search box; school names on every map; corrections through the GitHub issue
+  form; every script, data file and the map library are versioned so deploys reach visitors at once;
+  MapLibre 6.4.1 (critical XSS fix).
 
 ## Open engineering items
 
-- **`https://www.` redirects to `http://` apex** (an extra plain-HTTP hop before HTTPS). Fix the
-  redirect target in CapRover / `scripts/connect-domain.sh` so `www` goes straight to `https://ontarioschoolfinder.ca`.
 - **Boundary layers are named by school year** (for example `Boundaries_Elementary_2026`,
   `2025_2026_...`, `YEAR='2025-2026'`). Each summer, look for each board's new layer, update its
   `url` / `where` in `pipeline/sources.BOUNDARY_LAYERS`, then rebuild (see the cache lesson below).
   Dufferin-Peel's layer is still 2023-24, so its newest schools (St. Sofia, St. Carlo Acutis,
   St. Oscar Romero) have no official area yet.
-- **Schools in covered boards still without an official area**: 45 of 695 (650 have one). Mostly holding,
-  development and dual-attendance areas, which are left out on purpose. A few are worth a look:
-  Hamilton-Wentworth's Dalewood, Westview Middle and Norwood Park aren't in its layer under those
-  names. Waterloo has two "Centennial P.S." areas and only one matched. `pipeline/report.md` lists them all.
-- **More boards**: Ottawa Catholic SB, the Windsor boards and CS Viamonde have public layers that look old or unclear.
-  Confirm with the board before adding. Boards with locator pages only are linked from
+- **Schools in covered boards still without an official area**: 44 of 695 (651 have one). Almost all
+  are holding, development and dual-attendance areas, left out on purpose. Hamilton-Wentworth's
+  Dalewood, Westview Middle and Norwood Park aren't in its published layer at all (checked); they need
+  a newer layer from the board. `pipeline/report.md` lists every unmatched area.
+- **More boards**: Ottawa Catholic SB, the Windsor boards and CS Viamonde have public layers that look
+  old or unclear. Confirm with the board before adding. Boards with locator pages only are linked from
   `site/locators.json` (47 boards).
 - **Yearly data**: add next year's EQAO Open Data file to `sources.EQAO_OPEN_RESOURCES` (with a
   `label`); the Ministry school file wins once it covers that year. Suspensions stop at 2021-22 and
   nutrition sites are from 2017. Pages say so; recheck the Data Catalogue for newer files.
 - **Board service area (#6)** is still "under review" with no files. When it appears, it can replace
   the approximate board areas.
+- **Dependabot** now opens PRs for vulnerable packages. `maplibre-gl` needs `npm run vendor` and the
+  `LIB` path change (see "Map library" below); the Playwright and font packages only affect tests and
+  vendored fonts.
+- **A full `./check.sh` from a clean download cache** wasn't run this session (it re-downloads every
+  source); run it before the next data refresh.
 
 ## Lessons (traps that cost time)
 
