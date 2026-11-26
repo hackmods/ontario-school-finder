@@ -1,0 +1,20 @@
+/* Generated artwork is selected with npm run brand -- --brand <name>. */
+:root { --header-h: 84px; }
+.brand-lockup { line-height: 0; gap: 0; }
+.brand-lockup img { display: block; width: 235px; height: auto; }
+.brand-lockup .brand-logo-dark { display: none; }
+.site-footer .brand-lockup img { width: 270px; max-width: 100%; }
+:root[data-theme="dark"] .brand-lockup .brand-logo-light { display: none; }
+:root[data-theme="dark"] .brand-lockup .brand-logo-dark { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .brand-lockup .brand-logo-light { display: none; }
+  :root:not([data-theme="light"]) .brand-lockup .brand-logo-dark { display: block; }
+}
+@media (max-width: 760px) {
+  :root { --header-h: 76px; }
+  .site-header .brand-lockup img { width: 215px; }
+}
+@media print {
+  .brand-lockup .brand-logo-light { display: block !important; }
+  .brand-lockup .brand-logo-dark { display: none !important; }
+}

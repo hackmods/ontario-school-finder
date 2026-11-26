@@ -3,6 +3,7 @@
   "private": true,
   "description": "Site tests (Playwright) and vendored front-end assets for Ontario School Finder",
   "scripts": {
+    "brand": "node scripts/make-icons.mjs",
     "test:e2e": "playwright test",
     "vendor": "node scripts/vendor.mjs"
   },

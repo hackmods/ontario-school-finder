@@ -34,6 +34,10 @@ check.sh    the definition of done: clean rebuild + every test + screenshots
 
 Skipped: #6 *Board service area* (listed as "under review" with no files), #8 census subdivisions (only needed for #6), #3 EQAO repository and #11 board attendance boundaries (Phase 2). Details and retrieval dates are on `/methodology/` and in `pipeline/report.md`.
 
+## Branding
+
+Field Guide is the selected trillium logo. All three retro designs, editable SVG masters, previews and complete web assets are preserved in [branding/](branding/README.md). Use `npm run brand -- --brand field-guide` (or `civic-trillium` / `common-bloom`) to select and regenerate the artwork, then rebuild the site before publishing.
+
 ## Run it
 
 Requirements: Python 3.11+ (tested on 3.14), Node 18+ (only for Playwright tests), Git Bash on Windows.
