@@ -5,7 +5,7 @@
 # Build first: ./check.sh (full pipeline + tests) or `python -m pipeline.build && python site/generate.py`.
 set -euo pipefail
 cd "$(dirname "$0")"
-MACHINE="${MACHINE:-behind7proxies}"
+MACHINE="${MACHINE:-captain-01}"
 APP="${1:-}"
 if [ -z "$APP" ]; then echo "usage: ./deploy.sh <caprover-app-name>"; exit 1; fi
 if [ ! -f site/dist/build.json ]; then echo "site/dist is not built yet"; exit 1; fi
