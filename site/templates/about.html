@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{%- from "_icons.html" import icon -%}
+{% block main %}
+<div class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">About</li></ol>
+  <h1>About Ontario School Finder</h1>
+  <p class="lede" style="margin:0">A free, independent tool that puts Ontario’s public school data in one place, in plain language, with the sources one click away.</p>
+</div></div>
+<div class="wrap"><div class="prose">
+<h2>What this is</h2>
+<p>Choosing or getting to know a school is a big decision, and the public information about Ontario schools is spread across spreadsheets from several government offices. This site gathers it, cleans it carefully, and shows each school next to its board and the province over time — without ranking anyone.</p>
+<p>It covers every publicly funded school in Ontario: English and French, public and Catholic, elementary and secondary. Private schools are not included because the Ministry does not publish comparable data for them.</p>
+
+<h2>Who runs it</h2>
+<p>{{ operator }} It is not affiliated with EQAO, the Ministry of Education, any school board, or any real-estate or ranking company.</p>
+
+<h2>Why it’s free</h2>
+<p>It is built on open data that taxpayers already paid for, and it costs very little to run: there is no server-side database and no accounts. There are no ads and there never will be. The cleaned data is <a href="/data/">free to download</a> under the same open licences.</p>
+
+<h2 id="privacy">Privacy</h2>
+<ul>
+  <li><strong>No accounts, no tracking cookies, no analytics, no ads.</strong></li>
+  <li><strong>“Use my location”</strong> asks your browser for permission, uses your position only inside your browser tab to sort schools by distance, and never sends it to us or stores it.</li>
+  <li><strong>Address search</strong> sends only the text you type to the Government of Canada’s Natural Resources Canada Geolocation Service, and only when you ask for an address search.</li>
+  <li><strong>Maps</strong> load tiles from OpenFreeMap; like any website, their servers see your IP address when tiles load. Nothing else is loaded from third parties.</li>
+  <li>Your “compare” list and light/dark choice are saved only in your own browser (local storage) and you can clear them any time.</li>
+  <li>Our web server keeps standard short-lived access logs (IP address, page, time) for security and reliability. We don’t sell or share them.</li>
+</ul>
+
+<h2>Corrections</h2>
+<p>Found something wrong? See <a href="/corrections/">how to report a correction</a>. School contact details come from school boards; results come from EQAO and the Ministry. We fix our own mistakes quickly and pass source errors on to the right office.</p>
+</div></div>
+{% endblock %}

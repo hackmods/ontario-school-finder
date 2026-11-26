@@ -1,0 +1,217 @@
+{% extends "base.html" %}
+{%- from "_icons.html" import icon, sysbadge -%}
+{% block head %}
+<script type="application/ld+json">{{ jsonld|safe }}</script>
+{% endblock %}
+{% block main %}
+<div class="page-head">
+  <div class="wrap">
+    <ol class="crumbs">
+      <li><a href="/">Home</a></li>
+      <li><a href="/board/{{ s.board_number }}/">{{ s.board_name }}</a></li>
+      <li aria-current="page">{{ s.name }}</li>
+    </ol>
+    <div class="head-row">
+      <div style="min-width:0">
+        <div class="head-meta">
+          {{ sysbadge(s.system, system_label) }}
+          <span class="badge">{{ s.level|capitalize }} · {{ s.grades or "grades not listed" }}</span>
+          {% if s.special %}<span class="badge badge-warn">{{ s.special }}</span>{% endif %}
+          {% if s.status != "open" %}<span class="badge badge-warn">Not in the {{ contact_label }} contact list</span>{% endif %}
+        </div>
+        <h1>{{ s.name }}</h1>
+        <p class="muted" style="margin:0">{{ address_line }}</p>
+      </div>
+      <div class="head-actions">
+        <button class="btn" type="button" data-compare-toggle="{{ s.bsid }}" data-compare-name="{{ s.name }}" aria-pressed="false">{{ icon("plus") }}<span>Compare</span></button>
+        {% if s.website %}<a class="btn btn-primary" href="{{ s.website }}" rel="noopener">{{ icon("globe") }}School website</a>{% endif %}
+      </div>
+    </div>
+    <dl class="facts">
+      <div><dt>Board</dt><dd><a href="/board/{{ s.board_number }}/">{{ s.board_name }}</a></dd></div>
+      <div><dt>Postal area</dt><dd><a href="/fsa/{{ s.fsa }}/">{{ s.fsa }}</a>{% if s.postal_code %} · {{ s.postal_code }}{% endif %}</dd></div>
+      {% if s.phone %}<div><dt>Phone</dt><dd><a href="tel:{{ s.phone|replace('-', '') }}">{{ s.phone }}</a></dd></div>{% endif %}
+      {% if s.email %}<div><dt>Email</dt><dd><a href="mailto:{{ s.email }}">{{ s.email }}</a></dd></div>{% endif %}
+      {% if s.date_open %}<div><dt>Opened</dt><dd>{{ s.date_open[:4] }}</dd></div>{% endif %}
+      <div><dt>School number (BSID)</dt><dd class="tnum">{{ s.bsid }}</dd></div>
+    </dl>
+  </div>
+</div>
+
+<nav class="subnav" aria-label="On this page">
+  <div class="wrap">
+    <a href="#overview">Overview</a>
+    {% if results %}<a href="#results">Results</a>{% endif %}
+    {% if s.enrolment %}<a href="#enrolment">Enrolment</a>{% endif %}
+    <a href="#students">Students</a>
+    <a href="#nearby">Nearby</a>
+    <a href="#sources">Sources</a>
+  </div>
+</nav>
+
+<section class="block" id="overview">
+  <div class="wrap">
+    <h2>Overview</h2>
+    <div class="kpis">
+      <div class="kpi"><div class="k">Enrolment {{ enrol_latest.year if enrol_latest else "" }}</div>
+        <div class="v">{% if enrol_latest and enrol_latest.value is not none %}{{ "{:,}".format(enrol_latest.value) }}{% elif enrol_latest %}<span class="code" title="{{ code_text(enrol_latest.code) }}">{{ enrol_latest.code }}</span>{% else %}—{% endif %}</div>
+        <div class="d">{% if enrol_change %}{{ enrol_change }}{% else %}Rounded by the Ministry{% endif %}</div></div>
+      <div class="kpi"><div class="k">Latest EQAO year</div><div class="v">{{ latest_eqao or "—" }}</div><div class="d">{{ results|length }} assessment{{ "" if results|length == 1 else "s" }} with results</div></div>
+      <div class="kpi"><div class="k">Child care at this address</div><div class="v">{{ s.childcare.at_address|length or "None" }}</div><div class="d">Licensed, {{ childcare_date }}</div></div>
+      <div class="kpi"><div class="k">Nearest other {{ s.level }} school</div><div class="v">{% if s.nearby %}{{ s.nearby[0].km }} <small>km</small>{% else %}—{% endif %}</div><div class="d">Straight-line distance</div></div>
+    </div>
+    <div class="map-shell" style="margin-top:16px">
+      <div class="map" data-map="school" aria-label="Map of {{ s.name }} and nearby schools"></div>
+      <div class="map-fallback" data-map-fallback><div>{{ icon("map", "card-ic") }}Map loads with JavaScript. <a href="https://www.openstreetmap.org/?mlat={{ s.lat }}&amp;mlon={{ s.lon }}#map=16/{{ s.lat }}/{{ s.lon }}" rel="noopener">View this location on OpenStreetMap</a>.</div></div>
+    </div>
+    <div class="legend" style="margin-top:12px">
+      <ul class="legend-inline" style="gap:8px 20px">
+        <li><span class="pin" style="--sys:var(--c-school)"></span>This school</li>
+        <li><span class="pin" style="--sys:var(--c-prov)"></span>Other {{ s.level }} schools nearby</li>
+        {% if s.nearest_area %}<li><span class="sw sw-near" style="display:inline-block;width:22px;height:14px;border-radius:3px"></span>Nearest school, NOT the official boundary</li>{% endif %}
+      </ul>
+    </div>
+    <div class="note" style="margin-top:12px">{{ icon("info") }}<div><p>{% if s.nearest_area %}The shaded area is every place closer to this school than to any other {{ system_label }} {{ s.level }} school — a rough guide only. {% endif %}<strong>Attendance boundaries are set by {{ s.board_name }}.</strong> Confirm which school serves your address with the board{% if s.board_website %} (<a href="{{ s.board_website }}" rel="noopener">board website</a>){% endif %}.</p></div></div>
+    <script type="application/json" id="map-data">{{ map_json|safe }}</script>
+  </div>
+</section>
+
+{% if results %}
+<section class="block" id="results">
+  <div class="wrap">
+    <h2>EQAO results <span class="badge">{{ eqao_span }}</span></h2>
+    <p class="block-intro">Share of this school’s students who met the provincial standard (level 3 or 4) on each EQAO assessment, next to the <strong>median school</strong> in {{ s.board_name }} and in Ontario ({{ s.language }}-language schools). Half of schools are above a median and half below. EQAO did not run assessments in 2019-20 or 2020-21.</p>
+    <ul class="legend-inline" aria-label="Chart legend">
+      <li><i class="l-school"></i>This school</li>
+      <li><i class="l-board"></i>Board median</li>
+      <li><i class="l-prov"></i>Ontario median</li>
+    </ul>
+    <div class="charts">
+      {% for r in results %}
+      <figure class="chart-card" style="margin:0" id="eqao-{{ r.id }}">
+        <h3>{{ r.grade }} · {{ r.subject }}</h3>
+        <p class="sum">{{ r.summary|safe }}</p>
+        <div class="chart">{{ r.svg|safe }}</div>
+        {% if r.official %}<p class="small muted" style="margin:6px 0 0">Board’s official result (all students), {{ r.official.year }}: <b>{{ r.official.value }}%</b> <a class="ref" href="#src-{{ r.official.source_id }}">source</a></p>{% endif %}
+        <details class="data-table">
+          <summary>Show the numbers</summary>
+          <div class="table-wrap">
+          <table>
+            <caption>{{ r.grade }} {{ r.subject }}: share meeting the standard</caption>
+            <thead><tr><th scope="col">Year</th><th scope="col" class="n">School</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Ontario median</th><th scope="col">Source</th></tr></thead>
+            <tbody>
+            {% for row in r.rows %}
+              <tr>
+                <th scope="row">{{ row.year }}</th>
+                <td class="n">{% if row.pct_at_or_above_standard is not none %}{{ row.pct_at_or_above_standard }}%{% else %}<span class="code" title="{{ code_text(row.code) }}">{{ row.code }}</span>{% endif %}</td>
+                <td class="n">{{ pct(row.board_median) }}{% if row.board_n %} <span class="muted small">({{ row.board_n }})</span>{% endif %}</td>
+                <td class="n">{{ pct(row.province_median) }}</td>
+                <td><a class="ref" href="#src-{{ row.source_id }}">{{ row.source_id }}</a></td>
+              </tr>
+            {% endfor %}
+            </tbody>
+          </table>
+          </div>
+          <p class="small muted">Numbers in brackets: how many of the board’s schools had a result that year. {% if r.codes %}{% for c in r.codes %}<span class="code">{{ c }}</span> {{ code_text(c) }} {% endfor %}{% endif %}</p>
+        </details>
+      </figure>
+      {% endfor %}
+    </div>
+    <div class="note note-warn" style="margin-top:16px">{{ icon("info") }}<div><p><strong>Read with care.</strong> In a small school a handful of students can move the percentage by 10 points or more. The Ministry also randomly rounds some percentages to protect privacy, so a 0% or 100% may not be exact. Look at the trend over several years, not one number. <a href="https://www.eqao.com/results/?orgType=S&amp;mident={{ s.bsid }}&amp;lang=en" rel="noopener">See this school’s full report on EQAO’s site</a>.</p></div></div>
+  </div>
+</section>
+{% else %}
+<section class="block" id="results">
+  <div class="wrap">
+    <h2>EQAO results</h2>
+    <div class="note">{{ icon("info") }}<div><p>The source data has no EQAO results for this school. That is normal for schools without Grade 3, 6, 9 or 10 students{% if s.special %}, and for {{ s.special|lower }} schools{% endif %}. <a href="https://www.eqao.com/results/?orgType=S&amp;mident={{ s.bsid }}&amp;lang=en" rel="noopener">Check EQAO’s site</a>.</p></div></div>
+  </div>
+</section>
+{% endif %}
+
+{% if s.enrolment %}
+<section class="block" id="enrolment">
+  <div class="wrap">
+    <h2>Enrolment <span class="badge">{{ s.enrolment[0].year }} to {{ s.enrolment[-1].year }}</span></h2>
+    <div class="card">
+      <div class="chart">{{ enrol_svg|safe }}</div>
+      <details class="data-table">
+        <summary>Show the numbers</summary>
+        <div class="table-wrap"><table>
+          <caption>Enrolment by school year</caption>
+          <thead><tr><th scope="col">Year</th><th scope="col" class="n">Students</th><th scope="col">Source</th></tr></thead>
+          <tbody>{% for e in s.enrolment|reverse %}<tr><th scope="row">{{ e.year }}</th><td class="n">{% if e.value is not none %}{{ "{:,}".format(e.value) }}{% else %}<span class="code" title="{{ code_text(e.code) }}">{{ e.code }}</span>{% endif %}</td><td><a class="ref" href="#src-{{ e.source_id }}">{{ e.source_id }}</a></td></tr>{% endfor %}</tbody>
+        </table></div>
+      </details>
+      <p class="small muted" style="margin:8px 0 0">Headcount reported by the board. Since 2018-19 the Ministry rounds school enrolment to the nearest 5. Years missing from the chart are years the school was not in the file.</p>
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="block" id="students">
+  <div class="wrap">
+    <h2>About the students <span class="badge">{{ s.context.year }}</span></h2>
+    <p class="block-intro">Context the Ministry publishes for every school. It describes who the school serves — it is not a measure of quality.</p>
+    <div class="card">
+      <div class="table-wrap"><table>
+        <caption>Student population, {{ s.context.year }}</caption>
+        <thead><tr><th scope="col">Measure</th><th scope="col" class="n">This school</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Ontario median</th></tr></thead>
+        <tbody>
+        {% for c in context_rows %}
+          <tr><th scope="row" style="font-weight:550">{{ c.label }}<div class="small muted" style="font-weight:400">{{ c.definition }}</div></th>
+            <td class="n">{% if c.value is not none %}{{ c.value }}%{% else %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% endif %}</td>
+            <td class="n">{{ pct(c.board_median) }}</td><td class="n">{{ pct(c.province_median) }}</td></tr>
+        {% endfor %}
+        </tbody>
+      </table></div>
+      <p class="small muted" style="margin:8px 0 0">Source: <a href="#src-{{ s.context.source_id }}">{{ s.context.source_id }}</a>. Medians are computed by this site from the same file. Values under 10 students are withheld (<span class="code">SP</span>).</p>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="nearby">
+  <div class="wrap grid grid-2">
+    <div class="card">
+      <h2 style="font-size:1.2rem">{{ icon("child", "card-ic") }}Licensed child care</h2>
+      {% if s.childcare.at_address %}
+      <p class="small muted">Licensed by the Ministry at this school’s address ({{ childcare_date }}):</p>
+      <ul class="list">{% for c in s.childcare.at_address %}
+        <li><div class="row-link" style="cursor:default"><div class="main"><div class="t">{{ c.name }}</div><div class="s">{{ c.type }}{% if c.options %} · {{ c.options }}{% endif %}{% if c.language %} · {{ c.language }}{% endif %}</div></div></div></li>
+      {% endfor %}</ul>
+      {% else %}
+      <p class="muted">No licensed child care is listed at this school’s street address.</p>
+      {% endif %}
+      <p class="small"><a href="/fsa/{{ s.fsa }}/#childcare">{{ s.childcare.in_fsa_count }} licensed child care site{{ "" if s.childcare.in_fsa_count == 1 else "s" }} in postal area {{ s.fsa }}</a> · <a class="ref" href="#src-{{ s.childcare.source_id }}">source</a></p>
+    </div>
+    <div class="card">
+      <h2 style="font-size:1.2rem">{{ icon("pin", "card-ic") }}Other {{ s.level }} schools nearby</h2>
+      <ul class="list">{% for n in s.nearby %}
+        <li><a class="row-link" href="/school/{{ n.bsid }}/"><span class="pin sys-{{ n.system }}"></span><span class="main"><span class="t">{{ n.name }}</span><span class="s" style="display:block">{{ n.board_name }} · {{ n.language }}</span></span><span class="side">{{ n.km }} km</span></a></li>
+      {% endfor %}</ul>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="sources">
+  <div class="wrap">
+    <h2>Sources</h2>
+    <p class="block-intro">Every number on this page comes from one of these public files. Codes such as <span class="code">N/R</span> are explained in <a href="/methodology/#codes">How it works</a>.</p>
+    <ul class="src-list">
+      {% for src in s.sources %}
+      <li id="src-{{ src.source_id }}"><div class="t"><a href="{{ src.url }}" rel="noopener" data-source-link>{{ src.title }}</a></div>
+        <div class="m">{{ src.publisher }} · <a href="{{ src.licence_url }}" rel="noopener">{{ src.licence }}</a>{% if src.retrieved %} · retrieved {{ src.retrieved }}{% endif %} · <span class="tnum">{{ src.source_id }}</span></div></li>
+      {% endfor %}
+      {% if s.geocoded %}<li><div class="t">Location found by address search</div><div class="m">{% if s.coord_note %}{{ s.coord_note }}{% else %}No source year had coordinates for this school.{% endif %} Its address was matched with the <a href="https://natural-resources.canada.ca/maps-tools-and-publications/maps/geolocation-service" rel="noopener">Natural Resources Canada Geolocation Service</a> ({{ s.geocode_precision|lower|replace("_", " ") }}).</div></li>{% endif %}
+    </ul>
+    <h3 style="margin-top:24px">Check it yourself</h3>
+    <div class="chips">
+      <a class="chip" href="{{ s.links.eqao }}" rel="noopener">{{ icon("ext", "card-ic") }}EQAO school results</a>
+      <a class="chip" href="{{ s.links.find_your_school }}" rel="noopener">{{ icon("ext", "card-ic") }}Ontario School Information Finder</a>
+      {% if s.board_website %}<a class="chip" href="{{ s.board_website }}" rel="noopener">{{ icon("ext", "card-ic") }}{{ s.board_name }} website</a>{% endif %}
+      <a class="chip" href="/corrections/?school={{ s.bsid }}">{{ icon("flag", "card-ic") }}Report a correction</a>
+    </div>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}<script type="module" src="{{ asset('js/school.js') }}"></script>{% endblock %}

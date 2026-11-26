@@ -1,0 +1,14 @@
+{
+  "name": "ontario-school-finder",
+  "private": true,
+  "description": "Site tests (Playwright) and vendored front-end assets for Ontario School Finder",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "vendor": "node scripts/vendor.mjs"
+  },
+  "devDependencies": {
+    "@fontsource-variable/inter": "5.2.5",
+    "@playwright/test": "1.62.0",
+    "maplibre-gl": "5.24.0"
+  }
+}

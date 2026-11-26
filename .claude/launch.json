@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "osf-dist",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "http.server", "8078", "--bind", "127.0.0.1", "--directory", "site/dist"],
+      "port": 8078
+    }
+  ]
+}

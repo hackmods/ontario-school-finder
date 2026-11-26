@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{%- from "_icons.html" import icon -%}
+{% block main %}
+<div class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">Compare</li></ol>
+  <h1>Compare schools</h1>
+  <p class="lede" style="margin:0">Up to three schools side by side, using the same measures and the same school years.</p>
+</div></div>
+<section class="block"><div class="wrap">
+  <noscript><div class="note">{{ icon("info") }}<div><p>Comparing needs JavaScript. Every school page has the full figures.</p></div></div></noscript>
+  <div class="search search-sm" data-search data-search-compare style="max-width:520px;margin-bottom:16px">
+    <form class="search-box" action="/search/" role="search">
+      <label class="visually-hidden" for="cq">Add a school to compare</label>
+      <input id="cq" name="q" type="search" placeholder="Add a school by name" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="cq-list">
+      <button class="icon-btn" type="submit" aria-label="Search">{{ icon("plus") }}</button>
+    </form>
+    <div class="suggest" id="cq-list" role="listbox" hidden></div>
+  </div>
+  <div data-compare-root><p class="loading">Loading…</p></div>
+</div></section>
+{% endblock %}
+{% block scripts %}<script type="module" src="{{ asset('js/compare.js') }}"></script>{% endblock %}
