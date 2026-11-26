@@ -35,4 +35,5 @@ The brief ([idea.md](idea.md)) was treated as a strong starting point. These are
 - Student-context table with board and Ontario medians, enrolment back to 2011-12, nearest schools of the same level, board pages with official indicators, a province-wide map with filters, an installable web app manifest, light/dark themes, and CSV downloads with a `source_id` on every row.
 
 ## Hosting
-- CapRover (Docker + nginx) at `ontario-schools.behind7proxies.com` instead of GitHub/Cloudflare Pages, because that is where the owner's other sites run. The site is still a plain static folder and can move to any static host.
+- CapRover (Docker + nginx) instead of GitHub/Cloudflare Pages, because that is where the owner's other sites run. Public address: **ontarioschoolfinder.ca** (canonical URLs, sitemap and share links use it; `www` and `ontario-schools.behind7proxies.com` redirect to it once `scripts/connect-domain.sh` has run). The site is still a plain static folder and can move to any static host.
+- The build context is one archive (`site.tar.gz`): CapRover's builder timed out ingesting ~16,000 loose files.

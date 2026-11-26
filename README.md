@@ -60,7 +60,13 @@ The site is a folder of static files. It is served by nginx in a small Docker im
 
 ```bash
 ./check.sh                      # or build without tests
-./deploy.sh ontario-schools     # tars Dockerfile + deploy/ + site/dist and runs `caprover deploy`
+./deploy.sh ontario-schools     # packs site/dist into one archive, builds the nginx image on CapRover
+```
+
+Live at **https://ontarioschoolfinder.ca** (CapRover app `ontario-schools`, also reachable at ontario-schools.behind7proxies.com). DNS is on Cloudflare: apex and `www` are A records to the CapRover server, **DNS only** (not proxied) so CapRover can issue Let's Encrypt certificates. To (re)attach the domain, enable HTTPS, redirect `www` and the behind7proxies address to the apex, rebuild canonical URLs and deploy:
+
+```bash
+scripts/connect-domain.sh            # defaults: ontarioschoolfinder.ca ontario-schools
 ```
 
 It also works on any static host (GitHub Pages, Cloudflare Pages) by publishing `site/dist`; copy the headers from `deploy/security-headers.conf`.

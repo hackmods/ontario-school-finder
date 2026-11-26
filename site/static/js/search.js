@@ -129,10 +129,15 @@ class Combobox {
     const q = this.input.value.trim();
     if (!q) return this.close();
     let rows, boards;
+    if (!this.loaded) {
+      this.list.innerHTML = '<div class="empty" role="status">Loading the school list…</div>';
+      this.open();
+    }
     try {
       [rows, boards] = await Promise.all([loadIndex(), loadBoards()]);
+      this.loaded = true;
     } catch {
-      this.list.innerHTML = '<div class="empty">Search is unavailable right now. Try again in a moment.</div>';
+      this.list.innerHTML = '<div class="empty">Search is unavailable right now. Check your connection and try again.</div>';
       return this.open();
     }
     if (this.input.value.trim() !== q) return;

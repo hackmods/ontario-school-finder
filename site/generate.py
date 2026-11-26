@@ -3,7 +3,7 @@
     python site/generate.py
 
 Environment (all optional):
-    SITE_URL         canonical origin, default https://ontario-schools.behind7proxies.com
+    SITE_URL         canonical origin, default https://ontarioschoolfinder.ca
     CONTACT_EMAIL    shown on /corrections/ when set
     CORRECTIONS_URL  a public form or issue tracker for corrections
     OPERATOR         one sentence for /about/ "Who runs it"
@@ -32,7 +32,7 @@ import charts  # noqa: E402
 DATA = HERE / "data"
 DIST = HERE / "dist"
 STATIC = HERE / "static"
-SITE_URL = os.environ.get("SITE_URL", "https://ontario-schools.behind7proxies.com").rstrip("/")
+SITE_URL = os.environ.get("SITE_URL", "https://ontarioschoolfinder.ca").rstrip("/")
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "").strip()
 CORRECTIONS_URL = os.environ.get("CORRECTIONS_URL", "").strip()
 OPERATOR = os.environ.get("OPERATOR", "").strip() or "Ontario School Finder is an independent, volunteer-run project built for Ontario families."
@@ -100,6 +100,8 @@ class Site:
             code_text=lambda c: codes.get(c, {}).get("explain", "") if c else "",
         )
         self.pages = 0
+        svg, w, h = hero_svg(self.index)
+        self.hero = {"svg": svg, "w": w, "h": h}
         self.context_medians()
         self.official_by_board = self._official()
 
@@ -360,7 +362,7 @@ class Site:
     # ------------------------------------------------------------------
     def index_pages(self) -> None:
         self.render("index.html", "home.html", title="Ontario School Finder — find a school, see the facts in context", home=True, page_kind="home",
-                    og_title="Ontario School Finder", hero_svg=hero_svg(self.index))
+                    og_title="Ontario School Finder", hero=self.hero)
         groups = []
         for system in SYSTEM_ORDER:
             bs = [b for b in self.boards_index if b["sys"] == system]
@@ -434,32 +436,28 @@ class Site:
         (DIST / "healthz").write_text("ok\n", encoding="utf-8")
 
 
-def hero_svg(index: list[dict]) -> str:
-    """A small dot map of every school, drawn from the data (no image files)."""
+def hero_svg(index: list[dict]) -> tuple[str, int, int]:
+    """Dot map of every school in southern Ontario, drawn from the data.
+
+    Written to /static/img/hero-map.svg (cached by browsers) instead of inlined: ~4,000
+    dots would otherwise add ~250 KB to every home page load. Colours are mid-tones that
+    read on both the light and the dark card; the legend lives in HTML so it follows the theme.
+    """
     import math
-    # southern Ontario holds most schools; frame it so the art reads well
     minx, maxx, miny, maxy = -83.3, -74.3, 41.9, 46.4
     kx = math.cos(math.radians((miny + maxy) / 2))  # equirectangular correction
     w = 440
-    plot_h = w * (maxy - miny) / ((maxx - minx) * kx)
-    top, h = 8, int(w * (maxy - miny) / ((maxx - minx) * kx)) + 58
-    colors = {"english-public": "var(--c-ep)", "english-catholic": "var(--c-ec)", "french-public": "var(--c-fp)", "french-catholic": "var(--c-fc)", "other": "var(--c-ot)"}
-    dots = []
+    h = round(w * (maxy - miny) / ((maxx - minx) * kx))
+    colors = {"english-public": "#1f8fb0", "english-catholic": "#9a5cc0", "french-public": "#d0682f", "french-catholic": "#4c9a44", "other": "#8a8f98"}
+    groups: dict[str, list[str]] = {}
     for r in index:
         if not (minx <= r["x"] <= maxx and miny <= r["y"] <= maxy):
             continue
         px = (r["x"] - minx) / (maxx - minx) * w
-        py = top + plot_h - (r["y"] - miny) / (maxy - miny) * plot_h
-        dots.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="1.9" fill="{colors.get(r["sys"], "var(--c-ot)")}"/>')
-    ly = top + plot_h + 22
-    legend = (f'<g font-family="var(--font)" font-size="11.5" font-weight="600" fill="var(--ink-2)">'
-              f'<circle cx="8" cy="{ly - 4}" r="5" fill="var(--c-ep)"/><text x="18" y="{ly}">English public</text>'
-              f'<circle cx="118" cy="{ly - 4}" r="5" fill="var(--c-ec)"/><text x="128" y="{ly}">English Catholic</text>'
-              f'<circle cx="238" cy="{ly - 4}" r="5" fill="var(--c-fp)"/><text x="248" y="{ly}">French public</text>'
-              f'<circle cx="338" cy="{ly - 4}" r="5" fill="var(--c-fc)"/><text x="348" y="{ly}">French Catholic</text></g>')
-    return (f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="Dot map of schools in southern Ontario">'
-            f'<g opacity=".92">{"".join(dots)}</g>{legend}'
-            f'<text x="0" y="{ly + 22}" font-family="var(--font)" font-size="11" fill="var(--ink-3)">Each dot is a publicly funded school · southern Ontario</text></svg>')
+        py = h - (r["y"] - miny) / (maxy - miny) * h
+        groups.setdefault(r["sys"], []).append(f'<circle cx="{px:.0f}" cy="{py:.0f}" r="1.9"/>')
+    body = "".join(f'<g fill="{colors.get(k, "#8a8f98")}">{"".join(v)}</g>' for k, v in groups.items())
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}"><g opacity=".92">{body}</g></svg>', w, h)
 
 
 def copy_static_and_data() -> None:
@@ -506,6 +504,7 @@ def main() -> int:
     site.index_pages()
     copy_static_and_data()
     site.extras()
+    (DIST / "static" / "img" / "hero-map.svg").write_text(site.hero["svg"], encoding="utf-8")
     gz = precompress()
     counts = {"school": len(list((DIST / "school").glob("*/index.html"))), "board": len(list((DIST / "board").glob("*/index.html"))),
               "fsa": len(list((DIST / "fsa").glob("*/index.html")))}

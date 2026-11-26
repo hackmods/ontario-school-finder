@@ -145,8 +145,8 @@ test.describe("pages", () => {
   test("methodology lists every source with licence and retrieval date", async ({ page }) => {
     await page.goto("/methodology/");
     const meta = await (await page.request.get("/data/meta.json")).json();
-    for (const d of Object.values(meta.datasets)) {
-      const row = page.locator("#sources tbody tr", { hasText: d.title });
+    for (const [key, d] of Object.entries(meta.datasets)) {
+      const row = page.locator(`tr#dataset-${key}`);
       await expect(row.first()).toBeVisible();
       await expect(row.first()).toContainText(d.licence.split(" (")[0]);
       if (d.status === "used") await expect(row.first().locator("td").last()).toHaveText(/\d{4}-\d{2}-\d{2}/);

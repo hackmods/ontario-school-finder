@@ -29,7 +29,12 @@
       </ul>
     </div>
     <div class="hero-art" aria-hidden="true">
-      {{ hero_svg|safe }}
+      <img src="/static/img/hero-map.svg" width="{{ hero.w }}" height="{{ hero.h }}" alt="Dot map: each dot is a publicly funded school in southern Ontario, coloured by system" decoding="async" style="display:block;width:100%;height:auto">
+      <ul class="legend-inline" style="margin:12px 0 4px">
+        <li><span class="pin sys-english-public"></span>English public</li><li><span class="pin sys-english-catholic"></span>English Catholic</li>
+        <li><span class="pin sys-french-public"></span>French public</li><li><span class="pin sys-french-catholic"></span>French Catholic</li>
+      </ul>
+      <p class="small muted" style="margin:0">Each dot is a publicly funded school · southern Ontario</p>
     </div>
   </div>
 </section>

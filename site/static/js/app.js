@@ -49,6 +49,7 @@ function renderCompare() {
   if (tray) {
     const onComparePage = document.body.classList.contains("page-compare");
     tray.hidden = list.length === 0 || onComparePage;
+    document.body.classList.toggle("has-tray", !tray.hidden);
     qs("[data-compare-label]", tray).textContent = list.length === 1 ? `1 school: ${list[0].name}` : `${list.length} schools to compare`;
     qs("[data-compare-link]", tray).href = `/compare/?ids=${list.map((x) => encodeURIComponent(x.id)).join(",")}`;
   }

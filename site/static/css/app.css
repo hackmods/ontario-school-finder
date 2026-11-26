@@ -552,3 +552,4 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
   .stack-table td { display: block; border: 0; padding: 3px 0; }
   .stack-table td[data-label]::before { content: attr(data-label) ": "; color: var(--ink-3); font-weight: 600; font-size: .85rem; }
 }
+.has-tray .site-footer { padding-bottom: 96px; }

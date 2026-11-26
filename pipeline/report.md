@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 01:35 UTC in 90 s.
+Generated 2026-11-26 03:39 UTC in 108 s.
 
 ## Output
 
@@ -372,14 +372,14 @@ Codes are stored as `null` with a flag, never as 0.
 
 - FSA polygons: 520 (1225 KB)
 - Approximate board areas: 75 boards (1625 KB)
-- Nearest-school areas english-catholic|elementary: 1137 cells for 1138 schools (1 shared buildings), 3326 KB
-- Nearest-school areas english-catholic|secondary: 202 cells for 202 schools (0 shared buildings), 1943 KB
-- Nearest-school areas english-public|elementary: 2485 cells for 2496 schools (11 shared buildings), 4351 KB
-- Nearest-school areas english-public|secondary: 491 cells for 492 schools (1 shared buildings), 2711 KB
-- Nearest-school areas french-catholic|elementary: 260 cells for 260 schools (0 shared buildings), 2501 KB
-- Nearest-school areas french-catholic|secondary: 66 cells for 66 schools (0 shared buildings), 1805 KB
-- Nearest-school areas french-public|elementary: 126 cells for 126 schools (0 shared buildings), 1982 KB
-- Nearest-school areas french-public|secondary: 47 cells for 47 schools (0 shared buildings), 1700 KB
+- Nearest-school areas english-catholic|elementary: 1137 cells for 1138 schools (1 shared buildings), 1539 KB
+- Nearest-school areas english-catholic|secondary: 202 cells for 202 schools (0 shared buildings), 939 KB
+- Nearest-school areas english-public|elementary: 2485 cells for 2496 schools (11 shared buildings), 2061 KB
+- Nearest-school areas english-public|secondary: 491 cells for 492 schools (1 shared buildings), 1239 KB
+- Nearest-school areas french-catholic|elementary: 260 cells for 260 schools (0 shared buildings), 1132 KB
+- Nearest-school areas french-catholic|secondary: 66 cells for 66 schools (0 shared buildings), 870 KB
+- Nearest-school areas french-public|elementary: 126 cells for 126 schools (0 shared buildings), 942 KB
+- Nearest-school areas french-public|secondary: 47 cells for 47 schools (0 shared buildings), 833 KB
 
 ## Other gaps
 

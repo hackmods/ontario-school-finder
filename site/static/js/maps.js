@@ -142,7 +142,7 @@ export function addSchoolLayer(map, gl, id, fc, { radius = 6, cluster = false, f
       layout: { "text-field": ["get", "point_count_abbreviated"], "text-size": 12, "text-font": ["Noto Sans Bold"] },
       paint: { "text-color": isDark() ? "#eef0f2" : "#0a4c41" },
     });
-    map.on("click", `${id}-clusters`, async (e) => {
+    if (!bound(map, `${id}-clusters`)) map.on("click", `${id}-clusters`, async (e) => {
       const f = map.queryRenderedFeatures(e.point, { layers: [`${id}-clusters`] })[0];
       const z = await map.getSource(id).getClusterExpansionZoom(f.properties.cluster_id);
       map.easeTo({ center: f.geometry.coordinates, zoom: z });
@@ -160,6 +160,7 @@ export function addSchoolLayer(map, gl, id, fc, { radius = 6, cluster = false, f
         "circle-opacity": ["case", ["boolean", ["get", "in"], true], 1, 0.55],
       },
     });
+    if (bound(map, id)) return;
     const popup = new gl.Popup({ closeButton: true, maxWidth: "280px", offset: 10 });
     map.on("click", id, (e) => {
       const f = e.features[0];
@@ -168,6 +169,14 @@ export function addSchoolLayer(map, gl, id, fc, { radius = 6, cluster = false, f
     map.on("mouseenter", id, () => (map.getCanvas().style.cursor = "pointer"));
     map.on("mouseleave", id, () => (map.getCanvas().style.cursor = ""));
   }
+}
+
+/** True if handlers for this layer id were already attached to this map (then marks it). */
+function bound(map, id) {
+  map._osfBound ||= new Set();
+  if (map._osfBound.has(id)) return true;
+  map._osfBound.add(id);
+  return false;
 }
 
 export function addArea(map, id, data, { color, dashed = false, fill = 0.08, width = 2 } = {}) {
