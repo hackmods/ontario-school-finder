@@ -13,6 +13,10 @@
 
 <h2>Who runs it</h2>
 <p>{{ operator }} It is not affiliated with EQAO, the Ministry of Education, any school board, or any real-estate or ranking company.</p>
+{% if contact_email %}
+<h2 id="contact">Contact</h2>
+<p>Questions, ideas or a correction? Email <a href="mailto:{{ contact_email }}?subject=Ontario%20School%20Finder">{{ contact_email }}</a>. For a correction, please include the school’s name or number and where you saw the right value — or start from the school’s own page with “Report a correction”.</p>
+{% endif %}
 
 <h2>Why it’s free</h2>
 <p>It is built on open data that taxpayers already paid for, and it costs very little to run: there is no server-side database and no accounts. There are no ads and there never will be. The cleaned data is <a href="/data/">free to download</a> under the same open licences.</p>
@@ -28,6 +32,6 @@
 </ul>
 
 <h2>Corrections</h2>
-<p>Found something wrong? See <a href="/corrections/">how to report a correction</a>. School contact details come from school boards; results come from EQAO and the Ministry. We fix our own mistakes quickly and pass source errors on to the right office.</p>
+<p>Found something wrong? See <a href="/corrections/">how to report a correction</a>{% if contact_email %} or email <a href="mailto:{{ contact_email }}?subject=Correction">{{ contact_email }}</a>{% endif %}. School contact details come from school boards; results come from EQAO and the Ministry. We fix our own mistakes quickly and pass source errors on to the right office.</p>
 </div></div>
 {% endblock %}
