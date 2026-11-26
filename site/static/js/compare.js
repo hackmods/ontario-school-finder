@@ -258,7 +258,6 @@ function boardContext(schools) {
   const bc = state.boards;
   if (!bc) return "";
   const b = (s) => bc.boards[s.board_number] || {};
-  const money = (v) => (v == null ? "—" : `${num(v)}`);
   const rows = [
     { label: "Board", cells: schools.map((s) => `<a href="/board/${s.board_number}/#context">${esc(s.board_name)}</a>`), raw: schools.map((s) => s.board_name) },
     { label: "Spending per student", sub: `${esc(bc.spending_year)} · Ontario's middle board ${money(bc.spending_median)}`, cells: schools.map((s) => money(b(s).sp)), raw: schools.map((s) => b(s).sp) },
