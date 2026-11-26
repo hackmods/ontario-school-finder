@@ -24,9 +24,10 @@
       {% if corrections_url or contact_email %}
       <p>Please include the school’s name or number (BSID), what is wrong, and where you saw the right value.</p>
       <div class="doc-actions">
-        {% if corrections_url %}<a class="btn btn-primary" href="{{ corrections_url }}" rel="noopener" data-correction-link>{{ icon("flag") }}Open a correction request</a>{% endif %}
-        {% if contact_email %}<a class="btn" href="mailto:{{ contact_email }}?subject=Correction" data-correction-mail>{{ icon("mail") }}Email {{ contact_email }}</a>{% endif %}
+        {% if contact_email %}<a class="btn btn-primary" href="mailto:{{ contact_email }}?subject=Correction" data-correction-mail>{{ icon("mail") }}Email {{ contact_email }}</a>{% endif %}
+        {% if corrections_url %}<a class="btn{{ '' if contact_email else ' btn-primary' }}" href="{{ corrections_url }}" rel="noopener" data-correction-link>{{ icon("flag") }}Report it on GitHub</a>{% endif %}
       </div>
+      {% if corrections_url and "github.com" in corrections_url %}<p class="small muted" style="margin:10px 0 0">GitHub needs a free account, and reports there are public.{{ " Email stays private." if contact_email }}</p>{% endif %}
       {% else %}
       <p>A public correction form is being set up. Until then, please send corrections about school details to the school board, and about results to EQAO.</p>
       {% endif %}

@@ -267,6 +267,16 @@ test.describe("pages", () => {
     expect(w.errors).toEqual([]);
   });
 
+  test("corrections: GitHub form is pre-filled for the school, footer links the source", async ({ page }) => {
+    await page.goto(`/corrections/?school=${SCHOOL}`);
+    await expect(page.locator("[data-correction-school]")).toBeVisible();
+    const link = page.locator("[data-correction-link]");
+    await expect(link).toHaveText(/Report it on GitHub/);
+    await expect(link).toHaveAttribute("href", /\/issues\/new\?template=data-correction\.yml&title=Correction%3A\+.+&page=http/);
+    expect(new URL(await link.getAttribute("href")).searchParams.get("page")).toMatch(new RegExp(`/school/${SCHOOL}/$`));
+    await expect(page.locator(".footer-legal a", { hasText: "Source code on GitHub" })).toHaveAttribute("href", /^https:\/\/github\.com\/[^/]+\/ontario-school-finder$/);
+  });
+
   test("school outside the covered boards keeps the nearest-school estimate", async ({ page }) => {
     await page.goto(`/school/${SCHOOL}/`);
     await expect(page.locator(".sw-official-on")).toHaveCount(0);

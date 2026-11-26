@@ -24,8 +24,11 @@ GitHub Actions CI: `./check.sh` on your own machine is the definition of done.
      `UNLICENSED`). Data keeps its source licences; `site/data` and `pipeline/cache` are not in the repo.
    - After going public: turn on secret scanning and push protection, and private vulnerability
      reporting (Settings → Code security). Upload `site/static/img/og.png` as the social preview
-     (Settings → General). Optionally set `CORRECTIONS_URL` to the issue chooser so the site's
-     corrections page offers GitHub issues as well as email.
+     (Settings → General).
+   - The site links to the repo: "Source code on GitHub" in the footer's small print, and "Report it
+     on GitHub" on `/corrections/` (the Data correction issue form, pre-filled with the school), both
+     from `REPO_URL` / `CORRECTIONS_URL` defaults in `site/generate.py`. While the repo is private these
+     links show visitors a GitHub 404, so deploy them only once it is public.
 
 ## Open engineering items
 
