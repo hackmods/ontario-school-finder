@@ -1,5 +1,5 @@
 // /compare/?ids=a,b,c — up to six schools side by side: every published measure, same school years.
-import { qs, qsa, esc, SYSTEMS, km, fmtKm } from "./lib.js";
+import { qs, qsa, esc, SYSTEMS, km, fmtKm, dataUrl } from "./lib.js";
 import { getCompare, setCompare, MAX_COMPARE } from "./compare-store.js";
 import { lineChart, shortYear } from "./linechart.js";
 
@@ -18,7 +18,7 @@ function idsFromUrl() {
   return v ? [...new Set(v.split(",").map((x) => x.trim()).filter(Boolean))].slice(0, MAX_COMPARE) : null;
 }
 
-const getJSON = (u) => fetch(u).then((r) => (r.ok ? r.json() : Promise.reject(new Error(`${r.status} ${u}`))));
+const getJSON = (u) => fetch(dataUrl(u)).then((r) => (r.ok ? r.json() : Promise.reject(new Error(`${r.status} ${u}`))));
 
 async function load(ids) {
   state.meta ||= await getJSON("/data/meta.json");

@@ -347,6 +347,35 @@ test.describe("home map answers the search box", () => {
   });
 });
 
+test.describe("deploys reach returning visitors at once", () => {
+  // Scripts, the map library, data and generated pictures are cached for a year, so every request for
+  // them must carry the build's ?v=. An unversioned one could pair a new page with an old cached copy.
+  test("every script, map library, data and picture request is versioned", async ({ page }) => {
+    const unversioned = new Set();
+    page.on("request", (r) => {
+      const u = new URL(r.url());
+      if (u.origin !== new URL(page.url() || r.url()).origin) return;
+      if (/^\/(static\/(js|vendor|img|css)|data)\//.test(u.pathname) && !u.searchParams.get("v")) unversioned.add(u.pathname);
+    });
+    await page.goto("/");
+    await page.locator("#q").fill("Kingston");
+    await expect(page.locator("[data-hero-cap]")).toContainText("Kingston");
+    await page.goto("/map/");
+    await waitForMap(page);
+    await Promise.all([page.waitForResponse((r) => r.url().includes("/data/geo/official-")), page.locator('input[name="area"][value="official"]').check()]);
+    await page.goto(`/school/${SCHOOL}/`);
+    await waitForMap(page);
+    await page.goto("/board/B28010/");
+    await page.goto(`/compare/?ids=${SCHOOL},382620`);
+    await expect(page.locator("[data-cmp-chips] .cmp-chip").first()).toBeVisible();
+    await page.goto("/search/?q=Toronto");
+    await expect(page.locator(".results-list .list li").first()).toBeVisible();
+    expect([...unversioned]).toEqual([]);
+    // the page's data version and every module import share one build stamp
+    expect(await page.evaluate(() => document.documentElement.dataset.v)).toMatch(/^[0-9a-f]{10}$/);
+  });
+});
+
 test.describe("privacy and robustness", () => {
   test("no console errors and no third-party requests except map tiles", async ({ page }) => {
     const w = watch(page);

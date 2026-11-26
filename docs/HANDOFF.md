@@ -96,6 +96,19 @@ GitHub Actions CI: `./check.sh` on your own machine is the definition of done.
 ### Deploying
 - There is no staging. Deploy only from the main checkout, level with `origin/main`. A stale checkout
   would roll production back.
+- **Caching (fixed 2026-11-26).** Before this, only each page's entry script had a `?v=`. The modules it
+  imports (`./lib.js`, `./search.js`) and the data it fetched were cached for an hour, and the map
+  library for 30 days, so after a deploy returning visitors could run new pages on old code or data.
+  Now:
+  - every script shares one version (a hash of all scripts plus the vendored map library);
+  - `generate.py`'s `version_scripts` writes it into every import and vendor URL;
+  - `/data/` fetches go through `lib.js`'s `dataUrl()` with the page's `<html data-v>`;
+  - nginx keeps anything with `?v=` for a year and rechecks pages on every visit (`no-cache`, a 304 when unchanged).
+  New code that fetches `/data/` or adds a script must keep this: the Playwright test
+  "every script, map library, data and picture request is versioned" fails otherwise.
+- Test the real nginx config locally before changing it: run `nginx:1.27-alpine` in Docker with
+  `deploy/nginx.conf`, `deploy/security-headers.conf` and `site/dist` mounted (and an empty
+  `default.conf`), then `nginx -t`, `curl -I` the headers, and run Playwright against it.
 - `CONTACT_EMAIL` is a Windows *user* environment variable. A shell started before it was set doesn't
   see it, and the agent's Git Bash didn't. Without it, the site silently ships with no contact address. Read it with
   `powershell -NoProfile -c "[Environment]::GetEnvironmentVariable('CONTACT_EMAIL','User')"` and pass

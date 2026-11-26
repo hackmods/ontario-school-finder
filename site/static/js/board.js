@@ -1,13 +1,13 @@
 // Board page: map of the board's schools with its approximate area, and the school list filter.
 import { lazyMap, readMapData, addSchoolLayer, addArea, pointsFC, boundsOf, LAYER_COLORS } from "./maps.js";
-import { qsa, qs, norm } from "./lib.js";
+import { qsa, qs, norm, dataUrl } from "./lib.js";
 
 const data = readMapData();
 const container = document.querySelector('[data-map="board"]');
 if (data && container) {
   lazyMap(container, { map: { center: [-79.4, 44], zoom: 6 } }, async (map, gl) => {
     try {
-      const fc = await fetch("/data/geo/boards.geojson").then((r) => r.json());
+      const fc = await fetch(dataUrl("/data/geo/boards.geojson")).then((r) => r.json());
       const mine = { type: "FeatureCollection", features: fc.features.filter((f) => f.properties.board === data.board) };
       if (mine.features.length) addArea(map, "board-area", mine, { color: LAYER_COLORS.board, fill: 0.08 });
     } catch { /* area is optional */ }
