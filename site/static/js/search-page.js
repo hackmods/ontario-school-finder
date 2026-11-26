@@ -26,7 +26,8 @@ let heading = "";
 let shown = 30;
 let mapRows = [];
 let mapRef = null;
-let sortBy = ""; // "" = the default for the kind of search: nearest first for a location, best match for text
+let sortBy = ""; // "" = the default for the kind of search: nearest first for a location, best match for text, A to Z for a postal area
+let textSearch = true; // a postal-area search lists schools A to Z already, so it has no "best match" order
 let showUnknownGrades = false;
 if (!GRADE_ORDER.includes(filters.grade)) filters.grade = "all";
 
@@ -48,7 +49,7 @@ function applyFilters(rows) {
 // Order: best match (the search's own order), A to Z, or nearest first (straight-line, when there is a location).
 // There is deliberately no ordering by results: this is not a leaderboard.
 function sorted(rows) {
-  const by = sortBy || (distances ? "dist" : "rel");
+  const by = sortBy || (distances ? "dist" : textSearch ? "rel" : "az");
   if (by === "az") return [...rows].sort((a, b) => a.n.localeCompare(b.n, "en-CA", { sensitivity: "base" }));
   if (by === "dist" && distances) return [...rows].sort((a, b) => (distances.get(a.id) ?? 1e9) - (distances.get(b.id) ?? 1e9));
   return rows;
@@ -60,8 +61,9 @@ function gradeSelect() {
 }
 
 function sortSelect() {
-  const by = sortBy || (distances ? "dist" : "rel");
-  const opts = [...(distances ? [["dist", "Nearest first (straight line)"]] : [["rel", "Best match"]]), ["az", "Name, A to Z"]];
+  const by = sortBy || (distances ? "dist" : textSearch ? "rel" : "az");
+  const opts = [...(distances ? [["dist", "Nearest first (straight line)"]] : textSearch ? [["rel", "Best match"]] : []), ["az", "Name, A to Z"]];
+  if (opts.length < 2) return ""; // a postal area lists A to Z only: no choice to offer
   return `<label class="sel"><span>Order</span><select data-sort>${opts.map(([v, t]) => `<option value="${v}"${by === v ? " selected" : ""}>${esc(t)}</option>`).join("")}</select></label>`;
 }
 
@@ -180,6 +182,7 @@ async function run() {
     top += `<a class="card" href="/fsa/${res.fsa}/" style="display:block;text-decoration:none;color:inherit;margin-bottom:16px"><p class="eyebrow" style="margin:0">Postal area</p><h2 style="margin:.2em 0">${res.fsa}</h2><p class="muted" style="margin:0">Map of the area, its schools, 2021 Census context and licensed child care →</p></a>`;
     base = res.schools;
     heading = `Schools in postal area ${res.fsa}`;
+    textSearch = false;
     if (!base.length) top += `<div class="note"><div><p>No school has a postal code starting with ${res.fsa}. The area page lists the closest schools.</p></div></div>`;
   } else {
     base = res.allSchools || [];

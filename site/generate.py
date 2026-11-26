@@ -646,7 +646,8 @@ class Site:
                 continue
             seen.add(bsid)
             s = self.schools[bsid]
-            groups[(s["system"], s["level"])].append({"bsid": bsid, "name": s["name"], "board_name": s["board_name"], "grades": s["grades"], "inside": inside})
+            groups[(s["system"], s["level"])].append({"bsid": bsid, "name": s["name"], "board_name": s["board_name"], "grades": s["grades"], "inside": inside,
+                                                   "badges": family.program_badges(s, self.info.board_listed(s))})
         glist = []
         for system in SYSTEM_ORDER:
             for level in ("elementary", "secondary"):

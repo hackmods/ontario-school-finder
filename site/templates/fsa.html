@@ -40,7 +40,7 @@
       <div class="card" style="padding:16px 16px 6px">
         <h3 style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">{{ sysbadge(g.system, g.system_label) }} {{ g.level|capitalize }} <span class="muted small" style="font-weight:500">({{ g.entries|length }})</span></h3>
         <ul class="list">{% for s in g.entries %}
-          <li><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.board_name }} · {{ s.grades }}{% if not s.inside %} · <em>just outside {{ f.fsa }}</em>{% endif %}</span></span>{{ icon("chev", "chev") }}</a></li>
+          <li><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.board_name }} · {{ s.grades }}{% if not s.inside %} · <em>just outside {{ f.fsa }}</em>{% endif %}</span>{% if s.badges %}<span class="prog-badges">{% for b in s.badges %}<span class="badge badge-prog prog-{{ b.key }}">{{ b.label }}</span>{% endfor %}</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
         {% endfor %}</ul>
       </div>
       {% endfor %}

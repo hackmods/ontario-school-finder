@@ -164,7 +164,6 @@ function overview(schools) {
     { label: "Open at this school number since", sub: "1969 is the earliest date the Ministry's list uses; not the building's age", cells: schools.map((s) => esc(s.family?.opened || "—")), raw: schools.map((s) => s.family?.opened || "") },
     { label: "Students (latest)", cells: schools.map((s) => { const e = latestEnrol(s); return e ? `${num(e.value)}<div class="small muted">${esc(e.year)}</div>` : "—"; }), raw: schools.map((s) => latestEnrol(s)?.value) },
     { label: "Enrolment change (5 years)", cells: schools.map((s) => { const c = change(s); return c ? `${c.d >= 0 ? "+" : "−"}${num(Math.abs(c.d))}<div class="small muted">since ${esc(c.since)}</div>` : "—"; }), raw: schools.map((s) => change(s)?.d) },
-    { label: "Licensed child care at the school", cells: schools.map((s) => (s.childcare.at_address.length ? `Yes (${s.childcare.at_address.length})` : "No")), raw: schools.map((s) => s.childcare.at_address.length) },
     {
       label: "EarlyON centres in the postal area", sub: "free programs for children up to 6",
       cells: schools.map((s) => (s.earlyon_in_fsa ? `<a href="/fsa/${s.fsa}/#earlyon">${s.earlyon_in_fsa}</a>` : "None listed")),
