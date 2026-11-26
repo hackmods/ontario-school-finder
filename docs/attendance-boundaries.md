@@ -5,16 +5,39 @@ licence or gives written permission. This is the state of play from a search in 
 
 ## Result
 
-No Ontario school board publishes its attendance boundaries under an open licence. Until a board
-says yes in writing, the site keeps showing the approximate "nearest school" areas and links each
-school page to the board's own school locator.
+No Ontario school board publishes its attendance boundaries under an open licence.
 
-## Boards that already publish current boundary layers (no licence stated)
+**Status (2026-11-26): published pending permission.** The owner chose to show the seven boards
+below now, while asking each one for permission. They are labelled "Official boundary from
+<board>, <month year>", credited on every page that uses them, and described on How it works with
+a promise to take a board's boundaries down when it asks. Everywhere else the site keeps showing
+the approximate "nearest school" areas and links each school page to the board's own locator.
 
-These are public ArcGIS layers on the board's own account. They are machine-readable and current,
-so they could be added quickly once a board grants permission. School IDs are board codes, so the
-pipeline would match them to the Ministry school number (BSID) by board and school name, the way the
-class-size lists are matched today.
+Permission log (fill in as replies arrive; one row per board):
+
+| Board | Asked (date, to whom) | Reply (date, who, scope) |
+|---|---|---|
+| Waterloo Region DSB | | |
+| Hamilton-Wentworth DSB | | |
+| Simcoe County DSB | | |
+| Grand Erie DSB | | |
+| Dufferin-Peel CDSB | | |
+| Kawartha Pine Ridge DSB | | |
+| Halton CDSB | | |
+
+### Taking a board down
+
+Delete that board's entries from `BOUNDARY_LAYERS` in `pipeline/sources.py`, rebuild
+(`python -m pipeline.build`, then `python site/generate.py`) and deploy. Its schools fall back to the
+nearest-school estimate, and the Map page and How it works drop the board automatically.
+
+## Boards that publish current boundary layers (no licence stated)
+
+These are public ArcGIS layers on the board's own account, read by `pipeline/boundaries.py` from the
+layers in `sources.BOUNDARY_LAYERS`. School IDs are board codes, so the pipeline matches each area to
+the Ministry school number (BSID) by board, level and school name, or by the one school of that
+board and level inside the area. Unmatched areas (development, holding, dual-attendance) are listed
+in `pipeline/report.md` and left out.
 
 | Board | Layers | Layer URL (FeatureServer) | Features | Last edited |
 |---|---|---|---|---|
@@ -50,20 +73,21 @@ in `pipeline/sources.py` before adding the layer.
 > accounts, no tracking and no rankings.
 >
 > Your board publishes its attendance boundaries as a public map layer:
-> <layer URL>. May we show these boundaries on the pages for your schools and on our province-wide
-> map? We would:
-> - label every boundary "Official boundary from <board>, <school year>", with a link to your
->   school locator, and tell families to confirm their designated school with the board;
-> - refresh the layer when you publish a new school year, and remove it promptly if you ask;
+> <layer URL>. We show these boundaries on the pages for your schools and on our province-wide
+> map, and we would like your permission to continue. We:
+> - label every boundary "Official boundary from <board>, <month year>", link to your school
+>   locator, and tell families to confirm their designated school with the board;
+> - refresh the layer when you publish a new school year, and will remove it promptly if you ask;
 > - credit the board on every page that shows it and list it on our sources page.
 >
 > If your board prefers a specific licence (for example an Open Government Licence), we are happy
 > to follow its terms.
 
-## How it would appear on the site
+## How it appears on the site
 
-- School page map: the official area replaces the "nearest school" estimate, labelled
-  "Official boundary from <board>, <school year>".
-- Map page: the "Official boundary from the board" layer (now disabled) turns on for the boards
-  covered.
-- How it works: the board, layer URL, permission date and school year are listed as dataset #11.
+- School page map: the official area replaces the "nearest school" estimate, drawn solid in orange
+  and labelled "Official boundary from <board>, <month year>" (the layer's last-edit date).
+- Map page: the "Official boundary from the board" layer shows every matched area for the chosen
+  level, and names the boards covered.
+- How it works: Map areas item 4 lists the boards, levels, area counts and dates; the sources table
+  lists each layer as dataset #11 with its URL and retrieval date.

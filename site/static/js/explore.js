@@ -21,10 +21,12 @@ function schoolFilter() {
 async function drawArea() {
   const map = mapRef;
   if (!map) return;
-  for (const id of ["area-fsa", "area-board", "area-nearest"]) removeArea(map, id);
+  for (const id of ["area-fsa", "area-board", "area-nearest", "area-official"]) removeArea(map, id);
   const opts = qs("[data-area-options]");
-  opts.hidden = !(state.area === "board" || state.area === "nearest");
-  qs("[data-area-level-wrap]").hidden = state.area !== "nearest";
+  opts.hidden = !["board", "nearest", "official"].includes(state.area);
+  qs("[data-area-level-wrap]").hidden = !["nearest", "official"].includes(state.area);
+  // official areas come per level from each board, so the system choice doesn't apply
+  for (const el of [qs('label[for="area-system"]'), qs("[data-area-system]")]) if (el) el.hidden = state.area === "official";
   const sys = qs("[data-area-system]").value;
   const lvl = qs("[data-area-level]").value;
   try {
@@ -34,6 +36,7 @@ async function drawArea() {
       addArea(map, "area-board", { type: "FeatureCollection", features: fc.features.filter((f) => f.properties.system === sys) }, { color: LAYER_COLORS.board, fill: 0.07, width: 1.6 });
     }
     if (state.area === "nearest") addArea(map, "area-nearest", await geo(`nearest-${sys}-${lvl}.geojson`), { color: LAYER_COLORS.nearest, dashed: true, fill: 0.06, width: 1 });
+    if (state.area === "official") addArea(map, "area-official", await geo(`official-${lvl}.geojson`), { color: LAYER_COLORS.official, fill: 0.08, width: 1.4 });
   } catch {
     /* layer failed to load; schools still shown */
   }

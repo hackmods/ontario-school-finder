@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 06:57 UTC in 333 s.
+Generated 2026-11-26 12:52 UTC in 133 s.
 
 ## Output
 
@@ -74,7 +74,6 @@ Generated 2026-11-26 06:57 UTC in 333 s.
 
 - **#6 Board service area** (skipped): Skipped: the dataset is listed as "under review" with no files to download. Approximate board areas are drawn from school locations instead.
 - **#8 2021 Census subdivision boundary file** (skipped): Not needed: it was only for joining the board service areas (#6), which are unavailable.
-- **#11 Board-published attendance boundaries** (phase2): Not used yet. Checked November 2026: no Ontario board publishes its attendance boundaries under an open licence. Several boards (Waterloo Region DSB, Hamilton-Wentworth DSB, Simcoe County DSB, Grand Erie DSB, Dufferin-Peel CDSB, Kawartha Pine Ridge DSB, Halton CDSB) post map layers without a licence, so they need the board's written permission first. Every school page links to its board's own school locator instead.
 
 ## Notes
 
@@ -414,6 +413,24 @@ Codes are stored as `null` with a flag, never as 0.
 - Class-list rows matched to a school: 62409 school-years; ambiguous names skipped: 1319
 - Schools with class sizes: 3863
 - Unmatched school-years by year (closed or renamed schools, private/other boards): 2007-08: 692, 2008-09: 675, 2009-10: 641, 2010-11: 605, 2011-12: 578, 2012-13: 526, 2013-14: 503, 2014-15: 506, 2015-16: 565, 2016-17: 516, 2017-18: 482, 2018-19: 422, 2019-20: 428, 2020-21: 295, 2021-22: 222, 2022-23: 206, 2023-24: 160, 2024-25: 152, 2025-26: 39
+
+## Official attendance boundaries (boards' public map layers)
+
+Areas are matched to schools by name within the board and level (or by the one school inside the area). Unmatched areas are left out: development, holding and dual-attendance areas that don't name one school.
+
+- bdy-wrdsb-elem (Waterloo Region DSB, elementary, edited 2026-08): 115 of 141 areas matched; not matched: Beaver Creek Meadows, Cambridge West, Centennial P.S. (W), Doon South I, Doon South IV, Doon South VI, East Side Lands Secondary Plan Area, Hunt Club (River Mill North), Hunt Club (River Mill South), Laurentian West I…
+- bdy-wrdsb-sec (Waterloo Region DSB, secondary, edited 2026-09): 16 of 36 areas matched; not matched: Beaver Creek Meadows, Cambridge West, Doon South I, Doon South IV, Doon South VI, Hunt Club (River Mill North), Hunt Club (River Mill South), Huron South (Tartan), Huron South II, Laurentian West I…
+- bdy-hwdsb-elem (Hamilton-Wentworth DSB, elementary, edited 2025-09): 74 of 74 areas matched
+- bdy-hwdsb-sec (Hamilton-Wentworth DSB, secondary, edited 2025-07): 12 of 12 areas matched
+- bdy-scdsb-elem (Simcoe County DSB, elementary, edited 2025-03): 97 of 112 areas matched; not matched: Holding Area at Algonquin Ridge, Holding Area at Allandale Heights PS, Holding Area at Assikinack PS, Holding Area at Baxter Central, Holding Area at Connaught, Holding Area at EMMA KING ES - Stonemanor Phase 2, Holding Area at Goodfellow, Holding Area at Huronia Centennial/ 7-8 @ EDHS, Holding Area at Innisfil Central, Holding Area at James Keating ES…; name matched but too far from the school, left out: 6
+- bdy-scdsb-sec (Simcoe County DSB, secondary, edited 2025-03): 17 of 20 areas matched; not matched: Barrie North and Elmvale DHS Dual Attendance Area, Dual Attendance Area CCI and Elmvale DHS, Holding Area at Nottawasaga Pines; name matched but too far from the school, left out: 2
+- bdy-gedsb-elem (Grand Erie DSB, elementary, edited 2025-07): 57 of 60 areas matched; not matched: Bellview Public School (Holding Boundary Area), Burford District Elementary School (Holding Boundary Area), J. L. Mitchener Public School (Holding Boundary Area); name matched but too far from the school, left out: 3
+- bdy-gedsb-sec (Grand Erie DSB, secondary, edited 2025-06): 12 of 12 areas matched
+- bdy-dpcdsb-elem (Dufferin-Peel CDSB, elementary, edited 2024-11): 123 of 123 areas matched
+- bdy-dpcdsb-sec (Dufferin-Peel CDSB, secondary, edited 2024-11): 24 of 24 areas matched
+- bdy-kprdsb-elem (Kawartha Pine Ridge DSB, elementary, edited 2025-01): 65 of 71 areas matched; not matched: CURVE LAKE FIRST NATION SCHOOL or BUCKHORN PS, HAROLD LONGWORTH PS - HOLDING AREA, LYDIA TRULL PS (Holding), ROGER NEILSON PS (Holding), TLDSB AREA TO TASSS, WAVERLEY PS - HOLDING AREA; name matched but too far from the school, left out: 4
+- bdy-kprdsb-sec (Kawartha Pine Ridge DSB, secondary, edited 2025-01): 13 of 14 areas matched; not matched: KENNER CVI (Holding); name matched but too far from the school, left out: 1
+- bdy-hcdsb-elem (Halton CDSB, elementary, edited 2025-02): 48 of 48 areas matched
 
 ## EQAO open data (years not yet in the Ministry's school file)
 

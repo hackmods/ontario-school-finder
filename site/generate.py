@@ -134,6 +134,7 @@ class Site:
             code_text=lambda c: codes.get(c, {}).get("explain", "") if c else "",
             locators=loc["boards"], locators_checked=loc["checked"],
         )
+        self.env.filters["month_year"] = lambda ym: datetime.strptime(ym, "%Y-%m").strftime("%B %Y") if ym else ""
         self.pages = 0
         svg, w, h = hero_svg(self.index)
         self.hero = {"svg": svg, "w": w, "h": h}
@@ -254,8 +255,15 @@ class Site:
             "center": [s["lon"], s["lat"]],
             "school": {"id": s["bsid"], "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"]},
             "nearby": [{"id": n["bsid"], "n": n["name"], "sys": n["system"], "x": n["lon"], "y": n["lat"], "g": n["grades"]} for n in neighbours],
-            "area": s.get("nearest_area"),
+            # the board's own attendance area when it publishes one, else the nearest-school estimate
+            "area": (s.get("official_area") or {}).get("geometry") or s.get("nearest_area"),
+            "area_kind": "official" if s.get("official_area") else "nearest",
         }
+        official_label = None
+        if s.get("official_area"):
+            ed = s["official_area"].get("edited")
+            when = datetime.strptime(ed, "%Y-%m").strftime("%B %Y") if ed else None
+            official_label = f"Official boundary from {s['board_name']}" + (f", {when}" if when else "")
         addr = ", ".join(x for x in [s["address"], s["suite"], s["city"], "ON", s["postal_code"]] if x)
         jsonld = {
             "@context": "https://schema.org", "@type": "School" if s["level"] == "elementary" else "HighSchool",
@@ -278,7 +286,7 @@ class Site:
             desc += "Enrolment, student context, nearby schools and child care, with sources."
         self.render(f"school/{s['bsid']}/index.html", "school.html",
                     title=f"{s['name']} — {s['city'] or s['board_name']}", description=desc, page_kind="school", map=True,
-                    s=s, results=results, system_label=sys_label, address_line=addr,
+                    s=s, results=results, system_label=sys_label, address_line=addr, official_label=official_label,
                     contact_label=self.sources.get("contact-2026-11", {}).get("year", "current"),
                     enrol_latest=enrol_latest, enrol_change=enrol_change,
                     enrol_svg=charts.wide_bar_chart(enrol, title=f"Enrolment at {s['name']} by school year"),
@@ -490,7 +498,7 @@ class Site:
         self.render("compare/index.html", "compare.html", title="Compare schools", page_kind="compare")
         self.render("map/index.html", "map.html", title="Map", page_kind="map", map=True,
                     systems=[(k, self.meta["systems"][k]) for k in SYSTEM_ORDER],
-                    description="Map of every Ontario public school with postal areas, approximate board areas and nearest-school areas, each clearly labelled.")
+                    description="Map of every Ontario public school with postal areas, approximate board areas, nearest-school areas and the official attendance areas boards publish, each clearly labelled.")
         ds = []
         files = defaultdict(list)
         for x in self.sources.values():
