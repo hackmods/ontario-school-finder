@@ -132,3 +132,24 @@ window.addEventListener("afterprint", () => {
   printOpened.forEach((d) => (d.open = false));
   printOpened = [];
 });
+
+// ---- copy buttons: <button data-copy="#id"> copies that element's text ----------
+document.addEventListener("click", async (e) => {
+  const b = e.target.closest("[data-copy]");
+  if (!b) return;
+  const src = document.querySelector(b.dataset.copy);
+  const label = b.querySelector("span");
+  if (!src) return;
+  try {
+    await navigator.clipboard.writeText(src.textContent.trim());
+    if (label) label.textContent = "Copied";
+  } catch {
+    // no clipboard permission: select the text so the visitor can copy it themselves
+    const r = document.createRange();
+    r.selectNodeContents(src);
+    getSelection().removeAllRanges();
+    getSelection().addRange(r);
+    if (label) label.textContent = "Selected: press copy";
+  }
+  setTimeout(() => label && (label.textContent = "Copy the text"), 2500);
+});
