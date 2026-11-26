@@ -33,6 +33,12 @@ The brief ([idea.md](idea.md)) was treated as a strong starting point. These are
 - **Students by grade, 2017-18 to 2024-25** from *School enrolment by grade*.
 - **Compare** now takes up to six schools and shows every published measure (EQAO for every year with the change over the period, enrolment, grades, class sizes, student context, area census, child care, nearby), with a share link, CSV download and print layout.
 
+## Official attendance boundaries are shown before permission (#11)
+- The brief allows official boundaries only under an open licence or with written permission. No Ontario board licenses them, but 7 boards publish current public map layers with no licence stated. On 2026-11-26 the owner chose to show those now and ask for permission after. Each is labelled "Official boundary from <board>, <month year>", credited, and described on `/methodology/` as shown while we ask and removed on request. Layers whose terms forbid reuse (Halton DSB, Lennox and Addington County, Grey County) and consultants' copies are not used. Status, permission log and the take-down steps: [attendance-boundaries.md](attendance-boundaries.md).
+
+## Board finance is used without a stated licence (#17)
+- The Ontario Data Catalogue lists the board financial statements with no licence. The owner chose to use them (spending per student by board), with the source and that fact on `/methodology/`.
+
 ## Child care
 - The licensed child care file has addresses but no coordinates. Instead of geocoding 6,000 sites, the site shows child care **at the school's own address** (same postal code and street number — about 2,800 schools have one) and a count and list for the school's postal area.
 

@@ -24,15 +24,24 @@ check.sh    the definition of done: clean rebuild + every test + screenshots
 |---|--------|----------|---------|
 | 1 | Ontario *School information and student demographics* (9 files: 2015-16, 2017-18 to 2024-25) | school list, coordinates, EQAO results 2016-17 to 2024-25, student context | OGL – Ontario |
 | 2 | Ontario *public school contact information* (Nov 2026) | phone, email, website, open status, opening date | OGL – Ontario |
+| 3 | EQAO *Open Data* achievement results (2025-26) | school results for the year the Ministry's school file doesn't have yet | OGL – Ontario (used under licence) |
 | 4 | Ontario *School board achievements and progress* (May + Nov 2026 releases) | official board results, credits, graduation | OGL – Ontario |
 | 5 | Ontario *public schools enrolment* (2011-12 to 2024-25) | enrolment trend | OGL – Ontario |
 | 7 | Statistics Canada 2021 FSA boundary file | postal-area outlines | Statistics Canada Open Licence |
 | 9 | Statistics Canada 2021 Census Profile by FSA (Census Profile API) | area context | Statistics Canada Open Licence |
 | 10 | Ontario *Licensed child care facilities* (Sept 2026) | child care at each school's address and in each area | OGL – Ontario |
+| 11 | Attendance boundaries from 7 boards' own public map layers (Waterloo Region DSB, Hamilton-Wentworth DSB, Simcoe County DSB, Grand Erie DSB, Dufferin-Peel CDSB, Kawartha Pine Ridge DSB, Halton CDSB) | official attendance area on school pages and the Map | **No licence stated**: shown while we ask each board for permission, removed on request ([docs/attendance-boundaries.md](docs/attendance-boundaries.md)) |
 | 12 | Ontario *School enrolment by grade* (2017-18 to 2024-25) | students in each grade | OGL – Ontario |
 | 13 | Ontario *Elementary class size* (2007-08 to 2025-26) | class sizes per school, 19 years | OGL – Ontario |
+| 14 | Ontario *Public schools offering French as a Second Language programs* (2024-25) | Core, Extended French and Immersion per school | OGL – Ontario |
+| 15 | Ontario *Specialist High Skills Major program list* (2025-26) | SHSM sectors per high school | OGL – Ontario |
+| 16 | Ontario *Suspension and expulsion rates by school board* (to 2021-22) | board context | OGL – Ontario |
+| 17 | Ontario *School board financial reports* (2024-25 financial statements) | spending per student by board | Licence not specified (owner chose to use it) |
+| 18 | Ontario *French as a Second Language enrolment* (2024-25) | FSL enrolment by board | OGL – Ontario |
+| 19 | Ontario *EarlyON Child and Family Centre locations* (Nov 2026) | EarlyON programs by postal area | OGL – Ontario |
+| 20 | Ontario *Student Nutrition Program sites* (Dec 2017) | breakfast, lunch or snack program at the school | OGL – Ontario |
 
-Skipped: #6 *Board service area* (listed as "under review" with no files), #8 census subdivisions (only needed for #6), #3 EQAO repository and #11 board attendance boundaries (Phase 2). Details and retrieval dates are on `/methodology/` and in `pipeline/report.md`.
+Skipped: #6 *Board service area* (listed as "under review" with no files) and #8 census subdivisions (only needed for #6). Details and retrieval dates are on `/methodology/` and in `pipeline/report.md`.
 
 ## Branding
 
@@ -83,4 +92,5 @@ It also works on any static host (GitHub Pages, Cloudflare Pages) by publishing 
 
 Run the pipeline again. It re-downloads every source, checks every column it reads, and **stops with an expected-vs-found message if a file changes** instead of guessing. New yearly files are added in `pipeline/sources.py` (one line each).
 
-See [docs/DECISIONS.md](docs/DECISIONS.md) for where this build departs from the original brief ([docs/idea.md](docs/idea.md)) and why.
+See [docs/DECISIONS.md](docs/DECISIONS.md) for where this build departs from the original brief ([docs/idea.md](docs/idea.md)) and why,
+and [docs/HANDOFF.md](docs/HANDOFF.md) for open items and lessons learned (read it before changing the pipeline or deploying).
