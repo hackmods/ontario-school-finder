@@ -247,7 +247,7 @@ test.describe("privacy and robustness", () => {
 test.describe("phone (390px)", () => {
   test.use({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
 
-  for (const url of ["/", `/school/${SCHOOL}/`, `/fsa/${FSA}/`, "/board/B28010/", "/compare/", "/map/", "/methodology/", "/search/?q=Toronto", "/areas/", "/boards/"]) {
+  for (const url of ["/", `/school/${SCHOOL}/`, `/fsa/${FSA}/`, "/board/B28010/", "/compare/", "/map/", "/methodology/", "/search/?q=Toronto", "/areas/", "/boards/", "/about/", "/data/", `/corrections/?school=${SCHOOL}`, "/404.html"]) {
     test(`no horizontal scroll and 44px tap targets on ${url}`, async ({ page }) => {
       await page.goto(url);
       await page.waitForLoadState("networkidle");

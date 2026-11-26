@@ -46,9 +46,13 @@ function render(extraTop = "") {
       ${base.some((r) => r.lang === "F") ? chipGroup("lang", "Language", [["all", "English and French"], ["E", "English"], ["F", "French"]]) : ""}
       ${sysOpts.length > 2 ? chipGroup("sys", "System", sysOpts) : ""}
     </div>
-    <div class="map-shell" style="margin-bottom:16px"><div class="map" data-map="results" style="height:clamp(260px,40vh,420px)" aria-label="Map of these results"></div><div class="map-fallback" data-map-fallback><div>Map loads with JavaScript.</div></div></div>
-    <div class="card" style="padding:4px 16px"><ul class="list">${rows.slice(0, shown).map((r) => schoolRow(r, { distance: distances?.get(r.id) })).join("")}</ul></div>
-    ${rows.length > shown ? `<p style="text-align:center;margin-top:16px"><button class="btn" type="button" data-more>Show ${Math.min(30, rows.length - shown)} more</button></p>` : ""}` : ""}`;
+    <div class="results-layout">
+      <div class="map-shell results-map"><div class="map" data-map="results" aria-label="Map of these results"></div><div class="map-fallback" data-map-fallback><div>Map loads with JavaScript.</div></div></div>
+      <div class="results-list">
+        <div class="card" style="padding:4px 16px"><ul class="list">${rows.slice(0, shown).map((r) => schoolRow(r, { distance: distances?.get(r.id) })).join("")}</ul></div>
+        ${rows.length > shown ? `<p style="text-align:center;margin-top:16px"><button class="btn" type="button" data-more>Show ${Math.min(30, rows.length - shown)} more</button></p>` : ""}
+      </div>
+    </div>` : ""}`;
   for (const b of qsa("[data-f]", root)) {
     b.addEventListener("click", () => {
       filters[b.dataset.f] = b.dataset.v;

@@ -6,19 +6,19 @@
   <h1>About Ontario School Finder</h1>
   <p class="lede" style="margin:0">A free, independent tool that puts Ontario’s public school data in one place, in plain language, with the sources one click away.</p>
 </div></div>
-<div class="wrap"><div class="prose">
-<h2>What this is</h2>
+<div class="wrap doc"><div class="prose doc-main">
+<h2 id="what">What this is</h2>
 <p>Choosing or getting to know a school is a big decision, and the public information about Ontario schools is spread across spreadsheets from several government offices. This site gathers it, cleans it carefully, and shows each school next to its board and the province over time — without ranking anyone.</p>
 <p>It covers every publicly funded school in Ontario: English and French, public and Catholic, elementary and secondary. Private schools are not included because the Ministry does not publish comparable data for them.</p>
 
-<h2>Who runs it</h2>
+<h2 id="who">Who runs it</h2>
 <p>{{ operator }} It is not affiliated with EQAO, the Ministry of Education, any school board, or any real-estate or ranking company.</p>
 {% if contact_email %}
 <h2 id="contact">Contact</h2>
 <p>Questions, ideas or a correction? Email <a href="mailto:{{ contact_email }}?subject=Ontario%20School%20Finder">{{ contact_email }}</a>. For a correction, please include the school’s name or number and where you saw the right value — or start from the school’s own page with “Report a correction”.</p>
 {% endif %}
 
-<h2>Why it’s free</h2>
+<h2 id="free">Why it’s free</h2>
 <p>It is built on open data that taxpayers already paid for, and it costs very little to run: there is no server-side database and no accounts. There are no ads and there never will be. The cleaned data is <a href="/data/">free to download</a> under the same open licences.</p>
 
 <h2 id="privacy">Privacy</h2>
@@ -31,7 +31,26 @@
   <li>Our web server keeps standard short-lived access logs (IP address, page, time) for security and reliability. We don’t sell or share them.</li>
 </ul>
 
-<h2>Corrections</h2>
+<h2 id="corrections">Corrections</h2>
 <p>Found something wrong? See <a href="/corrections/">how to report a correction</a>{% if contact_email %} or email <a href="mailto:{{ contact_email }}?subject=Correction">{{ contact_email }}</a>{% endif %}. School contact details come from school boards; results come from EQAO and the Ministry. We fix our own mistakes quickly and pass source errors on to the right office.</p>
-</div></div>
+</div>
+
+<aside class="doc-aside" aria-label="At a glance">
+  <div class="card glance-card">
+    <p class="eyebrow">At a glance</p>
+    <ul class="isnt">
+      <li class="yes">{{ icon("check") }}<span>Free, with no ads and no accounts</span></li>
+      <li class="yes">{{ icon("check") }}<span>No tracking cookies or analytics</span></li>
+      <li class="yes">{{ icon("check") }}<span>Every number links to its public source</span></li>
+      <li class="yes">{{ icon("check") }}<span>No rankings and no single score</span></li>
+      <li class="yes">{{ icon("check") }}<span>All {{ "{:,}".format(meta.counts.schools) }} publicly funded schools, English and French</span></li>
+    </ul>
+    <div class="doc-actions">
+      <a class="btn btn-sm" href="/methodology/">{{ icon("info") }}How it works</a>
+      <a class="btn btn-sm" href="/data/">{{ icon("download") }}Download the data</a>
+      {% if contact_email %}<a class="btn btn-sm btn-ghost" href="mailto:{{ contact_email }}?subject=Ontario%20School%20Finder">{{ icon("mail") }}Email us</a>{% endif %}
+    </div>
+  </div>
+</aside>
+</div>
 {% endblock %}

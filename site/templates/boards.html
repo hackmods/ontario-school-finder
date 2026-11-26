@@ -9,7 +9,7 @@
 <section class="block"><div class="wrap">
   {% for g in groups %}
   <h2 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:28px">{{ sysbadge(g.system, g.label) }} <span>{{ g.boards|length }} board{{ "" if g.boards|length == 1 else "s" }}</span></h2>
-  <div class="cols">{% for b in g.boards %}<a href="/board/{{ b.number }}/">{{ b.name }} <span>{{ b.count }} schools</span></a>{% endfor %}</div>
+  <div class="cols">{% for b in g.boards %}<a href="/board/{{ b.number }}/">{{ b.name }} <span>{{ b.count }} school{{ "" if b.count == 1 else "s" }}</span></a>{% endfor %}</div>
   {% endfor %}
 </div></section>
 {% endblock %}
