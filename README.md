@@ -51,7 +51,11 @@ check.sh    the definition of done: clean rebuild + every test + screenshots
 | 17 | Ontario *School board financial reports* (2024-25 financial statements) | spending per student by board | Licence not specified (owner chose to use it) |
 | 18 | Ontario *French as a Second Language enrolment* (2024-25) | FSL enrolment by board | OGL – Ontario |
 | 19 | Ontario *EarlyON Child and Family Centre locations* (Nov 2026) | EarlyON programs by postal area | OGL – Ontario |
-| 20 | Ontario *Student Nutrition Program sites* (Dec 2017) | breakfast, lunch or snack program at the school | OGL – Ontario |
+| 20 | Ontario *Student Nutrition Program sites* (Dec 2017) | shown as **historically listed; current availability unverified** | OGL – Ontario |
+| 21 | EQAO *Open Data* student questionnaire results (2025-26: Grades 3, 6, 9, OSSLT) | "Student experience": a few questions per grade, school vs whole board vs Ontario | OGL – Ontario (used under licence) |
+| — | Hand-checked board pages: DSB Niagara and Niagara Catholic ([site/board-info.json](site/board-info.json), [docs/board-info.md](docs/board-info.md)) | registration, address lookup, Immersion entry, transfers, transportation rules, special education, accessibility, plans, involvement | Linked and summarised, not copied |
+
+EQAO results are split into two eras that are never joined: EQAO started new trend lines in 2021-22, so charts, "change since" sentences and Compare use 2021-22 onward, and 2016-17 to 2018-19 are listed separately ([pipeline/eras.py](pipeline/eras.py)).
 
 Skipped: #6 *Board service area* (listed as "under review" with no files) and #8 census subdivisions (only needed for #6). Details and retrieval dates are on `/methodology/` and in `pipeline/report.md`.
 

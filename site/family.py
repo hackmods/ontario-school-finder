@@ -65,6 +65,19 @@ def grade_span_label(grade_range: str | None) -> str:
     return f"{first} to Grade {g[-1]}" if g[-1] not in ("JK", "K") else first
 
 
+EARLIEST_OPEN_DATE = "1969-09-01"  # half of all schools carry this date: the list's floor, not a real opening
+
+
+def opened_label(date_open: str | None) -> str | None:
+    """The contact list's "date open" for a school number. 1969-09-01 is the earliest date it uses (about half
+    of schools have it), so it means "1969 or earlier", never a building's age."""
+    if not date_open:
+        return None
+    if date_open == EARLIEST_OPEN_DATE:
+        return "1969 or earlier"
+    return date_open[:4]
+
+
 def program_badges(s: dict, board_listed: dict | None = None) -> list[dict]:
     """Badges for a school's programs, each with where it came from. board_listed: {program: entry} from board-info."""
     out = []

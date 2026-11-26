@@ -361,11 +361,7 @@ def build(clean: bool = False) -> dict:
     # of the regular English program, so such a school is almost certainly an Immersion centre families
     # choose for the program. Its page says why no area is drawn; nothing is inferred about eligibility.
     for s in schools:
-        f = fsl["rows"].get(s["bsid"])
-        s["immersion_only"] = bool(f and f.get("immersion") and not f.get("core") and not f.get("extended")
-                                   and s["level"] == "elementary" and s["language"] == "English")
-        s["proximity_area"] = "drawn" if (s["system"] != "other" and s["regular"] and not s["immersion_only"]) else (
-            "immersion_only" if s["immersion_only"] else "not_regular" if not s["regular"] else "other_system")
+        s["immersion_only"], s["proximity_area"] = proximity_area(s, fsl["rows"].get(s["bsid"]))
     layer_input = [s for s in schools if s["proximity_area"] == "drawn"]
     rep.proximity = Counter(s["proximity_area"] for s in schools)
     layers = geo.build_layers(layer_input, fsa_gdf, geo_dir, log=log)
@@ -530,26 +526,9 @@ def build(clean: bool = False) -> dict:
             if bsid in by_id and r["School Name"]:
                 name_index[school_key(r["School Name"])].add(bsid)
                 name_index[school_key(parse.tidy_school_name(r["School Name"]))].add(bsid)  # "Glenwood School School" as "Glenwood School"
-    cs_by_school = defaultdict(list)
-    cs_ambiguous = defaultdict(set)  # bsid -> other schools in its board that the class list can't tell apart from it
-    cs_ambiguous_years = defaultdict(set)
-    matched, unmatched, ambiguous = 0, Counter(), 0
-    for res in sources.CLASS_SIZE_RESOURCES:
-        for (year, board, school), a in csize[res["id"]]["rows"].items():
-            cands = name_index.get(school_key(school), set())
-            bk = board_key(board)
-            hits = [b for b in cands if board_key(by_id[b]["board_name"]) == bk]
-            if len(hits) != 1:
-                if len(hits) > 1:
-                    ambiguous += 1
-                    for b in hits:
-                        cs_ambiguous[b] |= set(hits) - {b}
-                        cs_ambiguous_years[b].add(year)
-                else:
-                    unmatched[year] += 1
-                continue
-            matched += 1
-            cs_by_school[hits[0]].append(class_size_row(year, a, res["id"]))
+    cm = match_class_lists([(res["id"], csize[res["id"]]["rows"]) for res in sources.CLASS_SIZE_RESOURCES], name_index, by_id)
+    cs_by_school, cs_ambiguous, cs_ambiguous_years = cm["by_school"], cm["ambiguous"], cm["ambiguous_years"]
+    matched, unmatched, ambiguous = cm["matched"], cm["unmatched"], cm["ambiguous_rows"]
     for s in schools:
         rows = sorted(cs_by_school.get(s["bsid"], []), key=lambda r: r["year"])
         # two files can cover one year only if a school appears twice under one name; keep the first
@@ -560,18 +539,7 @@ def build(clean: bool = False) -> dict:
                 keep.append(r)
         s["class_size"] = keep
         # why a page has (or hasn't) class sizes, in words a parent can act on
-        if s["level"] != "elementary":
-            st = {"status": "not_applicable"}
-        elif s["bsid"] in cs_ambiguous and not keep:
-            st = {"status": "match_unresolved", "others": sorted(cs_ambiguous[s["bsid"]]),
-                  "years": sorted(cs_ambiguous_years[s["bsid"]])}
-        elif keep:
-            st = {"status": "reported"}
-            if s["bsid"] in cs_ambiguous:  # matched in some years, but a same-named school blocks others
-                st["unresolved_years"] = sorted(cs_ambiguous_years[s["bsid"]] - {r["year"] for r in keep})
-        else:
-            st = {"status": "not_listed"}
-        s["class_size_status"] = st
+        s["class_size_status"] = class_size_status(s, keep, cs_ambiguous, cs_ambiguous_years)
     rep.class_size = {"matched": matched, "ambiguous": ambiguous, "unmatched_by_year": dict(sorted(unmatched.items())),
                       "schools_with_class_sizes": sum(1 for s in schools if s["class_size"]),
                       "by_status": dict(Counter(s["class_size_status"]["status"] for s in schools)),
@@ -810,6 +778,84 @@ def board_key(name: str) -> tuple:
     toks = _tokens(name)
     catholic = any(w in ("catholic", "catholique", "cdsb", "csc", "cscd", "csdc", "separate", "rcssb", "rcss") for w in toks)
     return (frozenset(w for w in toks if w not in GENERIC_BOARD_WORDS), catholic)
+
+
+def match_class_lists(files: list[tuple[str, dict]], name_index: dict, by_id: dict) -> dict:
+    """Match the Ministry's class lists, which name schools but don't number them, to school numbers.
+
+    A class-list row matches a school when its school name (any name the school has used, normalised)
+    and its board both agree, and exactly one school fits. The lists are of elementary classes (JK to
+    Grade 8), so a school number whose grade range has none of those grades (a 9-12 school the Ministry
+    splits from its 7-8 twin of the same name) can't own the row; a missing grade range doesn't rule a
+    school out. When two or more schools still fit, the row can't be split between them, so it is skipped
+    and both are recorded as ambiguous (with each other and the years affected). Nothing is guessed from
+    enrolment or class mix.
+    """
+    by_school, ambiguous, ambiguous_years = defaultdict(list), defaultdict(set), defaultdict(set)
+    matched, unmatched, ambiguous_rows = 0, Counter(), 0
+    for source_id, rows in files:
+        for (year, board, school), a in rows.items():
+            cands = name_index.get(school_key(school), set())
+            bk = board_key(board)
+            hits = [b for b in cands if board_key(by_id[b]["board_name"]) == bk and may_have_elementary_classes(by_id[b].get("grades"))]
+            if len(hits) != 1:
+                if len(hits) > 1:
+                    ambiguous_rows += 1
+                    for b in hits:
+                        ambiguous[b] |= set(hits) - {b}
+                        ambiguous_years[b].add(year)
+                else:
+                    unmatched[year] += 1
+                continue
+            matched += 1
+            by_school[hits[0]].append(class_size_row(year, a, source_id))
+    return {"by_school": by_school, "ambiguous": ambiguous, "ambiguous_years": ambiguous_years,
+            "matched": matched, "unmatched": unmatched, "ambiguous_rows": ambiguous_rows}
+
+
+ELEMENTARY_GRADES = {"JK", "K", "SK", "1", "2", "3", "4", "5", "6", "7", "8"}
+
+
+def may_have_elementary_classes(grade_range: str | None) -> bool:
+    """False only when the school's published grade range has no grade from JK to 8 (e.g. "9-12")."""
+    m = re.fullmatch(r"\s*(JK|SK|K|\d{1,2})\s*-\s*(JK|SK|K|\d{1,2})\s*", (grade_range or "").upper())
+    if not m:
+        return True  # unknown range: don't rule the school out
+    lo = m.group(1)
+    return lo in ELEMENTARY_GRADES and (not lo.isdigit() or int(lo) <= 8)
+
+
+def class_size_status(s: dict, kept: list, ambiguous: dict, ambiguous_years: dict) -> dict:
+    """Why a school page has (or hasn't) class sizes, in words a parent can act on."""
+    if kept:  # includes the odd secondary school with Grade 7-8 classes in the elementary lists
+        st = {"status": "reported"}
+        if s["bsid"] in ambiguous:  # matched in some years, but a same-named school blocks others
+            st["unresolved_years"] = sorted(ambiguous_years[s["bsid"]] - {r["year"] for r in kept})
+        return st
+    if s["bsid"] in ambiguous:
+        return {"status": "match_unresolved", "others": sorted(ambiguous[s["bsid"]]), "years": sorted(ambiguous_years[s["bsid"]])}
+    if s["level"] != "elementary":
+        return {"status": "not_applicable"}
+    return {"status": "not_listed"}
+
+
+def proximity_area(s: dict, fsl_row: dict | None) -> tuple[bool, str]:
+    """(immersion_only, why) for the nearest-school area: "drawn", or why it isn't.
+
+    An English-language elementary school the Ministry lists as offering French Immersion but neither
+    Core nor Extended French is almost certainly an Immersion school (Core French is required in Grades
+    4-8 of the regular English program), which families choose for the program, not by neighbourhood.
+    """
+    f = fsl_row or {}
+    imm_only = bool(f.get("immersion") and not f.get("core") and not f.get("extended")
+                    and s["level"] == "elementary" and s["language"] == "English")
+    if s["system"] == "other":
+        return imm_only, "other_system"
+    if not s["regular"]:
+        return imm_only, "not_regular"
+    if imm_only:
+        return imm_only, "immersion_only"
+    return imm_only, "drawn"
 
 
 def class_size_row(year: str, a: dict, source_id: str) -> dict:

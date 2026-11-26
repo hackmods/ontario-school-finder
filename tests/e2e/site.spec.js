@@ -23,6 +23,9 @@ function watch(page) {
 }
 
 async function waitForMap(page, sel = ".maplibregl-canvas") {
+  // maps load when they scroll into view (school pages open with "Attendance and registration" above the map)
+  const holder = page.locator("[data-map]").first();
+  if (await holder.count()) await holder.scrollIntoViewIfNeeded();
   await page.locator(sel).first().waitFor({ state: "visible", timeout: 30_000 });
   await page.waitForTimeout(2500); // let tiles paint for screenshots
 }
@@ -265,7 +268,8 @@ test.describe("pages", () => {
     const id = fc.features.find((f) => f.properties.b === "B66176").properties.id;
     await page.goto(`/school/${id}/`);
     await expect(page.locator(".sw-official-on").first()).toBeVisible();
-    await expect(page.locator(".sw-official-on").first().locator("xpath=..")).toHaveText(/^Official boundary from Waterloo Region DSB, [A-Z][a-z]+ \d{4}$/);
+    // the school year the layer says it is for when it says one, otherwise when the board last edited the map
+    await expect(page.locator(".sw-official-on").first().locator("xpath=..")).toHaveText(/^Official boundary from Waterloo Region DSB, (for \d{4}-\d{2}|edited [A-Z][a-z]+ \d{4})$/);
     await page.goto("/map/");
     await waitForMap(page);
     const radio = page.locator('input[name="area"][value="official"]');

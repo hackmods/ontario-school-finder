@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 22:00 UTC in 150 s.
+Generated 2026-11-26 22:29 UTC in 138 s.
 
 ## Output
 
@@ -418,10 +418,10 @@ Codes are stored as `null` with a flag, never as 0.
 
 ## Class sizes (matched to schools by board and school name)
 
-- Class-list rows matched to a school: 62414 school-years; ambiguous names skipped: 1319
-- Schools with class sizes: 3863
-- Unmatched school-years by year (closed or renamed schools, private/other boards): 2007-08: 692, 2008-09: 675, 2009-10: 641, 2010-11: 605, 2011-12: 578, 2012-13: 526, 2013-14: 503, 2014-15: 506, 2015-16: 564, 2016-17: 515, 2017-18: 481, 2018-19: 421, 2019-20: 427, 2020-21: 295, 2021-22: 222, 2022-23: 206, 2023-24: 160, 2024-25: 152, 2025-26: 39
-- Status on school pages: match_unresolved 115, not_applicable 910, not_listed 58, reported 3862
+- Class-list rows matched to a school: 62664 school-years; ambiguous names skipped: 1057
+- Schools with class sizes: 3885
+- Unmatched school-years by year (closed or renamed schools, private/other boards): 2007-08: 693, 2008-09: 676, 2009-10: 642, 2010-11: 606, 2011-12: 579, 2012-13: 527, 2013-14: 504, 2014-15: 507, 2015-16: 565, 2016-17: 515, 2017-18: 482, 2018-19: 422, 2019-20: 428, 2020-21: 295, 2021-22: 222, 2022-23: 206, 2023-24: 160, 2024-25: 152, 2025-26: 39
+- Status on school pages: match_unresolved 92, not_applicable 910, not_listed 58, reported 3885
 
 Elementary schools whose class lists can't be told apart from a same-named school in their board (the lists name schools without a number, so neither gets class sizes, and their pages say so):
 
@@ -434,10 +434,6 @@ Elementary schools whose class lists can't be told apart from a same-named schoo
 - 841773 St Patrick Catholic School (Algonquin and Lakeshore CDSB): same name as 764248
 - 706744 St Paul Catholic Elementary School (Algonquin and Lakeshore CDSB): same name as 842761
 - 842761 St Paul Catholic School (Algonquin and Lakeshore CDSB): same name as 706744
-- 067709 Bruce Peninsula District School (Bluewater DSB): same name as 896969
-- 007681 John Diefenbaker Senior School (Bluewater DSB): same name as 915556
-- 605743 Peninsula Shores District School (Bluewater DSB): same name as 953253
-- 569565 Walkerton District Community School (Bluewater DSB): same name as 950262
 - 736481 Notre Dame Catholic Catholic Elementary School (Brant Haldimand Norfolk CDSB): same name as 739200
 - 739200 Notre Dame School (Brant Haldimand Norfolk CDSB): same name as 736481
 - 762756 Sacred Heart Catholic Elementary School (Brant Haldimand Norfolk CDSB): same name as 759309
@@ -452,33 +448,20 @@ Elementary schools whose class lists can't be told apart from a same-named schoo
 - 828726 St Mary's Separate School (CDSB of Eastern Ontario): same name as 828874, 828980
 - 828874 St Mary's Separate School (CDSB of Eastern Ontario): same name as 828726, 828980
 - 828980 St Mary's Separate School (CDSB of Eastern Ontario): same name as 828726, 828874
-- 697605 École secondaire catholique Algonquin (CSDC Franco-Nord): same name as 685011
-- 689730 École secondaire catholique Élisabeth-Bruyère (CSDC Franco-Nord): same name as 710504
-- 735632 École élémentaire Académie catholique Ange-Gabriel (CSDC du Centre-Est de l'Ontario): same name as 855949
 - 806625 École élémentaire Saint-Joseph (CSDC du Nouvel-Ontario): same name as 809390, 811173, 811599
 - 809390 École élémentaire Saint-Joseph (CSDC du Nouvel-Ontario): same name as 806625, 811173, 811599
 - 811173 École élémentaire Saint-Joseph (CSDC du Nouvel-Ontario): same name as 806625, 809390, 811599
 - 811599 École élémentaire Saint-Joseph (CSDC du Nouvel-Ontario): same name as 806625, 809390, 811173
-- 715970 École élémentaire catholique École secondaire de Pain Court (Conseil scolaire catholique Providence): same name as 707015
-- 547449 DSBN Academy (DSB Niagara): same name as 935455
 - 455989 Prince Philip Public School (DSB Niagara): same name as 456110
 - 456110 Prince Philip Public School (DSB Niagara): same name as 455989
 - 455075 Prince of Wales Public School (DSB Niagara): same name as 455202
 - 455202 Prince of Wales Public School (DSB Niagara): same name as 455075
-- 600222 Iroquois Falls Secondary School (Elementary) (DSB Ontario North East): same name as 918288
-- 428797 Roland Michener Secondary School (Elementary) (DSB Ontario North East): same name as 943509
-- 050571 Timiskaming District Secondary School (Elementary) (DSB Ontario North East): same name as 946940
 - 806889 St Joseph School (Dufferin-Peel CDSB): same name as 811041
 - 811041 St Joseph Separate School (Dufferin-Peel CDSB): same name as 806889
 - 811696 St Joseph Catholic School (Durham CDSB): same name as 814423
 - 814423 St Joseph Catholic School (Durham CDSB): same name as 811696
-- 513611 Bayside Secondary School - Elementary (Elementary) (Hastings & Prince Edward DSB): same name as 893803
-- 147957 Centennial Secondary School Elementary School (Hastings & Prince Edward DSB): same name as 899275
-- 507166 North Hastings High School - Elementary (Elementary) (Hastings & Prince Edward DSB): same name as 929980
 - 453382 Prince Charles Public School (Hastings & Prince Edward DSB): same name as 453641
 - 453641 Prince Charles Public School (Hastings & Prince Edward DSB): same name as 453382
-- 473211 Prince Edward Collegiate Institute Elementary School (Hastings & Prince Edward DSB): same name as 936618
-- 545008 Trenton High School Elementary School (Hastings & Prince Edward DSB): same name as 948705
 - 698334 St Joseph Separate School (Huron Perth CDSB): same name as 812994
 - 812994 St Joseph Separate School (Huron Perth CDSB): same name as 698334
 - 705748 St Patricks Separate School (Huron Perth CDSB): same name as 713678
@@ -489,8 +472,6 @@ Elementary schools whose class lists can't be told apart from a same-named schoo
 - 792017 St. Basil Catholic School (Huron-Superior CDSB): same name as 776335
 - 297127 King George VI Public School (Lambton Kent DSB): same name as 297380
 - 297380 King George VI Public School (Lambton Kent DSB): same name as 297127
-- 254617 Katarokwi Elementary Learning Centre Elementary Public School (Limestone DSB): same name as 936740
-- 403040 North Addington Education Centre Public School (Limestone DSB): same name as 890596
 - 453129 Prince Charles Public School (Limestone DSB): same name as 551376
 - 551376 The Prince Charles School (Limestone DSB): same name as 453129
 - 716294 Holy Family Elementary School (London District Catholic School Board): same name as 704237
@@ -528,10 +509,6 @@ Elementary schools whose class lists can't be told apart from a same-named schoo
 - 811432 St Joseph Catholic School (St Clair CDSB): same name as 809233
 - 833142 St Michael Catholic School (St Clair CDSB): same name as 834602
 - 834602 St Michael Catholic School (St Clair CDSB): same name as 833142
-- 730971 Marymount Elementary Academy (Sudbury CDSB): same name as 730963
-- 830399 St. Charles College Elementary (Sudbury CDSB): same name as 783358
-- 835200 St Michael's Choir (Jr) School (Toronto CDSB): same name as 834718
-- 285662 ALPHA II Alternative School (Toronto DSB): same name as 901908
 - 770876 St Anne Catholic Elementary School (Waterloo CDSB): same name as 771007
 - 771007 St Anne Catholic Elementary School (Waterloo CDSB): same name as 770876
 - 801550 St John Catholic School (Wellington CDSB): same name as 801429
@@ -575,7 +552,7 @@ Areas are matched to schools by name within the board and level (or by the one s
 
 ## Nearest-school areas
 
-Drawn only for regular schools families attend by neighbourhood. Not drawn: immersion only 106, not regular 111, other system 7; drawn: 4721.
+Drawn only for regular schools families attend by neighbourhood. Not drawn: immersion only 106, not regular 94, other system 24; drawn: 4721.
 
 ## Licences of the files used
 

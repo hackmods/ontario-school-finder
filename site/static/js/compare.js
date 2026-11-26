@@ -13,7 +13,7 @@ const GRADES = ["JK", "K", "G1", "G2", "G3", "G4", "G5", "G6", "G7", "G8", "G9",
 const GRADE_LABEL = (g) => (g === "JK" ? "Junior kindergarten" : g === "K" ? "Kindergarten" : `Grade ${g.slice(1)}`);
 const AREA_FIELDS = ["population", "children_0_14_pct", "couple_hh_children_pct", "one_parent_hh_pct", "median_household_income", "low_income_0_17_pct", "home_other_pct", "home_french_pct"];
 
-const state = { schools: [], fsas: {}, meta: null, ctx: null, boards: null, opts: { prov: true, board: false }, csv: [] };
+const state = { schools: [], fsas: {}, meta: null, ctx: null, boards: null, opts: { prov: true, board: false, diff: false }, csv: [] };
 
 // ---------------------------------------------------------------- loading
 function idsFromUrl() {
@@ -48,13 +48,59 @@ function th(schools) {
   return `<thead><tr><th scope="col" class="sticky">Measure</th>${schools.map((s, i) => `<th scope="col">${swatch(i)}<a href="/school/${s.bsid}/">${esc(s.name)}</a></th>`).join("")}</tr></thead>`;
 }
 
-/** rows: [{label, sub, cells: [html], raw: [value]}] — also recorded for CSV. */
+/** rows: [{label, sub, cells: [html], raw: [value]}] — also recorded for CSV (every row, whatever is hidden). */
 function table(section, schools, rows, { caption, extraHead = "", extra = null } = {}) {
   for (const r of rows) state.csv.push([section, r.label.replace(/<[^>]+>/g, ""), r.year || "", ...r.raw.map((v) => (v == null ? "" : v)), ...(extra ? [r.extraRaw ?? ""] : [])]);
   const head = th(schools).replace("</tr></thead>", `${extraHead}</tr></thead>`);
+  // "Only rows that differ" hides rows where every school has the same value. A missing value counts as a
+  // value ("—" is not the same as "12"), so a gap in one school's data is never hidden as "the same".
+  const same = (r) => schools.length > 1 && !r.keep && r.raw.every((v) => String(v ?? "") === String(r.raw[0] ?? ""));
   return `<div class="table-wrap cmp-table"><table>${caption ? `<caption>${caption}</caption>` : ""}${head}<tbody>${rows
-    .map((r) => `<tr><th scope="row" class="sticky">${r.label}${r.sub ? `<div class="small muted">${r.sub}</div>` : ""}</th>${r.cells.map((c) => `<td class="n">${c}</td>`).join("")}${extra ? `<td class="n muted">${r.extra ?? "—"}</td>` : ""}</tr>`)
+    .map((r) => `<tr${same(r) ? ' class="cmp-same"' : ""}><th scope="row" class="sticky">${r.label}${r.sub ? `<div class="small muted">${r.sub}</div>` : ""}</th>${r.cells.map((c) => `<td class="n">${c}</td>`).join("")}${extra ? `<td class="n muted">${r.extra ?? "—"}</td>` : ""}</tr>`)
     .join("")}</tbody></table></div>`;
+}
+
+const badgeList = (bs) => (bs?.length ? bs.map((b) => `<span class="badge badge-prog prog-${esc(b.key)}">${esc(b.label)}</span>`).join(" ") : '<span class="muted">None listed</span>');
+
+// The practical facts first: grades, programs and how to get in, before any chart.
+function practical(schools) {
+  const fam = (s) => s.family || {};
+  const csLabel = (s) => {
+    const st = s.class_size_status?.status;
+    if (s.level !== "elementary") return '<span class="muted">Not applicable (high school)</span>';
+    if (st === "reported") { const r = s.class_size?.[s.class_size.length - 1]; return r ? `Reported to ${esc(r.year)}` : "Reported"; }
+    if (st === "match_unresolved") return '<span class="muted">Source match unresolved</span>';
+    return '<span class="muted">Not in the class lists</span>';
+  };
+  const link = (x, fallback) => (x ? `<a href="${esc(x.url)}" rel="noopener">${esc(x.title)}</a>` : `<span class="muted">${fallback}</span>`);
+  const rows = [
+    { label: "Grades offered", sub: "Ministry school list", cells: schools.map((s) => esc(fam(s).grade_span || s.grades || "—")), raw: schools.map((s) => s.grades) },
+    { label: "Programs", sub: "French Immersion, Extended French, SHSM; French-language schools teach in French all day", cells: schools.map((s) => badgeList(fam(s).badges)), raw: schools.map((s) => (fam(s).badges || []).map((b) => b.label).join("; ")) },
+    { label: "School type", cells: schools.map((s) => esc(s.special || "Regular school")), raw: schools.map((s) => s.special || "Regular school") },
+    {
+      label: "French Immersion: how to get in", sub: "from the board's own page",
+      cells: schools.map((s) => {
+        const f = fam(s);
+        if (!(f.badges || []).some((b) => b.key === "french-immersion")) return '<span class="muted">—</span>';
+        if (f.fi_entry) return `Starts in Grade ${esc(f.fi_entry.join(", "))}${f.fi_page ? `<div class="small"><a href="${esc(f.fi_page.url)}" rel="noopener">Board's page</a></div>` : ""}`;
+        if (s.level === "secondary" && f.fi_page) return `Continues from elementary Immersion<div class="small"><a href="${esc(f.fi_page.url)}" rel="noopener">Board's page</a></div>`;
+        return `<span class="muted">${f.info_collected ? "Not published" : "Not yet collected"}</span>`;
+      }),
+      raw: schools.map((s) => (fam(s).fi_entry || []).join(", ")),
+    },
+    { label: "Which school serves an address", cells: schools.map((s) => link(fam(s).locator, "Ask the board")), raw: schools.map((s) => fam(s).locator?.url || "") },
+    { label: "How to register", cells: schools.map((s) => link(fam(s).register, "Not yet collected")), raw: schools.map((s) => fam(s).register?.url || "") },
+    { label: "Attending outside your area", cells: schools.map((s) => (fam(s).transfer ? (fam(s).transfer.kind === "not_found" ? '<span class="muted">Not published by the board</span>' : link(fam(s).transfer, "")) : '<span class="muted">Not yet collected</span>')), raw: schools.map((s) => fam(s).transfer?.url || "") },
+    { label: "Licensed child care at the school's address", sub: "a licence is not a guarantee of space", cells: schools.map((s) => (s.childcare.at_address.length ? `Yes (${s.childcare.at_address.length})` : "None listed")), raw: schools.map((s) => s.childcare.at_address.length) },
+    { label: "Class sizes", cells: schools.map(csLabel), raw: schools.map((s) => s.class_size_status?.status || "") },
+  ];
+  return `<section class="cmp-section" id="cmp-practical"><h2>At a glance</h2><p class="block-intro">Practical facts first. Registration, program and transfer details come from each board's own pages where we have collected them; always confirm with the board.</p>${table("At a glance", schools, rows)}</section>`;
+}
+
+// Warn when schools' latest figures are from different years, instead of letting them sit side by side silently.
+function yearWarning(what, years) {
+  const u = [...new Set(years.filter(Boolean))];
+  return u.length > 1 ? `<p class="note note-warn small cmp-warn"><span>The latest ${what} differ by school (${u.map(esc).join(", ")}), so these columns aren't all the same year.</span></p>` : "";
 }
 
 function legend(schools, extras = []) {
@@ -93,8 +139,8 @@ function frenchRows(schools) {
   };
   const raw = (s, key) => (s.programs?.fsl ? (s.programs.fsl[key] ? "yes" : "no") : "");
   return [
-    { label: "French Immersion", sub: "2024-25", cells: schools.map((s) => cell(s, "immersion")), raw: schools.map((s) => raw(s, "immersion")) },
-    { label: "Extended French", sub: "2024-25", cells: schools.map((s) => cell(s, "extended")), raw: schools.map((s) => raw(s, "extended")) },
+    { label: "French Immersion", sub: "Ministry FSL list, 2024-25 (preliminary)", cells: schools.map((s) => cell(s, "immersion")), raw: schools.map((s) => raw(s, "immersion")) },
+    { label: "Extended French", sub: "Ministry FSL list, 2024-25 (preliminary)", cells: schools.map((s) => cell(s, "extended")), raw: schools.map((s) => raw(s, "extended")) },
   ];
 }
 
@@ -113,10 +159,9 @@ function overview(schools) {
     { label: "System", cells: schools.map((s) => esc(SYSTEMS[s.system] || "")), raw: schools.map((s) => SYSTEMS[s.system]) },
     { label: "Level and grades", cells: schools.map((s) => `${esc(cap(s.level))} · ${esc(s.grades || "")}`), raw: schools.map((s) => `${cap(s.level)} ${s.grades || ""}`) },
     { label: "Language", cells: schools.map((s) => esc(s.language)), raw: schools.map((s) => s.language) },
-    { label: "Special program", cells: schools.map((s) => esc(s.special || "—")), raw: schools.map((s) => s.special) },
     { label: "Address", cells: schools.map((s) => esc([s.address, s.city].filter(Boolean).join(", "))), raw: schools.map((s) => [s.address, s.city].filter(Boolean).join(", ")) },
     { label: "Postal area", cells: schools.map((s) => `<a href="/fsa/${s.fsa}/">${esc(s.fsa)}</a>`), raw: schools.map((s) => s.fsa) },
-    { label: "Opened", cells: schools.map((s) => esc(s.date_open ? s.date_open.slice(0, 4) : "—")), raw: schools.map((s) => s.date_open?.slice(0, 4)) },
+    { label: "Open at this school number since", sub: "1969 is the earliest date the Ministry's list uses; not the building's age", cells: schools.map((s) => esc(s.family?.opened || "—")), raw: schools.map((s) => s.family?.opened || "") },
     { label: "Students (latest)", cells: schools.map((s) => { const e = latestEnrol(s); return e ? `${num(e.value)}<div class="small muted">${esc(e.year)}</div>` : "—"; }), raw: schools.map((s) => latestEnrol(s)?.value) },
     { label: "Enrolment change (5 years)", cells: schools.map((s) => { const c = change(s); return c ? `${c.d >= 0 ? "+" : "−"}${num(Math.abs(c.d))}<div class="small muted">since ${esc(c.since)}</div>` : "—"; }), raw: schools.map((s) => change(s)?.d) },
     { label: "Licensed child care at the school", cells: schools.map((s) => (s.childcare.at_address.length ? `Yes (${s.childcare.at_address.length})` : "No")), raw: schools.map((s) => s.childcare.at_address.length) },
@@ -127,9 +172,9 @@ function overview(schools) {
     },
     ...frenchRows(schools),
     {
-      label: "Student nutrition program", sub: "Ministry list from December 2017",
-      cells: schools.map((s) => (s.programs?.nutrition ? esc(s.programs.nutrition.meals.join(", ")) : '<span class="muted">Not listed</span>')),
-      raw: schools.map((s) => (s.programs?.nutrition ? s.programs.nutrition.meals.join("; ") : "")),
+      label: "Student nutrition program", sub: "Historical only: Ministry list from December 2017; current availability unverified",
+      cells: schools.map((s) => (s.programs?.nutrition ? `Historically listed: ${esc(s.programs.nutrition.meals.join(", "))}` : '<span class="muted">Not on the 2017 list (may have one now)</span>')),
+      raw: schools.map((s) => (s.programs?.nutrition ? `historically listed (2017): ${s.programs.nutrition.meals.join("; ")}` : "")),
     },
     {
       label: "Specialist High Skills Majors", sub: "career-sector programs, 2025-26",
@@ -141,7 +186,7 @@ function overview(schools) {
     rows.push({ label: `Distance from ${esc(short(first.name))}`, cells: schools.map((s, i) => (i === 0 ? "—" : fmtKm(km([first.lon, first.lat], [s.lon, s.lat])))), raw: schools.map((s, i) => (i === 0 ? "" : km([first.lon, first.lat], [s.lon, s.lat]).toFixed(1))) });
   }
   rows.push({ label: "Links", cells: schools.map((s) => [s.website ? `<a href="${esc(s.website)}" rel="noopener">Website</a>` : "", `<a href="${esc(s.links.eqao)}" rel="noopener">EQAO</a>`, s.phone ? `<a href="tel:${esc(s.phone.replace(/-/g, ""))}">${esc(s.phone)}</a>` : ""].filter(Boolean).join("<br>")), raw: schools.map((s) => s.website) });
-  return `<section class="cmp-section" id="cmp-overview"><h2>Overview</h2>${table("Overview", schools, rows)}</section>`;
+  return `<section class="cmp-section" id="cmp-overview"><h2>Details</h2>${table("Details", schools, rows)}</section>`;
 }
 
 function eqao(schools) {
@@ -151,20 +196,29 @@ function eqao(schools) {
   const langs = [...new Set(schools.map((s) => s.language))];
   const provByLang = {};
   for (const m of meta.province_medians) (provByLang[`${m.assessment}|${m.language}`] ||= {})[m.year] = m.median;
-  let html = `<section class="cmp-section" id="cmp-eqao"><h2>EQAO results <span class="badge">${esc(meta.eqao_years[0])} to ${esc(meta.latest_eqao_year)}</span></h2>
-    <p class="block-intro">Share of each school’s students meeting the provincial standard, every year the source publishes. ${state.opts.prov ? "The dotted line is the median Ontario school of the same language." : ""} ${state.opts.board ? "Thin dashed lines are each school’s board median." : ""}</p>`;
+  // EQAO started new trend lines in 2021-22 (online assessments, new design, new math standards). Charts,
+  // tables and the change row use the current era only; paper-era years are listed apart, never joined.
+  const from = meta.eqao_eras?.current_from || "2021-22";
+  const isCurrent = (e) => (e.era ? e.era === "current" : e.year >= from);
+  const latestBySchool = schools.map((s) => s.eqao.filter(isCurrent).reduce((m, e) => (e.year > m ? e.year : m), ""));
+  let html = `<section class="cmp-section" id="cmp-eqao"><h2>EQAO results <span class="badge">${esc(from)} to ${esc(meta.latest_eqao_year)}</span></h2>
+    <p class="block-intro">Share of each school’s students meeting the provincial standard, from ${esc(from)}, when EQAO’s current online assessments began a new trend line. Each year is a different group of students. ${state.opts.prov ? "The dotted line is the median Ontario school of the same language." : ""} ${state.opts.board ? "Thin dashed lines are each school’s board median." : ""} Earlier paper-based results are listed at the end of this section and never joined to these.</p>
+    ${yearWarning("EQAO results", latestBySchool)}`;
+  const paperRows = [];
   for (const a of present) {
     const info = meta.assessments[a];
-    let years = meta.eqao_years.filter((y) => schools.some((s) => s.eqao.some((e) => e.assessment === a && e.year === y)));
+    for (const s of schools) for (const e of s.eqao) if (e.assessment === a && !isCurrent(e)) paperRows.push({ s, e, info });
+    let years = meta.eqao_years.filter((y) => y >= from && schools.some((s) => s.eqao.some((e) => e.assessment === a && e.year === y && isCurrent(e))));
+    if (!years.length) continue; // Grade 9 academic/applied: paper era only
     const series = [];
     schools.forEach((s, i) => {
       const values = {};
       const bvals = {};
-      for (const e of s.eqao) if (e.assessment === a) { values[e.year] = e.pct_at_or_above_standard; bvals[e.year] = e.board_median; }
+      for (const e of s.eqao) if (e.assessment === a && isCurrent(e)) { values[e.year] = e.pct_at_or_above_standard; bvals[e.year] = e.board_median; }
       series.push({ label: s.name, color: COLORS[i], values });
       if (state.opts.board) series.push({ label: `${s.board_name} median`, color: COLORS[i], values: bvals, dash: "5 4", width: 1.5 });
     });
-    if (state.opts.prov) for (const l of langs) series.push({ label: `Ontario median (${l})`, color: "var(--c-prov)", values: provByLang[`${a}|${l}`] || {}, dash: "2 4", width: 2 });
+    if (state.opts.prov) for (const l of langs) series.push({ label: `Ontario median (${l})`, color: "var(--c-prov)", values: Object.fromEntries(Object.entries(provByLang[`${a}|${l}`] || {}).filter(([y]) => y >= from)), dash: "2 4", width: 2 });
     const rows = years.map((y) => {
       const cells = [], raw = [];
       for (const s of schools) {
@@ -176,21 +230,61 @@ function eqao(schools) {
       const pm = langs.map((l) => provByLang[`${a}|${l}`]?.[y]).filter((v) => v != null);
       return { label: esc(y), year: y, cells, raw, extra: pm.length ? pm.map((v) => `${v}%`).join(" / ") : "—", extraRaw: pm.join(" / ") };
     });
-    // change since each school's first result
+    // change within the current era only: first to latest result from 2021-22 on (different students each year)
     const trend = schools.map((s) => {
-      const pts = s.eqao.filter((e) => e.assessment === a && e.pct_at_or_above_standard != null).sort((x, y) => x.year.localeCompare(y.year));
+      const pts = s.eqao.filter((e) => e.assessment === a && isCurrent(e) && e.pct_at_or_above_standard != null).sort((x, y) => x.year.localeCompare(y.year));
       if (pts.length < 2) return null;
       return { d: +(pts[pts.length - 1].pct_at_or_above_standard - pts[0].pct_at_or_above_standard).toFixed(1), from: pts[0].year, to: pts[pts.length - 1].year };
     });
-    rows.push({ label: "<b>Change over the period</b>", sub: "first to latest result", year: "change", cells: trend.map((t) => (t ? `<b>${t.d > 0 ? "+" : t.d < 0 ? "−" : "±"}${Math.abs(t.d)} pt${Math.abs(t.d) === 1 ? "" : "s"}</b><div class="small muted">${esc(t.from)}–${esc(t.to.slice(-2))}</div>` : "—")), raw: trend.map((t) => (t ? t.d : null)), extra: "" });
+    rows.push({ label: `<b>Change since ${esc(from)}</b>`, sub: "first to latest result on the current assessments; different students each year", year: "change", cells: trend.map((t) => (t ? `<b>${t.d > 0 ? "+" : t.d < 0 ? "−" : "±"}${Math.abs(t.d)} pt${Math.abs(t.d) === 1 ? "" : "s"}</b><div class="small muted">${esc(t.from)}–${esc(t.to.slice(-2))}</div>` : "—")), raw: trend.map((t) => (t ? t.d : null)), extra: "" });
     html += `<figure class="chart-card cmp-chart" style="margin:16px 0 0" id="cmp-${a}">
       <h3>${esc(info.grade)} · ${esc(info.subject)}</h3>
       ${legend(schools, state.opts.prov ? ['<li><i class="l-prov"></i>Ontario median</li>'] : [])}
-      ${chart(years, series, { gap: true, max: 100, title: `${info.grade} ${info.subject} by year` })}
+      ${chart(years, series, { gap: false, max: 100, title: `${info.grade} ${info.subject} by year, ${years[0]} to ${years[years.length - 1]}` })}
       <details class="data-table"${wideScreen() ? " open" : ""}><summary>Show the numbers</summary>${table(`EQAO ${info.grade} ${info.subject}`, schools, rows, { caption: `${esc(info.grade)} ${esc(info.subject)}: share meeting the standard`, extraHead: '<th scope="col">Ontario median</th>', extra: true })}</details>
     </figure>`;
   }
+  if (paperRows.length) {
+    // the CSV keeps these too, marked as the earlier era
+    for (const { s, e, info } of paperRows) state.csv.push(["EQAO earlier paper-based (not comparable)", `${info.grade} ${info.subject}`, e.year, ...schools.map((x) => (x === s ? (e.pct_at_or_above_standard ?? e.code ?? "") : "")), ""]);
+    const byKey = new Map();
+    for (const { s, e, info } of paperRows) {
+      const k = `${info.grade} ${info.subject}|${e.year}`;
+      if (!byKey.has(k)) byKey.set(k, { label: `${info.grade} ${info.subject}`, year: e.year, vals: new Map() });
+      byKey.get(k).vals.set(s.bsid, e);
+    }
+    const body = [...byKey.values()].map((r) => `<tr><th scope="row" class="sticky">${esc(r.label)}<div class="small muted">${esc(r.year)}</div></th>${schools.map((s) => { const e = r.vals.get(s.bsid); return `<td class="n">${!e ? '<span class="muted">—</span>' : e.pct_at_or_above_standard == null ? codeChip(e.code) : `${e.pct_at_or_above_standard}%`}</td>`; }).join("")}</tr>`).join("");
+    html += `<details class="data-table card" style="margin-top:16px"><summary>Earlier results, ${esc(meta.eqao_eras?.eras?.paper?.label || "2016-17 to 2018-19")}: a different test, not comparable</summary>
+      <p class="small muted">${esc(meta.eqao_eras?.eras?.paper?.explain || "")} No change is calculated between these and ${esc(from)} or later.</p>
+      <div class="table-wrap cmp-table"><table><caption>Paper-based EQAO results</caption>${th(schools)}<tbody>${body}</tbody></table></div></details>`;
+  }
   return html + "</section>";
+}
+
+// What students said in EQAO's questionnaire: the latest year, one table per grade.
+function experience(schools) {
+  const sq = state.meta.student_questionnaire || {};
+  const blocks = Object.entries(sq).filter(([sid]) => schools.some((s) => (s.student_experience || []).some((b) => b.source_id === sid)));
+  if (!blocks.length) return "";
+  let html = `<section class="cmp-section" id="cmp-experience"><h2>Student experience <span class="badge">${esc(blocks[0][1].year)}</span></h2>
+    <p class="block-intro">Share of students who agreed, from EQAO’s questionnaire: students’ own views, not a measure of a school’s quality. The Ontario column is EQAO’s figure for every student who answered. Grades use different answer scales, so compare within a grade only.</p>`;
+  for (const [sid, m] of blocks) {
+    const grade = m.grade === "10" ? "Grade 10 (OSSLT)" : `Grade ${m.grade}`;
+    const blockOf = (s) => (s.student_experience || []).find((b) => b.source_id === sid);
+    const rows = [{ label: "Students who answered", year: m.year, keep: true, cells: schools.map((s) => { const b = blockOf(s); return !b ? '<span class="muted">No students in this grade</span>' : b.withheld ? '<span class="muted">Withheld (too few students)</span>' : num(b.respondents); }), raw: schools.map((s) => { const b = blockOf(s); return b ? (b.withheld ? "withheld" : b.respondents) : ""; }), extra: "", extraRaw: "" }];
+    for (const q of m.questions) {
+      const it = (s) => blockOf(s)?.items.find((x) => x.key === q.key);
+      const prov = schools.map((s) => it(s)?.province_pct).find((v) => v != null);
+      rows.push({
+        label: `“${esc(q.question)}”`, sub: `agreed: ${esc(q.agree.join(" or ").toLowerCase())}`, year: m.year,
+        cells: schools.map((s) => { const x = it(s); const b = blockOf(s); return !b ? '<span class="muted">—</span>' : !x ? '<span class="muted">Not asked</span>' : x.agree_pct == null ? codeChip(x.code) : `${x.agree_pct}%<div class="small muted">board ${pct(x.board_pct)}</div>`; }),
+        raw: schools.map((s) => { const x = it(s); return x ? (x.agree_pct ?? x.code) : null; }),
+        extra: pct(prov), extraRaw: prov ?? "",
+      });
+    }
+    html += `<h3 style="margin-top:16px">${esc(grade)}</h3>${table(`Student experience ${grade}`, schools, rows, { caption: `${esc(grade)}, ${esc(m.year)}: share of students who agreed`, extraHead: '<th scope="col">Ontario</th>', extra: true })}`;
+  }
+  return html + `<p class="small muted">Share of students who fully took part in the assessment, including those who skipped the question. Board figures are EQAO’s for the school’s whole board.</p></section>`;
 }
 
 function enrolment(schools) {
@@ -223,7 +317,18 @@ function grades(schools) {
 
 function classSizes(schools) {
   const any = schools.some((s) => s.class_size?.length);
-  if (!any) return `<section class="cmp-section" id="cmp-class"><h2>Class sizes</h2><div class="note"><div><p>The Ministry publishes class sizes for elementary schools only.</p></div></div></section>`;
+  // say why a school has no class sizes: a high school (not applicable), a name the class lists share with
+  // another school in the board (source match unresolved), or not in the lists at all
+  const why = (s) => {
+    const st = s.class_size_status?.status;
+    if (s.level !== "elementary") return `${esc(s.name)}: not applicable (the Ministry publishes class sizes for elementary schools only).`;
+    if (st === "match_unresolved") return `${esc(s.name)}: source match unresolved. The class lists name schools without a number, and another school in its board has the same name, so neither can be shown.`;
+    if (st === "not_listed") return `${esc(s.name)}: not in the Ministry’s class lists.`;
+    return "";
+  };
+  const missing = schools.filter((s) => !s.class_size?.length).map(why).filter(Boolean);
+  const missingNote = missing.length ? `<div class="note" style="margin-top:12px"><div>${missing.map((m) => `<p>${m}</p>`).join("")}</div></div>` : "";
+  if (!any) return `<section class="cmp-section" id="cmp-class"><h2>Class sizes</h2>${missingNote}</section>`;
   const years = [...new Set(schools.flatMap((s) => (s.class_size || []).map((r) => r.year)))].sort();
   const series = schools.map((s, i) => ({ label: s.name, color: COLORS[i], values: Object.fromEntries((s.class_size || []).map((r) => [r.year, r.primary_avg])) }));
   if (state.opts.prov) {
@@ -254,7 +359,8 @@ function classSizes(schools) {
     <p class="block-intro">Computed from the Ministry’s list of every elementary class (counted each September). Before 2014-15 only primary classes were listed, so the long trend uses Grades 1–3 classes.</p>
     <div class="chart-card">${legend(schools, state.opts.prov ? ['<li><i class="l-prov"></i>Ontario median</li>'] : [])}
     ${chart(years, series, { unit: "", min: 0, max: 30, title: "Average Grades 1–3 class size by year" })}
-    ${table("Class sizes", schools, rows, { caption: "Latest year" })}</div></section>`;
+    ${yearWarning("class-size years", schools.filter((s) => s.class_size?.length).map((s) => s.class_size[s.class_size.length - 1].year))}
+    ${table("Class sizes", schools, rows, { caption: "Latest year" })}${missingNote}</div></section>`;
 }
 
 // Each school's board, from one shared file: spending per student, suspensions, French Immersion share
@@ -358,7 +464,8 @@ function render() {
   charts.length = 0;
   state.csv = [["Section", "Measure", "Year", ...schools.map((s) => `${s.name} (${s.bsid})`), "Ontario median"]];
   const single = schools.length === 1 ? `<div class="note" style="margin-bottom:16px"><div><p>Add at least one more school to compare side by side.</p></div></div>` : "";
-  root.innerHTML = single + overview(schools) + eqao(schools) + enrolment(schools) + grades(schools) + classSizes(schools) + students(schools) + area(schools) + boardContext(schools) + nearby(schools) + sourcesList(schools) +
+  root.classList.toggle("diff-only", state.opts.diff && schools.length > 1);
+  root.innerHTML = single + practical(schools) + overview(schools) + eqao(schools) + experience(schools) + enrolment(schools) + grades(schools) + classSizes(schools) + students(schools) + area(schools) + boardContext(schools) + nearby(schools) + sourcesList(schools) +
     `<p class="small muted" style="margin-top:20px">Every school is shown for the same school years. “—” means no value for that school and year; codes such as <span class="code">N/R</span> are explained in <a href="/methodology/#codes">How it works</a>. Medians are computed by this site from the same Ministry files.</p>`;
   drawCharts();
 }

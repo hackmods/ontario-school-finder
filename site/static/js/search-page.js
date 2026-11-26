@@ -1,5 +1,5 @@
 // /search/ page: full results with filters, "near me", and address search (NRCan Geolocation Service).
-import { qs, qsa, esc, loadIndex, loadBoards, SYSTEMS, km, fmtKm } from "./lib.js";
+import { qs, qsa, esc, loadIndex, loadBoards, SYSTEMS, km, fmtKm, GRADE_ORDER, gradeName, gradesOffered } from "./lib.js";
 import { searchAll, looksLikeAddress } from "./search.js";
 import { nearest, locate } from "./near.js";
 import { schoolRow } from "./results.js";
@@ -16,20 +16,53 @@ if (input && matchMedia("(max-width: 480px)").matches) input.placeholder = "Scho
 const GEOCODER = "https://www.geolocator.api.geo.ca/geolocation/en/locate";
 let lastGeocode = 0;
 
-const filters = { level: "all", lang: "all", sys: "all", prog: "all" };
-// program filters use flags from the search index: fi = French Immersion, ef = Extended French, sh = SHSM sectors
-const PROGRAMS = { fi: (r) => r.fi, ef: (r) => r.ef, sh: (r) => r.sh };
+const filters = { level: "all", lang: "all", sys: "all", prog: "all", grade: params.get("grade") || "all" };
+// program filters use flags from the search index: fi = French Immersion (Ministry list), fb = French Immersion
+// (the board's own list), ef = Extended French, sh = SHSM sectors
+const PROGRAMS = { fi: (r) => r.fi || r.fb, ef: (r) => r.ef, sh: (r) => r.sh };
 let base = [];
 let distances = null;
 let heading = "";
 let shown = 30;
 let mapRows = [];
 let mapRef = null;
+let sortBy = ""; // "" = the default for the kind of search: nearest first for a location, best match for text
+let showUnknownGrades = false;
+if (!GRADE_ORDER.includes(filters.grade)) filters.grade = "all";
+
+// A school "offers" a grade when the Ministry's grade range includes it. A missing range is unknown, not
+// "no": those schools are counted and can be shown on request instead of silently disappearing.
+const gradeState = (r) => {
+  if (filters.grade === "all") return "yes";
+  const g = gradesOffered(r.g);
+  return g == null ? "unknown" : g.includes(filters.grade) ? "yes" : "no";
+};
 
 function applyFilters(rows) {
   return rows.filter(
-    (r) => (filters.level === "all" || r.l === filters.level) && (filters.lang === "all" || r.lang === filters.lang) && (filters.sys === "all" || r.sys === filters.sys) && (filters.prog === "all" || PROGRAMS[filters.prog](r)),
+    (r) => (filters.level === "all" || r.l === filters.level) && (filters.lang === "all" || r.lang === filters.lang) && (filters.sys === "all" || r.sys === filters.sys) && (filters.prog === "all" || PROGRAMS[filters.prog](r))
+      && (gradeState(r) === "yes" || (showUnknownGrades && gradeState(r) === "unknown")),
   );
+}
+
+// Order: best match (the search's own order), A to Z, or nearest first (straight-line, when there is a location).
+// There is deliberately no ordering by results: this is not a leaderboard.
+function sorted(rows) {
+  const by = sortBy || (distances ? "dist" : "rel");
+  if (by === "az") return [...rows].sort((a, b) => a.n.localeCompare(b.n, "en-CA", { sensitivity: "base" }));
+  if (by === "dist" && distances) return [...rows].sort((a, b) => (distances.get(a.id) ?? 1e9) - (distances.get(b.id) ?? 1e9));
+  return rows;
+}
+
+function gradeSelect() {
+  const opts = [["all", "Any grade"], ...GRADE_ORDER.map((g) => [g, gradeName(g)])];
+  return `<label class="sel"><span>Grade</span><select data-grade>${opts.map(([v, t]) => `<option value="${v}"${filters.grade === v ? " selected" : ""}>${esc(t)}</option>`).join("")}</select></label>`;
+}
+
+function sortSelect() {
+  const by = sortBy || (distances ? "dist" : "rel");
+  const opts = [...(distances ? [["dist", "Nearest first (straight line)"]] : [["rel", "Best match"]]), ["az", "Name, A to Z"]];
+  return `<label class="sel"><span>Order</span><select data-sort>${opts.map(([v, t]) => `<option value="${v}"${by === v ? " selected" : ""}>${esc(t)}</option>`).join("")}</select></label>`;
 }
 
 function chipGroup(name, label, opts) {
@@ -39,7 +72,9 @@ function chipGroup(name, label, opts) {
 }
 
 function render(extraTop = "") {
-  const rows = applyFilters(base);
+  const rows = sorted(applyFilters(base));
+  const unknown = filters.grade === "all" ? 0 : base.filter((r) => gradeState(r) === "unknown").length;
+  const gradeNote = filters.grade === "all" ? "" : `<p class="small muted" style="margin:0">Showing schools whose Ministry grade range includes ${esc(gradeName(filters.grade).toLowerCase())}. Check with the school: grades can change, and a program may start in a later grade.${unknown ? ` ${unknown} school${unknown === 1 ? " has" : "s have"} no published grade range${showUnknownGrades ? " and " + (unknown === 1 ? "is" : "are") + " included" : ""}. <button class="linkish" type="button" data-unknown>${showUnknownGrades ? "Hide" : "Show"} ${unknown === 1 ? "it" : "them"}</button>` : ""}</p>`;
   const sysOpts = [["all", "All systems"], ...Object.entries(SYSTEMS).filter(([k]) => base.some((r) => r.sys === k))];
   const progOpts = [["all", "All programs"], ["fi", "French Immersion"], ["ef", "Extended French"], ["sh", "Specialist High Skills Major"]].filter(([k]) => k === "all" || base.some((r) => PROGRAMS[k](r)));
   root.innerHTML = `${extraTop}
@@ -49,6 +84,8 @@ function render(extraTop = "") {
       ${base.some((r) => r.lang === "F") ? chipGroup("lang", "Language", [["all", "English and French"], ["E", "English"], ["F", "French"]]) : ""}
       ${sysOpts.length > 2 ? chipGroup("sys", "System", sysOpts) : ""}
       ${progOpts.length > 1 ? chipGroup("prog", "Programs", progOpts) : ""}
+      <div class="sel-row">${gradeSelect()}${sortSelect()}</div>
+      ${gradeNote}
     </div>
     <div class="results-layout">
       <div class="map-shell results-map"><div class="map" data-map="results" aria-label="Map of these results"></div><div class="map-fallback" data-map-fallback><div>Map loads with JavaScript.</div></div></div>
@@ -66,6 +103,26 @@ function render(extraTop = "") {
   }
   qs("[data-more]", root)?.addEventListener("click", () => {
     shown += 30;
+    render(extraTop);
+  });
+  qs("[data-grade]", root)?.addEventListener("change", (e) => {
+    filters.grade = e.target.value;
+    shown = 30;
+    // keep the grade in the address so the results can be shared or bookmarked
+    const p = new URLSearchParams(location.search);
+    if (filters.grade === "all") p.delete("grade");
+    else p.set("grade", filters.grade);
+    history.replaceState(null, "", `${location.pathname}${p.toString() ? `?${p}` : ""}`);
+    render(extraTop);
+    qs("[data-grade]", root)?.focus();
+  });
+  qs("[data-sort]", root)?.addEventListener("change", (e) => {
+    sortBy = e.target.value;
+    render(extraTop);
+    qs("[data-sort]", root)?.focus();
+  });
+  qs("[data-unknown]", root)?.addEventListener("click", () => {
+    showUnknownGrades = !showUnknownGrades;
     render(extraTop);
   });
   document.dispatchEvent(new CustomEvent("osf:compare"));

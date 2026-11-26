@@ -1,5 +1,5 @@
 // MapLibre GL loader and shared map helpers. The library is self-hosted; only tiles come from OpenFreeMap.
-import { esc, SYSTEMS, levelName } from "./lib.js";
+import { esc, SYSTEMS, levelName, badgesHTML } from "./lib.js";
 
 // MapLibre 6 is an ES module; it loads its shared chunk and worker from the same version-named folder.
 // Keep this path in step with site/static/vendor/maplibre/<version>/ (generate.py checks).
@@ -109,14 +109,15 @@ export function pointsFC(rows) {
     features: rows.map((r) => ({
       type: "Feature",
       geometry: { type: "Point", coordinates: [r.x, r.y] },
-      properties: { id: r.id, n: r.n, sys: r.sys, l: r.l || "", g: r.g || "", c: r.c || "", bn: r.bn || "", in: r.in ?? true, main: !!r.main },
+      properties: { id: r.id, n: r.n, sys: r.sys, l: r.l || "", g: r.g || "", c: r.c || "", bn: r.bn || "", in: r.in ?? true, main: !!r.main,
+        lang: r.lang || "", fi: r.fi || 0, fb: r.fb || 0, ef: r.ef || 0, sh: r.sh || 0 },
     })),
   };
 }
 
 export function popupHTML(p) {
   const sub = [levelName(p.l), p.g, SYSTEMS[p.sys]].filter(Boolean).join(" · ");
-  return `<div class="pop"><div class="t">${esc(p.n)}</div><div class="s">${esc(sub)}${p.c ? ` · ${esc(p.c)}` : ""}</div><a href="/school/${encodeURIComponent(p.id)}/">View school →</a></div>`;
+  return `<div class="pop"><div class="t">${esc(p.n)}</div><div class="s">${esc(sub)}${p.c ? ` · ${esc(p.c)}` : ""}</div>${badgesHTML(p)}<a href="/school/${encodeURIComponent(p.id)}/">View school →</a></div>`;
 }
 
 /**

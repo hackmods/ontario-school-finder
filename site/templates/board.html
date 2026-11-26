@@ -104,6 +104,23 @@
 </section>
 {% endif %}
 
+{% if board_info and board_info.topics %}
+{%- from "_records.html" import records -%}
+{%- set T = board_info.topics %}
+<section class="block" id="families">
+  <div class="wrap">
+    <h2>For families: registering, programs, supports and plans</h2>
+    <p class="block-intro">Collected by hand from {{ b.name }}’s own pages, each linked and dated. Every school page of this board shows the items that apply to it. Published rules are kept apart from decisions made case by case.</p>
+    <div class="grid grid-2 grid-top">
+      <div class="card"><h3>Registering and getting in</h3>{{ records(T.get("registration", []) + T.get("address_lookup", []) + T.get("transfer", []) + T.get("transportation", [])) }}</div>
+      <div class="card"><h3>Programs</h3>{{ records(T.get("program", [])) }}</div>
+      <div class="card"><h3>Learning supports</h3>{{ records(T.get("special_education", []) + T.get("seac", []) + T.get("accessibility", []) + T.get("newcomer", [])) }}</div>
+      <div class="card"><h3>Plans, priorities and getting involved</h3>{{ records(T.get("planning", []) + T.get("achievement_plan", []) + T.get("involvement", []) + T.get("concerns", [])) }}</div>
+    </div>
+  </div>
+</section>
+{% endif %}
+
 {% if medians %}
 <section class="block" id="results">
   <div class="wrap">
@@ -169,7 +186,7 @@
         {% if az %}<h3 class="az-letter" aria-hidden="true">{{ g.letter }}</h3>{% endif %}
         <ul class="list">
         {% for s in g.schools %}
-          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.level|capitalize }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ s.special }}{% endif %}{% if s.fi %} · French Immersion{% endif %}</span></span><span class="side">{% if s.enrol is not none %}{{ "{:,}".format(s.enrol) }}<br><span class="small">students</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
+          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.level|capitalize }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ s.special }}{% endif %}</span>{% if s.badges %}<span class="prog-badges">{% for b in s.badges %}<span class="badge badge-prog prog-{{ b.key }}">{{ b.label }}</span>{% endfor %}</span>{% endif %}</span><span class="side">{% if s.enrol is not none %}{{ "{:,}".format(s.enrol) }}<br><span class="small">students</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
         {% endfor %}
         </ul>
       </div>

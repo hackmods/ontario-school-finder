@@ -37,7 +37,7 @@
       <div><dt>Postal area</dt><dd><a href="/fsa/{{ s.fsa }}/">{{ s.fsa }}</a>{% if s.postal_code %} · {{ s.postal_code }}{% endif %}</dd></div>
       {% if s.phone %}<div><dt>Phone</dt><dd><a href="tel:{{ s.phone|replace('-', '') }}">{{ s.phone }}</a></dd></div>{% endif %}
       {% if s.email %}<div><dt>Email</dt><dd><a href="mailto:{{ s.email }}">{{ s.email }}</a></dd></div>{% endif %}
-      {% if s.date_open %}<div><dt>Opened at this school number</dt><dd>{{ s.date_open[:4] }}</dd></div>{% endif %}
+      {% if fv.opened %}<div><dt>Open at this school number since</dt><dd title="The date in the Ministry’s school contact list for this school number. 1969 is the earliest date the list uses, and a building can be older or newer.">{{ fv.opened }}</dd></div>{% endif %}
       <div><dt>School number (BSID)</dt><dd class="tnum">{{ s.bsid }}</dd></div>
     </dl>
   </div>
@@ -51,7 +51,7 @@
     <a href="#results">Results</a>
     {% if fv.sq %}<a href="#experience">Student experience</a>{% endif %}
     {% if s.enrolment %}<a href="#enrolment">Enrolment</a>{% endif %}
-    {% if s.level == "elementary" %}<a href="#class-sizes">Class sizes</a>{% endif %}
+    {% if cs_view or s.level == "elementary" %}<a href="#class-sizes">Class sizes</a>{% endif %}
     <a href="#students">Students</a>
     <a href="#supports">Supports</a>
     <a href="#board-info">Plans and involvement</a>

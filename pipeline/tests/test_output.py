@@ -117,7 +117,8 @@ def test_nearest_school_cells_contain_exactly_one_school_site(schools):
     for key, info in meta["layers"]["voronoi"].items():
         fc = load(DATA / "geo" / info["file"])
         system, level = key.split("|")
-        group = [s for s in schools if s["system"] == system and s["level"] == level and s["regular"]]
+        # only schools families attend by neighbourhood get a cell (not Immersion-only or special-purpose schools)
+        group = [s for s in schools if s["system"] == system and s["level"] == level and s.get("proximity_area", "drawn") == "drawn"]
         pts = {s["bsid"]: Point(s["lon"], s["lat"]) for s in group}
         seen = defaultdict(int)
         geoms = [shapely.make_valid(shape(f["geometry"])) for f in fc["features"]]
@@ -150,3 +151,64 @@ def test_report_has_required_sections():
     text = (ROOT / "pipeline" / "report.md").read_text(encoding="utf-8")
     for heading in ("Records per source", "Coordinates", "FSA check", "Suppressed and coded values", "Sources skipped or deferred"):
         assert heading in text
+
+
+# ---------------- interpretation and coverage (family pass) ----------------
+
+def test_every_eqao_row_has_an_era_and_the_break_is_2021_22(schools):
+    for s in schools:
+        for e in s["eqao"]:
+            assert e["era"] == ("current" if e["year"] >= "2021-22" and not e["assessment"].startswith("g9-math-a") else "paper"), (s["bsid"], e)
+
+
+def test_class_size_status_is_explicit_and_prince_philip_is_unresolved(schools):
+    by_id = {s["bsid"]: s for s in schools}
+    for s in schools:
+        st = s["class_size_status"]["status"]
+        assert st in ("reported", "match_unresolved", "not_listed", "not_applicable")
+        assert (st == "reported") == bool(s["class_size"]), s["bsid"]
+        if s["level"] != "elementary" and not s["class_size"]:
+            assert st in ("not_applicable", "match_unresolved"), s["bsid"]
+    # the review's example: two DSB Niagara schools named Prince Philip Public School
+    pp = by_id["456110"]["class_size_status"]
+    assert pp["status"] == "match_unresolved" and "455989" in pp["others"]
+    assert by_id["455989"]["class_size_status"]["status"] == "match_unresolved"
+    assert not by_id["456110"]["class_size"]  # nothing invented
+
+
+def test_immersion_only_schools_have_no_nearest_school_area(schools):
+    by_id = {s["bsid"]: s for s in schools}
+    pp = by_id["456110"]
+    assert pp["immersion_only"] and pp["proximity_area"] == "immersion_only" and not pp["nearest_area"]
+    for s in schools:
+        if s["proximity_area"] != "drawn":
+            assert not s["nearest_area"], s["bsid"]
+
+
+def test_student_experience_keeps_withheld_and_levels_apart(schools):
+    meta = load(DATA / "meta.json")
+    assert meta["student_questionnaire"]
+    seen_withheld = seen_value = 0
+    for s in schools:
+        for b in s["student_experience"]:
+            assert b["source_id"] in meta["student_questionnaire"]
+            for it in b["items"]:
+                if b["withheld"]:
+                    assert it.get("agree_pct") is None and it.get("code")
+                    seen_withheld += 1
+                elif it.get("agree_pct") is not None:
+                    seen_value += 1
+                    assert it["n"] == sum(it["counts"])
+                # school, board and Ontario figures are separate fields, never merged
+                assert "board_pct" in it and "province_pct" in it
+    assert seen_withheld and seen_value
+
+
+def test_sources_record_licence_status_period_and_retrieval_separately(sources):
+    for sid, x in sources.items():
+        assert x["licence_status"] in ("open", "no-licence-stated", "pending-permission", "link-only", "unavailable"), sid
+        assert "year" in x and "retrieved" in x and "release" in x
+    assert sources["nutrition-2017-12"]["historical"] is True
+    assert sources["sif-2024-25"]["release"] == "preliminary"
+    assert sources["efis-fs-2024-25"]["licence_status"] == "no-licence-stated"
+    assert all(x["licence_status"] == "pending-permission" for k, x in sources.items() if k.startswith("bdy-"))

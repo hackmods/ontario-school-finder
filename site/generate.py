@@ -168,7 +168,9 @@ def version_scripts(js_dir: Path, v: str) -> int:
 
 
 def pct(v) -> str:
-    return "—" if v is None else f"{v:g}%"
+    if v is None:
+        return "—"
+    return f"{v}%" if isinstance(v, str) else f"{v:g}%"  # EQAO prints shares under 0.5% as "<1%"
 
 
 def median(vals):
@@ -345,7 +347,7 @@ class Site:
         map_data = {
             "center": [s["lon"], s["lat"]],
             "school": {"id": s["bsid"], "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"]},
-            "nearby": [{"id": n["bsid"], "n": n["name"], "sys": n["system"], "x": n["lon"], "y": n["lat"], "g": n["grades"]} for n in neighbours],
+            "nearby": [{"id": n["bsid"], "n": n["name"], "sys": n["system"], "x": n["lon"], "y": n["lat"], "g": n["grades"], **self.pt_flags(n)} for n in neighbours],
             # the board's own attendance area when it publishes one, else the nearest-school estimate
             "area": (s.get("official_area") or {}).get("geometry") or s.get("nearest_area"),
             "area_kind": "official" if s.get("official_area") else "nearest",
@@ -355,7 +357,7 @@ class Site:
             oa = s["official_area"]
             ed = oa.get("edited")
             when = datetime.strptime(ed, "%Y-%m").strftime("%B %Y") if ed else None
-            official_label = f"Official boundary from {s['board_name']}" + (f", {oa['effective']}" if oa.get("effective") else "")
+            official_label = f"Official boundary from {s['board_name']}" + (f", for {oa['effective']}" if oa.get("effective") else f", edited {when}" if when else "")
             # the school year a layer says it is for is not the same thing as when its map was last edited
             official_when = {"effective": oa.get("effective"), "effective_note": oa.get("effective_note"), "edited": when}
         addr = ", ".join(x for x in [s["address"], s["suite"], s["city"], "ON", s["postal_code"]] if x)
@@ -423,6 +425,7 @@ class Site:
         questions = family.visit_questions(s, info=info, badges=badges, offered=offered, class_status=cs,
                                            has_childcare_here=bool(s["childcare"]["at_address"]), sq=s.get("student_experience") or [])
         return {"offered": offered, "grade_span": family.grade_span_label(s.get("grades")), "badges": badges, "listed": listed,
+                "opened": family.opened_label(s.get("date_open")),
                 "info": info, "sq": sq, "cs_status": cs, "cs_text": cs_text, "prox_text": prox_text, "questions": questions,
                 "locator": self.env.globals["locators"].get(s["board_number"])}
 
@@ -448,6 +451,14 @@ class Site:
                         "respondents": b["respondents"], "five_point": five, "rows": items})
         return out
 
+    def pt_flags(self, s: dict) -> dict:
+        """Program flags for a map point, the same short keys as the search index (popups show badges from them)."""
+        f = (s.get("programs") or {}).get("fsl") or {}
+        sh = (s.get("programs") or {}).get("shsm")
+        out = {"lang": (s.get("language") or "")[:1], "fi": 1 if f.get("immersion") else 0, "ef": 1 if f.get("extended") else 0,
+               "sh": len(sh["sectors"]) if sh else 0, "fb": 1 if "french-immersion" in self.info.board_listed(s) else 0}
+        return {k: v for k, v in out.items() if v}
+
     def board_records(self, board: str) -> dict:
         return self.info.for_board(board)
 
@@ -464,6 +475,28 @@ class Site:
                 r["fb"] = 1
                 n += 1
         p.write_text(json.dumps(idx, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+        # Compare reads each school's JSON: give it the same practical facts the school page shows
+        # (grades offered, program badges incl. the board's own lists, address lookup, registration page,
+        # Immersion entry grade), so the two never disagree.
+        for s in self.schools.values():
+            listed = self.info.board_listed(s)
+            badges = family.program_badges(s, listed)
+            info = self.info.for_school(s, {b["key"] for b in badges})
+            T = info["topics"]
+            reg = next((r for r in T.get("registration", [])), None)
+            fi_entry = next((r["facts"]["entry_grades"] for r in T.get("program", []) if r.get("program") == "french-immersion"
+                             and (r.get("facts") or {}).get("entry_grades")), None)
+            loc = next((r for r in T.get("address_lookup", [])), None) or self.env.globals["locators"].get(s["board_number"])
+            s_out = {**s, "family": {
+                "grades_offered": family.grades_offered(s.get("grades")), "grade_span": family.grade_span_label(s.get("grades")),
+                "badges": badges, "listed": listed, "info_collected": info["collected"], "checked": info["checked"],
+                "locator": {"url": loc["url"], "title": loc.get("title") or "Check your address"} if loc else None,
+                "register": {"url": reg["url"], "title": reg["title"]} if reg else None,
+                "fi_entry": fi_entry, "opened": family.opened_label(s.get("date_open")),
+                "fi_page": next(({"url": r["url"], "title": r["title"]} for r in T.get("program", []) if r.get("program") == "french-immersion"), None),
+                "transfer": next(({"url": r["url"], "title": r["title"], "kind": r["kind"]} for r in T.get("transfer", [])), None),
+            }}
+            (DIST / "data" / "schools" / f"{s['bsid']}.json").write_text(json.dumps(s_out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
         return n
 
     def summary_sentence(self, s, a, last, rows=()) -> str:
@@ -507,7 +540,8 @@ class Site:
             e = s["enrolment"][-1] if s["enrolment"] else None
             rows.append({"bsid": s["bsid"], "name": s["name"], "level": s["level"], "grades": s["grades"], "city": s["city"],
                          "special": s["special"], "enrol": e["value"] if e and e["year"] == b["enrolment_total"]["year"] else None,
-                         "fi": bool(((s.get("programs") or {}).get("fsl") or {}).get("immersion"))})
+                         "fi": bool(((s.get("programs") or {}).get("fsl") or {}).get("immersion")) or "french-immersion" in self.info.board_listed(s),
+                         "badges": family.program_badges(s, self.info.board_listed(s))})
         school_groups = []  # A-Z groups for the school list; "École" files under E
         for r in rows:
             first = plain(r["name"])[:1].upper()
@@ -594,7 +628,7 @@ class Site:
                      ("other", "Other", "everything else")]
             spend_view = {**spend, "parts": [{"key": k, "label": l, "what": w, "v": spend["parts"].get(k, 0),
                                               "pct": round(100 * spend["parts"].get(k, 0) / spend["per_student"])} for k, l, w in parts if spend["parts"].get(k, 0) > 0]}
-        map_data = {"schools": [{"id": s["bsid"], "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"], "l": "E" if s["level"] == "elementary" else "S", "g": s["grades"]} for s in schools],
+        map_data = {"schools": [{"id": s["bsid"], "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"], "l": "E" if s["level"] == "elementary" else "S", "g": s["grades"], **self.pt_flags(s)} for s in schools],
                     "board": b["number"], "system": b["system"]}
         self.render(f"board/{b['number']}/index.html", "board.html", title=b["name"], page_kind="board", map=True,
                     description=f"{b['name']}: {len(schools)} schools, official board results, EQAO medians across its schools and a map, with sources.",
@@ -649,7 +683,7 @@ class Site:
         for bsid, inside in ids:
             if bsid in self.schools:
                 s = self.schools[bsid]
-                pts.append({"id": bsid, "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"], "in": inside, "g": s["grades"], "l": "E" if s["level"] == "elementary" else "S"})
+                pts.append({"id": bsid, "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"], "in": inside, "g": s["grades"], "l": "E" if s["level"] == "elementary" else "S", **self.pt_flags(s)})
         map_data = {"fsa": f["fsa"], "boundary": f["boundary"], "schools": pts}
         place = f" ({f['place']})" if f["place"] else ""
         self.render(f"fsa/{f['fsa']}/index.html", "fsa.html", title=f"Schools in postal area {f['fsa']}{place}", page_kind="fsa", map=True,

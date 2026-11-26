@@ -65,6 +65,44 @@ export const fmtKm = (d) => (d < 1 ? `${Math.round(d * 1000)} m` : `${d < 10 ? d
 
 export const levelName = (l) => (l === "E" ? "Elementary" : l === "S" ? "Secondary" : l);
 
+// One program vocabulary for search, maps, school pages and Compare. Keep in step with
+// PROGRAM_LABELS in site/family.py (pipeline/tests/test_family.py checks they match).
+export const PROGRAM_LABELS = {
+  "french-language": "French-language school",
+  "french-immersion": "French Immersion",
+  "extended-french": "Extended French",
+  shsm: "Specialist High Skills Major",
+};
+
+/** Program badges for a search-index row or map point: fi/fb = French Immersion (Ministry list / board's list). */
+export function programBadges(r) {
+  const out = [];
+  if (r.lang === "F") out.push({ key: "french-language", label: PROGRAM_LABELS["french-language"] });
+  if (r.fi || r.fb) out.push({ key: "french-immersion", label: PROGRAM_LABELS["french-immersion"] });
+  if (r.ef) out.push({ key: "extended-french", label: PROGRAM_LABELS["extended-french"] });
+  if (r.sh) out.push({ key: "shsm", label: `SHSM · ${r.sh} sector${+r.sh === 1 ? "" : "s"}` });
+  return out;
+}
+
+export const badgesHTML = (r) => {
+  const b = programBadges(r);
+  return b.length ? `<span class="prog-badges">${b.map((x) => `<span class="badge badge-prog prog-${x.key}">${esc(x.label)}</span>`).join("")}</span>` : "";
+};
+
+// Grades in order; "K" is senior kindergarten (SK).
+export const GRADE_ORDER = ["JK", "K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+export const gradeName = (g) => (g === "JK" ? "Junior kindergarten" : g === "K" ? "Senior kindergarten" : `Grade ${g}`);
+
+/** "JK-8" -> ["JK", "K", "1", ... "8"]; null when the range is missing or unreadable (unknown, not "none"). */
+export function gradesOffered(range) {
+  const m = /^\s*(JK|SK|K|\d{1,2})\s*-\s*(JK|SK|K|\d{1,2})\s*$/i.exec(range || "");
+  if (!m) return null;
+  const fix = (g) => (g.toUpperCase() === "SK" ? "K" : g.toUpperCase());
+  const i = GRADE_ORDER.indexOf(fix(m[1]));
+  const j = GRADE_ORDER.indexOf(fix(m[2]));
+  return i < 0 || j < 0 || i > j ? null : GRADE_ORDER.slice(i, j + 1);
+}
+
 // Every page carries the build's data version (<html data-v>). Data fetched with it can be cached
 // for good, and the next build's pages ask for fresh copies straight away.
 const DATA_V = document.documentElement.dataset.v || "";

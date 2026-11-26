@@ -829,3 +829,10 @@ table.mini caption { text-align: left; font-size: .8rem; color: var(--ink-3); pa
 .cmp-diff-hidden { display: none; }
 .cmp-warn { margin: 10px 0 0; }
 @media print { .grade-strip li.on { background: none; color: inherit; border: 2px solid currentColor; } }
+.sel-row { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+.sel { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; color: var(--ink-2); }
+.sel select { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-1); padding: 6px 28px 6px 10px; min-height: 44px; }
+.sel select:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+.linkish { font: inherit; color: var(--brand); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+.diff-only tr.cmp-same { display: none; }
+.cmp-warn { display: block; padding: 8px 12px; }
