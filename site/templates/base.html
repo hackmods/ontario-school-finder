@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 <link rel="stylesheet" href="{{ asset('css/brand.css') }}">
 {%- if map %}
-<link rel="stylesheet" href="{{ asset('vendor/maplibre/maplibre-gl.css') }}">
+<link rel="stylesheet" href="{{ asset(maplibre_dir ~ '/maplibre-gl.css') }}">
 {%- endif %}
 <script src="{{ asset('js/theme.js') }}"></script>
 {%- block head %}{% endblock %}

@@ -1,8 +1,9 @@
 // MapLibre GL loader and shared map helpers. The library is self-hosted; only tiles come from OpenFreeMap.
 import { esc, SYSTEMS, levelName } from "./lib.js";
 
-const LIB = "/static/vendor/maplibre/maplibre-gl-csp.js";
-const WORKER = "/static/vendor/maplibre/maplibre-gl-csp-worker.js";
+// MapLibre 6 is an ES module; it loads its shared chunk and worker from the same version-named folder.
+// Keep this path in step with site/static/vendor/maplibre/<version>/ (generate.py checks).
+const LIB = "/static/vendor/maplibre/6.4.1/maplibre-gl.mjs";
 const STYLE_LIGHT = "https://tiles.openfreemap.org/styles/positron";
 const STYLE_DARK = "https://tiles.openfreemap.org/styles/dark";
 export const ATTRIBUTION =
@@ -16,16 +17,9 @@ export const LAYER_COLORS = { fsa: "#1f6feb", board: "#b0640a", nearest: "#6b4fb
 
 let libPromise;
 export function loadMapLib() {
-  if (window.maplibregl) return Promise.resolve(window.maplibregl);
-  libPromise ||= new Promise((resolve, reject) => {
-    const s = document.createElement("script");
-    s.src = LIB;
-    s.onload = () => {
-      window.maplibregl.setWorkerUrl(WORKER);
-      resolve(window.maplibregl);
-    };
-    s.onerror = () => reject(new Error("map library failed to load"));
-    document.head.appendChild(s);
+  libPromise ||= import(LIB).catch((e) => {
+    libPromise = null; // let a later map on the page try again
+    throw new Error(`map library failed to load: ${e.message}`);
   });
   return libPromise;
 }

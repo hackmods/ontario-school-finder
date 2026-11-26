@@ -36,7 +36,7 @@ if curl -fsS "http://127.0.0.1:$PORT/build.json" >/dev/null 2>&1; then
   echo "something already serves :$PORT; checking it is this build"
   diff <(curl -fsS "http://127.0.0.1:$PORT/build.json") site/dist/build.json >/dev/null || { echo "port $PORT is serving a different build; stop it first"; exit 1; }
 else
-  "$PY" -m http.server "$PORT" --bind 127.0.0.1 --directory site/dist >/dev/null 2>&1 &
+  "$PY" scripts/serve.py "$PORT" site/dist >/dev/null 2>&1 &  # serves .mjs as JavaScript, like nginx
   SERVER_PID=$!
   trap '[ -n "$SERVER_PID" ] && kill "$SERVER_PID" 2>/dev/null || true' EXIT
   for _ in $(seq 1 50); do curl -fsS "http://127.0.0.1:$PORT/build.json" >/dev/null 2>&1 && break; sleep 0.2; done

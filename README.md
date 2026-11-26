@@ -76,6 +76,7 @@ Quicker loops:
 .venv/Scripts/python -m pipeline.build        # reuse downloaded files in pipeline/cache
 .venv/Scripts/python site/generate.py         # rebuild pages only
 SKIP_PIPELINE=1 ./check.sh                    # tests + screenshots on the current data
+.venv/Scripts/python scripts/serve.py 8078    # preview site/dist (serves .mjs modules correctly)
 SLOW=1 npx playwright test tests/e2e/links.slow.spec.js   # check external source links
 ```
 

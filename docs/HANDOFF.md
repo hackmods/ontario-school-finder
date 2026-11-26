@@ -77,6 +77,17 @@ GitHub Actions CI: `./check.sh` on your own machine is the definition of done.
 - **Don't scrape what blocks scripts**: the StatCan download site and the Ministry SIF app both wall
   automated clients. Use the APIs and files noted in DECISIONS.md.
 
+### Map library (MapLibre)
+- Since 6.x MapLibre ships ES modules (no more `maplibre-gl-csp.js`). `scripts/vendor.mjs` copies them
+  into `site/static/vendor/maplibre/<version>/`, and the library loads its shared chunk and worker from
+  that same folder. The version-named folder is what stops a browser from mixing two versions.
+- To upgrade: `npm i -D -E maplibre-gl@<version>`, then `npm run vendor` (it removes the old folder),
+  then set `LIB` in `site/static/js/maps.js` to the new folder. `site/generate.py` stops the build if
+  `LIB` and the vendored folder disagree.
+- Modules need a JavaScript content type. nginx gets `mjs` from the Dockerfile `types`, and local tests
+  serve the site with `scripts/serve.py`. Python's own `http.server` sends `.mjs` as text/plain, so
+  the map silently doesn't load.
+
 ### Tooling on Windows
 - Shell edits (`node -e`, heredocs) strip `\` and `$`: regexes and template literals came out broken
   three times. Use a real file editor for those.
