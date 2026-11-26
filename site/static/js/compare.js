@@ -57,6 +57,27 @@ function legend(schools, extras = []) {
 }
 const short = (n) => (n.length > 34 ? `${n.slice(0, 32)}…` : n);
 
+// Charts are drawn after the page is built, at the width each one actually gets, so the SVG is 1:1
+// with the screen and its labels stay readable on a phone. They are redrawn when that width changes.
+const charts = [];
+function chart(years, series, opts) {
+  charts.push([years, series, opts]);
+  return `<div class="chart" data-lc="${charts.length - 1}"></div>`;
+}
+function drawCharts() {
+  for (const el of qsa("[data-lc]", root)) {
+    const w = Math.round(el.clientWidth);
+    if (!w || +el.dataset.w === w) continue;
+    const [years, series, opts] = charts[+el.dataset.lc];
+    el.dataset.w = String(w);
+    el.innerHTML = lineChart(years, series, { ...opts, w });
+  }
+}
+let redraw = 0;
+if ("ResizeObserver" in window) new ResizeObserver(() => { cancelAnimationFrame(redraw); redraw = requestAnimationFrame(drawCharts); }).observe(root);
+// Year-by-year tables under each EQAO chart: open on wide screens, one tap away on phones.
+const wideScreen = () => matchMedia("(min-width: 900px)").matches;
+
 // ---------------------------------------------------------------- sections
 function overview(schools) {
   const first = schools[0];
@@ -130,8 +151,8 @@ function eqao(schools) {
     html += `<figure class="chart-card cmp-chart" style="margin:16px 0 0" id="cmp-${a}">
       <h3>${esc(info.grade)} · ${esc(info.subject)}</h3>
       ${legend(schools, state.opts.prov ? ['<li><i class="l-prov"></i>Ontario median</li>'] : [])}
-      <div class="chart">${lineChart(years, series, { gap: true, max: 100, title: `${info.grade} ${info.subject} by year` })}</div>
-      ${table(`EQAO ${info.grade} ${info.subject}`, schools, rows, { caption: `${esc(info.grade)} ${esc(info.subject)}: share meeting the standard`, extraHead: '<th scope="col">Ontario median</th>', extra: true })}
+      ${chart(years, series, { gap: true, max: 100, title: `${info.grade} ${info.subject} by year` })}
+      <details class="data-table"${wideScreen() ? " open" : ""}><summary>Show the numbers</summary>${table(`EQAO ${info.grade} ${info.subject}`, schools, rows, { caption: `${esc(info.grade)} ${esc(info.subject)}: share meeting the standard`, extraHead: '<th scope="col">Ontario median</th>', extra: true })}</details>
     </figure>`;
   }
   return html + "</section>";
@@ -147,7 +168,7 @@ function enrolment(schools) {
     raw: schools.map((s) => { const e = s.enrolment.find((x) => x.year === y); return e ? (e.value ?? e.code) : null; }),
   }));
   return `<section class="cmp-section" id="cmp-enrolment"><h2>Enrolment <span class="badge">${esc(years[0])} to ${esc(years[years.length - 1])}</span></h2>
-    <div class="chart-card">${legend(schools)}<div class="chart">${lineChart(years, series, { unit: "", min: 0, title: "Enrolment by year" })}</div>
+    <div class="chart-card">${legend(schools)}${chart(years, series, { unit: "", min: 0, title: "Enrolment by year" })}
     <details class="data-table"><summary>Show every year</summary>${table("Enrolment", schools, rows)}</details>
     <p class="small muted">Headcount reported by boards; rounded to the nearest 5 since 2018-19.</p></div></section>`;
 }
@@ -197,7 +218,7 @@ function classSizes(schools) {
   return `<section class="cmp-section" id="cmp-class"><h2>Class sizes <span class="badge">${esc(years[0])} to ${esc(latestYear)}</span></h2>
     <p class="block-intro">Computed from the Ministry’s list of every elementary class (counted each September). Before 2014-15 only primary classes were listed, so the long trend uses Grades 1–3 classes.</p>
     <div class="chart-card">${legend(schools, state.opts.prov ? ['<li><i class="l-prov"></i>Ontario median</li>'] : [])}
-    <div class="chart">${lineChart(years, series, { unit: "", min: 0, max: 30, title: "Average Grades 1–3 class size by year" })}</div>
+    ${chart(years, series, { unit: "", min: 0, max: 30, title: "Average Grades 1–3 class size by year" })}
     ${table("Class sizes", schools, rows, { caption: "Latest year" })}</div></section>`;
 }
 
@@ -238,10 +259,33 @@ function nearby(schools) {
 function sourcesList(schools) {
   const seen = new Map();
   for (const s of schools) for (const src of s.sources) seen.set(src.source_id, src);
-  return `<section class="cmp-section" id="cmp-sources"><h2>Sources</h2><ul class="src-list">${[...seen.values()]
-    .sort((a, b) => a.source_id.localeCompare(b.source_id))
-    .map((src) => `<li><div class="t"><a href="${esc(src.url)}" rel="noopener">${esc(src.title)}</a></div><div class="m">${esc(src.publisher)} · <a href="${esc(src.licence_url)}" rel="noopener">${esc(src.licence)}</a>${src.retrieved ? ` · retrieved ${esc(src.retrieved)}` : ""}</div></li>`)
-    .join("")}</ul></section>`;
+  // grouped by publisher and dataset, like the school pages: a yearly dataset is one row with a link per year
+  const pubs = new Map();
+  for (const src of seen.values()) {
+    const m = /^(.*?)\s*\(([^()]*)\)$/.exec(src.title);
+    const [stem, label] = m ? [m[1], m[2]] : [src.title, ""];
+    if (!pubs.has(src.publisher)) pubs.set(src.publisher, { lics: new Map(), sets: new Map() });
+    const p = pubs.get(src.publisher);
+    p.lics.set(src.licence, src.licence_url);
+    if (!p.sets.has(stem)) p.sets.set(stem, []);
+    p.sets.get(stem).push({ ...src, label });
+  }
+  const groups = [...pubs.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([pub, p]) => {
+    const one = p.lics.size === 1 ? [...p.lics.entries()][0] : null;
+    const head = `${esc(pub)}${one ? ` · <a href="${esc(one[1])}" rel="noopener">${esc(one[0])}</a>` : ""}`;
+    const sets = [...p.sets.entries()].sort(([a, x], [b, y]) => (x.length > 1) - (y.length > 1) || a.localeCompare(b));
+    const lis = sets.map(([stem, items]) => {
+      items.sort((a, b) => a.label.localeCompare(b.label));
+      if (items.length === 1) {
+        const src = items[0];
+        return `<li><a class="t" href="${esc(src.url)}" rel="noopener">${esc(src.title)}</a><span class="m">${one ? "" : `<a href="${esc(src.licence_url)}" rel="noopener">${esc(src.licence)}</a> · `}${src.retrieved ? `retrieved ${esc(src.retrieved)} · ` : ""}<span class="tnum">${esc(src.source_id)}</span></span></li>`;
+      }
+      const yrs = items.map((src) => `<a href="${esc(src.url)}" rel="noopener" title="${esc(src.title)} · ${esc(src.source_id)}">${esc(src.label)}</a>`).join("");
+      return `<li class="src-set"><span class="t">${esc(stem)}</span><span class="yrs">${yrs}</span><span class="m">${items.length} files, one per school year</span></li>`;
+    }).join("");
+    return `<div class="src-group"><h3 class="src-pub">${head}</h3><ul class="src-list">${lis}</ul></div>`;
+  });
+  return `<section class="cmp-section" id="cmp-sources"><h2>Sources</h2><div class="src-groups">${groups.join("")}</div></section>`;
 }
 
 // ---------------------------------------------------------------- render
@@ -262,10 +306,12 @@ function render() {
     root.innerHTML = `<div class="note"><div><p>Pick schools with the box above, or press <strong>Compare</strong> on any school page or search result. You can compare up to ${MAX_COMPARE}.</p></div></div>`;
     return;
   }
+  charts.length = 0;
   state.csv = [["Section", "Measure", "Year", ...schools.map((s) => `${s.name} (${s.bsid})`), "Ontario median"]];
   const single = schools.length === 1 ? `<div class="note" style="margin-bottom:16px"><div><p>Add at least one more school to compare side by side.</p></div></div>` : "";
   root.innerHTML = single + overview(schools) + eqao(schools) + enrolment(schools) + grades(schools) + classSizes(schools) + students(schools) + area(schools) + nearby(schools) + sourcesList(schools) +
     `<p class="small muted" style="margin-top:20px">Every school is shown for the same school years. “—” means no value for that school and year; codes such as <span class="code">N/R</span> are explained in <a href="/methodology/#codes">How it works</a>. Medians are computed by this site from the same Ministry files.</p>`;
+  drawCharts();
 }
 
 async function go(ids) {

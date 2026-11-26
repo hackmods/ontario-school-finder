@@ -24,18 +24,34 @@ def short_year(y: str) -> str:
     return y[2:4] + "–" + y[-2:] if len(y) == 7 else y
 
 
+def label_every(n: int, inner: float, min_gap: float = 40) -> int:
+    """Show every k-th x label so year labels (about 32 units wide) never touch."""
+    if n <= 1:
+        return 1
+    k = 1
+    while inner / n * k < min_gap:
+        k += 1
+    return k
+
+
+def _svg_open(w: int, h: int, title: str, cls: str) -> str:
+    c = f' class="{cls}"' if cls else ""
+    return f'<svg{c} viewBox="0 0 {w} {h}" role="img" aria-label="{escape(title)}" preserveAspectRatio="xMidYMid meet">'
+
+
 def eqao_chart(rows: list[dict], years: list[str], *, title: str, main_key: str = "pct_at_or_above_standard",
                main_label: str = "This school", w: int = 360, h: int = 200, board_key: str = "board_median",
-               prov_key: str = "province_median", ymax: float = 100, unit: str = "%", gap: bool = True) -> str:
+               prov_key: str = "province_median", ymax: float = 100, unit: str = "%", gap: bool = True, cls: str = "") -> str:
     """Line chart: school (solid), board median (dashed), Ontario median (dotted)."""
     pad_l, pad_r, pad_t, pad_b = 34, 34, 14, 34
     xs = _x_positions(years, pad_l, w - pad_r)
+    every = label_every(len(years), w - pad_l - pad_r)
 
     def y_of(v):
         return pad_t + (h - pad_t - pad_b) * (1 - min(v, ymax) / ymax)
 
     by_year = {r["year"]: r for r in rows}
-    out = [f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="{escape(title)}" preserveAspectRatio="xMidYMid meet">']
+    out = [_svg_open(w, h, title, cls)]
     # pandemic gap band
     if gap and EQAO_GAP[0] in xs and EQAO_GAP[1] in xs:
         x0, x1 = xs[EQAO_GAP[0]] + 10, xs[EQAO_GAP[1]] - 10
@@ -47,8 +63,10 @@ def eqao_chart(rows: list[dict], years: list[str], *, title: str, main_key: str 
         y = y_of(g)
         out.append(f'<line class="grid-line" x1="{pad_l}" x2="{w - pad_r}" y1="{y:.1f}" y2="{y:.1f}"/>')
         out.append(f'<text class="axis-label" x="{pad_l - 6}" y="{y + 4:.1f}" text-anchor="end">{g}{unit}</text>')
-    for yv, x in xs.items():
-        out.append(f'<text class="axis-label" x="{x:.1f}" y="{h - 12}" text-anchor="middle">{short_year(yv)}</text>')
+    n = len(years)
+    for i, (yv, x) in enumerate(xs.items()):
+        if (n - 1 - i) % every == 0:  # always label the latest year, then every k-th going back
+            out.append(f'<text class="axis-label" x="{x:.1f}" y="{h - 12}" text-anchor="middle">{short_year(yv)}</text>')
 
     def path(key, cls):
         segs, cur = [], []
@@ -98,7 +116,7 @@ def eqao_chart(rows: list[dict], years: list[str], *, title: str, main_key: str 
     return "".join(out)
 
 
-def bar_chart(points: list[dict], *, title: str, w: int = 640, h: int = 190) -> str:
+def bar_chart(points: list[dict], *, title: str, w: int = 640, h: int = 190, cls: str = "") -> str:
     """Enrolment bars. Suppressed years get an outlined empty bar, never a zero."""
     if not points:
         return ""
@@ -108,10 +126,10 @@ def bar_chart(points: list[dict], *, title: str, w: int = 640, h: int = 190) -> 
     n = len(points)
     slot = (w - pad_l - pad_r) / n
     bw = max(6.0, slot * 0.62)
-    out = [f'<svg viewBox="0 0 {w} {h}" role="img" aria-label="{escape(title)}" preserveAspectRatio="xMidYMid meet">']
+    out = [_svg_open(w, h, title, cls)]
     base = h - pad_b
     out.append(f'<line class="grid-line" x1="{pad_l}" x2="{w - pad_r}" y1="{base}" y2="{base}"/>')
-    every = 1 if n <= 8 else 2
+    every = label_every(n, w - pad_l - pad_r, 44)
     for i, p in enumerate(points):
         cx = pad_l + slot * i + slot / 2
         if p["value"] is None:
@@ -125,6 +143,18 @@ def bar_chart(points: list[dict], *, title: str, w: int = 640, h: int = 190) -> 
             out.append(f'<text class="axis-label" x="{cx:.1f}" y="{h - 10}" text-anchor="middle">{short_year(p["year"])}</text>')
     out.append("</svg>")
     return "".join(out)
+
+
+def wide_line_chart(rows: list[dict], years: list[str], **kw) -> str:
+    """A long time series drawn twice: a phone-sized copy and a wide copy. CSS shows the one
+    that fits the chart's own width, so year labels stay readable instead of shrinking to 5px."""
+    return eqao_chart(rows, years, w=360, h=210, cls="v-narrow", **kw) + eqao_chart(rows, years, w=720, h=230, cls="v-wide", **kw)
+
+
+def wide_bar_chart(points: list[dict], *, title: str) -> str:
+    if not points:
+        return ""
+    return bar_chart(points, title=title, w=360, h=190, cls="v-narrow") + bar_chart(points, title=title, w=720, h=210, cls="v-wide")
 
 
 def spark(points: list[float | None], w: int = 120, h: int = 32) -> str:

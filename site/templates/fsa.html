@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {%- from "_icons.html" import icon, sysbadge -%}
+{%- from "_sources.html" import source_groups -%}
 {% block main %}
 <div class="page-head">
   <div class="wrap">
@@ -80,7 +81,7 @@
 <section class="block" id="sources">
   <div class="wrap">
     <h2>Sources</h2>
-    <ul class="src-list">{% for src in f.sources %}<li id="src-{{ src.source_id }}"><div class="t"><a href="{{ src.url }}" rel="noopener">{{ src.title }}</a></div><div class="m">{{ src.publisher }} · <a href="{{ src.licence_url }}" rel="noopener">{{ src.licence }}</a>{% if src.retrieved %} · retrieved {{ src.retrieved }}{% endif %}</div></li>{% endfor %}</ul>
+    {{ source_groups(f.sources) }}
   </div>
 </section>
 {% endblock %}

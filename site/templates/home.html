@@ -13,7 +13,7 @@
           <label class="visually-hidden" for="q">Search schools, cities or postal codes</label>
           <input id="q" name="q" type="search" placeholder="Try “Laura Secord”, “Kingston” or “L2S”" autocomplete="off" spellcheck="false"
                  role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="q-list">
-          <button class="btn btn-primary" type="submit">Search</button>
+          <button class="btn btn-primary" type="submit">{{ icon("search") }}<span>Search</span></button>
         </form>
         <div class="suggest" id="q-list" role="listbox" hidden></div>
       </div>
@@ -21,7 +21,7 @@
         <button class="btn" type="button" data-near-me>{{ icon("locate") }}Use my location</button>
         <span class="search-hints">Or try <button type="button" data-try="Toronto">Toronto</button><button type="button" data-try="K7L">K7L</button><button type="button" data-try="St. Joseph">St. Joseph</button></span>
       </div>
-      <p class="small muted" data-near-status role="status" aria-live="polite" style="min-height:1.5em;margin-top:10px"></p>
+      <div class="near-status small" data-near-status role="status" aria-live="polite"></div>
       <ul class="trust">
         <li>{{ icon("check") }}Every number sourced</li>
         <li>{{ icon("check") }}No ads, no tracking</li>
