@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 01:25 UTC in 226 s.
+Generated 2026-11-26 01:35 UTC in 90 s.
 
 ## Output
 
@@ -42,7 +42,7 @@ Generated 2026-11-26 01:25 UTC in 226 s.
 | enrol-2011-12 | 4899 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrolment_by_school_2011-2012_en_2.txt |
 | childcare-2026-09 | 6355 | active licensed sites (snapshot 2026-09-30) | 2026-11-26 | https://data.ontario.ca/dataset/7efd8b4b-cc63-4337-a551-c940a346605b/resource/2b81313c-9ada-4680-abba-4470ec386a2e/download/child_care_facilities_open_data_sep_2026.xlsx |
 | fsa-boundary-2021 | 520 | Ontario FSA polygons | 2026-11-26 | https://services.arcgis.com/wjcPoefzjpzCgffS/arcgis/rest/services/Forward_Sortation_Area_(FSA)_Boundaries_2021/FeatureServer/0 |
-| census-2021-fsa | 520 | FSAs with census figures (of 520) | 2026-11-26 | https://api.statcan.gc.ca/census-recensement/profile/sdmx/rest/data/STC_CP,DF_FSA,1.0/ |
+| census-2021-fsa | 520 | FSAs with census figures (of 520) | 2026-11-26 | https://api.statcan.gc.ca/census-recensement/profile/sdmx/rest/dataflow/STC_CP/DF_FSA/1.0 |
 | boards | 84 | boards with at least one school |  |  |
 | fsas | 522 | postal areas (FSAs) with a page |  |  |
 
@@ -371,15 +371,15 @@ Codes are stored as `null` with a flag, never as 0.
 ## Map layers
 
 - FSA polygons: 520 (1225 KB)
-- Approximate board areas: 75 boards (1011 KB)
-- Nearest-school areas english-catholic|elementary: 1137 cells for 1138 schools (1 shared buildings), 880 KB
-- Nearest-school areas english-catholic|secondary: 202 cells for 202 schools (0 shared buildings), 613 KB
-- Nearest-school areas english-public|elementary: 2485 cells for 2496 schools (11 shared buildings), 1219 KB
-- Nearest-school areas english-public|secondary: 491 cells for 492 schools (1 shared buildings), 701 KB
-- Nearest-school areas french-catholic|elementary: 260 cells for 260 schools (0 shared buildings), 626 KB
-- Nearest-school areas french-catholic|secondary: 66 cells for 66 schools (0 shared buildings), 568 KB
-- Nearest-school areas french-public|elementary: 126 cells for 126 schools (0 shared buildings), 591 KB
-- Nearest-school areas french-public|secondary: 47 cells for 47 schools (0 shared buildings), 563 KB
+- Approximate board areas: 75 boards (1625 KB)
+- Nearest-school areas english-catholic|elementary: 1137 cells for 1138 schools (1 shared buildings), 3326 KB
+- Nearest-school areas english-catholic|secondary: 202 cells for 202 schools (0 shared buildings), 1943 KB
+- Nearest-school areas english-public|elementary: 2485 cells for 2496 schools (11 shared buildings), 4351 KB
+- Nearest-school areas english-public|secondary: 491 cells for 492 schools (1 shared buildings), 2711 KB
+- Nearest-school areas french-catholic|elementary: 260 cells for 260 schools (0 shared buildings), 2501 KB
+- Nearest-school areas french-catholic|secondary: 66 cells for 66 schools (0 shared buildings), 1805 KB
+- Nearest-school areas french-public|elementary: 126 cells for 126 schools (0 shared buildings), 1982 KB
+- Nearest-school areas french-public|secondary: 47 cells for 47 schools (0 shared buildings), 1700 KB
 
 ## Other gaps
 

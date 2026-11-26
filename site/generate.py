@@ -129,6 +129,8 @@ class Site:
         ctx.setdefault("path", "/" + rel.replace("index.html", ""))
         ctx.setdefault("description", "Find Ontario public schools by name, city or postal code. EQAO results in context, with a source for every number.")
         html = self.env.get_template(template).render(**ctx)
+        if "<pre" not in html:
+            html = re.sub(r"\n[ \t]+", "\n", html)  # drop template indentation (≈30% smaller pages)
         html = re.sub(r"\n\s*\n+", "\n", html)
         out = DIST / rel
         out.parent.mkdir(parents=True, exist_ok=True)

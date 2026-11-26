@@ -121,18 +121,22 @@ def test_nearest_school_cells_contain_exactly_one_school_site(schools):
         pts = {s["bsid"]: Point(s["lon"], s["lat"]) for s in group}
         seen = defaultdict(int)
         geoms = [shapely.make_valid(shape(f["geometry"])) for f in fc["features"]]
+        outer = shapely.buffer(geoms, 1e-4)  # ~10 m: coordinates are rounded for file size
+        inner = shapely.buffer(geoms, -1e-4)
+        shapely.prepare(outer)
+        shapely.prepare(inner)
         tree = shapely.STRtree(geoms)
-        for f, g in zip(fc["features"], geoms):
+        for f, g in zip(fc["features"], outer):
             ids = f["properties"]["bsids"]
             site = {(round(by_id[b]["lon"], 5), round(by_id[b]["lat"], 5)) for b in ids}
             assert len(site) == 1, f"{key}: one cell holds schools at different points {ids}"
             for b in ids:
-                assert g.buffer(1e-4).contains(pts[b]), f"{key}: {b} not inside its own cell"
+                assert g.contains(pts[b]), f"{key}: {b} not inside its own cell"
                 seen[b] += 1
         assert set(seen) == set(pts), f"{key}: schools without a cell {set(pts) - set(seen)}"
         # no cell may contain another site's school (cells only touch at their edges)
         for b, p in pts.items():
-            hits = [i for i in tree.query(p) if geoms[i].buffer(-1e-4).contains(p)]
+            hits = [i for i in tree.query(p) if inner[i].contains(p)]
             owners = {tuple(fc["features"][i]["properties"]["bsids"]) for i in hits}
             assert len(owners) <= 1, f"{key}: {b} falls inside several cells {owners}"
 

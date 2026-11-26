@@ -209,7 +209,8 @@ def build_layers(schools: list[dict], fsa_gdf: gpd.GeoDataFrame, out_dir, log=pr
             if not g.buffer(-15).contains(p):
                 g = polygonal(shapely.make_valid(shapely.union_all([g, p.buffer(250).intersection(c)])))
             cells.append(g)
-        cg = gpd.GeoSeries(cells, crs=config.PROJECTED_CRS).to_crs(config.GEO_CRS)
+        # long straight edges bend when reprojected: add vertices every 1.5 km first
+        cg = gpd.GeoSeries(shapely.segmentize(np.asarray(cells, dtype=object), 1500), crs=config.PROJECTED_CRS).to_crs(config.GEO_CRS)
         feats = [feature(round_coords(g, 4), {"bsids": s["bsids"], "board": s["boards"][0]}) for s, g in zip(sites, cg)]
         for s, g in zip(sites, cg):
             for b in s["bsids"]:
@@ -231,7 +232,7 @@ def build_layers(schools: list[dict], fsa_gdf: gpd.GeoDataFrame, out_dir, log=pr
             by_board[s["boards"][0]].append(c)
         for b, parts in by_board.items():
             merged = generalize(shapely.union_all(parts), 300, 2_000_000)
-            g = gpd.GeoSeries([merged], crs=config.PROJECTED_CRS).to_crs(config.GEO_CRS).iloc[0]
+            g = gpd.GeoSeries([shapely.segmentize(merged, 2000)], crs=config.PROJECTED_CRS).to_crs(config.GEO_CRS).iloc[0]
             board_feats.append(feature(round_coords(g, 4), {"board": b, "system": system}))
             stats["boards"][b] = {"system": system, "area_km2": round(merged.area / 1e6)}
     stats["board_bytes"] = write_geojson(out_dir / "boards.geojson", board_feats)

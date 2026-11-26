@@ -10,7 +10,7 @@ APP="${1:-}"
 if [ -z "$APP" ]; then echo "usage: ./deploy.sh <caprover-app-name>"; exit 1; fi
 if [ ! -f site/dist/build.json ]; then echo "site/dist is not built yet"; exit 1; fi
 rm -f deploy.tar
-tar -cf deploy.tar captain-definition Dockerfile deploy/nginx.conf deploy/security-headers.conf site/dist
+tar -czf deploy.tar captain-definition Dockerfile deploy/nginx.conf deploy/security-headers.conf site/dist
 ls -lh deploy.tar
 caprover deploy -n "$MACHINE" -a "$APP" -t ./deploy.tar
 rm -f deploy.tar

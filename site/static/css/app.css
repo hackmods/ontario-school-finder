@@ -540,3 +540,8 @@ label { font-weight: 600; font-size: .88rem; }
 a.card { transition: border-color .15s, box-shadow .15s, transform .15s; }
 a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); transform: translateY(-1px); }
 .legend ul.legend-inline { display: flex; }
+/* touch targets: 44px minimum on everything tappable */
+.crumbs a { display: inline-flex; align-items: center; min-height: 44px; }
+.crumbs { margin-bottom: 6px; }
+.site-footer li a { min-height: 44px; }
+.search-sm .search-box input { min-height: 44px; }

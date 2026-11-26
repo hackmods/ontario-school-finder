@@ -190,7 +190,7 @@ test.describe("phone (390px)", () => {
             const r = el.getBoundingClientRect();
             return { el: el.outerHTML.slice(0, 90), h: Math.round(r.height), w: Math.round(r.width) };
           })
-          .filter((x) => x.h < 44 && !(x.el.startsWith("<a") && x.h >= 36 && x.el.includes("crumbs")));
+          .filter((x) => x.h < 44);
       });
       expect(small).toEqual([]);
     });
