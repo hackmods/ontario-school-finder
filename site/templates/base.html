@@ -14,13 +14,14 @@
 <meta property="og:title" content="{{ og_title or title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ site_url }}{{ path }}">
-<meta property="og:image" content="{{ site_url }}/static/img/og.png">
+<meta property="og:image" content="{{ site_url }}{{ asset('img/og.png') }}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/static/img/icon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/static/img/icon-180.png">
+<link rel="icon" href="{{ asset('img/icon.svg') }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ asset('img/icon-180.png') }}">
 <link rel="manifest" href="/manifest.webmanifest">
 <link rel="preload" href="/static/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+<link rel="stylesheet" href="{{ asset('css/brand.css') }}">
 {%- if map %}
 <link rel="stylesheet" href="{{ asset('vendor/maplibre/maplibre-gl.css') }}">
 {%- endif %}
@@ -31,7 +32,7 @@
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="Ontario School Finder home">{{ logo() }}<span>Ontario School Finder<small>Public schools, in context</small></span></a>
+    <a class="brand brand-lockup" href="/" aria-label="Ontario School Finder home">{{ logo() }}</a>
     {%- if not home %}
     <div class="header-search search search-sm" data-search>
       <form class="search-box" action="/search/" role="search">
@@ -81,7 +82,7 @@
   <div class="wrap">
     <div class="cols-f">
       <div>
-        <a class="brand" href="/">{{ logo() }}<span>Ontario School Finder</span></a>
+        <a class="brand brand-lockup" href="/" aria-label="Ontario School Finder home">{{ logo() }}</a>
         <p class="muted" style="margin-top:10px;max-width:38ch">Free, ad-free and private. Every number links to its public source and shows its school year.</p>
       </div>
       <div>

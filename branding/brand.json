@@ -1,0 +1,23 @@
+{
+  "active": "field-guide",
+  "variants": {
+    "civic-trillium": {
+      "name": "Civic Trillium",
+      "background": "#f1eedf",
+      "ink": "#26493c",
+      "accent": "#26493c"
+    },
+    "common-bloom": {
+      "name": "Common Bloom",
+      "background": "#f6e9cc",
+      "ink": "#673c29",
+      "accent": "#ba5b32"
+    },
+    "field-guide": {
+      "name": "Field Guide",
+      "background": "#eee9db",
+      "ink": "#383e2c",
+      "accent": "#47533b"
+    }
+  }
+}
