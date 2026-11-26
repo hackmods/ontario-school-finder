@@ -45,6 +45,9 @@
     </div>
     {%- endif %}
     <nav class="nav" aria-label="Main">
+      {%- if not home %}
+      <a class="nav-search" href="/search/" aria-label="Search"{% if page_kind == "search" %} aria-current="page"{% endif %}>{{ icon("search") }}</a>
+      {%- endif %}
       <a href="/map/"{% if page_kind == "map" %} aria-current="page"{% endif %}>Map</a>
       <a href="/boards/"{% if page_kind in ("boards", "board") %} aria-current="page"{% endif %}>Boards</a>
       <a href="/areas/"{% if page_kind in ("areas", "fsa") %} aria-current="page"{% endif %}>Areas</a>
