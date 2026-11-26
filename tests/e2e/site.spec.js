@@ -283,6 +283,37 @@ test.describe("pages", () => {
     await expect(page.getByText("Nearest school, NOT the official boundary").first()).toBeVisible();
   });
 
+  test("board map names its schools, and hovering a dot shows the name", async ({ page }) => {
+    const w = watch(page);
+    await page.goto("/board/B66176/");
+    await page.locator('[data-map="board"]').scrollIntoViewIfNeeded();
+    await waitForMap(page);
+    // names are drawn on the canvas, so ask the map which labels it placed
+    const names = await page.evaluate(async () => {
+      const map = document.querySelector('[data-map="board"]')._map;
+      for (let i = 0; i < 60; i++) {
+        if (map.loaded() && map.getLayer("schools-labels")) {
+          const f = map.queryRenderedFeatures({ layers: ["schools-labels"] });
+          if (f.length) return [...new Set(f.map((x) => x.properties.n))];
+        }
+        await new Promise((r) => setTimeout(r, 250));
+      }
+      return [];
+    });
+    expect(names.length).toBeGreaterThan(10);
+    const pt = await page.evaluate((name) => {
+      const el = document.querySelector('[data-map="board"]');
+      const map = el._map;
+      const f = map.querySourceFeatures("schools").find((x) => x.properties.n === name);
+      const p = map.project(f.geometry.coordinates);
+      const r = el.getBoundingClientRect();
+      return { x: r.left + p.x, y: r.top + p.y };
+    }, names[0]);
+    await page.mouse.move(pt.x, pt.y);
+    await expect(page.locator(".pop-hover")).toHaveText(names[0]);
+    expect(w.errors).toEqual([]);
+  });
+
   test("map layers load on demand", async ({ page }) => {
     const w = watch(page);
     await page.goto("/map/");
