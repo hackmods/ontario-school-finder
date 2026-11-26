@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{%- from "_icons.html" import icon -%}
+{% block main %}
+<div class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">Data</li></ol>
+  <h1>Download the data</h1>
+  <p class="lede" style="margin:0">Open data in, open data out. Everything on this site is available as CSV and JSON, with a source id on every row.</p>
+</div></div>
+<section class="block"><div class="wrap">
+  <div class="grid grid-2">
+    {% for d in downloads %}
+    <a class="card" href="{{ d.href }}" download style="text-decoration:none;color:inherit">
+      <h3>{{ icon("download", "card-ic") }}{{ d.title }}</h3>
+      <p class="muted" style="margin:0 0 6px">{{ d.desc }}</p>
+      <span class="badge">{{ d.size }}</span>
+    </a>
+    {% endfor %}
+  </div>
+  <div class="prose" style="margin-top:32px">
+    <h2>Licence and attribution</h2>
+    <p>The source data is published under the <a href="https://www.ontario.ca/page/open-government-licence-ontario" rel="noopener">Open Government Licence – Ontario</a> and the <a href="https://www.statcan.gc.ca/en/reference/licence" rel="noopener">Statistics Canada Open Licence</a>. If you reuse these files, please keep the source ids and include:</p>
+    <pre style="white-space:pre-wrap;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-1);padding:14px;font-size:.85rem">Contains information licensed under the Open Government Licence – Ontario.
+Adapted from Statistics Canada, 2021 Census of Population and 2021 boundary files. This does not constitute an endorsement by Statistics Canada of this product.
+Compiled by Ontario School Finder ({{ site_url }}).</pre>
+    <p>Each row’s <code>source_id</code> matches a line in <code>sources.csv</code>, which lists the original URL, licence and retrieval date. Coded values (suppressed, not reported, not applicable) are empty with a <code>code</code> column — never 0. See <a href="/methodology/">How it works</a>.</p>
+    <p>Per-school JSON files are at <code>/data/schools/&lt;BSID&gt;.json</code>, and the full pipeline report is at <a href="/data/report.md">/data/report.md</a>.</p>
+  </div>
+</div></section>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{%- from "_icons.html" import icon -%}
+{% block main %}
+<div class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">Postal areas</li></ol>
+  <h1>Postal areas (FSAs)</h1>
+  <p class="lede" style="margin:0">A forward sortation area is the first three characters of a postal code, like <strong>L2S</strong>. Pick yours to see the schools in and near it and what the 2021 Census says about the area.</p>
+</div></div>
+<section class="block"><div class="wrap">
+  <div class="search search-sm" data-search style="max-width:420px;margin-bottom:12px">
+    <form class="search-box" action="/search/" role="search">
+      <label class="visually-hidden" for="aq">Find a postal area</label>
+      <input id="aq" name="q" type="search" placeholder="Type a postal code, e.g. K7L 3N6" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="aq-list">
+      <button class="icon-btn" type="submit" aria-label="Search">{{ icon("search") }}</button>
+    </form>
+    <div class="suggest" id="aq-list" role="listbox" hidden></div>
+  </div>
+  {% for g in groups %}
+  <h2 id="region-{{ g.letter }}" style="margin-top:28px">{{ g.letter }} · {{ g.label }} <span class="muted small" style="font-weight:500">{{ g.entries|length }} areas</span></h2>
+  <div class="cols">{% for a in g.entries %}<a href="/fsa/{{ a.fsa }}/">{{ a.fsa }}{% if a.place %} · {{ a.place }}{% endif %} <span>{{ a.count }}</span></a>{% endfor %}</div>
+  {% endfor %}
+</div></section>
+{% endblock %}

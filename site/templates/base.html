@@ -1,0 +1,109 @@
+{%- from "_icons.html" import icon, logo -%}
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% block title %}{{ title }}{% endblock %}{% if not home %} · Ontario School Finder{% endif %}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ site_url }}{{ path }}">
+<meta name="theme-color" content="#0b5d4f" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e1012" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ontario School Finder">
+<meta property="og:title" content="{{ og_title or title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ site_url }}{{ path }}">
+<meta property="og:image" content="{{ site_url }}/static/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/static/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/img/icon-180.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="preload" href="/static/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ asset('css/app.css') }}">
+{%- if map %}
+<link rel="stylesheet" href="{{ asset('vendor/maplibre/maplibre-gl.css') }}">
+{%- endif %}
+<script src="{{ asset('js/theme.js') }}"></script>
+{%- block head %}{% endblock %}
+</head>
+<body class="page-{{ page_kind }}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Ontario School Finder home">{{ logo() }}<span>Ontario School Finder<small>Public schools, in context</small></span></a>
+    {%- if not home %}
+    <div class="header-search search search-sm" data-search>
+      <form class="search-box" action="/search/" role="search">
+        <label class="visually-hidden" for="hq">Search schools</label>
+        <input id="hq" name="q" type="search" placeholder="School, city or postal code" autocomplete="off" spellcheck="false"
+               role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="hq-list">
+        <button class="icon-btn" type="submit" aria-label="Search">{{ icon("search") }}</button>
+      </form>
+      <div class="suggest" id="hq-list" role="listbox" hidden></div>
+    </div>
+    {%- endif %}
+    <nav class="nav" aria-label="Main">
+      <a href="/map/"{% if page_kind == "map" %} aria-current="page"{% endif %}>Map</a>
+      <a href="/boards/"{% if page_kind in ("boards", "board") %} aria-current="page"{% endif %}>Boards</a>
+      <a href="/areas/"{% if page_kind in ("areas", "fsa") %} aria-current="page"{% endif %}>Areas</a>
+      <a href="/compare/"{% if page_kind == "compare" %} aria-current="page"{% endif %}>Compare<span class="badge-count" data-compare-count hidden>0</span></a>
+      <a href="/methodology/"{% if page_kind == "methodology" %} aria-current="page"{% endif %}>How it works</a>
+    </nav>
+    <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
+      <span class="visually-hidden">Menu</span>{{ icon("menu") }}
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <nav aria-label="Mobile">
+      <a href="/search/">Search</a>
+      <a href="/map/">Map</a>
+      <a href="/boards/">School boards</a>
+      <a href="/areas/">Postal areas</a>
+      <a href="/compare/">Compare <span class="badge-count" data-compare-count hidden>0</span></a>
+      <a href="/methodology/">How it works</a>
+      <a href="/about/">About</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+
+<div class="compare-tray" data-compare-tray hidden>
+  <span data-compare-label>0 schools to compare</span>
+  <a class="btn btn-sm" href="/compare/" data-compare-link>Compare</a>
+  <button class="icon-btn" type="button" data-compare-clear aria-label="Clear comparison" style="color:inherit">{{ icon("x") }}</button>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols-f">
+      <div>
+        <a class="brand" href="/">{{ logo() }}<span>Ontario School Finder</span></a>
+        <p class="muted" style="margin-top:10px;max-width:38ch">Free, ad-free and private. Every number links to its public source and shows its school year.</p>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul><li><a href="/search/">Search</a></li><li><a href="/map/">Map</a></li><li><a href="/boards/">School boards</a></li><li><a href="/areas/">Postal areas</a></li><li><a href="/compare/">Compare</a></li></ul>
+      </div>
+      <div>
+        <h2>Trust</h2>
+        <ul><li><a href="/methodology/">How it works</a></li><li><a href="/methodology/#sources">Sources &amp; licences</a></li><li><a href="/data/">Download the data</a></li><li><a href="/corrections/">Report a correction</a></li></ul>
+      </div>
+      <div>
+        <h2>About</h2>
+        <ul><li><a href="/about/">About this site</a></li><li><a href="/about/#privacy">Privacy</a></li><li><button class="theme-btn" type="button" data-theme-toggle>{{ icon("sun") }}<span>Theme: auto</span></button></li></ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <span>Data last updated <strong>{{ meta.data_updated_human }}</strong>. Not affiliated with EQAO, the Ministry of Education or any school board.</span>
+      <span>Contains information licensed under the Open Government Licence – Ontario and the Statistics Canada Open Licence.</span>
+    </div>
+  </div>
+</footer>
+<script type="module" src="{{ asset('js/app.js') }}"></script>
+{%- block scripts %}{% endblock %}
+</body>
+</html>

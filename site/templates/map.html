@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{%- from "_icons.html" import icon -%}
+{% block main %}
+<h1 class="visually-hidden">Map of Ontario schools</h1>
+<div class="map-shell map-page" style="border-radius:0;border:0">
+  <div class="map map-full" data-map="explore" aria-label="Map of all Ontario publicly funded schools"></div>
+  <div class="map-fallback" data-map-fallback><div>The map needs JavaScript. Browse by <a href="/boards/">board</a> or <a href="/areas/">postal area</a> instead.</div></div>
+  <aside class="map-panel" aria-label="Map layers and legend">
+    <h2>Schools</h2>
+    <div class="chips" role="group" aria-label="Level" data-level-filter>
+      <button class="chip on" type="button" data-level="all" aria-pressed="true">All</button>
+      <button class="chip" type="button" data-level="E" aria-pressed="false">Elementary</button>
+      <button class="chip" type="button" data-level="S" aria-pressed="false">Secondary</button>
+    </div>
+    <div class="legend">
+      <h3>School system</h3>
+      <ul>
+        {% for key, label in systems %}<li><label class="layer-toggle"><input type="checkbox" checked data-system="{{ key }}"><span class="lab"><span class="sw-dot sys-{{ key }}" style="display:inline-block;vertical-align:-2px;margin:0 6px 0 0"></span>{{ label }}</span><span class="muted small" data-system-count="{{ key }}"></span></label></li>{% endfor %}
+      </ul>
+      <h3>Areas (choose one)</h3>
+      <ul data-legend>
+        <li><label class="layer-toggle"><input type="radio" name="area" value="none" checked><span class="lab">No areas</span><span></span></label></li>
+        <li><label class="layer-toggle"><input type="radio" name="area" value="fsa"><span><span class="lab">Postal code area (first 3 characters)</span><span class="exp" style="display:block">Statistics Canada’s 2021 FSA outlines. Mail delivery areas, not school boundaries.</span></span><span class="sw sw-fsa"></span></label></li>
+        <li><label class="layer-toggle"><input type="radio" name="area" value="board"><span><span class="lab">Approximate school board area</span><span class="exp" style="display:block">Drawn from where each board’s schools are, for the system you pick below. Not the legal boundary.</span></span><span class="sw sw-board"></span></label></li>
+        <li><label class="layer-toggle"><input type="radio" name="area" value="nearest"><span><span class="lab">Nearest school, NOT the official boundary</span><span class="exp" style="display:block">Every place shaded by the school it is closest to, for the system and level you pick below.</span></span><span class="sw sw-near"></span></label></li>
+        <li class="off"><label class="layer-toggle" style="cursor:default"><input type="radio" name="area" value="official" disabled><span><span class="lab">Official boundary from &lt;board&gt;, &lt;date&gt;</span><span class="exp" style="display:block">Not available yet: no board publishes its attendance areas as open data we can reuse. Use your board’s school locator.</span></span><span class="sw sw-official"></span></label></li>
+      </ul>
+      <div data-area-options hidden style="margin-top:12px;display:grid;gap:8px">
+        <label for="area-system">System for areas</label>
+        <select id="area-system" data-area-system>{% for key, label in systems %}{% if key != "other" %}<option value="{{ key }}">{{ label }}</option>{% endif %}{% endfor %}</select>
+        <span data-area-level-wrap><label for="area-level">Level</label>
+        <select id="area-level" data-area-level><option value="elementary">Elementary</option><option value="secondary">Secondary</option></select></span>
+      </div>
+    </div>
+    <p class="small muted" style="margin:12px 0 0">Tap a school for details. Map tiles © OpenStreetMap contributors via OpenFreeMap.</p>
+  </aside>
+</div>
+{% endblock %}
+{% block scripts %}<script type="module" src="{{ asset('js/explore.js') }}"></script>{% endblock %}

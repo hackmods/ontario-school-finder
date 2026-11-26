@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{%- from "_icons.html" import icon -%}
+{% block main %}
+<section class="wrap not-found">
+  <p class="eyebrow">Page not found</p>
+  <h1>We couldn’t find that page.</h1>
+  <p class="lede" style="margin:0 auto 24px">The school may have closed or changed its number. Try searching instead.</p>
+  <div class="search" data-search style="max-width:560px;margin:0 auto">
+    <form class="search-box" action="/search/" role="search">
+      {{ icon("search", "lead") }}
+      <label class="visually-hidden" for="nq">Search schools</label>
+      <input id="nq" name="q" type="search" placeholder="School, city or postal code" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="nq-list">
+      <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+    <div class="suggest" id="nq-list" role="listbox" hidden></div>
+  </div>
+</section>
+{% endblock %}

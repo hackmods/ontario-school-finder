@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{%- from "_icons.html" import icon -%}
+{% block main %}
+<div class="page-head"><div class="wrap">
+  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">Report a correction</li></ol>
+  <h1>Report a correction</h1>
+  <p class="lede" style="margin:0">Thank you for helping keep this accurate. Here is who can fix what.</p>
+</div></div>
+<div class="wrap"><div class="prose">
+  <div class="card" data-correction-school hidden style="margin:24px 0"></div>
+  <h2>School name, address, phone, website or grades</h2>
+  <p>These come from school boards through the Ministry of Education’s school list. Please contact the <strong>school board</strong> (each school page links to it). Changes appear here after the Ministry publishes its next list and the site is rebuilt.</p>
+  <h2>EQAO results</h2>
+  <p>Results are published by <a href="https://www.eqao.com/" rel="noopener">EQAO</a> and the Ministry. If a number here differs from the school’s report on EQAO’s site for the same year, that is our mistake — please tell us.</p>
+  <h2>Something this site got wrong</h2>
+  {% if corrections_url or contact_email %}
+  <p>{% if corrections_url %}<a class="btn btn-primary" href="{{ corrections_url }}" rel="noopener" data-correction-link>{{ icon("flag") }}Open a correction request</a>{% endif %}
+     {% if contact_email %}<a class="btn" href="mailto:{{ contact_email }}?subject=Correction" data-correction-mail>{{ icon("mail") }}Email {{ contact_email }}</a>{% endif %}</p>
+  <p class="small muted">Please include the school’s name or number (BSID), what is wrong, and where you saw the right value.</p>
+  {% else %}
+  <p>A public correction form is being set up. Until then, please send corrections about school details to the school board, and about results to EQAO.</p>
+  {% endif %}
+</div></div>
+{% endblock %}
+{% block scripts %}<script type="module" src="{{ asset('js/corrections.js') }}"></script>{% endblock %}
