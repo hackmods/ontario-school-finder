@@ -168,6 +168,12 @@ def build(clean: bool = False) -> dict:
         log(f"loading {res['id']} (class lists)")
         csize[res["id"]] = loaders.load_class_size(res)
         rep.count(res["id"], csize[res["id"]]["stats"]["school_years"], "school-years of elementary class lists")
+    log(f"loading {sources.FSL_RESOURCE['id']} (French programs)")
+    fsl = loaders.load_fsl(sources.FSL_RESOURCE)
+    rep.count(sources.FSL_RESOURCE["id"], fsl["stats"]["schools"], "English-language schools with French program flags")
+    log(f"loading {sources.SHSM_RESOURCE['id']} (Specialist High Skills Majors)")
+    shsm = loaders.load_shsm(sources.SHSM_RESOURCE)
+    rep.count(sources.SHSM_RESOURCE["id"], shsm["stats"]["programs"], f"SHSM programs at {shsm['stats']['schools']} schools")
 
     log("loading child care")
     childcare = loaders.load_childcare(sources.CHILDCARE_RESOURCE)
@@ -418,6 +424,23 @@ def build(clean: bool = False) -> dict:
                 series.append({"year": res["year"], "grades": hit["grades"], "codes": hit["codes"], "source_id": res["id"]})
         s["grade_enrolment"] = series
 
+    # ---------------- programs: French as a second language, SHSM (joined on school number) ----------------
+    fr, sr = sources.FSL_RESOURCE, sources.SHSM_RESOURCE
+    for s in schools:
+        f = fsl["rows"].get(s["bsid"])
+        sh = shsm["rows"].get(s["bsid"])
+        s["programs"] = {
+            "fsl": {**f, "year": fr["year"], "source_id": fr["id"]} if f else None,
+            "shsm": {"year": sr["year"], "source_id": sr["id"], "sectors": sh} if sh else None,
+        }
+    known = {s["bsid"] for s in schools}
+    rep.programs = {
+        "fsl_matched": sum(1 for s in schools if s["programs"]["fsl"]),
+        "fsl_unmatched": sorted(set(fsl["rows"]) - known),
+        "shsm_matched": sum(1 for s in schools if s["programs"]["shsm"]),
+        "shsm_unmatched": sorted(set(shsm["rows"]) - known),
+    }
+
     # ---------------- class sizes (matched by board + school name) ----------------
     log("class sizes: matching class lists to schools by name")
     name_index = defaultdict(set)
@@ -488,6 +511,7 @@ def build(clean: bool = False) -> dict:
         used = {s["coord_source"], s["contact_source"], s["context"]["source_id"], s["childcare"]["source_id"]}
         used |= {e["source_id"] for e in s["eqao"]} | {e["source_id"] for e in s["enrolment"]}
         used |= {e["source_id"] for e in s["grade_enrolment"]} | {e["source_id"] for e in s["class_size"]}
+        used |= {p["source_id"] for p in s["programs"].values() if p}
         used.discard("geocoder")
         s["sources"] = [src_table[i] for i in sorted(used) if i in src_ids]
 
@@ -669,6 +693,10 @@ def write_outputs(schools, boards, fsas, src_table, census, rep, sif_eqao, prov_
         "id": s["bsid"], "n": s["name"], "c": s["city"], "f": s["fsa"], "b": s["board_number"], "bn": s["board_name"],
         "l": "E" if s["level"] == "elementary" else "S", "g": s["grades"], "lang": (s["language"] or "")[:1],
         "sys": s["system"], "x": round(s["lon"], 5), "y": round(s["lat"], 5), "sp": s["special"] or None,
+        # programs, for search filters: French Immersion / Extended French offered, number of SHSM sectors
+        "fi": 1 if (s["programs"]["fsl"] or {}).get("immersion") else None,
+        "ef": 1 if (s["programs"]["fsl"] or {}).get("extended") else None,
+        "sh": len(s["programs"]["shsm"]["sectors"]) if s["programs"]["shsm"] else None,
     } for s in sorted(schools, key=lambda s: s["name"])]
     dump(out / "schools-index.json", idx)
     dump(out / "boards-index.json", [{"n": b["number"], "name": b["name"], "slug": b["slug"], "sys": b["system"], "count": len(b["schools"])}

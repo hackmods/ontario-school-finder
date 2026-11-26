@@ -42,6 +42,7 @@
 <nav class="subnav" aria-label="On this page">
   <div class="wrap">
     <a href="#overview">Overview</a>
+    <a href="#programs">Programs</a>
     {% if results %}<a href="#results">Results</a>{% endif %}
     {% if s.enrolment %}<a href="#enrolment">Enrolment</a>{% endif %}
     {% if cs_view %}<a href="#class-sizes">Class sizes</a>{% endif %}
@@ -73,8 +74,47 @@
         {% if s.nearest_area %}<li><span class="sw sw-near" style="display:inline-block;width:22px;height:14px;border-radius:3px"></span>Nearest school, NOT the official boundary</li>{% endif %}
       </ul>
     </div>
-    <div class="note" style="margin-top:12px">{{ icon("info") }}<div><p>{% if s.nearest_area %}The shaded area is every place closer to this school than to any other {{ system_label }} {{ s.level }} school — a rough guide only. {% endif %}<strong>Attendance boundaries are set by {{ s.board_name }}.</strong> Confirm which school serves your address with the board{% if s.board_website %} (<a href="{{ s.board_website }}" rel="noopener">board website</a>){% endif %}.</p></div></div>
+    <div class="note" style="margin-top:12px">{{ icon("info") }}<div><p>{% if s.nearest_area %}The shaded area is every place closer to this school than to any other {{ system_label }} {{ s.level }} school — a rough guide only. {% endif %}<strong>Attendance boundaries are set by {{ s.board_name }}.</strong>{% set loc = locators.get(s.board_number) %}{% if loc %} {% if loc.kind == "maps" %}See the board’s boundary maps and school finder to confirm which school serves your address.{% elif loc.kind == "consortium" %}Check which school serves your address with the school locator the board uses, run by its student transportation service.{% else %}Check which school serves your address with the board’s school locator.{% endif %}</p><p style="margin-top:8px"><a class="btn btn-sm" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ "Boundary maps" if loc.kind == "maps" else "Check your address" }}</a>{% else %} Confirm which school serves your address with the board{% if s.board_website %} (<a href="{{ s.board_website }}" rel="noopener">board website</a>){% endif %}.{% endif %}</p></div></div>
     <script type="application/json" id="map-data">{{ map_json|safe }}</script>
+  </div>
+</section>
+
+{%- set fsl = s.programs.fsl %}
+{%- set shsm = s.programs.shsm %}
+<section class="block" id="programs">
+  <div class="wrap">
+    <h2>Programs</h2>
+    <div class="grid grid-2 grid-top">
+      <div class="card">
+        <h3>{{ icon("check", "card-ic") }}French programs {% if fsl %}<span class="badge">{{ fsl.year }}</span>{% endif %}</h3>
+        {% if fsl %}
+        <ul class="prog-list">
+          <li class="{{ 'on' if fsl.core else 'off' }}">{{ icon("check" if fsl.core else "x") }}<span><b>Core French</b> {{ "offered" if fsl.core else "not offered" }}<span class="d">French taught as a subject</span></span></li>
+          <li class="{{ 'on' if fsl.extended else 'off' }}">{{ icon("check" if fsl.extended else "x") }}<span><b>Extended French</b> {{ "offered" if fsl.extended else "not offered" }}<span class="d">Some subjects taught in French, at least a quarter of the day</span></span></li>
+          <li class="{{ 'on' if fsl.immersion else 'off' }}">{{ icon("check" if fsl.immersion else "x") }}<span><b>French Immersion</b> {{ "offered" if fsl.immersion else "not offered" }}<span class="d">Most subjects taught in French, at least half of the day</span></span></li>
+        </ul>
+        <p class="small muted" style="margin:10px 0 0">From the Ministry’s preliminary {{ fsl.year }} list. Entry grades, application dates and transportation for Extended French and Immersion are set by {{ s.board_name }}. <a class="ref" href="#src-{{ fsl.source_id }}">source</a></p>
+        {% elif s.language == "French" %}
+        <p style="margin:0">This is a French-language school: students learn in French all day. The Ministry’s French-as-a-second-language list covers English-language schools only.</p>
+        {% else %}
+        <p class="muted" style="margin:0">This school is not in the Ministry’s 2024-25 list of schools offering French programs. Ask {{ s.board_name }} which nearby school offers them.</p>
+        {% endif %}
+      </div>
+      {% if shsm or s.level == "secondary" %}
+      <div class="card">
+        <h3>{{ icon("school", "card-ic") }}Specialist High Skills Majors {% if shsm %}<span class="badge">{{ shsm.year }}</span>{% endif %}</h3>
+        {% if shsm %}
+        <p class="small muted" style="margin:0 0 10px">A focus on one career sector through a bundle of courses, industry certifications and work experience, recorded on the diploma.</p>
+        <ul class="chips shsm-list">
+          {% for p in shsm.sectors %}<li class="chip-static">{{ p.sector }}{% if p.years %}<span class="muted"> · {{ p.years }} year{{ "" if p.years == 1 else "s" }}</span>{% endif %}{% if p.language and p.language != s.language %}<span class="muted"> · in {{ p.language }}</span>{% endif %}</li>{% endfor %}
+        </ul>
+        <p class="small muted" style="margin:10px 0 0">{{ shsm.sectors|length }} sector{{ "" if shsm.sectors|length == 1 else "s" }} in {{ shsm.year }}; the number of years each program has run. <a class="ref" href="#src-{{ shsm.source_id }}">source</a></p>
+        {% else %}
+        <p class="muted" style="margin:0">No Specialist High Skills Major programs are listed for this school in 2025-26.</p>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
   </div>
 </section>
 
@@ -244,6 +284,7 @@
     <div class="chips">
       <a class="chip" href="{{ s.links.eqao }}" rel="noopener">{{ icon("ext", "card-ic") }}EQAO school results</a>
       <a class="chip" href="{{ s.links.find_your_school }}" rel="noopener">{{ icon("ext", "card-ic") }}Ontario School Information Finder</a>
+      {% if locators.get(s.board_number) %}<a class="chip" href="{{ locators[s.board_number].url }}" rel="noopener">{{ icon("pin", "card-ic") }}Which school serves an address</a>{% endif %}
       {% if s.board_website %}<a class="chip" href="{{ s.board_website }}" rel="noopener">{{ icon("ext", "card-ic") }}{{ s.board_name }} website</a>{% endif %}
       <a class="chip" href="/corrections/?school={{ s.bsid }}">{{ icon("flag", "card-ic") }}Report a correction</a>
     </div>

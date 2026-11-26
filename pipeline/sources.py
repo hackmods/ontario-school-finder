@@ -132,13 +132,33 @@ DATASETS: dict[str, dict] = {
         "used_for": "Added for parents: class sizes at each elementary school, 2007-08 to 2025-26 (primary classes every year; all classes from 2014-15).",
         "status": "used",
     },
+    "fsl": {
+        "brief_no": 14,
+        "title": "Public schools offering French as a Second Language (FSL) programs",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "public-schools-offering-french-as-a-second-language-fsl-programs",
+        "ckan_id": "public-schools-offering-french-as-a-second-language-fsl-programs",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: which English-language schools offer Core French, Extended French and French Immersion (2024-25, preliminary).",
+        "status": "used",
+    },
+    "shsm": {
+        "brief_no": 15,
+        "title": "Specialist High Skills Major (SHSM) program list",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "specialist-high-skills-major-shsm-program-list",
+        "ckan_id": "specialist-high-skills-major-shsm-program-list",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: which high schools offer which Specialist High Skills Major sectors, and for how many years (2025-26).",
+        "status": "used",
+    },
     "attendance": {
         "brief_no": 11,
         "title": "Board-published attendance boundaries",
         "publisher": "Individual school boards",
         "landing": "",
         "licence": ("Per board; written permission recorded before use", ""),
-        "used_for": "Not used yet (Phase 2). Every school page links to its board so parents can use the board's own school locator.",
+        "used_for": "Not used yet. Checked November 2026: no Ontario board publishes its attendance boundaries under an open licence. Several boards (Waterloo Region DSB, Hamilton-Wentworth DSB, Simcoe County DSB, Grand Erie DSB, Dufferin-Peel CDSB, Kawartha Pine Ridge DSB, Halton CDSB) post map layers without a licence, so they need the board's written permission first. Every school page links to its board's own school locator instead.",
         "status": "phase2",
     },
 }
@@ -286,6 +306,8 @@ def all_resources() -> list[dict]:
         out.append({**r, "dataset": "enrol_grade"})
     for r in CLASS_SIZE_RESOURCES:
         out.append({**r, "dataset": "class_size"})
+    out.append({**FSL_RESOURCE, "dataset": "fsl"})
+    out.append({**SHSM_RESOURCE, "dataset": "shsm"})
     out.append({**FSA_RESOURCE, "dataset": "fsa_boundary"})
     out.append({**CENSUS_RESOURCE, "dataset": "census"})
     return out
@@ -311,3 +333,13 @@ CLASS_SIZE_RESOURCES = [
     dict(id="classsize-2024-25", year="2024-25", url=CS_URL.format("abc5d307-ecfb-482f-b74f-f1703d2af039", "2024-25_elementary_class_size_open_data_v.1_engfr.xlsx")),
     dict(id="classsize-2025-26", year="2025-26", url=CS_URL.format("6f67ef06-a420-47cb-bf6b-2621adc2ffb0", "2025-26_elementary_class_sizes_open_data1.xlsx")),
 ]
+
+FSL_RESOURCE = dict(
+    id="fsl-2024-25", year="2024-25",
+    url="https://data.ontario.ca/dataset/0743f4d3-64bb-4b76-b9fc-51743c7a7f46/resource/3b211d55-85b6-4f35-ac54-58e2d2452372/download/schools_offering_fsl_2425_en.txt",
+    note="Preliminary 2024-25 list (the catalogue labels the files 2023-2024); English-language school boards only",
+)
+SHSM_RESOURCE = dict(
+    id="shsm-2025-26", year="2025-26",
+    url="https://data.ontario.ca/dataset/8ee79eb8-9e2c-4fb0-a2a5-51f54f2f383f/resource/e2336170-94cb-475f-8ada-0a0250dc258a/download/shsm_2025-26_program_list_en.csv",
+)

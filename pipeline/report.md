@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 03:53 UTC in 266 s.
+Generated 2026-11-26 06:17 UTC in 188 s.
 
 ## Output
 
@@ -53,6 +53,8 @@ Generated 2026-11-26 03:53 UTC in 266 s.
 | classsize-2023-24 | 3908 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/41110399-2d30-43f3-8967-e8e55185aa6a/download/elementary_class_size_open_data_suppressed_2023-24_fr.xlsx |
 | classsize-2024-25 | 3906 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/abc5d307-ecfb-482f-b74f-f1703d2af039/download/2024-25_elementary_class_size_open_data_v.1_engfr.xlsx |
 | classsize-2025-26 | 3930 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/6f67ef06-a420-47cb-bf6b-2621adc2ffb0/download/2025-26_elementary_class_sizes_open_data1.xlsx |
+| fsl-2024-25 | 4336 | English-language schools with French program flags | 2026-11-26 | https://data.ontario.ca/dataset/0743f4d3-64bb-4b76-b9fc-51743c7a7f46/resource/3b211d55-85b6-4f35-ac54-58e2d2452372/download/schools_offering_fsl_2425_en.txt |
+| shsm-2025-26 | 2660 | SHSM programs at 736 schools | 2026-11-26 | https://data.ontario.ca/dataset/8ee79eb8-9e2c-4fb0-a2a5-51f54f2f383f/resource/e2336170-94cb-475f-8ada-0a0250dc258a/download/shsm_2025-26_program_list_en.csv |
 | childcare-2026-09 | 6355 | active licensed sites (snapshot 2026-09-30) | 2026-11-26 | https://data.ontario.ca/dataset/7efd8b4b-cc63-4337-a551-c940a346605b/resource/2b81313c-9ada-4680-abba-4470ec386a2e/download/child_care_facilities_open_data_sep_2026.xlsx |
 | fsa-boundary-2021 | 520 | Ontario FSA polygons | 2026-11-26 | https://services.arcgis.com/wjcPoefzjpzCgffS/arcgis/rest/services/Forward_Sortation_Area_(FSA)_Boundaries_2021/FeatureServer/0 |
 | census-2021-fsa | 520 | FSAs with census figures (of 520) | 2026-11-26 | https://api.statcan.gc.ca/census-recensement/profile/sdmx/rest/dataflow/STC_CP/DF_FSA/1.0 |
@@ -64,7 +66,7 @@ Generated 2026-11-26 03:53 UTC in 266 s.
 - **#3 EQAO Open Agency Data Repository** (phase2): Not used yet (Phase 2). Every school page links to the school's EQAO results page instead.
 - **#6 Board service area** (skipped): Skipped: the dataset is listed as "under review" with no files to download. Approximate board areas are drawn from school locations instead.
 - **#8 2021 Census subdivision boundary file** (skipped): Not needed: it was only for joining the board service areas (#6), which are unavailable.
-- **#11 Board-published attendance boundaries** (phase2): Not used yet (Phase 2). Every school page links to its board so parents can use the board's own school locator.
+- **#11 Board-published attendance boundaries** (phase2): Not used yet. Checked November 2026: no Ontario board publishes its attendance boundaries under an open licence. Several boards (Waterloo Region DSB, Hamilton-Wentworth DSB, Simcoe County DSB, Grand Erie DSB, Dufferin-Peel CDSB, Kawartha Pine Ridge DSB, Halton CDSB) post map layers without a licence, so they need the board's written permission first. Every school page links to its board's own school locator instead.
 
 ## Notes
 
@@ -400,6 +402,11 @@ Codes are stored as `null` with a flag, never as 0.
 - Class-list rows matched to a school: 62409 school-years; ambiguous names skipped: 1319
 - Schools with class sizes: 3863
 - Unmatched school-years by year (closed or renamed schools, private/other boards): 2007-08: 692, 2008-09: 675, 2009-10: 641, 2010-11: 605, 2011-12: 578, 2012-13: 526, 2013-14: 503, 2014-15: 506, 2015-16: 565, 2016-17: 516, 2017-18: 482, 2018-19: 422, 2019-20: 428, 2020-21: 295, 2021-22: 222, 2022-23: 206, 2023-24: 160, 2024-25: 152, 2025-26: 39
+
+## Programs (French as a second language, SHSM)
+
+- Schools with French program flags: 4269; school numbers in the file but not in the school list: 67 (003592, 020878, 044706, 064305, 114373, 180213, 186395, 208367, 337899, 359861, 368807, 398055…)
+- Schools with SHSM programs: 734; not in the school list: 2 (705446, 707523)
 
 ## Other gaps
 

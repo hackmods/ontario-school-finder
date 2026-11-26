@@ -11,7 +11,8 @@
         <h1>{{ b.name }}</h1>
         <p class="muted" style="margin:0">{{ b.full_type }}{% if b.sbpr_city %} · Head office in {{ b.sbpr_city }}{% endif %}</p>
       </div>
-      <div class="head-actions">{% if b.website %}<a class="btn btn-primary" href="{{ b.website }}" rel="noopener">{{ icon("globe") }}Board website &amp; school locator</a>{% endif %}</div>
+      {%- set loc = locators.get(b.number) %}
+      <div class="head-actions">{% if loc %}<a class="btn btn-primary" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ "Boundary maps" if loc.kind == "maps" else "Which school serves an address" }}</a>{% endif %}{% if b.website %}<a class="btn{% if not loc %} btn-primary{% endif %}" href="{{ b.website }}" rel="noopener">{{ icon("globe") }}Board website</a>{% endif %}</div>
     </div>
   </div>
 </div>
@@ -106,7 +107,7 @@
         {% if az %}<h3 class="az-letter" aria-hidden="true">{{ g.letter }}</h3>{% endif %}
         <ul class="list">
         {% for s in g.schools %}
-          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.level|capitalize }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ s.special }}{% endif %}</span></span><span class="side">{% if s.enrol is not none %}{{ "{:,}".format(s.enrol) }}<br><span class="small">students</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
+          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.level|capitalize }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ s.special }}{% endif %}{% if s.fi %} · French Immersion{% endif %}</span></span><span class="side">{% if s.enrol is not none %}{{ "{:,}".format(s.enrol) }}<br><span class="small">students</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
         {% endfor %}
         </ul>
       </div>

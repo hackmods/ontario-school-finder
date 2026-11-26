@@ -133,3 +133,43 @@ def test_download_reports_404_as_changed_url(monkeypatch, raw_dir):
     with pytest.raises(fetch.SourceUnavailable) as e:
         fetch.download("y", "https://example.invalid/gone.xlsx", expect="xlsx")
     assert "URL has changed" in str(e.value)
+
+
+FSL_HEAD = "Board Number|Board Name|Board Email|School Number|School Name|FSL Core|FSL Extended|FSL Immersion|School City|School Phone Number|School Email|School Type|School Level\n"
+
+
+def test_fsl_loader_reads_flags_and_pads_school_numbers(raw_dir):
+    (raw_dir / "fsl-test.txt").write_text(FSL_HEAD + "B28010|Algoma DSB||19186|Anna McCrea|YES|NO|YES|SSM|1|a@b|Public|Elementary\n", encoding="utf-8-sig")
+    out = loaders.load_fsl({"id": "fsl-test", "url": "https://example.invalid"})
+    assert out["rows"]["019186"] == {"core": True, "extended": False, "immersion": True}
+    assert out["stats"]["immersion_yes"] == 1
+
+
+def test_fsl_loader_rejects_values_other_than_yes_or_no(raw_dir):
+    (raw_dir / "fsl-test.txt").write_text(FSL_HEAD + "B1|X||019186|Y|YES|MAYBE|NO|C|1|a@b|Public|Elementary\n", encoding="utf-8")
+    with pytest.raises(SchemaChanged):
+        loaders.load_fsl({"id": "fsl-test", "url": "https://example.invalid"})
+
+
+def test_fsl_loader_fails_when_a_flag_column_is_renamed(raw_dir):
+    (raw_dir / "fsl-test.txt").write_text(FSL_HEAD.replace("FSL Immersion", "French Immersion") + "B1|X||019186|Y|YES|NO|NO|C|1|a@b|Public|Elementary\n", encoding="utf-8")
+    with pytest.raises(SchemaChanged):
+        loaders.load_fsl({"id": "fsl-test", "url": "https://example.invalid"})
+
+
+def test_shsm_loader_groups_sectors_by_school(raw_dir):
+    body = ("﻿Board_Name,Sector,School_Name,MIDENT,City,Language,Age_of_Program_in_25-26\n"
+            "Algoma DSB,Transportation,Central Algoma SS,891347,Johnson ,English,3\n"
+            "Algoma DSB,Construction,Elliot Lake SS,908010,Elliot Lake ,English,16\n"
+            "Algoma DSB,Environment,Elliot Lake SS,908010,Elliot Lake ,English,4\n")
+    (raw_dir / "shsm-test.csv").write_bytes(body.encode("utf-8"))
+    out = loaders.load_shsm({"id": "shsm-test", "url": "https://example.invalid"})
+    assert [p["sector"] for p in out["rows"]["908010"]] == ["Construction", "Environment"]
+    assert out["rows"]["908010"][0]["years"] == 16
+    assert out["stats"]["programs"] == 3 and out["stats"]["schools"] == 2
+
+
+def test_shsm_loader_needs_the_program_age_column(raw_dir):
+    (raw_dir / "shsm-test.csv").write_text("Board_Name,Sector,School_Name,MIDENT,City,Language\nA,B,C,123456,D,English\n", encoding="utf-8")
+    with pytest.raises(SchemaChanged):
+        loaders.load_shsm({"id": "shsm-test", "url": "https://example.invalid"})

@@ -578,3 +578,73 @@ def load_class_size(res: dict) -> dict:
     wb.close()
     stats["school_years"] = len(agg)
     return {"rows": agg, "stats": dict(stats)}
+
+
+# ---------------------------------------------------------------------------
+# 14. French as a Second Language program offerings
+# ---------------------------------------------------------------------------
+FSL_COLS = ["Board Number", "School Number", "School Name", "FSL Core", "FSL Extended", "FSL Immersion"]
+FSL_FLAGS = (("core", "FSL Core"), ("extended", "FSL Extended"), ("immersion", "FSL Immersion"))
+
+
+def load_fsl(res: dict) -> dict:
+    """bsid -> {core, extended, immersion} (True/False). English-language boards only."""
+    path = fetch.download(res["id"], res["url"], expect="txt")
+    header, body = read_pipe_txt(path)
+    require_columns(res["id"], header, FSL_COLS)
+    idx = {h: i for i, h in enumerate(header)}
+    rows, stats = {}, Counter()
+    for r in body:
+        bsid = school_number(r[idx["School Number"]])
+        if not bsid:
+            stats["no_school_number"] += 1
+            continue
+        flags = {}
+        for key, col in FSL_FLAGS:
+            v = (r[idx[col]] or "").strip().upper()
+            if v not in ("YES", "NO"):
+                raise SchemaChanged(f"{res['id']}: '{col}' should be YES or NO, found {v!r} for school {bsid}.")
+            flags[key] = v == "YES"
+            stats[f"{key}_yes"] += flags[key]
+        rows[bsid] = flags
+    stats["schools"] = len(rows)
+    return {"rows": rows, "stats": dict(stats)}
+
+
+# ---------------------------------------------------------------------------
+# 15. Specialist High Skills Major programs
+# ---------------------------------------------------------------------------
+SHSM_COLS = ["Board_Name", "Sector", "School_Name", "MIDENT", "Language"]
+
+
+def load_shsm(res: dict) -> dict:
+    """bsid -> [{sector, years, language}] where ``years`` is how many years the program has run."""
+    path = fetch.download(res["id"], res["url"], expect="csv")
+    raw = path.read_bytes()
+    try:
+        text = raw.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        text = raw.decode("cp1252")
+    table = [r for r in csv.reader(io.StringIO(text)) if any(c.strip() for c in r)]
+    header = [norm_header(h) for h in table[0]]
+    age_col = next((h for h in header if h.startswith("Age_of_Program")), None)
+    require_columns(res["id"], header, SHSM_COLS + [age_col or "Age_of_Program_in_<school year>"])
+    idx = {h: i for i, h in enumerate(header)}
+    rows, stats = {}, Counter()
+    for r in table[1:]:
+        bsid = school_number(r[idx["MIDENT"]])
+        sector = parse.clean_text(r[idx["Sector"]])
+        if not bsid or not sector:
+            stats["incomplete_rows"] += 1
+            continue
+        age = (r[idx[age_col]] or "").strip()
+        rows.setdefault(bsid, []).append({
+            "sector": sector,
+            "years": int(age) if age.isdigit() else None,
+            "language": parse.clean_text(r[idx["Language"]]),
+        })
+        stats["programs"] += 1
+    for progs in rows.values():
+        progs.sort(key=lambda p: p["sector"])
+    stats["schools"] = len(rows)
+    return {"rows": rows, "stats": dict(stats)}

@@ -727,3 +727,15 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
   .src-table td:first-child { font-size: .8rem; font-weight: 600; }
   .src-table td:first-child::before { content: "#"; }
 }
+
+/* programs on school pages: French programs and Specialist High Skills Majors */
+.prog-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.prog-list li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; align-items: start; }
+.prog-list svg { width: 20px; height: 20px; margin-top: 2px; }
+.prog-list .on svg { color: var(--brand); }
+.prog-list .off { color: var(--ink-3); }
+.prog-list .off svg { color: var(--line-2); }
+.prog-list .off b { color: var(--ink-2); }
+.prog-list .d { display: block; font-size: .85rem; color: var(--ink-3); }
+.shsm-list { list-style: none; padding: 0; margin: 0; }
+.chip-static { display: inline-flex; align-items: center; gap: .3em; min-height: 34px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface-2); font-size: .88rem; font-weight: 600; color: var(--ink); }

@@ -128,9 +128,11 @@ class Site:
         self.env = Environment(loader=FileSystemLoader(HERE / "templates"), autoescape=select_autoescape(["html"]),
                                trim_blocks=True, lstrip_blocks=True)
         codes = self.meta["codes"]
+        loc = load(HERE / "locators.json")  # hand-checked links to each board's "which school serves my address" page
         self.env.globals.update(
             asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, contact_email=CONTACT_EMAIL, source_series=source_series,
             code_text=lambda c: codes.get(c, {}).get("explain", "") if c else "",
+            locators=loc["boards"], locators_checked=loc["checked"],
         )
         self.pages = 0
         svg, w, h = hero_svg(self.index)
@@ -316,7 +318,8 @@ class Site:
         for s in schools:
             e = s["enrolment"][-1] if s["enrolment"] else None
             rows.append({"bsid": s["bsid"], "name": s["name"], "level": s["level"], "grades": s["grades"], "city": s["city"],
-                         "special": s["special"], "enrol": e["value"] if e and e["year"] == b["enrolment_total"]["year"] else None})
+                         "special": s["special"], "enrol": e["value"] if e and e["year"] == b["enrolment_total"]["year"] else None,
+                         "fi": bool(((s.get("programs") or {}).get("fsl") or {}).get("immersion"))})
         school_groups = []  # A-Z groups for the school list; "École" files under E
         for r in rows:
             first = plain(r["name"])[:1].upper()

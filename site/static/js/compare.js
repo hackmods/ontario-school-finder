@@ -79,6 +79,20 @@ if ("ResizeObserver" in window) new ResizeObserver(() => { cancelAnimationFrame(
 const wideScreen = () => matchMedia("(min-width: 900px)").matches;
 
 // ---------------------------------------------------------------- sections
+// French programs (Ministry FSL list, English-language schools only)
+function frenchRows(schools) {
+  const cell = (s, key) => {
+    const f = s.programs?.fsl;
+    if (f) return f[key] ? "Yes" : "No";
+    return s.language === "French" ? '<span class="muted">French-language school</span>' : '<span class="muted">Not in the list</span>';
+  };
+  const raw = (s, key) => (s.programs?.fsl ? (s.programs.fsl[key] ? "yes" : "no") : "");
+  return [
+    { label: "French Immersion", sub: "2024-25", cells: schools.map((s) => cell(s, "immersion")), raw: schools.map((s) => raw(s, "immersion")) },
+    { label: "Extended French", sub: "2024-25", cells: schools.map((s) => cell(s, "extended")), raw: schools.map((s) => raw(s, "extended")) },
+  ];
+}
+
 function overview(schools) {
   const first = schools[0];
   const latestEnrol = (s) => [...s.enrolment].reverse().find((e) => e.value != null);
@@ -101,6 +115,12 @@ function overview(schools) {
     { label: "Students (latest)", cells: schools.map((s) => { const e = latestEnrol(s); return e ? `${num(e.value)}<div class="small muted">${esc(e.year)}</div>` : "—"; }), raw: schools.map((s) => latestEnrol(s)?.value) },
     { label: "Enrolment change (5 years)", cells: schools.map((s) => { const c = change(s); return c ? `${c.d >= 0 ? "+" : "−"}${num(Math.abs(c.d))}<div class="small muted">since ${esc(c.since)}</div>` : "—"; }), raw: schools.map((s) => change(s)?.d) },
     { label: "Licensed child care at the school", cells: schools.map((s) => (s.childcare.at_address.length ? `Yes (${s.childcare.at_address.length})` : "No")), raw: schools.map((s) => s.childcare.at_address.length) },
+    ...frenchRows(schools),
+    {
+      label: "Specialist High Skills Majors", sub: "career-sector programs, 2025-26",
+      cells: schools.map((s) => (s.programs?.shsm ? `${s.programs.shsm.sectors.length}<div class="small muted">${esc(s.programs.shsm.sectors.map((p) => p.sector).join(", "))}</div>` : s.level === "secondary" ? "None listed" : "—")),
+      raw: schools.map((s) => (s.programs?.shsm ? s.programs.shsm.sectors.map((p) => p.sector).join("; ") : "")),
+    },
   ];
   if (schools.length > 1) {
     rows.push({ label: `Distance from ${esc(short(first.name))}`, cells: schools.map((s, i) => (i === 0 ? "—" : fmtKm(km([first.lon, first.lat], [s.lon, s.lat])))), raw: schools.map((s, i) => (i === 0 ? "" : km([first.lon, first.lat], [s.lon, s.lat]).toFixed(1))) });
