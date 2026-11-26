@@ -226,7 +226,7 @@ def build(clean: bool = False) -> dict:
     coord_fallback = Counter()
     for bsid, r in latest.items():
         c = contact["rows"].get(bsid)
-        name = parse.clean_text(r["School Name"])
+        name = parse.tidy_school_name(parse.clean_text(r["School Name"]))
         level = LEVELS.get(parse.clean_text(r["School Level"]) or "", None)
         language = parse.clean_text(r["School Language"])
         stype = parse.clean_text(r["School Type"])
@@ -511,6 +511,7 @@ def build(clean: bool = False) -> dict:
         for bsid, r in sif[res["id"]]["rows"].items():
             if bsid in by_id and r["School Name"]:
                 name_index[school_key(r["School Name"])].add(bsid)
+                name_index[school_key(parse.tidy_school_name(r["School Name"]))].add(bsid)  # "Glenwood School School" as "Glenwood School"
     cs_by_school = defaultdict(list)
     matched, unmatched, ambiguous = 0, Counter(), 0
     for res in sources.CLASS_SIZE_RESOURCES:

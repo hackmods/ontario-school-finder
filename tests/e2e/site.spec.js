@@ -314,6 +314,26 @@ test.describe("pages", () => {
     expect(w.errors).toEqual([]);
   });
 
+  test("board page loads only its own area, not every board's", async ({ page }) => {
+    const geo = [];
+    page.on("request", (r) => { if (r.url().includes("/data/geo/")) geo.push(new URL(r.url()).pathname); });
+    await page.goto("/board/B28010/");
+    await page.locator('[data-map="board"]').scrollIntoViewIfNeeded();
+    await waitForMap(page);
+    await expect.poll(() => geo.length).toBeGreaterThan(0);
+    expect(geo).toEqual(["/data/geo/board/B28010.geojson"]);
+  });
+
+  test("school titles and descriptions fit a search result", async ({ page }) => {
+    for (const id of [SCHOOL, "382620", "135470", "052045"]) {
+      await page.goto(`/school/${id}/`);
+      expect((await page.title()).length).toBeLessThanOrEqual(70);
+      const desc = await page.locator('meta[name="description"]').getAttribute("content");
+      expect(desc.length).toBeLessThanOrEqual(160);
+      expect(desc).not.toMatch(/School School|Intermediate School Intermediate School/);
+    }
+  });
+
   test("map layers load on demand", async ({ page }) => {
     const w = watch(page);
     await page.goto("/map/");

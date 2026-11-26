@@ -4,6 +4,9 @@ import { getCompare, setCompare, MAX_COMPARE } from "./compare-store.js";
 import { lineChart, shortYear } from "./linechart.js";
 
 const root = qs("[data-compare-root]");
+// the full placeholder is cut off in a phone-width box, like the home and search boxes
+const addBox = qs("#cq");
+if (addBox && matchMedia("(max-width: 480px)").matches) addBox.placeholder = "Add a school";
 const COLORS = ["var(--s1)", "var(--s2)", "var(--s3)", "var(--s4)", "var(--s5)", "var(--s6)"];
 const ORDER = ["g3-reading", "g3-writing", "g3-math", "g6-reading", "g6-writing", "g6-math", "g9-math", "g9-math-academic", "g9-math-applied", "osslt"];
 const GRADES = ["JK", "K", "G1", "G2", "G3", "G4", "G5", "G6", "G7", "G8", "G9", "G10", "G11", "G12"];
@@ -34,6 +37,7 @@ async function load(ids) {
 }
 
 // ---------------------------------------------------------------- helpers
+const cap = (s) => (s ? s[0].toUpperCase() + s.slice(1) : "");
 const pct = (v) => (v == null ? "—" : `${v}%`);
 const num = (v) => (v == null ? "—" : Number(v).toLocaleString("en-CA"));
 const money = (v) => (v == null ? "—" : `$${Number(v).toLocaleString("en-CA")}`);
@@ -107,7 +111,7 @@ function overview(schools) {
   const rows = [
     { label: "Board", cells: schools.map((s) => `<a href="/board/${s.board_number}/">${esc(s.board_name)}</a>`), raw: schools.map((s) => s.board_name) },
     { label: "System", cells: schools.map((s) => esc(SYSTEMS[s.system] || "")), raw: schools.map((s) => SYSTEMS[s.system]) },
-    { label: "Level and grades", cells: schools.map((s) => `${esc(s.level)} · ${esc(s.grades || "")}`), raw: schools.map((s) => `${s.level} ${s.grades || ""}`) },
+    { label: "Level and grades", cells: schools.map((s) => `${esc(cap(s.level))} · ${esc(s.grades || "")}`), raw: schools.map((s) => `${cap(s.level)} ${s.grades || ""}`) },
     { label: "Language", cells: schools.map((s) => esc(s.language)), raw: schools.map((s) => s.language) },
     { label: "Special program", cells: schools.map((s) => esc(s.special || "—")), raw: schools.map((s) => s.special) },
     { label: "Address", cells: schools.map((s) => esc([s.address, s.city].filter(Boolean).join(", "))), raw: schools.map((s) => [s.address, s.city].filter(Boolean).join(", ")) },

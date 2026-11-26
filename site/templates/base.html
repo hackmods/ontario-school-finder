@@ -4,7 +4,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{% block title %}{{ title }}{% endblock %}{% if not home %} · Ontario School Finder{% endif %}</title>
+{# long school names drop the site name so the title still fits a search result (about 70 characters) #}
+<title>{% block title %}{{ title }}{% endblock %}{% if not home and (title|default("")|length) <= 46 %} · Ontario School Finder{% endif %}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ site_url }}{{ path }}">
 <meta name="theme-color" content="#0b5d4f" media="(prefers-color-scheme: light)">
@@ -16,6 +17,7 @@
 <meta property="og:url" content="{{ site_url }}{{ path }}">
 <meta property="og:image" content="{{ site_url }}{{ asset('img/og.png') }}">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="{{ asset('img/icon.svg') }}" type="image/svg+xml">
 <link rel="apple-touch-icon" href="{{ asset('img/icon-180.png') }}">
 <link rel="manifest" href="/manifest.webmanifest">

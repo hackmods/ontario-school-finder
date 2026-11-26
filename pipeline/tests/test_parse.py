@@ -84,3 +84,20 @@ def test_postal_and_fsa():
 def test_french_codes_map_to_their_english_meaning():
     assert parse.parse_pct("S. R.", context="t") == (None, "N/R")
     assert parse.parse_pct("A/D", context="t") == (None, "N/D")
+
+
+@pytest.mark.parametrize("raw, shown", [
+    ("Glenwood School School", "Glenwood School"),
+    ("B Davison Secondary School Secondary School", "B Davison Secondary School"),
+    ("Forest City Public School Public School", "Forest City Public School"),
+    ("LaSalle Intermediate School Intermediate School", "LaSalle Intermediate School"),
+    ("Holy Cross Catholic School School", "Holy Cross Catholic School"),
+    ("Kensington Community School School Junior", "Kensington Community School Junior"),
+    # different words are a different school, not a repeat
+    ("Trenton High School Elementary School", "Trenton High School Elementary School"),
+    ("Memorial Elementary School Public School", "Memorial Elementary School Public School"),
+    ("Anna McCrea Public School", "Anna McCrea Public School"),
+    (None, None),
+])
+def test_repeated_school_phrase_is_shown_once(raw, shown):
+    assert parse.tidy_school_name(raw) == shown

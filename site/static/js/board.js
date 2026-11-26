@@ -7,9 +7,9 @@ const container = document.querySelector('[data-map="board"]');
 if (data && container) {
   lazyMap(container, { map: { center: [-79.4, 44], zoom: 6 } }, async (map, gl) => {
     try {
-      const fc = await fetch(dataUrl("/data/geo/boards.geojson")).then((r) => r.json());
-      const mine = { type: "FeatureCollection", features: fc.features.filter((f) => f.properties.board === data.board) };
-      if (mine.features.length) addArea(map, "board-area", mine, { color: LAYER_COLORS.board, fill: 0.08 });
+      // just this board's area (about 10 KB), not every board's (1.7 MB)
+      const mine = await fetch(dataUrl(`/data/geo/board/${encodeURIComponent(data.board)}.geojson`)).then((r) => (r.ok ? r.json() : null));
+      if (mine?.features?.length) addArea(map, "board-area", mine, { color: LAYER_COLORS.board, fill: 0.08 });
     } catch { /* area is optional */ }
     addSchoolLayer(map, gl, "schools", pointsFC(data.schools), { radius: 5 });
     if (data.schools.length) map.fitBounds(boundsOf(data.schools.map((s) => [s.x, s.y])), { padding: 40, maxZoom: 13, duration: 0 });
