@@ -5,6 +5,7 @@ import csv
 import io
 import json
 import re
+import time
 import zipfile
 from collections import Counter
 from datetime import date, datetime
@@ -369,12 +370,19 @@ def _fsa_from_mirror(res: dict):
         page = 40
         expected = fetch.get_json(res["mirror"] + "/query", params={"where": "PRUID='35'", "returnCountOnly": "true", "f": "json"}).get("count")
         while True:
-            js = fetch.get_json(res["mirror"] + "/query", params={
-                "where": "PRUID='35'", "outFields": "CFSAUID,PRUID", "outSR": "4326", "f": "geojson",
-                # ~10 m generalization on the server: plenty for web maps and point-in-polygon checks
-                "maxAllowableOffset": "0.0001", "geometryPrecision": "5",
-                "resultOffset": offset, "resultRecordCount": page, "orderByFields": "CFSAUID",
-            })
+            for attempt in range(4):
+                js = fetch.get_json(res["mirror"] + "/query", params={
+                    "where": "PRUID='35'", "outFields": "CFSAUID,PRUID", "outSR": "4326", "f": "geojson",
+                    # ~10 m generalization on the server: plenty for web maps and point-in-polygon checks
+                    "maxAllowableOffset": "0.0001", "geometryPrecision": "5",
+                    "resultOffset": offset, "resultRecordCount": page, "orderByFields": "CFSAUID",
+                })
+                # The service has a per-minute quota for large-geometry queries (shared, it seems: a clean
+                # rebuild hit it on 2026-11-26 with ~13 requests). It says "Retry after 60 sec": do that.
+                if (js.get("error") or {}).get("code") == 429 and attempt < 3:
+                    time.sleep(65)
+                    continue
+                break
             if "error" in js:
                 raise SourceUnavailable(f"fsa-boundary-2021 mirror query failed: {js['error']}")
             got = js.get("features", [])

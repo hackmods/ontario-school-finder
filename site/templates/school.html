@@ -265,14 +265,14 @@
         {% if b.withheld %}
         <p class="muted" style="margin:0"><span class="badge">Withheld to protect privacy</span> EQAO doesn’t report this school’s answers because too few students took part. <a class="ref" href="#src-{{ b.source_id }}">source</a></p>
         {% else %}
-        <div class="table-wrap"><table class="sq-table">
+        <div class="table-wrap"><table class="sq-table ctx-table">
           <caption class="visually-hidden">{{ b.grade }}, {{ b.year }}: share of students who agreed</caption>
           <thead><tr><th scope="col">Students who said</th><th scope="col" class="n">This school</th><th scope="col" class="n">Whole board</th><th scope="col" class="n">Ontario</th></tr></thead>
           <tbody>
           {% for it in b.rows %}
             <tr><th scope="row">“{{ it.question }}”<div class="small muted">{{ it.label }}: {{ it.agree|join(" or ")|lower }}</div></th>
-              <td class="n">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}%</b>{% if it.n %}<div class="small muted">of {{ it.n }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}</td>
-              <td class="n">{{ pct(it.board_pct) }}</td><td class="n">{{ pct(it.province_pct) }}</td></tr>
+              <td class="n" data-label="This school">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}%</b>{% if it.n %}<div class="small muted">of {{ it.n }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}</td>
+              <td class="n" data-label="Whole board">{{ pct(it.board_pct) }}</td><td class="n" data-label="Ontario">{{ pct(it.province_pct) }}</td></tr>
           {% endfor %}
           </tbody>
         </table></div>

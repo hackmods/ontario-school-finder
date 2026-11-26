@@ -95,7 +95,7 @@
       "records": [
         {"id": "ncdsb-register", "topic": "registration", "kind": "process", "applies": ["elementary", "secondary"], "lifecycle": "rules",
          "title": "Welcome to Niagara Catholic (registration)", "url": "https://www.niagaracatholic.ca/welcome_to_niagara_catholic",
-         "summary": "Start online, then finish at the school in person with your child's birth certificate, a baptism record (the child's or a parent's), proof of address and any custody papers. Baptized Catholic children, and children with a Catholic parent, are entitled to attend a Catholic elementary school; the board also accepts other children at the principal's discretion. Students do not need to be Catholic to attend a Niagara Catholic high school.",
+         "summary": "Start online, then finish at the school in person with your child's birth certificate, a baptism record (the child's or a parent's), proof of address and any custody papers. Baptized Catholic children, and children with a Catholic parent, are entitled to attend a Catholic elementary school; the board accepts other children at the principal's discretion, as space is available. Students do not need to be Catholic to attend a Niagara Catholic high school.",
          "related": [{"title": "Kindergarten registration instructions", "url": "https://www.niagaracatholic.ca/programs/kindergarten/registration_instructions"}],
          "verified": "2026-11-26"},
         {"id": "ncdsb-admission", "topic": "transfer", "kind": "process", "applies": ["elementary", "secondary"], "lifecycle": "rules",
