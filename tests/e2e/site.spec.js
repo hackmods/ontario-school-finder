@@ -137,10 +137,8 @@ test.describe("pages", () => {
     const w = watch(page);
     await page.goto("/map/");
     await waitForMap(page);
-    await page.locator('input[name="area"][value="nearest"]').check();
-    await page.waitForResponse((r) => r.url().includes("/data/geo/nearest-"));
-    await page.locator('input[name="area"][value="fsa"]').check();
-    await page.waitForResponse((r) => r.url().includes("/data/geo/fsa.geojson"));
+    await Promise.all([page.waitForResponse((r) => r.url().includes("/data/geo/nearest-")), page.locator('input[name="area"][value="nearest"]').check()]);
+    await Promise.all([page.waitForResponse((r) => r.url().includes("/data/geo/fsa.geojson")), page.locator('input[name="area"][value="fsa"]').check()]);
     expect(w.errors).toEqual([]);
   });
 

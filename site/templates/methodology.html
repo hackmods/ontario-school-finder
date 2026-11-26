@@ -56,16 +56,16 @@
 
 <h2 id="sources">Sources and licences</h2>
 <p>Retrieved automatically by the data pipeline. Each school page lists only the files its numbers come from.</p>
-<div class="table-wrap"><table>
+<div class="table-wrap"><table class="stack-table">
   <thead><tr><th scope="col">#</th><th scope="col">Dataset</th><th scope="col">Status</th><th scope="col">Licence</th><th scope="col">Retrieved</th></tr></thead>
   <tbody>
   {% for d in datasets %}
     <tr id="dataset-{{ d.key }}"><td class="tnum">{{ d.brief_no }}</td>
       <td><strong>{% if d.landing %}<a href="{{ d.landing }}" rel="noopener">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}</strong><div class="small muted">{{ d.publisher }}. {{ d.used_for }}</div>
         {% if d.files %}<details class="data-table"><summary>{{ d.files|length }} file{{ "" if d.files|length == 1 else "s" }}</summary><ul class="small">{% for f in d.files %}<li><a href="{{ f.url }}" rel="noopener">{{ f.source_id }}</a>{% if f.year %} — {{ f.year }}{% endif %}{% if f.retrieved %}, retrieved {{ f.retrieved }}{% endif %}{% if f.note %}. {{ f.note }}{% endif %}</li>{% endfor %}</ul></details>{% endif %}</td>
-      <td>{% if d.status == "used" %}<span class="badge badge-brand">Used</span>{% elif d.status == "skipped" %}<span class="badge badge-warn">Skipped</span>{% else %}<span class="badge">Later</span>{% endif %}</td>
-      <td>{% if d.licence_url %}<a href="{{ d.licence_url }}" rel="noopener">{{ d.licence }}</a>{% else %}{{ d.licence }}{% endif %}</td>
-      <td class="tnum">{{ d.retrieved or "—" }}</td></tr>
+      <td data-label="Status">{% if d.status == "used" %}<span class="badge badge-brand">Used</span>{% elif d.status == "skipped" %}<span class="badge badge-warn">Skipped</span>{% else %}<span class="badge">Later</span>{% endif %}</td>
+      <td data-label="Licence">{% if d.licence_url %}<a href="{{ d.licence_url }}" rel="noopener">{{ d.licence }}</a>{% else %}{{ d.licence }}{% endif %}</td>
+      <td class="tnum" data-label="Retrieved">{{ d.retrieved or "—" }}</td></tr>
   {% endfor %}
   </tbody>
 </table></div>

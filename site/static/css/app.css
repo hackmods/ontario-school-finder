@@ -545,3 +545,10 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 .crumbs { margin-bottom: 6px; }
 .site-footer li a { min-height: 44px; }
 .search-sm .search-box input { min-height: 44px; }
+.facts { grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 10px 20px; }
+@media (max-width: 640px) {
+  .stack-table thead { display: none; }
+  .stack-table tr { display: block; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .stack-table td { display: block; border: 0; padding: 3px 0; }
+  .stack-table td[data-label]::before { content: attr(data-label) ": "; color: var(--ink-3); font-weight: 600; font-size: .85rem; }
+}

@@ -478,7 +478,8 @@ def copy_static_and_data() -> None:
 def precompress() -> int:
     n = 0
     for p in DIST.rglob("*"):
-        if p.is_file() and p.suffix in (".html", ".css", ".js", ".json", ".geojson", ".svg", ".xml", ".csv", ".txt", ".md", ".webmanifest"):
+        # HTML is compressed on the fly by nginx; precompress the big shared assets only
+        if p.is_file() and p.suffix in (".css", ".js", ".json", ".geojson", ".svg", ".xml", ".csv", ".md", ".webmanifest"):
             if p.stat().st_size < 8192 or "/data/schools/" in p.as_posix() or "/data/fsa/" in p.as_posix() or "/data/boards/" in p.as_posix():
                 continue
             data = p.read_bytes()
