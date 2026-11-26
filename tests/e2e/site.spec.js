@@ -380,12 +380,14 @@ test.describe("home map answers the search box", () => {
 
 test.describe("deploys reach returning visitors at once", () => {
   // Scripts, the map library, data and generated pictures are cached for a year, so every request for
-  // them must carry the build's ?v=. An unversioned one could pair a new page with an old cached copy.
+  // them must carry the build's ?v= (or, for a vendored library's own chunks, sit in a version-named
+  // folder like /static/vendor/maplibre/6.4.1/). Anything else could pair a new page with an old copy.
   test("every script, map library, data and picture request is versioned", async ({ page }) => {
     const unversioned = new Set();
     page.on("request", (r) => {
       const u = new URL(r.url());
       if (u.origin !== new URL(page.url() || r.url()).origin) return;
+      if (/^\/static\/vendor\/[\w-]+\/\d+\.\d+\.\d+\//.test(u.pathname)) return;
       if (/^\/(static\/(js|vendor|img|css)|data)\//.test(u.pathname) && !u.searchParams.get("v")) unversioned.add(u.pathname);
     });
     await page.goto("/");

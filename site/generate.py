@@ -125,12 +125,28 @@ _IMPORT_RE = re.compile(r"""((?:\bfrom|\bimport)\s*\(?\s*)(["'])(\./[\w.-]+\.js)
 _VENDOR_RE = re.compile(r"""(["'])(/static/vendor/[^"'?]+)\1""")
 
 
+def maplibre_dir() -> str:
+    """The vendored MapLibre folder, `vendor/maplibre/<version>` (scripts/vendor.mjs keeps exactly one),
+    checked against the path site/static/js/maps.js loads so an upgrade can't ship half done."""
+    root = STATIC / "vendor" / "maplibre"
+    found = sorted(d.name for d in root.iterdir() if d.is_dir()) if root.exists() else []
+    if len(found) != 1:
+        raise SystemExit(f"expected one MapLibre version in {root}, found {found or 'none'}: run `npm run vendor`")
+    rel = f"vendor/maplibre/{found[0]}"
+    if f"/static/{rel}/maplibre-gl.mjs" not in (STATIC / "js" / "maps.js").read_text(encoding="utf-8"):
+        raise SystemExit(f"site/static/js/maps.js doesn't load /static/{rel}/maplibre-gl.mjs: update LIB there")
+    return rel
+
+
 def version_scripts(js_dir: Path, v: str) -> int:
     """Give every relative import and vendor URL in the copied scripts the build's script version."""
     n = 0
     for p in js_dir.glob("*.js"):
         src = p.read_text(encoding="utf-8")
         out, k1 = _IMPORT_RE.subn(lambda m: f"{m[1]}{m[2]}{m[3]}?v={v}{m[2]}", src)
+        for m in _VENDOR_RE.finditer(out):
+            if not (js_dir.parent / m[2].removeprefix("/static/")).is_file():
+                raise SystemExit(f"{p.name} refers to {m[2]}, which isn't in site/static")
         out, k2 = _VENDOR_RE.subn(lambda m: f"{m[1]}{m[2]}?v={v}{m[1]}", out)
         if k1 or k2:
             p.write_text(out, encoding="utf-8")
@@ -168,7 +184,7 @@ class Site:
         self.env.globals.update(
             asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, contact_email=CONTACT_EMAIL, source_series=source_series, repo_url=REPO_URL,
             code_text=lambda c: codes.get(c, {}).get("explain", "") if c else "",
-            locators=loc["boards"], locators_checked=loc["checked"],
+            locators=loc["boards"], locators_checked=loc["checked"], maplibre_dir=maplibre_dir(),
         )
         self.env.filters["month_year"] = lambda ym: datetime.strptime(ym, "%Y-%m").strftime("%B %Y") if ym else ""
         self.pages = 0
@@ -650,7 +666,7 @@ def precompress() -> int:
     n = 0
     for p in DIST.rglob("*"):
         # HTML is compressed on the fly by nginx; precompress the big shared assets only
-        if p.is_file() and p.suffix in (".css", ".js", ".json", ".geojson", ".svg", ".xml", ".csv", ".md", ".webmanifest"):
+        if p.is_file() and p.suffix in (".css", ".js", ".mjs", ".json", ".geojson", ".svg", ".xml", ".csv", ".md", ".webmanifest"):
             if p.stat().st_size < 8192 or "/data/schools/" in p.as_posix() or "/data/fsa/" in p.as_posix() or "/data/boards/" in p.as_posix():
                 continue
             data = p.read_bytes()

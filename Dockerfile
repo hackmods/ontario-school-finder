@@ -2,7 +2,7 @@
 # deploy.sh packs site/dist into one archive (site.tar.gz) so the build context is a handful of files.
 FROM nginx:1.27-alpine
 RUN rm -f /etc/nginx/conf.d/default.conf \
- && printf 'types { application/geo+json geojson; application/manifest+json webmanifest; text/markdown md; text/csv csv; }\n' > /etc/nginx/conf.d/00-types.conf
+ && printf 'types { application/javascript mjs; application/geo+json geojson; application/manifest+json webmanifest; text/markdown md; text/csv csv; }\n' > /etc/nginx/conf.d/00-types.conf
 COPY deploy/nginx.conf /etc/nginx/conf.d/site.conf
 COPY deploy/security-headers.conf /etc/nginx/security-headers.conf
 ADD site.tar.gz /usr/share/nginx/html/
