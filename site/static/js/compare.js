@@ -126,7 +126,7 @@ function eqao(schools) {
       if (pts.length < 2) return null;
       return { d: +(pts[pts.length - 1].pct_at_or_above_standard - pts[0].pct_at_or_above_standard).toFixed(1), from: pts[0].year, to: pts[pts.length - 1].year };
     });
-    rows.push({ label: "<b>Change over the period</b>", sub: "first to latest result", year: "change", cells: trend.map((t) => (t ? `<b>${t.d > 0 ? "+" : t.d < 0 ? "−" : "±"}${Math.abs(t.d)} pts</b><div class="small muted">${esc(t.from)}–${esc(t.to.slice(-2))}</div>` : "—")), raw: trend.map((t) => (t ? t.d : null)), extra: "" });
+    rows.push({ label: "<b>Change over the period</b>", sub: "first to latest result", year: "change", cells: trend.map((t) => (t ? `<b>${t.d > 0 ? "+" : t.d < 0 ? "−" : "±"}${Math.abs(t.d)} pt${Math.abs(t.d) === 1 ? "" : "s"}</b><div class="small muted">${esc(t.from)}–${esc(t.to.slice(-2))}</div>` : "—")), raw: trend.map((t) => (t ? t.d : null)), extra: "" });
     html += `<figure class="chart-card cmp-chart" style="margin:16px 0 0" id="cmp-${a}">
       <h3>${esc(info.grade)} · ${esc(info.subject)}</h3>
       ${legend(schools, state.opts.prov ? ['<li><i class="l-prov"></i>Ontario median</li>'] : [])}
