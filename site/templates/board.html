@@ -11,7 +11,8 @@
         <h1>{{ b.name }}</h1>
         <p class="muted" style="margin:0">{{ b.full_type }}{% if b.sbpr_city %} · Head office in {{ b.sbpr_city }}{% endif %}</p>
       </div>
-      <div class="head-actions">{% if b.website %}<a class="btn btn-primary" href="{{ b.website }}" rel="noopener">{{ icon("globe") }}Board website &amp; school locator</a>{% endif %}</div>
+      {%- set loc = locators.get(b.number) %}
+      <div class="head-actions">{% if loc %}<a class="btn btn-primary" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ "Boundary maps" if loc.kind == "maps" else "Which school serves an address" }}</a>{% endif %}{% if b.website %}<a class="btn{% if not loc %} btn-primary{% endif %}" href="{{ b.website }}" rel="noopener">{{ icon("globe") }}Board website</a>{% endif %}</div>
     </div>
   </div>
 </div>
@@ -21,6 +22,7 @@
     <div class="kpis">
       <div class="kpi"><div class="k">Schools</div><div class="v">{{ b.schools|length }}</div><div class="d">{{ b.levels.get("elementary", 0) }} elementary · {{ b.levels.get("secondary", 0) }} secondary</div></div>
       <div class="kpi"><div class="k">Students, {{ b.enrolment_total.year }}</div><div class="v">{{ "{:,}".format(b.enrolment_total.value) }}</div><div class="d">Sum of school enrolments{% if b.enrolment_total.schools_suppressed %}; {{ b.enrolment_total.schools_suppressed }} small school{{ "" if b.enrolment_total.schools_suppressed == 1 else "s" }} withheld{% endif %}</div></div>
+      {% if spend_view %}<div class="kpi"><div class="k">Spending per student</div><div class="v">${{ "{:,}".format(spend_view.per_student) }}</div><div class="d">{{ spend_view.year }} · <a href="#context">what it pays for</a></div></div>{% endif %}
       {% if b.area %}<div class="kpi"><div class="k">Approximate area</div><div class="v">{{ "{:,}".format(b.area.area_km2) }} <small>km²</small></div><div class="d">Drawn from school locations</div></div>{% endif %}
       {% for k in headline %}<div class="kpi"><div class="k">{{ k.label }}</div><div class="v">{% if k.value is not none %}{{ k.value }}%{% else %}<span class="code">{{ k.code }}</span>{% endif %}</div><div class="d">{{ k.year_label }} · official</div></div>{% endfor %}
     </div>
@@ -48,6 +50,56 @@
       <tbody>{% for row in indicators %}<tr><th scope="row" style="font-weight:550">{{ row.label }}</th>{% for c in row.cells %}<td class="n">{% if c %}{% if c.value is not none %}{{ c.value }}{{ "%" if not row.change else " pts" }}{% else %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% endif %}<div class="small muted">{{ c.year_label }}</div>{% else %}—{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
     </table></div>
     <p class="small muted" style="margin:8px 0 0">Sources: {% for r in indicator_releases %}<a href="#src-{{ r.source_id }}">{{ r.source_id }}</a>{{ ", " if not loop.last }}{% endfor %}. “Change” rows are the Ministry’s own progress figures in percentage points.</p></div>
+  </div>
+</section>
+{% endif %}
+
+{% if spend_view or safe_view or fsl_enrol %}
+<section class="block" id="context">
+  <div class="wrap">
+    <h2>Board context</h2>
+    <p class="block-intro">How the board spends its money, how often students are suspended, and how many take French programs. These describe the whole board, not any one school.</p>
+    <div class="grid grid-2 grid-top">
+      {% if spend_view %}
+      <div class="card">
+        <h3>{{ icon("building", "card-ic") }}Spending per student <span class="badge">{{ spend_view.year }}</span></h3>
+        <p class="ctx-big"><b class="tnum">${{ "{:,}".format(spend_view.per_student) }}</b> <span class="muted">per student · Ontario’s middle board: ${{ "{:,}".format(spend_view.ontario_median|int) }}</span></p>
+        <ul class="spend-list">
+          {% for p in spend_view.parts %}<li><span class="lab">{{ p.label }}<span class="d">{{ p.what }}</span></span><span class="bar" aria-hidden="true"><i style="width:{{ p.pct }}%"></i></span><span class="tnum v">${{ "{:,}".format(p.v) }}</span></li>{% endfor %}
+        </ul>
+        <p class="small muted" style="margin:10px 0 0">Actual 2024-25 spending from the board’s financial statements, divided by its average daily enrolment ({{ "{:,}".format(spend_view.ade) }} students). Boards in the north and with many small or rural schools spend more per student. <a class="ref" href="#src-{{ spend_view.source_id }}">source</a> · For school building condition and space, see the Financial Accountability Office’s <a href="https://www.fao-on.org/en/report/school-boards-capital-2024/" rel="noopener">2024 report on school boards’ buildings</a>.</p>
+      </div>
+      {% endif %}
+      {% if safe_view %}
+      <div class="card">
+        <h3>{{ icon("shield", "card-ic") }}Suspensions <span class="badge">{{ safe_view.rows[0].year }} to {{ safe_view.last.year }}</span></h3>
+        <p class="ctx-big"><b class="tnum">{{ safe_view.last.rate }}%</b> <span class="muted">of students suspended in {{ safe_view.last.year }} · Ontario: {{ safe_view.last.province_rate }}%</span></p>
+        <ul class="legend-inline"><li><i class="l-school"></i>{{ b.name }}</li><li><i class="l-prov"></i>Ontario</li></ul>
+        <div class="chart">{{ safe_view.svg|safe }}</div>
+        <details class="data-table"><summary>Show the numbers</summary><div class="table-wrap"><table>
+          <thead><tr><th scope="col">Year</th><th scope="col" class="n">Students suspended</th><th scope="col" class="n">Rate</th><th scope="col" class="n">Students expelled</th><th scope="col" class="n">Ontario rate</th></tr></thead>
+          <tbody>{% for r in safe_view.rows|reverse %}<tr><th scope="row">{{ r.year }}</th>
+            <td class="n">{% if r.count is not none %}{{ "{:,}".format(r.count) }}{% else %}<span class="code">{{ r.count_code }}</span>{% endif %}</td>
+            <td class="n">{{ (r.rate|string ~ "%") if r.rate is not none else "—" }}</td>
+            <td class="n">{% if r.expelled is not none %}{{ "{:,}".format(r.expelled) }}{% elif r.expelled_code and r.expelled_code != "BLANK" %}<span class="code">{{ r.expelled_code }}</span>{% else %}—{% endif %}</td>
+            <td class="n">{{ (r.province_rate|string ~ "%") if r.province_rate is not none else "—" }}</td></tr>{% endfor %}</tbody>
+        </table></div></details>
+        <p class="small muted" style="margin:8px 0 0">Share of the board’s students suspended at least once in the school year. 2021-22 is the latest year the Ministry has published; schools were closed for part of 2019-20 and 2020-21. <a class="ref" href="#src-{{ b.context.safe.source_ids[0] }}">source</a></p>
+      </div>
+      {% endif %}
+      {% if fsl_enrol %}
+      <div class="card">
+        <h3>{{ icon("check", "card-ic") }}French programs <span class="badge">{{ fsl_enrol.year }}</span></h3>
+        {% if fsl_enrol.immersion_share is not none %}<p class="ctx-big"><b class="tnum">{{ fsl_enrol.immersion_share }}%</b> <span class="muted">of the board’s students are in French Immersion</span></p>{% endif %}
+        <dl class="glance glance-row">
+          <div><dt>French Immersion</dt><dd class="tnum">{{ "{:,}".format(fsl_enrol.immersion) if fsl_enrol.immersion is not none else "—" }}</dd></div>
+          <div><dt>Extended French</dt><dd class="tnum">{{ "{:,}".format(fsl_enrol.extended) if fsl_enrol.extended else "—" }}</dd></div>
+          <div><dt>Core French</dt><dd class="tnum">{{ "{:,}".format(fsl_enrol.core) if fsl_enrol.core is not none else "—" }}</dd></div>
+        </dl>
+        <p class="small muted" style="margin:10px 0 0">Students enrolled in each French-as-a-second-language program, elementary and secondary. Each school page says which programs it offers. <a class="ref" href="#src-{{ fsl_enrol.source_id }}">source</a></p>
+      </div>
+      {% endif %}
+    </div>
   </div>
 </section>
 {% endif %}
@@ -106,7 +158,7 @@
         {% if az %}<h3 class="az-letter" aria-hidden="true">{{ g.letter }}</h3>{% endif %}
         <ul class="list">
         {% for s in g.schools %}
-          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.level|capitalize }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ s.special }}{% endif %}</span></span><span class="side">{% if s.enrol is not none %}{{ "{:,}".format(s.enrol) }}<br><span class="small">students</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
+          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.level|capitalize }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ s.special }}{% endif %}{% if s.fi %} · French Immersion{% endif %}</span></span><span class="side">{% if s.enrol is not none %}{{ "{:,}".format(s.enrol) }}<br><span class="small">students</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
         {% endfor %}
         </ul>
       </div>

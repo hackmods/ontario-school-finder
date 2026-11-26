@@ -168,6 +168,36 @@ def build(clean: bool = False) -> dict:
         log(f"loading {res['id']} (class lists)")
         csize[res["id"]] = loaders.load_class_size(res)
         rep.count(res["id"], csize[res["id"]]["stats"]["school_years"], "school-years of elementary class lists")
+    log(f"loading {sources.FSL_RESOURCE['id']} (French programs)")
+    fsl = loaders.load_fsl(sources.FSL_RESOURCE)
+    rep.count(sources.FSL_RESOURCE["id"], fsl["stats"]["schools"], "English-language schools with French program flags")
+    log(f"loading {sources.SHSM_RESOURCE['id']} (Specialist High Skills Majors)")
+    shsm = loaders.load_shsm(sources.SHSM_RESOURCE)
+    rep.count(sources.SHSM_RESOURCE["id"], shsm["stats"]["programs"], f"SHSM programs at {shsm['stats']['schools']} schools")
+    eqao_open = {}
+    for res in sources.EQAO_OPEN_RESOURCES:
+        log(f"loading {res['id']} (EQAO open data)")
+        eqao_open[res["id"]] = loaders.load_eqao_open(res)
+        rep.count(res["id"], eqao_open[res["id"]]["stats"]["schools"], "schools in EQAO's file")
+        rep.suppressed[res["id"]] = {k: v for k, v in eqao_open[res["id"]]["stats"].items() if k.startswith("code_")}
+    log("loading board context (suspensions, expulsions, spending, French enrolment)")
+    susp = loaders.load_board_rates(sources.SUSPENSION_RESOURCE, what="suspension")
+    expul = loaders.load_board_rates(sources.EXPULSION_RESOURCE, what="expulsion")
+    finance = loaders.load_finance(sources.FINANCE_RESOURCE)
+    fsl_enrol = loaders.load_fsl_enrolment(sources.FSL_ENROL_RESOURCE)
+    rep.count(sources.SUSPENSION_RESOURCE["id"], susp["stats"]["boards"], "boards with suspension rates")
+    rep.count(sources.FINANCE_RESOURCE["id"], finance["stats"]["boards"], "boards with 2024-25 spending")
+    spend_median = median([v["per_student"] for v in finance["boards"].values()])  # the middle board in Ontario
+    rep.count(sources.FSL_ENROL_RESOURCE["id"], fsl_enrol["stats"]["boards"], "boards with French program enrolment")
+    log("loading EarlyON centres and Student Nutrition Program sites")
+    earlyon = loaders.load_earlyon(sources.EARLYON_RESOURCE)
+    nutrition = loaders.load_nutrition(sources.NUTRITION_RESOURCE)
+    rep.count(sources.EARLYON_RESOURCE["id"], earlyon["stats"]["sites"], "EarlyON sites")
+    rep.count(sources.NUTRITION_RESOURCE["id"], nutrition["stats"]["schools"], "schools on the 2017 Student Nutrition Program list")
+    eo_by_fsa = defaultdict(list)
+    for x in earlyon["rows"]:
+        if x["fsa"]:
+            eo_by_fsa[x["fsa"]].append(x)
 
     log("loading child care")
     childcare = loaders.load_childcare(sources.CHILDCARE_RESOURCE)
@@ -341,11 +371,47 @@ def build(clean: bool = False) -> dict:
                 if v is not None:
                     eqao_rows[(aid, res["eqao_year"], bn)].append(v)
                     prov_rows[(aid, res["eqao_year"], lang)].append(v)
+    # EQAO's own open data for years the Ministry's school file doesn't have yet (same measure:
+    # checked school by school against SIF 2024-25). Board and language come from the school list.
+    sif_years = {res["eqao_year"] for res in sif_eqao}
+    open_eqao = [res for res in sources.EQAO_OPEN_RESOURCES if res["year"] not in sif_years]
+    for res in open_eqao:
+        for bsid, r in eqao_open[res["id"]]["rows"].items():
+            mine = by_id.get(bsid)
+            bn = mine["board_number"] if mine else r["board"]
+            lang = mine["language"] if mine else r["language"]
+            for aid, rec in r["results"].items():
+                if rec["v"] is not None:
+                    eqao_rows[(aid, res["year"], bn)].append(rec["v"])
+                    prov_rows[(aid, res["year"], lang)].append(rec["v"])
+    # every EQAO year on the site, newest first, with the source of each assessment's figure
+    def _open_source(year):
+        by_grade = {r["grade"]: r["id"] for r in open_eqao if r["year"] == year}
+        return lambda aid: by_grade.get(loaders.ASSESSMENTS[aid]["grade"].replace("Grade ", ""))
+    eqao_years_all = [(y, _open_source(y)) for y in sorted({r["year"] for r in open_eqao}, reverse=True)]
+    eqao_years_all += [(res["eqao_year"], (lambda aid, i=res["id"]: i)) for res in sif_eqao]
+    rep.eqao_open = {res["id"]: {"schools": len(eqao_open[res["id"]]["rows"]),
+                                 "matched": sum(1 for b in eqao_open[res["id"]]["rows"] if b in by_id)} for res in open_eqao}
     board_median = {k: (median(v), len(v)) for k, v in eqao_rows.items() if len(v) >= 3}
     prov_median = {k: (median(v), len(v)) for k, v in prov_rows.items()}
 
     for s in schools:
         series = []
+        for res in open_eqao:  # newest years first, like the SIF loop below
+            r = eqao_open[res["id"]]["rows"].get(s["bsid"])
+            for aid, rec in (r["results"] if r else {}).items():
+                bm = board_median.get((aid, res["year"], s["board_number"]))
+                pm = prov_median.get((aid, res["year"], s["language"]))
+                a = loaders.ASSESSMENTS[aid]
+                series.append({
+                    "year": res["year"], "assessment": aid, "grade": a["grade"], "subject": a["subject"],
+                    "pct_at_or_above_standard": rec["v"],
+                    "board_median": bm[0] if bm else None, "board_n": bm[1] if bm else None,
+                    "province_median": pm[0] if pm else None, "province_n": pm[1] if pm else None,
+                    **parse.flags(rec["code"]), "source_id": res["id"],
+                    # the extra detail EQAO publishes: share at levels 4, 3, 2, 1 and how many took part
+                    "levels": rec["levels"], "participation": rec["participation"],
+                })
         for res in sif_eqao:
             r = sif[res["id"]]["rows"].get(s["bsid"])
             if not r:
@@ -418,6 +484,26 @@ def build(clean: bool = False) -> dict:
                 series.append({"year": res["year"], "grades": hit["grades"], "codes": hit["codes"], "source_id": res["id"]})
         s["grade_enrolment"] = series
 
+    # ---------------- programs: French as a second language, SHSM (joined on school number) ----------------
+    fr, sr = sources.FSL_RESOURCE, sources.SHSM_RESOURCE
+    for s in schools:
+        f = fsl["rows"].get(s["bsid"])
+        sh = shsm["rows"].get(s["bsid"])
+        meals = nutrition["rows"].get(s["bsid"])
+        s["programs"] = {
+            "fsl": {**f, "year": fr["year"], "source_id": fr["id"]} if f else None,
+            "shsm": {"year": sr["year"], "source_id": sr["id"], "sectors": sh} if sh else None,
+            "nutrition": {"meals": meals, "year": sources.NUTRITION_RESOURCE["year"], "source_id": sources.NUTRITION_RESOURCE["id"]} if meals else None,
+        }
+        s["earlyon_in_fsa"] = len(eo_by_fsa.get(s["fsa"], []))
+    known = {s["bsid"] for s in schools}
+    rep.programs = {
+        "fsl_matched": sum(1 for s in schools if s["programs"]["fsl"]),
+        "fsl_unmatched": sorted(set(fsl["rows"]) - known),
+        "shsm_matched": sum(1 for s in schools if s["programs"]["shsm"]),
+        "shsm_unmatched": sorted(set(shsm["rows"]) - known),
+    }
+
     # ---------------- class sizes (matched by board + school name) ----------------
     log("class sizes: matching class lists to schools by name")
     name_index = defaultdict(set)
@@ -488,6 +574,9 @@ def build(clean: bool = False) -> dict:
         used = {s["coord_source"], s["contact_source"], s["context"]["source_id"], s["childcare"]["source_id"]}
         used |= {e["source_id"] for e in s["eqao"]} | {e["source_id"] for e in s["enrolment"]}
         used |= {e["source_id"] for e in s["grade_enrolment"]} | {e["source_id"] for e in s["class_size"]}
+        used |= {p["source_id"] for p in s["programs"].values() if p}
+        if s["earlyon_in_fsa"]:
+            used.add(sources.EARLYON_RESOURCE["id"])
         used.discard("geocoder")
         s["sources"] = [src_table[i] for i in sorted(used) if i in src_ids]
 
@@ -517,6 +606,25 @@ def build(clean: bool = False) -> dict:
                                 "schools_counted": sum(1 for x in vals if x and x[0] is not None),
                                 "schools_suppressed": sum(1 for x in vals if x and x[0] is None),
                                 "year": sources.ENROL_RESOURCES[0]["year"], "source_id": latest_enrol}
+        # ---- board context: spending, suspensions/expulsions, French program enrolment ----
+        fin = finance["boards"].get(bn)
+        sus = susp["boards"].get(bn, {})
+        exp = expul["boards"].get(bn, {})
+        fe = fsl_enrol["boards"].get(bn)
+        enrol_year_total = b["enrolment_total"]["value"] if b["enrolment_total"]["year"] == sources.FSL_ENROL_RESOURCE["year"] else None
+        b["context"] = {
+            "spending": {**fin, "year": sources.FINANCE_RESOURCE["year"], "source_id": sources.FINANCE_RESOURCE["id"],
+                         "ontario_median": spend_median} if fin else None,
+            "safe": {
+                "series": [{"year": y, "rate": sus.get(y, {}).get("rate"), "rate_code": sus.get(y, {}).get("rate_code"),
+                            "count": sus.get(y, {}).get("count"), "count_code": sus.get(y, {}).get("count_code"),
+                            "expelled": exp.get(y, {}).get("count"), "expelled_code": exp.get(y, {}).get("count_code"),
+                            "province_rate": susp["province"].get(y, {}).get("rate")} for y in susp["years"] if y in sus],
+                "source_ids": [sources.SUSPENSION_RESOURCE["id"], sources.EXPULSION_RESOURCE["id"]],
+            } if sus else None,
+            "fsl_enrolment": {**fe, "year": sources.FSL_ENROL_RESOURCE["year"], "source_id": sources.FSL_ENROL_RESOURCE["id"],
+                              "immersion_share": round(100 * fe["immersion"] / enrol_year_total, 1) if enrol_year_total else None} if fe else None,
+        }
         b["indicators"] = []
         for res in sources.SBPR_RESOURCES:
             row = sbpr[res["id"]]["rows"].get(bn)
@@ -527,14 +635,14 @@ def build(clean: bool = False) -> dict:
         b["class_size_medians"] = [{"year": y, "primary_median": median(v), "n": len(v), "province_median": median(cs_prov.get((b["language"], y), []))}
                                    for (bn2, y), v in sorted(cs_board.items()) if bn2 == bn and len(v) >= 3]
         b["eqao_medians"] = []
-        for res in sif_eqao:
+        for year, src_of in eqao_years_all:
             for aid in loaders.ASSESSMENTS:
-                bm = board_median.get((aid, res["eqao_year"], bn))
+                bm = board_median.get((aid, year, bn))
                 if bm:
-                    pm = prov_median.get((aid, res["eqao_year"], b["language"]))
-                    b["eqao_medians"].append({"assessment": aid, "year": res["eqao_year"], "board_median": bm[0], "board_n": bm[1],
+                    pm = prov_median.get((aid, year, b["language"]))
+                    b["eqao_medians"].append({"assessment": aid, "year": year, "board_median": bm[0], "board_n": bm[1],
                                               "province_median": pm[0] if pm else None, "province_n": pm[1] if pm else None,
-                                              "source_id": res["id"]})
+                                              "source_id": src_of(aid)})
         b["area"] = rep.layers["boards"].get(bn)
         b["levels"] = dict(b["levels"])
         b["systems"] = dict(b["systems"])
@@ -542,6 +650,12 @@ def build(clean: bool = False) -> dict:
         b["regions"] = dict(b["regions"])
         used = {s for s in [latest_enrol] + [i["source_id"] for i in b["indicators"]] + [m["source_id"] for m in b["eqao_medians"]]}
         used.add(latest_res["id"])
+        ctx = b["context"]
+        for part in ("spending", "fsl_enrolment"):
+            if ctx[part]:
+                used.add(ctx[part]["source_id"])
+        if ctx["safe"]:
+            used |= set(ctx["safe"]["source_ids"])
         b["sources"] = [src_table[i] for i in sorted(used) if i in src_ids]
     rep.count("boards", len(boards), "boards with at least one school")
     missing_area = [bn for bn, b in boards.items() if b["system"] != "other" and any(by_id[x]["regular"] for x in b["schools"]) and not b["area"]]
@@ -564,6 +678,8 @@ def build(clean: bool = False) -> dict:
             "childcare": {"count": len(cc), "source_id": sources.CHILDCARE_RESOURCE["id"],
                           "sites": [{k: x[k] for k in ("name", "type", "language", "address", "city", "postal_code")} for x in cc]},
             "rural": f[1] == "0",
+            "earlyon": {"count": len(eo_by_fsa.get(f, [])), "source_id": sources.EARLYON_RESOURCE["id"],
+                        "sites": [{k: x[k] for k in ("name", "address", "city", "postal_code")} for x in eo_by_fsa.get(f, [])]},
         }
         if not inside and not near:
             # nothing within the buffer (large rural FSAs at the edge): list the closest schools to the area's centre
@@ -572,13 +688,14 @@ def build(clean: bool = False) -> dict:
                 c = sg.shape(layers["fsa_detail"][f]).representative_point()
                 dists = sorted(schools, key=lambda s: (s["lat"] - c.y) ** 2 + ((s["lon"] - c.x) * 0.7) ** 2)[:8]
                 fsas[f]["closest"] = [s["bsid"] for s in dists]
-        used = [x for x in (fsas[f]["census_source"], fsas[f]["boundary_source"], sources.CHILDCARE_RESOURCE["id"], latest_res["id"]) if x]
+        used = [x for x in (fsas[f]["census_source"], fsas[f]["boundary_source"], sources.CHILDCARE_RESOURCE["id"], latest_res["id"],
+                            sources.EARLYON_RESOURCE["id"] if fsas[f]["earlyon"]["count"] else None) if x]
         fsas[f]["sources"] = [src_table[i] for i in used if i in src_ids]
     rep.count("fsas", len(fsas), "postal areas (FSAs) with a page")
 
     # ---------------- write outputs ----------------
     log("writing site/data")
-    write_outputs(schools, boards, fsas, src_table, census, rep, sif_eqao, prov_median)
+    write_outputs(schools, boards, fsas, src_table, census, rep, [y for y, _ in eqao_years_all], prov_median)
     rep.elapsed = round(time.time() - t0)
     rep.write(config.REPORT, schools=schools, boards=boards, fsas=fsas, sources_table=src_table)
     log(f"done in {rep.elapsed}s: {len(schools)} schools, {len(boards)} boards, {len(fsas)} FSAs")
@@ -638,7 +755,7 @@ def build_sources_table(manifest: dict) -> dict:
         url = (m.get("url") or res["url"]) if res["dataset"] == "fsa_boundary" else res["url"]
         table[res["id"]] = {
             "source_id": res["id"], "dataset": res["dataset"], "brief_no": ds["brief_no"],
-            "title": ds["title"] + (f" ({res['year']})" if res.get("year") else ""),
+            "title": ds["title"] + (f" ({res.get('label') or res['year']})" if res.get("year") else ""),
             "publisher": ds["publisher"], "url": url, "landing": ds["landing"],
             "licence": ds["licence"][0], "licence_url": ds["licence"][1], "retrieved": retrieved,
             "year": res.get("year"), "note": res.get("note", "") + (f" {m['note']}" if m.get("note") else ""),
@@ -647,7 +764,7 @@ def build_sources_table(manifest: dict) -> dict:
     return table
 
 
-def write_outputs(schools, boards, fsas, src_table, census, rep, sif_eqao, prov_median) -> None:
+def write_outputs(schools, boards, fsas, src_table, census, rep, eqao_years, prov_median) -> None:
     out = config.OUT
     (out / "schools").mkdir(parents=True, exist_ok=True)
     (out / "boards").mkdir(parents=True, exist_ok=True)
@@ -669,8 +786,32 @@ def write_outputs(schools, boards, fsas, src_table, census, rep, sif_eqao, prov_
         "id": s["bsid"], "n": s["name"], "c": s["city"], "f": s["fsa"], "b": s["board_number"], "bn": s["board_name"],
         "l": "E" if s["level"] == "elementary" else "S", "g": s["grades"], "lang": (s["language"] or "")[:1],
         "sys": s["system"], "x": round(s["lon"], 5), "y": round(s["lat"], 5), "sp": s["special"] or None,
+        # programs, for search filters: French Immersion / Extended French offered, number of SHSM sectors
+        "fi": 1 if (s["programs"]["fsl"] or {}).get("immersion") else None,
+        "ef": 1 if (s["programs"]["fsl"] or {}).get("extended") else None,
+        "sh": len(s["programs"]["shsm"]["sectors"]) if s["programs"]["shsm"] else None,
     } for s in sorted(schools, key=lambda s: s["name"])]
+    for r in idx:  # program flags only where true: most schools have none, so don't ship thousands of nulls
+        for k in ("fi", "ef", "sh"):
+            if r[k] is None:
+                del r[k]
     dump(out / "schools-index.json", idx)
+    # one small file with each board's headline context, for the compare tool (instead of loading
+    # every board's full page data): spending per student, latest suspension rate, Immersion share
+    bctx = {}
+    for bn, b in boards.items():
+        c = b.get("context") or {}
+        sp, sf, fe = c.get("spending"), c.get("safe"), c.get("fsl_enrolment")
+        last = next((r for r in reversed(sf["series"]) if r["rate"] is not None), None) if sf else None
+        row = {"sp": sp["per_student"] if sp else None, "sr": last["rate"] if last else None, "sry": last["year"] if last else None,
+               "srp": last["province_rate"] if last else None, "fi": fe["immersion_share"] if fe else None}
+        if any(v is not None for v in row.values()):
+            bctx[bn] = row
+    spend_med = next((b["context"]["spending"]["ontario_median"] for b in boards.values() if (b.get("context") or {}).get("spending")), None)
+    dump(out / "boards-context.json", {
+        "spending_year": sources.FINANCE_RESOURCE["year"], "spending_median": spend_med,
+        "fsl_year": sources.FSL_ENROL_RESOURCE["year"], "boards": bctx,
+    })
     dump(out / "boards-index.json", [{"n": b["number"], "name": b["name"], "slug": b["slug"], "sys": b["system"], "count": len(b["schools"])}
                                     for b in sorted(boards.values(), key=lambda b: b["name"])])
     dump(out / "fsa-index.json", [{"f": f, "p": r["place"], "count": len(r["in"])} for f, r in sorted(fsas.items())])
@@ -680,8 +821,8 @@ def write_outputs(schools, boards, fsas, src_table, census, rep, sif_eqao, prov_
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "data_updated": retrieved[-1] if retrieved else None,
         "counts": {"schools": len(schools), "boards": len(boards), "fsas": len(fsas)},
-        "eqao_years": [r["eqao_year"] for r in reversed(sif_eqao)],
-        "latest_eqao_year": sif_eqao[0]["eqao_year"],
+        "eqao_years": list(reversed(eqao_years)),
+        "latest_eqao_year": eqao_years[0],
         "latest_sif": sources.SIF_RESOURCES[0]["id"],
         "assessments": loaders.ASSESSMENTS,
         "context_fields": [{"key": k, "label": lab, "definition": d} for k, lab, _c, d in loaders.SIF_CONTEXT_COLS],

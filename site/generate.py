@@ -128,9 +128,11 @@ class Site:
         self.env = Environment(loader=FileSystemLoader(HERE / "templates"), autoescape=select_autoescape(["html"]),
                                trim_blocks=True, lstrip_blocks=True)
         codes = self.meta["codes"]
+        loc = load(HERE / "locators.json")  # hand-checked links to each board's "which school serves my address" page
         self.env.globals.update(
             asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, contact_email=CONTACT_EMAIL, source_series=source_series,
             code_text=lambda c: codes.get(c, {}).get("explain", "") if c else "",
+            locators=loc["boards"], locators_checked=loc["checked"],
         )
         self.pages = 0
         svg, w, h = hero_svg(self.index)
@@ -197,8 +199,14 @@ class Site:
             if key and key in official:
                 yr = max(official[key])
                 off = {"year": yr, "value": official[key][yr]["value"], "source_id": official[key][yr]["source_id"]}
+            # EQAO's open data adds the level split and participation for its years (shown under the chart)
+            detail = None
+            if last.get("levels") or last.get("participation") is not None:
+                lv = last.get("levels") or []
+                detail = {"year": last["year"], "participation": last.get("participation"),
+                          "levels": [{"n": 4 - i, "v": v, "w": (v if isinstance(v, (int, float)) else 0.5)} for i, v in enumerate(lv) if v is not None]}
             results.append({
-                "id": aid, "grade": a["grade"], "subject": a["subject"], "rows": rows, "summary": summary, "official": off,
+                "id": aid, "grade": a["grade"], "subject": a["subject"], "rows": rows, "summary": summary, "official": off, "detail": detail,
                 "svg": charts.eqao_chart(rows, yrs, title=f"{a['grade']} {a['subject']}: this school, board median and Ontario median by year"),
                 "codes": sorted({r["code"] for r in rows if r.get("code")}),
             })
@@ -316,7 +324,8 @@ class Site:
         for s in schools:
             e = s["enrolment"][-1] if s["enrolment"] else None
             rows.append({"bsid": s["bsid"], "name": s["name"], "level": s["level"], "grades": s["grades"], "city": s["city"],
-                         "special": s["special"], "enrol": e["value"] if e and e["year"] == b["enrolment_total"]["year"] else None})
+                         "special": s["special"], "enrol": e["value"] if e and e["year"] == b["enrolment_total"]["year"] else None,
+                         "fi": bool(((s.get("programs") or {}).get("fsl") or {}).get("immersion"))})
         school_groups = []  # A-Z groups for the school list; "École" files under E
         for r in rows:
             first = plain(r["name"])[:1].upper()
@@ -374,10 +383,33 @@ class Site:
             rows_cs = [{"year": r["year"], "board_median": r["primary_median"], "province_median": r["province_median"], "board_n": r["n"]} for r in csm]
             cs_board = {"rows": rows_cs, "svg": charts.wide_line_chart(rows_cs, [r["year"] for r in rows_cs], title="Average Grades 1 to 3 class size: median school in the board and in Ontario",
                                                                       main_key="board_median", board_key="_none", prov_key="province_median", ymax=30, unit="", gap=False)}
+        # board context: suspension trend chart (board vs Ontario) and spending split
+        ctx = b.get("context") or {}
+        safe = ctx.get("safe")
+        safe_view = None
+        if safe and any(r["rate"] is not None for r in safe["series"]):
+            sr = [{"year": r["year"], "board_median": r["rate"], "province_median": r["province_rate"], "code": r["rate_code"]} for r in safe["series"]]
+            top = max([r["rate"] or 0 for r in safe["series"]] + [r["province_rate"] or 0 for r in safe["series"]])
+            ymax = max(2, int(top) + (2 if top < 10 else 4))
+            safe_view = {"rows": safe["series"], "last": next(r for r in reversed(safe["series"]) if r["rate"] is not None),
+                         "svg": charts.wide_line_chart(sr, [r["year"] for r in sr], title=f"Share of {b['name']} students suspended each year, with Ontario",
+                                                       main_key="board_median", main_label=b["name"], board_key="_none", prov_key="province_median",
+                                                       ymax=ymax, unit="%", gap=False)}
+        spend = ctx.get("spending")
+        spend_view = None
+        if spend:
+            parts = [("instruction", "Classroom", "teachers, assistants, supplies, principals, guidance"),
+                     ("accommodation", "Buildings", "running, repairing and renewing schools"),
+                     ("transportation", "Transportation", "school buses"),
+                     ("administration", "Administration", "trustees, director, board offices"),
+                     ("other", "Other", "everything else")]
+            spend_view = {**spend, "parts": [{"key": k, "label": l, "what": w, "v": spend["parts"].get(k, 0),
+                                              "pct": round(100 * spend["parts"].get(k, 0) / spend["per_student"])} for k, l, w in parts if spend["parts"].get(k, 0) > 0]}
         map_data = {"schools": [{"id": s["bsid"], "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"], "l": "E" if s["level"] == "elementary" else "S", "g": s["grades"]} for s in schools],
                     "board": b["number"], "system": b["system"]}
         self.render(f"board/{b['number']}/index.html", "board.html", title=b["name"], page_kind="board", map=True,
                     description=f"{b['name']}: {len(schools)} schools, official board results, EQAO medians across its schools and a map, with sources.",
+                    safe_view=safe_view, spend_view=spend_view, fsl_enrol=ctx.get("fsl_enrolment"),
                     b=b, schools=rows, school_groups=school_groups, cs_board=cs_board, indicators=indicators, indicator_releases=releases, headline=headline, medians=medians,
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"))
 
@@ -542,7 +574,7 @@ def copy_static_and_data() -> None:
     shutil.copytree(STATIC, DIST / "static", dirs_exist_ok=True)
     out = DIST / "data"
     out.mkdir(parents=True, exist_ok=True)
-    for name in ["schools-index.json", "boards-index.json", "fsa-index.json", "meta.json", "sources.json"]:
+    for name in ["schools-index.json", "boards-index.json", "boards-context.json", "fsa-index.json", "meta.json", "sources.json"]:
         shutil.copy2(DATA / name, out / name)
     for sub in ["geo", "downloads", "schools", "boards", "fsa"]:
         shutil.copytree(DATA / sub, out / sub, dirs_exist_ok=True)

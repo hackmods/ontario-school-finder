@@ -16,7 +16,9 @@ if (input && matchMedia("(max-width: 480px)").matches) input.placeholder = "Scho
 const GEOCODER = "https://www.geolocator.api.geo.ca/geolocation/en/locate";
 let lastGeocode = 0;
 
-const filters = { level: "all", lang: "all", sys: "all" };
+const filters = { level: "all", lang: "all", sys: "all", prog: "all" };
+// program filters use flags from the search index: fi = French Immersion, ef = Extended French, sh = SHSM sectors
+const PROGRAMS = { fi: (r) => r.fi, ef: (r) => r.ef, sh: (r) => r.sh };
 let base = [];
 let distances = null;
 let heading = "";
@@ -26,7 +28,7 @@ let mapRef = null;
 
 function applyFilters(rows) {
   return rows.filter(
-    (r) => (filters.level === "all" || r.l === filters.level) && (filters.lang === "all" || r.lang === filters.lang) && (filters.sys === "all" || r.sys === filters.sys),
+    (r) => (filters.level === "all" || r.l === filters.level) && (filters.lang === "all" || r.lang === filters.lang) && (filters.sys === "all" || r.sys === filters.sys) && (filters.prog === "all" || PROGRAMS[filters.prog](r)),
   );
 }
 
@@ -39,12 +41,14 @@ function chipGroup(name, label, opts) {
 function render(extraTop = "") {
   const rows = applyFilters(base);
   const sysOpts = [["all", "All systems"], ...Object.entries(SYSTEMS).filter(([k]) => base.some((r) => r.sys === k))];
+  const progOpts = [["all", "All programs"], ["fi", "French Immersion"], ["ef", "Extended French"], ["sh", "Specialist High Skills Major"]].filter(([k]) => k === "all" || base.some((r) => PROGRAMS[k](r)));
   root.innerHTML = `${extraTop}
     ${base.length ? `<div class="toolbar"><h2 style="margin:0;font-size:1.25rem">${heading}</h2><span class="results-count" data-count>${rows.length} school${rows.length === 1 ? "" : "s"}</span></div>
     <div style="display:grid;gap:10px;margin-bottom:14px">
       ${chipGroup("level", "Level", [["all", "All levels"], ["E", "Elementary"], ["S", "Secondary"]])}
       ${base.some((r) => r.lang === "F") ? chipGroup("lang", "Language", [["all", "English and French"], ["E", "English"], ["F", "French"]]) : ""}
       ${sysOpts.length > 2 ? chipGroup("sys", "System", sysOpts) : ""}
+      ${progOpts.length > 1 ? chipGroup("prog", "Programs", progOpts) : ""}
     </div>
     <div class="results-layout">
       <div class="map-shell results-map"><div class="map" data-map="results" aria-label="Map of these results"></div><div class="map-fallback" data-map-fallback><div>Map loads with JavaScript.</div></div></div>

@@ -38,12 +38,14 @@ DATASETS: dict[str, dict] = {
     },
     "eqao_repo": {
         "brief_no": 3,
-        "title": "EQAO Open Agency Data Repository",
+        "title": "EQAO Open Data: achievement results",
         "publisher": "Education Quality and Accountability Office (EQAO)",
-        "landing": "https://www.eqao.com/",
-        "licence": ("EQAO terms (to be checked before republishing)", "https://www.eqao.com/terms-of-use/"),
-        "used_for": "Not used yet (Phase 2). Every school page links to the school's EQAO results page instead.",
-        "status": "phase2",
+        "landing": "https://www.eqao.com/about-eqao/open-data/",
+        # EQAO's IP Use Policy: data assets may be used under the OGL-Ontario and must be cited "Used under licence".
+        "licence": ("Open Government Licence – Ontario (used under licence)", "https://www.ontario.ca/page/open-government-licence-ontario"),
+        "used_for": "School results for years the Ministry's school file does not have yet (2025-26), with the level 1–4 split and participation. "
+                    "Checked against the Ministry's 2024-25 file: the same percentages for every school.",
+        "status": "used",
     },
     "sbpr": {
         "brief_no": 4,
@@ -132,13 +134,83 @@ DATASETS: dict[str, dict] = {
         "used_for": "Added for parents: class sizes at each elementary school, 2007-08 to 2025-26 (primary classes every year; all classes from 2014-15).",
         "status": "used",
     },
+    "fsl": {
+        "brief_no": 14,
+        "title": "Public schools offering French as a Second Language (FSL) programs",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "public-schools-offering-french-as-a-second-language-fsl-programs",
+        "ckan_id": "public-schools-offering-french-as-a-second-language-fsl-programs",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: which English-language schools offer Core French, Extended French and French Immersion (2024-25, preliminary).",
+        "status": "used",
+    },
+    "shsm": {
+        "brief_no": 15,
+        "title": "Specialist High Skills Major (SHSM) program list",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "specialist-high-skills-major-shsm-program-list",
+        "ckan_id": "specialist-high-skills-major-shsm-program-list",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: which high schools offer which Specialist High Skills Major sectors, and for how many years (2025-26).",
+        "status": "used",
+    },
+    "suspensions": {
+        "brief_no": 16,
+        "title": "Suspension rates and expulsion rates by school board",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "suspension-rates-by-school-board",
+        "ckan_id": "suspension-rates-by-school-board",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: share of each board's students suspended (and expelled) each year, 2007-08 to 2021-22, next to Ontario. The latest year the Ministry has published.",
+        "status": "used",
+    },
+    "board_finance": {
+        "brief_no": 17,
+        "title": "School board financial reports (financial statements)",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "school-board-financial-reports-estimates-revised-estimates-and-financial-statements",
+        "ckan_id": "school-board-financial-reports-estimates-revised-estimates-and-financial-statements",
+        "licence": ("Licence not specified on the Ontario Data Catalogue (published openly by the Ministry)", DATA_ON + "school-board-financial-reports-estimates-revised-estimates-and-financial-statements"),
+        "used_for": "Added for parents: what each board spent per student in 2024-25 (actual spending from its financial statements), split into classroom instruction, buildings, transportation, administration and other.",
+        "status": "used",
+    },
+    "fsl_enrol": {
+        "brief_no": 18,
+        "title": "French as a Second Language enrolment",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "french-as-a-second-language-enrolment",
+        "ckan_id": "french-as-a-second-language-enrolment",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: how many of each English-language board's students are in Core French, Extended French and French Immersion (2024-25).",
+        "status": "used",
+    },
+    "earlyon": {
+        "brief_no": 19,
+        "title": "EarlyON Child and Family Centre locations",
+        "publisher": "Ontario Ministry of Education",
+        "landing": DATA_ON + "earlyon-child-and-family-centre-locations",
+        "ckan_id": "earlyon-child-and-family-centre-locations",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: free EarlyON programs for children up to age 6 in each postal area, linked from school pages (November 2026 list).",
+        "status": "used",
+    },
+    "nutrition": {
+        "brief_no": 20,
+        "title": "Student Nutrition Program sites",
+        "publisher": "Ontario Ministry of Children, Community and Social Services",
+        "landing": DATA_ON + "ministry-of-children-and-youth-services-student-nutrition-program-sites",
+        "ckan_id": "ministry-of-children-and-youth-services-student-nutrition-program-sites",
+        "licence": OGL_ON,
+        "used_for": "Added for parents: whether a school was listed as offering breakfast, lunch or a snack. The Ministry's list is from December 2017, so pages say so and ask families to check with the school.",
+        "status": "used",
+    },
     "attendance": {
         "brief_no": 11,
         "title": "Board-published attendance boundaries",
         "publisher": "Individual school boards",
         "landing": "",
         "licence": ("Per board; written permission recorded before use", ""),
-        "used_for": "Not used yet (Phase 2). Every school page links to its board so parents can use the board's own school locator.",
+        "used_for": "Not used yet. Checked November 2026: no Ontario board publishes its attendance boundaries under an open licence. Several boards (Waterloo Region DSB, Hamilton-Wentworth DSB, Simcoe County DSB, Grand Erie DSB, Dufferin-Peel CDSB, Kawartha Pine Ridge DSB, Halton CDSB) post map layers without a licence, so they need the board's written permission first. Every school page links to its board's own school locator instead.",
         "status": "phase2",
     },
 }
@@ -286,6 +358,16 @@ def all_resources() -> list[dict]:
         out.append({**r, "dataset": "enrol_grade"})
     for r in CLASS_SIZE_RESOURCES:
         out.append({**r, "dataset": "class_size"})
+    for r in EQAO_OPEN_RESOURCES:
+        out.append({**r, "dataset": "eqao_repo"})
+    out.append({**FSL_RESOURCE, "dataset": "fsl"})
+    out.append({**SHSM_RESOURCE, "dataset": "shsm"})
+    out.append({**SUSPENSION_RESOURCE, "dataset": "suspensions"})
+    out.append({**EXPULSION_RESOURCE, "dataset": "suspensions"})
+    out.append({**FINANCE_RESOURCE, "dataset": "board_finance"})
+    out.append({**FSL_ENROL_RESOURCE, "dataset": "fsl_enrol"})
+    out.append({**EARLYON_RESOURCE, "dataset": "earlyon"})
+    out.append({**NUTRITION_RESOURCE, "dataset": "nutrition"})
     out.append({**FSA_RESOURCE, "dataset": "fsa_boundary"})
     out.append({**CENSUS_RESOURCE, "dataset": "census"})
     return out
@@ -311,3 +393,78 @@ CLASS_SIZE_RESOURCES = [
     dict(id="classsize-2024-25", year="2024-25", url=CS_URL.format("abc5d307-ecfb-482f-b74f-f1703d2af039", "2024-25_elementary_class_size_open_data_v.1_engfr.xlsx")),
     dict(id="classsize-2025-26", year="2025-26", url=CS_URL.format("6f67ef06-a420-47cb-bf6b-2621adc2ffb0", "2025-26_elementary_class_sizes_open_data1.xlsx")),
 ]
+
+FSL_RESOURCE = dict(
+    id="fsl-2024-25", year="2024-25",
+    url="https://data.ontario.ca/dataset/0743f4d3-64bb-4b76-b9fc-51743c7a7f46/resource/3b211d55-85b6-4f35-ac54-58e2d2452372/download/schools_offering_fsl_2425_en.txt",
+    note="Preliminary 2024-25 list (the catalogue labels the files 2023-2024); English-language school boards only",
+)
+SHSM_RESOURCE = dict(
+    id="shsm-2025-26", year="2025-26",
+    url="https://data.ontario.ca/dataset/8ee79eb8-9e2c-4fb0-a2a5-51f54f2f383f/resource/e2336170-94cb-475f-8ada-0a0250dc258a/download/shsm_2025-26_program_list_en.csv",
+)
+
+# EQAO's own open data (one ZIP per assessment and school year). Only years the Ministry's SIF
+# file does not cover yet are used; where both exist the SIF value is kept (they agree: 2024-25
+# matched for every school). ``member`` is the CSV inside the ZIP.
+EQAO_OD_URL = "https://www.eqao.com/wp-content/uploads/2026/10/{}-2025-2026-Achievement-Results.zip"
+EQAO_OPEN_RESOURCES = [
+    dict(id="eqao-g3-2025-26", year="2025-26", label="Grade 3, 2025-26", kind="g36", grade="3", url=EQAO_OD_URL.format("Grade-3"), member="G3_2026_1.csv"),
+    dict(id="eqao-g6-2025-26", year="2025-26", label="Grade 6, 2025-26", kind="g36", grade="6", url=EQAO_OD_URL.format("Grade-6"), member="G6_2026_1.csv"),
+    dict(id="eqao-g9-2025-26", year="2025-26", label="Grade 9, 2025-26", kind="g9", grade="9", url=EQAO_OD_URL.format("Grade-9"), member="G9_2026.csv"),
+    dict(id="eqao-osslt-2025-26", year="2025-26", label="OSSLT, 2025-26", kind="osslt", grade="10", url=EQAO_OD_URL.format("OSSLT"), member="G10_2026_FTE.csv",
+         note="First-time eligible students; % successful among those who wrote"),
+]
+
+SUSPENSION_RESOURCE = dict(
+    id="suspensions-2007-22", year="2007-08 to 2021-22", label="suspensions, 2007-08 to 2021-22",
+    url="https://data.ontario.ca/dataset/1f711bda-8953-46df-a09f-a66035a01717/resource/c26c7fe8-f59e-44f7-ad6a-6f6400b6fe8e/download/enbrd_suspensions_0708-2122.xlsx",
+)
+EXPULSION_RESOURCE = dict(
+    id="expulsions-2007-22", year="2007-08 to 2021-22", label="expulsions, 2007-08 to 2021-22",
+    url="https://data.ontario.ca/dataset/2d2c39a7-9318-4db1-8555-a5d105e48619/resource/50549b35-0e39-4853-8842-d55b3cbbecba/download/enbrd_expulsions_0708_2022.xlsx",
+)
+FINANCE_RESOURCE = dict(
+    id="efis-fs-2024-25", year="2024-25",
+    url="https://data.ontario.ca/dataset/f9393864-17ae-43f4-a0e1-062fddc6c99c/resource/42f81bd6-20d3-4b20-a09c-c8ed8043c3e7/download/efis_2024-25_financial_statements_-_board_submitted.csv",
+    note="Financial statements as submitted by boards; spending per student = expenses / day-school average daily enrolment",
+)
+FSL_ENROL_RESOURCE = dict(
+    id="fsl-enrol-2024-25", year="2024-25",
+    url="https://data.ontario.ca/dataset/5d00661a-b662-4027-a61a-1a6969f16598/resource/4496a569-ae43-4c05-aebe-bb40c5ffc61e/download/fsl_enrolment_by_board_2024-2025_en.txt",
+)
+EARLYON_RESOURCE = dict(
+    id="earlyon-2026-11", year="November 2026",
+    url="https://data.ontario.ca/dataset/70611b4f-807a-4a28-b227-d0ff75986c26/resource/77660aeb-f583-4814-9a0c-72756b78f5c0/download/locationlist_-_en_-_prod_-_nov_5th_2026_-_open_data_extract.xlsx",
+)
+NUTRITION_RESOURCE = dict(
+    id="nutrition-2017-12", year="December 2017",
+    url="https://files.ontario.ca/opendata/dataset_snp_siteinfo_csv_20171206.csv",
+)
+
+# Board columns of the EFIS financial-statement file, by name -> Ministry board number.
+# Checked by hand 2026-11-26 (65 names match the Ministry list exactly; the rest are abbreviations).
+# A new or renamed column stops the pipeline instead of dropping a board silently.
+EFIS_BOARDS = {
+    "DSB Ontario North East": "B28002", "Algoma DSB": "B28010", "Rainbow DSB": "B28029", "Near North DSB": "B28037",
+    "Keewatin-Patricia DSB": "B28045", "Rainy River DSB": "B28053", "Lakehead DSB": "B28061", "Superior-Greenstone DSB": "B28070",
+    "Bluewater DSB": "B66001", "Avon Maitland DSB": "B66010", "Greater Essex County DSB": "B66028", "Lambton Kent DSB": "B66036",
+    "Thames Valley DSB": "B66044", "Toronto DSB": "B66052", "Durham DSB": "B66060", "Kawartha Pine Ridge DSB": "B66079",
+    "Trillium Lakelands DSB": "B66087", "York Region DSB": "B66095", "Simcoe County DSB": "B66109", "Upper Grand DSB": "B66117",
+    "Peel DSB": "B66125", "Halton DSB": "B66133", "Hamilton-Wentworth DSB": "B66141", "DSB of Niagara": "B66150",
+    "Grand Erie DSB": "B66168", "Waterloo Region DSB": "B66176", "Ottawa-Carleton DSB": "B66184", "Upper Canada DSB": "B66192",
+    "Limestone DSB": "B66206", "Renfrew County DSB": "B66214", "Hastings & Prince Edward DSB": "B66222",
+    "Northeastern Catholic DSB": "B29009", "Nipissing-Parry Sound Cath DSB": "B29017", "Huron-Superior Catholic DSB": "B29025",
+    "Sudbury Catholic DSB": "B29033", "Northwest Catholic DSB": "B29041", "Kenora Catholic DSB": "B29050",
+    "Thunder Bay Catholic DSB": "B29068", "Superior North Catholic DSB": "B29076", "Bruce-Grey Catholic DSB": "B67008",
+    "Huron-Perth Catholic DSB": "B67016", "Windsor-Essex Catholic DSB": "B67024", "London Dist. Catholic School": "B67032",
+    "St. Clair Catholic DSB": "B67040", "Toronto Catholic DSB": "B67059", "PVNC Catholic DSB": "B67067", "York Catholic DSB": "B67075",
+    "Dufferin-Peel Catholic DSB": "B67083", "Simcoe Muskoka Catholic DSB": "B67091", "Durham Catholic DSB": "B67105",
+    "Halton Catholic DSB": "B67113", "Hamilton-Wentworth Cath DSB": "B67121", "Wellington Catholic DSB": "B67130",
+    "Waterloo Catholic DSB": "B67148", "Niagara Catholic DSB": "B67156", "Brant Haldimand Norfolk CDSB": "B67164",
+    "Cath DSB of Eastern Ontario": "B67172", "Ottawa Catholic DSB": "B67180", "Renfrew County Catholic DSB": "B67199",
+    "Algonquin & Lakeshore Cath DSB": "B67202", "CSP du Nord-Est de l'Ontario": "B28100", "CSP du Grand Nord de l'Ontario": "B28118",
+    "Conseil scolaire Viamonde": "B66303", "CEP de l'Est de l'Ontario": "B66311", "CSD cath. des Grandes Rivières": "B29106",
+    "CSD catholique Franco-Nord": "B29114", "CSD cath. du Nouvel-Ontario": "B29122", "CSD cath. des Aurores boréales": "B29130",
+    "CSC Providence": "B67300", "CSC MonAvenir": "B67318", "CSD cath. Centre-Est de l'Ont.": "B67334", "CSD cath. de l'Est ontarien": "B67326",
+}

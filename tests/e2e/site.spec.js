@@ -116,6 +116,44 @@ test.describe("pages", () => {
     await expect(page.locator("#indicators table")).toBeVisible();
   });
 
+  test("school pages show French programs and SHSM sectors from the Ministry lists", async ({ page }) => {
+    // flags on the page match the school's own data file
+    const s = await (await page.request.get(`/data/schools/${SCHOOL}.json`)).json();
+    await page.goto(`/school/${SCHOOL}/`);
+    const prog = page.locator("#programs");
+    await expect(page.locator('.subnav a[href="#programs"]')).toBeVisible();
+    if (s.programs.fsl) {
+      for (const [key, label] of [["core", "Core French"], ["extended", "Extended French"], ["immersion", "French Immersion"]]) {
+        await expect(prog).toContainText(`${label} ${s.programs.fsl[key] ? "offered" : "not offered"}`);
+      }
+    }
+    // a secondary school with SHSM programs lists every sector
+    const idx = await (await page.request.get("/data/schools-index.json")).json();
+    const sec = idx.filter((r) => r.sh).sort((a, b) => b.sh - a.sh)[0];
+    await page.goto(`/school/${sec.id}/`);
+    await expect(page.locator("#programs .shsm-list li")).toHaveCount(sec.sh);
+  });
+
+  test("school and board pages link to the board's own address lookup where one exists", async ({ page }) => {
+    await page.goto("/board/B66052/"); // Toronto DSB
+    await expect(page.locator(".head-actions a").first()).toHaveText(/Which school serves an address/);
+    await page.goto(`/school/${SCHOOL}/`);
+    const link = page.locator("#overview .note a.btn");
+    await expect(link).toBeVisible();
+    expect(await link.getAttribute("href")).toMatch(/^https?:\/\//);
+  });
+
+  test("search results can be narrowed to schools offering French Immersion", async ({ page }) => {
+    await page.goto("/search/?q=Ottawa");
+    const count = page.locator("[data-results] [data-count]");
+    await expect(count).toContainText("schools");
+    const all = parseInt(await count.textContent(), 10);
+    await page.locator('[data-f="prog"][data-v="fi"]').click();
+    const fi = parseInt(await count.textContent(), 10);
+    expect(fi).toBeGreaterThan(0);
+    expect(fi).toBeLessThan(all);
+  });
+
   test("board school list: A-Z letters, filter hides empty letters and says when nothing matches", async ({ page }) => {
     await page.goto("/board/B66052/"); // Toronto DSB, hundreds of schools
     const letters = page.locator("[data-az-nav] a:visible");

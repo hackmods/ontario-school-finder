@@ -21,6 +21,8 @@ class Report:
         self.childcare_at_school = 0
         self.relocated: list[dict] = []
         self.class_size: dict = {}
+        self.programs: dict = {}
+        self.eqao_open: dict = {}
         self.elapsed = 0
 
     def count(self, source_id: str, n: int, what: str) -> None:
@@ -105,6 +107,17 @@ class Report:
                   f"- Schools with class sizes: {cs['schools_with_class_sizes']}",
                   "- Unmatched school-years by year (closed or renamed schools, private/other boards): "
                   + ", ".join(f"{y}: {n}" for y, n in cs["unmatched_by_year"].items()), ""]
+        if self.eqao_open:
+            L += ["## EQAO open data (years not yet in the Ministry's school file)", ""]
+            L += [f"- {sid}: {v['schools']} schools in EQAO's file, {v['matched']} matched to the school list" for sid, v in self.eqao_open.items()]
+            L += [""]
+        if self.programs:
+            pg = self.programs
+            L += ["## Programs (French as a second language, SHSM)", "",
+                  f"- Schools with French program flags: {pg['fsl_matched']}; school numbers in the file but not in the school list: {len(pg['fsl_unmatched'])}"
+                  + (f" ({', '.join(pg['fsl_unmatched'][:12])}{'…' if len(pg['fsl_unmatched']) > 12 else ''})" if pg["fsl_unmatched"] else ""),
+                  f"- Schools with SHSM programs: {pg['shsm_matched']}; not in the school list: {len(pg['shsm_unmatched'])}"
+                  + (f" ({', '.join(pg['shsm_unmatched'][:12])}{'…' if len(pg['shsm_unmatched']) > 12 else ''})" if pg["shsm_unmatched"] else ""), ""]
         L += ["## Other gaps", "",
               f"- Schools with a licensed child care site at the same address: {self.childcare_at_school}",
               f"- Schools not in the current contact list: {sum(1 for s in schools if s['status'] != 'open')}",

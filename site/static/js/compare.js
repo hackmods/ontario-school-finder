@@ -10,7 +10,7 @@ const GRADES = ["JK", "K", "G1", "G2", "G3", "G4", "G5", "G6", "G7", "G8", "G9",
 const GRADE_LABEL = (g) => (g === "JK" ? "Junior kindergarten" : g === "K" ? "Kindergarten" : `Grade ${g.slice(1)}`);
 const AREA_FIELDS = ["population", "children_0_14_pct", "couple_hh_children_pct", "one_parent_hh_pct", "median_household_income", "low_income_0_17_pct", "home_other_pct", "home_french_pct"];
 
-const state = { schools: [], fsas: {}, meta: null, ctx: null, opts: { prov: true, board: false }, csv: [] };
+const state = { schools: [], fsas: {}, meta: null, ctx: null, boards: null, opts: { prov: true, board: false }, csv: [] };
 
 // ---------------------------------------------------------------- loading
 function idsFromUrl() {
@@ -23,6 +23,7 @@ const getJSON = (u) => fetch(u).then((r) => (r.ok ? r.json() : Promise.reject(ne
 async function load(ids) {
   state.meta ||= await getJSON("/data/meta.json");
   state.ctx ||= await getJSON("/data/context-medians.json").catch(() => null);
+  state.boards ||= await getJSON("/data/boards-context.json").catch(() => null); // ~5 KB: every board's headline figures
   const res = await Promise.allSettled(ids.map((id) => getJSON(`/data/schools/${encodeURIComponent(id)}.json`)));
   const schools = res.filter((r) => r.status === "fulfilled").map((r) => r.value);
   const missing = ids.filter((_, i) => res[i].status !== "fulfilled");
@@ -79,6 +80,20 @@ if ("ResizeObserver" in window) new ResizeObserver(() => { cancelAnimationFrame(
 const wideScreen = () => matchMedia("(min-width: 900px)").matches;
 
 // ---------------------------------------------------------------- sections
+// French programs (Ministry FSL list, English-language schools only)
+function frenchRows(schools) {
+  const cell = (s, key) => {
+    const f = s.programs?.fsl;
+    if (f) return f[key] ? "Yes" : "No";
+    return s.language === "French" ? '<span class="muted">French-language school</span>' : '<span class="muted">Not in the list</span>';
+  };
+  const raw = (s, key) => (s.programs?.fsl ? (s.programs.fsl[key] ? "yes" : "no") : "");
+  return [
+    { label: "French Immersion", sub: "2024-25", cells: schools.map((s) => cell(s, "immersion")), raw: schools.map((s) => raw(s, "immersion")) },
+    { label: "Extended French", sub: "2024-25", cells: schools.map((s) => cell(s, "extended")), raw: schools.map((s) => raw(s, "extended")) },
+  ];
+}
+
 function overview(schools) {
   const first = schools[0];
   const latestEnrol = (s) => [...s.enrolment].reverse().find((e) => e.value != null);
@@ -101,6 +116,22 @@ function overview(schools) {
     { label: "Students (latest)", cells: schools.map((s) => { const e = latestEnrol(s); return e ? `${num(e.value)}<div class="small muted">${esc(e.year)}</div>` : "—"; }), raw: schools.map((s) => latestEnrol(s)?.value) },
     { label: "Enrolment change (5 years)", cells: schools.map((s) => { const c = change(s); return c ? `${c.d >= 0 ? "+" : "−"}${num(Math.abs(c.d))}<div class="small muted">since ${esc(c.since)}</div>` : "—"; }), raw: schools.map((s) => change(s)?.d) },
     { label: "Licensed child care at the school", cells: schools.map((s) => (s.childcare.at_address.length ? `Yes (${s.childcare.at_address.length})` : "No")), raw: schools.map((s) => s.childcare.at_address.length) },
+    {
+      label: "EarlyON centres in the postal area", sub: "free programs for children up to 6",
+      cells: schools.map((s) => (s.earlyon_in_fsa ? `<a href="/fsa/${s.fsa}/#earlyon">${s.earlyon_in_fsa}</a>` : "None listed")),
+      raw: schools.map((s) => s.earlyon_in_fsa || 0),
+    },
+    ...frenchRows(schools),
+    {
+      label: "Student nutrition program", sub: "Ministry list from December 2017",
+      cells: schools.map((s) => (s.programs?.nutrition ? esc(s.programs.nutrition.meals.join(", ")) : '<span class="muted">Not listed</span>')),
+      raw: schools.map((s) => (s.programs?.nutrition ? s.programs.nutrition.meals.join("; ") : "")),
+    },
+    {
+      label: "Specialist High Skills Majors", sub: "career-sector programs, 2025-26",
+      cells: schools.map((s) => (s.programs?.shsm ? `${s.programs.shsm.sectors.length}<div class="small muted">${esc(s.programs.shsm.sectors.map((p) => p.sector).join(", "))}</div>` : s.level === "secondary" ? "None listed" : "—")),
+      raw: schools.map((s) => (s.programs?.shsm ? s.programs.shsm.sectors.map((p) => p.sector).join("; ") : "")),
+    },
   ];
   if (schools.length > 1) {
     rows.push({ label: `Distance from ${esc(short(first.name))}`, cells: schools.map((s, i) => (i === 0 ? "—" : fmtKm(km([first.lon, first.lat], [s.lon, s.lat])))), raw: schools.map((s, i) => (i === 0 ? "" : km([first.lon, first.lat], [s.lon, s.lat]).toFixed(1))) });
@@ -222,6 +253,20 @@ function classSizes(schools) {
     ${table("Class sizes", schools, rows, { caption: "Latest year" })}</div></section>`;
 }
 
+// Each school's board, from one shared file: spending per student, suspensions, French Immersion share
+function boardContext(schools) {
+  const bc = state.boards;
+  if (!bc) return "";
+  const b = (s) => bc.boards[s.board_number] || {};
+  const rows = [
+    { label: "Board", cells: schools.map((s) => `<a href="/board/${s.board_number}/#context">${esc(s.board_name)}</a>`), raw: schools.map((s) => s.board_name) },
+    { label: "Spending per student", sub: `${esc(bc.spending_year)} · Ontario's middle board ${money(bc.spending_median)}`, cells: schools.map((s) => money(b(s).sp)), raw: schools.map((s) => b(s).sp) },
+    { label: "Students suspended", sub: "share of the board's students, latest year", cells: schools.map((s) => (b(s).sr != null ? `${b(s).sr}%<div class="small muted">${esc(b(s).sry)} · Ontario ${b(s).srp}%</div>` : "—")), raw: schools.map((s) => b(s).sr) },
+    { label: "Students in French Immersion", sub: `share of the board's students, ${esc(bc.fsl_year)}`, cells: schools.map((s) => (b(s).fi != null ? `${b(s).fi}%` : '<span class="muted">—</span>')), raw: schools.map((s) => b(s).fi) },
+  ];
+  return `<section class="cmp-section" id="cmp-board"><h2>School board context</h2><p class="block-intro">These describe each school's whole board, not the school itself. Details are on each board's page.</p>${table("Board context", schools, rows)}</section>`;
+}
+
 function students(schools) {
   const fields = state.meta.context_fields;
   const year = schools[0]?.context.year;
@@ -309,7 +354,7 @@ function render() {
   charts.length = 0;
   state.csv = [["Section", "Measure", "Year", ...schools.map((s) => `${s.name} (${s.bsid})`), "Ontario median"]];
   const single = schools.length === 1 ? `<div class="note" style="margin-bottom:16px"><div><p>Add at least one more school to compare side by side.</p></div></div>` : "";
-  root.innerHTML = single + overview(schools) + eqao(schools) + enrolment(schools) + grades(schools) + classSizes(schools) + students(schools) + area(schools) + nearby(schools) + sourcesList(schools) +
+  root.innerHTML = single + overview(schools) + eqao(schools) + enrolment(schools) + grades(schools) + classSizes(schools) + students(schools) + area(schools) + boardContext(schools) + nearby(schools) + sourcesList(schools) +
     `<p class="small muted" style="margin-top:20px">Every school is shown for the same school years. “—” means no value for that school and year; codes such as <span class="code">N/R</span> are explained in <a href="/methodology/#codes">How it works</a>. Medians are computed by this site from the same Ministry files.</p>`;
   drawCharts();
 }
