@@ -16,6 +16,6 @@
   "devDependencies": {
     "@fontsource-variable/inter": "5.2.5",
     "@playwright/test": "1.62.0",
-    "maplibre-gl": "5.24.0"
+    "maplibre-gl": "6.4.1"
   }
 }
