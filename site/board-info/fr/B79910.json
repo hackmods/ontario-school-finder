@@ -1,27 +1,11 @@
 {
   "_about": "French summaries for site/board-info/B79910.json. Machine translation, unreviewed.",
-  "pssbp-register": {
-    "summary": "Burkevale Protestant Separate School (maternelle à 8e année) est la seule école du conseil. Inscrivez-vous en ligne (compte Edsembli) ou sur papier. Il faut preuve d'âge, la confirmation de vaccination déposée au bureau de santé de Simcoe Muskoka, une preuve d'adresse, les documents de garde le cas échéant et un formulaire de désignation de l'impôt foncier. Les enfants nés en 2022 peuvent s'inscrire à la maternelle et ceux nés en 2021 au jardin d'enfants (2026-2027). Depuis 2020-2021, les nouvelles familles habitant hors de la ville de Penetanguishene ne sont acceptées que si un frère ou une sœur fréquente l'école ou si l'élève est l'enfant d'un membre du personnel; révisé chaque année."
-  },
-  "pssbp-transport": {
-    "summary": "Les élèves qui habitent dans leur zone de marche n'ont pas droit à l'autobus, sauf entente contraire. Une place de courtoisie peut être demandée par écrit à la direction s'il reste de la place. Le conseil n'offre pas d'autobus aux élèves qui habitent à l'extérieur de la ville de Penetanguishene."
-  },
-  "pssbp-sped": {
-    "summary": "La page d'éducation de l'enfance en difficulté du conseil renvoie à son Plan d'éducation de l'enfance en difficulté actuel (2026-2027) et aux plans antérieurs, à un guide des parents et des personnes soignantes sur le PEI et à des ressources du ministère. Le plan explique le processus du CIPR, les placements offerts et les PEI."
-  },
-  "pssbp-seac": {
-    "summary": "La page des comités du conseil énumère son comité consultatif pour l'enfance en difficulté (mandats de quatre ans) avec sa présidence, sa suppléance et l'agent de supervision. La politique du conseil indique que le comité peut conseiller le conseil sur les programmes et services d'éducation de l'enfance en difficulté et participe à l'examen annuel du plan d'éducation de l'enfance en difficulté."
-  },
-  "pssbp-access": {
-    "summary": "La page d'accessibilité du conseil renvoie à son plan pluriannuel d'accessibilité et à son rapport de conformité en matière d'accessibilité de 2025, et accepte les commentaires par courriel, en personne, par lettre ou au moyen d'un formulaire de rétroaction. Les commentaires vont à l'agent de supervision, qui répond par écrit."
-  },
-  "pssbp-plan": {
-    "summary": "Le plan stratégique pluriannuel du conseil pour 2022 à 2027, avec sa mission et sa vision et une approche à plusieurs piliers du bien-être, ainsi que des mises à jour annuelles de la mise en œuvre (la plus récente datée de mai 2026). Le conseil ne publie pas de plan de réussite distinct sur cette page."
-  },
-  "pssbp-pic": {
-    "summary": "Le conseil a un comité de participation des parents, indiqué avec sa présidence, sa suppléance et l'agent de supervision; sa politique indique qu'il conseille le conseil sur la participation des familles et soutient le conseil d'école. La page du conseil d'école de Burkevale énumère ses membres et renvoie à la politique et aux règlements du conseil d'école."
-  },
-  "pssbp-concerns": {
-    "summary": "Commencez par l'enseignant ou le membre du personnel concerné, puis la direction. Si la direction ne peut pas régler la situation, communiquez avec l'agent de supervision; la page comprend aussi un formulaire de demande du Soutien aux élèves et aux familles pour les questions nécessitant de l'aide au-delà de l'école."
-  }
+  "pssbp-register": { "summary": "Burkevale Protestant Separate School (maternelle à 8e année) est la seule école du conseil. Inscrivez-vous en ligne (compte Edsembli) ou sur papier. Il faut preuve d'âge, la confirmation de vaccination déposée au bureau de santé de Simcoe Muskoka, une preuve d'adresse, les documents de garde le cas échéant et un formulaire de désignation de l'impôt foncier. Les enfants nés en 2022 peuvent s'inscrire à la maternelle et ceux nés en 2021 au jardin d'enfants (2026-2027). Depuis 2020-2021, les nouvelles familles habitant hors de la ville de Penetanguishene ne sont acceptées que si un frère ou une sœur fréquente l'école ou si l'élève est l'enfant d'un membre du personnel; révisé chaque année." },
+  "pssbp-transport": { "summary": "Les élèves qui habitent dans leur zone de marche n'ont pas droit à l'autobus, sauf entente contraire. Une place de courtoisie peut être demandée par écrit à la direction s'il reste de la place. Le conseil n'offre pas d'autobus aux élèves qui habitent à l'extérieur de la ville de Penetanguishene." },
+  "pssbp-sped": { "summary": "La page d'éducation de l'enfance en difficulté du conseil renvoie à son Plan d'éducation de l'enfance en difficulté actuel (2026-2027) et aux plans antérieurs, à un guide des parents et des personnes soignantes sur le PEI et à des ressources du ministère. Le plan explique le processus du CIPR, les placements offerts et les PEI." },
+  "pssbp-seac": { "summary": "La page des comités du conseil énumère son comité consultatif pour l'enfance en difficulté (mandats de quatre ans) avec sa présidence, sa suppléance et l'agent de supervision. La politique du conseil indique que le comité peut conseiller le conseil sur les programmes et services d'éducation de l'enfance en difficulté et participe à l'examen annuel du plan d'éducation de l'enfance en difficulté." },
+  "pssbp-access": { "summary": "La page d'accessibilité du conseil renvoie à son plan pluriannuel d'accessibilité et à son rapport de conformité en matière d'accessibilité de 2025, et accepte les commentaires par courriel, en personne, par lettre ou au moyen d'un formulaire de rétroaction. Les commentaires vont à l'agent de supervision, qui répond par écrit." },
+  "pssbp-plan": { "summary": "Le plan stratégique pluriannuel du conseil pour 2022 à 2027, avec sa mission et sa vision et une approche à plusieurs piliers du bien-être, ainsi que des mises à jour annuelles de la mise en œuvre (la plus récente datée de mai 2026). Le conseil ne publie pas de plan de réussite distinct sur cette page." },
+  "pssbp-pic": { "summary": "Le conseil a un comité de participation des parents, indiqué avec sa présidence, sa suppléance et l'agent de supervision; sa politique indique qu'il conseille le conseil sur la participation des familles et soutient le conseil d'école. La page du conseil d'école de Burkevale énumère ses membres et renvoie à la politique et aux règlements du conseil d'école." },
+  "pssbp-concerns": { "summary": "Commencez par l'enseignant ou le membre du personnel concerné, puis la direction. Si la direction ne peut pas régler la situation, communiquez avec l'agent de supervision; la page comprend aussi un formulaire de demande du Soutien aux élèves et aux familles pour les questions nécessitant de l'aide au-delà de l'école." }
 }

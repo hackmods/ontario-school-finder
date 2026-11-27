@@ -19,7 +19,7 @@
       <div style="min-width:0">
         <div class="head-meta">
           {{ sysbadge(s.system, system_label) }}
-          <span class="badge">{{ _(s.level|capitalize) }} · {{ s.grades or _("grades not listed") }}</span>
+          <span class="badge">{{ _(s.level|capitalize) }} · {{ s.grades|grades or _("grades not listed") }}</span>
           {% if s.special %}<span class="badge badge-warn">{{ _("School type: {type}", type=_(s.special)) }}</span>{% endif %}
           {% for b in fv.badges %}<span class="badge badge-prog prog-{{ b.key }}" title="{{ _(program_help.get(b.key, '')) }} {{ _('Source: {source}.', source=b.source) }}">{{ _(b.label) }}</span>{% endfor %}
           {% if s.status != "open" %}<span class="badge badge-warn">{{ _("Not in the {list} contact list", list=contact_label) }}</span>{% endif %}
@@ -73,7 +73,7 @@
         <h3>{{ icon("check", "card-ic") }}{{ _("Does it offer my child’s grade?") }}</h3>
         {% if fv.offered %}
         <ul class="grade-strip" aria-label="{{ _('Grades offered: {grades}', grades=fv.grade_span) }}">
-          {% for g in ["JK", "K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"] %}<li class="{{ 'on' if g in fv.offered else 'off' }}" title="{{ _('{grade}: offered', grade=_(grade_label[g])) if g in fv.offered else _('{grade}: not offered', grade=_(grade_label[g])) }}"><span aria-hidden="true">{{ "SK" if g == "K" else g }}</span><span class="visually-hidden">{{ _('{grade} offered', grade=_(grade_label[g])) if g in fv.offered else _('{grade} not offered', grade=_(grade_label[g])) }}</span></li>{% endfor %}
+          {% for g in ["JK", "K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"] %}<li class="{{ 'on' if g in fv.offered else 'off' }}" title="{{ _('{grade}: offered', grade=_(grade_label[g])) if g in fv.offered else _('{grade}: not offered', grade=_(grade_label[g])) }}"><span aria-hidden="true">{{ ("SK" if g == "K" else g)|grades }}</span><span class="visually-hidden">{{ _('{grade} offered', grade=_(grade_label[g])) if g in fv.offered else _('{grade} not offered', grade=_(grade_label[g])) }}</span></li>{% endfor %}
         </ul>
         <p style="margin:10px 0 0"><strong>{{ fv.grade_span }}</strong>{% if "JK" not in fv.offered and s.level == "elementary" %}. {{ _("No kindergarten at this school") }}{% endif %}.</p>
         {% else %}

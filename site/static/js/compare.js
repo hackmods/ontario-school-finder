@@ -1,5 +1,5 @@
 // /compare/?ids=a,b,c — up to six schools side by side: every published measure, same school years.
-import { qs, qsa, esc, SYSTEMS, km, fmtKm, dataUrl, t as tr, u, num as locNum, gradesOffered } from "./lib.js";
+import { qs, qsa, esc, SYSTEMS, km, fmtKm, dataUrl, t as tr, u, num as locNum, gradesOffered, gradesText } from "./lib.js";
 import { getCompare, setCompare, MAX_COMPARE } from "./compare-store.js";
 import { lineChart, shortYear } from "./linechart.js";
 
@@ -86,7 +86,7 @@ const badgeList = (bs) => (bs?.length ? bs.map((b) => `<span class="badge badge-
 // "Grade 1 to Grade 8", rebuilt from the Ministry's range ("1-8") the way site/family.py words it
 const gradeSpan = (s) => {
   const g = gradesOffered(s.grades);
-  if (!g) return s.family?.grade_span ? t(s.family.grade_span) : s.grades || "—";
+  if (!g) return s.family?.grade_span ? t(s.family.grade_span) : gradesText(s.grades) || "—";
   const first = gradeNm(g[0]);
   const last = g[g.length - 1];
   return last === "JK" || last === "K" ? first : t("{first} to {last}", { first, last: t("Grade {n}", { n: last }) });
@@ -191,7 +191,7 @@ function overview(schools) {
   const rows = [
     { label: t("Board"), cells: schools.map((s) => `<a href="${u(`/board/${s.board_number}/`)}">${esc(s.board_name)}</a>`), raw: schools.map((s) => s.board_name) },
     { label: t("System"), cells: schools.map((s) => esc(t(SYSTEMS[s.system] || ""))), raw: schools.map((s) => SYSTEMS[s.system]) },
-    { label: t("Level and grades"), cells: schools.map((s) => `${esc(t(cap(s.level)))} · ${esc(s.grades || "")}`), raw: schools.map((s) => `${cap(s.level)} ${s.grades || ""}`) },
+    { label: t("Level and grades"), cells: schools.map((s) => `${esc(t(cap(s.level)))} · ${esc(gradesText(s.grades))}`), raw: schools.map((s) => `${cap(s.level)} ${s.grades || ""}`) },
     { label: t("Language"), cells: schools.map((s) => esc(t(s.language))), raw: schools.map((s) => s.language) },
     { label: t("Address"), cells: schools.map((s) => esc([s.address, s.city].filter(Boolean).join(", "))), raw: schools.map((s) => [s.address, s.city].filter(Boolean).join(", ")) },
     { label: t("Postal area"), cells: schools.map((s) => `<a href="${u(`/fsa/${s.fsa}/`)}">${esc(s.fsa)}</a>`), raw: schools.map((s) => s.fsa) },

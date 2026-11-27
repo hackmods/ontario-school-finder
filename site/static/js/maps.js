@@ -1,5 +1,5 @@
 // MapLibre GL loader and shared map helpers. The library is self-hosted; only tiles come from OpenFreeMap.
-import { esc, SYSTEMS, levelName, badgesHTML, t, u } from "./lib.js";
+import { esc, SYSTEMS, levelName, gradesText, badgesHTML, t, u } from "./lib.js";
 
 // MapLibre 6 is an ES module; it loads its shared chunk and worker from the same version-named folder.
 // Keep this path in step with site/static/vendor/maplibre/<version>/ (generate.py checks).
@@ -116,7 +116,7 @@ export function pointsFC(rows) {
 }
 
 export function popupHTML(p) {
-  const sub = [levelName(p.l), p.g, t(SYSTEMS[p.sys] || "")].filter(Boolean).join(" · ");
+  const sub = [levelName(p.l), gradesText(p.g), t(SYSTEMS[p.sys] || "")].filter(Boolean).join(" · ");
   return `<div class="pop"><div class="t">${esc(p.n)}</div><div class="s">${esc(sub)}${p.c ? ` · ${esc(p.c)}` : ""}</div>${badgesHTML(p)}<a href="${u(`/school/${encodeURIComponent(p.id)}/`)}">${t("View school →")}</a></div>`;
 }
 

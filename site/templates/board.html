@@ -233,7 +233,7 @@
         {% if az %}<h3 class="az-letter" aria-hidden="true">{{ g.letter }}</h3>{% endif %}
         <ul class="list">
         {% for s in g.schools %}
-          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="{{ u('/school/' ~ s.bsid ~ '/') }}"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ _(s.level|capitalize) }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ _(s.special) }}{% endif %}</span>{% if s.badges %}<span class="prog-badges">{% for b in s.badges %}<span class="badge badge-prog prog-{{ b.key }}">{{ _(b.label) }}</span>{% endfor %}</span>{% endif %}</span><span class="side">{% if s.enrol is not none %}{{ (s.enrol)|num }}<br><span class="small">{{ _("students") }}</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
+          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="{{ u('/school/' ~ s.bsid ~ '/') }}"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ _(s.level|capitalize) }} · {{ s.grades|grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ _(s.special) }}{% endif %}</span>{% if s.badges %}<span class="prog-badges">{% for b in s.badges %}<span class="badge badge-prog prog-{{ b.key }}">{{ _(b.label) }}</span>{% endfor %}</span>{% endif %}</span><span class="side">{% if s.enrol is not none %}{{ (s.enrol)|num }}<br><span class="small">{{ _("students") }}</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
         {% endfor %}
         </ul>
       </div>

@@ -1,5 +1,5 @@
 // Search engine + accessible combobox. Auto-attaches to every [data-search] on the page.
-import { esc, norm, debounce, loadIndex, loadBoards, levelName, SYSTEMS, icon, qsa, t, u, num } from "./lib.js";
+import { esc, norm, debounce, loadIndex, loadBoards, levelName, gradesText, SYSTEMS, icon, qsa, t, u, num } from "./lib.js";
 
 const SOFT = new Set(["school", "schools", "ps", "public", "catholic", "elementary", "secondary", "high", "the", "of", "cs", "ss", "es", "css", "chs", "ces", "hs", "sch", "college", "academy", "ecole", "elementaire", "secondaire", "catholique", "publique", "intermediate", "middle", "senior", "junior", "and", "de", "du", "la", "le"]);
 const FSA_RE = /^[a-z]\d[a-z]$/;
@@ -91,7 +91,7 @@ function highlight(text, qn) {
 }
 
 export function schoolSub(r) {
-  return [levelName(r.l), r.g, SYSTEMS[r.sys] || "", r.c].filter(Boolean).join(" · ");
+  return [levelName(r.l), gradesText(r.g), SYSTEMS[r.sys] || "", r.c].filter(Boolean).join(" · ");
 }
 
 class Combobox {

@@ -78,6 +78,9 @@ export function km(a, b) {
 
 export const fmtKm = (d) => (d < 1 ? `${num(Math.round(d * 1000), { useGrouping: false })} m` : `${d < 10 ? num(d, { minimumFractionDigits: 1, maximumFractionDigits: 1 }) : num(Math.round(d), { useGrouping: false })} km`);
 
+/** A grade range as the Ministry writes it ("JK-8"), in the page's language (French: "M-8"; JE = senior kindergarten). */
+export const gradesText = (g) => (LANG === "fr" && g ? String(g).replace(/\bJK\b/g, "M").replace(/\bSK\b/g, "JE") : g || "");
+
 export const levelName = (l) => (l === "E" ? t("Elementary") : l === "S" ? t("Secondary") : l);
 
 // One program vocabulary for search, maps, school pages and Compare. Keep in step with

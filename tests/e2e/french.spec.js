@@ -40,6 +40,8 @@ test.describe("French version", () => {
     await expect(page.locator("h1")).toContainText("Prince Philip");
     await expect(page.locator("#attendance")).toContainText("Règle publiée");
     await expect(page.locator("#attendance")).toContainText("jardin d’enfants");
+    // French typography: a space before the question mark
+    await expect(page.locator("#attendance")).toContainText("Quelle école dessert mon adresse ?");
     // hreflang alternates point at both languages
     await expect(page.locator(`link[rel='alternate'][hreflang='en-CA']`)).toHaveAttribute("href", new RegExp(`/school/${PP}/$`));
     await expect(page.locator(`link[rel='alternate'][hreflang='fr-CA']`)).toHaveAttribute("href", new RegExp(`/fr/school/${PP}/$`));
@@ -75,6 +77,9 @@ test.describe("French version", () => {
     const errors = watch(page);
     await page.goto("/fr/board/B66150/");
     await expect(page.locator("h1")).toContainText("Niagara");
+    // grade ranges as French boards write them: M (maternelle) and JE (jardin d’enfants), not JK / SK
+    await expect(page.locator("main")).toContainText("M-8");
+    await expect(page.locator("main .row-link").filter({ hasText: /\bJK-/ })).toHaveCount(0);
     const school = page.locator("main a.row-link").first();
     await expect(school).toHaveAttribute("href", /^\/fr\/school\/\d+\/$/);
     expect(errors).toEqual([]);

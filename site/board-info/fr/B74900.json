@@ -1,9 +1,5 @@
 {
   "_about": "French summaries for site/board-info/B74900.json. Machine translation, unreviewed.",
-  "ilc-enrol": {
-    "summary": "TVO ILC est une école secondaire en ligne pour les personnes d'au moins 14 ans (ou qui auront 14 ans au plus tard le 31 décembre de l'année scolaire), qui ont terminé la 8e année et ne sont pas inscrites dans une école secondaire de l'Ontario; les élèves actuels passent par leur conseiller en orientation. Choisissez les cours, entrez vos renseignements, payez les frais de 40 $ par cours (en partie subventionnés pour la plupart des résidents de l'Ontario, non remboursables), puis téléversez une preuve de résidence en Ontario et de citoyenneté et les dossiers scolaires. Les élèves scolarisés à la maison remettent d'abord un avis d'intention à leur conseil et téléversent sa lettre de réponse."
-  },
-  "ilc-access": {
-    "summary": "La politique d'accessibilité de TVO pour les biens et services (Règlement de l'Ontario 191/11), ainsi que des conseils pour naviguer dans les cours en ligne, comme les navigateurs recommandés et les outils du système d'exploitation pour personnaliser la souris, agrandir l'écran et la synthèse vocale."
-  }
+  "ilc-enrol": { "summary": "TVO ILC est une école secondaire en ligne pour les personnes d'au moins 14 ans (ou qui auront 14 ans au plus tard le 31 décembre de l'année scolaire), qui ont terminé la 8e année et ne sont pas inscrites dans une école secondaire de l'Ontario; les élèves actuels passent par leur conseiller en orientation. Choisissez les cours, entrez vos renseignements, payez les frais de 40 $ par cours (en partie subventionnés pour la plupart des résidents de l'Ontario, non remboursables), puis téléversez une preuve de résidence en Ontario et de citoyenneté et les dossiers scolaires. Les élèves scolarisés à la maison remettent d'abord un avis d'intention à leur conseil et téléversent sa lettre de réponse." },
+  "ilc-access": { "summary": "La politique d'accessibilité de TVO pour les biens et services (Règlement de l'Ontario 191/11), ainsi que des conseils pour naviguer dans les cours en ligne, comme les navigateurs recommandés et les outils du système d'exploitation pour personnaliser la souris, agrandir l'écran et la synthèse vocale." }
 }

@@ -115,6 +115,14 @@ def listing(s: str | None) -> str:
     return ", ".join(out)
 
 
+def grades_text(g: str | None) -> str:
+    """A grade range as the Ministry writes it ("JK-8"), in the current language: French writes M (maternelle) and
+    JE (jardin d'enfants, senior kindergarten), as Ontario's French-language boards do. Same rule as lib.js gradesText."""
+    if not g or i18n.CURRENT.lang != "fr":
+        return g or ""
+    return re.sub(r"\bSK\b", "JE", re.sub(r"\bJK\b", "M", g))
+
+
 def month_year(ym: str | None) -> str:
     """"2026-11" -> "November 2026" (month name in the current language)."""
     if not ym:
@@ -239,6 +247,7 @@ class Site:
         )
         self.env.filters["month_year"] = month_year
         self.env.filters["listing"] = listing
+        self.env.filters["grades"] = grades_text
         # numbers in the page's language: 1,234 / 1 234 (pc is the percent sign, spaced in French)
         self.env.filters.update(num=lambda v, d=None: i18n.num(v, d), money=lambda v: i18n.money(v))
         self.env.globals["pc"] = "%"

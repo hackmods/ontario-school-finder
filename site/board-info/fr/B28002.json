@@ -1,45 +1,17 @@
 {
- "_about": "French summaries for site/board-info/B28002.json. Machine translation, unreviewed.",
- "dsb1-register": {
-  "summary": "Les familles se préinscrivent en ligne au moyen d'un compte simple dans le portail du conseil, puis l'école communique avec vous pour terminer le processus et demande des documents : une preuve d'âge (certificat de naissance ou passeport), une preuve d'adresse, les documents de garde le cas échéant, et le carnet de vaccination seulement pour les élèves qui arrivent de l'extérieur de l'Ontario. La page ne donne ni dates d'inscription à la maternelle et au jardin d'enfants ni limites d'âge."
- },
- "dsb1-locator": {
-  "summary": "Le conseil renvoie les familles à l'outil de recherche du consortium Transport EnRoute pour savoir si une adresse donne droit au transport par autobus et à quelle école elle est rattachée. La page Trouver une école du conseil est un répertoire des écoles, et non un outil de recherche par adresse, et elle ne contient aucune carte de secteur. Le consortium a le dernier mot sur l'admissibilité."
- },
- "dsb1-fi": {
-  "summary": "Le conseil indique qu'il offre le français de base ou l'immersion en français dès la maternelle, et qu'aucune connaissance préalable du français n'est nécessaire pour les élèves ou les parents. La page ne décrit ni comment ni quand présenter une demande, ni tirage au sort ou liste d'attente, ni transport vers le programme. Renseignez-vous auprès de l'école ou du bureau du conseil, et vérifiez les indicateurs du ministère pour chaque école."
- },
- "dsb1-xfi": {
-  "summary": "Nous avons cherché une option de français intensif et la poursuite de l'immersion en français au secondaire, et n'avons trouvé ni l'une ni l'autre sur la page de français du conseil. Demandez au bureau du conseil ou à l'école quels programmes de français sont offerts de la 9e à la 12e année."
- },
- "dsb1-transfer": {
-  "summary": "Nous avons cherché un processus de demande hors secteur ou de choix d'école sur les pages d'inscription, de fréquentation et Trouver une école, et n'en avons trouvé aucun. La bibliothèque de politiques du conseil n'a pas pu être chargée pour une lecture automatisée. Demandez à l'école ou au bureau du conseil (705-360-1151) comment demander de fréquenter une école hors de votre secteur."
- },
- "dsb1-transport": {
-  "summary": "Le transport par autobus est assuré par le consortium Transport EnRoute, dont le conseil est membre. Ni la page du conseil ni les pages d'admissibilité et de FAQ du consortium n'indiquent de distances de marche par année d'études; le consortium indique que l'admissibilité dépend de l'école, de l'adresse reconnue et de l'année d'études, et que son propre calcul de distance fait foi. Utilisez son outil de recherche ou appelez le 1-705-707-0808."
- },
- "dsb1-sped": {
-  "summary": "La page d'éducation de l'enfance en difficulté du conseil, avec son plan d'éducation de l'enfance en difficulté de 2026-2027 et un guide pour les parents. Elle énumère le personnel qui soutient les élèves, y compris des enseignants-ressources et des analystes du comportement. La page elle-même n'explique pas les PEI ni les CIPR; le guide pour les parents peut le faire."
- },
- "dsb1-seac": {
-  "summary": "La page du CCED énumère les dates de réunion de 2026-2027 (28 octobre, 9 décembre, 20 janvier, 24 février, 31 mars, 28 avril, 26 mai et 23 juin), avec les ordres du jour et les procès-verbaux au fur et à mesure de leur affichage. Elle n'indique pas si le public peut y assister ni comment s'y joindre; renseignez-vous auprès du bureau du conseil."
- },
- "dsb1-access": {
-  "summary": "Le plan d'accessibilité pluriannuel du conseil, indiqué sous Plans et rapports avec un rapport de conformité en matière d'accessibilité. Il décrit des plans pour l'ensemble du conseil, et non les caractéristiques d'un bâtiment scolaire en particulier; renseignez-vous auprès de l'école pour des besoins précis."
- },
- "dsb1-newcomer": {
-  "summary": "Nous n'avons pas pu trouver de page du DSB1 pour les familles nouvellement arrivées ou les élèves apprenant l'anglais. Demandez à l'école quel soutien est offert et, lors de l'inscription, mentionnez que votre enfant est nouveau au Canada ou apprend l'anglais."
- },
- "dsb1-capital": {
-  "summary": "Le conseil énumère un plan d'immobilisations quinquennal, mais celui qui est affiché couvre 2015-2020, et aucun plan d'aménagement à long terme avec la capacité et l'effectif des écoles n'a été trouvé. La page d'examen de l'aménagement indique qu'aucune école ne fait actuellement l'objet d'un examen d'aménagement ou d'une consultation communautaire. La capacité correspond à l'espace du bâtiment, et non aux places libres."
- },
- "dsb1-sap": {
-  "summary": "Le plan du conseil dans le cadre provincial de réussite des élèves, couvrant les compétences scolaires de base, la préparation à la réussite future, et l'engagement et le bien-être des élèves. Il s'agit d'objectifs pour l'ensemble du conseil, et non pour cette école. La page n'indique aucune année scolaire; le conseil a aussi un plan stratégique 2025-2029."
- },
- "dsb1-pic": {
-  "summary": "Le comité de participation des parents offre aux parents un lien direct avec la direction générale et les conseillers scolaires. Il se réunit trois ou quatre fois par année à 18 h sur Microsoft Teams; les dates de 2026-2027 sont les 21 octobre, 9 décembre, 24 février et 22 avril. Les sièges de parents restent à pourvoir. Un PDF explique comment se joindre au comité ou à un conseil d'école."
- },
- "dsb1-concerns": {
-  "summary": "Commencez par l'enseignant ou l'enseignante, puis la direction ou la direction adjointe, puis le surintendant ou la surintendante de l'éducation de votre école; si la situation n'est toujours pas réglée, le Bureau de soutien aux élèves et aux familles vous aide (formulaire en ligne, supportoffice@dsb1.ca ou 1-855-239-9067). Le bureau vise à accuser réception dans les 2 jours ouvrables et à répondre dans les 5. La page ne décrit aucune étape auprès d'un conseiller scolaire."
- }
+  "_about": "French summaries for site/board-info/B28002.json. Machine translation, unreviewed.",
+  "dsb1-register": { "summary": "Les familles se préinscrivent en ligne au moyen d'un compte simple dans le portail du conseil, puis l'école communique avec vous pour terminer le processus et demande des documents : une preuve d'âge (certificat de naissance ou passeport), une preuve d'adresse, les documents de garde le cas échéant, et le carnet de vaccination seulement pour les élèves qui arrivent de l'extérieur de l'Ontario. La page ne donne ni dates d'inscription à la maternelle et au jardin d'enfants ni limites d'âge." },
+  "dsb1-locator": { "summary": "Le conseil renvoie les familles à l'outil de recherche du consortium Transport EnRoute pour savoir si une adresse donne droit au transport par autobus et à quelle école elle est rattachée. La page Trouver une école du conseil est un répertoire des écoles, et non un outil de recherche par adresse, et elle ne contient aucune carte de secteur. Le consortium a le dernier mot sur l'admissibilité." },
+  "dsb1-fi": { "summary": "Le conseil indique qu'il offre le français de base ou l'immersion en français dès la maternelle, et qu'aucune connaissance préalable du français n'est nécessaire pour les élèves ou les parents. La page ne décrit ni comment ni quand présenter une demande, ni tirage au sort ou liste d'attente, ni transport vers le programme. Renseignez-vous auprès de l'école ou du bureau du conseil, et vérifiez les indicateurs du ministère pour chaque école." },
+  "dsb1-xfi": { "summary": "Nous avons cherché une option de français intensif et la poursuite de l'immersion en français au secondaire, et n'avons trouvé ni l'une ni l'autre sur la page de français du conseil. Demandez au bureau du conseil ou à l'école quels programmes de français sont offerts de la 9e à la 12e année." },
+  "dsb1-transfer": { "summary": "Nous avons cherché un processus de demande hors secteur ou de choix d'école sur les pages d'inscription, de fréquentation et Trouver une école, et n'en avons trouvé aucun. La bibliothèque de politiques du conseil n'a pas pu être chargée pour une lecture automatisée. Demandez à l'école ou au bureau du conseil (705-360-1151) comment demander de fréquenter une école hors de votre secteur." },
+  "dsb1-transport": { "summary": "Le transport par autobus est assuré par le consortium Transport EnRoute, dont le conseil est membre. Ni la page du conseil ni les pages d'admissibilité et de FAQ du consortium n'indiquent de distances de marche par année d'études; le consortium indique que l'admissibilité dépend de l'école, de l'adresse reconnue et de l'année d'études, et que son propre calcul de distance fait foi. Utilisez son outil de recherche ou appelez le 1-705-707-0808." },
+  "dsb1-sped": { "summary": "La page d'éducation de l'enfance en difficulté du conseil, avec son plan d'éducation de l'enfance en difficulté de 2026-2027 et un guide pour les parents. Elle énumère le personnel qui soutient les élèves, y compris des enseignants-ressources et des analystes du comportement. La page elle-même n'explique pas les PEI ni les CIPR; le guide pour les parents peut le faire." },
+  "dsb1-seac": { "summary": "La page du CCED énumère les dates de réunion de 2026-2027 (28 octobre, 9 décembre, 20 janvier, 24 février, 31 mars, 28 avril, 26 mai et 23 juin), avec les ordres du jour et les procès-verbaux au fur et à mesure de leur affichage. Elle n'indique pas si le public peut y assister ni comment s'y joindre; renseignez-vous auprès du bureau du conseil." },
+  "dsb1-access": { "summary": "Le plan d'accessibilité pluriannuel du conseil, indiqué sous Plans et rapports avec un rapport de conformité en matière d'accessibilité. Il décrit des plans pour l'ensemble du conseil, et non les caractéristiques d'un bâtiment scolaire en particulier; renseignez-vous auprès de l'école pour des besoins précis." },
+  "dsb1-newcomer": { "summary": "Nous n'avons pas pu trouver de page du DSB1 pour les familles nouvellement arrivées ou les élèves apprenant l'anglais. Demandez à l'école quel soutien est offert et, lors de l'inscription, mentionnez que votre enfant est nouveau au Canada ou apprend l'anglais." },
+  "dsb1-capital": { "summary": "Le conseil énumère un plan d'immobilisations quinquennal, mais celui qui est affiché couvre 2015-2020, et aucun plan d'aménagement à long terme avec la capacité et l'effectif des écoles n'a été trouvé. La page d'examen de l'aménagement indique qu'aucune école ne fait actuellement l'objet d'un examen d'aménagement ou d'une consultation communautaire. La capacité correspond à l'espace du bâtiment, et non aux places libres." },
+  "dsb1-sap": { "summary": "Le plan du conseil dans le cadre provincial de réussite des élèves, couvrant les compétences scolaires de base, la préparation à la réussite future, et l'engagement et le bien-être des élèves. Il s'agit d'objectifs pour l'ensemble du conseil, et non pour cette école. La page n'indique aucune année scolaire; le conseil a aussi un plan stratégique 2025-2029." },
+  "dsb1-pic": { "summary": "Le comité de participation des parents offre aux parents un lien direct avec la direction générale et les conseillers scolaires. Il se réunit trois ou quatre fois par année à 18 h sur Microsoft Teams; les dates de 2026-2027 sont les 21 octobre, 9 décembre, 24 février et 22 avril. Les sièges de parents restent à pourvoir. Un PDF explique comment se joindre au comité ou à un conseil d'école." },
+  "dsb1-concerns": { "summary": "Commencez par l'enseignant ou l'enseignante, puis la direction ou la direction adjointe, puis le surintendant ou la surintendante de l'éducation de votre école; si la situation n'est toujours pas réglée, le Bureau de soutien aux élèves et aux familles vous aide (formulaire en ligne, supportoffice@dsb1.ca ou 1-855-239-9067). Le bureau vise à accuser réception dans les 2 jours ouvrables et à répondre dans les 5. La page ne décrit aucune étape auprès d'un conseiller scolaire." }
 }

@@ -1,45 +1,17 @@
 {
   "_about": "French summaries for site/board-info/B29076.json. Machine translation, unreviewed.",
-  "sncdsb-register": {
-    "summary": "Les familles s'inscrivent en ligne par le portail d'inscription du conseil (créez d'abord un compte) ou apportent les documents originaux à l'école. L'inscription pour 2026-2027 a ouvert en janvier 2026. Pour la maternelle et le jardin d'enfants, l'enfant doit avoir 4 ans (année 1) ou 5 ans (année 2) au plus tard le 31 décembre; apportez une preuve de date de naissance et d'adresse. La page sur la maternelle indique que les élèves et les aidants n'ont pas à être catholiques pour s'inscrire. Le conseil ne dessert que la maternelle à la 8e année."
-  },
-  "sncdsb-locator": {
-    "summary": "Le consortium qui exploite les autobus de Superior North Catholic publie cet outil de recherche. Entrez votre adresse et votre municipalité, choisissez Superior North Catholic DSB et l'année scolaire. La page précise qu'en cas de désaccord, le bureau du transport a le dernier mot."
-  },
-  "sncdsb-fi": {
-    "summary": "Le conseil offre le français langue seconde de la maternelle à la 8e année, selon la méthode AIM. Nous n'avons trouvé aucun programme d'immersion en français ni de français intensif. Renseignez-vous auprès du conseil si vous en voulez un."
-  },
-  "sncdsb-transfer": {
-    "summary": "Nous n'avons trouvé aucune page ni politique de Superior North Catholic sur la façon de demander à fréquenter une autre école que l'école de secteur. La liste des politiques du conseil se charge par script et nous n'avons pas pu en lire une liste complète. Renseignez-vous auprès de la direction de l'école ou du bureau du conseil."
-  },
-  "sncdsb-transport": {
-    "summary": "Les autobus sont exploités par un consortium partagé par quatre conseils du nord. Le transport peut être offert aux élèves qui habitent au-delà de ces distances de l'école par route publique : 0,2 km pour la maternelle et le jardin d'enfants, 1,2 km de la 1re à la 3e année, 1,6 km de la 4e à la 8e année. La page du conseil sur la maternelle indique que tous les élèves de la maternelle et du jardin d'enfants ont droit à l'autobus. Les demandes passent par votre école."
-  },
-  "sncdsb-sped": {
-    "summary": "Le conseil appelle l'éducation de l'enfance en difficulté « Learning for All ». Les élèves sont placés dans des classes adaptées à leur âge avec du soutien dans chaque école, identifiés par un CIPR au besoin et dotés d'un PEI. La page renvoie au Plan d'éducation de l'enfance en difficulté 2026 et à un guide des parents sur l'éducation de l'enfance en difficulté."
-  },
-  "sncdsb-seac": {
-    "summary": "Le CCED du conseil conseille sur les programmes et services d'éducation de l'enfance en difficulté et participe au plan et au budget annuels. La page indique les dates de réunion de septembre 2026 à juin 2027 et ses membres, et dit que des parents membres sont recherchés. Pour offrir vos services, communiquez avec la surintendance adjointe de l'éducation."
-  },
-  "sncdsb-access": {
-    "summary": "Le conseil renvoie à sa politique et à sa procédure sur les normes d'accessibilité et à un plan d'accessibilité pluriannuel pour janvier 2024 à 2029. Il explique aussi comment demander un changement sans obstacle ou de rénovation et une copie accessible d'un PDF, par formulaire de contact ou en appelant le 807-825-3209."
-  },
-  "sncdsb-newcomer": {
-    "summary": "Nous n'avons trouvé aucune page de Superior North Catholic sur les familles nouvellement arrivées ou sur le soutien aux élèves apprenant l'anglais. Demandez à l'école ou au bureau du conseil quel soutien est offert. L'inscription exige une preuve de date de naissance et d'adresse."
-  },
-  "sncdsb-plan": {
-    "summary": "Cette politique indique que le conseil surveille régulièrement ses écoles et envisagera des changements de limites de secteur, des regroupements, des fusions ou des fermetures lorsque l'effectif change. Une procédure détaillée énonce les étapes du comité d'examen. Nous n'avons trouvé aucun plan d'aménagement à long terme avec des chiffres école par école. Les projections sont des prévisions et la capacité représente l'espace des bâtiments, non des places libres."
-  },
-  "sncdsb-achieve": {
-    "summary": "Le conseil publie sur cette page son plan de réussite des élèves exigé par le ministère, avec des résultats comparés à ceux de la province pour les compétences scolaires de base, la préparation à la réussite future et la mobilisation et le bien-être, ainsi qu'un court résumé des mesures prévues. Le rapport lié utilise des données de 2022-2023 à 2024-2025."
-  },
-  "sncdsb-cpic": {
-    "summary": "Le comité de participation des parents du conseil met les parents en lien avec les conseillers scolaires et la direction de l'éducation et soutient les conseils d'école. Il se réunit au moins quatre fois par année, trois par téléconférence et une en personne au printemps. La page renvoie à ses règlements (révisés en dernier en mars 2021)."
-  },
-  "sncdsb-council": {
-    "summary": "Les conseils d'école donnent aux parents voix au chapitre sur la planification de l'amélioration de l'école, les priorités budgétaires et les calendriers locaux, et doivent être consultés sur des questions comme les codes de conduite et les fermetures d'écoles. Pour savoir comment s'y joindre, la page dit d'appeler votre école locale."
-  },
-  "sncdsb-concerns": {
-    "summary": "Procédez dans l'ordre : d'abord l'enseignant ou l'enseignante de la classe ou le personnel de soutien, puis la direction de l'école. Si le problème n'est pas réglé, ou s'il ne concerne pas l'école, communiquez avec le Student and Family Support Office par formulaire d'accueil en ligne, courriel ou téléphone (807-825-2004). Le bureau dit qu'il accusera réception dans les 2 jours ouvrables, vise à répondre dans les 5 jours et donnera une date estimative si une réponse complète prend plus de temps."
-  }
+  "sncdsb-register": { "summary": "Les familles s'inscrivent en ligne par le portail d'inscription du conseil (créez d'abord un compte) ou apportent les documents originaux à l'école. L'inscription pour 2026-2027 a ouvert en janvier 2026. Pour la maternelle et le jardin d'enfants, l'enfant doit avoir 4 ans (année 1) ou 5 ans (année 2) au plus tard le 31 décembre; apportez une preuve de date de naissance et d'adresse. La page sur la maternelle indique que les élèves et les aidants n'ont pas à être catholiques pour s'inscrire. Le conseil ne dessert que la maternelle à la 8e année." },
+  "sncdsb-locator": { "summary": "Le consortium qui exploite les autobus de Superior North Catholic publie cet outil de recherche. Entrez votre adresse et votre municipalité, choisissez Superior North Catholic DSB et l'année scolaire. La page précise qu'en cas de désaccord, le bureau du transport a le dernier mot." },
+  "sncdsb-fi": { "summary": "Le conseil offre le français langue seconde de la maternelle à la 8e année, selon la méthode AIM. Nous n'avons trouvé aucun programme d'immersion en français ni de français intensif. Renseignez-vous auprès du conseil si vous en voulez un." },
+  "sncdsb-transfer": { "summary": "Nous n'avons trouvé aucune page ni politique de Superior North Catholic sur la façon de demander à fréquenter une autre école que l'école de secteur. La liste des politiques du conseil se charge par script et nous n'avons pas pu en lire une liste complète. Renseignez-vous auprès de la direction de l'école ou du bureau du conseil." },
+  "sncdsb-transport": { "summary": "Les autobus sont exploités par un consortium partagé par quatre conseils du nord. Le transport peut être offert aux élèves qui habitent au-delà de ces distances de l'école par route publique : 0,2 km pour la maternelle et le jardin d'enfants, 1,2 km de la 1re à la 3e année, 1,6 km de la 4e à la 8e année. La page du conseil sur la maternelle indique que tous les élèves de la maternelle et du jardin d'enfants ont droit à l'autobus. Les demandes passent par votre école." },
+  "sncdsb-sped": { "summary": "Le conseil appelle l'éducation de l'enfance en difficulté « Learning for All ». Les élèves sont placés dans des classes adaptées à leur âge avec du soutien dans chaque école, identifiés par un CIPR au besoin et dotés d'un PEI. La page renvoie au Plan d'éducation de l'enfance en difficulté 2026 et à un guide des parents sur l'éducation de l'enfance en difficulté." },
+  "sncdsb-seac": { "summary": "Le CCED du conseil conseille sur les programmes et services d'éducation de l'enfance en difficulté et participe au plan et au budget annuels. La page indique les dates de réunion de septembre 2026 à juin 2027 et ses membres, et dit que des parents membres sont recherchés. Pour offrir vos services, communiquez avec la surintendance adjointe de l'éducation." },
+  "sncdsb-access": { "summary": "Le conseil renvoie à sa politique et à sa procédure sur les normes d'accessibilité et à un plan d'accessibilité pluriannuel pour janvier 2024 à 2029. Il explique aussi comment demander un changement sans obstacle ou de rénovation et une copie accessible d'un PDF, par formulaire de contact ou en appelant le 807-825-3209." },
+  "sncdsb-newcomer": { "summary": "Nous n'avons trouvé aucune page de Superior North Catholic sur les familles nouvellement arrivées ou sur le soutien aux élèves apprenant l'anglais. Demandez à l'école ou au bureau du conseil quel soutien est offert. L'inscription exige une preuve de date de naissance et d'adresse." },
+  "sncdsb-plan": { "summary": "Cette politique indique que le conseil surveille régulièrement ses écoles et envisagera des changements de limites de secteur, des regroupements, des fusions ou des fermetures lorsque l'effectif change. Une procédure détaillée énonce les étapes du comité d'examen. Nous n'avons trouvé aucun plan d'aménagement à long terme avec des chiffres école par école. Les projections sont des prévisions et la capacité représente l'espace des bâtiments, non des places libres." },
+  "sncdsb-achieve": { "summary": "Le conseil publie sur cette page son plan de réussite des élèves exigé par le ministère, avec des résultats comparés à ceux de la province pour les compétences scolaires de base, la préparation à la réussite future et la mobilisation et le bien-être, ainsi qu'un court résumé des mesures prévues. Le rapport lié utilise des données de 2022-2023 à 2024-2025." },
+  "sncdsb-cpic": { "summary": "Le comité de participation des parents du conseil met les parents en lien avec les conseillers scolaires et la direction de l'éducation et soutient les conseils d'école. Il se réunit au moins quatre fois par année, trois par téléconférence et une en personne au printemps. La page renvoie à ses règlements (révisés en dernier en mars 2021)." },
+  "sncdsb-council": { "summary": "Les conseils d'école donnent aux parents voix au chapitre sur la planification de l'amélioration de l'école, les priorités budgétaires et les calendriers locaux, et doivent être consultés sur des questions comme les codes de conduite et les fermetures d'écoles. Pour savoir comment s'y joindre, la page dit d'appeler votre école locale." },
+  "sncdsb-concerns": { "summary": "Procédez dans l'ordre : d'abord l'enseignant ou l'enseignante de la classe ou le personnel de soutien, puis la direction de l'école. Si le problème n'est pas réglé, ou s'il ne concerne pas l'école, communiquez avec le Student and Family Support Office par formulaire d'accueil en ligne, courriel ou téléphone (807-825-2004). Le bureau dit qu'il accusera réception dans les 2 jours ouvrables, vise à répondre dans les 5 jours et donnera une date estimative si une réponse complète prend plus de temps." }
 }

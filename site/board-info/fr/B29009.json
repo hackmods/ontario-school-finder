@@ -1,51 +1,19 @@
 {
   "_about": "French summaries for site/board-info/B29009.json. Machine translation, unreviewed.",
-  "necdsb-register": {
-    "summary": "Soumettez une demande d'inscription en ligne, puis l'école organise une rencontre d'admission en personne; apportez preuves de nom, d'âge et d'adresse, les papiers d'immigration si l'enfant n'est pas né au Canada, les documents de garde, les certificats de baptême le cas échéant et le dernier bulletin. L'inscription en ligne à la maternelle ouvre en février chaque année, et le conseil recommande de s'inscrire d'ici la fin avril; les inscriptions des familles catholiques sont traitées en priorité. Élémentaire : les enfants des contribuables catholiques ont le droit d'y aller; la direction peut admettre d'autres élèves. Secondaire : toute confession admise."
-  },
-  "necdsb-locator": {
-    "summary": "La page d'inscription du conseil renvoie à un outil de recherche d'école (adresse et année d'études), mais cet ancien lien ne s'ouvre plus; sa page de transport utilise maintenant le BusPlanner du consortium Transport EnRoute, où l'on choisit le conseil et ajoute son adresse et son année d'études. Le consortium a le dernier mot sur les écoles et le transport par autobus."
-  },
-  "necdsb-fi": {
-    "summary": "La page en français du conseil indique que l'immersion en français à l'élémentaire commence à la maternelle, avec environ 70 % de l'enseignement en français, baissant à environ 50 % de la 5e à la 8e année; la religion et les mathématiques sont enseignées en anglais. Elle n'indique ni comment ni quand présenter une demande, ni comment les places sont attribuées, ni quelles écoles l'offrent; renseignez-vous auprès de l'école."
-  },
-  "necdsb-fi-secondary": {
-    "summary": "L'immersion en français se poursuit de la 9e à la 12e année. Les élèves suivent quatre cours de langue française et au moins deux autres cours enseignés en français, avec pour objectif un français de niveau intermédiaire supérieur (B2), et peuvent passer l'examen du DELF. La page ne décrit aucune démarche de demande."
-  },
-  "necdsb-xfi": {
-    "summary": "Nous avons cherché un programme de français intensif et n'en avons trouvé aucun sur la page en français du conseil. Demandez à l'école quels programmes de français elle offre."
-  },
-  "necdsb-transfer": {
-    "summary": "Pour passer d'une école élémentaire du conseil à une autre, remplissez la demande d'inscription en ligne et informez votre direction actuelle. Les transferts mènent habituellement à l'admission lorsque la nouvelle école peut accueillir l'élève dans ses structures existantes; des besoins spécialisés peuvent la retarder. La procédure n'indique aucune date limite, et le conseil ne publie aucune politique distincte sur la fréquentation hors secteur."
-  },
-  "necdsb-transport": {
-    "summary": "Le transport par autobus est assuré par le consortium Transport EnRoute, que le conseil partage avec trois autres conseils du nord-est; la politique du conseil laisse les critères d'admissibilité au consortium. Aucune distance de marche par année d'études n'est publiée sur les pages du conseil ni sur celles du consortium. Vérifiez l'admissibilité selon l'adresse et l'année d'études dans l'outil BusPlanner du consortium ou appelez le conseil au 705-268-7443."
-  },
-  "necdsb-sped": {
-    "summary": "Le conseil utilise un modèle inclusif, répondant aux besoins dans la classe régulière dans la mesure du possible, avec des mesures d'adaptation ou des modifications. Sa page renvoie au Plan d'éducation de l'enfance en difficulté 2026-2028, à un guide des parents sur l'éducation de l'enfance en difficulté et à un guide des parents sur le PEI."
-  },
-  "necdsb-seac": {
-    "summary": "Le CCED conseille le conseil sur l'éducation de l'enfance en difficulté et examine le plan chaque année. Les réunions de 2026-2027 ont lieu le mercredi à 11 h 45 au bureau du conseil à Timmins et sont ouvertes au public (les prochaines : 16 décembre, 20 janvier, 17 février et 24 mars, entre autres dates indiquées sur la page)."
-  },
-  "necdsb-access": {
-    "summary": "Le plan pluriannuel d'accessibilité du conseil, avec des rapports annuels et un formulaire de rétroaction. Il décrit des plans à l'échelle du conseil, et non les caractéristiques d'un bâtiment scolaire en particulier; renseignez-vous auprès de l'école pour des besoins précis."
-  },
-  "necdsb-newcomer": {
-    "summary": "Les nouveaux élèves rencontrent la direction lors d'une rencontre d'admission en personne, où l'école se renseigne sur le parcours de l'enfant et son anglais, et décide s'il y a lieu de l'aiguiller vers un soutien en anglais langue seconde. L'interprétation est offerte par téléphone ou en ligne. Les élèves de l'élémentaire sont placés dans un groupe correspondant à leur âge, quel que soit leur niveau d'anglais. Le conseil ne décrit aucun centre d'accueil distinct."
-  },
-  "necdsb-plan": {
-    "summary": "Nous avons cherché un plan d'aménagement à long terme ou d'immobilisations indiquant la capacité et l'effectif des écoles et n'en avons trouvé aucun sur les pages du conseil; seule la politique sur le déroulement des examens d'aménagement (qui pourraient changer l'avenir d'une école) est publiée. Renseignez-vous auprès du bureau du conseil. La capacité correspond à l'espace du bâtiment, et non aux places libres."
-  },
-  "necdsb-sap": {
-    "summary": "Le plan du conseil selon le cadre ontarien de réussite des élèves : compétences de base (lecture, écriture, mathématiques), préparation des élèves à la réussite future (diplomation, crédits, programmes de compétences professionnelles) et engagement et bien-être (assiduité, sensibilisation à la santé mentale). Ce sont des objectifs à l'échelle du conseil, et non ceux de cette école."
-  },
-  "necdsb-council": {
-    "summary": "Le conseil soutient un conseil d'école catholique dans chaque école; les conseils conseillent la direction ou le conseil sur la réussite des élèves, le bien-être et l'identité catholique. Demandez à l'école comment y participer. Les pages du conseil n'indiquent aucun comité de participation des parents."
-  },
-  "necdsb-trustees": {
-    "summary": "Les conseillers scolaires du conseil et son calendrier des réunions 2026-2027. Les réunions publiques du conseil ont lieu au Catholic Education Centre à Timmins, et le public peut y assister. Pour les ordres du jour et procès-verbaux antérieurs, écrivez à info@ncdsb.on.ca."
-  },
-  "necdsb-concerns": {
-    "summary": "Commencez par l'enseignant, puis la direction; si la situation demeure non résolue ou complexe, le Bureau de soutien aux élèves et aux familles peut aider (705-531-7225, supportoffice@ncdsb.on.ca, ou son formulaire en ligne) et peut vous aiguiller vers une surintendance. Il vise à accuser réception en 2 jours ouvrables et à répondre en 5."
-  }
+  "necdsb-register": { "summary": "Soumettez une demande d'inscription en ligne, puis l'école organise une rencontre d'admission en personne; apportez preuves de nom, d'âge et d'adresse, les papiers d'immigration si l'enfant n'est pas né au Canada, les documents de garde, les certificats de baptême le cas échéant et le dernier bulletin. L'inscription en ligne à la maternelle ouvre en février chaque année, et le conseil recommande de s'inscrire d'ici la fin avril; les inscriptions des familles catholiques sont traitées en priorité. Élémentaire : les enfants des contribuables catholiques ont le droit d'y aller; la direction peut admettre d'autres élèves. Secondaire : toute confession admise." },
+  "necdsb-locator": { "summary": "La page d'inscription du conseil renvoie à un outil de recherche d'école (adresse et année d'études), mais cet ancien lien ne s'ouvre plus; sa page de transport utilise maintenant le BusPlanner du consortium Transport EnRoute, où l'on choisit le conseil et ajoute son adresse et son année d'études. Le consortium a le dernier mot sur les écoles et le transport par autobus." },
+  "necdsb-fi": { "summary": "La page en français du conseil indique que l'immersion en français à l'élémentaire commence à la maternelle, avec environ 70 % de l'enseignement en français, baissant à environ 50 % de la 5e à la 8e année; la religion et les mathématiques sont enseignées en anglais. Elle n'indique ni comment ni quand présenter une demande, ni comment les places sont attribuées, ni quelles écoles l'offrent; renseignez-vous auprès de l'école." },
+  "necdsb-fi-secondary": { "summary": "L'immersion en français se poursuit de la 9e à la 12e année. Les élèves suivent quatre cours de langue française et au moins deux autres cours enseignés en français, avec pour objectif un français de niveau intermédiaire supérieur (B2), et peuvent passer l'examen du DELF. La page ne décrit aucune démarche de demande." },
+  "necdsb-xfi": { "summary": "Nous avons cherché un programme de français intensif et n'en avons trouvé aucun sur la page en français du conseil. Demandez à l'école quels programmes de français elle offre." },
+  "necdsb-transfer": { "summary": "Pour passer d'une école élémentaire du conseil à une autre, remplissez la demande d'inscription en ligne et informez votre direction actuelle. Les transferts mènent habituellement à l'admission lorsque la nouvelle école peut accueillir l'élève dans ses structures existantes; des besoins spécialisés peuvent la retarder. La procédure n'indique aucune date limite, et le conseil ne publie aucune politique distincte sur la fréquentation hors secteur." },
+  "necdsb-transport": { "summary": "Le transport par autobus est assuré par le consortium Transport EnRoute, que le conseil partage avec trois autres conseils du nord-est; la politique du conseil laisse les critères d'admissibilité au consortium. Aucune distance de marche par année d'études n'est publiée sur les pages du conseil ni sur celles du consortium. Vérifiez l'admissibilité selon l'adresse et l'année d'études dans l'outil BusPlanner du consortium ou appelez le conseil au 705-268-7443." },
+  "necdsb-sped": { "summary": "Le conseil utilise un modèle inclusif, répondant aux besoins dans la classe régulière dans la mesure du possible, avec des mesures d'adaptation ou des modifications. Sa page renvoie au Plan d'éducation de l'enfance en difficulté 2026-2028, à un guide des parents sur l'éducation de l'enfance en difficulté et à un guide des parents sur le PEI." },
+  "necdsb-seac": { "summary": "Le CCED conseille le conseil sur l'éducation de l'enfance en difficulté et examine le plan chaque année. Les réunions de 2026-2027 ont lieu le mercredi à 11 h 45 au bureau du conseil à Timmins et sont ouvertes au public (les prochaines : 16 décembre, 20 janvier, 17 février et 24 mars, entre autres dates indiquées sur la page)." },
+  "necdsb-access": { "summary": "Le plan pluriannuel d'accessibilité du conseil, avec des rapports annuels et un formulaire de rétroaction. Il décrit des plans à l'échelle du conseil, et non les caractéristiques d'un bâtiment scolaire en particulier; renseignez-vous auprès de l'école pour des besoins précis." },
+  "necdsb-newcomer": { "summary": "Les nouveaux élèves rencontrent la direction lors d'une rencontre d'admission en personne, où l'école se renseigne sur le parcours de l'enfant et son anglais, et décide s'il y a lieu de l'aiguiller vers un soutien en anglais langue seconde. L'interprétation est offerte par téléphone ou en ligne. Les élèves de l'élémentaire sont placés dans un groupe correspondant à leur âge, quel que soit leur niveau d'anglais. Le conseil ne décrit aucun centre d'accueil distinct." },
+  "necdsb-plan": { "summary": "Nous avons cherché un plan d'aménagement à long terme ou d'immobilisations indiquant la capacité et l'effectif des écoles et n'en avons trouvé aucun sur les pages du conseil; seule la politique sur le déroulement des examens d'aménagement (qui pourraient changer l'avenir d'une école) est publiée. Renseignez-vous auprès du bureau du conseil. La capacité correspond à l'espace du bâtiment, et non aux places libres." },
+  "necdsb-sap": { "summary": "Le plan du conseil selon le cadre ontarien de réussite des élèves : compétences de base (lecture, écriture, mathématiques), préparation des élèves à la réussite future (diplomation, crédits, programmes de compétences professionnelles) et engagement et bien-être (assiduité, sensibilisation à la santé mentale). Ce sont des objectifs à l'échelle du conseil, et non ceux de cette école." },
+  "necdsb-council": { "summary": "Le conseil soutient un conseil d'école catholique dans chaque école; les conseils conseillent la direction ou le conseil sur la réussite des élèves, le bien-être et l'identité catholique. Demandez à l'école comment y participer. Les pages du conseil n'indiquent aucun comité de participation des parents." },
+  "necdsb-trustees": { "summary": "Les conseillers scolaires du conseil et son calendrier des réunions 2026-2027. Les réunions publiques du conseil ont lieu au Catholic Education Centre à Timmins, et le public peut y assister. Pour les ordres du jour et procès-verbaux antérieurs, écrivez à info@ncdsb.on.ca." },
+  "necdsb-concerns": { "summary": "Commencez par l'enseignant, puis la direction; si la situation demeure non résolue ou complexe, le Bureau de soutien aux élèves et aux familles peut aider (705-531-7225, supportoffice@ncdsb.on.ca, ou son formulaire en ligne) et peut vous aiguiller vers une surintendance. Il vise à accuser réception en 2 jours ouvrables et à répondre en 5." }
 }
