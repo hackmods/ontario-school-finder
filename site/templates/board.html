@@ -23,6 +23,7 @@
     {% if indicators %}<a href="#indicators">Board results</a>{% endif %}
     {% if spend_view or safe_view or fsl_enrol %}<a href="#context">Board context</a>{% endif %}
     {% if board_info and board_info.topics %}<a href="#families">For families</a>{% endif %}
+    {% if board_sq %}<a href="#experience">Student experience</a>{% endif %}
     {% if medians %}<a href="#results">EQAO results</a>{% endif %}
     {% if cs_board %}<a href="#class-sizes">Class sizes</a>{% endif %}
     <a href="#schools">All {{ b.schools|length }} schools</a>
@@ -135,6 +136,39 @@
 {% endif %}
 
 {% if medians %}
+{% if board_sq %}
+<section class="block" id="experience">
+  <div class="wrap">
+    <h2>Student experience across the board <span class="badge">{{ board_sq[0].year }}</span></h2>
+    <p class="block-intro">What students across {{ b.name }} said in EQAO’s questionnaire, answered when they wrote the assessment: students’ own views of themselves and their learning, not a measure of the board’s quality. These are EQAO’s figures for every student in the board who answered, beside Ontario’s. Earlier years appear only when EQAO asked the same question with the same answers; each year is a different group of students. Each school’s page has its own figures.</p>
+    <div class="grid grid-2 grid-top">
+    {% for blk in board_sq %}
+      <div class="card sq-card">
+        <h3>{{ blk.grade }}{% if blk.respondents %} <span class="badge">{{ "{:,}".format(blk.respondents) }} students answered</span>{% endif %}</h3>
+        {% if blk.withheld %}
+        <p class="muted" style="margin:0"><span class="badge">Withheld</span> EQAO doesn’t report the board’s answers for this grade. <a class="ref" href="#src-{{ blk.source_id }}">source</a></p>
+        {% else %}
+        <div class="table-wrap"><table class="sq-table ctx-table">
+          <caption class="visually-hidden">{{ blk.grade }}, {{ blk.year }}: share of students who agreed</caption>
+          <thead><tr><th scope="col">Students who said</th><th scope="col" class="n">Whole board</th><th scope="col" class="n">Ontario</th></tr></thead>
+          <tbody>
+          {% for it in blk.rows %}
+            <tr role="row"><th scope="row" role="rowheader">“{{ it.question }}”<div class="small muted">{{ it.label }}: {{ it.agree|join(" or ")|lower }}</div></th>
+              <td class="n" role="cell" data-label="Whole board">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}%</b>{% if it.n %}<div class="small muted">of {{ "{:,}".format(it.n) }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier">Earlier: {% for h in it.history %}{{ h.year }} {% if h.agree_pct is not none %}{{ h.agree_pct }}%{% else %}<span class="code" title="{{ code_text(h.code) }}">{{ h.code }}</span>{% endif %}{{ "" if loop.last else " · " }}{% endfor %}</div>{% endif %}</td>
+              <td class="n" role="cell" data-label="Ontario">{{ pct(it.province_pct) }}</td></tr>
+          {% endfor %}
+          </tbody>
+        </table></div>
+        <p class="small muted" style="margin:8px 0 0">{% if blk.five_point %}Students chose from five answers; “agreed” adds “somewhat” and “strongly agree”, counted by this site from EQAO’s numbers.{% else %}Students chose “yes”, “not sure” or “no”; the figure is EQAO’s own percentage.{% endif %} <a class="ref" href="#src-{{ blk.source_id }}">source</a></p>
+        {% endif %}
+      </div>
+    {% endfor %}
+    </div>
+    <p class="small muted" style="margin:12px 0 0">Grades 3 and 6 use a three-answer scale and Grade 9 and the OSSLT a five-answer scale, so don’t compare figures across grades.</p>
+  </div>
+</section>
+{% endif %}
+
 <section class="block" id="results">
   <div class="wrap">
     <h2>EQAO results across the board’s schools</h2>

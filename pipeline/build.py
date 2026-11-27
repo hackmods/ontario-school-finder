@@ -122,6 +122,35 @@ def median(vals):
     return round(statistics.median(vals), 1) if vals else None
 
 
+def board_student_experience(bn: str, language: str, eqao_sq: dict, sq_history: dict, sq_year: dict) -> list[dict]:
+    """One block per assessment: the board's share who agreed for each question (EQAO's figure for every student in
+    the board who answered), Ontario's for the same language, and earlier years where the question is unchanged."""
+    blocks = []
+    for res in sources.EQAO_SQ_RESOURCES:
+        d = eqao_sq[res["id"]]
+        org = d["boards"].get(bn)
+        if not org:
+            continue
+        prov = d["province"].get(language) or {}
+        items, used = [], set()
+        for key in d["questions"]:
+            mine = org["items"].get(key, {"code": "N/D", **parse.flags("N/D")})
+            hist = []
+            for hid in sq_history[res["id"]]["comparable"].get(key, []):
+                ho = eqao_sq[hid]["boards"].get(bn)
+                if not ho:
+                    continue
+                hv = ho["items"].get(key, {"code": "N/D"})
+                hist.append({"year": sq_year[hid], "source_id": hid, "agree_pct": hv.get("agree_pct"), "n": hv.get("n"), "code": hv.get("code"),
+                             "province_pct": (eqao_sq[hid]["province"].get(language) or {}).get("items", {}).get(key, {}).get("agree_pct")})
+                used.add(hid)
+            items.append({"key": key, **mine, "province_pct": prov.get("items", {}).get(key, {}).get("agree_pct"), "history": hist})
+        blocks.append({"assessment": res["kind"], "grade": res["grade"], "year": res["year"], "source_id": res["id"],
+                       "withheld": org["withheld"], "respondents": org["respondents"], "items": items,
+                       "history_sources": sorted(used, reverse=True)})
+    return blocks
+
+
 def questionnaire_history(eqao_sq: dict) -> dict:
     """For each latest-year questionnaire, the earlier years (newest first) that asked each question with exactly the
     same wording and the same answers, and why the others are left out. Nothing is compared across a wording change."""
@@ -743,6 +772,9 @@ def _build(clean: bool = False) -> dict:
             "fsl_enrolment": {**fe, "year": sources.FSL_ENROL_RESOURCE["year"], "source_id": sources.FSL_ENROL_RESOURCE["id"],
                               "immersion_share": round(100 * fe["immersion"] / enrol_year_total, 1) if enrol_year_total else None} if fe else None,
         }
+        # EQAO's questionnaire for the whole board (EQAO's own board figures, every student who answered), beside
+        # Ontario's, with earlier years only where the question is unchanged (same rule as school pages)
+        b["student_experience"] = board_student_experience(bn, b["language"], eqao_sq, sq_history, sq_year)
         b["indicators"] = []
         for res in sources.SBPR_RESOURCES:
             row = sbpr[res["id"]]["rows"].get(bn)
@@ -774,6 +806,7 @@ def _build(clean: bool = False) -> dict:
                 used.add(ctx[part]["source_id"])
         if ctx["safe"]:
             used |= set(ctx["safe"]["source_ids"])
+        used |= {x["source_id"] for x in b["student_experience"]} | {h for x in b["student_experience"] for h in x["history_sources"]}
         b["sources"] = [src_table[i] for i in sorted(used) if i in src_ids]
     rep.count("boards", len(boards), "boards with at least one school")
     missing_area = [bn for bn, b in boards.items() if b["system"] != "other" and any(by_id[x]["regular"] for x in b["schools"]) and not b["area"]]

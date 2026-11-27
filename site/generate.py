@@ -634,7 +634,7 @@ class Site:
         self.render(f"board/{b['number']}/index.html", "board.html", title=b["name"], page_kind="board", map=True,
                     description=f"{b['name']}: {len(schools)} schools, official board results, EQAO medians across its schools and a map, with sources.",
                     safe_view=safe_view, spend_view=spend_view, fsl_enrol=ctx.get("fsl_enrolment"),
-                    b=b, schools=rows, school_groups=school_groups, cs_board=cs_board, indicators=indicators, indicator_releases=releases, headline=headline, medians=medians, medians_paper=medians_paper, board_info=self.board_records(b["number"]),
+                    b=b, schools=rows, school_groups=school_groups, cs_board=cs_board, indicators=indicators, indicator_releases=releases, headline=headline, medians=medians, medians_paper=medians_paper, board_info=self.board_records(b["number"]), board_sq=self.sq_view(b),
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"))
 
     # ------------------------------------------------------------------
