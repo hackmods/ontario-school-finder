@@ -12,7 +12,7 @@
   {%- endif %}
   {%- if r.facts and r.facts.capacity_otg %}
   <table class="mini"><caption>Figures from the plan</caption><tbody>
-    <tr><th scope="row">Capacity (on-the-ground)</th><td class="n">{{ r.facts.capacity_otg }}</td></tr>
+    <tr><th scope="row">{{ _(r.facts.capacity_label) if r.facts.capacity_label else _("Capacity (on-the-ground)") }}</th><td class="n">{{ r.facts.capacity_otg }}</td></tr>
     {% for e in r.facts.enrolment %}<tr><th scope="row">Enrolment, {{ e.year }}</th><td class="n">{{ e.value }}</td></tr>{% endfor %}
     {% for e in r.facts.projected %}<tr><th scope="row">Projected, {{ e.year }}</th><td class="n">{{ e.value }} <span class="muted small">forecast</span></td></tr>{% endfor %}
   </tbody></table>

@@ -387,5 +387,3481 @@
       "match": "Secondary schools named on the review page (White Oaks SS, Garth Webb SS, T.A. Blakelock SS) matched by hand to Oakville schools in this site's list. The new Oakville NE #1 school is not in the list; elementary schools were not named in the resolution.",
       "verified": "2026-11-26"
     }
-  ]
+  ],
+  "schools": {
+    "111090": {
+      "records": [
+        {
+          "id": "hdsb-capacity-111090",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 550,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 416
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 401
+              },
+              {
+                "year": "2035",
+                "value": 391
+              },
+              {
+                "year": "2040",
+                "value": 401
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 550, with 416 students in 2025; it forecasts 401 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "111600": {
+      "records": [
+        {
+          "id": "hdsb-capacity-111600",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 953,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 841
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 953, with 841 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "113514": {
+      "records": [
+        {
+          "id": "hdsb-capacity-113514",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 769,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 857
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 769, with 857 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "121112": {
+      "records": [
+        {
+          "id": "hdsb-capacity-121112",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 853,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 950
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 853, with 950 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "124887": {
+      "records": [
+        {
+          "id": "hdsb-capacity-124887",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 776,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1101
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 776, with 1,101 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "133739": {
+      "records": [
+        {
+          "id": "hdsb-capacity-133739",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 838,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 546
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 838, with 546 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "134344": {
+      "records": [
+        {
+          "id": "hdsb-capacity-134344",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 742,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 640
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1110
+              },
+              {
+                "year": "2035",
+                "value": 1122
+              },
+              {
+                "year": "2040",
+                "value": 1061
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 742, with 640 students in 2025; it forecasts 1,061 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "138990": {
+      "records": [
+        {
+          "id": "hdsb-capacity-138990",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 501,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 530
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 476
+              },
+              {
+                "year": "2035",
+                "value": 461
+              },
+              {
+                "year": "2040",
+                "value": 439
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 501, with 530 students in 2025; it forecasts 439 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "147281": {
+      "records": [
+        {
+          "id": "hdsb-capacity-147281",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 274,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 244
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 243
+              },
+              {
+                "year": "2035",
+                "value": 286
+              },
+              {
+                "year": "2040",
+                "value": 285
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 274, with 244 students in 2025; it forecasts 285 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "154705": {
+      "records": [
+        {
+          "id": "hdsb-capacity-154705",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 718,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 518
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 517
+              },
+              {
+                "year": "2035",
+                "value": 966
+              },
+              {
+                "year": "2040",
+                "value": 1446
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 718, with 518 students in 2025; it forecasts 1,446 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "156469": {
+      "records": [
+        {
+          "id": "hdsb-capacity-156469",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 377,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 303
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 243
+              },
+              {
+                "year": "2035",
+                "value": 306
+              },
+              {
+                "year": "2040",
+                "value": 303
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 377, with 303 students in 2025; it forecasts 303 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "158377": {
+      "records": [
+        {
+          "id": "hdsb-capacity-158377",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 807,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 852
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 807, with 852 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "164267": {
+      "records": [
+        {
+          "id": "hdsb-capacity-164267",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 568,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 485
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 458
+              },
+              {
+                "year": "2035",
+                "value": 474
+              },
+              {
+                "year": "2040",
+                "value": 496
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 568, with 485 students in 2025; it forecasts 496 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "169110": {
+      "records": [
+        {
+          "id": "hdsb-capacity-169110",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 253
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 253 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "179950": {
+      "records": [
+        {
+          "id": "hdsb-capacity-179950",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 784,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1111
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 982
+              },
+              {
+                "year": "2035",
+                "value": 1188
+              },
+              {
+                "year": "2040",
+                "value": 1190
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 784, with 1,111 students in 2025; it forecasts 1,190 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "180123": {
+      "records": [
+        {
+          "id": "hdsb-capacity-180123",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 614,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 585
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 614, with 585 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "193046": {
+      "records": [
+        {
+          "id": "hdsb-capacity-193046",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 568,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 502
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 987
+              },
+              {
+                "year": "2035",
+                "value": 2270
+              },
+              {
+                "year": "2040",
+                "value": 2705
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 568, with 502 students in 2025; it forecasts 2,705 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "194263": {
+      "records": [
+        {
+          "id": "hdsb-capacity-194263",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 645,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 545
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 434
+              },
+              {
+                "year": "2035",
+                "value": 384
+              },
+              {
+                "year": "2040",
+                "value": 386
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 645, with 545 students in 2025; it forecasts 386 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "206470": {
+      "records": [
+        {
+          "id": "hdsb-capacity-206470",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 743,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 619
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 498
+              },
+              {
+                "year": "2035",
+                "value": 419
+              },
+              {
+                "year": "2040",
+                "value": 400
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 743, with 619 students in 2025; it forecasts 400 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "206474": {
+      "records": [
+        {
+          "id": "hdsb-capacity-206474",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 666,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 598
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 606
+              },
+              {
+                "year": "2035",
+                "value": 697
+              },
+              {
+                "year": "2040",
+                "value": 828
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 666, with 598 students in 2025; it forecasts 828 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "212369": {
+      "records": [
+        {
+          "id": "hdsb-capacity-212369",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 538,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 355
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 538, with 355 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "216267": {
+      "records": [
+        {
+          "id": "hdsb-capacity-216267",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 295
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 275
+              },
+              {
+                "year": "2035",
+                "value": 484
+              },
+              {
+                "year": "2040",
+                "value": 642
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 295 students in 2025; it forecasts 642 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "220426": {
+      "records": [
+        {
+          "id": "hdsb-capacity-220426",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 357,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 369
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 372
+              },
+              {
+                "year": "2035",
+                "value": 426
+              },
+              {
+                "year": "2040",
+                "value": 408
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 357, with 369 students in 2025; it forecasts 408 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "220523": {
+      "records": [
+        {
+          "id": "hdsb-capacity-220523",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 262,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 215
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 262, with 215 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "223746": {
+      "records": [
+        {
+          "id": "hdsb-capacity-223746",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 717,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 585
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 681
+              },
+              {
+                "year": "2035",
+                "value": 1432
+              },
+              {
+                "year": "2040",
+                "value": 2075
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 717, with 585 students in 2025; it forecasts 2,075 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "245259": {
+      "records": [
+        {
+          "id": "hdsb-capacity-245259",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 297,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 214
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 297, with 214 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "251664": {
+      "records": [
+        {
+          "id": "hdsb-capacity-251664",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 793,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 772
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 793, with 772 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "253340": {
+      "records": [
+        {
+          "id": "hdsb-capacity-253340",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 798,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 736
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 901
+              },
+              {
+                "year": "2035",
+                "value": 927
+              },
+              {
+                "year": "2040",
+                "value": 896
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 798, with 736 students in 2025; it forecasts 896 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "280356": {
+      "records": [
+        {
+          "id": "hdsb-capacity-280356",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 341,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 249
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 341, with 249 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "285161": {
+      "records": [
+        {
+          "id": "hdsb-capacity-285161",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 550,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 648
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 643
+              },
+              {
+                "year": "2035",
+                "value": 604
+              },
+              {
+                "year": "2040",
+                "value": 591
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 550, with 648 students in 2025; it forecasts 591 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "286087": {
+      "records": [
+        {
+          "id": "hdsb-capacity-286087",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 214,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 129
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 214, with 129 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "291536": {
+      "records": [
+        {
+          "id": "hdsb-capacity-291536",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 223
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 207
+              },
+              {
+                "year": "2035",
+                "value": 206
+              },
+              {
+                "year": "2040",
+                "value": 206
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 363, with 223 students in 2025; it forecasts 206 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "299855": {
+      "records": [
+        {
+          "id": "hdsb-capacity-299855",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 305
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 282
+              },
+              {
+                "year": "2035",
+                "value": 254
+              },
+              {
+                "year": "2040",
+                "value": 239
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 305 students in 2025; it forecasts 239 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "304271": {
+      "records": [
+        {
+          "id": "hdsb-capacity-304271",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 213
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 267
+              },
+              {
+                "year": "2035",
+                "value": 350
+              },
+              {
+                "year": "2040",
+                "value": 313
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 213 students in 2025; it forecasts 313 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "310777": {
+      "records": [
+        {
+          "id": "hdsb-capacity-310777",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 846,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1039
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 846, with 1,039 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "312460": {
+      "records": [
+        {
+          "id": "hdsb-capacity-312460",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 187,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 85
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 187, with 85 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "334693": {
+      "records": [
+        {
+          "id": "hdsb-capacity-334693",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 541,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 466
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 468
+              },
+              {
+                "year": "2035",
+                "value": 587
+              },
+              {
+                "year": "2040",
+                "value": 584
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 541, with 466 students in 2025; it forecasts 584 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "336122": {
+      "records": [
+        {
+          "id": "hdsb-capacity-336122",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 519,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 423
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 396
+              },
+              {
+                "year": "2035",
+                "value": 600
+              },
+              {
+                "year": "2040",
+                "value": 899
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 519, with 423 students in 2025; it forecasts 899 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "344051": {
+      "records": [
+        {
+          "id": "hdsb-capacity-344051",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 841,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 874
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 841, with 874 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "345229": {
+      "records": [
+        {
+          "id": "hdsb-capacity-345229",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 762,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 616
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 762, with 616 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "353183": {
+      "records": [
+        {
+          "id": "hdsb-capacity-353183",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 758,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 300
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 758, with 300 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "368857": {
+      "records": [
+        {
+          "id": "hdsb-capacity-368857",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 473,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 296
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 261
+              },
+              {
+                "year": "2035",
+                "value": 244
+              },
+              {
+                "year": "2040",
+                "value": 272
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 473, with 296 students in 2025; it forecasts 272 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "369253": {
+      "records": [
+        {
+          "id": "hdsb-capacity-369253",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 721,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 983
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 721, with 983 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "376086": {
+      "records": [
+        {
+          "id": "hdsb-capacity-376086",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 481,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 397
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 367
+              },
+              {
+                "year": "2035",
+                "value": 358
+              },
+              {
+                "year": "2040",
+                "value": 362
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 481, with 397 students in 2025; it forecasts 362 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "380199": {
+      "records": [
+        {
+          "id": "hdsb-capacity-380199",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 492,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 465
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 573
+              },
+              {
+                "year": "2035",
+                "value": 667
+              },
+              {
+                "year": "2040",
+                "value": 701
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 492, with 465 students in 2025; it forecasts 701 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "383570": {
+      "records": [
+        {
+          "id": "hdsb-capacity-383570",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 259,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 281
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 641
+              },
+              {
+                "year": "2035",
+                "value": 1258
+              },
+              {
+                "year": "2040",
+                "value": 1259
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 259, with 281 students in 2025; it forecasts 1,259 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "393777": {
+      "records": [
+        {
+          "id": "hdsb-capacity-393777",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 896,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 895
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 896, with 895 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "408543": {
+      "records": [
+        {
+          "id": "hdsb-capacity-408543",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 806,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 810
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 540
+              },
+              {
+                "year": "2035",
+                "value": 420
+              },
+              {
+                "year": "2040",
+                "value": 398
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 806, with 810 students in 2025; it forecasts 398 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "411795": {
+      "records": [
+        {
+          "id": "hdsb-capacity-411795",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 583,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 481
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 583, with 481 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "414646": {
+      "records": [
+        {
+          "id": "hdsb-capacity-414646",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 251
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 337, with 251 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "421472": {
+      "records": [
+        {
+          "id": "hdsb-capacity-421472",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 544,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 452
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 425
+              },
+              {
+                "year": "2035",
+                "value": 367
+              },
+              {
+                "year": "2040",
+                "value": 335
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 544, with 452 students in 2025; it forecasts 335 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "433888": {
+      "records": [
+        {
+          "id": "hdsb-capacity-433888",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 283,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 192
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 283, with 192 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "437565": {
+      "records": [
+        {
+          "id": "hdsb-capacity-437565",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 242,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 274
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 242, with 274 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "442011": {
+      "records": [
+        {
+          "id": "hdsb-capacity-442011",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 731,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 942
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 709
+              },
+              {
+                "year": "2035",
+                "value": 572
+              },
+              {
+                "year": "2040",
+                "value": 549
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 731, with 942 students in 2025; it forecasts 549 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "444022": {
+      "records": [
+        {
+          "id": "hdsb-capacity-444022",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 567,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 331
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 567, with 331 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "445193": {
+      "records": [
+        {
+          "id": "hdsb-capacity-445193",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 651,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 433
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 651, with 433 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "445452": {
+      "records": [
+        {
+          "id": "hdsb-capacity-445452",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 307,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 164
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 307, with 164 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "451720": {
+      "records": [
+        {
+          "id": "hdsb-capacity-451720",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 628,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 672
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 628, with 672 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "474578": {
+      "records": [
+        {
+          "id": "hdsb-capacity-474578",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 708,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 791
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 920
+              },
+              {
+                "year": "2035",
+                "value": 898
+              },
+              {
+                "year": "2040",
+                "value": 856
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 708, with 791 students in 2025; it forecasts 856 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "485438": {
+      "records": [
+        {
+          "id": "hdsb-capacity-485438",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 639,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 631
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 639, with 631 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "487252": {
+      "records": [
+        {
+          "id": "hdsb-capacity-487252",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 426,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 297
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 426, with 297 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "487570": {
+      "records": [
+        {
+          "id": "hdsb-capacity-487570",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 422,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 277
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 422, with 277 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "489395": {
+      "records": [
+        {
+          "id": "hdsb-capacity-489395",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 584,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 461
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 584, with 461 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "495263": {
+      "records": [
+        {
+          "id": "hdsb-capacity-495263",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 521,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 294
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 288
+              },
+              {
+                "year": "2035",
+                "value": 276
+              },
+              {
+                "year": "2040",
+                "value": 313
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 521, with 294 students in 2025; it forecasts 313 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "510130": {
+      "records": [
+        {
+          "id": "hdsb-capacity-510130",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 645,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 496
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 645, with 496 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "510289": {
+      "records": [
+        {
+          "id": "hdsb-capacity-510289",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 242,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 236
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 242, with 236 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "515353": {
+      "records": [
+        {
+          "id": "hdsb-capacity-515353",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 392,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 305
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 392, with 305 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "536881": {
+      "records": [
+        {
+          "id": "hdsb-capacity-536881",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 331,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 308
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 331, with 308 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "543217": {
+      "records": [
+        {
+          "id": "hdsb-capacity-543217",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 613,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 480
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 613, with 480 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "550361": {
+      "records": [
+        {
+          "id": "hdsb-capacity-550361",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 448,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 393
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 448, with 393 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "556807": {
+      "records": [
+        {
+          "id": "hdsb-capacity-556807",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 401,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 389
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 401, with 389 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "557269": {
+      "records": [
+        {
+          "id": "hdsb-capacity-557269",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 219,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 405
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 219, with 405 students in 2025. The plan notes: Plan footnote: functional capacity of Tom Thompson PS is 285, over-utilized pupil places 42%. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "579742": {
+      "records": [
+        {
+          "id": "hdsb-capacity-579742",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 420,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 619
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 420, with 619 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "579874": {
+      "records": [
+        {
+          "id": "hdsb-capacity-579874",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 449,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 377
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 449, with 377 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "586248": {
+      "records": [
+        {
+          "id": "hdsb-capacity-586248",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 850,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 935
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 850, with 935 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "597260": {
+      "records": [
+        {
+          "id": "hdsb-capacity-597260",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 666,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 629
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 666, with 629 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "890332": {
+      "records": [
+        {
+          "id": "hdsb-capacity-890332",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 516,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 287
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 516, with 287 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "890987": {
+      "records": [
+        {
+          "id": "hdsb-capacity-890987",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 780,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 623
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 780, with 623 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "893675": {
+      "records": [
+        {
+          "id": "hdsb-capacity-893675",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1306,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1235
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1015
+              },
+              {
+                "year": "2035",
+                "value": 872
+              },
+              {
+                "year": "2040",
+                "value": 896
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,306, with 1,235 students in 2025; it forecasts 896 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "897353": {
+      "records": [
+        {
+          "id": "hdsb-capacity-897353",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 989,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 835
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 989, with 835 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "901439": {
+      "records": [
+        {
+          "id": "hdsb-capacity-901439",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1357,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1594
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1380
+              },
+              {
+                "year": "2035",
+                "value": 1198
+              },
+              {
+                "year": "2040",
+                "value": 1155
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,357, with 1,594 students in 2025; it forecasts 1,155 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "912433": {
+      "records": [
+        {
+          "id": "hdsb-capacity-912433",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1858,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1487
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,858, with 1,487 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "913260": {
+      "records": [
+        {
+          "id": "hdsb-capacity-913260",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1209,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1205
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,209, with 1,205 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "913715": {
+      "records": [
+        {
+          "id": "hdsb-capacity-913715",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 873,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1315
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1387
+              },
+              {
+                "year": "2035",
+                "value": 1132
+              },
+              {
+                "year": "2040",
+                "value": 1042
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 873, with 1,315 students in 2025; it forecasts 1,042 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "918300": {
+      "records": [
+        {
+          "id": "hdsb-capacity-918300",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1267,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1553
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1347
+              },
+              {
+                "year": "2035",
+                "value": 1035
+              },
+              {
+                "year": "2040",
+                "value": 854
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,267, with 1,553 students in 2025; it forecasts 854 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "924393": {
+      "records": [
+        {
+          "id": "hdsb-capacity-924393",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1577,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1128
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1181
+              },
+              {
+                "year": "2035",
+                "value": 1163
+              },
+              {
+                "year": "2040",
+                "value": 1132
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,577, with 1,128 students in 2025; it forecasts 1,132 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "926736": {
+      "records": [
+        {
+          "id": "hdsb-capacity-926736",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1151,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1344
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,151, with 1,344 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "928160": {
+      "records": [
+        {
+          "id": "hdsb-capacity-928160",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1664,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1361
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1295
+              },
+              {
+                "year": "2035",
+                "value": 1288
+              },
+              {
+                "year": "2040",
+                "value": 1256
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,664, with 1,361 students in 2025; it forecasts 1,256 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "932060": {
+      "records": [
+        {
+          "id": "hdsb-capacity-932060",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1264,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1197
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1110
+              },
+              {
+                "year": "2035",
+                "value": 919
+              },
+              {
+                "year": "2040",
+                "value": 902
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,264, with 1,197 students in 2025; it forecasts 902 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "947539": {
+      "records": [
+        {
+          "id": "hdsb-capacity-947539",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1423,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1125
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,423, with 1,125 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "953121": {
+      "records": [
+        {
+          "id": "hdsb-capacity-953121",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1842,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 2211
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,842, with 2,211 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "967740": {
+      "records": [
+        {
+          "id": "hdsb-capacity-967740",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=28",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 1502,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1504
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,502, with 1,504 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "006777": {
+      "records": [
+        {
+          "id": "hdsb-capacity-006777",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 253,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 240
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 253, with 240 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "070777": {
+      "records": [
+        {
+          "id": "hdsb-capacity-070777",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 391,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 264
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 281
+              },
+              {
+                "year": "2035",
+                "value": 316
+              },
+              {
+                "year": "2040",
+                "value": 321
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 391, with 264 students in 2025; it forecasts 321 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "094455": {
+      "records": [
+        {
+          "id": "hdsb-capacity-094455",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 373
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 331
+              },
+              {
+                "year": "2035",
+                "value": 349
+              },
+              {
+                "year": "2040",
+                "value": 350
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 373 students in 2025; it forecasts 350 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "059501": {
+      "records": [
+        {
+          "id": "hdsb-capacity-059501",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 315
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 315 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "058360": {
+      "records": [
+        {
+          "id": "hdsb-capacity-058360",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 354,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 322
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 354, with 322 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "070734": {
+      "records": [
+        {
+          "id": "hdsb-capacity-070734",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 317
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 317 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "033680": {
+      "records": [
+        {
+          "id": "hdsb-capacity-033680",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 645,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 421
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 645, with 421 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "077046": {
+      "records": [
+        {
+          "id": "hdsb-capacity-077046",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=20",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 722,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 547
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 434
+              },
+              {
+                "year": "2035",
+                "value": 452
+              },
+              {
+                "year": "2040",
+                "value": 455
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 722, with 547 students in 2025; it forecasts 455 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "066249": {
+      "records": [
+        {
+          "id": "hdsb-capacity-066249",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 354,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 338
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 336
+              },
+              {
+                "year": "2035",
+                "value": 317
+              },
+              {
+                "year": "2040",
+                "value": 303
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 354, with 338 students in 2025; it forecasts 303 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "000779": {
+      "records": [
+        {
+          "id": "hdsb-capacity-000779",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 429,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 224
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 178
+              },
+              {
+                "year": "2035",
+                "value": 192
+              },
+              {
+                "year": "2040",
+                "value": 201
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 429, with 224 students in 2025; it forecasts 201 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "085898": {
+      "records": [
+        {
+          "id": "hdsb-capacity-085898",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 683,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 883
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 728
+              },
+              {
+                "year": "2035",
+                "value": 627
+              },
+              {
+                "year": "2040",
+                "value": 592
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 683, with 883 students in 2025; it forecasts 592 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "076727": {
+      "records": [
+        {
+          "id": "hdsb-capacity-076727",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=22",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 762,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1051
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 901
+              },
+              {
+                "year": "2035",
+                "value": 838
+              },
+              {
+                "year": "2040",
+                "value": 771
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 762, with 1,051 students in 2025; it forecasts 771 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "066761": {
+      "records": [
+        {
+          "id": "hdsb-capacity-066761",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 420,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 325
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 420, with 325 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "076970": {
+      "records": [
+        {
+          "id": "hdsb-capacity-076970",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=24",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 823,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 703
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 823, with 703 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "090140": {
+      "records": [
+        {
+          "id": "hdsb-capacity-090140",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2026 (Version 1.0), Halton District School Board (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf#page=26",
+          "source_date": "2025-2026 (Version 1.0); enrolment columns headed 2025",
+          "facts": {
+            "capacity_otg": 538,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 385
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 538, with 385 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    }
+  }
 }

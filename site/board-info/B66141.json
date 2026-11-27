@@ -384,5 +384,3391 @@
         "951820": "Westdale Secondary School (Hamilton)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "105503": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-105503",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=30",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 510,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 435
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 455
+              },
+              {
+                "year": "2035",
+                "value": 444
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 510, with 435 students in 2025; it forecasts 444 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "114477": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-114477",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=35",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 582,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 619
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 556
+              },
+              {
+                "year": "2035",
+                "value": 525
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 582, with 619 students in 2025; it forecasts 525 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "117986": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-117986",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=29",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 519,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 564
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 612
+              },
+              {
+                "year": "2035",
+                "value": 587
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 519, with 564 students in 2025; it forecasts 587 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "132020": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-132020",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=22",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 370,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 280
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 216
+              },
+              {
+                "year": "2035",
+                "value": 227
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 370, with 280 students in 2025; it forecasts 227 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "153087": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-153087",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=34",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 442,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 376
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 360
+              },
+              {
+                "year": "2035",
+                "value": 355
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 442, with 376 students in 2025; it forecasts 355 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "158151": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-158151",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=26",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 548,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 521
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 480
+              },
+              {
+                "year": "2035",
+                "value": 461
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 548, with 521 students in 2025; it forecasts 461 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "163481": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-163481",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=29",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 565,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 828
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 778
+              },
+              {
+                "year": "2035",
+                "value": 743
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 565, with 828 students in 2025; it forecasts 743 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "196240": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-196240",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=31",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 383,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 324
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 351
+              },
+              {
+                "year": "2035",
+                "value": 345
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 383, with 324 students in 2025; it forecasts 345 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "198668": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-198668",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=23",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 243,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 342
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 151
+              },
+              {
+                "year": "2035",
+                "value": 138
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 243, with 342 students in 2025; it forecasts 138 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "203912": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-203912",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=24",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 495,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 563
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 542
+              },
+              {
+                "year": "2035",
+                "value": 540
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 495, with 563 students in 2025; it forecasts 540 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "212490": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-212490",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=24",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 553,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 425
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 417
+              },
+              {
+                "year": "2035",
+                "value": 403
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 553, with 425 students in 2025; it forecasts 403 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "213012": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-213012",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=22",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 666,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 563
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 568
+              },
+              {
+                "year": "2035",
+                "value": 574
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 666, with 563 students in 2025; it forecasts 574 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "220145": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-220145",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=25",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 764,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 480
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 447
+              },
+              {
+                "year": "2035",
+                "value": 425
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 764, with 480 students in 2025; it forecasts 425 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "222135": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-222135",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=30",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 442,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 375
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 316
+              },
+              {
+                "year": "2035",
+                "value": 323
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 442, with 375 students in 2025; it forecasts 323 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "233552": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-233552",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=23",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 632,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 688
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 566
+              },
+              {
+                "year": "2035",
+                "value": 531
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 632, with 688 students in 2025; it forecasts 531 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "252557": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-252557",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 444,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 385
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 294
+              },
+              {
+                "year": "2035",
+                "value": 274
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 444, with 385 students in 2025; it forecasts 274 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "254096": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-254096",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=26",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 450,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 320
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 332
+              },
+              {
+                "year": "2035",
+                "value": 315
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 450, with 320 students in 2025; it forecasts 315 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "256048": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-256048",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 511,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 526
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 517
+              },
+              {
+                "year": "2035",
+                "value": 514
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 511, with 526 students in 2025; it forecasts 514 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "261378": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-261378",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=30",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 326,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 214
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 177
+              },
+              {
+                "year": "2035",
+                "value": 179
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 326, with 214 students in 2025; it forecasts 179 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "263885": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-263885",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=32",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 692,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 763
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 775
+              },
+              {
+                "year": "2035",
+                "value": 705
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 692, with 763 students in 2025; it forecasts 705 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "273201": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-273201",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 453,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 523
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 513
+              },
+              {
+                "year": "2035",
+                "value": 497
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 453, with 523 students in 2025; it forecasts 497 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "281026": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-281026",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=35",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 378,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 499
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 486
+              },
+              {
+                "year": "2035",
+                "value": 459
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 378, with 499 students in 2025; it forecasts 459 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "281492": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-281492",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=30",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 354,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 312
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 368
+              },
+              {
+                "year": "2035",
+                "value": 359
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 354, with 312 students in 2025; it forecasts 359 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "287210": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-287210",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=31",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 576,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 571
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 556
+              },
+              {
+                "year": "2035",
+                "value": 528
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 576, with 571 students in 2025; it forecasts 528 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "303755": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-303755",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=32",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 539,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 723
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 745
+              },
+              {
+                "year": "2035",
+                "value": 766
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 539, with 723 students in 2025; it forecasts 766 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "313173": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-313173",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 326,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 209
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 191
+              },
+              {
+                "year": "2035",
+                "value": 200
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 326, with 209 students in 2025; it forecasts 200 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "314544": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-314544",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 369,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 333
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 335
+              },
+              {
+                "year": "2035",
+                "value": 327
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 369, with 333 students in 2025; it forecasts 327 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "336649": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-336649",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=34",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 381,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 311
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 291
+              },
+              {
+                "year": "2035",
+                "value": 282
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 381, with 311 students in 2025; it forecasts 282 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "345873": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-345873",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=23",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 401,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 444
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 359
+              },
+              {
+                "year": "2035",
+                "value": 349
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 401, with 444 students in 2025; it forecasts 349 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "360309": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-360309",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=33",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 668,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 347
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 346
+              },
+              {
+                "year": "2035",
+                "value": 354
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 668, with 347 students in 2025; it forecasts 354 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "361739": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-361739",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=29",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 598
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 560
+              },
+              {
+                "year": "2035",
+                "value": 591
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 507, with 598 students in 2025; it forecasts 591 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "364983": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-364983",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=23",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 163
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 161
+              },
+              {
+                "year": "2035",
+                "value": 162
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 236, with 163 students in 2025; it forecasts 162 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "375900": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-375900",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=35",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 522,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 531
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 623
+              },
+              {
+                "year": "2035",
+                "value": 581
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 522, with 531 students in 2025; it forecasts 581 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "376299": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-376299",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=27",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 503
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 523
+              },
+              {
+                "year": "2035",
+                "value": 537
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 363, with 503 students in 2025; it forecasts 537 in 2035. The plan notes: Plan's 2030/2035 utilization % reflects the planned Mount Hope addition; OTG shown is the current figure. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "378178": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-378178",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=30",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 261
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 227
+              },
+              {
+                "year": "2035",
+                "value": 227
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 261 students in 2025; it forecasts 227 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "412309": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-412309",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=24",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 508
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 490
+              },
+              {
+                "year": "2035",
+                "value": 481
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 464, with 508 students in 2025; it forecasts 481 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "434272": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-434272",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=25",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 318
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 330
+              },
+              {
+                "year": "2035",
+                "value": 320
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 318 students in 2025; it forecasts 320 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "437557": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-437557",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=24",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 426,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 459
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 395
+              },
+              {
+                "year": "2035",
+                "value": 378
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 426, with 459 students in 2025; it forecasts 378 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "448940": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-448940",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=34",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 398,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 332
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 305
+              },
+              {
+                "year": "2035",
+                "value": 306
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 398, with 332 students in 2025; it forecasts 306 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "464430": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-464430",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=33",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 666,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 529
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 504
+              },
+              {
+                "year": "2035",
+                "value": 499
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 666, with 529 students in 2025; it forecasts 499 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "466387": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-466387",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=24",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 317,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 391
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 364
+              },
+              {
+                "year": "2035",
+                "value": 347
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 317, with 391 students in 2025; it forecasts 347 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "466639": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-466639",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=34",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 602,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 565
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 581
+              },
+              {
+                "year": "2035",
+                "value": 533
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 602, with 565 students in 2025; it forecasts 533 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "467324": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-467324",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=30",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 594,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 712
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 659
+              },
+              {
+                "year": "2035",
+                "value": 641
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 594, with 712 students in 2025; it forecasts 641 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "476773": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-476773",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 628,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 467
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 575
+              },
+              {
+                "year": "2035",
+                "value": 593
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 628, with 467 students in 2025; it forecasts 593 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "480418": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-480418",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=34",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 453,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 504
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 507
+              },
+              {
+                "year": "2035",
+                "value": 504
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 453, with 504 students in 2025; it forecasts 504 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "480738": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-480738",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 280,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 169
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 162
+              },
+              {
+                "year": "2035",
+                "value": 165
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 280, with 169 students in 2025; it forecasts 165 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "483142": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-483142",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=35",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 724
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 656
+              },
+              {
+                "year": "2035",
+                "value": 666
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 599, with 724 students in 2025; it forecasts 666 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "484199": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-484199",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=24",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 424,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 482
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 492
+              },
+              {
+                "year": "2035",
+                "value": 478
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 424, with 482 students in 2025; it forecasts 478 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "488921": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-488921",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=26",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 726,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 536
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 534
+              },
+              {
+                "year": "2035",
+                "value": 531
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 726, with 536 students in 2025; it forecasts 531 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "490695": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-490695",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=25",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 211,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 298
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 297
+              },
+              {
+                "year": "2035",
+                "value": 294
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 211, with 298 students in 2025; it forecasts 294 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "493163": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-493163",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=31",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 250
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 238
+              },
+              {
+                "year": "2035",
+                "value": 241
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 250 students in 2025; it forecasts 241 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "495379": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-495379",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=26",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 345,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 456
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 475
+              },
+              {
+                "year": "2035",
+                "value": 421
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 345, with 456 students in 2025; it forecasts 421 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "516244": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-516244",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=32",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 758,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 816
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 827
+              },
+              {
+                "year": "2035",
+                "value": 807
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 758, with 816 students in 2025; it forecasts 807 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "539570": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-539570",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=26",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 213
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 193
+              },
+              {
+                "year": "2035",
+                "value": 198
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245, with 213 students in 2025; it forecasts 198 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "548022": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-548022",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=35",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 488
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 769
+              },
+              {
+                "year": "2035",
+                "value": 772
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 488 students in 2025; it forecasts 772 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "548172": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-548172",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=26",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 778,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 660
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 746
+              },
+              {
+                "year": "2035",
+                "value": 726
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 778, with 660 students in 2025; it forecasts 726 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "550817": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-550817",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 513,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 537
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 485
+              },
+              {
+                "year": "2035",
+                "value": 509
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 513, with 537 students in 2025; it forecasts 509 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "556472": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-556472",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=31",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 493,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 456
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 427
+              },
+              {
+                "year": "2035",
+                "value": 405
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 493, with 456 students in 2025; it forecasts 405 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "560408": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-560408",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=26",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 786,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 566
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 539
+              },
+              {
+                "year": "2035",
+                "value": 544
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 786, with 566 students in 2025; it forecasts 544 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "578703": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-578703",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=25",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 456,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 474
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 534
+              },
+              {
+                "year": "2035",
+                "value": 514
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 456, with 474 students in 2025; it forecasts 514 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "579155": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-579155",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=31",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 514,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 646
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 590
+              },
+              {
+                "year": "2035",
+                "value": 523
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 514, with 646 students in 2025; it forecasts 523 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "579610": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-579610",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=25",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 810,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 697
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 758
+              },
+              {
+                "year": "2035",
+                "value": 741
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 810, with 697 students in 2025; it forecasts 741 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "602957": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-602957",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=30",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 343,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 289
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 305
+              },
+              {
+                "year": "2035",
+                "value": 244
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 343, with 289 students in 2025; it forecasts 244 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "603538": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-603538",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=30",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 395,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 316
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 258
+              },
+              {
+                "year": "2035",
+                "value": 259
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 395, with 316 students in 2025; it forecasts 259 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "615498": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-615498",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=29",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 761,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 882
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1107
+              },
+              {
+                "year": "2035",
+                "value": 1171
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 761, with 882 students in 2025; it forecasts 1,171 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "624721": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-624721",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=34",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 182
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 201
+              },
+              {
+                "year": "2035",
+                "value": 199
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 236, with 182 students in 2025; it forecasts 199 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "673013": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-673013",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=22",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 99,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 20
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 20
+              },
+              {
+                "year": "2035",
+                "value": 20
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 99, with 20 students in 2025; it forecasts 20 in 2035. The plan notes: Special day school for exceptional students; plan footnote says it is not included in the enrolment vs capacity chart. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "891894": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-891894",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=38",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1302,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1211
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1310
+              },
+              {
+                "year": "2035",
+                "value": 1220
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,302, with 1,211 students in 2025; it forecasts 1,220 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "894432": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-894432",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=37",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1162
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1053
+              },
+              {
+                "year": "2035",
+                "value": 904
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,245, with 1,162 students in 2025; it forecasts 904 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "898848": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-898848",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=36",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1230,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 999
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 917
+              },
+              {
+                "year": "2035",
+                "value": 930
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,230, with 999 students in 2025; it forecasts 930 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "913081": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-913081",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=36",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1050,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1239
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1275
+              },
+              {
+                "year": "2035",
+                "value": 1319
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,050, with 1,239 students in 2025; it forecasts 1,319 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "916579": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-916579",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=38",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1080,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 785
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 742
+              },
+              {
+                "year": "2035",
+                "value": 750
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,080, with 785 students in 2025; it forecasts 750 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "932507": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-932507",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=36",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1332,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1077
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1117
+              },
+              {
+                "year": "2035",
+                "value": 1131
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,332, with 1,077 students in 2025; it forecasts 1,131 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "939730": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-939730",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=37",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1173,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1302
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1624
+              },
+              {
+                "year": "2035",
+                "value": 1521
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,173, with 1,302 students in 2025; it forecasts 1,521 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "941328": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-941328",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=37",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1374,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1275
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1344
+              },
+              {
+                "year": "2035",
+                "value": 1419
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,374, with 1,275 students in 2025; it forecasts 1,419 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "941719": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-941719",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=37",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1350,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 641
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 761
+              },
+              {
+                "year": "2035",
+                "value": 658
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,350, with 641 students in 2025; it forecasts 658 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "942448": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-942448",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=36",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1176,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 786
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 882
+              },
+              {
+                "year": "2035",
+                "value": 932
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,176, with 786 students in 2025; it forecasts 932 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "950653": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-950653",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=38",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1632,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1112
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1255
+              },
+              {
+                "year": "2035",
+                "value": 1042
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,632, with 1,112 students in 2025; it forecasts 1,042 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "951820": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-951820",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=38",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1473,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1555
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1597
+              },
+              {
+                "year": "2035",
+                "value": 1511
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,473, with 1,555 students in 2025; it forecasts 1,511 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "952478": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-952478",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=37",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 1146,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1328
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1314
+              },
+              {
+                "year": "2035",
+                "value": 1163
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,146, with 1,328 students in 2025; it forecasts 1,163 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "011568": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-011568",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=23",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 548,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 776
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 695
+              },
+              {
+                "year": "2035",
+                "value": 607
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 548, with 776 students in 2025; it forecasts 607 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "050415": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-050415",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=23",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 381,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 313
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 274
+              },
+              {
+                "year": "2035",
+                "value": 274
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 381, with 313 students in 2025; it forecasts 274 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "090131": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-090131",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=26",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 729,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 562
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 582
+              },
+              {
+                "year": "2035",
+                "value": 602
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 729, with 562 students in 2025; it forecasts 602 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "091723": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-091723",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=26",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 283,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 366
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 363
+              },
+              {
+                "year": "2035",
+                "value": 360
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 283, with 366 students in 2025; it forecasts 360 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "041548": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-041548",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=27",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 640,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 915
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 680
+              },
+              {
+                "year": "2035",
+                "value": 600
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 640, with 915 students in 2025; it forecasts 600 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "008795": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-008795",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=27",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 265,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 322
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 304
+              },
+              {
+                "year": "2035",
+                "value": 277
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 265, with 322 students in 2025; it forecasts 277 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "089257": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-089257",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 377,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 283
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 287
+              },
+              {
+                "year": "2035",
+                "value": 274
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 377, with 283 students in 2025; it forecasts 274 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "094608": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-094608",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=28",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 602,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 718
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 697
+              },
+              {
+                "year": "2035",
+                "value": 653
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 602, with 718 students in 2025; it forecasts 653 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "068845": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-068845",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=30",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 195
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 163
+              },
+              {
+                "year": "2035",
+                "value": 173
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245, with 195 students in 2025; it forecasts 173 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "018961": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-018961",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=31",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 505,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 490
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 500
+              },
+              {
+                "year": "2035",
+                "value": 516
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 505, with 490 students in 2025; it forecasts 516 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "000728": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-000728",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=33",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 389,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 470
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 475
+              },
+              {
+                "year": "2035",
+                "value": 468
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 389, with 470 students in 2025; it forecasts 468 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "002674": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-002674",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=33",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 574,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 590
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 602
+              },
+              {
+                "year": "2035",
+                "value": 566
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 574, with 590 students in 2025; it forecasts 566 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "025897": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-025897",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=33",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 772,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 532
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 505
+              },
+              {
+                "year": "2035",
+                "value": 513
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 772, with 532 students in 2025; it forecasts 513 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "041980": {
+      "records": [
+        {
+          "id": "hwdsb-capacity-041980",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Facilities Plan (full report) (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf#page=35",
+          "source_date": "2026",
+          "facts": {
+            "capacity_otg": 400,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 358
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 339
+              },
+              {
+                "year": "2035",
+                "value": 332
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 400, with 358 students in 2025; it forecasts 332 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    }
+  }
 }

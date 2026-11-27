@@ -459,5 +459,4687 @@
         "950912": "Waterloo Collegiate Institute (Waterloo)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "100170": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-100170",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=47",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 257,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 420
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 412
+              },
+              {
+                "year": "2025",
+                "value": 374
+              },
+              {
+                "year": "2030",
+                "value": 398
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 257, with 420 students in 2020; it forecasts 398 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "108693": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-108693",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=43",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 625
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 623
+              },
+              {
+                "year": "2025",
+                "value": 629
+              },
+              {
+                "year": "2030",
+                "value": 651
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 527, with 625 students in 2020; it forecasts 651 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "109487": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-109487",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=47",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 642,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 688
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 661
+              },
+              {
+                "year": "2025",
+                "value": 640
+              },
+              {
+                "year": "2030",
+                "value": 592
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 642, with 688 students in 2020; it forecasts 592 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "118524": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-118524",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=95",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 643,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 780
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 849
+              },
+              {
+                "year": "2025",
+                "value": 1025
+              },
+              {
+                "year": "2030",
+                "value": 994
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 643, with 780 students in 2020; it forecasts 994 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "124354": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-124354",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=41",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 345
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 339
+              },
+              {
+                "year": "2025",
+                "value": 345
+              },
+              {
+                "year": "2030",
+                "value": 361
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 432, with 345 students in 2020; it forecasts 361 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "125555": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-125555",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=59",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 309,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 391
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 383
+              },
+              {
+                "year": "2025",
+                "value": 365
+              },
+              {
+                "year": "2030",
+                "value": 379
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 309, with 391 students in 2020; it forecasts 379 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "126179": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-126179",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=69",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 245
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 239
+              },
+              {
+                "year": "2025",
+                "value": 258
+              },
+              {
+                "year": "2030",
+                "value": 271
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 245 students in 2020; it forecasts 271 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "127876": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-127876",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=71",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 525,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 415
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 431
+              },
+              {
+                "year": "2025",
+                "value": 490
+              },
+              {
+                "year": "2030",
+                "value": 566
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 525, with 415 students in 2020; it forecasts 566 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "134618": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-134618",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=95",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 720,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 627
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 597
+              },
+              {
+                "year": "2025",
+                "value": 520
+              },
+              {
+                "year": "2030",
+                "value": 475
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 720, with 627 students in 2020; it forecasts 475 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "144266": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-144266",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=63",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 352,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 408
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 394
+              },
+              {
+                "year": "2025",
+                "value": 372
+              },
+              {
+                "year": "2030",
+                "value": 357
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 352, with 408 students in 2020; it forecasts 357 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "170682": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-170682",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=43",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 430,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 413
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 409
+              },
+              {
+                "year": "2025",
+                "value": 409
+              },
+              {
+                "year": "2030",
+                "value": 397
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 430, with 413 students in 2020; it forecasts 397 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "171417": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-171417",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=99",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 437,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 473
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 474
+              },
+              {
+                "year": "2025",
+                "value": 481
+              },
+              {
+                "year": "2030",
+                "value": 483
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 437, with 473 students in 2020; it forecasts 483 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "181030": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-181030",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=65",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 441,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 575
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 574
+              },
+              {
+                "year": "2025",
+                "value": 555
+              },
+              {
+                "year": "2030",
+                "value": 577
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 441, with 575 students in 2020; it forecasts 577 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "199389": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-199389",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=83",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 231
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 236
+              },
+              {
+                "year": "2025",
+                "value": 236
+              },
+              {
+                "year": "2030",
+                "value": 251
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 231 students in 2020; it forecasts 251 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "201421": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-201421",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=81",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 446,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 499
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 512
+              },
+              {
+                "year": "2025",
+                "value": 538
+              },
+              {
+                "year": "2030",
+                "value": 556
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 446, with 499 students in 2020; it forecasts 556 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "201448": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-201448",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=61",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 560,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 456
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 442
+              },
+              {
+                "year": "2025",
+                "value": 428
+              },
+              {
+                "year": "2030",
+                "value": 416
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 560, with 456 students in 2020; it forecasts 416 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "203394": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-203394",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=57",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 634,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 586
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 561
+              },
+              {
+                "year": "2025",
+                "value": 535
+              },
+              {
+                "year": "2030",
+                "value": 527
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 634, with 586 students in 2020; it forecasts 527 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "217891": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-217891",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=59",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 332,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 305
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 314
+              },
+              {
+                "year": "2025",
+                "value": 303
+              },
+              {
+                "year": "2030",
+                "value": 302
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 332, with 305 students in 2020; it forecasts 302 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "226920": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-226920",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=41",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 349,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 253
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 240
+              },
+              {
+                "year": "2025",
+                "value": 198
+              },
+              {
+                "year": "2030",
+                "value": 214
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 349, with 253 students in 2020; it forecasts 214 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "255653": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-255653",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=37",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 456
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 463
+              },
+              {
+                "year": "2025",
+                "value": 430
+              },
+              {
+                "year": "2030",
+                "value": 428
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 464, with 456 students in 2020; it forecasts 428 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "257605": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-257605",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=39",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 426,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 371
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 398
+              },
+              {
+                "year": "2025",
+                "value": 476
+              },
+              {
+                "year": "2030",
+                "value": 480
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 426, with 371 students in 2020; it forecasts 480 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "266183": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-266183",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=57",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 327
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 332
+              },
+              {
+                "year": "2025",
+                "value": 325
+              },
+              {
+                "year": "2030",
+                "value": 331
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 504, with 327 students in 2020; it forecasts 331 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "278280": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-278280",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=61",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 770,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 676
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 663
+              },
+              {
+                "year": "2025",
+                "value": 592
+              },
+              {
+                "year": "2030",
+                "value": 608
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 770, with 676 students in 2020; it forecasts 608 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "279595": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-279595",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=69",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 552,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 456
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 456
+              },
+              {
+                "year": "2025",
+                "value": 444
+              },
+              {
+                "year": "2030",
+                "value": 439
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 552, with 456 students in 2020; it forecasts 439 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "283860": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-283860",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=85",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 381,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 411
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 410
+              },
+              {
+                "year": "2025",
+                "value": 444
+              },
+              {
+                "year": "2030",
+                "value": 515
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 381, with 411 students in 2020; it forecasts 515 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "285536": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-285536",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=63",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 324,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 209
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 198
+              },
+              {
+                "year": "2025",
+                "value": 321
+              },
+              {
+                "year": "2030",
+                "value": 379
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 324, with 209 students in 2020; it forecasts 379 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "288241": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-288241",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=97",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 396
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 409
+              },
+              {
+                "year": "2025",
+                "value": 439
+              },
+              {
+                "year": "2030",
+                "value": 445
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 294, with 396 students in 2020; it forecasts 445 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "294390": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-294390",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=69",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 352,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 289
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 291
+              },
+              {
+                "year": "2025",
+                "value": 292
+              },
+              {
+                "year": "2030",
+                "value": 307
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 352, with 289 students in 2020; it forecasts 307 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "303003": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-303003",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=73",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 412,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 534
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 570
+              },
+              {
+                "year": "2025",
+                "value": 644
+              },
+              {
+                "year": "2030",
+                "value": 683
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 412, with 534 students in 2020; it forecasts 683 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "308463": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-308463",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=95",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 366,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 713
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 685
+              },
+              {
+                "year": "2025",
+                "value": 632
+              },
+              {
+                "year": "2030",
+                "value": 597
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 366, with 713 students in 2020; it forecasts 597 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "309320": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-309320",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=59",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 421,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 404
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 399
+              },
+              {
+                "year": "2025",
+                "value": 430
+              },
+              {
+                "year": "2030",
+                "value": 451
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 421, with 404 students in 2020; it forecasts 451 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "311731": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-311731",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=101",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 654,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 665
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 639
+              },
+              {
+                "year": "2025",
+                "value": 595
+              },
+              {
+                "year": "2030",
+                "value": 621
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 654, with 665 students in 2020; it forecasts 621 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "313246": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-313246",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=99",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 467,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 356
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 370
+              },
+              {
+                "year": "2025",
+                "value": 372
+              },
+              {
+                "year": "2030",
+                "value": 371
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 467, with 356 students in 2020; it forecasts 371 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "314331": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-314331",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=83",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 528,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 374
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 361
+              },
+              {
+                "year": "2025",
+                "value": 360
+              },
+              {
+                "year": "2030",
+                "value": 351
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 528, with 374 students in 2020; it forecasts 351 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "327930": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-327930",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=99",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 414,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 540
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 518
+              },
+              {
+                "year": "2025",
+                "value": 494
+              },
+              {
+                "year": "2030",
+                "value": 494
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 414, with 540 students in 2020; it forecasts 494 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "331708": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-331708",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=43",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 426,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 366
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 370
+              },
+              {
+                "year": "2025",
+                "value": 384
+              },
+              {
+                "year": "2030",
+                "value": 393
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 426, with 366 students in 2020; it forecasts 393 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "338079": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-338079",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=67",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 472,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 358
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 318
+              },
+              {
+                "year": "2025",
+                "value": 322
+              },
+              {
+                "year": "2030",
+                "value": 313
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 472, with 358 students in 2020; it forecasts 313 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "339451": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-339451",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=53",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 657,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 811
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 874
+              },
+              {
+                "year": "2025",
+                "value": 1030
+              },
+              {
+                "year": "2030",
+                "value": 1086
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 657, with 811 students in 2020; it forecasts 1,086 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "345997": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-345997",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=97",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 433,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 444
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 422
+              },
+              {
+                "year": "2025",
+                "value": 432
+              },
+              {
+                "year": "2030",
+                "value": 432
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 433, with 444 students in 2020; it forecasts 432 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "356425": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-356425",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=63",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 285,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 239
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 235
+              },
+              {
+                "year": "2025",
+                "value": 251
+              },
+              {
+                "year": "2030",
+                "value": 266
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 285, with 239 students in 2020; it forecasts 266 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "379959": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-379959",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=81",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 565,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 600
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 596
+              },
+              {
+                "year": "2025",
+                "value": 576
+              },
+              {
+                "year": "2030",
+                "value": 611
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 565, with 600 students in 2020; it forecasts 611 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "382620": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-382620",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=99",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 309,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 308
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 304
+              },
+              {
+                "year": "2025",
+                "value": 299
+              },
+              {
+                "year": "2030",
+                "value": 310
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 309, with 308 students in 2020; it forecasts 310 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "383422": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-383422",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=99",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 510,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 363
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 359
+              },
+              {
+                "year": "2025",
+                "value": 353
+              },
+              {
+                "year": "2030",
+                "value": 360
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 510, with 363 students in 2020; it forecasts 360 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "384097": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-384097",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=81",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 179,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 232
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 228
+              },
+              {
+                "year": "2025",
+                "value": 237
+              },
+              {
+                "year": "2030",
+                "value": 246
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 179, with 232 students in 2020; it forecasts 246 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "433799": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-433799",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=85",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 271,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 215
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 221
+              },
+              {
+                "year": "2025",
+                "value": 235
+              },
+              {
+                "year": "2030",
+                "value": 299
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 271, with 215 students in 2020; it forecasts 299 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "436267": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-436267",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=41",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 251,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 303
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 310
+              },
+              {
+                "year": "2025",
+                "value": 341
+              },
+              {
+                "year": "2030",
+                "value": 324
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 251, with 303 students in 2020; it forecasts 324 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "445878": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-445878",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=55",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 359
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 405
+              },
+              {
+                "year": "2025",
+                "value": 548
+              },
+              {
+                "year": "2030",
+                "value": 668
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 294, with 359 students in 2020; it forecasts 668 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "460273": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-460273",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=67",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 372,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 224
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 216
+              },
+              {
+                "year": "2025",
+                "value": 255
+              },
+              {
+                "year": "2030",
+                "value": 303
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 372, with 224 students in 2020; it forecasts 303 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "461962": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-461962",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=69",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 358,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 227
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 232
+              },
+              {
+                "year": "2025",
+                "value": 238
+              },
+              {
+                "year": "2030",
+                "value": 295
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 358, with 227 students in 2020; it forecasts 295 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "466646": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-466646",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=61",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 374
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 317
+              },
+              {
+                "year": "2025",
+                "value": 333
+              },
+              {
+                "year": "2030",
+                "value": 320
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 432, with 374 students in 2020; it forecasts 320 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "471541": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-471541",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=53",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 715,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 750
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 767
+              },
+              {
+                "year": "2025",
+                "value": 798
+              },
+              {
+                "year": "2030",
+                "value": 804
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 715, with 750 students in 2020; it forecasts 804 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "486140": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-486140",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=85",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 557,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 437
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 459
+              },
+              {
+                "year": "2025",
+                "value": 574
+              },
+              {
+                "year": "2030",
+                "value": 710
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 557, with 437 students in 2020; it forecasts 710 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "486336": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-486336",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=55",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 582,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 520
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 488
+              },
+              {
+                "year": "2025",
+                "value": 436
+              },
+              {
+                "year": "2030",
+                "value": 436
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 582, with 520 students in 2020; it forecasts 436 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "488747": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-488747",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=57",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 216
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 216
+              },
+              {
+                "year": "2025",
+                "value": 210
+              },
+              {
+                "year": "2030",
+                "value": 213
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 294, with 216 students in 2020; it forecasts 213 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "496685": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-496685",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=43",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 408
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 402
+              },
+              {
+                "year": "2025",
+                "value": 433
+              },
+              {
+                "year": "2030",
+                "value": 446
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458, with 408 students in 2020; it forecasts 446 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "497738": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-497738",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=63",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 678,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 654
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 634
+              },
+              {
+                "year": "2025",
+                "value": 611
+              },
+              {
+                "year": "2030",
+                "value": 618
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 678, with 654 students in 2020; it forecasts 618 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "497800": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-497800",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=101",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 296
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 281
+              },
+              {
+                "year": "2025",
+                "value": 259
+              },
+              {
+                "year": "2030",
+                "value": 264
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458, with 296 students in 2020; it forecasts 264 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "509159": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-509159",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=57",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 433,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 353
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 341
+              },
+              {
+                "year": "2025",
+                "value": 320
+              },
+              {
+                "year": "2030",
+                "value": 306
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 433, with 353 students in 2020; it forecasts 306 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "518905": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-518905",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=71",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 376,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 233
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 235
+              },
+              {
+                "year": "2025",
+                "value": 239
+              },
+              {
+                "year": "2030",
+                "value": 246
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 376, with 233 students in 2020; it forecasts 246 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "524751": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-524751",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=61",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 518,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 417
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 453
+              },
+              {
+                "year": "2025",
+                "value": 715
+              },
+              {
+                "year": "2030",
+                "value": 1031
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 518, with 417 students in 2020; it forecasts 1,031 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "528781": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-528781",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=37",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 424,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 347
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 314
+              },
+              {
+                "year": "2025",
+                "value": 317
+              },
+              {
+                "year": "2030",
+                "value": 314
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 424, with 347 students in 2020; it forecasts 314 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "533718": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-533718",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=39",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 637,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 745
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 729
+              },
+              {
+                "year": "2025",
+                "value": 673
+              },
+              {
+                "year": "2030",
+                "value": 642
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 637, with 745 students in 2020; it forecasts 642 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "534242": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-534242",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=71",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 382
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 417
+              },
+              {
+                "year": "2025",
+                "value": 466
+              },
+              {
+                "year": "2030",
+                "value": 508
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 464, with 382 students in 2020; it forecasts 508 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "536717": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-536717",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=45",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 513,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 501
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 500
+              },
+              {
+                "year": "2025",
+                "value": 493
+              },
+              {
+                "year": "2030",
+                "value": 531
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 513, with 501 students in 2020; it forecasts 531 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "540099": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-540099",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=67",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 552,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 479
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 490
+              },
+              {
+                "year": "2025",
+                "value": 498
+              },
+              {
+                "year": "2030",
+                "value": 509
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 552, with 479 students in 2020; it forecasts 509 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "543730": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-543730",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=57",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 455,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 356
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 356
+              },
+              {
+                "year": "2025",
+                "value": 322
+              },
+              {
+                "year": "2030",
+                "value": 314
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 455, with 356 students in 2020; it forecasts 314 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "547506": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-547506",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=37",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 481
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 465
+              },
+              {
+                "year": "2025",
+                "value": 464
+              },
+              {
+                "year": "2030",
+                "value": 483
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 507, with 481 students in 2020; it forecasts 483 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "561070": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-561070",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=59",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 262,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 192
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 194
+              },
+              {
+                "year": "2025",
+                "value": 227
+              },
+              {
+                "year": "2030",
+                "value": 245
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 262, with 192 students in 2020; it forecasts 245 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "588326": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-588326",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=101",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 113,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 356
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 375
+              },
+              {
+                "year": "2025",
+                "value": 404
+              },
+              {
+                "year": "2030",
+                "value": 378
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 113, with 356 students in 2020; it forecasts 378 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "588849": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-588849",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=87",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 565,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 683
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 658
+              },
+              {
+                "year": "2025",
+                "value": 666
+              },
+              {
+                "year": "2030",
+                "value": 818
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 565, with 683 students in 2020; it forecasts 818 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "588970": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-588970",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=55",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 331,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 393
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 430
+              },
+              {
+                "year": "2025",
+                "value": 441
+              },
+              {
+                "year": "2030",
+                "value": 416
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 331, with 393 students in 2020; it forecasts 416 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "589101": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-589101",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=71",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 272
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 294
+              },
+              {
+                "year": "2025",
+                "value": 481
+              },
+              {
+                "year": "2030",
+                "value": 592
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 363, with 272 students in 2020; it forecasts 592 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "591955": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-591955",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=83",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 714,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 698
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 686
+              },
+              {
+                "year": "2025",
+                "value": 627
+              },
+              {
+                "year": "2030",
+                "value": 612
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 714, with 698 students in 2020; it forecasts 612 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "595098": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-595098",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=63",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 320,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 569
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 547
+              },
+              {
+                "year": "2025",
+                "value": 553
+              },
+              {
+                "year": "2030",
+                "value": 495
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 320, with 569 students in 2020; it forecasts 495 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "602230": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-602230",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=65",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 493,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 534
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 545
+              },
+              {
+                "year": "2025",
+                "value": 566
+              },
+              {
+                "year": "2030",
+                "value": 563
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 493, with 534 students in 2020; it forecasts 563 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "602906": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-602906",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=65",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 401,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 386
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 399
+              },
+              {
+                "year": "2025",
+                "value": 426
+              },
+              {
+                "year": "2030",
+                "value": 459
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 401, with 386 students in 2020; it forecasts 459 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "606189": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-606189",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=61",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 758,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 620
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 595
+              },
+              {
+                "year": "2025",
+                "value": 551
+              },
+              {
+                "year": "2030",
+                "value": 557
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 758, with 620 students in 2020; it forecasts 557 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "609422": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-609422",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=55",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 597,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 833
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 895
+              },
+              {
+                "year": "2025",
+                "value": 1093
+              },
+              {
+                "year": "2030",
+                "value": 1086
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 597, with 833 students in 2020; it forecasts 1,086 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "610429": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-610429",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=81",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 228,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 161
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 160
+              },
+              {
+                "year": "2025",
+                "value": 174
+              },
+              {
+                "year": "2030",
+                "value": 181
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 228, with 161 students in 2020; it forecasts 181 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "612502": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-612502",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=57",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 510,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 490
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 491
+              },
+              {
+                "year": "2025",
+                "value": 501
+              },
+              {
+                "year": "2030",
+                "value": 514
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 510, with 490 students in 2020; it forecasts 514 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "615889": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-615889",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=99",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 216,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 286
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 295
+              },
+              {
+                "year": "2025",
+                "value": 285
+              },
+              {
+                "year": "2030",
+                "value": 270
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 216, with 286 students in 2020; it forecasts 270 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "616257": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-616257",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=41",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 455,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 435
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 458
+              },
+              {
+                "year": "2025",
+                "value": 422
+              },
+              {
+                "year": "2030",
+                "value": 401
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 455, with 435 students in 2020; it forecasts 401 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "618810": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-618810",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=39",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 479,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 418
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 400
+              },
+              {
+                "year": "2025",
+                "value": 421
+              },
+              {
+                "year": "2030",
+                "value": 460
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 479, with 418 students in 2020; it forecasts 460 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "620432": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-620432",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=83",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 262,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 224
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 203
+              },
+              {
+                "year": "2025",
+                "value": 170
+              },
+              {
+                "year": "2030",
+                "value": 152
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 262, with 224 students in 2020; it forecasts 152 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "621609": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-621609",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=83",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 320,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 269
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 290
+              },
+              {
+                "year": "2025",
+                "value": 326
+              },
+              {
+                "year": "2030",
+                "value": 310
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 320, with 269 students in 2020; it forecasts 310 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "634232": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-634232",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=73",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 623,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 782
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 793
+              },
+              {
+                "year": "2025",
+                "value": 862
+              },
+              {
+                "year": "2030",
+                "value": 813
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 623, with 782 students in 2020; it forecasts 813 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "895458": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-895458",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=103",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1389,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1243
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1285
+              },
+              {
+                "year": "2025",
+                "value": 1167
+              },
+              {
+                "year": "2030",
+                "value": 1075
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,389, with 1,243 students in 2020; it forecasts 1,075 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "898090": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-898090",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=77",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1596,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1755
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1824
+              },
+              {
+                "year": "2025",
+                "value": 1801
+              },
+              {
+                "year": "2030",
+                "value": 1725
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,596, with 1,755 students in 2020; it forecasts 1,725 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "907499": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-907499",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=77",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1230,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1262
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1163
+              },
+              {
+                "year": "2025",
+                "value": 1200
+              },
+              {
+                "year": "2030",
+                "value": 1102
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,230, with 1,262 students in 2020; it forecasts 1,102 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "908142": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-908142",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=91",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 975,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1351
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1368
+              },
+              {
+                "year": "2025",
+                "value": 1290
+              },
+              {
+                "year": "2030",
+                "value": 1264
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 975, with 1,351 students in 2020; it forecasts 1,264 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "910350": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-910350",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=75",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1281,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1258
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1433
+              },
+              {
+                "year": "2025",
+                "value": 1827
+              },
+              {
+                "year": "2030",
+                "value": 1883
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,281, with 1,258 students in 2020; it forecasts 1,883 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "911399": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-911399",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=49",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1167,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 958
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 999
+              },
+              {
+                "year": "2025",
+                "value": 1076
+              },
+              {
+                "year": "2030",
+                "value": 1061
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,167, with 958 students in 2020; it forecasts 1,061 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "913340": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-913340",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=49",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1287,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 968
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1015
+              },
+              {
+                "year": "2025",
+                "value": 1031
+              },
+              {
+                "year": "2030",
+                "value": 1000
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,287, with 968 students in 2020; it forecasts 1,000 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "914070": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-914070",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=77",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1383,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1316
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1447
+              },
+              {
+                "year": "2025",
+                "value": 1721
+              },
+              {
+                "year": "2030",
+                "value": 1886
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,383, with 1,316 students in 2020; it forecasts 1,886 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "917931": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-917931",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=75",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1224,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1603
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1559
+              },
+              {
+                "year": "2025",
+                "value": 1689
+              },
+              {
+                "year": "2030",
+                "value": 1744
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,224, with 1,603 students in 2020; it forecasts 1,744 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "918555": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-918555",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=49",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1299,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1075
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1120
+              },
+              {
+                "year": "2025",
+                "value": 1142
+              },
+              {
+                "year": "2030",
+                "value": 1137
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,299, with 1,075 students in 2020; it forecasts 1,137 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "920495": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-920495",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=77",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1461,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1590
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1748
+              },
+              {
+                "year": "2025",
+                "value": 1746
+              },
+              {
+                "year": "2030",
+                "value": 1754
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,461, with 1,590 students in 2020; it forecasts 1,754 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "936480": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-936480",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=49",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1137,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1033
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1119
+              },
+              {
+                "year": "2025",
+                "value": 1140
+              },
+              {
+                "year": "2030",
+                "value": 1061
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,137, with 1,033 students in 2020; it forecasts 1,061 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "943894": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-943894",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=49",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 912,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 655
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 638
+              },
+              {
+                "year": "2025",
+                "value": 637
+              },
+              {
+                "year": "2030",
+                "value": 729
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 912, with 655 students in 2020; it forecasts 729 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "950912": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-950912",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=103",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1203,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1395
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1319
+              },
+              {
+                "year": "2025",
+                "value": 1304
+              },
+              {
+                "year": "2030",
+                "value": 1221
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,203, with 1,395 students in 2020; it forecasts 1,221 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "951048": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-951048",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=91",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 1164,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 1359
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 1405
+              },
+              {
+                "year": "2025",
+                "value": 1498
+              },
+              {
+                "year": "2030",
+                "value": 1401
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,164, with 1,359 students in 2020; it forecasts 1,401 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "050512": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-050512",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=37",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 271,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 314
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 338
+              },
+              {
+                "year": "2025",
+                "value": 378
+              },
+              {
+                "year": "2030",
+                "value": 384
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 271, with 314 students in 2020; it forecasts 384 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "090166": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-090166",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=39",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 214
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 215
+              },
+              {
+                "year": "2025",
+                "value": 256
+              },
+              {
+                "year": "2030",
+                "value": 293
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 294, with 214 students in 2020; it forecasts 293 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "095230": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-095230",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=39",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 675,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 706
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 686
+              },
+              {
+                "year": "2025",
+                "value": 671
+              },
+              {
+                "year": "2030",
+                "value": 664
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 675, with 706 students in 2020; it forecasts 664 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "095753": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-095753",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=41",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 303,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 284
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 318
+              },
+              {
+                "year": "2025",
+                "value": 350
+              },
+              {
+                "year": "2030",
+                "value": 347
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 303, with 284 students in 2020; it forecasts 347 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "028541": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-028541",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=43",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 483
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 471
+              },
+              {
+                "year": "2025",
+                "value": 454
+              },
+              {
+                "year": "2030",
+                "value": 445
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 464, with 483 students in 2020; it forecasts 445 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "091332": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-091332",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=45",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 308,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 261
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 252
+              },
+              {
+                "year": "2025",
+                "value": 238
+              },
+              {
+                "year": "2030",
+                "value": 248
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 308, with 261 students in 2020; it forecasts 248 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "034355": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-034355",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=55",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 495,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 595
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 580
+              },
+              {
+                "year": "2025",
+                "value": 539
+              },
+              {
+                "year": "2030",
+                "value": 523
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 495, with 595 students in 2020; it forecasts 523 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "013900": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-013900",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=59",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 272
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 271
+              },
+              {
+                "year": "2025",
+                "value": 238
+              },
+              {
+                "year": "2030",
+                "value": 240
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 294, with 272 students in 2020; it forecasts 240 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "034363": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-034363",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=81",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 605,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 589
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 583
+              },
+              {
+                "year": "2025",
+                "value": 543
+              },
+              {
+                "year": "2030",
+                "value": 507
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 605, with 589 students in 2020; it forecasts 507 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "029459": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-029459",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=89",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 179,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 184
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 177
+              },
+              {
+                "year": "2025",
+                "value": 235
+              },
+              {
+                "year": "2030",
+                "value": 273
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 179, with 184 students in 2020; it forecasts 273 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "089451": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-089451",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=89",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 547
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 540
+              },
+              {
+                "year": "2025",
+                "value": 653
+              },
+              {
+                "year": "2030",
+                "value": 786
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 527, with 547 students in 2020; it forecasts 786 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "000671": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-000671",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=95",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 487,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 484
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 493
+              },
+              {
+                "year": "2025",
+                "value": 454
+              },
+              {
+                "year": "2030",
+                "value": 446
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 487, with 484 students in 2020; it forecasts 446 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "090220": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-090220",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=97",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 444
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 448
+              },
+              {
+                "year": "2025",
+                "value": 452
+              },
+              {
+                "year": "2030",
+                "value": 477
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 294, with 444 students in 2020; it forecasts 477 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "089699": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-089699",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=99",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 221
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 215
+              },
+              {
+                "year": "2025",
+                "value": 199
+              },
+              {
+                "year": "2030",
+                "value": 199
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 221 students in 2020; it forecasts 199 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "061697": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-061697",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=101",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 349
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 333
+              },
+              {
+                "year": "2025",
+                "value": 309
+              },
+              {
+                "year": "2030",
+                "value": 300
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 507, with 349 students in 2020; it forecasts 300 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "083559": {
+      "records": [
+        {
+          "id": "wrdsb-capacity-083559",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2020-2030 (Waterloo Region District School Board) (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf#page=101",
+          "source_date": "2020-2030 plan; actual enrolment is as of October 31, 2020 (2020/21); the cover prints no issue date",
+          "facts": {
+            "capacity_otg": 496,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2020",
+                "value": 342
+              }
+            ],
+            "projected": [
+              {
+                "year": "2021",
+                "value": 330
+              },
+              {
+                "year": "2025",
+                "value": 341
+              },
+              {
+                "year": "2030",
+                "value": 339
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 496, with 342 students in 2020; it forecasts 339 in 2030. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    }
+  }
 }

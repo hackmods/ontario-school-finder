@@ -8,6 +8,8 @@ is what the researchers noted for each board on 2026-11-26, so a person can tran
 `projected`). Transcribe by hand; PDF extraction misaligns these tables. Every board's plan is linked from its
 `planning` record.
 
+**Transcribed (2026-11-26), shown on school pages:** Thames Valley, Durham, Waterloo Region, Halton, Simcoe County, York Catholic, Hamilton-Wentworth, DSB Niagara, Upper Grand and Grand Erie: 1,059 schools, each board read by one person and every row rechecked against the PDF by another (one judgement call, Grand Erie's Cobblestone, uses the plan's current capacity). Brief: [capacity.md](board-info-briefs/capacity.md), check: [capacity-verify.md](board-info-briefs/capacity-verify.md). The rest of this list is next.
+
 | Board | Number | Capacity table |
 |---|---|---|
 | ALCDSB | B67202 | Yes: the Long Term Accommodation Plan 2023/24 PDF has OTG capacity and enrolment tables (2021/22 to 2036/37) for each elementary and secondary review area, from about page 25 to 54 (https://22.files.edl.io/4f14/07/04/24/185405-2079793d-4ca8-496f-8570-7e559af196d6.pdf). |

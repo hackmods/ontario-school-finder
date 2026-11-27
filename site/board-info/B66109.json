@@ -463,5 +463,3717 @@
       "match": "Nine schools named in the approval letter matched by hand to this site's Orillia schools (Couchiching Heights, Harriett Todd, Lions Oval, Marchmont, Orchard Park, Regent Park, Severn Shores PS; Orillia SS; Twin Lakes SS).",
       "verified": "2026-11-26"
     }
-  ]
+  ],
+  "schools": {
+    "110418": {
+      "records": [
+        {
+          "id": "scdsb-capacity-110418",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 92,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 109
+              },
+              {
+                "year": "2031-32",
+                "value": 127
+              },
+              {
+                "year": "2036-37",
+                "value": 143
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 92; it forecasts 143 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "111465": {
+      "records": [
+        {
+          "id": "scdsb-capacity-111465",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 366,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 447
+              },
+              {
+                "year": "2031-32",
+                "value": 522
+              },
+              {
+                "year": "2036-37",
+                "value": 542
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 366; it forecasts 542 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "114472": {
+      "records": [
+        {
+          "id": "scdsb-capacity-114472",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=40",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 290
+              },
+              {
+                "year": "2031-32",
+                "value": 306
+              },
+              {
+                "year": "2036-37",
+                "value": 303
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 291; it forecasts 303 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "116815": {
+      "records": [
+        {
+          "id": "scdsb-capacity-116815",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 475
+              },
+              {
+                "year": "2031-32",
+                "value": 514
+              },
+              {
+                "year": "2036-37",
+                "value": 516
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 337; it forecasts 516 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "122092": {
+      "records": [
+        {
+          "id": "scdsb-capacity-122092",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 234,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 419
+              },
+              {
+                "year": "2031-32",
+                "value": 475
+              },
+              {
+                "year": "2036-37",
+                "value": 500
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 234; it forecasts 500 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "124761": {
+      "records": [
+        {
+          "id": "scdsb-capacity-124761",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=37",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 342
+              },
+              {
+                "year": "2031-32",
+                "value": 350
+              },
+              {
+                "year": "2036-37",
+                "value": 359
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 314; it forecasts 359 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "125482": {
+      "records": [
+        {
+          "id": "scdsb-capacity-125482",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 303,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 275
+              },
+              {
+                "year": "2031-32",
+                "value": 285
+              },
+              {
+                "year": "2036-37",
+                "value": 276
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 303; it forecasts 276 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "130893": {
+      "records": [
+        {
+          "id": "scdsb-capacity-130893",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=40",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 450,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 471
+              },
+              {
+                "year": "2031-32",
+                "value": 481
+              },
+              {
+                "year": "2036-37",
+                "value": 480
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 450; it forecasts 480 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "160172": {
+      "records": [
+        {
+          "id": "scdsb-capacity-160172",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 308
+              },
+              {
+                "year": "2031-32",
+                "value": 274
+              },
+              {
+                "year": "2036-37",
+                "value": 263
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 268; it forecasts 263 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "176014": {
+      "records": [
+        {
+          "id": "scdsb-capacity-176014",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=45",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 593,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 617
+              },
+              {
+                "year": "2031-32",
+                "value": 588
+              },
+              {
+                "year": "2036-37",
+                "value": 555
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 593; it forecasts 555 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "181323": {
+      "records": [
+        {
+          "id": "scdsb-capacity-181323",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=41",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 472
+              },
+              {
+                "year": "2031-32",
+                "value": 521
+              },
+              {
+                "year": "2036-37",
+                "value": 539
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 409; it forecasts 539 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "181757": {
+      "records": [
+        {
+          "id": "scdsb-capacity-181757",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 539,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 653
+              },
+              {
+                "year": "2031-32",
+                "value": 636
+              },
+              {
+                "year": "2036-37",
+                "value": 620
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 539; it forecasts 620 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "185973": {
+      "records": [
+        {
+          "id": "scdsb-capacity-185973",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=44",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 559,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 525
+              },
+              {
+                "year": "2031-32",
+                "value": 540
+              },
+              {
+                "year": "2036-37",
+                "value": 544
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 559; it forecasts 544 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "186236": {
+      "records": [
+        {
+          "id": "scdsb-capacity-186236",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 715
+              },
+              {
+                "year": "2031-32",
+                "value": 757
+              },
+              {
+                "year": "2036-37",
+                "value": 806
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 458; it forecasts 806 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "186666": {
+      "records": [
+        {
+          "id": "scdsb-capacity-186666",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 586
+              },
+              {
+                "year": "2031-32",
+                "value": 570
+              },
+              {
+                "year": "2036-37",
+                "value": 576
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 507; it forecasts 576 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "195812": {
+      "records": [
+        {
+          "id": "scdsb-capacity-195812",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=42",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 557,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 651
+              },
+              {
+                "year": "2031-32",
+                "value": 645
+              },
+              {
+                "year": "2036-37",
+                "value": 648
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 557; it forecasts 648 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "201464": {
+      "records": [
+        {
+          "id": "scdsb-capacity-201464",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 431
+              },
+              {
+                "year": "2031-32",
+                "value": 442
+              },
+              {
+                "year": "2036-37",
+                "value": 421
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 409; it forecasts 421 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "221740": {
+      "records": [
+        {
+          "id": "scdsb-capacity-221740",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=44",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 638
+              },
+              {
+                "year": "2031-32",
+                "value": 588
+              },
+              {
+                "year": "2036-37",
+                "value": 608
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 504; it forecasts 608 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "225946": {
+      "records": [
+        {
+          "id": "scdsb-capacity-225946",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=43",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 533,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 700
+              },
+              {
+                "year": "2031-32",
+                "value": 752
+              },
+              {
+                "year": "2036-37",
+                "value": 780
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 533; it forecasts 780 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "233480": {
+      "records": [
+        {
+          "id": "scdsb-capacity-233480",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 406,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 378
+              },
+              {
+                "year": "2031-32",
+                "value": 362
+              },
+              {
+                "year": "2036-37",
+                "value": 386
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 406; it forecasts 386 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "244996": {
+      "records": [
+        {
+          "id": "scdsb-capacity-244996",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 576,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 454
+              },
+              {
+                "year": "2031-32",
+                "value": 438
+              },
+              {
+                "year": "2036-37",
+                "value": 435
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 576; it forecasts 435 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "257346": {
+      "records": [
+        {
+          "id": "scdsb-capacity-257346",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=41",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 470
+              },
+              {
+                "year": "2031-32",
+                "value": 486
+              },
+              {
+                "year": "2036-37",
+                "value": 490
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 504; it forecasts 490 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "263079": {
+      "records": [
+        {
+          "id": "scdsb-capacity-263079",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=42",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 646,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 564
+              },
+              {
+                "year": "2031-32",
+                "value": 749
+              },
+              {
+                "year": "2036-37",
+                "value": 812
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 646; it forecasts 812 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "273988": {
+      "records": [
+        {
+          "id": "scdsb-capacity-273988",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=37",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 404,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 433
+              },
+              {
+                "year": "2031-32",
+                "value": 453
+              },
+              {
+                "year": "2036-37",
+                "value": 463
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 404; it forecasts 463 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "274542": {
+      "records": [
+        {
+          "id": "scdsb-capacity-274542",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 412,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 492
+              },
+              {
+                "year": "2031-32",
+                "value": 511
+              },
+              {
+                "year": "2036-37",
+                "value": 509
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 412; it forecasts 509 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "275670": {
+      "records": [
+        {
+          "id": "scdsb-capacity-275670",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=44",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 196,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 335
+              },
+              {
+                "year": "2031-32",
+                "value": 319
+              },
+              {
+                "year": "2036-37",
+                "value": 322
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 196; it forecasts 322 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "277495": {
+      "records": [
+        {
+          "id": "scdsb-capacity-277495",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=44",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 622,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 882
+              },
+              {
+                "year": "2031-32",
+                "value": 868
+              },
+              {
+                "year": "2036-37",
+                "value": 878
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 622; it forecasts 878 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "285684": {
+      "records": [
+        {
+          "id": "scdsb-capacity-285684",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=40",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 228
+              },
+              {
+                "year": "2031-32",
+                "value": 230
+              },
+              {
+                "year": "2036-37",
+                "value": 230
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 314; it forecasts 230 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "305731": {
+      "records": [
+        {
+          "id": "scdsb-capacity-305731",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=41",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 381,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 377
+              },
+              {
+                "year": "2031-32",
+                "value": 371
+              },
+              {
+                "year": "2036-37",
+                "value": 374
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 381; it forecasts 374 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "311251": {
+      "records": [
+        {
+          "id": "scdsb-capacity-311251",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=44",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 419
+              },
+              {
+                "year": "2031-32",
+                "value": 439
+              },
+              {
+                "year": "2036-37",
+                "value": 441
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 340; it forecasts 441 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "314617": {
+      "records": [
+        {
+          "id": "scdsb-capacity-314617",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=43",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 345
+              },
+              {
+                "year": "2031-32",
+                "value": 517
+              },
+              {
+                "year": "2036-37",
+                "value": 573
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 337; it forecasts 573 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "334820": {
+      "records": [
+        {
+          "id": "scdsb-capacity-334820",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=40",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 412,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 462
+              },
+              {
+                "year": "2031-32",
+                "value": 436
+              },
+              {
+                "year": "2036-37",
+                "value": 422
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 412; it forecasts 422 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "336289": {
+      "records": [
+        {
+          "id": "scdsb-capacity-336289",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=43",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 611,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 668
+              },
+              {
+                "year": "2031-32",
+                "value": 806
+              },
+              {
+                "year": "2036-37",
+                "value": 871
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 611; it forecasts 871 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "337030": {
+      "records": [
+        {
+          "id": "scdsb-capacity-337030",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 279
+              },
+              {
+                "year": "2031-32",
+                "value": 297
+              },
+              {
+                "year": "2036-37",
+                "value": 294
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 245; it forecasts 294 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "337862": {
+      "records": [
+        {
+          "id": "scdsb-capacity-337862",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 305,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 342
+              },
+              {
+                "year": "2031-32",
+                "value": 296
+              },
+              {
+                "year": "2036-37",
+                "value": 280
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 305; it forecasts 280 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "357316": {
+      "records": [
+        {
+          "id": "scdsb-capacity-357316",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 173,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 238
+              },
+              {
+                "year": "2031-32",
+                "value": 227
+              },
+              {
+                "year": "2036-37",
+                "value": 220
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 173; it forecasts 220 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "366544": {
+      "records": [
+        {
+          "id": "scdsb-capacity-366544",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 388
+              },
+              {
+                "year": "2031-32",
+                "value": 364
+              },
+              {
+                "year": "2036-37",
+                "value": 355
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 363; it forecasts 355 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "378089": {
+      "records": [
+        {
+          "id": "scdsb-capacity-378089",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 386,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 401
+              },
+              {
+                "year": "2031-32",
+                "value": 425
+              },
+              {
+                "year": "2036-37",
+                "value": 420
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 386; it forecasts 420 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "383708": {
+      "records": [
+        {
+          "id": "scdsb-capacity-383708",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 309,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 187
+              },
+              {
+                "year": "2031-32",
+                "value": 182
+              },
+              {
+                "year": "2036-37",
+                "value": 182
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 309; it forecasts 182 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "384259": {
+      "records": [
+        {
+          "id": "scdsb-capacity-384259",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 286
+              },
+              {
+                "year": "2031-32",
+                "value": 305
+              },
+              {
+                "year": "2036-37",
+                "value": 327
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 245; it forecasts 327 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "384550": {
+      "records": [
+        {
+          "id": "scdsb-capacity-384550",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=45",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 516,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 760
+              },
+              {
+                "year": "2031-32",
+                "value": 738
+              },
+              {
+                "year": "2036-37",
+                "value": 729
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 516; it forecasts 729 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "402811": {
+      "records": [
+        {
+          "id": "scdsb-capacity-402811",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 138,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 127
+              },
+              {
+                "year": "2031-32",
+                "value": 131
+              },
+              {
+                "year": "2036-37",
+                "value": 140
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 138; it forecasts 140 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "412430": {
+      "records": [
+        {
+          "id": "scdsb-capacity-412430",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 222,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 321
+              },
+              {
+                "year": "2031-32",
+                "value": 326
+              },
+              {
+                "year": "2036-37",
+                "value": 358
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 222; it forecasts 358 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "412570": {
+      "records": [
+        {
+          "id": "scdsb-capacity-412570",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 176,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 222
+              },
+              {
+                "year": "2031-32",
+                "value": 234
+              },
+              {
+                "year": "2036-37",
+                "value": 239
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 176; it forecasts 239 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "414123": {
+      "records": [
+        {
+          "id": "scdsb-capacity-414123",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=40",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 416,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 412
+              },
+              {
+                "year": "2031-32",
+                "value": 446
+              },
+              {
+                "year": "2036-37",
+                "value": 440
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 416; it forecasts 440 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "419346": {
+      "records": [
+        {
+          "id": "scdsb-capacity-419346",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 390,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 546
+              },
+              {
+                "year": "2031-32",
+                "value": 541
+              },
+              {
+                "year": "2036-37",
+                "value": 540
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 390; it forecasts 540 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "429619": {
+      "records": [
+        {
+          "id": "scdsb-capacity-429619",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 455,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 510
+              },
+              {
+                "year": "2031-32",
+                "value": 478
+              },
+              {
+                "year": "2036-37",
+                "value": 488
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 455; it forecasts 488 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "438318": {
+      "records": [
+        {
+          "id": "scdsb-capacity-438318",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 406,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 436
+              },
+              {
+                "year": "2031-32",
+                "value": 500
+              },
+              {
+                "year": "2036-37",
+                "value": 548
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 406; it forecasts 548 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "451649": {
+      "records": [
+        {
+          "id": "scdsb-capacity-451649",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=41",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 522,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 517
+              },
+              {
+                "year": "2031-32",
+                "value": 486
+              },
+              {
+                "year": "2036-37",
+                "value": 475
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 522; it forecasts 475 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "456756": {
+      "records": [
+        {
+          "id": "scdsb-capacity-456756",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=45",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 592
+              },
+              {
+                "year": "2031-32",
+                "value": 563
+              },
+              {
+                "year": "2036-37",
+                "value": 589
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 507; it forecasts 589 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "466951": {
+      "records": [
+        {
+          "id": "scdsb-capacity-466951",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=37",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 462
+              },
+              {
+                "year": "2031-32",
+                "value": 465
+              },
+              {
+                "year": "2036-37",
+                "value": 468
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 464; it forecasts 468 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "472360": {
+      "records": [
+        {
+          "id": "scdsb-capacity-472360",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 229
+              },
+              {
+                "year": "2031-32",
+                "value": 203
+              },
+              {
+                "year": "2036-37",
+                "value": 219
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 236; it forecasts 219 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "480037": {
+      "records": [
+        {
+          "id": "scdsb-capacity-480037",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 487,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 424
+              },
+              {
+                "year": "2031-32",
+                "value": 393
+              },
+              {
+                "year": "2036-37",
+                "value": 390
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 487; it forecasts 390 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "485183": {
+      "records": [
+        {
+          "id": "scdsb-capacity-485183",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=43",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 708
+              },
+              {
+                "year": "2031-32",
+                "value": 785
+              },
+              {
+                "year": "2036-37",
+                "value": 972
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 573; it forecasts 972 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "505808": {
+      "records": [
+        {
+          "id": "scdsb-capacity-505808",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=42",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 576,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 591
+              },
+              {
+                "year": "2031-32",
+                "value": 628
+              },
+              {
+                "year": "2036-37",
+                "value": 682
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 576; it forecasts 682 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "507946": {
+      "records": [
+        {
+          "id": "scdsb-capacity-507946",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 127,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 178
+              },
+              {
+                "year": "2031-32",
+                "value": 178
+              },
+              {
+                "year": "2036-37",
+                "value": 177
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 127; it forecasts 177 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "521248": {
+      "records": [
+        {
+          "id": "scdsb-capacity-521248",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 248,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 254
+              },
+              {
+                "year": "2031-32",
+                "value": 288
+              },
+              {
+                "year": "2036-37",
+                "value": 312
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 248; it forecasts 312 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "535281": {
+      "records": [
+        {
+          "id": "scdsb-capacity-535281",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=40",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 441,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 351
+              },
+              {
+                "year": "2031-32",
+                "value": 316
+              },
+              {
+                "year": "2036-37",
+                "value": 315
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 441; it forecasts 315 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "543438": {
+      "records": [
+        {
+          "id": "scdsb-capacity-543438",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=44",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 411
+              },
+              {
+                "year": "2031-32",
+                "value": 433
+              },
+              {
+                "year": "2036-37",
+                "value": 426
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 432; it forecasts 426 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "547123": {
+      "records": [
+        {
+          "id": "scdsb-capacity-547123",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=42",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 516,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 557
+              },
+              {
+                "year": "2031-32",
+                "value": 615
+              },
+              {
+                "year": "2036-37",
+                "value": 714
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 516; it forecasts 714 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "551090": {
+      "records": [
+        {
+          "id": "scdsb-capacity-551090",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=40",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 559,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 414
+              },
+              {
+                "year": "2031-32",
+                "value": 502
+              },
+              {
+                "year": "2036-37",
+                "value": 630
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 559; it forecasts 630 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "557897": {
+      "records": [
+        {
+          "id": "scdsb-capacity-557897",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 375,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 409
+              },
+              {
+                "year": "2031-32",
+                "value": 454
+              },
+              {
+                "year": "2036-37",
+                "value": 472
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 375; it forecasts 472 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "559075": {
+      "records": [
+        {
+          "id": "scdsb-capacity-559075",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 565
+              },
+              {
+                "year": "2031-32",
+                "value": 626
+              },
+              {
+                "year": "2036-37",
+                "value": 640
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 360; it forecasts 640 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "574287": {
+      "records": [
+        {
+          "id": "scdsb-capacity-574287",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=37",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 640
+              },
+              {
+                "year": "2031-32",
+                "value": 626
+              },
+              {
+                "year": "2036-37",
+                "value": 634
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 504; it forecasts 634 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "579190": {
+      "records": [
+        {
+          "id": "scdsb-capacity-579190",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=42",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 576,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 613
+              },
+              {
+                "year": "2031-32",
+                "value": 672
+              },
+              {
+                "year": "2036-37",
+                "value": 797
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 576; it forecasts 797 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "580520": {
+      "records": [
+        {
+          "id": "scdsb-capacity-580520",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 188,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 193
+              },
+              {
+                "year": "2031-32",
+                "value": 179
+              },
+              {
+                "year": "2036-37",
+                "value": 221
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 188; it forecasts 221 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "585599": {
+      "records": [
+        {
+          "id": "scdsb-capacity-585599",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=45",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 559,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 514
+              },
+              {
+                "year": "2031-32",
+                "value": 495
+              },
+              {
+                "year": "2036-37",
+                "value": 502
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 559; it forecasts 502 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "586846": {
+      "records": [
+        {
+          "id": "scdsb-capacity-586846",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=43",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 330
+              },
+              {
+                "year": "2031-32",
+                "value": 336
+              },
+              {
+                "year": "2036-37",
+                "value": 336
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 337; it forecasts 336 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "594970": {
+      "records": [
+        {
+          "id": "scdsb-capacity-594970",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=41",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 582,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 468
+              },
+              {
+                "year": "2031-32",
+                "value": 537
+              },
+              {
+                "year": "2036-37",
+                "value": 547
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 582; it forecasts 547 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "595047": {
+      "records": [
+        {
+          "id": "scdsb-capacity-595047",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 176,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 177
+              },
+              {
+                "year": "2031-32",
+                "value": 140
+              },
+              {
+                "year": "2036-37",
+                "value": 141
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 176; it forecasts 141 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "595861": {
+      "records": [
+        {
+          "id": "scdsb-capacity-595861",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=45",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 219,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 166
+              },
+              {
+                "year": "2031-32",
+                "value": 136
+              },
+              {
+                "year": "2036-37",
+                "value": 139
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 219; it forecasts 139 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "595993": {
+      "records": [
+        {
+          "id": "scdsb-capacity-595993",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=45",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 173,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 160
+              },
+              {
+                "year": "2031-32",
+                "value": 178
+              },
+              {
+                "year": "2036-37",
+                "value": 179
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 173; it forecasts 179 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "612405": {
+      "records": [
+        {
+          "id": "scdsb-capacity-612405",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=43",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 596,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 680
+              },
+              {
+                "year": "2031-32",
+                "value": 1044
+              },
+              {
+                "year": "2036-37",
+                "value": 1264
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 596; it forecasts 1,264 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "618562": {
+      "records": [
+        {
+          "id": "scdsb-capacity-618562",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=45",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 501,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 587
+              },
+              {
+                "year": "2031-32",
+                "value": 603
+              },
+              {
+                "year": "2036-37",
+                "value": 602
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 501; it forecasts 602 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "622028": {
+      "records": [
+        {
+          "id": "scdsb-capacity-622028",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=37",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 268
+              },
+              {
+                "year": "2031-32",
+                "value": 254
+              },
+              {
+                "year": "2036-37",
+                "value": 265
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 190; it forecasts 265 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "636037": {
+      "records": [
+        {
+          "id": "scdsb-capacity-636037",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 317,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 471
+              },
+              {
+                "year": "2031-32",
+                "value": 502
+              },
+              {
+                "year": "2036-37",
+                "value": 511
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 317; it forecasts 511 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "893064": {
+      "records": [
+        {
+          "id": "scdsb-capacity-893064",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1491,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1391
+              },
+              {
+                "year": "2031-32",
+                "value": 1659
+              },
+              {
+                "year": "2036-37",
+                "value": 1689
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,491; it forecasts 1,689 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "893323": {
+      "records": [
+        {
+          "id": "scdsb-capacity-893323",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1299,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1328
+              },
+              {
+                "year": "2031-32",
+                "value": 1326
+              },
+              {
+                "year": "2036-37",
+                "value": 1327
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,299; it forecasts 1,327 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "894060": {
+      "records": [
+        {
+          "id": "scdsb-capacity-894060",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1407,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1246
+              },
+              {
+                "year": "2031-32",
+                "value": 1266
+              },
+              {
+                "year": "2036-37",
+                "value": 1247
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,407; it forecasts 1,247 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "895792": {
+      "records": [
+        {
+          "id": "scdsb-capacity-895792",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1113,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1234
+              },
+              {
+                "year": "2031-32",
+                "value": 1301
+              },
+              {
+                "year": "2036-37",
+                "value": 1253
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,113; it forecasts 1,253 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "902551": {
+      "records": [
+        {
+          "id": "scdsb-capacity-902551",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1248,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1448
+              },
+              {
+                "year": "2031-32",
+                "value": 1622
+              },
+              {
+                "year": "2036-37",
+                "value": 1580
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,248; it forecasts 1,580 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "902636": {
+      "records": [
+        {
+          "id": "scdsb-capacity-902636",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 906,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 820
+              },
+              {
+                "year": "2031-32",
+                "value": 999
+              },
+              {
+                "year": "2036-37",
+                "value": 1093
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 906; it forecasts 1,093 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "907383": {
+      "records": [
+        {
+          "id": "scdsb-capacity-907383",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1227,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1086
+              },
+              {
+                "year": "2031-32",
+                "value": 1228
+              },
+              {
+                "year": "2036-37",
+                "value": 1213
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,227; it forecasts 1,213 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "908274": {
+      "records": [
+        {
+          "id": "scdsb-capacity-908274",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 378,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 501
+              },
+              {
+                "year": "2031-32",
+                "value": 549
+              },
+              {
+                "year": "2036-37",
+                "value": 523
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 378; it forecasts 523 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "918253": {
+      "records": [
+        {
+          "id": "scdsb-capacity-918253",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1101,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1042
+              },
+              {
+                "year": "2031-32",
+                "value": 1476
+              },
+              {
+                "year": "2036-37",
+                "value": 1854
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,101; it forecasts 1,854 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "927724": {
+      "records": [
+        {
+          "id": "scdsb-capacity-927724",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1161,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1373
+              },
+              {
+                "year": "2031-32",
+                "value": 1628
+              },
+              {
+                "year": "2036-37",
+                "value": 1483
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,161; it forecasts 1,483 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "928151": {
+      "records": [
+        {
+          "id": "scdsb-capacity-928151",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 984,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 995
+              },
+              {
+                "year": "2031-32",
+                "value": 979
+              },
+              {
+                "year": "2036-37",
+                "value": 959
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 984; it forecasts 959 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "945196": {
+      "records": [
+        {
+          "id": "scdsb-capacity-945196",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 297
+              },
+              {
+                "year": "2031-32",
+                "value": 305
+              },
+              {
+                "year": "2036-37",
+                "value": 364
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 291; it forecasts 364 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "948870": {
+      "records": [
+        {
+          "id": "scdsb-capacity-948870",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 891,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 767
+              },
+              {
+                "year": "2031-32",
+                "value": 748
+              },
+              {
+                "year": "2036-37",
+                "value": 680
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 891; it forecasts 680 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "956413": {
+      "records": [
+        {
+          "id": "scdsb-capacity-956413",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1005,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1106
+              },
+              {
+                "year": "2031-32",
+                "value": 1253
+              },
+              {
+                "year": "2036-37",
+                "value": 1363
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,005; it forecasts 1,363 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "968729": {
+      "records": [
+        {
+          "id": "scdsb-capacity-968729",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=46",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 1077,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 1184
+              },
+              {
+                "year": "2031-32",
+                "value": 1230
+              },
+              {
+                "year": "2036-37",
+                "value": 1192
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 1,077; it forecasts 1,192 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "002933": {
+      "records": [
+        {
+          "id": "scdsb-capacity-002933",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 326
+              },
+              {
+                "year": "2031-32",
+                "value": 390
+              },
+              {
+                "year": "2036-37",
+                "value": 396
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 314; it forecasts 396 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "034762": {
+      "records": [
+        {
+          "id": "scdsb-capacity-034762",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 409
+              },
+              {
+                "year": "2031-32",
+                "value": 470
+              },
+              {
+                "year": "2036-37",
+                "value": 492
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 363; it forecasts 492 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "028130": {
+      "records": [
+        {
+          "id": "scdsb-capacity-028130",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 461,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 631
+              },
+              {
+                "year": "2031-32",
+                "value": 542
+              },
+              {
+                "year": "2036-37",
+                "value": 534
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 461; it forecasts 534 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "040509": {
+      "records": [
+        {
+          "id": "scdsb-capacity-040509",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=35",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 467,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 468
+              },
+              {
+                "year": "2031-32",
+                "value": 574
+              },
+              {
+                "year": "2036-37",
+                "value": 629
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 467; it forecasts 629 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "003131": {
+      "records": [
+        {
+          "id": "scdsb-capacity-003131",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 487,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 597
+              },
+              {
+                "year": "2031-32",
+                "value": 625
+              },
+              {
+                "year": "2036-37",
+                "value": 627
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 487; it forecasts 627 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "032298": {
+      "records": [
+        {
+          "id": "scdsb-capacity-032298",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 673
+              },
+              {
+                "year": "2031-32",
+                "value": 674
+              },
+              {
+                "year": "2036-37",
+                "value": 705
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 599; it forecasts 705 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "080268": {
+      "records": [
+        {
+          "id": "scdsb-capacity-080268",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=36",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 548
+              },
+              {
+                "year": "2031-32",
+                "value": 538
+              },
+              {
+                "year": "2036-37",
+                "value": 535
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 504; it forecasts 535 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "037125": {
+      "records": [
+        {
+          "id": "scdsb-capacity-037125",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=37",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 395,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 330
+              },
+              {
+                "year": "2031-32",
+                "value": 306
+              },
+              {
+                "year": "2036-37",
+                "value": 294
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 395; it forecasts 294 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "060445": {
+      "records": [
+        {
+          "id": "scdsb-capacity-060445",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 177
+              },
+              {
+                "year": "2031-32",
+                "value": 191
+              },
+              {
+                "year": "2036-37",
+                "value": 190
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 245; it forecasts 190 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "087934": {
+      "records": [
+        {
+          "id": "scdsb-capacity-087934",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=38",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 463,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 381
+              },
+              {
+                "year": "2031-32",
+                "value": 345
+              },
+              {
+                "year": "2036-37",
+                "value": 347
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 463; it forecasts 347 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "024081": {
+      "records": [
+        {
+          "id": "scdsb-capacity-024081",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=39",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 547,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 575
+              },
+              {
+                "year": "2031-32",
+                "value": 542
+              },
+              {
+                "year": "2036-37",
+                "value": 564
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 547; it forecasts 564 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "011584": {
+      "records": [
+        {
+          "id": "scdsb-capacity-011584",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=43",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 549
+              },
+              {
+                "year": "2031-32",
+                "value": 711
+              },
+              {
+                "year": "2036-37",
+                "value": 797
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 527; it forecasts 797 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "012971": {
+      "records": [
+        {
+          "id": "scdsb-capacity-012971",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=43",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 352,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 565
+              },
+              {
+                "year": "2031-32",
+                "value": 666
+              },
+              {
+                "year": "2036-37",
+                "value": 701
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 352; it forecasts 701 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "034808": {
+      "records": [
+        {
+          "id": "scdsb-capacity-034808",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=44",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 602,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 573
+              },
+              {
+                "year": "2031-32",
+                "value": 544
+              },
+              {
+                "year": "2036-37",
+                "value": 549
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 602; it forecasts 549 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "073065": {
+      "records": [
+        {
+          "id": "scdsb-capacity-073065",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf#page=45",
+          "source_date": "2026-27",
+          "facts": {
+            "capacity_otg": 412,
+            "capacity_label": "Pupil places",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026-27",
+                "value": 378
+              },
+              {
+                "year": "2031-32",
+                "value": 430
+              },
+              {
+                "year": "2036-37",
+                "value": 434
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's pupil places as 412; it forecasts 434 in 2036-37. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    }
+  }
 }

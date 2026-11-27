@@ -426,5 +426,4127 @@
       "match": "Matched by hand to Our Lady of the Lake Catholic Academy High School (Keswick, 9-12); the Grades 7-8 school of the same campus (748536) is not named because the decision covers the secondary program only.",
       "verified": "2026-11-26"
     }
-  ]
+  ],
+  "schools": {
+    "686263": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-686263",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=55",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 421,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 242
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 184
+              },
+              {
+                "year": "2028",
+                "value": 153
+              },
+              {
+                "year": "2033",
+                "value": 154
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 421, with 242 students in 2023; it forecasts 154 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "688745": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-688745",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 694,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 628
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 580
+              },
+              {
+                "year": "2028",
+                "value": 557
+              },
+              {
+                "year": "2033",
+                "value": 504
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 694, with 628 students in 2023; it forecasts 504 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "689777": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-689777",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=100",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 185
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 175
+              },
+              {
+                "year": "2028",
+                "value": 167
+              },
+              {
+                "year": "2033",
+                "value": 186
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 360, with 185 students in 2023; it forecasts 186 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "691356": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-691356",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=115",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1155,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1427
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 994
+              },
+              {
+                "year": "2028",
+                "value": 964
+              },
+              {
+                "year": "2033",
+                "value": 979
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,155, with 1,427 students in 2023; it forecasts 979 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "693820": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-693820",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=69",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 494,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 532
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 463
+              },
+              {
+                "year": "2028",
+                "value": 415
+              },
+              {
+                "year": "2033",
+                "value": 282
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 494, with 532 students in 2023; it forecasts 282 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "696919": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-696919",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=78",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 455,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 575
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 511
+              },
+              {
+                "year": "2028",
+                "value": 502
+              },
+              {
+                "year": "2033",
+                "value": 437
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 455, with 575 students in 2023; it forecasts 437 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "703672": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-703672",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=83",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 513,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 192
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 156
+              },
+              {
+                "year": "2028",
+                "value": 151
+              },
+              {
+                "year": "2033",
+                "value": 108
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 513, with 192 students in 2023; it forecasts 108 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "703966": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-703966",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=104",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 435,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 313
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 309
+              },
+              {
+                "year": "2028",
+                "value": 310
+              },
+              {
+                "year": "2033",
+                "value": 326
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 435, with 313 students in 2023; it forecasts 326 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "705470": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-705470",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=73",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 354,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 133
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 159
+              },
+              {
+                "year": "2028",
+                "value": 216
+              },
+              {
+                "year": "2033",
+                "value": 266
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 354, with 133 students in 2023; it forecasts 266 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "706540": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-706540",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=73",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 499,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 160
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 161
+              },
+              {
+                "year": "2028",
+                "value": 154
+              },
+              {
+                "year": "2033",
+                "value": 153
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 499, with 160 students in 2023; it forecasts 153 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "706809": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-706809",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=115",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1185,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1173
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1020
+              },
+              {
+                "year": "2028",
+                "value": 1011
+              },
+              {
+                "year": "2033",
+                "value": 975
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,185, with 1,173 students in 2023; it forecasts 975 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "708062": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-708062",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=44",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 369,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 405
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 494
+              },
+              {
+                "year": "2028",
+                "value": 572
+              },
+              {
+                "year": "2033",
+                "value": 645
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 369, with 405 students in 2023; it forecasts 645 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "710024": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-710024",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=83",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 261
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 226
+              },
+              {
+                "year": "2028",
+                "value": 211
+              },
+              {
+                "year": "2033",
+                "value": 192
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 464, with 261 students in 2023; it forecasts 192 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "716995": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-716995",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=83",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 680,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 314
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 231
+              },
+              {
+                "year": "2028",
+                "value": 181
+              },
+              {
+                "year": "2033",
+                "value": 122
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 680, with 314 students in 2023; it forecasts 122 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "718432": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-718432",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=41",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 501,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 391
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 390
+              },
+              {
+                "year": "2028",
+                "value": 379
+              },
+              {
+                "year": "2033",
+                "value": 348
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 501, with 391 students in 2023; it forecasts 348 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "720488": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-720488",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=124",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1170,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1264
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1373
+              },
+              {
+                "year": "2028",
+                "value": 1373
+              },
+              {
+                "year": "2033",
+                "value": 1402
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,170, with 1,264 students in 2023; it forecasts 1,402 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "721530": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-721530",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=93",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 358
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 326
+              },
+              {
+                "year": "2028",
+                "value": 312
+              },
+              {
+                "year": "2033",
+                "value": 261
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 527, with 358 students in 2023; it forecasts 261 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "724220": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-724220",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=59",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 284
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 288
+              },
+              {
+                "year": "2028",
+                "value": 299
+              },
+              {
+                "year": "2033",
+                "value": 356
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 291, with 284 students in 2023; it forecasts 356 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "725161": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-725161",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=59",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 279
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 257
+              },
+              {
+                "year": "2028",
+                "value": 243
+              },
+              {
+                "year": "2033",
+                "value": 240
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 340, with 279 students in 2023; it forecasts 240 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "726206": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-726206",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=41",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 496,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 302
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 293
+              },
+              {
+                "year": "2028",
+                "value": 282
+              },
+              {
+                "year": "2033",
+                "value": 255
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 496, with 302 students in 2023; it forecasts 255 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "727300": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-727300",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=69",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 453,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 222
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 187
+              },
+              {
+                "year": "2028",
+                "value": 160
+              },
+              {
+                "year": "2033",
+                "value": 154
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 453, with 222 students in 2023; it forecasts 154 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "728632": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-728632",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=108",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1398,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1381
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1202
+              },
+              {
+                "year": "2028",
+                "value": 1164
+              },
+              {
+                "year": "2033",
+                "value": 1120
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,398, with 1,381 students in 2023; it forecasts 1,120 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "728752": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-728752",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 646,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 609
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 495
+              },
+              {
+                "year": "2028",
+                "value": 456
+              },
+              {
+                "year": "2033",
+                "value": 488
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 646, with 609 students in 2023; it forecasts 488 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "732281": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-732281",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=100",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 398,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 309
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 417
+              },
+              {
+                "year": "2028",
+                "value": 529
+              },
+              {
+                "year": "2033",
+                "value": 775
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 398, with 309 students in 2023; it forecasts 775 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "736888": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-736888",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 657,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 458
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 341
+              },
+              {
+                "year": "2028",
+                "value": 290
+              },
+              {
+                "year": "2033",
+                "value": 257
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 657, with 458 students in 2023; it forecasts 257 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "737242": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-737242",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 490
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 373
+              },
+              {
+                "year": "2028",
+                "value": 331
+              },
+              {
+                "year": "2033",
+                "value": 300
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 599, with 490 students in 2023; it forecasts 300 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "737690": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-737690",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=69",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 582,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 439
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 393
+              },
+              {
+                "year": "2028",
+                "value": 363
+              },
+              {
+                "year": "2033",
+                "value": 287
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 582, with 439 students in 2023; it forecasts 287 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "741710": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-741710",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=73",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 530,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 207
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 200
+              },
+              {
+                "year": "2028",
+                "value": 214
+              },
+              {
+                "year": "2033",
+                "value": 247
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 530, with 207 students in 2023; it forecasts 247 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "741744": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-741744",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=44",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 461,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 545
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 600
+              },
+              {
+                "year": "2028",
+                "value": 622
+              },
+              {
+                "year": "2033",
+                "value": 603
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 461, with 545 students in 2023; it forecasts 603 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "741752": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-741752",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=78",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 341
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 340
+              },
+              {
+                "year": "2028",
+                "value": 344
+              },
+              {
+                "year": "2033",
+                "value": 390
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 573, with 341 students in 2023; it forecasts 390 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "742236": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-742236",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=73",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 461,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 270
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 232
+              },
+              {
+                "year": "2028",
+                "value": 235
+              },
+              {
+                "year": "2033",
+                "value": 219
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 461, with 270 students in 2023; it forecasts 219 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "744026": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-744026",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=97",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 602,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 465
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 412
+              },
+              {
+                "year": "2028",
+                "value": 401
+              },
+              {
+                "year": "2033",
+                "value": 423
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 602, with 465 students in 2023; it forecasts 423 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "744484": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-744484",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=41",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 233
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 199
+              },
+              {
+                "year": "2028",
+                "value": 204
+              },
+              {
+                "year": "2033",
+                "value": 174
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 360, with 233 students in 2023; it forecasts 174 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "748528": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-748528",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=111",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 480,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 301
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 340
+              },
+              {
+                "year": "2028",
+                "value": 328
+              },
+              {
+                "year": "2033",
+                "value": 373
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 480, with 301 students in 2023; it forecasts 373 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "748536": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-748536",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=48",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 184,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 206
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 219
+              },
+              {
+                "year": "2028",
+                "value": 265
+              },
+              {
+                "year": "2033",
+                "value": 210
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 184, with 206 students in 2023; it forecasts 210 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "749966": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-749966",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=48",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 254
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 272
+              },
+              {
+                "year": "2028",
+                "value": 263
+              },
+              {
+                "year": "2033",
+                "value": 241
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 340, with 254 students in 2023; it forecasts 241 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "750581": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-750581",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=78",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 251
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 240
+              },
+              {
+                "year": "2028",
+                "value": 229
+              },
+              {
+                "year": "2033",
+                "value": 209
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 360, with 251 students in 2023; it forecasts 209 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "753161": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-753161",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=55",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 643,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 421
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 372
+              },
+              {
+                "year": "2028",
+                "value": 338
+              },
+              {
+                "year": "2033",
+                "value": 273
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 643, with 421 students in 2023; it forecasts 273 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "753196": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-753196",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=104",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 322,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 362
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 355
+              },
+              {
+                "year": "2028",
+                "value": 343
+              },
+              {
+                "year": "2033",
+                "value": 346
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 322, with 362 students in 2023; it forecasts 346 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "756440": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-756440",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=51",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 530,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 515
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 483
+              },
+              {
+                "year": "2028",
+                "value": 514
+              },
+              {
+                "year": "2033",
+                "value": 588
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 530, with 515 students in 2023; it forecasts 588 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "756709": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-756709",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=108",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1134,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1199
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1368
+              },
+              {
+                "year": "2028",
+                "value": 1375
+              },
+              {
+                "year": "2033",
+                "value": 1385
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,134, with 1,199 students in 2023; it forecasts 1,385 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "757573": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-757573",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=73",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 501,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 407
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 361
+              },
+              {
+                "year": "2028",
+                "value": 318
+              },
+              {
+                "year": "2033",
+                "value": 255
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 501, with 407 students in 2023; it forecasts 255 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "761079": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-761079",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=93",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 484,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 285
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 227
+              },
+              {
+                "year": "2028",
+                "value": 203
+              },
+              {
+                "year": "2033",
+                "value": 181
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 484, with 285 students in 2023; it forecasts 181 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "762016": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-762016",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=62",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 236
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 201
+              },
+              {
+                "year": "2028",
+                "value": 177
+              },
+              {
+                "year": "2033",
+                "value": 134
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 291, with 236 students in 2023; it forecasts 134 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "763560": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-763560",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=104",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 172
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 181
+              },
+              {
+                "year": "2028",
+                "value": 203
+              },
+              {
+                "year": "2033",
+                "value": 214
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 291, with 172 students in 2023; it forecasts 214 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "765201": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-765201",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 511,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 283
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 236
+              },
+              {
+                "year": "2028",
+                "value": 213
+              },
+              {
+                "year": "2033",
+                "value": 170
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 511, with 283 students in 2023; it forecasts 170 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "765708": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-765708",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=115",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1218,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1472
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1639
+              },
+              {
+                "year": "2028",
+                "value": 1601
+              },
+              {
+                "year": "2033",
+                "value": 1416
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,218, with 1,472 students in 2023; it forecasts 1,416 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "766636": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-766636",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 602,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 871
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 869
+              },
+              {
+                "year": "2028",
+                "value": 843
+              },
+              {
+                "year": "2033",
+                "value": 803
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 602, with 871 students in 2023; it forecasts 803 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "769606": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-769606",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=97",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 267
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 246
+              },
+              {
+                "year": "2028",
+                "value": 222
+              },
+              {
+                "year": "2033",
+                "value": 166
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 340, with 267 students in 2023; it forecasts 166 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "773689": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-773689",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=65",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 349,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 217
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 199
+              },
+              {
+                "year": "2028",
+                "value": 200
+              },
+              {
+                "year": "2033",
+                "value": 212
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 349, with 217 students in 2023; it forecasts 212 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "773832": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-773832",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=48",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 372,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 235
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 205
+              },
+              {
+                "year": "2028",
+                "value": 186
+              },
+              {
+                "year": "2033",
+                "value": 168
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 372, with 235 students in 2023; it forecasts 168 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "774049": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-774049",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=78",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 404,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 328
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 295
+              },
+              {
+                "year": "2028",
+                "value": 280
+              },
+              {
+                "year": "2033",
+                "value": 204
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 404, with 328 students in 2023; it forecasts 204 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "774824": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-774824",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=41",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 266
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 217
+              },
+              {
+                "year": "2028",
+                "value": 196
+              },
+              {
+                "year": "2033",
+                "value": 204
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 599, with 266 students in 2023; it forecasts 204 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "777161": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-777161",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=62",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 359
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 327
+              },
+              {
+                "year": "2028",
+                "value": 293
+              },
+              {
+                "year": "2033",
+                "value": 230
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 409, with 359 students in 2023; it forecasts 230 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "781460": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-781460",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=93",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 234
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 204
+              },
+              {
+                "year": "2028",
+                "value": 191
+              },
+              {
+                "year": "2033",
+                "value": 155
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 294, with 234 students in 2023; it forecasts 155 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "783137": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-783137",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=78",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 547,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 505
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 449
+              },
+              {
+                "year": "2028",
+                "value": 394
+              },
+              {
+                "year": "2033",
+                "value": 320
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 547, with 505 students in 2023; it forecasts 320 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "783927": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-783927",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=97",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 384,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 337
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 298
+              },
+              {
+                "year": "2028",
+                "value": 276
+              },
+              {
+                "year": "2033",
+                "value": 216
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 384, with 337 students in 2023; it forecasts 216 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "784303": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-784303",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=93",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 406,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 153
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 114
+              },
+              {
+                "year": "2028",
+                "value": 105
+              },
+              {
+                "year": "2033",
+                "value": 87
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 406, with 153 students in 2023; it forecasts 87 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "785572": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-785572",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=55",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 642,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 341
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 311
+              },
+              {
+                "year": "2028",
+                "value": 283
+              },
+              {
+                "year": "2033",
+                "value": 338
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 642, with 341 students in 2023; it forecasts 338 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "786020": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-786020",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=83",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 605,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 206
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 147
+              },
+              {
+                "year": "2028",
+                "value": 129
+              },
+              {
+                "year": "2033",
+                "value": 106
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 605, with 206 students in 2023; it forecasts 106 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "788082": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-788082",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=59",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 392,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 281
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 222
+              },
+              {
+                "year": "2028",
+                "value": 218
+              },
+              {
+                "year": "2033",
+                "value": 210
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 392, with 281 students in 2023; it forecasts 210 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "788112": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-788112",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=121",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1428,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1141
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 883
+              },
+              {
+                "year": "2028",
+                "value": 888
+              },
+              {
+                "year": "2033",
+                "value": 925
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,428, with 1,141 students in 2023; it forecasts 925 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "789003": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-789003",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=69",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 444,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 503
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 452
+              },
+              {
+                "year": "2028",
+                "value": 437
+              },
+              {
+                "year": "2033",
+                "value": 352
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 444, with 503 students in 2023; it forecasts 352 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "789488": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-789488",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 723,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 448
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 550
+              },
+              {
+                "year": "2028",
+                "value": 560
+              },
+              {
+                "year": "2033",
+                "value": 661
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 723, with 448 students in 2023; it forecasts 661 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "792306": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-792306",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=62",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 499
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 461
+              },
+              {
+                "year": "2028",
+                "value": 434
+              },
+              {
+                "year": "2033",
+                "value": 426
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 573, with 499 students in 2023; it forecasts 426 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "793809": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-793809",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=93",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 510,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 369
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 298
+              },
+              {
+                "year": "2028",
+                "value": 261
+              },
+              {
+                "year": "2033",
+                "value": 279
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 510, with 369 students in 2023; it forecasts 279 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "795471": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-795471",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 379
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 327
+              },
+              {
+                "year": "2028",
+                "value": 307
+              },
+              {
+                "year": "2033",
+                "value": 294
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 527, with 379 students in 2023; it forecasts 294 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "795887": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-795887",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=93",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 476,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 285
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 246
+              },
+              {
+                "year": "2028",
+                "value": 232
+              },
+              {
+                "year": "2033",
+                "value": 204
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 476, with 285 students in 2023; it forecasts 204 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "798495": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-798495",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=83",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 510,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 243
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 185
+              },
+              {
+                "year": "2028",
+                "value": 162
+              },
+              {
+                "year": "2033",
+                "value": 133
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 510, with 243 students in 2023; it forecasts 133 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "799912": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-799912",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=124",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1263,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1592
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1521
+              },
+              {
+                "year": "2028",
+                "value": 1442
+              },
+              {
+                "year": "2033",
+                "value": 1400
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,263, with 1,592 students in 2023; it forecasts 1,400 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "801259": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-801259",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=121",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1557,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 967
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1187
+              },
+              {
+                "year": "2028",
+                "value": 1148
+              },
+              {
+                "year": "2033",
+                "value": 993
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,557, with 967 students in 2023; it forecasts 993 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "806366": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-806366",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=41",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 380,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 271
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 274
+              },
+              {
+                "year": "2028",
+                "value": 272
+              },
+              {
+                "year": "2033",
+                "value": 246
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 380, with 271 students in 2023; it forecasts 246 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "809381": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-809381",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=55",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 519,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 584
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 538
+              },
+              {
+                "year": "2028",
+                "value": 517
+              },
+              {
+                "year": "2033",
+                "value": 513
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 519, with 584 students in 2023; it forecasts 513 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "809489": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-809489",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=78",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 321,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 221
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 200
+              },
+              {
+                "year": "2028",
+                "value": 191
+              },
+              {
+                "year": "2033",
+                "value": 188
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 321, with 221 students in 2023; it forecasts 188 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "811780": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-811780",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=108",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1287,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1299
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1243
+              },
+              {
+                "year": "2028",
+                "value": 1231
+              },
+              {
+                "year": "2033",
+                "value": 1138
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,287, with 1,299 students in 2023; it forecasts 1,138 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "814080": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-814080",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=83",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 441,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 254
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 193
+              },
+              {
+                "year": "2028",
+                "value": 174
+              },
+              {
+                "year": "2033",
+                "value": 314
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 441, with 254 students in 2023; it forecasts 314 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "815411": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-815411",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=100",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 487
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 451
+              },
+              {
+                "year": "2028",
+                "value": 400
+              },
+              {
+                "year": "2033",
+                "value": 337
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 464, with 487 students in 2023; it forecasts 337 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "816450": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-816450",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=59",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 398,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 662
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 661
+              },
+              {
+                "year": "2028",
+                "value": 631
+              },
+              {
+                "year": "2033",
+                "value": 525
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 398, with 662 students in 2023; it forecasts 525 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "821969": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-821969",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=97",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 322
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 282
+              },
+              {
+                "year": "2028",
+                "value": 276
+              },
+              {
+                "year": "2033",
+                "value": 295
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 464, with 322 students in 2023; it forecasts 295 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "822728": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-822728",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=97",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 487,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 275
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 258
+              },
+              {
+                "year": "2028",
+                "value": 230
+              },
+              {
+                "year": "2033",
+                "value": 189
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 487, with 275 students in 2023; it forecasts 189 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "823430": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-823430",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=104",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 393,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 321
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 330
+              },
+              {
+                "year": "2028",
+                "value": 370
+              },
+              {
+                "year": "2033",
+                "value": 488
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 393, with 321 students in 2023; it forecasts 488 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "827169": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-827169",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=78",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 390,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 311
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 262
+              },
+              {
+                "year": "2028",
+                "value": 242
+              },
+              {
+                "year": "2033",
+                "value": 152
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 390, with 311 students in 2023; it forecasts 152 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "830437": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-830437",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=51",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 516,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 629
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 633
+              },
+              {
+                "year": "2028",
+                "value": 574
+              },
+              {
+                "year": "2033",
+                "value": 524
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 516, with 629 students in 2023; it forecasts 524 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "832383": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-832383",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=59",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 300,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 123
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 96
+              },
+              {
+                "year": "2028",
+                "value": 93
+              },
+              {
+                "year": "2033",
+                "value": 101
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 300, with 123 students in 2023; it forecasts 101 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "835048": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-835048",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=65",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 279
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 248
+              },
+              {
+                "year": "2028",
+                "value": 242
+              },
+              {
+                "year": "2033",
+                "value": 235
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 432, with 279 students in 2023; it forecasts 235 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "835498": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-835498",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=55",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 441,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 373
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 324
+              },
+              {
+                "year": "2028",
+                "value": 314
+              },
+              {
+                "year": "2033",
+                "value": 427
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 441, with 373 students in 2023; it forecasts 427 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "836273": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-836273",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=69",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 441,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 380
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 397
+              },
+              {
+                "year": "2028",
+                "value": 372
+              },
+              {
+                "year": "2033",
+                "value": 301
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 441, with 380 students in 2023; it forecasts 301 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "836324": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-836324",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=104",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 530,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 406
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 312
+              },
+              {
+                "year": "2028",
+                "value": 257
+              },
+              {
+                "year": "2033",
+                "value": 229
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 530, with 406 students in 2023; it forecasts 229 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "837431": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-837431",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=59",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 317,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 276
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 241
+              },
+              {
+                "year": "2028",
+                "value": 219
+              },
+              {
+                "year": "2033",
+                "value": 188
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 317, with 276 students in 2023; it forecasts 188 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "838314": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-838314",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=51",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 355,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 346
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 335
+              },
+              {
+                "year": "2028",
+                "value": 310
+              },
+              {
+                "year": "2033",
+                "value": 272
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 355, with 346 students in 2023; it forecasts 272 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "843067": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-843067",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=69",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 265,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 129
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 112
+              },
+              {
+                "year": "2028",
+                "value": 106
+              },
+              {
+                "year": "2033",
+                "value": 103
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 265, with 129 students in 2023; it forecasts 103 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "845531": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-845531",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=97",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 369,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 261
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 232
+              },
+              {
+                "year": "2028",
+                "value": 224
+              },
+              {
+                "year": "2033",
+                "value": 197
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 369, with 261 students in 2023; it forecasts 197 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "848832": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-848832",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=65",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 231,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 246
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 242
+              },
+              {
+                "year": "2028",
+                "value": 250
+              },
+              {
+                "year": "2033",
+                "value": 226
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 231, with 246 students in 2023; it forecasts 226 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "849626": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-849626",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=115",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1104,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1681
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1687
+              },
+              {
+                "year": "2028",
+                "value": 1643
+              },
+              {
+                "year": "2033",
+                "value": 1732
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,104, with 1,681 students in 2023; it forecasts 1,732 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "849901": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-849901",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=124",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1236,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1272
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1181
+              },
+              {
+                "year": "2028",
+                "value": 1062
+              },
+              {
+                "year": "2033",
+                "value": 916
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,236, with 1,272 students in 2023; it forecasts 916 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "851167": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-851167",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 548,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 419
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 494
+              },
+              {
+                "year": "2028",
+                "value": 562
+              },
+              {
+                "year": "2033",
+                "value": 700
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 548, with 419 students in 2023; it forecasts 700 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "852546": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-852546",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=118",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1161,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1592
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1600
+              },
+              {
+                "year": "2028",
+                "value": 1600
+              },
+              {
+                "year": "2033",
+                "value": 1594
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,161, with 1,592 students in 2023; it forecasts 1,594 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "854147": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-854147",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=83",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 786,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 515
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 364
+              },
+              {
+                "year": "2028",
+                "value": 310
+              },
+              {
+                "year": "2033",
+                "value": 294
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 786, with 515 students in 2023; it forecasts 294 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "856052": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-856052",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=73",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 588,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 382
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 332
+              },
+              {
+                "year": "2028",
+                "value": 306
+              },
+              {
+                "year": "2033",
+                "value": 264
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 588, with 382 students in 2023; it forecasts 264 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "864080": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-864080",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=48",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 441,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 365
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 369
+              },
+              {
+                "year": "2028",
+                "value": 341
+              },
+              {
+                "year": "2033",
+                "value": 328
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 441, with 365 students in 2023; it forecasts 328 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "874361": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-874361",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=83",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 870,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 545
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 491
+              },
+              {
+                "year": "2028",
+                "value": 473
+              },
+              {
+                "year": "2033",
+                "value": 465
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 870, with 545 students in 2023; it forecasts 465 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "874396": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-874396",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=89",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 522,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 280
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 243
+              },
+              {
+                "year": "2028",
+                "value": 233
+              },
+              {
+                "year": "2033",
+                "value": 206
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 522, with 280 students in 2023; it forecasts 206 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "874888": {
+      "records": [
+        {
+          "id": "ycdsb-capacity-874888",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan (LTAP) 2024-2029, York Catholic District School Board (Board Approved November 26, 2024) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf#page=118",
+          "source_date": "Board approved November 26, 2024",
+          "facts": {
+            "capacity_otg": 1059,
+            "capacity_label": "Board capacity",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1089
+              }
+            ],
+            "projected": [
+              {
+                "year": "2026",
+                "value": 1053
+              },
+              {
+                "year": "2028",
+                "value": 1053
+              },
+              {
+                "year": "2033",
+                "value": 1026
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's board capacity as 1,059, with 1,089 students in 2023; it forecasts 1,026 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    }
+  }
 }
