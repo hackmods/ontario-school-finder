@@ -1,0 +1,54 @@
+{
+  "_about": "French summaries for site/board-info/B66150.json. Machine translation, unreviewed.",
+  "dsbn-register": {
+    "summary": "Inscrivez-vous en ligne, avec le formulaire à remplir du conseil, ou à votre école de secteur. Vous devez fournir une preuve de l'âge de votre enfant et une preuve d'adresse dans Niagara; un dossier de vaccination à jour doit être au dossier du bureau de santé publique. Les familles dont les enfants sont nés à l'extérieur du Canada commencent par le Centre d'accueil du DSBN."
+  },
+  "dsbn-locator": {
+    "summary": "L'outil de recherche du conseil : entrez une adresse pour voir son école de secteur et le secteur de l'école sur une carte (choisissez d'abord l'année scolaire). Le conseil précise que ses cartes ne montrent que la disposition générale; son service de planification répond aux questions sur les secteurs."
+  },
+  "dsbn-fi": {
+    "summary": "Le DSBN n'a qu'un seul point d'entrée : l'immersion en français commence en 1re année, sans connaissance préalable du français. Les familles s'inscrivent pendant une période annuelle; au moment de notre vérification, le conseil n'avait pas encore publié les dates ni les séances d'information pour la prochaine admission. Le transport suit les mêmes règles que pour tous les élèves du DSBN."
+  },
+  "dsbn-fi-secondary": {
+    "summary": "L'immersion en français se poursuit de la 9e à la 12e année dans cinq écoles secondaires du DSBN (énumérées sur la page du conseil sur les écoles d'immersion en français). Le français de base est offert dans toutes les écoles secondaires du DSBN."
+  },
+  "dsbn-out-of-area": {
+    "summary": "Nous n'avons pas trouvé de procédure publiée du DSBN pour demander à fréquenter une autre école que votre école de secteur. Demandez à la direction de l'école, ou au service de planification du conseil, comment les demandes sont traitées et quand les présenter. Le transport vers une école autre que votre école de secteur n'est offert que pour les programmes approuvés à l'échelle du système (voir transport)."
+  },
+  "dsbn-transport": {
+    "summary": "Les élèves qui habitent à au moins 0,8 km (maternelle), 1,6 km (de la 1re à la 8e année) ou 3,2 km (de la 9e à la 12e année) de leur école de secteur, selon le trajet de marche le plus court, peuvent avoir droit au transport. Les élèves qui fréquentent une autre école que leur école de secteur n'y ont droit que pour les programmes approuvés à l'échelle du système. Les Services de transport des élèves de Niagara assurent les autobus pour le DSBN et Niagara Catholic."
+  },
+  "dsbn-sped": {
+    "summary": "La page du conseil sur l'éducation de l'enfance en difficulté, avec son rapport sur l'éducation de l'enfance en difficulté (le plan du conseil pour les programmes et services) et un guide pour les parents. Commencez par l'enseignant de votre enfant et la direction; ils organisent les évaluations, les plans d'enseignement individualisés (PEI) et les réunions du comité d'identification, de placement et de révision (CIPR)."
+  },
+  "dsbn-seac": {
+    "summary": "Le CCED se réunit chaque mois en public et conseille le conseil sur les programmes et services d'éducation de l'enfance en difficulté. Ses membres comprennent des représentants d'associations communautaires locales."
+  },
+  "dsbn-access": {
+    "summary": "Le plan d'accessibilité du conseil en vertu de la loi ontarienne sur l'accessibilité. Il décrit des plans pour l'ensemble du conseil, non les caractéristiques d'un bâtiment scolaire en particulier; renseignez-vous auprès de l'école pour des besoins précis."
+  },
+  "dsbn-welcome": {
+    "summary": "Soutien à l'inscription, à l'établissement et à la langue pour les familles nouvellement arrivées au Canada. Le soutien en anglais langue seconde est décrit sur la page du conseil consacrée à l'ALS."
+  },
+  "dsbn-ltap": {
+    "summary": "Le plan du conseil pour l'espace scolaire : la capacité, l'effectif et les projections de chaque école, et les projets recommandés par zone de planification. Les recommandations ne sont pas des décisions. Le plan note que le moratoire provincial de 2017 sur les fermetures d'écoles suspend les examens d'aménagement jusqu'à sa levée."
+  },
+  "dsbn-sap": {
+    "summary": "Le plan du conseil dans le cadre provincial de réussite des élèves : littératie (lecture et écriture de l'OQRE, TPCL), diplomation et crédits, et participation et bien-être (suspensions). Il présente les résultats du conseil à côté de ceux de l'Ontario; il ne fixe pas d'objectifs chiffrés. Ce sont des chiffres pour l'ensemble du conseil, non pour cette école."
+  },
+  "dsbn-pic": {
+    "summary": "Un comité de parents qui conseille le conseil. Les réunions sont publiques et indiquées sur la page."
+  },
+  "dsbn-council": {
+    "summary": "Chaque école a un conseil d'école dirigé par les parents; demandez à l'école comment vous joindre à lui."
+  },
+  "dsbn-trustees": {
+    "summary": "Vos conseillers scolaires élus, par secteur, et comment les joindre. Les réunions du conseil et des comités sont publiques."
+  },
+  "dsbn-concerns": {
+    "summary": "Commencez par l'enseignant de votre enfant, puis la direction; si la situation n'est pas réglée, communiquez avec le surintendant de l'école. La politique du conseil sur les plaintes décrit les étapes."
+  },
+  "dsbn-ltap-prince-philip-nf": {
+    "summary": "Le plan de 2023 du conseil présente cette école comme une école d'immersion en français de la 1re à la 8e année, avec une capacité réelle de 322 et 495 élèves en 2022, et indique qu'elle dépasse sa capacité et devrait continuer à la dépasser à long terme. Il n'indique aucun projet à venir pour cette zone de planification. Les projections sont des prévisions du conseil, et la capacité correspond à l'espace du bâtiment, non aux places libres dans une année d'études ou un programme."
+  }
+}

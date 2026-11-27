@@ -1,0 +1,11 @@
+{
+  "_about": "Fragment for site/templates/search.html. Machine translation, unreviewed.",
+  "Home": "Accueil",
+  "Search": "Rechercher",
+  "Find a school": "Trouver une école",
+  "Search schools, cities, postal codes or addresses": "Rechercher des écoles, des villes, des codes postaux ou des adresses",
+  "School, city, postal code or street address": "École, ville, code postal ou adresse municipale",
+  "Use my location": "Utiliser ma position",
+  "Search needs JavaScript. You can still browse by <a href=\"{boards}\">school board</a> or <a href=\"{areas}\">postal area</a>.": "La recherche nécessite JavaScript. Vous pouvez tout de même parcourir par <a href=\"{boards}\">conseil scolaire</a> ou par <a href=\"{areas}\">région postale</a>.",
+  "Type a school name, a city, a postal code like <strong>L2S 3A1</strong>, or a street address.": "Saisissez un nom d’école, une ville, un code postal comme <strong>L2S 3A1</strong> ou une adresse municipale."
+}

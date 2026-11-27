@@ -1,0 +1,45 @@
+{
+  "_about": "French summaries for site/board-info/B67202.json. Machine translation, unreviewed.",
+  "alcdsb-register": {
+    "summary": "Créez un compte dans le système Aspen du conseil (ou présentez-vous à l'école), remplissez le formulaire de préinscription (environ 15 minutes), puis communiquez avec l'école pour les prochaines étapes. L'école a besoin d'un acte de naissance, de renseignements fiscaux, d'une preuve de résidence et de tout document de garde ou médical; un certificat de baptême est bienvenu mais pas obligatoire. L'enfant n'est pas inscrit tant que tous les documents ne sont pas reçus. Le conseil accueille les élèves de toute origine religieuse; sa politique d'admission aux écoles catholiques (que nous n'avons pas pu lire) précise l'admissibilité."
+  },
+  "alcdsb-locator": {
+    "summary": "Le conseil indique que l'école d'un enfant est déterminée par l'adresse domiciliaire et renvoie les familles à l'outil d'admissibilité scolaire de Tri-Board : entrez une adresse municipale, une municipalité et un district pour voir l'école qui la dessert."
+  },
+  "alcdsb-fi": {
+    "summary": "Le conseil indique que l'immersion en français est offerte de la maternelle à la 8e année à l'École catholique Cathédrale, au Nicholson Catholic College (7e et 8e année), à Our Lady of Mount Carmel, à St. Geneviève, à St Mary (maternelle à 6e année), à St Michael (maternelle à 6e année) et à St Paul Catholic Secondary School (7e et 8e année). La page ne dit ni comment ni quand faire la demande, ni s'il y a une liste d'attente; renseignez-vous auprès de l'école. Le français de base est offert dans toutes les écoles dès la 1re année."
+  },
+  "alcdsb-fi-secondary": {
+    "summary": "L'immersion en français et le français intensif au secondaire sont offerts de la 9e à la 12e année. Nicholson Catholic College et Regiopolis-Notre Dame offrent l'immersion et le français intensif; St Paul Catholic Secondary School et Holy Cross Catholic Secondary School n'offrent que le français intensif. Les élèves d'immersion peuvent suivre le français de niveau supérieur dans le Diplôme du BI, et les élèves de 12e année peuvent viser le certificat DELF."
+  },
+  "alcdsb-transfer": {
+    "summary": "Nous n'avons pas pu lire de procédure publiée de l'ALCDSB pour demander à fréquenter une autre école que l'école de secteur : la politique d'admission aux écoles catholiques est derrière une connexion Microsoft. Demandez à la direction de l'école ou au conseil comment fonctionnent les demandes hors secteur et quand les présenter. Le transport suit généralement l'école de secteur."
+  },
+  "alcdsb-transport": {
+    "summary": "Le transport est assuré par Tri-Board Student Transportation et fait l'objet d'une demande distincte de l'inscription à l'école, y compris pour la maternelle. La page du conseil renvoie les familles à Tri-Board pour vérifier l'admissibilité et faire la demande, et pour s'abonner aux alertes de retard et d'annulation d'autobus. La page du conseil ne donne aucune distance de marche; le conseil Limestone, qui partage Tri-Board, publie les règles qu'il décrit comme communes aux trois conseils."
+  },
+  "alcdsb-sped": {
+    "summary": "La page du conseil décrit le dépistage précoce, la façon dont le soutien des aides-enseignants est réparti par école, et le rôle de l'enseignant de la classe dans le plan d'enseignement individualisé (PEI) avec l'enseignant-ressource en éducation de l'enfance en difficulté. Elle nomme un guide d'éducation de l'enfance en difficulté 2026-2027, mais ce document est derrière une connexion; nous n'avons donc pas pu le lire. Renseignez-vous auprès de l'école sur les rencontres du CIPR."
+  },
+  "alcdsb-seac": {
+    "summary": "La page Get Involved du conseil a une section sur son comité consultatif pour l'enfance en difficulté : il fait des recommandations au conseil et comprend des conseillers scolaires, du personnel des services aux élèves et des représentants d'organismes communautaires. La page renvoie à un manuel du CCED (PDF) mais n'indique ni dates de réunion ni personne-ressource; communiquez avec le Student and Family Support Office au 613-354-2255, option 2."
+  },
+  "alcdsb-access": {
+    "summary": "La page d'accessibilité du conseil donne son énoncé de politique et décrit un plan d'accessibilité pluriannuel en vertu de la loi ontarienne sur l'accessibilité, examiné par un comité consultatif sur l'accessibilité qui se réunit au moins trois fois par année. La page décrit encore la période du plan comme 2017-2022; demandez donc au conseil s'il existe un plan plus récent. Demandes de formats de rechange : 613-354-2255."
+  },
+  "alcdsb-newcomer": {
+    "summary": "Le conseil offre un soutien en anglais langue seconde (ALS) et en perfectionnement de la littératie en anglais (ELD) dans les écoles élémentaires et secondaires. À l'élémentaire, les élèves sont soutenus dans leur école de secteur par l'enseignant de la classe et un enseignant itinérant pour les apprenants multilingues; au secondaire, les élèves peuvent suivre des cours à crédit d'ALS et de perfectionnement de la littératie. La page ne mentionne pas de centre d'accueil distinct."
+  },
+  "alcdsb-planning": {
+    "summary": "Le plan d'aménagement à long terme du conseil regarde 15 ans en avant à partir de l'effectif, de l'utilisation des écoles et de la démographie, et est mis à jour environ tous les cinq ans. La page renvoie aux rapports de 2023 et de 2018, aux projets de politiques d'examen de l'aménagement et aux projets de construction scolaire en cours. Les projections sont des prévisions et la capacité représente l'espace des bâtiments, non des places libres."
+  },
+  "alcdsb-sap": {
+    "summary": "Le plan de réussite des élèves du conseil selon le cadre provincial, avec des objectifs de littératie, de mathématiques, d'obtention du diplôme et de bien-être, et des résultats du conseil comparés à ceux de la province. La page du conseil le présente comme le plan 2026-2027, mais les graphiques de résultats du PDF portent la mention 2024-2025."
+  },
+  "alcdsb-csca": {
+    "summary": "La Catholic School Council Association (CSCA) est le comité consultatif de parents du conseil : deux représentants des parents de chaque famille d'écoles, plus des conseillers scolaires, une direction d'école, un représentant du diocèse et un représentant de la communauté. Elle se réunit au moins quatre fois par année à 18 h 30. Chaque école a aussi un conseil d'école catholique."
+  },
+  "alcdsb-concerns": {
+    "summary": "Soulevez une préoccupation dans l'ordre : l'enseignant ou l'enseignante de la classe, puis la direction, puis la surintendance de l'école, puis la direction générale (Chief Executive Officer/Chief Education Officer). Le conseil ne répond pas aux préoccupations anonymes. Le Student and Family Support Office (613-354-2255, option 2) peut aussi aider; il vise à répondre dans les 5 jours ouvrables."
+  }
+}

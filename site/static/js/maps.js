@@ -1,5 +1,5 @@
 // MapLibre GL loader and shared map helpers. The library is self-hosted; only tiles come from OpenFreeMap.
-import { esc, SYSTEMS, levelName, badgesHTML } from "./lib.js";
+import { esc, SYSTEMS, levelName, badgesHTML, t, u } from "./lib.js";
 
 // MapLibre 6 is an ES module; it loads its shared chunk and worker from the same version-named folder.
 // Keep this path in step with site/static/vendor/maplibre/<version>/ (generate.py checks).
@@ -7,7 +7,7 @@ const LIB = "/static/vendor/maplibre/6.4.1/maplibre-gl.mjs";
 const STYLE_LIGHT = "https://tiles.openfreemap.org/styles/positron";
 const STYLE_DARK = "https://tiles.openfreemap.org/styles/dark";
 export const ATTRIBUTION =
-  '<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> © <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a> Data from <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
+  `<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> © <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a> ${t("Data from")} <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>`;
 
 export const SYSTEM_COLORS = {
   light: { "english-public": "#0b6e8a", "english-catholic": "#7a3d9b", "french-public": "#b04a17", "french-catholic": "#2f6f2a", other: "#5b6068" },
@@ -52,14 +52,14 @@ export function lazyMap(container, opts, onReady) {
   const fallback = container.parentElement.querySelector("[data-map-fallback]");
   const start = async () => {
     if (!webglOK()) {
-      if (fallback) fallback.innerHTML = "<div>This browser can’t draw the interactive map (WebGL is off). Everything else on the page still works.</div>";
+      if (fallback) fallback.innerHTML = `<div>${t("This browser can’t draw the interactive map (WebGL is off). Everything else on the page still works.")}</div>`;
       return;
     }
     let gl;
     try {
       gl = await loadMapLib();
     } catch {
-      if (fallback) fallback.innerHTML = "<div>The map couldn’t load. Check your connection and refresh.</div>";
+      if (fallback) fallback.innerHTML = `<div>${t("The map couldn’t load. Check your connection and refresh.")}</div>`;
       return;
     }
     const map = new gl.Map({
@@ -116,8 +116,8 @@ export function pointsFC(rows) {
 }
 
 export function popupHTML(p) {
-  const sub = [levelName(p.l), p.g, SYSTEMS[p.sys]].filter(Boolean).join(" · ");
-  return `<div class="pop"><div class="t">${esc(p.n)}</div><div class="s">${esc(sub)}${p.c ? ` · ${esc(p.c)}` : ""}</div>${badgesHTML(p)}<a href="/school/${encodeURIComponent(p.id)}/">View school →</a></div>`;
+  const sub = [levelName(p.l), p.g, t(SYSTEMS[p.sys] || "")].filter(Boolean).join(" · ");
+  return `<div class="pop"><div class="t">${esc(p.n)}</div><div class="s">${esc(sub)}${p.c ? ` · ${esc(p.c)}` : ""}</div>${badgesHTML(p)}<a href="${u(`/school/${encodeURIComponent(p.id)}/`)}">${t("View school →")}</a></div>`;
 }
 
 /**

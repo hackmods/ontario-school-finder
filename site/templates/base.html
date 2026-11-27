@@ -1,17 +1,24 @@
 {%- from "_icons.html" import icon, logo -%}
+{#- Every visible string goes through _() (plain text) or _h() (our own markup, arguments escaped); every site link
+    through u() so French pages link to French pages. See site/i18n.py. -#}
 <!doctype html>
-<html lang="en-CA" data-v="{{ data_v }}">
+<html lang="{{ 'fr-CA' if lang == 'fr' else 'en-CA' }}" data-v="{{ data_v }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 {# long school names drop the site name so the title still fits a search result (about 70 characters) #}
-<title>{% block title %}{{ title }}{% endblock %}{% if not home and (title|default("")|length) <= 46 %} · Ontario School Finder{% endif %}</title>
+<title>{% block title %}{{ title }}{% endblock %}{% if not home and (title|default("")|length) <= 46 %} · {{ _("Ontario School Finder") }}{% endif %}</title>
 <meta name="description" content="{{ description }}">
 <link rel="canonical" href="{{ site_url }}{{ path }}">
+{%- for lg, p in alternates.items() %}
+<link rel="alternate" hreflang="{{ lg }}-CA" href="{{ site_url }}{{ p }}">
+{%- endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ site_url }}{{ alternates.en }}">
 <meta name="theme-color" content="#0b5d4f" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0e1012" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Ontario School Finder">
+<meta property="og:site_name" content="{{ _('Ontario School Finder') }}">
+<meta property="og:locale" content="{{ 'fr_CA' if lang == 'fr' else 'en_CA' }}">
 <meta property="og:title" content="{{ og_title or title }}">
 <meta property="og:description" content="{{ description }}">
 <meta property="og:url" content="{{ site_url }}{{ path }}">
@@ -31,81 +38,98 @@
 {%- block head %}{% endblock %}
 </head>
 <body class="page-{{ page_kind }}">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main">{{ _("Skip to content") }}</a>
+{%- macro lang_toggle(extra="") %}
+<div class="lang-toggle{{ extra }}" role="group" aria-label="Language / Langue">
+  <a href="{{ alternates.en }}" lang="en" hreflang="en"{% if lang == 'en' %} aria-current="true"{% endif %}><span aria-hidden="true">EN</span><span class="visually-hidden">English</span></a>
+  <a href="{{ alternates.fr }}" lang="fr" hreflang="fr"{% if lang == 'fr' %} aria-current="true"{% endif %}><span aria-hidden="true">FR</span><span class="visually-hidden">Français</span></a>
+</div>
+{%- endmacro %}
 <header class="site-header">
   <div class="wrap">
-    <a class="brand brand-lockup" href="/" aria-label="Ontario School Finder home">{{ logo() }}</a>
+    <a class="brand brand-lockup" href="{{ u('/') }}" aria-label="{{ _('Ontario School Finder home') }}">{{ logo() }}</a>
     {%- if not home %}
     <div class="header-search search search-sm" data-search>
-      <form class="search-box" action="/search/" role="search">
-        <label class="visually-hidden" for="hq">Search schools</label>
-        <input id="hq" name="q" type="search" placeholder="School, city or postal code" autocomplete="off" spellcheck="false"
+      <form class="search-box" action="{{ u('/search/') }}" role="search">
+        <label class="visually-hidden" for="hq">{{ _("Search schools") }}</label>
+        <input id="hq" name="q" type="search" placeholder="{{ _('School, city or postal code') }}" autocomplete="off" spellcheck="false"
                role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="hq-list">
-        <button class="icon-btn" type="submit" aria-label="Search">{{ icon("search") }}</button>
+        <button class="icon-btn" type="submit" aria-label="{{ _('Search') }}">{{ icon("search") }}</button>
       </form>
       <div class="suggest" id="hq-list" role="listbox" hidden></div>
     </div>
     {%- endif %}
-    <nav class="nav" aria-label="Main">
+    <nav class="nav" aria-label="{{ _('Main') }}">
       {%- if not home %}
-      <a class="nav-search" href="/search/" aria-label="Search"{% if page_kind == "search" %} aria-current="page"{% endif %}>{{ icon("search") }}</a>
+      <a class="nav-search" href="{{ u('/search/') }}" aria-label="{{ _('Search') }}"{% if page_kind == "search" %} aria-current="page"{% endif %}>{{ icon("search") }}</a>
       {%- endif %}
-      <a href="/map/"{% if page_kind == "map" %} aria-current="page"{% endif %}>Map</a>
-      <a href="/boards/"{% if page_kind in ("boards", "board") %} aria-current="page"{% endif %}>Boards</a>
-      <a href="/areas/"{% if page_kind in ("areas", "fsa") %} aria-current="page"{% endif %}>Areas</a>
-      <a href="/compare/"{% if page_kind == "compare" %} aria-current="page"{% endif %}>Compare<span class="badge-count" data-compare-count hidden>0</span></a>
-      <a href="/methodology/"{% if page_kind == "methodology" %} aria-current="page"{% endif %}>How it works</a>
+      <a href="{{ u('/map/') }}"{% if page_kind == "map" %} aria-current="page"{% endif %}>{{ _("Map") }}</a>
+      <a href="{{ u('/boards/') }}"{% if page_kind in ("boards", "board") %} aria-current="page"{% endif %}>{{ _("Boards") }}</a>
+      <a href="{{ u('/areas/') }}"{% if page_kind in ("areas", "fsa") %} aria-current="page"{% endif %}>{{ _("Areas") }}</a>
+      <a href="{{ u('/compare/') }}"{% if page_kind == "compare" %} aria-current="page"{% endif %}>{{ _("Compare") }}<span class="badge-count" data-compare-count hidden>0</span></a>
+      <a href="{{ u('/methodology/') }}"{% if page_kind == "methodology" %} aria-current="page"{% endif %}>{{ _("How it works") }}</a>
     </nav>
+    {{ lang_toggle(" lang-toggle-header") }}
+    {#- phones: no room for both buttons beside the logo, so one link to the other language #}
+    {%- set other = "fr" if lang == "en" else "en" %}
+    <a class="lang-switch" href="{{ alternates[other] }}" lang="{{ other }}" hreflang="{{ other }}"><span aria-hidden="true">{{ other|upper }}</span><span class="visually-hidden">{{ "Français" if other == "fr" else "English" }}</span></a>
     <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-toggle>
-      <span class="visually-hidden">Menu</span>{{ icon("menu") }}
+      <span class="visually-hidden">{{ _("Menu") }}</span>{{ icon("menu") }}
     </button>
   </div>
   <div class="mobile-menu" id="mobile-menu">
-    <nav aria-label="Mobile">
-      <a href="/search/">Search</a>
-      <a href="/map/">Map</a>
-      <a href="/boards/">School boards</a>
-      <a href="/areas/">Postal areas</a>
-      <a href="/compare/">Compare <span class="badge-count" data-compare-count hidden>0</span></a>
-      <a href="/methodology/">How it works</a>
-      <a href="/about/">About</a>
+    <nav aria-label="{{ _('Mobile') }}">
+      <a href="{{ u('/search/') }}">{{ _("Search") }}</a>
+      <a href="{{ u('/map/') }}">{{ _("Map") }}</a>
+      <a href="{{ u('/boards/') }}">{{ _("School boards") }}</a>
+      <a href="{{ u('/areas/') }}">{{ _("Postal areas") }}</a>
+      <a href="{{ u('/compare/') }}">{{ _("Compare") }} <span class="badge-count" data-compare-count hidden>0</span></a>
+      <a href="{{ u('/methodology/') }}">{{ _("How it works") }}</a>
+      <a href="{{ u('/about/') }}">{{ _("About") }}</a>
     </nav>
+    {{ lang_toggle(" lang-toggle-menu") }}
   </div>
 </header>
+{%- if lang == "fr" %}
+<div class="mt-notice" role="note">
+  <div class="wrap"><p>Cette version française a été traduite automatiquement et n’a pas encore été révisée. En cas de doute, <a href="{{ alternates.en }}" lang="en" hreflang="en">la version anglaise</a> fait foi.<span class="mt-more"> Les noms des écoles, des conseils et des documents sont donnés tels quels.</span></p></div>
+</div>
+{%- endif %}
 
 <main id="main">
 {% block main %}{% endblock %}
 </main>
 
 <div class="compare-tray" data-compare-tray hidden>
-  <span data-compare-label>0 schools to compare</span>
-  <a class="btn btn-sm" href="/compare/" data-compare-link>Compare</a>
-  <button class="icon-btn" type="button" data-compare-clear aria-label="Clear comparison" style="color:inherit">{{ icon("x") }}</button>
+  <span data-compare-label>{{ _("0 schools to compare") }}</span>
+  <a class="btn btn-sm" href="{{ u('/compare/') }}" data-compare-link>{{ _("Compare") }}</a>
+  <button class="icon-btn" type="button" data-compare-clear aria-label="{{ _('Clear comparison') }}" style="color:inherit">{{ icon("x") }}</button>
 </div>
 
 <footer class="site-footer">
   <div class="wrap">
     <div class="cols-f">
       <div>
-        <a class="brand brand-lockup" href="/" aria-label="Ontario School Finder home">{{ logo() }}</a>
-        <p class="muted" style="margin-top:10px;max-width:38ch">Free, ad-free and private. Every number links to its public source and shows its school year.</p>
+        <a class="brand brand-lockup" href="{{ u('/') }}" aria-label="{{ _('Ontario School Finder home') }}">{{ logo() }}</a>
+        <p class="muted" style="margin-top:10px;max-width:38ch">{{ _("Free, ad-free and private. Every number links to its public source and shows its school year.") }}</p>
+        {{ lang_toggle(" lang-toggle-footer") }}
       </div>
       <div>
-        <h2>Explore</h2>
-        <ul><li><a href="/search/">Search</a></li><li><a href="/map/">Map</a></li><li><a href="/boards/">School boards</a></li><li><a href="/areas/">Postal areas</a></li><li><a href="/compare/">Compare</a></li></ul>
+        <h2>{{ _("Explore") }}</h2>
+        <ul><li><a href="{{ u('/search/') }}">{{ _("Search") }}</a></li><li><a href="{{ u('/map/') }}">{{ _("Map") }}</a></li><li><a href="{{ u('/boards/') }}">{{ _("School boards") }}</a></li><li><a href="{{ u('/areas/') }}">{{ _("Postal areas") }}</a></li><li><a href="{{ u('/compare/') }}">{{ _("Compare") }}</a></li></ul>
       </div>
       <div>
-        <h2>Trust</h2>
-        <ul><li><a href="/methodology/">How it works</a></li><li><a href="/methodology/#sources">Sources &amp; licences</a></li><li><a href="/data/">Download the data</a></li><li><a href="/corrections/">Report a correction</a></li></ul>
+        <h2>{{ _("Trust") }}</h2>
+        <ul><li><a href="{{ u('/methodology/') }}">{{ _("How it works") }}</a></li><li><a href="{{ u('/methodology/') }}#sources">{{ _("Sources & licences") }}</a></li><li><a href="/data/">{{ _("Download the data") }}</a></li><li><a href="{{ u('/corrections/') }}">{{ _("Report a correction") }}</a></li></ul>
       </div>
       <div>
-        <h2>About</h2>
-        <ul><li><a href="/about/">About this site</a></li><li><a href="/about/#privacy">Privacy</a></li>{% if contact_email %}<li><a href="/about/#contact">Contact</a></li>{% endif %}{% if support_url %}<li><a href="/about/#support">Support the site</a></li>{% endif %}<li><button class="theme-btn" type="button" data-theme-toggle>{{ icon("sun") }}<span>Theme: auto</span></button></li></ul>
+        <h2>{{ _("About") }}</h2>
+        <ul><li><a href="{{ u('/about/') }}">{{ _("About this site") }}</a></li><li><a href="{{ u('/about/') }}#privacy">{{ _("Privacy") }}</a></li>{% if contact_email %}<li><a href="{{ u('/about/') }}#contact">{{ _("Contact") }}</a></li>{% endif %}{% if support_url %}<li><a href="{{ u('/about/') }}#support">{{ _("Support the site") }}</a></li>{% endif %}<li><button class="theme-btn" type="button" data-theme-toggle>{{ icon("sun") }}<span>{{ _("Theme: auto") }}</span></button></li></ul>
       </div>
     </div>
     <div class="footer-legal">
-      <span>Data last updated <strong>{{ meta.data_updated_human }}</strong>. Not affiliated with EQAO, the Ministry of Education or any school board.</span>
-      <span>Contains information licensed under the Open Government Licence – Ontario and the Statistics Canada Open Licence. <a href="{{ repo_url }}" rel="noopener">Source code on GitHub</a>.</span>
+      <span>{{ _h("Data last updated <strong>{when}</strong>.", when=meta.data_updated_human) }} {{ _("Not affiliated with EQAO, the Ministry of Education or any school board.") }}</span>
+      <span>{{ _("Contains information licensed under the Open Government Licence – Ontario and the Statistics Canada Open Licence.") }} <a href="{{ repo_url }}" rel="noopener">{{ _("Source code on GitHub") }}</a>.</span>
     </div>
   </div>
 </footer>

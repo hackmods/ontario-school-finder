@@ -5,13 +5,13 @@
 <div class="src-groups">
 {%- for g in source_series(sources) %}
   <div class="src-group">
-    <h3 class="src-pub">{{ g.publisher }}{% if g.licence %} · <a href="{{ g.licence[1] }}" rel="noopener">{{ g.licence[0] }}</a>{% endif %}</h3>
+    <h3 class="src-pub">{{ _(g.publisher) }}{% if g.licence %} · <a href="{{ g.licence[1] }}" rel="noopener">{{ _(g.licence[0]) }}</a>{% endif %}</h3>
     <ul class="src-list">
     {%- for set in g.sets %}
       {%- if set["items"]|length == 1 %}{% set src = set["items"][0] %}
-      <li id="src-{{ src.source_id }}"><a class="t" href="{{ src.url }}" rel="noopener" data-source-link>{{ src.title }}</a><span class="m">{% if not g.licence %}<a href="{{ src.licence_url }}" rel="noopener">{{ src.licence }}</a> · {% endif %}{% if src.retrieved %}retrieved {{ src.retrieved }} · {% endif %}<span class="tnum">{{ src.source_id }}</span></span></li>
+      <li id="src-{{ src.source_id }}"><a class="t" href="{{ src.url }}" rel="noopener" data-source-link>{{ src.title }}</a><span class="m">{% if not g.licence %}<a href="{{ src.licence_url }}" rel="noopener">{{ _(src.licence) }}</a> · {% endif %}{% if src.retrieved %}{{ _("retrieved {date}", date=src.retrieved) }} · {% endif %}<span class="tnum">{{ src.source_id }}</span></span></li>
       {%- else %}
-      <li class="src-set"><span class="t">{{ set.stem }}</span><span class="yrs">{% for src in set["items"] %}<a id="src-{{ src.source_id }}" href="{{ src.url }}" rel="noopener" data-source-link title="{{ src.title }} · {{ src.source_id }}">{{ src.label }}</a>{% endfor %}</span><span class="m">{{ set["items"]|length }} files{% if set.retrieved %} · retrieved {{ set.retrieved }}{% endif %}</span></li>
+      <li class="src-set"><span class="t">{{ set.stem }}</span><span class="yrs">{% for src in set["items"] %}<a id="src-{{ src.source_id }}" href="{{ src.url }}" rel="noopener" data-source-link title="{{ src.title }} · {{ src.source_id }}">{{ src.label }}</a>{% endfor %}</span><span class="m">{{ _("{n} files", n=set["items"]|length) }}{% if set.retrieved %} · {{ _("retrieved {date}", date=set.retrieved) }}{% endif %}</span></li>
       {%- endif %}
     {%- endfor %}
     </ul>

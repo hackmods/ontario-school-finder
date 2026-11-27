@@ -21,5 +21,14 @@ space. site/dist is 1.1 GB (school pages 633 MB, data 382 MB); static /fr/ pages
    JS t() with the same catalogue; board records get summary_fr; machine translation labelled as unreviewed, English
    is the reference; header EN/FR toggle to the same page; hreflang; sitemap; tests for catalogue coverage.
 
-## Status
-- [ ] 2, 3 (small)  - [ ] 1  - [ ] 4  - [ ] 5  - [ ] 6  - [ ] check.sh, PR(s), owner frees disk, deploy
+## Status (2026-11-27)
+- [x] 2, 3: atomic data swap, Compare race fixed (a real bug, not just a flaky test).
+- [x] 1: 4,510 links checked; 773 hidden with the reason (717 dead, 52 parked, 4 now unrelated sites).
+- [x] 4: board pages show the whole board's questionnaire vs Ontario, with earlier years.
+- [x] 5: capacity for 1,276 schools at 14 boards, every row rechecked (0 errors). Next boards: docs/capacity-sources.md.
+- [x] 6: French for every page, script and board record (fragments site/i18n/fr/*.json, board-info/fr/), EN/FR switch
+  in header, phone menu and footer, hreflang + bilingual sitemap, French numbers and dates, notice on every page.
+  Document titles, dataset titles and names stay as published.
+- [x] check.sh, draft PR #28.
+- [ ] Owner frees server disk (the French pages add ~0.7 GB per image), then merge and deploy (at most once an hour).
+- [ ] A French reader reviews site/i18n/fr/ and site/board-info/fr/.

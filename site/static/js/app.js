@@ -1,5 +1,5 @@
 // Runs on every page: menu, theme, compare tray, and search boxes.
-import { store, qs, qsa } from "./lib.js";
+import { store, qs, qsa, t, u } from "./lib.js";
 import { getCompare, setCompare, toggleCompare } from "./compare-store.js";
 
 // ---- mobile menu --------------------------------------------------------
@@ -14,11 +14,11 @@ toggle?.addEventListener("click", () => {
 // ---- theme --------------------------------------------------------------
 const themeBtn = qs("[data-theme-toggle]");
 const order = ["auto", "light", "dark"];
-function applyTheme(t) {
-  if (t === "auto") delete document.documentElement.dataset.theme;
-  else document.documentElement.dataset.theme = t;
-  if (themeBtn) themeBtn.querySelector("span").textContent = `Theme: ${t}`;
-  document.dispatchEvent(new CustomEvent("osf:theme", { detail: t }));
+function applyTheme(choice) {
+  if (choice === "auto") delete document.documentElement.dataset.theme;
+  else document.documentElement.dataset.theme = choice;
+  if (themeBtn) themeBtn.querySelector("span").textContent = choice === "light" ? t("Theme: light") : choice === "dark" ? t("Theme: dark") : t("Theme: auto");
+  document.dispatchEvent(new CustomEvent("osf:theme", { detail: choice }));
 }
 applyTheme(store.get("osf-theme-choice", "auto"));
 themeBtn?.addEventListener("click", () => {
@@ -43,8 +43,8 @@ function renderCompare() {
     const on = list.some((x) => x.id === btn.dataset.compareToggle);
     btn.setAttribute("aria-pressed", String(on));
     const label = btn.querySelector("span:not(.visually-hidden)");
-    if (label) label.textContent = on ? "Added to compare" : "Compare";
-    btn.title = on ? "Remove from compare" : "Add to compare";
+    if (label) label.textContent = on ? t("Added to compare") : t("Compare");
+    btn.title = on ? t("Remove from compare") : t("Add to compare");
   }
   const tray = qs("[data-compare-tray]");
   if (tray) {
@@ -54,8 +54,8 @@ function renderCompare() {
     // phones get the short form: the long one was cut to "3 of 6 schools to comp…"
     const narrow = matchMedia("(max-width: 480px)").matches;
     qs("[data-compare-label]", tray).textContent =
-      list.length === 1 ? (narrow ? "1 school · add another" : `1 school: ${list[0].name} · add another`) : narrow ? `${list.length} of 6 schools` : `${list.length} of 6 schools to compare`;
-    qs("[data-compare-link]", tray).href = `/compare/?ids=${list.map((x) => encodeURIComponent(x.id)).join(",")}`;
+      list.length === 1 ? (narrow ? t("1 school · add another") : t("1 school: {name} · add another", { name: list[0].name })) : narrow ? t("{n} of 6 schools", { n: list.length }) : t("{n} of 6 schools to compare", { n: list.length });
+    qs("[data-compare-link]", tray).href = u(`/compare/?ids=${list.map((x) => encodeURIComponent(x.id)).join(",")}`);
   }
 }
 document.addEventListener("click", (e) => {
@@ -92,8 +92,8 @@ const scanStrips = () => qsa(".table-wrap, .subnav .wrap, .az").forEach(fadeEdge
 scanStrips();
 const mainEl = qs("#main");
 if (mainEl && "MutationObserver" in window) {
-  let t = 0;
-  new MutationObserver(() => { cancelAnimationFrame(t); t = requestAnimationFrame(scanStrips); }).observe(mainEl, { childList: true, subtree: true });
+  let raf = 0;
+  new MutationObserver(() => { cancelAnimationFrame(raf); raf = requestAnimationFrame(scanStrips); }).observe(mainEl, { childList: true, subtree: true });
 }
 
 // ---- sticky sub-navigation highlight -------------------------------------
@@ -118,8 +118,8 @@ if (sub.length && "IntersectionObserver" in window) {
     { rootMargin: "-40% 0px -55% 0px" },
   );
   map.forEach((_, id) => {
-    const t = document.getElementById(id);
-    if (t) io.observe(t);
+    const target = document.getElementById(id);
+    if (target) io.observe(target);
   });
 }
 
@@ -145,14 +145,14 @@ document.addEventListener("click", async (e) => {
   if (!src) return;
   try {
     await navigator.clipboard.writeText(src.textContent.trim());
-    if (label) label.textContent = "Copied";
+    if (label) label.textContent = t("Copied");
   } catch {
     // no clipboard permission: select the text so the visitor can copy it themselves
     const r = document.createRange();
     r.selectNodeContents(src);
     getSelection().removeAllRanges();
     getSelection().addRange(r);
-    if (label) label.textContent = "Selected: press copy";
+    if (label) label.textContent = t("Selected: press copy");
   }
-  setTimeout(() => label && (label.textContent = "Copy the text"), 2500);
+  setTimeout(() => label && (label.textContent = t("Copy the text")), 2500);
 });

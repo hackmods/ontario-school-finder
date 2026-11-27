@@ -1,0 +1,17 @@
+{
+  "_about": "Fragment for site/static/js/home.js. Machine translation, unreviewed.",
+  "School, city or postal code": "École, ville ou code postal",
+  "Your {n} nearest schools": "Vos {n} écoles les plus proches",
+  "Your {n} nearest schools · you’re north of this map": "Vos {n} écoles les plus proches · vous êtes au nord de cette carte",
+  "See the list ↓": "Voir la liste ↓",
+  "No schools match “{q}”": "Aucune école ne correspond à « {q} »",
+  "Open the map →": "Ouvrir la carte →",
+  "1 school matches “{q}”": "1 école correspond à « {q} »",
+  "{n} schools match “{q}”": "{n} écoles correspondent à « {q} »",
+  "1 school in postal area {fsa}": "1 école dans la région postale {fsa}",
+  "{n} schools in postal area {fsa}": "{n} écoles dans la région postale {fsa}",
+  "{head} · all north of this map": "{head} · toutes au nord de cette carte",
+  "{head} · {n} north of this map": "{head} · {n} au nord de cette carte",
+  "See them on a map →": "Les voir sur une carte →",
+  "Open {fsa} →": "Ouvrir {fsa} →"
+}

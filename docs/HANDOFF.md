@@ -96,12 +96,17 @@ What changed and why is in [DECISIONS.md](DECISIONS.md#family-pass-2026-11-26-pr
 5. **School-level capacity: not available as data.** The Ministry's capacity dataset (SFIS) is still "under
    review" with no files (checked 2026-11-26). Each board's long-term plan is linked from its `planning` record,
    and [capacity-sources.md](capacity-sources.md) lists where 33 boards publish a per-school capacity table.
-   Transcribe a board's table by hand if it's worth it (PDF extraction misaligns them).
+   **Transcribed by hand for 14 boards (1,276 schools, 2026-11-27)**, each row rechecked by a second reader; the
+   rest of that list is next (PDF extraction misaligns the tables, so read them by hand).
 6. **Child care**: blocked. The provincial compliance dataset is still "under review" with no files (rechecked
    2026-11-26); pages link to Ontario's licensed child care search instead.
 7. **Conditional downloads: done** (`python -m pipeline.build --refresh`).
-8. **French interface**: blocked on a reviewed translation; strings live in the templates, `site/family.py`
-   and `site/static/js/lib.js`.
+8. **French interface: done as a machine translation (2026-11-27).** Every page is built twice, English at `/…`
+   and French at `/fr/…`, with an EN/FR switch in the header, the phone menu and the footer. Every French page
+   says it was machine-translated and not reviewed, and that English is the reference. Open: a person who reads
+   French should review `site/i18n/fr/*.json` and `site/board-info/fr/` (start with the home, school and board
+   pages); a build lists any English string still without French in `site/i18n/missing-fr.txt`. How it works:
+   [i18n-brief.md](i18n-brief.md).
 
 Reviewed and not worth doing now (2026-11-26):
 - **Grade filter on postal-area pages**: a postal-area page lists schools inside the area's outline plus a

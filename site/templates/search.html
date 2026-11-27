@@ -2,25 +2,25 @@
 {%- from "_icons.html" import icon -%}
 {% block main %}
 <div class="page-head"><div class="wrap">
-  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">Search</li></ol>
-  <h1 style="font-size:clamp(1.6rem,1.2rem+2vw,2.3rem)">Find a school</h1>
+  <ol class="crumbs"><li><a href="{{ u('/') }}">{{ _("Home") }}</a></li><li aria-current="page">{{ _("Search") }}</li></ol>
+  <h1 style="font-size:clamp(1.6rem,1.2rem+2vw,2.3rem)">{{ _("Find a school") }}</h1>
   <div class="search" data-search data-search-page style="max-width:720px">
-    <form class="search-box" action="/search/" role="search">
+    <form class="search-box" action="{{ u('/search/') }}" role="search">
       {{ icon("search", "lead") }}
-      <label class="visually-hidden" for="sq">Search schools, cities, postal codes or addresses</label>
-      <input id="sq" name="q" type="search" placeholder="School, city, postal code or street address" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sq-list">
-      <button class="btn btn-primary" type="submit">{{ icon("search") }}<span>Search</span></button>
+      <label class="visually-hidden" for="sq">{{ _("Search schools, cities, postal codes or addresses") }}</label>
+      <input id="sq" name="q" type="search" placeholder="{{ _('School, city, postal code or street address') }}" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="sq-list">
+      <button class="btn btn-primary" type="submit">{{ icon("search") }}<span>{{ _("Search") }}</span></button>
     </form>
     <div class="suggest" id="sq-list" role="listbox" hidden></div>
   </div>
-  <div class="search-actions"><button class="btn btn-sm" type="button" data-near-me>{{ icon("locate") }}Use my location</button><span class="small muted" data-near-status role="status" aria-live="polite"></span></div>
+  <div class="search-actions"><button class="btn btn-sm" type="button" data-near-me>{{ icon("locate") }}{{ _("Use my location") }}</button><span class="small muted" data-near-status role="status" aria-live="polite"></span></div>
 </div></div>
 
 <section class="block" style="padding-top:20px">
   <div class="wrap">
-    <noscript><div class="note">{{ icon("info") }}<div><p>Search needs JavaScript. You can still browse by <a href="/boards/">school board</a> or <a href="/areas/">postal area</a>.</p></div></div></noscript>
+    <noscript><div class="note">{{ icon("info") }}<div><p>{{ _h('Search needs JavaScript. You can still browse by <a href="{boards}">school board</a> or <a href="{areas}">postal area</a>.', boards=u("/boards/"), areas=u("/areas/")) }}</p></div></div></noscript>
     <div data-results aria-live="polite">
-      <p class="loading">Type a school name, a city, a postal code like <strong>L2S 3A1</strong>, or a street address.</p>
+      <p class="loading">{{ _h("Type a school name, a city, a postal code like <strong>L2S 3A1</strong>, or a street address.") }}</p>
     </div>
   </div>
 </section>

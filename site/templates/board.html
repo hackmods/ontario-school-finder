@@ -4,51 +4,51 @@
 {% block main %}
 <div class="page-head">
   <div class="wrap">
-    <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/boards/">School boards</a></li><li aria-current="page">{{ b.name }}</li></ol>
+    <ol class="crumbs"><li><a href="{{ u('/') }}">{{ _("Home") }}</a></li><li><a href="{{ u('/boards/') }}">{{ _("School boards") }}</a></li><li aria-current="page">{{ b.name }}</li></ol>
     <div class="head-row">
       <div style="min-width:0">
-        <div class="head-meta">{{ sysbadge(b.system, b.system_label) }}{% if b.region %}<span class="badge">{{ b.region }}</span>{% endif %}<span class="badge tnum">{{ b.number }}</span></div>
+        <div class="head-meta">{{ sysbadge(b.system, b.system_label) }}{% if b.region %}<span class="badge">{{ _(b.region) }}</span>{% endif %}<span class="badge tnum">{{ b.number }}</span></div>
         <h1>{{ b.name }}</h1>
-        <p class="muted" style="margin:0">{{ b.full_type }}{% if b.sbpr_city %} · Head office in {{ b.sbpr_city }}{% endif %}</p>
+        <p class="muted" style="margin:0">{{ b.full_type }}{% if b.sbpr_city %} · {{ _("Head office in {city}", city=b.sbpr_city) }}{% endif %}</p>
       </div>
       {%- set loc = locators.get(b.number) %}
-      <div class="head-actions">{% if loc %}<a class="btn btn-primary" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ "Boundary maps" if loc.kind == "maps" else "Which school serves an address" }}</a>{% endif %}{% if b.website %}<a class="btn{% if not loc %} btn-primary{% endif %}" href="{{ b.website }}" rel="noopener">{{ icon("globe") }}Board website</a>{% endif %}</div>
+      <div class="head-actions">{% if loc %}<a class="btn btn-primary" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ _("Boundary maps") if loc.kind == "maps" else _("Which school serves an address") }}</a>{% endif %}{% if b.website %}<a class="btn{% if not loc %} btn-primary{% endif %}" href="{{ b.website }}" rel="noopener">{{ icon("globe") }}{{ _("Board website") }}</a>{% endif %}</div>
     </div>
   </div>
 </div>
 
 {#- the school list has its own sticky A to Z strip, so this one stays put instead of stacking on it -#}
-<nav class="subnav is-static" aria-label="On this page">
+<nav class="subnav is-static" aria-label="{{ _('On this page') }}">
   <div class="wrap">
-    {% if indicators %}<a href="#indicators">Board results</a>{% endif %}
-    {% if spend_view or safe_view or fsl_enrol %}<a href="#context">Board context</a>{% endif %}
-    {% if board_info and board_info.topics %}<a href="#families">For families</a>{% endif %}
-    {% if board_sq %}<a href="#experience">Student experience</a>{% endif %}
-    {% if medians %}<a href="#results">EQAO results</a>{% endif %}
-    {% if cs_board %}<a href="#class-sizes">Class sizes</a>{% endif %}
-    <a href="#schools">All {{ b.schools|length }} schools</a>
-    <a href="#sources">Sources</a>
+    {% if indicators %}<a href="#indicators">{{ _("Board results") }}</a>{% endif %}
+    {% if spend_view or safe_view or fsl_enrol %}<a href="#context">{{ _("Board context") }}</a>{% endif %}
+    {% if board_info and board_info.topics %}<a href="#families">{{ _("For families") }}</a>{% endif %}
+    {% if board_sq %}<a href="#experience">{{ _("Student experience") }}</a>{% endif %}
+    {% if medians %}<a href="#results">{{ _("EQAO results") }}</a>{% endif %}
+    {% if cs_board %}<a href="#class-sizes">{{ _("Class sizes") }}</a>{% endif %}
+    <a href="#schools">{{ _("All {n} schools", n=b.schools|length) }}</a>
+    <a href="#sources">{{ _("Sources") }}</a>
   </div>
 </nav>
 
 <section class="block">
   <div class="wrap">
     <div class="kpis">
-      <div class="kpi"><div class="k">Schools</div><div class="v">{{ b.schools|length }}</div><div class="d">{{ b.levels.get("elementary", 0) }} elementary · {{ b.levels.get("secondary", 0) }} secondary</div></div>
-      <div class="kpi"><div class="k">Students, {{ b.enrolment_total.year }}</div><div class="v">{{ "{:,}".format(b.enrolment_total.value) }}</div><div class="d">Sum of school enrolments{% if b.enrolment_total.schools_suppressed %}; {{ b.enrolment_total.schools_suppressed }} small school{{ "" if b.enrolment_total.schools_suppressed == 1 else "s" }} withheld{% endif %}</div></div>
-      {% if spend_view %}<div class="kpi"><div class="k">Spending per student</div><div class="v">${{ "{:,}".format(spend_view.per_student) }}</div><div class="d">{{ spend_view.year }} · <a href="#context">what it pays for</a></div></div>{% endif %}
-      {% if b.area %}<div class="kpi"><div class="k">Approximate area</div><div class="v">{{ "{:,}".format(b.area.area_km2) }} <small>km²</small></div><div class="d">Drawn from school locations</div></div>{% endif %}
-      {% for k in headline %}<div class="kpi"><div class="k">{{ k.label }}</div><div class="v">{% if k.value is not none %}{{ k.value }}%{% else %}<span class="code">{{ k.code }}</span>{% endif %}</div><div class="d">{{ k.year_label }} · official</div></div>{% endfor %}
+      <div class="kpi"><div class="k">{{ _("Schools") }}</div><div class="v">{{ b.schools|length }}</div><div class="d">{{ _("{n} elementary", n=b.levels.get("elementary", 0)) }} · {{ _("{n} secondary", n=b.levels.get("secondary", 0)) }}</div></div>
+      <div class="kpi"><div class="k">{{ _("Students, {year}", year=b.enrolment_total.year) }}</div><div class="v">{{ (b.enrolment_total.value)|num }}</div><div class="d">{{ _("Sum of school enrolments") }}{% if b.enrolment_total.schools_suppressed %}; {{ _("1 small school withheld") if b.enrolment_total.schools_suppressed == 1 else _("{n} small schools withheld", n=b.enrolment_total.schools_suppressed) }}{% endif %}</div></div>
+      {% if spend_view %}<div class="kpi"><div class="k">{{ _("Spending per student") }}</div><div class="v">{{ (spend_view.per_student)|money }}</div><div class="d">{{ spend_view.year }} · <a href="#context">{{ _("what it pays for") }}</a></div></div>{% endif %}
+      {% if b.area %}<div class="kpi"><div class="k">{{ _("Approximate area") }}</div><div class="v">{{ (b.area.area_km2)|num }} <small>km²</small></div><div class="d">{{ _("Drawn from school locations") }}</div></div>{% endif %}
+      {% for k in headline %}<div class="kpi"><div class="k">{{ _(k.label) }}</div><div class="v">{% if k.value is not none %}{{ k.value }}{{ pc }}{% else %}<span class="code">{{ k.code }}</span>{% endif %}</div><div class="d">{{ k.year_label }} · {{ _("official") }}</div></div>{% endfor %}
     </div>
     <div class="map-shell" style="margin-top:16px">
-      <div class="map map-tall" data-map="board" aria-label="Map of {{ b.name }} schools"></div>
-      <div class="map-fallback" data-map-fallback><div>Map loads with JavaScript.</div></div>
+      <div class="map map-tall" data-map="board" aria-label="{{ _('Map of {board} schools', board=b.name) }}"></div>
+      <div class="map-fallback" data-map-fallback><div>{{ _("Map loads with JavaScript.") }}</div></div>
     </div>
     <div class="legend" style="margin-top:12px"><ul class="legend-inline" style="gap:8px 20px">
-      <li><span class="pin" style="--sys:var(--c-school)"></span>{{ b.name }} schools</li>
-      <li><span class="sw sw-board" style="display:inline-block;width:22px;height:14px;border-radius:3px"></span>Approximate school board area</li>
+      <li><span class="pin" style="--sys:var(--c-school)"></span>{{ _("{board} schools", board=b.name) }}</li>
+      <li><span class="sw sw-board" style="display:inline-block;width:22px;height:14px;border-radius:3px"></span>{{ _("Approximate school board area") }}</li>
     </ul></div>
-    <div class="note" style="margin-top:12px">{{ icon("info") }}<div><p>The shaded area joins together the nearest-school areas of this board’s schools. It is an approximation drawn from where schools are, <strong>not the board’s legal boundary</strong>. The Ministry’s board service area file is not currently published.</p></div></div>
+    <div class="note" style="margin-top:12px">{{ icon("info") }}<div><p>{{ _h("The shaded area joins together the nearest-school areas of this board’s schools. It is an approximation drawn from where schools are, <strong>not the board’s legal boundary</strong>. The Ministry’s board service area file is not currently published.") }}</p></div></div>
     <script type="application/json" id="map-data">{{ map_json|safe }}</script>
   </div>
 </section>
@@ -56,14 +56,14 @@
 {% if indicators %}
 <section class="block" id="indicators">
   <div class="wrap">
-    <h2>Official board results</h2>
-    <p class="block-intro">Reported by the Ministry for the whole board (all students, not a median of schools). Credit accumulation and graduation rates come from OnSIS; reading and literacy from EQAO.</p>
+    <h2>{{ _("Official board results") }}</h2>
+    <p class="block-intro">{{ _("Reported by the Ministry for the whole board (all students, not a median of schools). Credit accumulation and graduation rates come from OnSIS; reading and literacy from EQAO.") }}</p>
     <div class="card"><div class="table-wrap"><table>
-      <caption>{{ b.name }}: board achievement and progress</caption>
-      <thead><tr><th scope="col">Indicator</th>{% for r in indicator_releases %}<th scope="col" class="n">{{ r.label }}</th>{% endfor %}</tr></thead>
-      <tbody>{% for row in indicators %}<tr><th scope="row" style="font-weight:550">{{ row.label }}</th>{% for c in row.cells %}<td class="n">{% if c %}{% if c.value is not none %}{{ c.value }}{{ "%" if not row.change else " pts" }}{% else %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% endif %}<div class="small muted">{{ c.year_label }}</div>{% else %}—{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
+      <caption>{{ _("{board}: board achievement and progress", board=b.name) }}</caption>
+      <thead><tr><th scope="col">{{ _("Indicator") }}</th>{% for r in indicator_releases %}<th scope="col" class="n">{{ r.label }}</th>{% endfor %}</tr></thead>
+      <tbody>{% for row in indicators %}<tr><th scope="row" style="font-weight:550">{{ _(row.label) }}</th>{% for c in row.cells %}<td class="n">{% if c %}{% if c.value is not none %}{{ c.value }}{{ _("%") if not row.change else _(" pts") }}{% else %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% endif %}<div class="small muted">{{ c.year_label }}</div>{% else %}—{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
     </table></div>
-    <p class="small muted" style="margin:8px 0 0">Sources: {% for r in indicator_releases %}<a href="#src-{{ r.source_id }}">{{ r.source_id }}</a>{{ ", " if not loop.last }}{% endfor %}. “Change” rows are the Ministry’s own progress figures in percentage points.</p></div>
+    <p class="small muted" style="margin:8px 0 0">{{ _("Sources:") }} {% for r in indicator_releases %}<a href="#src-{{ r.source_id }}">{{ r.source_id }}</a>{{ ", " if not loop.last }}{% endfor %}. {{ _("“Change” rows are the Ministry’s own progress figures in percentage points.") }}</p></div>
   </div>
 </section>
 {% endif %}
@@ -71,46 +71,46 @@
 {% if spend_view or safe_view or fsl_enrol %}
 <section class="block" id="context">
   <div class="wrap">
-    <h2>Board context</h2>
-    <p class="block-intro">How the board spends its money, how often students are suspended, and how many take French programs. These describe the whole board, not any one school.</p>
+    <h2>{{ _("Board context") }}</h2>
+    <p class="block-intro">{{ _("How the board spends its money, how often students are suspended, and how many take French programs. These describe the whole board, not any one school.") }}</p>
     <div class="grid grid-2 grid-top">
       {% if spend_view %}
       <div class="card">
-        <h3>{{ icon("building", "card-ic") }}Spending per student <span class="badge">{{ spend_view.year }}</span></h3>
-        <p class="ctx-big"><b class="tnum">${{ "{:,}".format(spend_view.per_student) }}</b> <span class="muted">per student · Ontario’s middle board: ${{ "{:,}".format(spend_view.ontario_median|int) }}</span></p>
+        <h3>{{ icon("building", "card-ic") }}{{ _("Spending per student") }} <span class="badge">{{ spend_view.year }}</span></h3>
+        <p class="ctx-big"><b class="tnum">{{ (spend_view.per_student)|money }}</b> <span class="muted">{{ _("per student · Ontario’s middle board: ${amount}", amount=(spend_view.ontario_median|int)|num) }}</span></p>
         <ul class="spend-list">
-          {% for p in spend_view.parts %}<li><span class="lab">{{ p.label }}<span class="d">{{ p.what }}</span></span><span class="bar" aria-hidden="true"><i style="width:{{ p.pct }}%"></i></span><span class="tnum v">${{ "{:,}".format(p.v) }}</span></li>{% endfor %}
+          {% for p in spend_view.parts %}<li><span class="lab">{{ _(p.label) }}<span class="d">{{ _(p.what) }}</span></span><span class="bar" aria-hidden="true"><i style="width:{{ p.pct }}%"></i></span><span class="tnum v">{{ (p.v)|money }}</span></li>{% endfor %}
         </ul>
-        <p class="small muted" style="margin:10px 0 0">Actual 2024-25 spending from the board’s financial statements, divided by its average daily enrolment ({{ "{:,}".format(spend_view.ade) }} students). Boards in the north and with many small or rural schools spend more per student. <a class="ref" href="#src-{{ spend_view.source_id }}">source</a> · For school building condition and space, see the Financial Accountability Office’s <a href="https://www.fao-on.org/en/report/school-boards-capital-2024/" rel="noopener">2024 report on school boards’ buildings</a>.</p>
+        <p class="small muted" style="margin:10px 0 0">{{ _("Actual 2024-25 spending from the board’s financial statements, divided by its average daily enrolment ({n} students). Boards in the north and with many small or rural schools spend more per student.", n=(spend_view.ade)|num) }} <a class="ref" href="#src-{{ spend_view.source_id }}">{{ _("source") }}</a> · {{ _h("For school building condition and space, see the Financial Accountability Office’s <a href=\"https://www.fao-on.org/en/report/school-boards-capital-2024/\" rel=\"noopener\">2024 report on school boards’ buildings</a>.") }}</p>
       </div>
       {% endif %}
       {% if safe_view %}
       <div class="card">
-        <h3>{{ icon("shield", "card-ic") }}Suspensions <span class="badge">{{ safe_view.rows[0].year }} to {{ safe_view.last.year }}</span></h3>
-        <p class="ctx-big"><b class="tnum">{{ safe_view.last.rate }}%</b> <span class="muted">of students suspended in {{ safe_view.last.year }} · Ontario: {{ safe_view.last.province_rate }}%</span></p>
-        <ul class="legend-inline"><li><i class="l-school"></i>{{ b.name }}</li><li><i class="l-prov"></i>Ontario</li></ul>
+        <h3>{{ icon("shield", "card-ic") }}{{ _("Suspensions") }} <span class="badge">{{ _("{start} to {end}", start=safe_view.rows[0].year, end=safe_view.last.year) }}</span></h3>
+        <p class="ctx-big"><b class="tnum">{{ safe_view.last.rate }}{{ pc }}</b> <span class="muted">{{ _("of students suspended in {year} · Ontario: {rate}%", year=safe_view.last.year, rate=safe_view.last.province_rate) }}</span></p>
+        <ul class="legend-inline"><li><i class="l-school"></i>{{ b.name }}</li><li><i class="l-prov"></i>{{ _("Ontario") }}</li></ul>
         <div class="chart">{{ safe_view.svg|safe }}</div>
-        <details class="data-table"><summary>Show the numbers</summary><div class="table-wrap"><table>
-          <thead><tr><th scope="col">Year</th><th scope="col" class="n">Students suspended</th><th scope="col" class="n">Rate</th><th scope="col" class="n">Students expelled</th><th scope="col" class="n">Ontario rate</th></tr></thead>
+        <details class="data-table"><summary>{{ _("Show the numbers") }}</summary><div class="table-wrap"><table>
+          <thead><tr><th scope="col">{{ _("Year") }}</th><th scope="col" class="n">{{ _("Students suspended") }}</th><th scope="col" class="n">{{ _("Rate") }}</th><th scope="col" class="n">{{ _("Students expelled") }}</th><th scope="col" class="n">{{ _("Ontario rate") }}</th></tr></thead>
           <tbody>{% for r in safe_view.rows|reverse %}<tr><th scope="row">{{ r.year }}</th>
-            <td class="n">{% if r.count is not none %}{{ "{:,}".format(r.count) }}{% else %}<span class="code">{{ r.count_code }}</span>{% endif %}</td>
+            <td class="n">{% if r.count is not none %}{{ (r.count)|num }}{% else %}<span class="code">{{ r.count_code }}</span>{% endif %}</td>
             <td class="n">{{ (r.rate|string ~ "%") if r.rate is not none else "—" }}</td>
-            <td class="n">{% if r.expelled is not none %}{{ "{:,}".format(r.expelled) }}{% elif r.expelled_code and r.expelled_code != "BLANK" %}<span class="code">{{ r.expelled_code }}</span>{% else %}—{% endif %}</td>
+            <td class="n">{% if r.expelled is not none %}{{ (r.expelled)|num }}{% elif r.expelled_code and r.expelled_code != "BLANK" %}<span class="code">{{ r.expelled_code }}</span>{% else %}—{% endif %}</td>
             <td class="n">{{ (r.province_rate|string ~ "%") if r.province_rate is not none else "—" }}</td></tr>{% endfor %}</tbody>
         </table></div></details>
-        <p class="small muted" style="margin:8px 0 0">Share of the board’s students suspended at least once in the school year. 2021-22 is the latest year the Ministry has published; schools were closed for part of 2019-20 and 2020-21. <a class="ref" href="#src-{{ b.context.safe.source_ids[0] }}">source</a></p>
+        <p class="small muted" style="margin:8px 0 0">{{ _("Share of the board’s students suspended at least once in the school year. 2021-22 is the latest year the Ministry has published; schools were closed for part of 2019-20 and 2020-21.") }} <a class="ref" href="#src-{{ b.context.safe.source_ids[0] }}">{{ _("source") }}</a></p>
       </div>
       {% endif %}
       {% if fsl_enrol %}
       <div class="card">
-        <h3>{{ icon("check", "card-ic") }}French programs <span class="badge">{{ fsl_enrol.year }}</span></h3>
-        {% if fsl_enrol.immersion_share is not none %}<p class="ctx-big"><b class="tnum">{{ fsl_enrol.immersion_share }}%</b> <span class="muted">of the board’s students are in French Immersion</span></p>{% endif %}
+        <h3>{{ icon("check", "card-ic") }}{{ _("French programs") }} <span class="badge">{{ fsl_enrol.year }}</span></h3>
+        {% if fsl_enrol.immersion_share is not none %}<p class="ctx-big"><b class="tnum">{{ fsl_enrol.immersion_share }}{{ pc }}</b> <span class="muted">{{ _("of the board’s students are in French Immersion") }}</span></p>{% endif %}
         <dl class="glance glance-row">
-          <div><dt>French Immersion</dt><dd class="tnum">{{ "{:,}".format(fsl_enrol.immersion) if fsl_enrol.immersion is not none else "—" }}</dd></div>
-          <div><dt>Extended French</dt><dd class="tnum">{{ "{:,}".format(fsl_enrol.extended) if fsl_enrol.extended else "—" }}</dd></div>
-          <div><dt>Core French</dt><dd class="tnum">{{ "{:,}".format(fsl_enrol.core) if fsl_enrol.core is not none else "—" }}</dd></div>
+          <div><dt>{{ _("French Immersion") }}</dt><dd class="tnum">{{ (fsl_enrol.immersion)|num if fsl_enrol.immersion is not none else "—" }}</dd></div>
+          <div><dt>{{ _("Extended French") }}</dt><dd class="tnum">{{ (fsl_enrol.extended)|num if fsl_enrol.extended else "—" }}</dd></div>
+          <div><dt>{{ _("Core French") }}</dt><dd class="tnum">{{ (fsl_enrol.core)|num if fsl_enrol.core is not none else "—" }}</dd></div>
         </dl>
-        <p class="small muted" style="margin:10px 0 0">Students enrolled in each French-as-a-second-language program, elementary and secondary. Each school page says which programs it offers. <a class="ref" href="#src-{{ fsl_enrol.source_id }}">source</a></p>
+        <p class="small muted" style="margin:10px 0 0">{{ _("Students enrolled in each French-as-a-second-language program, elementary and secondary. Each school page says which programs it offers.") }} <a class="ref" href="#src-{{ fsl_enrol.source_id }}">{{ _("source") }}</a></p>
       </div>
       {% endif %}
     </div>
@@ -123,13 +123,13 @@
 {%- set T = board_info.topics %}
 <section class="block" id="families">
   <div class="wrap">
-    <h2>For families: registering, programs, supports and plans</h2>
-    <p class="block-intro">Collected by hand from {{ b.name }}’s own pages, each linked and dated. Every school page of this board shows the items that apply to it. Published rules are kept apart from decisions made case by case.</p>
+    <h2>{{ _("For families: registering, programs, supports and plans") }}</h2>
+    <p class="block-intro">{{ _("Collected by hand from {board}’s own pages, each linked and dated. Every school page of this board shows the items that apply to it. Published rules are kept apart from decisions made case by case.", board=b.name) }}</p>
     <div class="grid grid-2 grid-top">
-      <div class="card"><h3>Registering and getting in</h3>{{ records(T.get("registration", []) + T.get("address_lookup", []) + T.get("transfer", []) + T.get("transportation", [])) }}</div>
-      <div class="card"><h3>Programs</h3>{{ records(T.get("program", [])) }}</div>
-      <div class="card"><h3>Learning supports</h3>{{ records(T.get("special_education", []) + T.get("seac", []) + T.get("accessibility", []) + T.get("newcomer", [])) }}</div>
-      <div class="card"><h3>Plans, priorities and getting involved</h3>{{ records(T.get("planning", []) + T.get("achievement_plan", []) + T.get("involvement", []) + T.get("concerns", [])) }}</div>
+      <div class="card"><h3>{{ _("Registering and getting in") }}</h3>{{ records(T.get("registration", []) + T.get("address_lookup", []) + T.get("transfer", []) + T.get("transportation", [])) }}</div>
+      <div class="card"><h3>{{ _("Programs") }}</h3>{{ records(T.get("program", [])) }}</div>
+      <div class="card"><h3>{{ _("Learning supports") }}</h3>{{ records(T.get("special_education", []) + T.get("seac", []) + T.get("accessibility", []) + T.get("newcomer", [])) }}</div>
+      <div class="card"><h3>{{ _("Plans, priorities and getting involved") }}</h3>{{ records(T.get("planning", []) + T.get("achievement_plan", []) + T.get("involvement", []) + T.get("concerns", [])) }}</div>
     </div>
   </div>
 </section>
@@ -139,48 +139,48 @@
 {% if board_sq %}
 <section class="block" id="experience">
   <div class="wrap">
-    <h2>Student experience across the board <span class="badge">{{ board_sq[0].year }}</span></h2>
-    <p class="block-intro">What students across {{ b.name }} said in EQAO’s questionnaire, answered when they wrote the assessment: students’ own views of themselves and their learning, not a measure of the board’s quality. These are EQAO’s figures for every student in the board who answered, beside Ontario’s. Earlier years appear only when EQAO asked the same question with the same answers; each year is a different group of students. Each school’s page has its own figures.</p>
+    <h2>{{ _("Student experience across the board") }} <span class="badge">{{ board_sq[0].year }}</span></h2>
+    <p class="block-intro">{{ _("What students across {board} said in EQAO’s questionnaire, answered when they wrote the assessment: students’ own views of themselves and their learning, not a measure of the board’s quality. These are EQAO’s figures for every student in the board who answered, beside Ontario’s. Earlier years appear only when EQAO asked the same question with the same answers; each year is a different group of students. Each school’s page has its own figures.", board=b.name) }}</p>
     <div class="grid grid-2 grid-top">
     {% for blk in board_sq %}
       <div class="card sq-card">
-        <h3>{{ blk.grade }}{% if blk.respondents %} <span class="badge">{{ "{:,}".format(blk.respondents) }} students answered</span>{% endif %}</h3>
+        <h3>{{ _(blk.grade) }}{% if blk.respondents %} <span class="badge">{{ _("{n} students answered", n=(blk.respondents)|num) }}</span>{% endif %}</h3>
         {% if blk.withheld %}
-        <p class="muted" style="margin:0"><span class="badge">Withheld</span> EQAO doesn’t report the board’s answers for this grade. <a class="ref" href="#src-{{ blk.source_id }}">source</a></p>
+        <p class="muted" style="margin:0"><span class="badge">{{ _("Withheld") }}</span> {{ _("EQAO doesn’t report the board’s answers for this grade.") }} <a class="ref" href="#src-{{ blk.source_id }}">{{ _("source") }}</a></p>
         {% else %}
         <div class="table-wrap"><table class="sq-table ctx-table">
-          <caption class="visually-hidden">{{ blk.grade }}, {{ blk.year }}: share of students who agreed</caption>
-          <thead><tr><th scope="col">Students who said</th><th scope="col" class="n">Whole board</th><th scope="col" class="n">Ontario</th></tr></thead>
+          <caption class="visually-hidden">{{ _("{grade}, {year}: share of students who agreed", grade=_(blk.grade), year=blk.year) }}</caption>
+          <thead><tr><th scope="col">{{ _("Students who said") }}</th><th scope="col" class="n">{{ _("Whole board") }}</th><th scope="col" class="n">{{ _("Ontario") }}</th></tr></thead>
           <tbody>
           {% for it in blk.rows %}
-            <tr role="row"><th scope="row" role="rowheader">“{{ it.question }}”<div class="small muted">{{ it.label }}: {{ it.agree|join(" or ")|lower }}</div></th>
-              <td class="n" role="cell" data-label="Whole board">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}%</b>{% if it.n %}<div class="small muted">of {{ "{:,}".format(it.n) }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier">Earlier: {% for h in it.history %}{{ h.year }} {% if h.agree_pct is not none %}{{ h.agree_pct }}%{% else %}<span class="code" title="{{ code_text(h.code) }}">{{ h.code }}</span>{% endif %}{{ "" if loop.last else " · " }}{% endfor %}</div>{% endif %}</td>
-              <td class="n" role="cell" data-label="Ontario">{{ pct(it.province_pct) }}</td></tr>
+            <tr role="row"><th scope="row" role="rowheader">{{ _("“{question}”", question=_(it.question)) }}<div class="small muted">{{ _(it.label) }}: {% for a in it.agree %}{{ _(a)|lower }}{{ _(" or ") if not loop.last }}{% endfor %}</div></th>
+              <td class="n" role="cell" data-label="{{ _('Whole board') }}">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}{{ pc }}</b>{% if it.n %}<div class="small muted">{{ _("of {n}", n=(it.n)|num) }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier">{{ _("Earlier:") }} {% for h in it.history %}{{ h.year }} {% if h.agree_pct is not none %}{{ h.agree_pct }}{{ pc }}{% else %}<span class="code" title="{{ code_text(h.code) }}">{{ h.code }}</span>{% endif %}{{ "" if loop.last else " · " }}{% endfor %}</div>{% endif %}</td>
+              <td class="n" role="cell" data-label="{{ _('Ontario') }}">{{ pct(it.province_pct) }}</td></tr>
           {% endfor %}
           </tbody>
         </table></div>
-        <p class="small muted" style="margin:8px 0 0">{% if blk.five_point %}Students chose from five answers; “agreed” adds “somewhat” and “strongly agree”, counted by this site from EQAO’s numbers.{% else %}Students chose “yes”, “not sure” or “no”; the figure is EQAO’s own percentage.{% endif %} <a class="ref" href="#src-{{ blk.source_id }}">source</a></p>
+        <p class="small muted" style="margin:8px 0 0">{% if blk.five_point %}{{ _("Students chose from five answers; “agreed” adds “somewhat” and “strongly agree”, counted by this site from EQAO’s numbers.") }}{% else %}{{ _("Students chose “yes”, “not sure” or “no”; the figure is EQAO’s own percentage.") }}{% endif %} <a class="ref" href="#src-{{ blk.source_id }}">{{ _("source") }}</a></p>
         {% endif %}
       </div>
     {% endfor %}
     </div>
-    <p class="small muted" style="margin:12px 0 0">Grades 3 and 6 use a three-answer scale and Grade 9 and the OSSLT a five-answer scale, so don’t compare figures across grades.</p>
+    <p class="small muted" style="margin:12px 0 0">{{ _("Grades 3 and 6 use a three-answer scale and Grade 9 and the OSSLT a five-answer scale, so don’t compare figures across grades.") }}</p>
   </div>
 </section>
 {% endif %}
 
 <section class="block" id="results">
   <div class="wrap">
-    <h2>EQAO results across the board’s schools</h2>
-    <p class="block-intro">The median school in {{ b.name }} compared with the median {{ b.language }}-language school in Ontario. A median is the middle value: half of schools are above it, half below. Charts start in {{ meta.eqao_eras.current_from }}, when EQAO’s current assessments began a new trend line; <a href="#results-paper">earlier paper-based results</a> are listed separately below.</p>
-    <ul class="legend-inline"><li><i class="l-school"></i>Board median</li><li><i class="l-prov"></i>Ontario median</li></ul>
+    <h2>{{ _("EQAO results across the board’s schools") }}</h2>
+    <p class="block-intro">{{ _h("The median school in {board} compared with the median {language}-language school in Ontario. A median is the middle value: half of schools are above it, half below. Charts start in {year}, when EQAO’s current assessments began a new trend line; <a href=\"#results-paper\">earlier paper-based results</a> are listed separately below.", board=b.name, language=_(b.language), year=meta.eqao_eras.current_from) }}</p>
+    <ul class="legend-inline"><li><i class="l-school"></i>{{ _("Board median") }}</li><li><i class="l-prov"></i>{{ _("Ontario median") }}</li></ul>
     <div class="charts">
       {% for r in medians %}
       <figure class="chart-card" style="margin:0">
-        <h3>{{ r.grade }} · {{ r.subject }}</h3>
+        <h3>{{ _(r.grade) }} · {{ _(r.subject) }}</h3>
         <div class="chart">{{ r.svg|safe }}</div>
-        <details class="data-table"><summary>Show the numbers</summary><div class="table-wrap"><table>
-          <thead><tr><th scope="col">Year</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Schools</th><th scope="col" class="n">Ontario median</th></tr></thead>
+        <details class="data-table"><summary>{{ _("Show the numbers") }}</summary><div class="table-wrap"><table>
+          <thead><tr><th scope="col">{{ _("Year") }}</th><th scope="col" class="n">{{ _("Board median") }}</th><th scope="col" class="n">{{ _("Schools") }}</th><th scope="col" class="n">{{ _("Ontario median") }}</th></tr></thead>
           <tbody>{% for row in r.rows %}<tr><th scope="row">{{ row.year }}</th><td class="n">{{ pct(row.board_median) }}</td><td class="n">{{ row.board_n }}</td><td class="n">{{ pct(row.province_median) }}</td></tr>{% endfor %}</tbody>
         </table></div></details>
       </figure>
@@ -188,12 +188,12 @@
     </div>
     {% if medians_paper %}
     <details class="data-table card" id="results-paper" style="margin-top:16px">
-      <summary>Earlier results: {{ meta.eqao_eras.eras.paper.label }} (a different test, not comparable)</summary>
-      <p class="small muted">{{ meta.eqao_eras.eras.paper.explain }} No change is calculated between these years and {{ meta.eqao_eras.current_from }} or later.</p>
+      <summary>{{ _("Earlier results: {label} (a different test, not comparable)", label=_(meta.eqao_eras.eras.paper.label)) }}</summary>
+      <p class="small muted">{{ _(meta.eqao_eras.eras.paper.explain) }} {{ _("No change is calculated between these years and {year} or later.", year=meta.eqao_eras.current_from) }}</p>
       <div class="table-wrap"><table>
-        <caption>Paper-based EQAO results: board median and Ontario median</caption>
-        <thead><tr><th scope="col">Assessment</th><th scope="col">Year</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Schools</th><th scope="col" class="n">Ontario median</th></tr></thead>
-        <tbody>{% for r in medians_paper %}{% for row in r.rows %}<tr><th scope="row">{{ r.grade }} {{ r.subject }}</th><td>{{ row.year }}</td><td class="n">{{ pct(row.board_median) }}</td><td class="n">{{ row.board_n }}</td><td class="n">{{ pct(row.province_median) }}</td></tr>{% endfor %}{% endfor %}</tbody>
+        <caption>{{ _("Paper-based EQAO results: board median and Ontario median") }}</caption>
+        <thead><tr><th scope="col">{{ _("Assessment") }}</th><th scope="col">{{ _("Year") }}</th><th scope="col" class="n">{{ _("Board median") }}</th><th scope="col" class="n">{{ _("Schools") }}</th><th scope="col" class="n">{{ _("Ontario median") }}</th></tr></thead>
+        <tbody>{% for r in medians_paper %}{% for row in r.rows %}<tr><th scope="row">{{ _(r.grade) }} {{ _(r.subject) }}</th><td>{{ row.year }}</td><td class="n">{{ pct(row.board_median) }}</td><td class="n">{{ row.board_n }}</td><td class="n">{{ pct(row.province_median) }}</td></tr>{% endfor %}{% endfor %}</tbody>
       </table></div>
     </details>
     {% endif %}
@@ -204,11 +204,11 @@
 {% if cs_board %}
 <section class="block" id="class-sizes">
   <div class="wrap">
-    <h2>Class sizes over time</h2>
-    <p class="block-intro">Average Grades 1–3 class size at the median school in {{ b.name }}, against the median {{ b.language }}-language school in Ontario. Computed from the Ministry’s elementary class lists.</p>
-    <div class="card"><ul class="legend-inline"><li><i class="l-school"></i>Board median</li><li><i class="l-prov"></i>Ontario median</li></ul>
+    <h2>{{ _("Class sizes over time") }}</h2>
+    <p class="block-intro">{{ _("Average Grades 1–3 class size at the median school in {board}, against the median {language}-language school in Ontario. Computed from the Ministry’s elementary class lists.", board=b.name, language=_(b.language)) }}</p>
+    <div class="card"><ul class="legend-inline"><li><i class="l-school"></i>{{ _("Board median") }}</li><li><i class="l-prov"></i>{{ _("Ontario median") }}</li></ul>
     <div class="chart">{{ cs_board.svg|safe }}</div>
-    <details class="data-table"><summary>Show the numbers</summary><div class="table-wrap"><table><thead><tr><th scope="col">Year</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Schools</th><th scope="col" class="n">Ontario median</th></tr></thead>
+    <details class="data-table"><summary>{{ _("Show the numbers") }}</summary><div class="table-wrap"><table><thead><tr><th scope="col">{{ _("Year") }}</th><th scope="col" class="n">{{ _("Board median") }}</th><th scope="col" class="n">{{ _("Schools") }}</th><th scope="col" class="n">{{ _("Ontario median") }}</th></tr></thead>
     <tbody>{% for r in cs_board.rows|reverse %}<tr><th scope="row">{{ r.year }}</th><td class="n">{{ r.board_median }}</td><td class="n">{{ r.board_n }}</td><td class="n">{{ r.province_median if r.province_median is not none else "—" }}</td></tr>{% endfor %}</tbody></table></div></details></div>
   </div>
 </section>
@@ -216,36 +216,36 @@
 
 <section class="block" id="schools">
   <div class="wrap">
-    <h2>All {{ b.schools|length }} schools</h2>
+    <h2>{{ _("All {n} schools", n=b.schools|length) }}</h2>
     <div class="toolbar">
-      <div class="chips" role="group" aria-label="Filter by level" data-filter-group>
-        <button class="chip on" type="button" data-filter="all" aria-pressed="true">All</button>
-        <button class="chip" type="button" data-filter="elementary" aria-pressed="false">Elementary</button>
-        <button class="chip" type="button" data-filter="secondary" aria-pressed="false">Secondary</button>
+      <div class="chips" role="group" aria-label="{{ _('Filter by level') }}" data-filter-group>
+        <button class="chip on" type="button" data-filter="all" aria-pressed="true">{{ _("All") }}</button>
+        <button class="chip" type="button" data-filter="elementary" aria-pressed="false">{{ _("Elementary") }}</button>
+        <button class="chip" type="button" data-filter="secondary" aria-pressed="false">{{ _("Secondary") }}</button>
       </div>
-      <label class="search-sm" style="flex:1 1 220px;max-width:320px"><span class="visually-hidden">Filter schools by name or city</span><input type="search" placeholder="Filter by name or city" data-filter-text style="width:100%"></label>
+      <label class="search-sm" style="flex:1 1 220px;max-width:320px"><span class="visually-hidden">{{ _("Filter schools by name or city") }}</span><input type="search" placeholder="{{ _('Filter by name or city') }}" data-filter-text style="width:100%"></label>
     </div>
     {%- set az = schools|length > 30 and school_groups|length > 3 %}
-    {% if az %}<nav class="az" aria-label="Jump to schools starting with a letter" data-az-nav>{% for g in school_groups %}<a href="#az-{{ g.letter }}">{{ g.letter }}</a>{% endfor %}</nav>{% endif %}
+    {% if az %}<nav class="az" aria-label="{{ _('Jump to schools starting with a letter') }}" data-az-nav>{% for g in school_groups %}<a href="#az-{{ g.letter }}">{{ g.letter }}</a>{% endfor %}</nav>{% endif %}
     <div class="card school-list{% if az %} is-az{% endif %}" data-filter-list>
       {% for g in school_groups %}
       <div class="az-group"{% if az %} id="az-{{ g.letter }}"{% endif %} data-az="{{ g.letter }}">
         {% if az %}<h3 class="az-letter" aria-hidden="true">{{ g.letter }}</h3>{% endif %}
         <ul class="list">
         {% for s in g.schools %}
-          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.level|capitalize }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ s.special }}{% endif %}</span>{% if s.badges %}<span class="prog-badges">{% for b in s.badges %}<span class="badge badge-prog prog-{{ b.key }}">{{ b.label }}</span>{% endfor %}</span>{% endif %}</span><span class="side">{% if s.enrol is not none %}{{ "{:,}".format(s.enrol) }}<br><span class="small">students</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
+          <li data-level="{{ s.level }}" data-text="{{ (s.name ~ ' ' ~ (s.city or ''))|lower }}"><a class="row-link" href="{{ u('/school/' ~ s.bsid ~ '/') }}"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ _(s.level|capitalize) }} · {{ s.grades }}{% if s.city %} · {{ s.city }}{% endif %}{% if s.special %} · {{ _(s.special) }}{% endif %}</span>{% if s.badges %}<span class="prog-badges">{% for b in s.badges %}<span class="badge badge-prog prog-{{ b.key }}">{{ _(b.label) }}</span>{% endfor %}</span>{% endif %}</span><span class="side">{% if s.enrol is not none %}{{ (s.enrol)|num }}<br><span class="small">{{ _("students") }}</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
         {% endfor %}
         </ul>
       </div>
       {% endfor %}
     </div>
-    <p class="muted" data-filter-empty hidden style="margin-top:12px">No schools match that filter.</p>
+    <p class="muted" data-filter-empty hidden style="margin-top:12px">{{ _("No schools match that filter.") }}</p>
   </div>
 </section>
 
 <section class="block" id="sources">
   <div class="wrap">
-    <h2>Sources</h2>
+    <h2>{{ _("Sources") }}</h2>
     {{ source_groups(b.sources) }}
   </div>
 </section>

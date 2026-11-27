@@ -1,5 +1,5 @@
 // Search engine + accessible combobox. Auto-attaches to every [data-search] on the page.
-import { esc, norm, debounce, loadIndex, loadBoards, levelName, SYSTEMS, icon, qsa } from "./lib.js";
+import { esc, norm, debounce, loadIndex, loadBoards, levelName, SYSTEMS, icon, qsa, t, u, num } from "./lib.js";
 
 const SOFT = new Set(["school", "schools", "ps", "public", "catholic", "elementary", "secondary", "high", "the", "of", "cs", "ss", "es", "css", "chs", "ces", "hs", "sch", "college", "academy", "ecole", "elementaire", "secondaire", "catholique", "publique", "intermediate", "middle", "senior", "junior", "and", "de", "du", "la", "le"]);
 const FSA_RE = /^[a-z]\d[a-z]$/;
@@ -141,14 +141,14 @@ class Combobox {
     }
     let rows, boards;
     if (!this.loaded) {
-      this.list.innerHTML = '<div class="empty" role="status">Loading the school list…</div>';
+      this.list.innerHTML = `<div class="empty" role="status">${t("Loading the school list…")}</div>`;
       this.open();
     }
     try {
       [rows, boards] = await Promise.all([loadIndex(), loadBoards()]);
       this.loaded = true;
     } catch {
-      this.list.innerHTML = '<div class="empty">Search is unavailable right now. Check your connection and try again.</div>';
+      this.list.innerHTML = `<div class="empty">${t("Search is unavailable right now. Check your connection and try again.")}</div>`;
       return this.open();
     }
     if (this.input.value.trim() !== q) return;
@@ -157,28 +157,28 @@ class Combobox {
     const items = [];
     let html = "";
     const add = (group, item) => {
-      if (group && !html.includes(`data-g="${group}"`)) html += `<div class="grp" data-g="${group}" role="presentation">${group}</div>`;
+      if (group && !html.includes(`data-g="${group}"`)) html += `<div class="grp" data-g="${group}" role="presentation">${t(group)}</div>`;
       const i = items.length;
       items.push(item);
       html += `<a id="${this.list.id}-o${i}" role="option" aria-selected="false" href="${item.href}" data-i="${i}"><span class="ico">${icon(item.icon)}</span><span><span class="t" style="display:block">${item.t}</span><span class="s" style="display:block">${item.s}</span></span></a>`;
     };
     if (this.mode !== "compare") {
       if (res.kind !== "text") {
-        add("Postal area", { href: `/fsa/${res.fsa}/`, icon: "pin", t: `Postal area ${esc(res.fsa)}`, s: `${res.schools.length} school${res.schools.length === 1 ? "" : "s"} · map, census and child care` });
+        add("Postal area", { href: u(`/fsa/${res.fsa}/`), icon: "pin", t: t("Postal area {fsa}", { fsa: esc(res.fsa) }), s: res.schools.length === 1 ? t("1 school · map, census and child care") : t("{n} schools · map, census and child care", { n: num(res.schools.length) }) });
       }
-      for (const c of res.cities.slice(0, 2)) add("Cities", { href: `/search/?q=${encodeURIComponent(c.name)}`, icon: "city", t: `Schools in ${esc(c.name)}`, s: `${c.count} school${c.count === 1 ? "" : "s"}` });
-      for (const b of res.boards.slice(0, 2)) add("Boards", { href: `/board/${b.n}/`, icon: "board", t: highlight(b.name, res.qn), s: `${SYSTEMS[b.sys] || ""} · ${b.count} schools` });
+      for (const c of res.cities.slice(0, 2)) add("Cities", { href: u(`/search/?q=${encodeURIComponent(c.name)}`), icon: "city", t: t("Schools in {city}", { city: esc(c.name) }), s: c.count === 1 ? t("1 school") : t("{n} schools", { n: num(c.count) }) });
+      for (const b of res.boards.slice(0, 2)) add("Boards", { href: u(`/board/${b.n}/`), icon: "board", t: highlight(b.name, res.qn), s: t("{system} · {n} schools", { system: t(SYSTEMS[b.sys] || ""), n: num(b.count) }) });
     }
     for (const r of res.schools.slice(0, res.kind === "text" ? 7 : 5)) {
-      add("Schools", { href: `/school/${r.id}/`, icon: "school", t: highlight(r.n, res.qn), s: esc(schoolSub(r)), id: r.id, name: r.n });
+      add("Schools", { href: u(`/school/${r.id}/`), icon: "school", t: highlight(r.n, res.qn), s: esc(schoolSub(r)), id: r.id, name: r.n });
     }
     if (this.mode !== "compare" && looksLikeAddress(q)) {
-      add("Address", { href: `/search/?q=${encodeURIComponent(q)}&address=1`, icon: "search", t: `Find schools near “${esc(q)}”`, s: "Address search by Natural Resources Canada" });
+      add("Address", { href: u(`/search/?q=${encodeURIComponent(q)}&address=1`), icon: "search", t: t("Find schools near “{q}”", { q: esc(q) }), s: t("Address search by Natural Resources Canada") });
     }
     if (this.mode !== "compare" && (res.total || 0) > 7) {
-      add(null, { href: `/search/?q=${encodeURIComponent(q)}`, icon: "search", t: `See all ${res.total} results`, s: "Filter by level, language and board" });
+      add(null, { href: u(`/search/?q=${encodeURIComponent(q)}`), icon: "search", t: t("See all {n} results", { n: num(res.total) }), s: t("Filter by level, language and board") });
     }
-    if (!items.length) html = `<div class="empty">No matches for “${esc(q)}”. Try a shorter name, a city, or the first 3 characters of a postal code.</div>`;
+    if (!items.length) html = `<div class="empty">${t("No matches for “{q}”. Try a shorter name, a city, or the first 3 characters of a postal code.", { q: esc(q) })}</div>`;
     this.items = items;
     this.active = -1;
     this.list.innerHTML = html;

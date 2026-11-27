@@ -1,0 +1,22 @@
+{
+  "_about": "Fragment for site/static/js/search.js. Machine translation, unreviewed.",
+  "Loading the school list…": "Chargement de la liste des écoles…",
+  "Search is unavailable right now. Check your connection and try again.": "La recherche est indisponible pour le moment. Vérifiez votre connexion et réessayez.",
+  "Postal area": "Région postale",
+  "Cities": "Villes",
+  "Boards": "Conseils",
+  "Schools": "Écoles",
+  "Address": "Adresse",
+  "Postal area {fsa}": "Région postale {fsa}",
+  "1 school · map, census and child care": "1 école · carte, recensement et services de garde",
+  "{n} schools · map, census and child care": "{n} écoles · carte, recensement et services de garde",
+  "Schools in {city}": "Écoles à {city}",
+  "1 school": "1 école",
+  "{n} schools": "{n} écoles",
+  "{system} · {n} schools": "{system} · {n} écoles",
+  "Find schools near “{q}”": "Trouver les écoles près de « {q} »",
+  "Address search by Natural Resources Canada": "Recherche d’adresse par Ressources naturelles Canada",
+  "See all {n} results": "Voir les {n} résultats",
+  "Filter by level, language and board": "Filtrer par niveau, langue et conseil",
+  "No matches for “{q}”. Try a shorter name, a city, or the first 3 characters of a postal code.": "Aucun résultat pour « {q} ». Essayez un nom plus court, une ville ou les trois premiers caractères d’un code postal."
+}

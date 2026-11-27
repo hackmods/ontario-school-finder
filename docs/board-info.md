@@ -88,6 +88,11 @@ lookup, program entry, out-of-area requests and transportation (the "Attendance 
 then special education, SEAC, accessibility, newcomer support, plans and involvement. Never guess: use
 `not_found` when you looked and the board doesn't publish it.
 
+**French:** each record's French summary lives in `site/board-info/fr/<board>.json` (`{"<record id>": {"summary":
+"…"}}`, brief: [translate-fr.md](board-info-briefs/translate-fr.md)); capacity records' French is generated into
+`site/board-info/fr/capacity/`. A record with no French shows its English summary on French pages, so translate
+new or changed records when you add them.
+
 ## Coverage (2026-11-26)
 
 64 of Ontario's 72 district school boards (English and French, public and Catholic) plus the school authorities

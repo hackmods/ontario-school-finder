@@ -1,0 +1,11 @@
+{
+  "_about": "Fragment for site/templates/areas.html. Machine translation, unreviewed.",
+  "Home": "Accueil",
+  "Postal areas": "Régions postales",
+  "Postal areas (FSAs)": "Régions postales (RTA)",
+  "A forward sortation area is the first three characters of a postal code, like <strong>L2S</strong>. Pick yours to see the schools in and near it and what the 2021 Census says about the area.": "Une région de tri d’acheminement (RTA) correspond aux trois premiers caractères d’un code postal, comme <strong>L2S</strong>. Choisissez la vôtre pour voir les écoles qui s’y trouvent et à proximité, et ce que le recensement de 2021 dit de la région.",
+  "Find a postal area": "Trouver une région postale",
+  "Type a postal code, e.g. K7L 3N6": "Saisissez un code postal, p. ex. K7L 3N6",
+  "Search": "Rechercher",
+  "{n} areas": "{n} régions"
+}

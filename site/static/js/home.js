@@ -1,11 +1,11 @@
 // Home page: "Use my location", quick-try buttons, and the map picture that answers the search box.
-import { qs, qsa, loadIndex } from "./lib.js";
+import { qs, qsa, loadIndex, t, u, num } from "./lib.js";
 import { nearest, locate } from "./near.js";
 import { schoolRow } from "./results.js";
 
 const input = qs("#q");
 // the example placeholder doesn't fit a phone-width box; the "Or try" links below give the examples there
-if (input && matchMedia("(max-width: 480px)").matches) input.placeholder = "School, city or postal code";
+if (input && matchMedia("(max-width: 480px)").matches) input.placeholder = t("School, city or postal code");
 for (const b of qsa("[data-try]")) {
   b.addEventListener("click", () => {
     input.value = b.dataset.try;
@@ -128,8 +128,7 @@ let query = null;
 function showNear() {
   if (!heroMap || !state) return heroMap?.reset();
   const rows = nearest(state.rows, state.at, { level, limit: 12 });
-  const where = heroMap.onMap(state.at) ? "" : " · you’re north of this map";
-  heroMap.show({ rows, you: state.at, text: `Your ${rows.length} nearest schools${where}`, link: "See the list ↓", href: "#near" });
+    heroMap.show({ rows, you: state.at, text: heroMap.onMap(state.at) ? t("Your {n} nearest schools", { n: num(rows.length) }) : t("Your {n} nearest schools · you’re north of this map", { n: num(rows.length) }), link: t("See the list ↓"), href: "#near" });
 }
 
 function render() {
@@ -166,16 +165,16 @@ box?.addEventListener("osf:results", (e) => {
   if (!query) return showNear();
   const { q, kind, fsa, schools } = query;
   const n = schools.length;
-  if (!n) return heroMap.show({ rows: [], text: `No schools match “${q}”`, link: "Open the map →", href: "/map/" });
+  if (!n) return heroMap.show({ rows: [], text: t("No schools match “{q}”", { q }), link: t("Open the map →"), href: u("/map/") });
   const off = heroMap.north(schools);
-  const count = `${n.toLocaleString("en-CA")} school${n === 1 ? "" : "s"}`;
-  const head = kind === "text" ? `${count} match${n === 1 ? "es" : ""} “${q}”` : `${count} in postal area ${fsa}`;
-  const tail = !off ? "" : off === n ? " · all north of this map" : ` · ${off} north of this map`;
+  const N = num(n);
+  const head = kind === "text" ? (n === 1 ? t("1 school matches “{q}”", { q }) : t("{n} schools match “{q}”", { n: N, q })) : n === 1 ? t("1 school in postal area {fsa}", { fsa }) : t("{n} schools in postal area {fsa}", { n: N, fsa });
+  const text = !off ? head : off === n ? t("{head} · all north of this map", { head }) : t("{head} · {n} north of this map", { head, n: num(off) });
   heroMap.show({
     rows: schools,
-    text: head + tail,
-    link: kind === "text" ? "See them on a map →" : `Open ${fsa} →`,
-    href: kind === "text" ? `/search/?q=${encodeURIComponent(q)}` : `/fsa/${fsa}/`,
+    text,
+    link: kind === "text" ? t("See them on a map →") : t("Open {fsa} →", { fsa }),
+    href: kind === "text" ? u(`/search/?q=${encodeURIComponent(q)}`) : u(`/fsa/${fsa}/`),
   });
 });
 box?.addEventListener("osf:active", (e) => heroMap?.focus(e.detail?.id));

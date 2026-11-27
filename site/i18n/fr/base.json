@@ -1,0 +1,21 @@
+{
+  "_about": "Base template (site/templates/base.html). English source -> French. Machine translation, unreviewed.",
+  "Ontario School Finder": "Ontario School Finder",
+  "Skip to content": "Passer au contenu",
+  "Ontario School Finder home": "Accueil d’Ontario School Finder",
+  "Main": "Principal",
+  "Areas": "Régions",
+  "Menu": "Menu",
+  "Mobile": "Mobile",
+  "0 schools to compare": "0 école à comparer",
+  "Clear comparison": "Vider la comparaison",
+  "Free, ad-free and private. Every number links to its public source and shows its school year.": "Gratuit, sans publicité et respectueux de votre vie privée. Chaque chiffre renvoie à sa source publique et indique son année scolaire.",
+  "Explore": "Explorer",
+  "Trust": "Confiance",
+  "Sources & licences": "Sources et licences",
+  "About this site": "À propos de ce site",
+  "Data last updated <strong>{when}</strong>.": "Données mises à jour le <strong>{when}</strong>.",
+  "Not affiliated with EQAO, the Ministry of Education or any school board.": "Ce site n’est affilié ni à l’OQRE, ni au ministère de l’Éducation, ni à aucun conseil scolaire.",
+  "Contains information licensed under the Open Government Licence – Ontario and the Statistics Canada Open Licence.": "Contient des renseignements utilisés en vertu de la Licence du gouvernement ouvert – Ontario et de la Licence ouverte de Statistique Canada.",
+  "Source code on GitHub": "Code source sur GitHub"
+}

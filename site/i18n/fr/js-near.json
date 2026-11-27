@@ -1,0 +1,17 @@
+{
+  "_about": "Fragment for site/static/js/near.js. Machine translation, unreviewed.",
+  "Your browser didn’t share a location.": "Votre navigateur n’a pas communiqué de position.",
+  "If no question popped up, location is switched off for this site or for your browser. Allow it in the site settings next to the web address, or turn on Location for this browser in your phone or computer settings, then try again.": "Si aucune question ne s’est affichée, la localisation est désactivée pour ce site ou pour votre navigateur. Autorisez-la dans les paramètres du site, à côté de l’adresse Web, ou activez la localisation pour ce navigateur dans les paramètres de votre téléphone ou de votre ordinateur, puis réessayez.",
+  "Your device couldn’t work out where you are right now.": "Votre appareil n’a pas pu déterminer où vous vous trouvez en ce moment.",
+  "Try again in a moment, or use a postal code: it finds the same nearby schools.": "Réessayez dans un instant ou utilisez un code postal : vous trouverez les mêmes écoles à proximité.",
+  "Finding your location took too long.": "La recherche de votre position a pris trop de temps.",
+  "Try again, or use a postal code: it finds the same nearby schools.": "Réessayez ou utilisez un code postal : vous trouverez les mêmes écoles à proximité.",
+  "This browser can’t share its location.": "Ce navigateur ne peut pas communiquer sa position.",
+  "Use a postal code instead: it finds the same nearby schools.": "Utilisez plutôt un code postal : vous trouverez les mêmes écoles à proximité.",
+  "Location only works on the secure (https) address of this site.": "La localisation ne fonctionne qu’à l’adresse sécurisée (https) de ce site.",
+  "Type a postal code instead": "Saisir plutôt un code postal",
+  "Postal code, like K7L 3N6": "Code postal, par exemple K7L 3N6",
+  "Asking your browser for your location…": "Demande de votre position à votre navigateur…",
+  "Showing the schools closest to you.": "Voici les écoles les plus proches de vous.",
+  "You seem to be outside Ontario, so these are the closest Ontario schools.": "Vous semblez être hors de l’Ontario ; voici donc les écoles ontariennes les plus proches."
+}
