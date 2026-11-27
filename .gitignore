@@ -9,6 +9,8 @@ site/dist/
 test-results/
 playwright-report/
 deploy.tar
+site.tar.gz
+site.tar.xz
 *.log
 .DS_Store
 site/data.building/

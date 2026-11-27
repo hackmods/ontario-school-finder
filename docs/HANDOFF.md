@@ -1,16 +1,15 @@
 # Handoff: open items and lessons
 
-State at the end of 2026-11-27: PRs #1–#29 merged. **`main` is ahead of production**: the live site is
-the #26 build (2026-11-26 22:03). #27 (rounding note), #28 (French version, capacity for 26 boards,
-school links, board questionnaire) and #29 (school and board page layout) are merged but not deployed,
-because the CapRover CLI sign-in for `captain-01` expired. To deploy from the main checkout:
+State at the end of 2026-11-27: PRs #1–#30 merged. To deploy from the main checkout:
 
-1. `caprover login -u https://captain.behind7proxies.com -n captain-01` (asks for the CapRover password).
+1. `caprover list` should show `captain-01`; if not, `caprover login -u https://captain.behind7proxies.com -n captain-01`
+   (asks for the CapRover password; the CLI sign-in expires after a while).
 2. `bash scripts/publish.sh` (rebuilds with `CONTACT_EMAIL` from your environment, checks counts, deploys).
-3. Check `https://ontarioschoolfinder.ca/build.json` shows the new build time and `/fr/` loads. `deploy.sh`
-   exits 0 even when the CapRover sign-in has expired, so always check `build.json`.
+3. Check `https://ontarioschoolfinder.ca/build.json` shows the new build time and `/fr/` loads. `caprover deploy`
+   can exit 0 after deploying nothing (an expired sign-in, a refused upload), so always check `build.json`.
 
-The built site is about 1.8 GB with the French pages. The repo is **public** with no licence (all rights
+The built site is about 1.8 GB with the French pages; `deploy.sh` ships it as one `site.tar.xz` of about 55 MB
+(as `.tar.gz` it was 316 MB, which CapRover refused with 413). The repo is **public** with no licence (all rights
 reserved). There is no GitHub Actions CI: `./check.sh` on your own machine is the definition of done (it
 passed on 2026-11-27). The browser suite also runs against production:
 `BASE_URL=https://ontarioschoolfinder.ca npx playwright test`.
