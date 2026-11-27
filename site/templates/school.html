@@ -8,6 +8,10 @@
 {% block main %}
 {%- set info = fv.info %}
 {%- set T = info.topics %}
+{#- this school's capacity from the board's plan is shown with its enrolment; the board's other plans stay under
+    "Plans, priorities and getting involved" -#}
+{%- set cap_recs = (T.get("planning", [])|selectattr("scope", "equalto", "school")|selectattr("facts")|selectattr("facts.capacity_otg")|list) if s.enrolment else [] %}
+{%- set plan_recs = T.get("planning", [])|reject("in", cap_recs)|list %}
 <div class="page-head">
   <div class="wrap">
     <ol class="crumbs">
@@ -68,7 +72,7 @@
   <div class="wrap">
     <h2>{{ _("Attendance and registration") }}</h2>
     <p class="block-intro">{{ _("What the Ministry and {board} publish about getting into this school. Published rules are kept apart from decisions made case by case; anything we couldn’t find is labelled. Always confirm with the school or board: nothing here guarantees a place.", board=info.board_name) }}</p>
-    <div class="grid grid-2 grid-top">
+    <div class="cards">
       <div class="card">
         <h3>{{ icon("check", "card-ic") }}{{ _("Does it offer my child’s grade?") }}</h3>
         {% if fv.offered %}
@@ -141,7 +145,7 @@
 <section class="block" id="programs">
   <div class="wrap">
     <h2>{{ _("Programs") }}</h2>
-    <div class="grid grid-2 grid-top">
+    <div class="cards">
       <div class="card">
         <h3>{{ icon("check", "card-ic") }}{{ _("French programs") }} {% if fsl %}<span class="badge">{{ fsl.year }}</span>{% endif %}</h3>
         {% if fsl %}
@@ -263,7 +267,7 @@
   <div class="wrap">
     <h2>{{ _("Student experience") }} <span class="badge">{{ fv.sq[0].year }}</span></h2>
     <p class="block-intro">{{ _h('What students said in EQAO’s questionnaire, answered when they wrote the assessment. These are students’ own views of themselves and their learning, not a measure of the school’s quality. The <strong>whole board</strong> and <strong>Ontario</strong> columns are EQAO’s figures for every student who answered there, not medians of schools. Earlier years appear under a school’s figure only when EQAO asked the same question with the same answers; each year is a different group of students.') }}</p>
-    <div class="grid grid-2 grid-top">
+    <div class="cards">
     {% for b in fv.sq %}
       <div class="card sq-card">
         <h3>{{ _(b.grade) }}{% if b.respondents %} <span class="badge">{{ _("{n} students answered", n=b.respondents) }}</span>{% endif %}</h3>
@@ -301,6 +305,7 @@
 <section class="block" id="enrolment">
   <div class="wrap">
     <h2>{{ _("Enrolment") }} <span class="badge">{{ _("{start} to {end}", start=s.enrolment[0].year, end=s.enrolment[-1].year) }}</span></h2>
+    <div class="cards">
     <div class="card">
       <div class="chart">{{ enrol_svg|safe }}</div>
       <details class="data-table">
@@ -312,6 +317,14 @@
         </table></div>
       </details>
       <p class="small muted" style="margin:8px 0 0">{{ _("Headcount reported by the board. Since 2018-19 the Ministry rounds school enrolment to the nearest 5. Years missing from the chart are years the school was not in the file.") }}</p>
+    </div>
+    {% if cap_recs %}
+    <div class="card">
+      <h3>{{ icon("building", "card-ic") }}{{ _("Space in the building") }}</h3>
+      {{ records(cap_recs) }}
+      <p class="small muted" style="margin:8px 0 0">{{ _("Building capacity is not the number of open seats in a grade or program. Projections are the board’s forecasts. A proposal is not a decision.") }}</p>
+    </div>
+    {% endif %}
     </div>
   </div>
 </section>
@@ -388,7 +401,7 @@
   <div class="wrap">
     <h2>{{ _("Learning supports") }}</h2>
     <p class="block-intro">{{ _("Where to find how {board} arranges special education, accessibility and language support. These are board-wide documents: they don’t tell you what support a particular child will get, whether there is a wait, or what this school building has. Ask the school about specific needs.", board=info.board_name) }}</p>
-    <div class="grid grid-2 grid-top">
+    <div class="cards">
       <div class="card">
         <h3>{{ icon("child", "card-ic") }}{{ _("Special education") }}</h3>
         {% set sp = T.get("special_education", []) + T.get("seac", []) %}
@@ -407,11 +420,13 @@
 <section class="block" id="board-info">
   <div class="wrap">
     <h2>{{ _("Plans, priorities and getting involved") }}</h2>
-    <div class="grid grid-2 grid-top">
+    <div class="cards">
       <div class="card">
         <h3>{{ icon("map", "card-ic") }}{{ _("Planned changes and school space") }}</h3>
-        {% if T.get("planning") %}{{ records(T.planning) }}
+        {% if plan_recs %}{{ records(plan_recs) }}
         <p class="small muted" style="margin:8px 0 0">{{ _("Building capacity is not the number of open seats in a grade or program. Projections are the board’s forecasts. A proposal is not a decision.") }}</p>
+        {% if cap_recs %}<p class="small" style="margin:8px 0 0">{{ _h('This school’s capacity from the board’s plan is shown with its <a href="#enrolment">enrolment</a>.') }}</p>{% endif %}
+        {% elif cap_recs %}<p class="small" style="margin:0">{{ _h('This school’s capacity from the board’s plan is shown with its <a href="#enrolment">enrolment</a>.') }}</p>
         {% else %}{{ not_collected(info.board_name, s.board_website) }}{% endif %}
         <p class="small" style="margin:8px 0 0">{{ _h('Across Ontario: the Financial Accountability Office’s <a href="https://www.fao-on.org/en/report/school-boards-capital-2024/" rel="noopener">2024 report on school boards’ buildings</a>.') }}</p>
       </div>
@@ -429,7 +444,7 @@
 </section>
 
 <section class="block" id="nearby">
-  <div class="wrap grid grid-2 grid-top">
+  <div class="wrap cards">
     <div class="card">
       <h2 style="font-size:1.2rem">{{ icon("child", "card-ic") }}{{ _("Licensed child care") }}</h2>
       {% if s.childcare.at_address %}

@@ -229,5 +229,7 @@
   "in English": "en anglais",
   "in French": "en français",
   "English-language schools": "écoles de langue anglaise",
-  "French-language schools": "écoles de langue française"
+  "French-language schools": "écoles de langue française",
+  "Space in the building": "Espace dans le bâtiment",
+  "This school’s capacity from the board’s plan is shown with its <a href=\"#enrolment\">enrolment</a>.": "La capacité de cette école selon le plan du conseil figure avec son <a href=\"#enrolment\">effectif</a>."
 }

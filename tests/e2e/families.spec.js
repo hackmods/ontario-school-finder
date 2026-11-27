@@ -46,9 +46,9 @@ test.describe("school page for families", () => {
     await expect(exp).toContainText("not a measure of the school’s quality");
     // historical-only nutrition listing, labelled as such
     await expect(page.locator("#programs")).toContainText("Current availability unverified");
-    // plans: the board's published capacity and projections, labelled as forecasts
-    await expect(page.locator("#board-info")).toContainText("on-the-ground capacity of 322");
-    await expect(page.locator("#board-info")).toContainText("forecast");
+    // the board's published capacity and projections for this school, with its enrolment, labelled as forecasts
+    await expect(page.locator("#enrolment")).toContainText("on-the-ground capacity of 322");
+    await expect(page.locator("#enrolment")).toContainText("forecast");
     await expect(page.locator("#questions li").first()).toBeVisible();
     expect(errors).toEqual([]);
   });
@@ -214,4 +214,41 @@ test.describe("phone (390px) for families", () => {
       await page.close();
     });
   }
+});
+
+// Card groups flow in up to two columns: each card sits right under the one above it in its column (no hole
+// beside a long card), and a group with one card fills the row.
+test.describe("school page layout", () => {
+  for (const width of [1280, 820, 390]) {
+    test(`cards stack without holes at ${width}px`, async ({ browser }) => {
+      const page = await browser.newPage({ viewport: { width, height: 900 } });
+      for (const id of [PP, "890200", "724777"]) {
+        await page.goto(`/school/${id}/`);
+        const holes = await page.$$eval("main .cards", (groups) => groups.flatMap((g) => {
+          const cards = [...g.children].map((c) => ({ c, r: c.getBoundingClientRect() }));
+          return cards.flatMap(({ c, r }) => {
+            const above = cards.filter((o) => Math.abs(o.r.left - r.left) < 2 && o.r.bottom <= r.top + 1);
+            const gap = above.length ? r.top - Math.max(...above.map((o) => o.r.bottom)) : 0;
+            const id = c.querySelector("h2,h3")?.textContent.trim().slice(0, 40);
+            return gap > 24 ? [`${g.closest("section")?.id}: "${id}" sits ${Math.round(gap)}px below the card above`] : [];
+          });
+        }));
+        expect(holes, `/school/${id}/`).toEqual([]);
+        if (width >= 760) {
+          // two columns, never three narrow ones
+          const lefts = await page.$$eval("main #attendance .cards > *", (cs) => [...new Set(cs.map((c) => Math.round(c.getBoundingClientRect().left)))]);
+          expect(lefts.length).toBeLessThanOrEqual(2);
+        }
+      }
+      await page.close();
+    });
+  }
+
+  test("this school's capacity sits with its enrolment, and the plans card points to it", async ({ page }) => {
+    await page.goto(`/school/${PP}/`);
+    const space = page.locator("#enrolment .card", { hasText: "Space in the building" });
+    await expect(space).toContainText("on-the-ground capacity of 322");
+    await expect(page.locator("#board-info")).not.toContainText("on-the-ground capacity of 322");
+    await expect(page.locator("#board-info a[href='#enrolment']")).toBeVisible();
+  });
 });
