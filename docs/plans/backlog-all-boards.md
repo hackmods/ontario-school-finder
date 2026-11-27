@@ -25,26 +25,9 @@ Owner asked: "finish the full backlog for all boards" (after #25 went live). Wor
 7. **French interface** (backlog 8) and **DSBN out-of-area** (backlog 2): blocked on a human (a reviewed
    translation; DSBN's answer). Not done.
 
-## Status
-- [x] board-info per-board files + loader + tests (commit 446ea4c)
-- [ ] worker waves. Scratchpad (session temp): brief-board-records.md, boards-in/<B>.json, board-records/<B>.json,
-      check-board.mjs (checks; --install copies passing files without notes), brief-verify.md, verify/<B>.json,
-      blocked-boards.txt. Wave 1 Toronto/Peel/Ottawa/Waterloo/York/London/Durham; wave 2 Halton/Hamilton/Simcoe/
-      UCDSB/KPR/Upper Grand/Grand Erie; wave 3 Essex/Lambton/Limestone/HPE+Renfrew/Bluewater/Avon/TLDSB+NN;
-      wave 4 north (Rainbow+Sudbury C, Algoma+Huron-Superior, Lakehead+TBC, KP+Kenora C, Rainy River+Northwest C,
-      Superior-Greenstone+Superior North C, DSB1+Northeastern C); wave 5 RCCDSB+NPSC, French boards (Viamonde+
-      MonAvenir, CEPEO+CECCE, CSDCEO+Providence, Nouvel-Ontario+CSPGNO, Grandes Rivieres+CSPNE, Franco-Nord+Aurores);
-      wave 6 school authorities.
-- Blocked (no file, site refuses automated reading): TDSB, TCDSB, Peel DSB, Dufferin-Peel CDSB, OCDSB, PVNCCDSB,
-  Rainbow DSB (list: scratchpad/blocked-boards.txt). Never spoof a browser to get past a bot filter (the safety
-  classifier refused it, correctly).
-- Installed in site/board-info (verified): OCSB, WRDSB, WCDSB, DDSB, DCDSB, TVDSB, LDCSB, YRDSB, YCDSB, KPRDSB.
-- Verify running (8 agents) for 33 boards; research still running: Rainy River+NW C, DSB1+NE C, RCCDSB+NPSC,
-  6 French pairs, authorities. Then verify those, apply-verify.mjs (review, --apply), check-board.mjs --install.
-- Owner (2026-11-26): deploy at most once an hour (server almost out of disk); nav Compare count spacing fixed
-  (140bfff).
-- [ ] verify pass (brief-verify.md) on program/transportation/registration/dates/not_found records -> apply fixes
-- [x] questionnaire history (ec96c03), pipeline rebuilt; Ontario-wide figures stable across years
-- [x] conditional downloads (e300bb4)
-- [ ] docs (board-info.md done; HANDOFF, README, DECISIONS, methodology coverage)
-- [ ] check.sh, draft PR, owner OK, merge + deploy
+## Status (2026-11-26, late)
+- [x] per-board files, loader, tests (446ea4c)
+- [x] 64 district boards installed and verified (79ee658 + later); 8 blocked; authorities: research done (11), verify running
+- [x] questionnaire history (ec96c03); conditional downloads (e300bb4); nav badge spacing (140bfff)
+- [x] board website fixes (sources.BOARD_WEBSITE_FIXES); unchecked label; capacity-sources.md; briefs + scripts committed
+- [ ] authorities verify -> install; pipeline rebuild (website fixes); ./check.sh; draft PR; owner OK; merge + deploy (max once an hour)

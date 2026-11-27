@@ -87,3 +87,33 @@ Copy one board's file to `site/board-info/<board number>.json`, change `board`, 
 lookup, program entry, out-of-area requests and transportation (the "Attendance and registration" panel),
 then special education, SEAC, accessibility, newcomer support, plans and involvement. Never guess: use
 `not_found` when you looked and the board doesn't publish it.
+
+## Coverage (2026-11-26)
+
+64 of Ontario's 72 district school boards (English and French, public and Catholic) plus the school authorities
+listed in [HANDOFF.md](HANDOFF.md), about 1,000 records. Each board was researched from its own pages, then a second
+pass re-read the pages behind every program, transportation, registration, dated and `not_found` record and
+corrected what didn't match.
+
+**Not collected: the site refuses automated reading** (Cloudflare or another bot filter on every page). These need
+a person reading in a browser, or the board's own data: Toronto DSB, Toronto Catholic DSB, Peel DSB, Dufferin-Peel
+Catholic DSB, Ottawa-Carleton DSB, Peterborough Victoria Northumberland and Clarington Catholic DSB, Rainbow DSB
+and CSDC de l'Est ontarien. Never work around a bot filter (no faked browser headers, no scraped tokens).
+
+`"unchecked": true` on a `not_found` record means we couldn't read the page (a bot filter, a list that loads by
+script, a sign-in): the site shows "Couldn't check: ask the board" instead of "Not published". Use it whenever the
+honest answer is "we couldn't read it", never a plain `not_found`.
+
+## Refreshing many boards with researchers
+
+The 2026-11-26 collection used one researcher per two boards and a separate verifier, with these briefs:
+[research](board-info-briefs/research.md) and [verify](board-info-briefs/verify.md).
+
+1. `node scripts/board-info-input.mjs <board> <folder>` writes a board's input file (schools, numbers, Ministry
+   French flags) for the researcher to match program lists against.
+2. Researchers write `<board>.json` in a working folder outside the repo; verifiers write findings with fixes.
+3. Review every finding yourself, apply the ones that hold, and copy the file into `site/board-info/` without its
+   `notes`.
+4. `pytest pipeline/tests/test_family.py` (schema, one id prefix per board, every topic for district boards, named
+   schools belong to the board) and `node scripts/check-board-links.mjs` (every link; lists pages that refuse
+   automated checks so you can open them in a browser).

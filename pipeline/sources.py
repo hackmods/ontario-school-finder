@@ -612,3 +612,16 @@ BOUNDARY_LAYERS = [
          where="YEAR='2025-2026'",
          url="https://services1.arcgis.com/Z2ZyXpStrYRDJ1cf/arcgis/rest/services/Elementary_Regular_Track_Boundary/FeatureServer/0"),
 ]
+
+
+# Board websites from the Ministry's contact list that no longer lead to the board, replaced by the board's own
+# current site. Only for links checked as broken (dead domain, parked domain, or a redirect to an unrelated site);
+# each new address was checked too. Recheck yearly: drop an entry once the Ministry's list is corrected.
+BOARD_WEBSITE_FIXES = {
+    "B80012": ("https://bloorviewschool.ca", "www.bloorviewschool.ca now redirects to an unrelated blog (checked 2026-11-26)"),
+    "B28118": ("https://grandnord.ca", "cspgno.ca no longer resolves; the board's site is grandnord.ca (checked 2026-11-26)"),
+    "B29106": ("https://cscdgr.education", "cscdgr.on.ca is a parked domain; the board's site is cscdgr.education (checked 2026-11-26)"),
+    "B29033": ("https://www.sudburycatholicschools.ca", "scdsb.edu.on.ca no longer resolves (checked 2026-11-26)"),
+    "B66214": ("https://www.rcdsb.on.ca", "renfrew.edu.on.ca returns an error; the board's site is rcdsb.on.ca (checked 2026-11-26)"),
+    "B74900": ("https://www.ilc.org", "the Ministry's list gives no website for the Independent Learning Centre (checked 2026-11-26)"),
+}

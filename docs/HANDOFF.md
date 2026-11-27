@@ -47,40 +47,59 @@ against production: `BASE_URL=https://ontarioschoolfinder.ca npx playwright test
 
 What changed and why is in [DECISIONS.md](DECISIONS.md#family-pass-2026-11-26-pr-24). Maintenance:
 
-- **Board information** ([board-info.md](board-info.md)) is hand-collected and dated. Registration windows
-  go stale fastest: both Niagara boards register Grade 1 French Immersion in January, so re-read those two
-  pages each December. Records older than their `refresh_days` show "may be out of date" on the site.
+- **Board information** ([board-info.md](board-info.md)): one file per board in `site/board-info/`, 64 of 72
+  district boards plus school authorities, hand-collected and dated 2026-11-26. Registration windows go stale
+  fastest (most boards open French Immersion and kindergarten registration between November and February), so
+  re-read every board's `program` and `registration` records each November. Records older than their
+  `refresh_days` show "may be out of date" on the site, so by late February 2027 the `dates` records will flag
+  themselves. Researcher and verifier briefs plus `scripts/board-info-input.mjs` and
+  `scripts/check-board-links.mjs` make a refresh repeatable.
+- **Board websites**: the Ministry's contact list had dead, parked or hijacked board website links (Bloorview's
+  now redirects to an unrelated blog). `sources.BOARD_WEBSITE_FIXES` replaces those, with the reason; drop an
+  entry once the Ministry fixes its list. School websites from the same list were not checked.
 - **EQAO questionnaire**: add next year's four ZIPs and field-definition workbooks to
-  `sources.EQAO_SQ_RESOURCES` and replace the current year (one year shown). The loader stops if a question's
-  wording disappears from the definitions; check the questionnaire before changing `loaders.SQ_ITEMS`.
+  `sources.EQAO_SQ_RESOURCES` and move the current year into `sources.EQAO_SQ_HISTORY` (its definitions workbook
+  is named by the spring: `G36_2026` = 2025-26). Earlier years show only for questions whose wording and answers
+  match the latest year exactly (`build.questionnaire_history`; the report lists what was left out and why). The
+  loader stops if a latest-year question's wording disappears; check the questionnaire before changing
+  `loaders.SQ_ITEMS`.
+- **Refreshing the data**: `python -m pipeline.build --refresh` keeps downloaded files and re-downloads only
+  those whose publisher changed them (ETag / Last-Modified); `--clean` (what `./check.sh` runs) downloads
+  everything again.
 - **EQAO eras**: `pipeline/eras.py` holds the 2021-22 break and EQAO's statements. If EQAO ever announces
   another break, add it there; charts, summaries, Compare and the CSV all follow.
 - **Class-size ambiguity**: 92 elementary schools share a name with another school in their board, so the Ministry's
   class lists can't be split between them (listed in `pipeline/report.md`). Only the Ministry adding school
   numbers to the class lists would fix this; ask them through the dataset's contact if worth it.
 
-### Backlog (verified opportunities, in priority order)
+### Backlog status (updated 2026-11-26, PR #26)
 
-1. **More boards in `board-info.json`**, starting with the boards whose boundaries are shown (WRDSB, HWDSB,
-   SCDSB, GEDSB, DPCDSB, KPRDSB, HCDSB), then the largest boards (TDSB, TCDSB, Peel, York, Ottawa).
+1. **Board records for every board: done for 64 of 72 district boards** and the school authorities that publish
+   anything (see [board-info.md](board-info.md#coverage-2026-11-26)); about 3,450 of 4,945 schools. **Blocked:**
+   Toronto DSB, Toronto Catholic, Peel, Dufferin-Peel Catholic, Ottawa-Carleton, Peterborough Victoria
+   Northumberland and Clarington Catholic, Rainbow and CSDC de l'Est ontarien (about 1,480 schools), plus
+   John McGivney Children's Centre: their sites refuse automated reading. They need a person reading in a browser
+   (the research brief works for a person too), or the boards' permission for a data feed. Never get around a bot
+   filter.
 2. **DSBN out-of-area procedure**: policy G-23 (elementary to secondary transfers) is still listed by search
    engines, but its policy-site URL returns 404 and DSBN's current policy list (41 policies, rechecked
    2026-11-26) no longer includes it or any transfer policy. Only a 2022 PDF of the old policy survives; don't
    present it as current. No elementary out-of-area procedure is published either. Ask DSBN's planning
    department and record the answer's source.
-3. **Questionnaire history**: add 2022-23 to 2024-25 only where question wording and answer scale match
-   (2021-22 CSVs differ from EQAO's dashboards, per EQAO).
-4. **Board achievement plans as figures**: both Niagara plans are infographic PDFs whose chart text
-   doesn't extract reliably by year; transcribe by hand (measure, period, board value, province value, no
-   targets published) or wait for a tabular release.
-5. **School-level capacity for more schools**: DSBN's and Niagara Catholic's long-term plans have a table
-   per planning area (capacity, enrolment, projections); transcribing them is reliable by hand, unreliable
-   by PDF extraction (portable counts in particular are misaligned).
-6. **Child care**: the provincial compliance dataset is still "under review" with no files (checked
+3. **Questionnaire history: done.** 2022-23 to 2024-25 shown under each school's latest figure where EQAO's
+   wording and answers match (they do for every question; "Feel prepared" wasn't asked in 2022-23). 2021-22 left
+   out. Ontario-wide figures are steady across the years, so EQAO's method didn't change.
+4. **Board achievement plans: linked, not transcribed.** Every collected board has an `achievement_plan`
+   record linking its plan; the Ministry's official board figures are already on each board page. Transcribing
+   infographic charts would add little and is error-prone.
+5. **School-level capacity: not available as data.** The Ministry's capacity dataset (SFIS) is still "under
+   review" with no files (checked 2026-11-26). Each board's long-term plan is linked from its `planning` record,
+   and [capacity-sources.md](capacity-sources.md) lists where 33 boards publish a per-school capacity table.
+   Transcribe a board's table by hand if it's worth it (PDF extraction misaligns them).
+6. **Child care**: blocked. The provincial compliance dataset is still "under review" with no files (rechecked
    2026-11-26); pages link to Ontario's licensed child care search instead.
-7. **Conditional downloads**: `fetch.py` caches by source id; adding `If-Modified-Since` / ETag checks would
-   let a refresh skip unchanged files.
-8. **French interface**: only with a reviewed translation; strings live in the templates, `site/family.py`
+7. **Conditional downloads: done** (`python -m pipeline.build --refresh`).
+8. **French interface**: blocked on a reviewed translation; strings live in the templates, `site/family.py`
    and `site/static/js/lib.js`.
 
 Reviewed and not worth doing now (2026-11-26):

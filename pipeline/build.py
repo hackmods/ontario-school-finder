@@ -319,7 +319,8 @@ def build(clean: bool = False) -> dict:
             "phone": phone(c["Phone"]) if c else phone(r["Phone Number"]),
             "email": parse.clean_text(c["Email"]) if c else None,
             "website": parse.clean_url(c["Website"]) if c and parse.clean_text(c["Website"]) else parse.clean_url(r["School Website"]),
-            "board_website": parse.clean_url(c["Board Website"]) if c and parse.clean_text(c["Board Website"]) else parse.clean_url(r["Board Website"]),
+            "board_website": (sources.BOARD_WEBSITE_FIXES.get(board_number) or [None])[0]
+            or (parse.clean_url(c["Board Website"]) if c and parse.clean_text(c["Board Website"]) else parse.clean_url(r["Board Website"])),
             "region": parse.clean_text(c["Region"]) if c else None,
             "date_open": date_open(c["Date Open"]) if c else None,
             "status": "open" if c else "not-in-contact-list",

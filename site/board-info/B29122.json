@@ -1,0 +1,303 @@
+{
+  "board": "B29122",
+  "name": "Conseil scolaire catholique du Nouvel-Ontario",
+  "short": "CSC Nouvelon",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "nouvelon-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription à l’école francophone en Ontario",
+      "url": "https://www.nouvelon.ca/parents/inscrire-votre-enfant-a-lecole/",
+      "summary": "Start with the board's online quick pre-registration form or contact the nearest school; the form page says new students are welcome from kindergarten to Grade 12 at any time. Children of French-language rights holders (section 23 of the Charter) are admitted to their area school; other families may ask, and an admission committee at the chosen school decides. Kindergarten needs age 4 by December 31. Kindergarten documents listed: birth certificate, immunization record, municipal roll number, proof of residence, baptism certificate if available.",
+      "related": [
+        {
+          "title": "Inscription à la maternelle",
+          "url": "https://www.nouvelon.ca/inscription/inscription-a-la-maternelle/"
+        },
+        {
+          "title": "Pré-inscription rapide",
+          "url": "https://www.nouvelon.ca/parents/inscrire-votre-enfant-a-lecole/pre-inscription-rapide/"
+        },
+        {
+          "title": "Inscription à l’école secondaire",
+          "url": "https://www.nouvelon.ca/inscription/inscription-au-secondaire/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-admission",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "ÉLV 2.1 Admission, accueil et accompagnement des élèves (directive)",
+      "url": "https://www.nouvelon.ca/politiques/elv-2-1-admission-accueil-et-accompagnement-des-eleves/",
+      "source_date": "Révisée le 4 novembre 2024",
+      "summary": "The board's admission directive. Children of rights holders under section 23 are admitted to the school of their attendance area. Other children may be admitted by an admission committee (principal, a teacher and the supervising superintendent) that weighs French ability, commitment to francophone culture, willingness to follow Catholic teaching and parent involvement; parents may appeal to the board. Non-Catholic parents agree to take part in religious education and pastoral activities.",
+      "related": [
+        {
+          "title": "Directive ÉLV 2.1 (Word)",
+          "url": "https://docs.nouvelon.ca/doc/DA/ELV02_01.docx"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription au transport scolaire",
+      "url": "https://www.nouvelon.ca/ecoles/transport-scolaire/",
+      "summary": "The board has no address lookup of its own. Its transportation page sends families to the regional consortium: Sudbury Student Services Consortium (Greater Sudbury, Sudbury East, Espanola) or Algoma & Huron-Superior Transportation Services (Blind River, Chapleau, Dubreuilville, Elliot Lake, Hornepayne, Sault Ste. Marie, Spanish, Wawa). The Algoma consortium has a \"Which school do I attend?\" tool; if it disagrees with the school, the school and board decide.",
+      "related": [
+        {
+          "title": "Which School do I Attend? (Algoma & Huron-Superior, BusPlanner)",
+          "url": "https://ahsts.mybusplanner.ca/Eligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-alf",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Actualisation linguistique en français (ALF)",
+      "url": "https://www.nouvelon.ca/programmes-et-services/programme-alf/",
+      "summary": "This French-language board has no French Immersion. Students still learning French get ALF support, and newcomers get PANA. From 2025-2026 the board bases this support on the Ministry's Policy/Program Memorandum 172 for multilingual learners of French, including newcomers, in French-language schools. The page does not list entry grades; ask the school.",
+      "related": [
+        {
+          "title": "Appui aux élèves issus de l’immigration francophone (PANA)",
+          "url": "https://www.nouvelon.ca/programmes-et-services/programme-dappui-aux-nouveaux-arrivants/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "ÉLV 2.15 Demande de fréquentation scolaire hors secteur (directive)",
+      "url": "https://www.nouvelon.ca/politiques/elv-2-15-demande-de-frequentation-scolaire-hors-secteur/",
+      "source_date": "En vigueur le 30 septembre 2019",
+      "summary": "Students are expected to attend their area school. A parent can ask for another school by filling in the out-of-area form and giving it to the principal of the school wanted. The superintendent approves only if that school has room, and some cases go to a board committee. Parents arrange transportation, except for some students with special needs. An approval stays in force from year to year unless someone ends it.",
+      "related": [
+        {
+          "title": "ÉLV 2.15.1 Formulaire de demande",
+          "url": "https://www.nouvelon.ca/politiques/elv-2-15-demande-de-frequentation-scolaire-hors-secteur/elv-2-15-1-frequentation-scolaire-hors-secteur-formulaire-de-demande/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription au transport scolaire",
+      "url": "https://www.nouvelon.ca/ecoles/transport-scolaire/",
+      "summary": "In most cases a student must live a minimum distance from the school, inside its attendance area, to get a bus seat, but the board's page does not state the distances. The consortium decides: Sudbury Student Services Consortium (705 521-1234) or Algoma & Huron-Superior Transportation Services (705 945-5642). Adapted transportation exists for students with special needs.",
+      "related": [
+        {
+          "title": "Algoma & Huron-Superior Transportation Services",
+          "url": "https://ahsts.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plan de l’éducation spécialisée",
+      "url": "https://www.nouvelon.ca/eleves/education-specialisee/rapport-annuel-en-eed/",
+      "summary": "The board's page for its Special Education Plan (2026-2027 edition, revised June 2026) and annual reports, with a parent guide and a list of specialized services and classes, such as autism and multiple-needs programs at named schools. Ask the school about an IEP or an IPRC (called CIPR here).",
+      "related": [
+        {
+          "title": "Plan de l’éducation spécialisée 2026-2027 (PDF)",
+          "url": "https://www.nouvelon.ca/wp-content/uploads/2026/09/Plan_ES_2026_2027_CSCNouvelon_revise_juin2026.pdf"
+        },
+        {
+          "title": "Nos programmes et services en éducation spécialisée",
+          "url": "https://www.nouvelon.ca/eleves/education-specialisee/services-specialises/"
+        },
+        {
+          "title": "Guide du parent (PDF)",
+          "url": "https://www.nouvelon.ca/wp-content/uploads/2024/07/EED.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Comité consultatif",
+      "url": "https://www.nouvelon.ca/eleves/education-specialisee/reunions-du-comite-consultatif-de-lenfance-en-difficulte/",
+      "summary": "The Comité consultatif de l'éducation spécialisée (CCES, the board's SEAC) can make recommendations to the board on special education programs and services. The page posts agendas and minutes by school year; 2025-2026 meetings are listed (October, December, March) and none yet for 2026-2027.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibilité",
+      "url": "https://www.nouvelon.ca/conseil/accessibilite/",
+      "summary": "The board's accessibility page, with its administrative directive, customer service standards and annual and multi-year accessibility plan. It describes board-wide plans, not features of a particular building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Plan annuel sur l’accessibilité 2024-2025 et plan pluriannuel 2024-2025 à 2028-2029 (PDF)",
+          "url": "https://www.nouvelon.ca/wp-content/uploads/2026/03/Plan-annuel-daccessibilite-2024-2025.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Appui aux élèves issus de l’immigration francophone en Ontario",
+      "url": "https://www.nouvelon.ca/programmes-et-services/programme-dappui-aux-nouveaux-arrivants/",
+      "summary": "The Programme d'appui aux nouveaux arrivants (PANA) helps students new to Ontario settle in and catch up in French speaking, reading and writing, in Grades 1-8 and 9-12. In the Greater Sudbury area a settlement worker in schools, based at the Centre de santé communautaire du Grand Sudbury, meets families and can be reached through the page.",
+      "related": [
+        {
+          "title": "Guide d’accueil des familles nouvellement arrivées",
+          "url": "https://www.nouvelon.ca/guide-de-nouveaux-arrivants/accueil-guide-de-nouveaux-arrivants/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-ltap",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Utilisation des écoles",
+      "url": "https://www.nouvelon.ca/ecoles/utilisation-des-ecoles/",
+      "summary": "We looked for a long-term accommodation or capital plan and pupil accommodation reviews and found none current on the board's site (only 2014 press releases about school sites in Elliot Lake, Espanola and Hanmer). A school renewal report exists but is not a capacity plan. Ask the board about school space; capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Rapport public de réfection des écoles 2024-2025 et 2025-2026 (PDF)",
+          "url": "https://www.nouvelon.ca/wp-content/uploads/2026/04/Rapport-public-de-refection-des-ecoles-pour-2024-2025-et-2025-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plan pour la réussite des élèves",
+      "url": "https://www.nouvelon.ca/conseil/plan-pour-la-reussite-des-eleves/",
+      "source_date": "2025-2026",
+      "summary": "The board's student achievement plan for 2025-2026, with the 2024-2025 and 2023-2024 plans. It reports progress on provincial priorities such as literacy (EQAO, OSSLT) and graduation, next to the provincial figures. These are board-wide results, not a school's.",
+      "related": [
+        {
+          "title": "Plan pour la réussite des élèves du CSC Nouvelon 2025-2026 (PDF)",
+          "url": "https://www.nouvelon.ca/wp-content/uploads/2026/05/Plan-pour-la-reussite-des-eleves-du-CSC-Nouvelon-2025-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Comité de participation des parents",
+      "url": "https://www.nouvelon.ca/parents/comite-de-participation-des-parents/",
+      "summary": "The Parent Involvement Committee (CPP) is made of parents and guardians who meet a few times a year, advise the board and link parents, the director of education and trustees. It also runs free information sessions for all parents; the page lists November 2026 dates by grade group.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Conseil d’école catholique",
+      "url": "https://www.nouvelon.ca/parents/conseil-decole-catholique/",
+      "summary": "Every school has a Catholic school council, mostly elected parents with the principal, a teacher, a staff member, a community and a parish representative. It can make recommendations to the board and principal. To stand for election, ask your child's school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nouvelon-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Bureau d’assistance aux élèves et aux familles",
+      "url": "https://www.nouvelon.ca/baef/",
+      "summary": "Talk to the teacher first, then the principal, then the superintendent responsible for the school. If it is still not settled, the Student and Family Assistance Office takes requests through an online form and says it acknowledges them within 2 business days.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

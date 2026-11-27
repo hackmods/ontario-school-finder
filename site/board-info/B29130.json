@@ -1,0 +1,279 @@
+{
+  "board": "B29130",
+  "name": "Conseil scolaire de district catholique des Aurores boréales",
+  "short": "CSDC des Aurores boréales",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "csdcab-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscrire mon enfant",
+      "url": "https://csdcab.ca/inscription/inscrire-mon-enfant/",
+      "summary": "Contact the school or use the page's contact form, then bring proof of the child's age, a baptism extract if available, proof of residence, the registration form and the school tax allocation form. The board's FAQ says there is no fixed deadline and registrations are accepted at any time. Schools also hold information sessions, mostly in January and February. Eligibility follows section 23 of the Charter; parents who are not rights holders can apply, and the admission committee reviews the request after they contact the school principal.",
+      "related": [
+        {
+          "title": "Admissibilité",
+          "url": "https://csdcab.ca/inscription/admissibilite/"
+        },
+        {
+          "title": "Questions fréquentes",
+          "url": "https://csdcab.ca/inscription/questions-frequentes/"
+        },
+        {
+          "title": "Admission, accueil et accompagnement des élèves dans une école de langue française: demandes d'admission (directive B-018-D-1, PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2022/09/b018-d1_admission_accueil_et_accompagnement_des_eleves_dans_une_ecole_de_langue_francaise_220625-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-locator",
+      "topic": "address_lookup",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Trouver une école",
+      "url": "https://csdcab.ca/trouver-une-ecole/",
+      "summary": "We looked for a tool that shows which school serves an address. The board's Trouver une école page lists its schools with addresses and contacts but has no address search. Ask the school or the board, or the transportation consortium for your area.",
+      "related": [
+        {
+          "title": "Transport scolaire",
+          "url": "https://csdcab.ca/parents/transport-scolaire/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-program",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Questions fréquentes (inscription)",
+      "url": "https://csdcab.ca/inscription/questions-frequentes/",
+      "summary": "The board has no French Immersion, as all its schools teach in French. We looked for ALF, PANA or accueil support for students still learning French and found no program described. The FAQ says only that teachers are trained for minority-language schools and that children who do not yet speak French will be included. Ask the school or the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Questions fréquentes (inscription)",
+      "url": "https://csdcab.ca/inscription/questions-frequentes/",
+      "summary": "We looked for a process to ask for a school other than the one near you and found none. The FAQ says only that registrations are accepted at any time and that families should contact the school directly. Ask the school or the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport scolaire",
+      "url": "https://csdcab.ca/parents/transport-scolaire/",
+      "summary": "Busing is free for eligible students and runs through three consortia by region: Student Transportation Services of Thunder Bay, East of Thunder Bay Transportation Consortium (Greenstone, Terrace Bay, Marathon) and Northwestern Student Services Consortium (Ignace, Dryden, Red Lake, Sioux Lookout). The board does not publish walk distances; each consortium posts its own policies. Cancellations are announced on the board site and local radio.",
+      "related": [
+        {
+          "title": "Transport scolaire (politique C004, PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2025/04/C004-P-Transport-scolaire-250329.pdf"
+        },
+        {
+          "title": "East of Thunder Bay Transportation Consortium: policies",
+          "url": "https://etbtc.on.ca/policies/"
+        },
+        {
+          "title": "Student Transportation Services of Thunder Bay: policies",
+          "url": "https://ststb.ca/en/about/policies-procedures"
+        },
+        {
+          "title": "Northwestern Student Services Consortium: policies",
+          "url": "https://www.nwobus.ca/policies-procedures-forms/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Éducation spécialisée",
+      "url": "https://csdcab.ca/education/education-specialisee/",
+      "summary": "The board's special education page describes its response-to-intervention approach, resource teachers, speech-language and psychological assessment, and a separate-class program at its Thunder Bay secondary school. It links a parents' guide, and the board posts its annual special education plan (June 2026).",
+      "source_date": "Plan annuel de l'éducation spécialisée, juin 2026",
+      "related": [
+        {
+          "title": "Plan annuel de l'éducation spécialisée, juin 2026 (PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2026/07/Plan-annuel_Education_Specialisee_juin2026.pdf"
+        },
+        {
+          "title": "Guide des parents: éducation spécialisée (PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2026/09/Guide-des-parents-Education-specialisee.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Comités du Conseil (Comité consultatif de l'éducation spécialisée)",
+      "url": "https://csdcab.ca/conseil/comites-du-conseil/",
+      "summary": "The Comité consultatif de l'éducation spécialisée (CCÉS) is a standing, required committee of trustees and local association representatives that advises the board on services for students with special needs. The page lists its meeting dates for 2026-2027 and a Teams link.",
+      "related": [
+        {
+          "title": "Comité consultatif de l'éducation spécialisée (politique B003, PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2025/04/B003-P-Comite-consultatif-de-leducation-specialisee-250329.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plan annuel d'accessibilité pour les personnes ayant un handicap",
+      "url": "https://csdcab.ca/accessibilite/",
+      "summary": "The board's accessibility plan covers 2023 to 2028 and sets out how it will find and remove barriers for people with disabilities, including in policies, planning and school buildings. A revised version is posted on its plans and reports page.",
+      "related": [
+        {
+          "title": "Plan d'accessibilité 2023-2028, version révisée (PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2026/02/Plan-daccessibilite-2023-2028-REVISE-20250508.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Admissibilité",
+      "url": "https://csdcab.ca/inscription/admissibilite/",
+      "summary": "Families whose parents are francophone or allophone immigrants, or where a grandparent was a rights holder, can use an accelerated admission process under the board's directive on admission, accueil and support. The pages do not describe a separate reception or assessment centre; ask the school principal.",
+      "related": [
+        {
+          "title": "Admission, accueil et accompagnement des élèves (directive B-018-D-1, PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2022/09/b018-d1_admission_accueil_et_accompagnement_des_eleves_dans_une_ecole_de_langue_francaise_220625-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plans et rapports",
+      "url": "https://csdcab.ca/conseil/plans-et-rapports/",
+      "summary": "We looked for a long-term accommodation or capital plan and any pupil accommodation review and found none listed; the page has a 2024 report on school repair investments only. Board plans are forecasts, and capacity is building space, not open seats. Ask the board.",
+      "related": [
+        {
+          "title": "Rapport sur les investissements dans la réfection des écoles (PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2024/12/Rapport-sur-les-investissements-dans-la-refection-des-ecoles.pdf.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plans et rapports (Plan pour la réussite des élèves)",
+      "url": "https://csdcab.ca/conseil/plans-et-rapports/",
+      "summary": "The board posts a yearly Plan pour la réussite des élèves report, the latest labelled 2025-2026, with earlier years back to 2023-2024. It tracks goals such as literacy and math results on provincial tests and graduation rates. Its separate strategic plan 2024-2029 covers identity, innovation and caring.",
+      "related": [
+        {
+          "title": "Plan pour la réussite des élèves 2025-2026 (PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2026/05/Rapport_Plan-reussite-eleves_CSDCAB_20252026.pdf"
+        },
+        {
+          "title": "Plan stratégique 2024-2029",
+          "url": "https://csdcab.ca/conseil/plan2024-29/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-involvement",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Comité de participation des parents",
+      "url": "https://csdcab.ca/parents/comite-de-participation-des-parents/",
+      "summary": "The Comité de participation des parents (CPP) links parents with the board's leaders and trustees on matters across several schools; parents with a child in a board school can join. It meets about four times a year by Teams, with simultaneous translation. School councils work at school level; the board's policy B006 covers both.",
+      "related": [
+        {
+          "title": "Conseil d'école et comité de participation des parents (politique B006, PDF)",
+          "url": "https://csdcab.ca/wp-content/uploads/2026/04/b006-p_conseils_ecole_et_cpp_20260326.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "csdcab-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Bureau d'assistance aux élèves et aux familles",
+      "url": "https://csdcab.ca/parents/bureau-dassistance-aux-eleves-et-aux-familles/",
+      "summary": "Start with the teacher or staff member, then the school principal, then the school's supervision officer or the superintendent. If you still have no answer, contact the Bureau d'assistance aux élèves et aux familles, which acknowledges requests within two business days and aims to answer within five. Requests not first raised at school and with the superintendent are not reviewed.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

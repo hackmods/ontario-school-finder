@@ -1,0 +1,290 @@
+{
+  "board": "B29106",
+  "name": "Conseil scolaire catholique de district des Grandes Rivières",
+  "short": "CSC Grandes Rivières",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "cscdgr-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription à l'élémentaire (Inscription à la maternelle)",
+      "url": "https://cscdgr.education/education/elementaire/inscription-a-la-maternelle/",
+      "summary": "The board says registration for kindergarten to Grade 12 is possible at any time, using its online form. Bring the birth, baptism or adoption certificate, proof of residence, proof of status, recent report cards and any custody papers. Children of parents with French-language rights under section 23 of the Charter are admitted; other families may ask for admission, which the board's admission committee reviews. Elementary schools expect Catholic baptism or a signed commitment form. A child must be 4 by December 31 for kindergarten.",
+      "related": [
+        {
+          "title": "Inscription au secondaire",
+          "url": "https://cscdgr.education/education/secondaire/inscription-au-secondaire/"
+        },
+        {
+          "title": "ELE-03 : Admission des élèves aux écoles élémentaires et secondaires du CSCDGR (PDF)",
+          "url": "https://cscdgr.education/wp-content/uploads/2026/11/ELE03_A0_Admission-des-eleves_elem_sec_A_2026-10-27.pdf"
+        },
+        {
+          "title": "Journées portes ouvertes au CSCDGR pour l'inscription 2026",
+          "url": "https://cscdgr.education/journees-portes-ouvertes-au-cscdgr-pour-linscription-2026/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (BusPlanner)",
+      "url": "https://cscdgr.mybusplanner.ca/Eligibility",
+      "summary": "The board's BusPlanner site has a public \"Which School do I Attend?\" page where you enter a street number and street name. The board's own BusPlanner page points families to this site. The school office or the board can confirm the result if you are unsure.",
+      "related": [
+        {
+          "title": "BusPlanner",
+          "url": "https://cscdgr.education/transport-scolaire/busplanner/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-francisation",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Programme de francisation",
+      "url": "https://cscdgr.education/education/elementaire/inscription-a-la-maternelle/programme-de-francisation/",
+      "summary": "The board has a \"Programme de francisation\" page for students still learning French, but on the day we read it the page only said details were coming. We found no published description of the support (ALF, PANA or welcome classes). Ask the school or the board what help is offered; French Immersion does not apply in a French-language board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-admission",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "ELE-03 : Admission des élèves aux écoles élémentaires et secondaires du CSCDGR (PDF)",
+      "url": "https://cscdgr.education/wp-content/uploads/2026/11/ELE03_A0_Admission-des-eleves_elem_sec_A_2026-10-27.pdf",
+      "source_date": "En vigueur 2026-10-27",
+      "summary": "The directive covers students living outside the board's territory. For elementary, a family in a neighbouring Ontario board may ask in writing each year; the supervisory officer decides based on school capacity, with no transportation, and the director gives final approval. For secondary, a non-resident student may attend if the school is more accessible or offers a required course, and has room. It does not describe moving between schools inside the board.",
+      "related": [
+        {
+          "title": "BusPlanner (lists a form to request transfer between attendance areas)",
+          "url": "https://cscdgr.education/transport-scolaire/busplanner/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Distances de marche établies",
+      "url": "https://cscdgr.education/transport-scolaire/distances-de-marche-etablies/",
+      "facts": {
+        "walk_km": {
+          "Grades 1 to 3": 0.8,
+          "Grades 4 to 8": 1.6,
+          "Grades 9 to 12": 2.6
+        }
+      },
+      "summary": "The board's walking-distance table (an image on its French page) sets the distance from home to school at 0.8 km for Grades 1 to 3, 1.6 km for Grades 4 to 8 and 2.6 km for Grades 9 to 12 (1.6 km from the second week of December to the March break); kindergarten students are all transported. The distance to the bus stop is 0.3 km (Grades 1 to 8) or 0.5 km (Grades 9 to 12). It is measured by the shortest public route. The board's English page repeats the Grades 1 to 3 row by mistake.",
+      "related": [
+        {
+          "title": "Distances de marche établies",
+          "url": "https://cscdgr.education/transport-scolaire/distances-de-marche-etablies/"
+        },
+        {
+          "title": "BusPlanner",
+          "url": "https://cscdgr.education/transport-scolaire/busplanner/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Rapport à l'intention du ministère de l'Éducation portant sur le Plan pour l'éducation spécialisée",
+      "url": "https://cscdgr.education/education/enfance-en-difficulte/rapport-a-lintention-du-ministere-de-leducation-portant-sur-le-plan-pour-leducation-specialisee/",
+      "summary": "The board's Special Education Plan report to the Ministry (June 2026) explains its service model, early identification, the identification, placement and review committee (IPRC) and appeal process, assessments and the range of placements. The board also posts a parent guide for 2026-27. Start with your child's teacher and the school principal.",
+      "related": [
+        {
+          "title": "Plan pour l'éducation spécialisée 2025-26 (PDF)",
+          "url": "https://cscdgr.education/wp-content/uploads/2026/07/Plan-EED_CSCDGR_2025-26.pdf"
+        },
+        {
+          "title": "Guide du parent (PDF)",
+          "url": "https://cscdgr.education/wp-content/uploads/2026/07/Guide_parentEED26-27.pdf"
+        }
+      ],
+      "source_date": "Juin 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Comité consultatif pour l'éducation spécialisée (CCES)",
+      "url": "https://cscdgr.education/education/enfance-en-difficulte/comite-consultatif-pour-lenfance-en-difficulte-cced/",
+      "summary": "The board's Special Education Advisory Committee gives advice on special education. It includes school trustees, community agency representatives and a parent from the community. The page lists members and posts minutes of recent meetings (latest read: November 3, 2026).",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibilité",
+      "url": "https://cscdgr.education/conseil/information-general/accessibilite/",
+      "summary": "The board's accessibility page links its multi-year accessibility plan, but the plan it posts covers 2015 to 2021, with a 2018-2019 progress report. It also describes the accessibility standards that apply to the board. We did not find a newer plan. The page says the site met web accessibility level AA when launched.",
+      "related": [
+        {
+          "title": "Plan d'accessibilité pluriannuel 2015-2021 (PDF)",
+          "url": "https://cscdgr.education/wp-content/uploads/2024/11/Plan_accessibilite_pluriannuel_2015-2021.pdf"
+        }
+      ],
+      "source_date": "2015-2021",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-newcomer",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Information pour les nouveaux arrivants.",
+      "url": "https://cscdgr.education/conseil/information-general/information-des-nouveaux-arrivants/",
+      "summary": "The board posts a guide (in French) for French-speaking and French-friendly newcomer families covering school buses, winter clothing, child care, lunches, report cards and daily school life, plus links to health units, francophone health centres and community groups. We found no page describing language assessment or a reception centre. A child who speaks neither official language can have a request reviewed by the admission committee.",
+      "related": [
+        {
+          "title": "Guide pour les familles francophones et francophiles nouvellement arrivées (PDF)",
+          "url": "https://cscdgr.education/wp-content/uploads/2025/09/Guide-du-Conseil-scolaire-catholique-des-Grandes-Rivieres-pour-les-familles-francophones-et-francophiles-nouvellement-arrivees_a.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-planning",
+      "topic": "planning",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Rapports des examens des installations",
+      "url": "https://cscdgr.education/conseil/plans-et-rapports/rapports-des-examens-des-installations/",
+      "summary": "We found no long-term accommodation plan. This page explains that the board consults parents and the community before merging or closing schools (a pupil accommodation review, required by the Ministry), lists past reviews, and posts a list of 2024 building projects and energy plans. Capacity is building space, not open seats, and any forecast is a projection.",
+      "related": [
+        {
+          "title": "Projets 2024 (PDF)",
+          "url": "https://cscdgr.education/wp-content/uploads/2024/12/Projet-2024_cm-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-success",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plan pour la réussite des élèves",
+      "url": "https://cscdgr.education/conseil/plans-et-rapports/plan-pour-la-reussite-des-eleves/",
+      "summary": "The board's student achievement plan focuses on literacy and numeracy. Its strategy is to study evidence, identify students at risk and give sustained support to students showing large gaps, through integrated services teams and school success teams. The plan is posted as a PDF.",
+      "related": [
+        {
+          "title": "Plan pour la réussite des élèves du CSCDGR (PDF)",
+          "url": "https://cscdgr.education/wp-content/uploads/2026/06/B29106_CSC-des-Grandes-Rivieres_siteweb.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Comité de participation des parents",
+      "url": "https://cscdgr.education/conseil/conseil-et-comites/comite-de-participation-des-parents/",
+      "summary": "The Parent Involvement Committee is led by parents from each region, with a trustee and the director of education. It meets four times a school year, mostly online, and posts agendas and minutes. Members must have a child in a board school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "ADE-02 : Conseils d'école (PDF)",
+      "url": "https://cscdgr.education/wp-content/uploads/2025/04/ADE-02_01_Conseils-de%CC%81cole_DA_A.pdf",
+      "source_date": "En vigueur 2025-04-22",
+      "summary": "Every school must have a school council under Ontario Regulation 612/00. Councils are advisory, work in French, and let parents and guardians have more say in their child's education. Contact your school to find out how to join.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cscdgr-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Traitement des plaintes et des insatisfactions",
+      "url": "https://cscdgr.education/traitement-des-plaintes-et-des-insatisfactions/",
+      "summary": "Start with the staff member involved. If the problem continues, go to that person's supervisor, directly or through the board's online form. Directive ADM-04 sets out the formal steps for dissatisfactions and complaints from students, parents and community members.",
+      "related": [
+        {
+          "title": "ADM-04 : Traitement des insatisfactions et des plaintes (PDF)",
+          "url": "https://cscdgr.education/wp-content/uploads/2025/09/ADM04_Traitement-insatisfaction-et-plaintes_A_2025-09-16.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

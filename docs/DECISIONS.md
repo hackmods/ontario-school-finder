@@ -83,3 +83,28 @@ The brief ([idea.md](idea.md)) was treated as a strong starting point. These are
 - No ordering of search results by EQAO or any outcome. Sort is best match, A to Z, or nearest (straight line).
 - No runtime AI: "Questions to ask" are built from page facts by fixed rules.
 - No French-language interface yet: a partial toggle would mislead. Strings are in templates and two small modules (`site/family.py`, `site/static/js/lib.js`) so a reviewed translation can follow.
+
+## Every board's records, questionnaire history, refreshes (2026-11-26, PR #26)
+
+- Board records moved to one file per board (`site/board-info/<board>.json`) so boards are added and refreshed
+  on their own. Researchers (two boards each) wrote 62 more boards' files from the boards' own pages; a separate
+  verifier re-read the pages behind every program, transportation, registration, dated and not-found record, and
+  every finding was reviewed by hand before it was applied. Program lists are matched by hand to school numbers.
+- Boards whose sites refuse automated reading are left uncollected ("not yet collected" with a link), never
+  filled with "not published", and nothing was done to get past a bot filter. Where a single page couldn't be
+  read, the record says "Couldn't check: ask the board" (`unchecked`), not "Not published".
+- Walking-distance tables show the distance only; boards word the threshold differently ("more than" vs "or
+  more"), so the summary carries each board's wording. A 0 km kindergarten distance is written as "eligible at
+  any distance within the boundary", not as a table row.
+- French Immersion entry can be several grades (early and middle Immersion) or kindergarten; Compare and the
+  questions to ask list every entry point.
+- Broken board websites from the Ministry's list (a dead domain, a parked domain, one redirecting to an
+  unrelated blog) are replaced in `sources.BOARD_WEBSITE_FIXES`, each with its reason.
+- EQAO questionnaire: earlier years (2022-23 to 2024-25) are shown only where the question's wording and answers
+  are identical to the latest year's, checked every run; each year is a different group of students. 2021-22 is
+  left out, as EQAO says its files differ from its results.
+- `pipeline.build --refresh` asks each publisher whether its file changed (ETag / Last-Modified) instead of
+  downloading everything again; an error or a block page never replaces good data.
+- Not done, with reasons in HANDOFF.md: school capacity (no open data), achievement-plan figures (linked
+  instead), child-care inspections (dataset still under review), a French interface (needs a reviewed
+  translation), DSBN's out-of-area rule (needs DSBN).
