@@ -147,3 +147,23 @@ def test_changed_question_fails_loudly(raw_dir):
     write_zip(raw_dir / "eqao-sq-test.zip", [(org("3", "S", school="456110"), ALL)])
     with pytest.raises(SchemaChanged):
         loaders.load_eqao_sq(RES)
+
+
+def test_history_only_where_wording_and_answers_match(monkeypatch):
+    from pipeline import build, sources
+    monkeypatch.setattr(sources, "EQAO_SQ_RESOURCES", [dict(id="cur", kind="g36", grade="6", year="2025-26")])
+    monkeypatch.setattr(sources, "EQAO_SQ_HISTORY", [dict(id="h1", kind="g36", grade="6", year="2024-25"),
+                                                     dict(id="h2", kind="g36", grade="6", year="2023-24"),
+                                                     dict(id="h3", kind="g36", grade="3", year="2024-25")])
+
+    def q(text, opts=("No, I do not agree", "I am not sure", "Yes, I agree", "Response missing")):
+        return {"question": text, "options": list(opts), "agree": ["Yes, I agree"]}
+
+    eq = {"cur": {"questions": {"like_read": q("I like to read"), "good_reader": q("I am a good reader")}},
+          "h1": {"questions": {"like_read": q("I like to read"), "good_reader": q("I think I am a good reader")}},
+          "h2": {"questions": {"like_read": q("I like to read", ("No", "Maybe", "Yes, I agree", "Response missing"))}},
+          "h3": {"questions": {"like_read": q("I like to read")}}}  # another grade: never joined
+    h = build.questionnaire_history(eq)["cur"]
+    assert h["comparable"] == {"like_read": ["h1"], "good_reader": []}
+    assert h["excluded"]["good_reader"] == {"2024-25": "worded differently", "2023-24": "not asked that year"}
+    assert h["excluded"]["like_read"] == {"2023-24": "different answers"}

@@ -257,7 +257,7 @@
 <section class="block" id="experience">
   <div class="wrap">
     <h2>Student experience <span class="badge">{{ fv.sq[0].year }}</span></h2>
-    <p class="block-intro">What students said in EQAO’s questionnaire, answered when they wrote the assessment. These are students’ own views of themselves and their learning, not a measure of the school’s quality. The <strong>whole board</strong> and <strong>Ontario</strong> columns are EQAO’s figures for every student who answered there, not medians of schools.</p>
+    <p class="block-intro">What students said in EQAO’s questionnaire, answered when they wrote the assessment. These are students’ own views of themselves and their learning, not a measure of the school’s quality. The <strong>whole board</strong> and <strong>Ontario</strong> columns are EQAO’s figures for every student who answered there, not medians of schools. Earlier years appear under a school’s figure only when EQAO asked the same question with the same answers; each year is a different group of students.</p>
     <div class="grid grid-2 grid-top">
     {% for b in fv.sq %}
       <div class="card sq-card">
@@ -271,7 +271,7 @@
           <tbody>
           {% for it in b.rows %}
             <tr role="row"><th scope="row" role="rowheader">“{{ it.question }}”<div class="small muted">{{ it.label }}: {{ it.agree|join(" or ")|lower }}</div></th>
-              <td class="n" role="cell" data-label="This school">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}%</b>{% if it.n %}<div class="small muted">of {{ it.n }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}</td>
+              <td class="n" role="cell" data-label="This school">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}%</b>{% if it.n %}<div class="small muted">of {{ it.n }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier">Earlier: {% for h in it.history %}{{ h.year }} {% if h.agree_pct is not none %}{{ h.agree_pct }}%{% else %}<span class="code" title="{{ code_text(h.code) }}">{{ h.code }}</span>{% endif %}{{ "" if loop.last else " · " }}{% endfor %}</div>{% endif %}</td>
               <td class="n" role="cell" data-label="Whole board">{{ pct(it.board_pct) }}</td><td class="n" role="cell" data-label="Ontario">{{ pct(it.province_pct) }}</td></tr>
           {% endfor %}
           </tbody>

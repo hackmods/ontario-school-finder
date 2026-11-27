@@ -768,8 +768,9 @@ def _sq_field(base: str, stem: str) -> str:
     return f"{base}_{stem}" if base else stem
 
 
-def load_eqao_sq_definitions(res: dict, items: list | None = None) -> dict:
-    """field stem -> {question, options: {category: label}} from EQAO's field-definitions workbook."""
+def load_eqao_sq_definitions(res: dict, items: list | None = None, strict: bool = True) -> dict:
+    """field stem -> {question, options: {category: label}} from EQAO's field-definitions workbook.
+    strict=False (earlier years): a question missing from the definitions is left out instead of stopping the build."""
     path = fetch.download(res["id"] + "-defs", res["definitions"], expect="xlsx")
     wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
     ws = next((w for w in wb.worksheets if "SQ" in w.title), None)
@@ -792,6 +793,8 @@ def load_eqao_sq_definitions(res: dict, items: list | None = None) -> dict:
         field = _sq_field(base, stem)
         cats = {int(m.group(1)): d for f, d in defs.items() if (m := re.fullmatch(rf"cnt{re.escape(field)}(\d)", f))}
         if not cats or 9 not in cats:
+            if not strict:
+                continue
             raise SchemaChanged(f"{res['id']}: question {field!r} is not in EQAO's field definitions any more; check the questionnaire")
         texts = [cats[c] for c in sorted(cats)]
         common = texts[0]
@@ -809,7 +812,7 @@ def _sq_int(v: str):
     return int(s) if s.isdigit() else None
 
 
-def load_eqao_sq(res: dict) -> dict:
+def load_eqao_sq(res: dict, strict: bool = True) -> dict:
     """Student questionnaire answers for the questions in SQ_ITEMS, for schools, boards and Ontario.
 
     Returns {"schools": {bsid: org}, "boards": {"B66150": org}, "province": {"English": org, "French": org},
@@ -826,7 +829,12 @@ def load_eqao_sq(res: dict) -> dict:
         if not members:
             raise SchemaChanged(f"{res['id']}: no questionnaire CSVs in the ZIP ({z.namelist()})")
         for name in members:
-            rd = csv.DictReader(io.StringIO(z.read(name).decode("utf-8-sig")))
+            raw = z.read(name)
+            try:
+                text = raw.decode("utf-8-sig")
+            except UnicodeDecodeError:  # some earlier years were saved as Windows-1252 (accented French names)
+                text = raw.decode("cp1252")
+            rd = csv.DictReader(io.StringIO(text))
             for r in rd:
                 if "Eligibility" in r and (r["Eligibility"] or "").strip() not in ("1", ""):
                     continue
@@ -844,7 +852,9 @@ def load_eqao_sq(res: dict) -> dict:
         raise SchemaChanged(f"{res['id']}: only {len(asked)} of the expected questions are in the file; check the questionnaire")
     needed = [f"{p}{_sq_field(b, st)}{c}" for _k, b, st, _l in asked for c in (*scale, 9) for p in ("cnt", "pct")]
     require_columns(res["id"], sorted(columns), ["OrgType", "Language", "BoardMident", "SchoolMident", "Suppressed"] + needed)
-    defs = load_eqao_sq_definitions(res, asked)
+    defs = load_eqao_sq_definitions(res, asked, strict=strict)
+    if not strict:  # earlier years: only questions both in the file and in that year's definitions
+        asked = [it for it in asked if _sq_field(it[1], it[2]) in defs]
     out = {"schools": {}, "boards": {}, "province": {}, "stats": Counter(), "not_asked": not_asked}
     for (otype, _oid, _bn, _sn, lang, _adm), r in merged.items():
         withheld = (r.get("Suppressed") or "").strip() == "1"

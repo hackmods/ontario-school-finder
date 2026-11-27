@@ -25,6 +25,7 @@ class Report:
         self.boundaries: dict = {}
         self.eqao_open: dict = {}
         self.eqao_sq: dict = {}
+        self.eqao_sq_history: dict = {}
         self.proximity: Counter = Counter()
         self.elapsed = 0
 
@@ -133,6 +134,14 @@ class Report:
             L += ["## EQAO student questionnaire (latest year)", ""]
             L += [f"- {sid}: {v['schools']} schools in EQAO's file, {v['matched']} matched to the school list, "
                   f"{v['withheld']} of those withheld by EQAO (too few students)" for sid, v in self.eqao_sq.items()]
+            L += [""]
+        if self.eqao_sq_history:
+            L += ["## EQAO questionnaire: earlier years shown", "",
+                  "Only where EQAO asked the same question with the same answers. Left out otherwise, with the reason.", ""]
+            for sid, h in self.eqao_sq_history.items():
+                shown = ", ".join(f"{k} ({len(v)})" for k, v in h["comparable"].items())
+                left = "; ".join(f"{k}: " + ", ".join(f"{y} {why}" for y, why in sorted(v.items())) for k, v in h["excluded"].items())
+                L += [f"- {sid}: earlier years per question: {shown}" + (f". Left out: {left}" if left else "")]
             L += [""]
         if self.proximity:
             L += ["## Nearest-school areas", "",
