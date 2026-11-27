@@ -1,5 +1,5 @@
 // /compare/?ids=a,b,c — up to six schools side by side: every published measure, same school years.
-import { qs, qsa, esc, SYSTEMS, km, fmtKm, dataUrl } from "./lib.js";
+import { qs, qsa, esc, SYSTEMS, km, fmtKm, dataUrl, gradeName } from "./lib.js";
 import { getCompare, setCompare, MAX_COMPARE } from "./compare-store.js";
 import { lineChart, shortYear } from "./linechart.js";
 
@@ -82,7 +82,7 @@ function practical(schools) {
       cells: schools.map((s) => {
         const f = fam(s);
         if (!(f.badges || []).some((b) => b.key === "french-immersion")) return '<span class="muted">—</span>';
-        if (f.fi_entry) return `Starts in Grade ${esc(f.fi_entry.join(", "))}${f.fi_page ? `<div class="small"><a href="${esc(f.fi_page.url)}" rel="noopener">Board's page</a></div>` : ""}`;
+        if (f.fi_entry) return `Starts in ${esc(f.fi_entry.map(gradeName).join(" or "))}${f.fi_page ? `<div class="small"><a href="${esc(f.fi_page.url)}" rel="noopener">Board's page</a></div>` : ""}`;
         if (s.level === "secondary" && f.fi_page) return `Continues from elementary Immersion<div class="small"><a href="${esc(f.fi_page.url)}" rel="noopener">Board's page</a></div>`;
         return `<span class="muted">${f.info_collected ? "Not published" : "Not yet collected"}</span>`;
       }),

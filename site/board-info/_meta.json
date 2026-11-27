@@ -1,0 +1,10 @@
+{
+  "_about": "Practical, sourced information for families, collected by hand from each board's own pages and documents, and inherited by every school page of that board. Every record links to the official page it came from and carries the date it was checked. We summarise in plain words and never copy policy text at length. kind: rule = a published rule (applies to everyone it describes); process = how to ask, where the answer is decided case by case; decision = something the board has approved; proposal = a recommendation not yet decided; projection = a forecast in a published plan; not_found = we looked and the board does not publish it (say so rather than guess). applies: which school levels a record is for. lifecycle: dates (deadlines, registration windows) go stale fastest, rules and plans last longer. Never add a record you have not read on the board's own page. One file per board (<board number>.json); start a new board by copying one board's file and checking every link. See docs/board-info.md.",
+  "schema_version": 2,
+  "refresh_days": {
+    "dates": 90,
+    "rules": 365,
+    "plans": 365,
+    "contacts": 180
+  }
+}

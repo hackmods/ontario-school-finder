@@ -211,12 +211,12 @@ class Site:
         # Data the scripts fetch (/data/...) is versioned by the pipeline run plus what this generator
         # derives from it, and stamped on every page as <html data-v> for lib.js's dataUrl().
         self.ctx_json = self.context_json()
-        self.env.globals["data_v"] = short_hash((DATA / "meta.json").read_bytes(), self.ctx_json.encode(), (HERE / "board-info.json").read_bytes())
+        self.env.globals["data_v"] = short_hash((DATA / "meta.json").read_bytes(), self.ctx_json.encode(), *(p.read_bytes() for p in family.BoardInfo.files(HERE / "board-info")))
         self.official_by_board = self._official()
         # hand-checked board records (registration, programs, transfers, supports, planning), inherited by schools
-        self.info = family.BoardInfo(HERE / "board-info.json")
+        self.info = family.BoardInfo(HERE / "board-info")
         self.env.globals.update(program_help=family.PROGRAM_HELP, coverage=family.COVERAGE, grade_label=family.GRADE_LABEL,
-                                board_info_checked=self.info.raw.get("checked"))
+                                board_info_coverage=self.info.coverage())
 
     # ------------------------------------------------------------------
     def context_json(self) -> str:
@@ -486,8 +486,7 @@ class Site:
             info = self.info.for_school(s, {b["key"] for b in badges})
             T = info["topics"]
             reg = next((r for r in T.get("registration", [])), None)
-            fi_entry = next((r["facts"]["entry_grades"] for r in T.get("program", []) if r.get("program") == "french-immersion"
-                             and (r.get("facts") or {}).get("entry_grades")), None)
+            fi_entry = family.entry_grades(T.get("program", []))
             loc = next((r for r in T.get("address_lookup", [])), None) or self.env.globals["locators"].get(s["board_number"])
             s_out = {**s, "family": {
                 "grades_offered": family.grades_offered(s.get("grades")), "grade_span": family.grade_span_label(s.get("grades")),
