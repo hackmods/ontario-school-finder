@@ -464,7 +464,9 @@ function render() {
   state.csv = [["Section", "Measure", "Year", ...schools.map((s) => `${s.name} (${s.bsid})`), "Ontario median"]];
   const single = schools.length === 1 ? `<div class="note" style="margin-bottom:16px"><div><p>Add at least one more school to compare side by side.</p></div></div>` : "";
   root.classList.toggle("diff-only", state.opts.diff && schools.length > 1);
-  root.innerHTML = single + practical(schools) + overview(schools) + eqao(schools) + experience(schools) + enrolment(schools) + grades(schools) + classSizes(schools) + students(schools) + area(schools) + boardContext(schools) + nearby(schools) + sourcesList(schools) +
+  // on paper the toggle is hidden, so say that rows are left out
+  const diffNote = `<p class="cmp-diff-note small muted">Only rows where the schools differ are shown. Rows where every school has the same value are left out.</p>`;
+  root.innerHTML = single + diffNote + practical(schools) + overview(schools) + eqao(schools) + experience(schools) + enrolment(schools) + grades(schools) + classSizes(schools) + students(schools) + area(schools) + boardContext(schools) + nearby(schools) + sourcesList(schools) +
     `<p class="small muted" style="margin-top:20px">Every school is shown for the same school years. “—” means no value for that school and year; codes such as <span class="code">N/R</span> are explained in <a href="/methodology/#codes">How it works</a>. Medians are computed by this site from the same Ministry files.</p>`;
   drawCharts();
 }

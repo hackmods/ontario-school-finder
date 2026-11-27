@@ -270,9 +270,9 @@
           <thead><tr><th scope="col">Students who said</th><th scope="col" class="n">This school</th><th scope="col" class="n">Whole board</th><th scope="col" class="n">Ontario</th></tr></thead>
           <tbody>
           {% for it in b.rows %}
-            <tr><th scope="row">“{{ it.question }}”<div class="small muted">{{ it.label }}: {{ it.agree|join(" or ")|lower }}</div></th>
-              <td class="n" data-label="This school">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}%</b>{% if it.n %}<div class="small muted">of {{ it.n }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}</td>
-              <td class="n" data-label="Whole board">{{ pct(it.board_pct) }}</td><td class="n" data-label="Ontario">{{ pct(it.province_pct) }}</td></tr>
+            <tr role="row"><th scope="row" role="rowheader">“{{ it.question }}”<div class="small muted">{{ it.label }}: {{ it.agree|join(" or ")|lower }}</div></th>
+              <td class="n" role="cell" data-label="This school">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}%</b>{% if it.n %}<div class="small muted">of {{ it.n }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}</td>
+              <td class="n" role="cell" data-label="Whole board">{{ pct(it.board_pct) }}</td><td class="n" role="cell" data-label="Ontario">{{ pct(it.province_pct) }}</td></tr>
           {% endfor %}
           </tbody>
         </table></div>
@@ -368,9 +368,9 @@
         <thead><tr><th scope="col">Measure</th><th scope="col" class="n">This school</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Ontario median</th></tr></thead>
         <tbody>
         {% for c in context_rows %}
-          <tr><th scope="row" style="font-weight:550">{{ c.label }}<div class="small muted" style="font-weight:400">{{ c.definition }}</div></th>
-            <td class="n" data-label="This school">{% if c.value is not none %}{{ c.value }}%{% else %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% endif %}</td>
-            <td class="n" data-label="Board median">{{ pct(c.board_median) }}</td><td class="n" data-label="Ontario median">{{ pct(c.province_median) }}</td></tr>
+          <tr role="row"><th scope="row" role="rowheader" style="font-weight:550">{{ c.label }}<div class="small muted" style="font-weight:400">{{ c.definition }}</div></th>
+            <td class="n" role="cell" data-label="This school">{% if c.value is not none %}{{ c.value }}%{% else %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% endif %}</td>
+            <td class="n" role="cell" data-label="Board median">{{ pct(c.board_median) }}</td><td class="n" role="cell" data-label="Ontario median">{{ pct(c.province_median) }}</td></tr>
         {% endfor %}
         </tbody>
       </table></div>
@@ -443,7 +443,7 @@
     <div class="card">
       <h2 style="font-size:1.2rem">{{ icon("pin", "card-ic") }}Other {{ s.level }} schools nearby</h2>
       <ul class="list">{% for n in s.nearby %}
-        <li><a class="row-link" href="/school/{{ n.bsid }}/"><span class="pin sys-{{ n.system }}"></span><span class="main"><span class="t">{{ n.name }}</span><span class="s" style="display:block">{{ n.board_name }} · {{ n.language }}</span></span><span class="side">{{ n.km }} km</span></a></li>
+        <li><a class="row-link" href="/school/{{ n.bsid }}/"><span class="pin sys-{{ n.system }}"></span><span class="main"><span class="t">{{ n.name }}</span><span class="s" style="display:block">{{ n.board_name }} · {{ n.language }}</span>{% set nb = nearby_badges.get(n.bsid) %}{% if nb %}<span class="prog-badges">{% for b in nb %}<span class="badge badge-prog prog-{{ b.key }}">{{ b.label }}</span>{% endfor %}</span>{% endif %}</span><span class="side">{{ n.km }} km</span></a></li>
       {% endfor %}</ul>
       <p class="small muted" style="margin:6px 0 0">Straight-line distances. The closest school is not always the one that serves an address.</p>
     </div>

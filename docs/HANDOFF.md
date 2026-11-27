@@ -63,9 +63,11 @@ What changed and why is in [DECISIONS.md](DECISIONS.md#family-pass-2026-11-26-pr
 
 1. **More boards in `board-info.json`**, starting with the boards whose boundaries are shown (WRDSB, HWDSB,
    SCDSB, GEDSB, DPCDSB, KPRDSB, HCDSB), then the largest boards (TDSB, TCDSB, Peel, York, Ottawa).
-2. **DSBN out-of-area procedure**: policy G-23 (elementary to secondary transfers) is listed by search engines
-   but its policy-site URL returns 404, and no elementary out-of-area procedure is published; ask DSBN's
-   planning department and record the answer's source.
+2. **DSBN out-of-area procedure**: policy G-23 (elementary to secondary transfers) is still listed by search
+   engines, but its policy-site URL returns 404 and DSBN's current policy list (41 policies, rechecked
+   2026-11-26) no longer includes it or any transfer policy. Only a 2022 PDF of the old policy survives; don't
+   present it as current. No elementary out-of-area procedure is published either. Ask DSBN's planning
+   department and record the answer's source.
 3. **Questionnaire history**: add 2022-23 to 2024-25 only where question wording and answer scale match
    (2021-22 CSVs differ from EQAO's dashboards, per EQAO).
 4. **Board achievement plans as figures**: both Niagara plans are infographic PDFs whose chart text
@@ -80,6 +82,14 @@ What changed and why is in [DECISIONS.md](DECISIONS.md#family-pass-2026-11-26-pr
    let a refresh skip unchanged files.
 8. **French interface**: only with a reviewed translation; strings live in the templates, `site/family.py`
    and `site/static/js/lib.js`.
+
+Reviewed and not worth doing now (2026-11-26):
+- **Grade filter on postal-area pages**: a postal-area page lists schools inside the area's outline plus a
+  few just outside, while search matches the postal code, so a link to search shows a different list. Search
+  already has the grade filter.
+- **Grade filter on the Map page**: the level chips cover the common case; search has the grade filter.
+- **Badges in the home search suggestions**: too little room. Search results, board lists, postal-area
+  lists, map popups and each school's nearby list show them.
 
 ## Open engineering items
 

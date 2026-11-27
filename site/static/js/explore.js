@@ -3,7 +3,13 @@ import { qs, qsa, loadIndex, dataUrl } from "./lib.js";
 import { lazyMap, addSchoolLayer, addArea, removeArea, pointsFC, LAYER_COLORS, setSchoolFilter } from "./maps.js";
 
 const container = qs('[data-map="explore"]');
-const state = { level: "all", systems: new Set(qsa("[data-system]").map((x) => x.dataset.system)), area: "none" };
+const state = { level: "all", prog: "all", systems: new Set(qsa("[data-system]").map((x) => x.dataset.system)), area: "none" };
+// the same program flags as search: fi = Ministry French Immersion list, fb = the board's own Immersion list
+const PROG_FILTERS = {
+  fi: ["any", [">", ["get", "fi"], 0], [">", ["get", "fb"], 0]],
+  ef: [">", ["get", "ef"], 0],
+  sh: [">", ["get", "sh"], 0],
+};
 const cache = new Map();
 let mapRef, glRef;
 
@@ -15,6 +21,7 @@ async function geo(name) {
 function schoolFilter() {
   const f = ["all", ["in", ["get", "sys"], ["literal", [...state.systems]]]];
   if (state.level !== "all") f.push(["==", ["get", "l"], state.level]);
+  if (PROG_FILTERS[state.prog]) f.push(PROG_FILTERS[state.prog]);
   return f;
 }
 
@@ -62,6 +69,15 @@ for (const b of qsa("[data-level]")) {
   b.addEventListener("click", () => {
     state.level = b.dataset.level;
     qsa("[data-level]").forEach((x) => { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); });
+    if (mapRef) setSchoolFilter(mapRef, "schools", schoolFilter());
+  });
+}
+for (const b of qsa("[data-prog]")) {
+  b.addEventListener("click", () => {
+    state.prog = b.dataset.prog;
+    qsa("[data-prog]").forEach((x) => { x.classList.toggle("on", x === b); x.setAttribute("aria-pressed", String(x === b)); });
+    const note = qs("[data-prog-note]");
+    if (note) note.hidden = state.prog === "all";
     if (mapRef) setSchoolFilter(mapRef, "schools", schoolFilter());
   });
 }

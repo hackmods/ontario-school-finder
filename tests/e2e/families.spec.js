@@ -91,6 +91,17 @@ test.describe("school page for families", () => {
     await expect(page.locator("#families")).toContainText("Register for School");
     await expect(page.locator("#families")).toContainText("Special Education");
     await expect(page.locator("#results-paper")).toContainText("not comparable");
+    const nav = page.getByRole("navigation", { name: "On this page" });
+    await expect(nav.getByRole("link", { name: "For families" })).toHaveAttribute("href", "#families");
+    for (const href of await nav.locator("a").evaluateAll((as) => as.map((a) => a.getAttribute("href")))) {
+      await expect(page.locator(href), href).toHaveCount(1);
+    }
+  });
+
+  test("nearby schools show their programs", async ({ page }) => {
+    await page.goto(`/school/${PP}/`);
+    const row = page.locator("#nearby li", { hasText: "Notre Dame Catholic Elementary School" });
+    await expect(row.locator(".badge-prog")).toHaveText("French Immersion");
   });
 });
 
@@ -111,6 +122,37 @@ test.describe("compare for families", () => {
     await page.locator('[data-opt="diff"]').check();
     await expect(typeRow).toBeHidden();
     await expect(glance.locator("tr", { hasText: "Grades offered" })).toBeVisible();
+    // the toggle doesn't print, so a printed copy says rows are left out (and the screen doesn't need to)
+    const note = page.locator(".cmp-diff-note");
+    await expect(note).toBeHidden();
+    await page.emulateMedia({ media: "print" });
+    await expect(note).toBeVisible();
+    await expect(page.locator(".cmp-options")).toBeHidden();
+    await page.emulateMedia({ media: "screen" });
+    expect(errors).toEqual([]);
+  });
+});
+
+test.describe("map for families", () => {
+  test("program chips filter the schools on the map", async ({ page }) => {
+    const errors = watch(page);
+    await page.goto("/map/");
+    await page.locator(".maplibregl-canvas").waitFor({ state: "visible", timeout: 30_000 });
+    await page.waitForFunction(() => document.querySelector('[data-map="explore"]')?._map?.getLayer("schools"));
+    const filter = () => page.evaluate(() => JSON.stringify(document.querySelector('[data-map="explore"]')._map.getFilter("schools")));
+    const note = page.locator("[data-prog-note]");
+    await expect(note).toBeHidden();
+    await page.getByRole("button", { name: "French Immersion" }).click();
+    await expect(page.getByRole("button", { name: "French Immersion" })).toHaveAttribute("aria-pressed", "true");
+    await expect(note).toBeVisible();
+    // the board's own Immersion list (fb) counts as well as the Ministry's (fi), as in search
+    expect(await filter()).toContain('["get","fb"]');
+    await page.getByRole("button", { name: "SHSM" }).click();
+    expect(await filter()).toContain('["get","sh"]');
+    expect(await filter()).not.toContain('["get","fi"]');
+    await page.getByRole("button", { name: "Any program" }).click();
+    expect(await filter()).not.toContain('["get","sh"]');
+    await expect(note).toBeHidden();
     expect(errors).toEqual([]);
   });
 });

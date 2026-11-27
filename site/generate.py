@@ -344,6 +344,8 @@ class Site:
                         cells.append({"v": r["grades"][g], "code": r["codes"].get(g)})
                 grade_view["rows"].append({"label": label, "cells": cells})
         neighbours = [self.schools[n["bsid"]] for n in s["nearby"] if n["bsid"] in self.schools]
+        # the nearby list shows each school's programs, so a family can see which nearby school offers Immersion
+        nearby_badges = {n["bsid"]: family.program_badges(n, self.info.board_listed(n)) for n in neighbours}
         map_data = {
             "center": [s["lon"], s["lat"]],
             "school": {"id": s["bsid"], "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"]},
@@ -385,7 +387,7 @@ class Site:
         self.render(f"school/{s['bsid']}/index.html", "school.html",
                     title=f"{s['name']} — {s['city'] or s['board_name']}", description=desc, page_kind="school", map=True,
                     s=s, results=results, historical=historical, system_label=sys_label, address_line=addr, official_label=official_label,
-                    official_when=official_when, fv=family_view,
+                    official_when=official_when, fv=family_view, nearby_badges=nearby_badges,
                     contact_label=self.sources.get("contact-2026-11", {}).get("year", "current"),
                     enrol_latest=enrol_latest, enrol_change=enrol_change,
                     enrol_svg=charts.wide_bar_chart(enrol, title=f"Enrolment at {s['name']} by school year"),
