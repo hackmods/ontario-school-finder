@@ -82,7 +82,7 @@
       </div>
       <div class="card">
         <h3>{{ icon("pin", "card-ic") }}Which school serves my address?</h3>
-        {% for r in T.get("address_lookup", []) %}<p style="margin:0 0 8px"><a class="btn btn-sm" href="{{ r.url }}" rel="noopener">{{ icon("pin") }}{{ r.title }}</a></p><p class="small" style="margin:0 0 8px">{{ r.summary }}</p>{% else %}
+        {% for r in T.get("address_lookup", []) %}<p style="margin:0 0 8px"><a class="btn btn-sm btn-wrap" href="{{ r.url }}" rel="noopener">{{ icon("pin") }}{{ r.title }}</a></p><p class="small" style="margin:0 0 8px">{{ r.summary }}</p>{% else %}
         {% if loc %}<p style="margin:0 0 8px"><a class="btn btn-sm" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ "Boundary maps" if loc.kind == "maps" else "Check your address" }}</a></p>{% else %}<p class="small" style="margin:0 0 8px">Ask {{ s.board_name }}{% if s.board_website %} (<a href="{{ s.board_website }}" rel="noopener">board website</a>){% endif %}.</p>{% endif %}
         {% endfor %}
         <p class="small muted" style="margin:0">Only the board decides which school serves an address. Distance, postal code and the map on this page are not a guarantee{% if official_label %}; the boundary shown is the board’s own map, but streets can have exceptions{% endif %}.</p>

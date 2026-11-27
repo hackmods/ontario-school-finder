@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 22:46 UTC in 246 s.
+Generated 2026-11-27 02:45 UTC in 211 s.
 
 ## Output
 
@@ -15,62 +15,74 @@ Generated 2026-11-26 22:46 UTC in 246 s.
 
 | source_id | records | what | retrieved | URL |
 |---|---:|---|---|---|
-| sif-2024-25 | 4954 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/f75540ed-59eb-49ab-ac43-976d563b3a65/download/new_sif_data_2024_25_final_en_oct_2026.xlsx |
-| sif-2023-24 | 4943 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/f381e1de-3aa8-4ae9-826a-20009a6f4a01/download/new_sif_data_table_2023_24prelim_en_january2026.xlsx |
-| sif-2022-23 | 4856 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/f95fc955-b1f0-4a2e-9b7f-cfa6eda37e0b/download/sif_data_table_2022_2023_en.xlsx |
-| sif-2021-22 | 4853 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/e0e90bd5-d662-401a-a6d2-60d69ac89d14/download/sif_data_table_2021_2022_en.xlsx |
-| sif-2020-21 | 4855 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/600ab128-f50f-43a4-b4d4-97c39bb270b6/download/sif_data_table_2020_2021_en.xlsx |
-| sif-2019-20 | 4889 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/602a5186-67f5-4faf-94f3-7c61ffc4719a/download/sif_data_table_2019_2020_en.xlsx |
-| sif-2018-19 | 4853 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/bbbac037-b1c9-4b32-8f67-4fed1dfcac06/download/sif_data_table_2018_2019_en.xlsx |
-| sif-2017-18 | 4876 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/3d8e7824-d033-4ca5-a5de-aa0dbec99002/download/sif_data_table_2017_2018_en.xlsx |
-| sif-2015-16 | 4934 | schools | 2026-11-26 | https://files.ontario.ca/opendata/sif_data_table_2015_2016_en.xlsx |
-| contact-2026-11 | 5853 | schools and sites | 2026-11-26 | https://data.ontario.ca/dataset/fb3a7c18-90af-453e-bc0a-a76ecc471862/resource/f3a8c2a3-09d9-4715-9044-d8a0189f572c/download/public_school_contact_list_november2026_en.txt |
-| sbpr-2026-11 | 73 | boards | 2026-11-26 | https://data.ontario.ca/en/dataset/71244894-f3e1-4be0-a69a-9bdc4eb45ac1/resource/53f3c491-98dc-44b6-9ed2-6a9e0d5f310a/download/updated_sbpr_data_table_en_nov2026.xlsx |
-| sbpr-2026-05 | 73 | boards | 2026-11-26 | https://data.ontario.ca/en/dataset/71244894-f3e1-4be0-a69a-9bdc4eb45ac1/resource/9d81dc27-32ef-4864-94b5-f09950d00c72/download/updated_sbpr_data_table_en_may2026.xlsx |
-| enrol-2024-25 | 4884 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/5205b284-8f9d-4d97-8e3f-fb5391d0911d/download/enrolment_by_school_2425_en.txt |
-| enrol-2023-24 | 4891 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/d490d94c-a2f2-49a9-8cae-19f4c4342611/download/enrolment_supp_en_2023-2024.txt |
-| enrol-2022-23 | 4876 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/63d5fd29-ece6-4ea3-b4b5-13951c0c209f/download/enrolment_supp_en_2022-2023.txt |
-| enrol-2021-22 | 4875 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/6beacf63-55c0-4f1c-9759-f611f642e6f3/download/enrolment_by_school_2122_en_supp.txt |
-| enrol-2020-21 | 4966 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/c328c012-9b25-4668-b6ad-f8327fbe6806/download/en_public_schools_enrolment_2020-21.txt |
-| enrol-2019-20 | 4843 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/8cf44c8a-5feb-4af1-82c9-fc2524b84fff/download/enrolment_supp_en_2019-2020.txt |
-| enrol-2018-19 | 4826 | schools | 2026-11-26 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/fec01aff-e961-4258-a38a-a84b5d9e7505/download/enrol_by_sch_1819_en.txt |
-| enrol-2017-18 | 4849 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrol_by_schl_1718_en.txt |
-| enrol-2016-17 | 4876 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrl_byschen_0.txt |
-| enrol-2015-16 | 4890 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrl_byschen.txt |
-| enrol-2014-15 | 4893 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrl_by_schen.txt |
-| enrol-2013-14 | 4895 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrolment_by_school_2013-14_en.txt |
-| enrol-2012-13 | 4890 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrolment_by_school_2012-2013_en.txt |
-| enrol-2011-12 | 4899 | schools | 2026-11-26 | https://files.ontario.ca/opendata/enrolment_by_school_2011-2012_en_2.txt |
-| egrade-2024-25 | 4884 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/9b8f3fb2-5008-4f04-9857-5e0e35feff60/download/enrolment_by_grade_2024-2025_en.txt |
-| egrade-2023-24 | 4891 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/aa4bae0d-95b0-4d13-b7ee-20bdca16f432/download/enrol_by_grade_en.txt |
-| egrade-2022-23 | 4876 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/5771f96b-0c04-4f87-8c18-a2258a163cdf/download/enrol_grade_en.txt |
-| egrade-2021-22 | 4875 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/948c3dc9-f3a0-4cfa-a70a-e2fb779b09dc/download/enrol_grade_2122_en.txt |
-| egrade-2020-21 | 4966 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/7b5d32cf-4f67-43c7-9aef-c435c5158d29/download/en_school_enrolment_by_grade_2020-2021.txt |
-| egrade-2019-20 | 4843 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/0e44519d-0d49-426b-87cb-a209afeb21d0/download/enrol_grade_en_1920.txt |
-| egrade-2018-19 | 4826 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/daf0e0e2-2fb0-41a3-b8db-d80a9f77d4b5/download/pubschenrolgr1819en_supp.xlsx |
-| egrade-2017-18 | 4848 | schools with enrolment by grade | 2026-11-26 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/3db3bb6a-7dff-4015-9534-e78a19425feb/download/pubschenrolgr1718en_supp.xlsx |
-| classsize-2007-23 | 60197 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/95db507f-ccae-4711-836f-f5571fcea753/download/2007-08_to_2022-23_class_size_data_june_15.xlsx |
-| classsize-2023-24 | 3908 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/41110399-2d30-43f3-8967-e8e55185aa6a/download/elementary_class_size_open_data_suppressed_2023-24_fr.xlsx |
-| classsize-2024-25 | 3906 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/abc5d307-ecfb-482f-b74f-f1703d2af039/download/2024-25_elementary_class_size_open_data_v.1_engfr.xlsx |
-| classsize-2025-26 | 3930 | school-years of elementary class lists | 2026-11-26 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/6f67ef06-a420-47cb-bf6b-2621adc2ffb0/download/2025-26_elementary_class_sizes_open_data1.xlsx |
-| fsl-2024-25 | 4336 | English-language schools with French program flags | 2026-11-26 | https://data.ontario.ca/dataset/0743f4d3-64bb-4b76-b9fc-51743c7a7f46/resource/3b211d55-85b6-4f35-ac54-58e2d2452372/download/schools_offering_fsl_2425_en.txt |
-| shsm-2025-26 | 2660 | SHSM programs at 736 schools | 2026-11-26 | https://data.ontario.ca/dataset/8ee79eb8-9e2c-4fb0-a2a5-51f54f2f383f/resource/e2336170-94cb-475f-8ada-0a0250dc258a/download/shsm_2025-26_program_list_en.csv |
-| eqao-g3-2025-26 | 3626 | schools in EQAO's file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-3-2025-2026-Achievement-Results.zip |
-| eqao-g6-2025-26 | 3453 | schools in EQAO's file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-6-2025-2026-Achievement-Results.zip |
-| eqao-g9-2025-26 | 824 | schools in EQAO's file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-9-2025-2026-Achievement-Results.zip |
-| eqao-osslt-2025-26 | 847 | schools in EQAO's file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/OSSLT-2025-2026-Achievement-Results.zip |
-| eqao-sq-g3-2025-26 | 3605 | schools in EQAO's questionnaire file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-3-2025-2026-Student-Questionnaire-Results.zip |
-| eqao-sq-g6-2025-26 | 3432 | schools in EQAO's questionnaire file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-6-2025-2026-Student-Questionnaire-Results.zip |
-| eqao-sq-g9-2025-26 | 789 | schools in EQAO's questionnaire file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-9-2025-2026-Student-Questionnaire-Results.zip |
-| eqao-sq-osslt-2025-26 | 833 | schools in EQAO's questionnaire file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/OSSLT-2025-2026-Student-Questionnaire-Results.zip |
-| suspensions-2007-22 | 72 | boards with suspension rates | 2026-11-26 | https://data.ontario.ca/dataset/1f711bda-8953-46df-a09f-a66035a01717/resource/c26c7fe8-f59e-44f7-ad6a-6f6400b6fe8e/download/enbrd_suspensions_0708-2122.xlsx |
-| efis-fs-2024-25 | 72 | boards with 2024-25 spending | 2026-11-26 | https://data.ontario.ca/dataset/f9393864-17ae-43f4-a0e1-062fddc6c99c/resource/42f81bd6-20d3-4b20-a09c-c8ed8043c3e7/download/efis_2024-25_financial_statements_-_board_submitted.csv |
-| fsl-enrol-2024-25 | 62 | boards with French program enrolment | 2026-11-26 | https://data.ontario.ca/dataset/5d00661a-b662-4027-a61a-1a6969f16598/resource/4496a569-ae43-4c05-aebe-bb40c5ffc61e/download/fsl_enrolment_by_board_2024-2025_en.txt |
-| earlyon-2026-11 | 1255 | EarlyON sites | 2026-11-26 | https://data.ontario.ca/dataset/70611b4f-807a-4a28-b227-d0ff75986c26/resource/77660aeb-f583-4814-9a0c-72756b78f5c0/download/locationlist_-_en_-_prod_-_nov_5th_2026_-_open_data_extract.xlsx |
-| nutrition-2017-12 | 3248 | schools on the 2017 Student Nutrition Program list | 2026-11-26 | https://files.ontario.ca/opendata/dataset_snp_siteinfo_csv_20171206.csv |
-| childcare-2026-09 | 6355 | active licensed sites (snapshot 2026-09-30) | 2026-11-26 | https://data.ontario.ca/dataset/7efd8b4b-cc63-4337-a551-c940a346605b/resource/2b81313c-9ada-4680-abba-4470ec386a2e/download/child_care_facilities_open_data_sep_2026.xlsx |
-| fsa-boundary-2021 | 520 | Ontario FSA polygons | 2026-11-26 | https://services.arcgis.com/wjcPoefzjpzCgffS/arcgis/rest/services/Forward_Sortation_Area_(FSA)_Boundaries_2021/FeatureServer/0 |
-| census-2021-fsa | 520 | FSAs with census figures (of 520) | 2026-11-26 | https://api.statcan.gc.ca/census-recensement/profile/sdmx/rest/dataflow/STC_CP/DF_FSA/1.0 |
+| sif-2024-25 | 4954 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/f75540ed-59eb-49ab-ac43-976d563b3a65/download/new_sif_data_2024_25_final_en_oct_2026.xlsx |
+| sif-2023-24 | 4943 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/f381e1de-3aa8-4ae9-826a-20009a6f4a01/download/new_sif_data_table_2023_24prelim_en_january2026.xlsx |
+| sif-2022-23 | 4856 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/f95fc955-b1f0-4a2e-9b7f-cfa6eda37e0b/download/sif_data_table_2022_2023_en.xlsx |
+| sif-2021-22 | 4853 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/e0e90bd5-d662-401a-a6d2-60d69ac89d14/download/sif_data_table_2021_2022_en.xlsx |
+| sif-2020-21 | 4855 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/600ab128-f50f-43a4-b4d4-97c39bb270b6/download/sif_data_table_2020_2021_en.xlsx |
+| sif-2019-20 | 4889 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/602a5186-67f5-4faf-94f3-7c61ffc4719a/download/sif_data_table_2019_2020_en.xlsx |
+| sif-2018-19 | 4853 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/bbbac037-b1c9-4b32-8f67-4fed1dfcac06/download/sif_data_table_2018_2019_en.xlsx |
+| sif-2017-18 | 4876 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d85f68c5-fcb0-4b4d-aec5-3047db47dcd5/resource/3d8e7824-d033-4ca5-a5de-aa0dbec99002/download/sif_data_table_2017_2018_en.xlsx |
+| sif-2015-16 | 4934 | schools | 2026-11-27 | https://files.ontario.ca/opendata/sif_data_table_2015_2016_en.xlsx |
+| contact-2026-11 | 5853 | schools and sites | 2026-11-27 | https://data.ontario.ca/dataset/fb3a7c18-90af-453e-bc0a-a76ecc471862/resource/f3a8c2a3-09d9-4715-9044-d8a0189f572c/download/public_school_contact_list_november2026_en.txt |
+| sbpr-2026-11 | 73 | boards | 2026-11-27 | https://data.ontario.ca/en/dataset/71244894-f3e1-4be0-a69a-9bdc4eb45ac1/resource/53f3c491-98dc-44b6-9ed2-6a9e0d5f310a/download/updated_sbpr_data_table_en_nov2026.xlsx |
+| sbpr-2026-05 | 73 | boards | 2026-11-27 | https://data.ontario.ca/en/dataset/71244894-f3e1-4be0-a69a-9bdc4eb45ac1/resource/9d81dc27-32ef-4864-94b5-f09950d00c72/download/updated_sbpr_data_table_en_may2026.xlsx |
+| enrol-2024-25 | 4884 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/5205b284-8f9d-4d97-8e3f-fb5391d0911d/download/enrolment_by_school_2425_en.txt |
+| enrol-2023-24 | 4891 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/d490d94c-a2f2-49a9-8cae-19f4c4342611/download/enrolment_supp_en_2023-2024.txt |
+| enrol-2022-23 | 4876 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/63d5fd29-ece6-4ea3-b4b5-13951c0c209f/download/enrolment_supp_en_2022-2023.txt |
+| enrol-2021-22 | 4875 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/6beacf63-55c0-4f1c-9759-f611f642e6f3/download/enrolment_by_school_2122_en_supp.txt |
+| enrol-2020-21 | 4966 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/c328c012-9b25-4668-b6ad-f8327fbe6806/download/en_public_schools_enrolment_2020-21.txt |
+| enrol-2019-20 | 4843 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/8cf44c8a-5feb-4af1-82c9-fc2524b84fff/download/enrolment_supp_en_2019-2020.txt |
+| enrol-2018-19 | 4826 | schools | 2026-11-27 | https://data.ontario.ca/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6/resource/fec01aff-e961-4258-a38a-a84b5d9e7505/download/enrol_by_sch_1819_en.txt |
+| enrol-2017-18 | 4849 | schools | 2026-11-27 | https://files.ontario.ca/opendata/enrol_by_schl_1718_en.txt |
+| enrol-2016-17 | 4876 | schools | 2026-11-27 | https://files.ontario.ca/opendata/enrl_byschen_0.txt |
+| enrol-2015-16 | 4890 | schools | 2026-11-27 | https://files.ontario.ca/opendata/enrl_byschen.txt |
+| enrol-2014-15 | 4893 | schools | 2026-11-27 | https://files.ontario.ca/opendata/enrl_by_schen.txt |
+| enrol-2013-14 | 4895 | schools | 2026-11-27 | https://files.ontario.ca/opendata/enrolment_by_school_2013-14_en.txt |
+| enrol-2012-13 | 4890 | schools | 2026-11-27 | https://files.ontario.ca/opendata/enrolment_by_school_2012-2013_en.txt |
+| enrol-2011-12 | 4899 | schools | 2026-11-27 | https://files.ontario.ca/opendata/enrolment_by_school_2011-2012_en_2.txt |
+| egrade-2024-25 | 4884 | schools with enrolment by grade | 2026-11-27 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/9b8f3fb2-5008-4f04-9857-5e0e35feff60/download/enrolment_by_grade_2024-2025_en.txt |
+| egrade-2023-24 | 4891 | schools with enrolment by grade | 2026-11-27 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/aa4bae0d-95b0-4d13-b7ee-20bdca16f432/download/enrol_by_grade_en.txt |
+| egrade-2022-23 | 4876 | schools with enrolment by grade | 2026-11-27 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/5771f96b-0c04-4f87-8c18-a2258a163cdf/download/enrol_grade_en.txt |
+| egrade-2021-22 | 4875 | schools with enrolment by grade | 2026-11-27 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/948c3dc9-f3a0-4cfa-a70a-e2fb779b09dc/download/enrol_grade_2122_en.txt |
+| egrade-2020-21 | 4966 | schools with enrolment by grade | 2026-11-27 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/7b5d32cf-4f67-43c7-9aef-c435c5158d29/download/en_school_enrolment_by_grade_2020-2021.txt |
+| egrade-2019-20 | 4843 | schools with enrolment by grade | 2026-11-27 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/0e44519d-0d49-426b-87cb-a209afeb21d0/download/enrol_grade_en_1920.txt |
+| egrade-2018-19 | 4826 | schools with enrolment by grade | 2026-11-27 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/daf0e0e2-2fb0-41a3-b8db-d80a9f77d4b5/download/pubschenrolgr1819en_supp.xlsx |
+| egrade-2017-18 | 4848 | schools with enrolment by grade | 2026-11-27 | https://data.ontario.ca/dataset/502b8125-e48b-443a-b463-a5b76eda8c25/resource/3db3bb6a-7dff-4015-9534-e78a19425feb/download/pubschenrolgr1718en_supp.xlsx |
+| classsize-2007-23 | 60197 | school-years of elementary class lists | 2026-11-27 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/95db507f-ccae-4711-836f-f5571fcea753/download/2007-08_to_2022-23_class_size_data_june_15.xlsx |
+| classsize-2023-24 | 3908 | school-years of elementary class lists | 2026-11-27 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/41110399-2d30-43f3-8967-e8e55185aa6a/download/elementary_class_size_open_data_suppressed_2023-24_fr.xlsx |
+| classsize-2024-25 | 3906 | school-years of elementary class lists | 2026-11-27 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/abc5d307-ecfb-482f-b74f-f1703d2af039/download/2024-25_elementary_class_size_open_data_v.1_engfr.xlsx |
+| classsize-2025-26 | 3930 | school-years of elementary class lists | 2026-11-27 | https://data.ontario.ca/dataset/c43b5632-599b-43d1-86b5-2439f3d68c93/resource/6f67ef06-a420-47cb-bf6b-2621adc2ffb0/download/2025-26_elementary_class_sizes_open_data1.xlsx |
+| fsl-2024-25 | 4336 | English-language schools with French program flags | 2026-11-27 | https://data.ontario.ca/dataset/0743f4d3-64bb-4b76-b9fc-51743c7a7f46/resource/3b211d55-85b6-4f35-ac54-58e2d2452372/download/schools_offering_fsl_2425_en.txt |
+| shsm-2025-26 | 2660 | SHSM programs at 736 schools | 2026-11-27 | https://data.ontario.ca/dataset/8ee79eb8-9e2c-4fb0-a2a5-51f54f2f383f/resource/e2336170-94cb-475f-8ada-0a0250dc258a/download/shsm_2025-26_program_list_en.csv |
+| eqao-g3-2025-26 | 3626 | schools in EQAO's file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-3-2025-2026-Achievement-Results.zip |
+| eqao-g6-2025-26 | 3453 | schools in EQAO's file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-6-2025-2026-Achievement-Results.zip |
+| eqao-g9-2025-26 | 824 | schools in EQAO's file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-9-2025-2026-Achievement-Results.zip |
+| eqao-osslt-2025-26 | 847 | schools in EQAO's file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2026/10/OSSLT-2025-2026-Achievement-Results.zip |
+| eqao-sq-g3-2025-26 | 3605 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-3-2025-2026-Student-Questionnaire-Results.zip |
+| eqao-sq-g6-2025-26 | 3432 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-6-2025-2026-Student-Questionnaire-Results.zip |
+| eqao-sq-g9-2025-26 | 789 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-9-2025-2026-Student-Questionnaire-Results.zip |
+| eqao-sq-osslt-2025-26 | 833 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2026/10/OSSLT-2025-2026-Student-Questionnaire-Results.zip |
+| eqao-sq-g3-2024-25 | 3596 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/11/Grade-3-2024-2025-Student-Questionnaire-Results.zip |
+| eqao-sq-g6-2024-25 | 3411 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/11/Grade-6-2024-2025-Student-Questionnaire-Results.zip |
+| eqao-sq-g9-2024-25 | 790 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/11/Grade-9-2024-2025-Student-Questionnaire-Results.zip |
+| eqao-sq-osslt-2024-25 | 830 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/11/OSSLT-2024-2025-Student-Questionnaire-Results.zip |
+| eqao-sq-g3-2023-24 | 3618 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/06/Grade-3-2023-2024-Student-Questionnaire-Results.zip |
+| eqao-sq-g6-2023-24 | 3437 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/06/Grade-6-2023-2024-Student-Questionnaire-Results.zip |
+| eqao-sq-g9-2023-24 | 783 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/06/Grade-9-2023-2024-Student-Questionnaire-Results.zip |
+| eqao-sq-osslt-2023-24 | 830 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/06/OSSLT-2023-2024-Student-Questionnaire-Results.zip |
+| eqao-sq-g3-2022-23 | 3609 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/06/Grade-3-2022-2023-Student-Questionnaire-Results.zip |
+| eqao-sq-g6-2022-23 | 3440 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/06/Grade-6-2022-2023-Student-Questionnaire-Results.zip |
+| eqao-sq-g9-2022-23 | 781 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/06/Grade-9-2022-2023-Student-Questionnaire-Results.zip |
+| eqao-sq-osslt-2022-23 | 835 | schools in EQAO's questionnaire file | 2026-11-27 | https://www.eqao.com/wp-content/uploads/2025/06/OSSLT-2022-2023-Student-Questionnaire-Results.zip |
+| suspensions-2007-22 | 72 | boards with suspension rates | 2026-11-27 | https://data.ontario.ca/dataset/1f711bda-8953-46df-a09f-a66035a01717/resource/c26c7fe8-f59e-44f7-ad6a-6f6400b6fe8e/download/enbrd_suspensions_0708-2122.xlsx |
+| efis-fs-2024-25 | 72 | boards with 2024-25 spending | 2026-11-27 | https://data.ontario.ca/dataset/f9393864-17ae-43f4-a0e1-062fddc6c99c/resource/42f81bd6-20d3-4b20-a09c-c8ed8043c3e7/download/efis_2024-25_financial_statements_-_board_submitted.csv |
+| fsl-enrol-2024-25 | 62 | boards with French program enrolment | 2026-11-27 | https://data.ontario.ca/dataset/5d00661a-b662-4027-a61a-1a6969f16598/resource/4496a569-ae43-4c05-aebe-bb40c5ffc61e/download/fsl_enrolment_by_board_2024-2025_en.txt |
+| earlyon-2026-11 | 1255 | EarlyON sites | 2026-11-27 | https://data.ontario.ca/dataset/70611b4f-807a-4a28-b227-d0ff75986c26/resource/77660aeb-f583-4814-9a0c-72756b78f5c0/download/locationlist_-_en_-_prod_-_nov_5th_2026_-_open_data_extract.xlsx |
+| nutrition-2017-12 | 3248 | schools on the 2017 Student Nutrition Program list | 2026-11-27 | https://files.ontario.ca/opendata/dataset_snp_siteinfo_csv_20171206.csv |
+| childcare-2026-09 | 6355 | active licensed sites (snapshot 2026-09-30) | 2026-11-27 | https://data.ontario.ca/dataset/7efd8b4b-cc63-4337-a551-c940a346605b/resource/2b81313c-9ada-4680-abba-4470ec386a2e/download/child_care_facilities_open_data_sep_2026.xlsx |
+| fsa-boundary-2021 | 520 | Ontario FSA polygons | 2026-11-27 | https://services.arcgis.com/wjcPoefzjpzCgffS/arcgis/rest/services/Forward_Sortation_Area_(FSA)_Boundaries_2021/FeatureServer/0 |
+| census-2021-fsa | 520 | FSAs with census figures (of 520) | 2026-11-27 | https://api.statcan.gc.ca/census-recensement/profile/sdmx/rest/dataflow/STC_CP/DF_FSA/1.0 |
 | boards | 84 | boards with at least one school |  |  |
 | fsas | 522 | postal areas (FSAs) with a page |  |  |
 
@@ -550,13 +562,22 @@ Areas are matched to schools by name within the board and level (or by the one s
 - eqao-sq-g9-2025-26: 789 schools in EQAO's file, 781 matched to the school list, 38 of those withheld by EQAO (too few students)
 - eqao-sq-osslt-2025-26: 833 schools in EQAO's file, 813 matched to the school list, 62 of those withheld by EQAO (too few students)
 
+## EQAO questionnaire: earlier years shown
+
+Only where EQAO asked the same question with the same answers. Left out otherwise, with the reason.
+
+- eqao-sq-g3-2025-26: earlier years per question: like_read (3), good_reader (3), like_math (3), good_math (3), keep_trying (3), group_work (3)
+- eqao-sq-g6-2025-26: earlier years per question: like_read (3), good_reader (3), like_math (3), good_math (3), keep_trying (3), feel_prepared (2), group_work (3). Left out: feel_prepared: 2022-23 not asked that year
+- eqao-sq-g9-2025-26: earlier years per question: like_math (3), good_math (3), keep_trying (3), feel_prepared (2), group_work (3). Left out: feel_prepared: 2022-23 not asked that year
+- eqao-sq-osslt-2025-26: earlier years per question: like_read (3), good_reader (3), keep_trying (3), feel_prepared (2), group_work (3). Left out: feel_prepared: 2022-23 not asked that year
+
 ## Nearest-school areas
 
 Drawn only for regular schools families attend by neighbourhood. Not drawn: immersion only 106, not regular 94, other system 24; drawn: 4721.
 
 ## Licences of the files used
 
-Published openly by the government, no licence stated: 1 files; Open licence: 56 files; No licence stated: shown while we ask the publisher for permission, removed on request: 13 files
+Published openly by the government, no licence stated: 1 files; Open licence: 68 files; No licence stated: shown while we ask the publisher for permission, removed on request: 13 files
 
 ## Programs (French as a second language, SHSM)
 

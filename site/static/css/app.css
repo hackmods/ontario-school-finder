@@ -219,6 +219,8 @@ a > .badge-count { margin-left: 8px; } /* the header nav and the phone menu (fle
 .btn:hover { border-color: var(--ink-3); color: var(--c); }
 .btn:active { transform: translateY(1px); }
 .btn svg { width: 18px; height: 18px; flex: none; }
+/* a button labelled with a board page's own title, which can be long: wrap instead of running off a phone screen */
+.btn.btn-wrap { white-space: normal; justify-content: flex-start; text-align: left; line-height: 1.3; padding-top: 8px; padding-bottom: 8px; max-width: 100%; border-radius: 22px; }
 .btn-primary { --b: var(--brand); --c: var(--brand-ink); --bd: var(--brand); box-shadow: 0 6px 16px -8px color-mix(in srgb, var(--brand) 70%, transparent); }
 .btn-primary:hover { --b: var(--brand-2); --bd: var(--brand-2); color: var(--brand-ink); }
 .btn-ghost { --b: transparent; --bd: transparent; color: var(--ink-2); }

@@ -7,7 +7,7 @@
   <div class="rec-head"><a class="t" href="{{ r.url }}" rel="noopener">{{ r.title }}</a><span class="badge rec-kind">{{ "Couldn’t check: ask the board" if r.unchecked else KIND.get(r.kind, r.kind) }}</span>{% if r.scope == "school" %}<span class="badge">This school</span>{% endif %}</div>
   <p>{{ r.summary }}</p>
   {%- if r.facts and r.facts.walk_km %}
-  <table class="mini"><caption class="visually-hidden">Walking distance for transportation</caption><thead><tr><th scope="col">Grades</th><th scope="col" class="n">Walking distance before busing</th></tr></thead>
+  <table class="mini"><caption class="visually-hidden">Walking distance for transportation</caption><thead><tr><th scope="col">Grades</th><th scope="col" class="n">Walk distance</th></tr></thead>
     <tbody>{% for g, km in r.facts.walk_km.items() %}<tr><th scope="row">{{ g }}</th><td class="n">{{ km }} km</td></tr>{% endfor %}</tbody></table>
   {%- endif %}
   {%- if r.facts and r.facts.capacity_otg %}
