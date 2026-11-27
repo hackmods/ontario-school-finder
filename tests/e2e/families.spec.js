@@ -220,10 +220,10 @@ test.describe("phone (390px) for families", () => {
 // beside a long card), and a group with one card fills the row.
 test.describe("school page layout", () => {
   for (const width of [1280, 820, 390]) {
-    test(`cards stack without holes at ${width}px`, async ({ browser }) => {
+    test(`cards stack without holes at ${width}px (school, board and postal-area pages)`, async ({ browser }) => {
       const page = await browser.newPage({ viewport: { width, height: 900 } });
-      for (const id of [PP, "890200", "724777"]) {
-        await page.goto(`/school/${id}/`);
+      for (const url of [`/school/${PP}/`, "/school/890200/", "/school/724777/", "/board/B66150/", "/fsa/L2J/"]) {
+        await page.goto(url);
         const holes = await page.$$eval("main .cards", (groups) => groups.flatMap((g) => {
           const cards = [...g.children].map((c) => ({ c, r: c.getBoundingClientRect() }));
           return cards.flatMap(({ c, r }) => {
@@ -233,8 +233,11 @@ test.describe("school page layout", () => {
             return gap > 24 ? [`${g.closest("section")?.id}: "${id}" sits ${Math.round(gap)}px below the card above`] : [];
           });
         }));
-        expect(holes, `/school/${id}/`).toEqual([]);
-        if (width >= 760) {
+        expect(holes, url).toEqual([]);
+        // charts are drawn near the size they are shown, so their labels match the text around them
+        const scales = await page.$$eval("main #results .chart svg, main #enrolment .chart svg", (svgs) => svgs.filter((v) => v.getBoundingClientRect().width > 0).map((v) => +(v.getBoundingClientRect().width / v.viewBox.baseVal.width).toFixed(2)));
+        expect(scales.filter((x) => x < 0.75 || x > 1.35), url).toEqual([]);
+        if (width >= 760 && url.startsWith("/school/")) {
           // two columns, never three narrow ones
           const lefts = await page.$$eval("main #attendance .cards > *", (cs) => [...new Set(cs.map((c) => Math.round(c.getBoundingClientRect().left)))]);
           expect(lefts.length).toBeLessThanOrEqual(2);

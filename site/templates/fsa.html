@@ -35,7 +35,7 @@
   <div class="wrap">
     <h2>{{ _("Schools in and near {fsa}", fsa=f.fsa) }}</h2>
     {% if not groups %}<div class="note">{{ icon("info") }}<div><p>{{ _("No school is inside this postal area. The closest schools to its centre are listed below.") }}</p></div></div>{% endif %}
-    <div class="grid grid-2" style="margin-top:12px">
+    <div class="cards" style="margin-top:12px">
       {% for g in groups %}
       <div class="card" style="padding:16px 16px 6px">
         <h3 style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">{{ sysbadge(g.system, g.system_label) }} {{ _(g.level|capitalize) }} <span class="muted small" style="font-weight:500">({{ g.entries|length }})</span></h3>

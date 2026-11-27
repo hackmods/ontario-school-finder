@@ -384,7 +384,7 @@ class Site:
                           "levels": [{"n": 4 - i, "v": v, "w": (v if isinstance(v, (int, float)) else 0.5)} for i, v in enumerate(lv) if v is not None]}
             results.append({
                 "id": aid, "grade": a["grade"], "subject": a["subject"], "rows": rows, "summary": summary, "official": off, "detail": detail,
-                "svg": charts.eqao_chart(rows, yrs, gap=False,
+                "svg": charts.card_line_chart(rows, yrs, gap=False,
                                          title=_("{grade} {subject}: this school, board median and Ontario median by year, {first} to {last}",
                                                  grade=_(a["grade"]), subject=_(a["subject"]), first=yrs[0], last=yrs[-1])),
                 "codes": sorted({r["code"] for r in rows if r.get("code")}),
@@ -483,6 +483,7 @@ class Site:
                     contact_label=self.sources.get("contact-2026-11", {}).get("year", _("current")),
                     enrol_latest=enrol_latest, enrol_change=enrol_change,
                     enrol_svg=charts.wide_bar_chart(enrol, title=_("Enrolment at {name} by school year", name=s["name"])),
+                    enrol_svg_card=charts.card_bar_chart(enrol, title=_("Enrolment at {name} by school year", name=s["name"])),
                     latest_eqao=latest_eqao, eqao_span=_("{first} to {last}", first=min(e["year"] for e in s["eqao"]), last=latest_eqao) if latest_eqao else "",
                     context_rows=context_rows, childcare_date=human_date(s["childcare"]["snapshot"]), cs_view=cs_view, grade_view=grade_view,
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"),
@@ -688,7 +689,7 @@ class Site:
                 continue
             yrs = [y for y in years_all if any(r["year"] == y for r in rws)]
             medians.append({"grade": a["grade"], "subject": a["subject"], "rows": rws,
-                            "svg": charts.eqao_chart(rws, yrs, gap=False, title=_("{grade} {subject}: board median and Ontario median, {first} to {last}", grade=_(a["grade"]), subject=_(a["subject"]), first=yrs[0], last=yrs[-1]),
+                            "svg": charts.card_line_chart(rws, yrs, gap=False, title=_("{grade} {subject}: board median and Ontario median, {first} to {last}", grade=_(a["grade"]), subject=_(a["subject"]), first=yrs[0], last=yrs[-1]),
                                          main_key="board_median", main_label=_("Board median"))})
         # chart helper draws board_median dashed too; blank it so only the two lines show
         for m in medians:

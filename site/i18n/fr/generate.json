@@ -85,7 +85,6 @@
   "Ministry SHSM list {year}": "Liste du ministère sur la MHS, {year}",
   "SHSM · 1 sector": "MHS · 1 secteur",
   "SHSM · {n} sectors": "MHS · {n} secteurs",
-  "Which grades will the school offer next year, and is there room in the grade my child is entering? (The Ministry lists {first} to Grade {last}.)": "Quelles années d’études l’école offrira-t-elle l’an prochain, et y a-t-il de la place dans l’année où entre mon enfant ? (Le ministère indique : {first} à la {last}e année.)",
   "How do families apply for French Immersion (the board lists entry in {grades}), when is the registration window, and is there a waitlist?": "Comment les familles font-elles une demande d’immersion en français (le conseil indique une entrée en {grades}), quand a lieu la période d’inscription, et y a-t-il une liste d’attente ?",
   "How do families apply for French Immersion, when is the registration window, and is there a waitlist?": "Comment les familles font-elles une demande d’immersion en français, quand a lieu la période d’inscription, et y a-t-il une liste d’attente ?",
   "If my child lives outside this school's area, is transportation provided to the Immersion program?": "Si mon enfant habite hors du secteur de cette école, le transport vers le programme d’immersion est-il offert ?",
@@ -198,5 +197,6 @@
   "{n} KB": "{n} Ko",
   "Download the data": "Télécharger les données",
   "Download Ontario school data as CSV and JSON with a source id on every row.": "Téléchargez les données sur les écoles de l’Ontario en CSV et en JSON, avec un identifiant de source sur chaque ligne.",
-  "Page not found": "Page introuvable"
+  "Page not found": "Page introuvable",
+  "Which grades will the school offer next year, and is there room in the grade my child is entering? (The Ministry lists {span}.)": "Quelles années d’études l’école offrira-t-elle l’an prochain, et y a-t-il de la place dans l’année où entre mon enfant ? (Le ministère indique : {span}.)"
 }

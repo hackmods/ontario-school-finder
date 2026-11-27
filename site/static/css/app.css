@@ -433,6 +433,12 @@ a.hero-art:hover .hero-go { text-decoration: underline; }
   .chart svg.v-wide { display: none; }
   .chart svg.v-narrow { display: block; }
 }
+/* charts in a card: the card-sized copy from 460px wide, the phone copy below */
+.chart svg.v-sm { display: none; }
+@container (max-width: 460px) {
+  .chart svg.v-md { display: none; }
+  .chart svg.v-sm { display: block; }
+}
 .chart .grid-line { stroke: var(--line); stroke-width: 1; }
 .chart .axis-label { fill: var(--ink-3); font: 500 12px var(--font); }
 .chart .gap-band { fill: var(--surface-2); }
@@ -468,6 +474,8 @@ details.data-table summary { cursor: pointer; color: var(--ink-2); font-weight: 
 details.data-table summary::-webkit-details-marker { display: none; }
 details.data-table summary::before { content: "+"; display: inline-grid; place-items: center; width: 20px; height: 20px; margin-right: 8px; border-radius: 6px; background: var(--surface-2); font-weight: 700; }
 details.data-table[open] summary::before { content: "–"; }
+/* a closed card that is only a "show more" line: a slim row, not a tall empty card */
+details.data-table.card:not([open]) { padding-block: 4px; }
 .code { font: 600 .78rem/1 var(--mono); color: var(--accent); background: var(--accent-tint); padding: 2px 6px; border-radius: 6px; white-space: nowrap; }
 
 /* ---------- lists ---------- */
@@ -705,8 +713,9 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 .src-groups { display: grid; gap: 20px; }
 .src-pub { font-size: .86rem; font-weight: 650; color: var(--ink-2); letter-spacing: 0; margin: 0 0 8px; }
 .src-pub a { color: inherit; font-weight: 500; }
-.src-list { grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); gap: 8px; }
-.src-list li { padding: 10px 14px; min-width: 0; }
+/* source tiles flow in columns at their own height (a 2-file tile isn't stretched to match an 8-file one) */
+.src-list { display: block; columns: 340px; column-gap: 8px; }
+.src-list li { padding: 10px 14px; min-width: 0; break-inside: avoid; margin: 0 0 8px; }
 .src-list li > .t { font-weight: 650; overflow-wrap: anywhere; }
 .src-list li > .m { display: block; font-size: .8rem; color: var(--ink-3); margin-top: 2px; }
 .src-set .yrs { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 4px; }
@@ -851,6 +860,10 @@ table.mini td.n { text-align: right; font-variant-numeric: tabular-nums; }
 table.mini caption { text-align: left; font-size: .8rem; color: var(--ink-3); padding-bottom: 2px; }
 .note-inline { padding: 8px 10px; border-radius: var(--r-1); background: var(--warn-tint); margin: 0 0 10px; }
 .sq-table th[scope=row] { font-weight: 500; }
+/* earlier years under a figure: one year per line, never split inside "2024-25 47%" */
+.sq-earlier { margin-top: 4px; line-height: 1.35; }
+.sq-earlier > span { display: block; white-space: nowrap; }
+.sq-earlier b { font-weight: 600; color: var(--ink-2); }
 .sq-dist { list-style: none; margin: 0 0 6px; padding: 0; font-size: .86rem; }
 .sq-dist li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dotted var(--line); padding: 2px 0; }
 .questions { margin: 0; padding-left: 22px; display: grid; gap: 8px; }

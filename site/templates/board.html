@@ -154,7 +154,7 @@
           <tbody>
           {% for it in blk.rows %}
             <tr role="row"><th scope="row" role="rowheader">{{ _("“{question}”", question=_(it.question)) }}<div class="small muted">{{ _(it.label) }}: {% for a in it.agree %}{{ _(a)|lower }}{{ _(" or ") if not loop.last }}{% endfor %}</div></th>
-              <td class="n" role="cell" data-label="{{ _('Whole board') }}">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}{{ pc }}</b>{% if it.n %}<div class="small muted">{{ _("of {n}", n=(it.n)|num) }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier">{{ _("Earlier:") }} {% for h in it.history %}{{ h.year }} {% if h.agree_pct is not none %}{{ h.agree_pct }}{{ pc }}{% else %}<span class="code" title="{{ code_text(h.code) }}">{{ h.code }}</span>{% endif %}{{ "" if loop.last else " · " }}{% endfor %}</div>{% endif %}</td>
+              <td class="n" role="cell" data-label="{{ _('Whole board') }}">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}{{ pc }}</b>{% if it.n %}<div class="small muted">{{ _("of {n}", n=(it.n)|num) }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier"><span>{{ _("Earlier:") }}</span>{% for h in it.history %}<span>{{ h.year }} <b>{% if h.agree_pct is not none %}{{ h.agree_pct }}{{ pc }}{% else %}<span class="code" title="{{ code_text(h.code) }}">{{ h.code }}</span>{% endif %}</b></span>{% endfor %}</div>{% endif %}</td>
               <td class="n" role="cell" data-label="{{ _('Ontario') }}">{{ pct(it.province_pct) }}</td></tr>
           {% endfor %}
           </tbody>

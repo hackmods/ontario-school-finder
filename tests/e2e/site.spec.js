@@ -88,7 +88,7 @@ test.describe("pages", () => {
     const w = watch(page);
     await page.goto(`/school/${SCHOOL}/`);
     const chart = page.locator("#results .chart-card").first();
-    await expect(chart.locator("svg")).toBeVisible();
+    await expect(chart.locator("svg").filter({ visible: true })).toHaveCount(1); // one of the two sizes shows
     await expect(chart.locator("table")).toHaveCount(1);
     await chart.locator("summary").click();
     await expect(chart.locator("table tbody tr").first()).toBeVisible();
@@ -106,7 +106,7 @@ test.describe("pages", () => {
     const page = await ctx.newPage();
     await page.goto(`/school/${SCHOOL}/`);
     await expect(page.locator("h1")).toHaveText(/Anna McCrea/);
-    await expect(page.locator("#results svg").first()).toBeVisible();
+    await expect(page.locator("#results svg").filter({ visible: true }).first()).toBeVisible(); // one of each chart's two sizes
     await expect(page.locator("#sources li").first()).toBeVisible();
     await ctx.close();
   });
