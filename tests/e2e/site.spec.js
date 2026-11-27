@@ -239,6 +239,17 @@ test.describe("pages", () => {
     await expect(page.locator("[data-cmp-chips] .cmp-chip:not(.cmp-chip-empty)")).toHaveCount(ids.includes("019186") ? 1 : 2);
   });
 
+  test("a school picked while others are still loading keeps them (slow connection)", async ({ page }) => {
+    const ids = (await pickSchools(page, 2)).filter((id) => id !== "019186").slice(0, 2);
+    // hold the per-school data so the pick happens before the first load finishes
+    await page.route("**/data/schools/*.json*", async (route) => { await new Promise((r) => setTimeout(r, 1500)); await route.continue(); });
+    await page.goto(`/compare/?ids=${ids.join(",")}`);
+    await page.fill("#cq", "McCrea");
+    await page.locator("#cq-list [role=option]", { hasText: "Anna McCrea" }).first().click();
+    await expect(page.locator("[data-cmp-chips] .cmp-chip:not(.cmp-chip-empty)")).toHaveCount(ids.length + 1, { timeout: 15_000 });
+    await expect(page).toHaveURL(new RegExp(`ids=${ids.join(",")},019186`));
+  });
+
   test("school page shows class sizes and students by grade", async ({ page }) => {
     await page.goto(`/school/${SCHOOL}/`);
     // long series are drawn twice (phone and wide copies); exactly one shows, picked by the chart's width

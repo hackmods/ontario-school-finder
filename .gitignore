@@ -11,3 +11,5 @@ playwright-report/
 deploy.tar
 *.log
 .DS_Store
+site/data.building/
+site/data.old/

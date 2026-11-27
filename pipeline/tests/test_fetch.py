@@ -78,3 +78,32 @@ def test_errors_and_block_pages_never_replace_good_data(cache, resp):
     cache.setattr(fetch, "REVALIDATE", True)
     assert fetch.download("src", URL, expect="csv") == path
     assert path.read_bytes() == b"a,b\n1,2\n" and fetch.manifest_entry("src")["retrieved"] == before["retrieved"]
+
+
+def test_a_failed_build_leaves_the_previous_data(tmp_path, monkeypatch):
+    from pipeline import build
+    final = tmp_path / "data"
+    (final / "schools").mkdir(parents=True)
+    (final / "schools" / "x.json").write_text("old", encoding="utf-8")
+    monkeypatch.setattr(config, "OUT", final)
+
+    def boom(clean=False):
+        (config.OUT / "schools").mkdir(parents=True)
+        (config.OUT / "schools" / "x.json").write_text("half-written", encoding="utf-8")
+        raise RuntimeError("source changed")
+
+    monkeypatch.setattr(build, "_build", boom)
+    with pytest.raises(RuntimeError):
+        build.build()
+    assert (final / "schools" / "x.json").read_text(encoding="utf-8") == "old"
+    assert config.OUT == final
+
+    def ok(clean=False):
+        (config.OUT / "schools").mkdir(parents=True)
+        (config.OUT / "schools" / "x.json").write_text("new", encoding="utf-8")
+        return {"schools": 1}
+
+    monkeypatch.setattr(build, "_build", ok)
+    assert build.build() == {"schools": 1}
+    assert (final / "schools" / "x.json").read_text(encoding="utf-8") == "new"
+    assert not (tmp_path / "data.building").exists() and not (tmp_path / "data.old").exists()

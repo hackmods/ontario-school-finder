@@ -146,6 +146,28 @@ def questionnaire_history(eqao_sq: dict) -> dict:
 
 
 def build(clean: bool = False) -> dict:
+    """Build into site/data.building and swap it into place only when everything succeeded, so a failed or
+    interrupted run leaves the previous site/data intact (it used to delete site/data halfway through)."""
+    final = config.OUT
+    work = final.with_name(final.name + ".building")
+    if work.exists():
+        shutil.rmtree(work)
+    config.OUT = work
+    try:
+        result = _build(clean)
+    finally:
+        config.OUT = final
+    old = final.with_name(final.name + ".old")
+    if old.exists():
+        shutil.rmtree(old)
+    if final.exists():
+        final.rename(old)
+    work.rename(final)
+    shutil.rmtree(old, ignore_errors=True)
+    return result
+
+
+def _build(clean: bool = False) -> dict:
     t0 = time.time()
     if clean and config.RAW.exists():
         shutil.rmtree(config.RAW)

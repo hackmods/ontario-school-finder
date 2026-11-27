@@ -448,7 +448,7 @@ function renderChips(schools) {
   ul.innerHTML = schools
     .map((s, i) => `<li class="cmp-chip">${swatch(i)}<a href="/school/${s.bsid}/">${esc(short(s.name))}</a><button type="button" class="icon-btn" data-remove="${esc(s.bsid)}" aria-label="Remove ${esc(s.name)}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button></li>`)
     .join("") + (schools.length < MAX_COMPARE ? `<li class="cmp-chip cmp-chip-empty">${schools.length ? `Add up to ${MAX_COMPARE - schools.length} more` : `Add 2 to ${MAX_COMPARE} schools`}</li>` : "");
-  ul.querySelectorAll("[data-remove]").forEach((b) => b.addEventListener("click", () => go(state.schools.map((s) => s.bsid).filter((id) => id !== b.dataset.remove))));
+  ul.querySelectorAll("[data-remove]").forEach((b) => b.addEventListener("click", () => go((state.ids || state.schools.map((s) => s.bsid)).filter((id) => id !== b.dataset.remove))));
 }
 
 function render() {
@@ -471,16 +471,24 @@ function render() {
   drawCharts();
 }
 
+// state.ids is the list the visitor asked for, set at once; state.schools is what has loaded. Adding or removing
+// works from state.ids, so a school picked while others are still loading never drops them, and a load that a
+// later change has overtaken is ignored.
+let loadSeq = 0;
 async function go(ids) {
   ids = [...new Set(ids)].slice(0, MAX_COMPARE);
+  state.ids = ids;
+  const seq = ++loadSeq;
   history.replaceState(null, "", ids.length ? `/compare/?ids=${ids.join(",")}` : "/compare/");
   if (!state.schools.length) root.innerHTML = '<p class="loading">Loading schools…</p>';
   let missing = [];
   try {
     const r = await load(ids);
+    if (seq !== loadSeq) return;
     state.schools = ids.map((id) => r.schools.find((s) => s.bsid === id)).filter(Boolean);
     missing = r.missing;
   } catch {
+    if (seq !== loadSeq) return;
     root.innerHTML = '<div class="note note-warn"><div><p>Couldn’t load the comparison. Check your connection and try again.</p></div></div>';
     return;
   }
@@ -491,7 +499,7 @@ async function go(ids) {
 
 // ---------------------------------------------------------------- controls
 document.addEventListener("osf:pick", (e) => {
-  const ids = state.schools.map((s) => s.bsid);
+  const ids = [...(state.ids || state.schools.map((s) => s.bsid))];
   if (ids.includes(e.detail.id)) return;
   if (ids.length >= MAX_COMPARE) ids.shift();
   go([...ids, e.detail.id]);
