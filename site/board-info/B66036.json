@@ -330,5 +330,2275 @@
         "088609": "Cathcart Blvd. (Sarnia)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "109920": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-109920",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=105",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 92,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 92
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 88
+              },
+              {
+                "year": "2034-35",
+                "value": 78
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 92, with 92 students on October 31, 2024; it forecasts 78 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "118583": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-118583",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=62",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 254
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 273
+              },
+              {
+                "year": "2034-35",
+                "value": 289
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 254 students on October 31, 2024; it forecasts 289 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "120715": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-120715",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=62",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 305,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 268
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 348
+              },
+              {
+                "year": "2034-35",
+                "value": 394
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 305, with 268 students on October 31, 2024; it forecasts 394 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "135135": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-135135",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=84",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 256,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 124
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 137
+              },
+              {
+                "year": "2034-35",
+                "value": 137
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 256, with 124 students on October 31, 2024; it forecasts 137 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "148660": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-148660",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=84",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 446,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 391
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 404
+              },
+              {
+                "year": "2034-35",
+                "value": 406
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 446, with 391 students on October 31, 2024; it forecasts 406 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "185833": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-185833",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=91",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 288
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 335
+              },
+              {
+                "year": "2034-35",
+                "value": 366
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 190, with 288 students on October 31, 2024; it forecasts 366 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "185841": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-185841",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=91",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 427
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 437
+              },
+              {
+                "year": "2034-35",
+                "value": 457
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458, with 427 students on October 31, 2024; it forecasts 457 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "226661": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-226661",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=98",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 248,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 265
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 281
+              },
+              {
+                "year": "2034-35",
+                "value": 300
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 248, with 265 students on October 31, 2024; it forecasts 300 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "230693": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-230693",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=55",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 374,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 256
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 239
+              },
+              {
+                "year": "2034-35",
+                "value": 235
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 374, with 256 students on October 31, 2024; it forecasts 235 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "237329": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-237329",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=119",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 271,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 179
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 177
+              },
+              {
+                "year": "2034-35",
+                "value": 174
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 271, with 179 students on October 31, 2024; it forecasts 174 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "243175": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-243175",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=62",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 383,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 181
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 200
+              },
+              {
+                "year": "2034-35",
+                "value": 201
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 383, with 181 students on October 31, 2024; it forecasts 201 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "247197": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-247197",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=48",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 581,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 366
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 328
+              },
+              {
+                "year": "2034-35",
+                "value": 322
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 581, with 366 students on October 31, 2024; it forecasts 322 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "255394": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-255394",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=62",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 530,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 455
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 444
+              },
+              {
+                "year": "2034-35",
+                "value": 441
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 530, with 455 students on October 31, 2024; it forecasts 441 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "258016": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-258016",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=77",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 259,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 276
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 297
+              },
+              {
+                "year": "2034-35",
+                "value": 301
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 259, with 276 students on October 31, 2024; it forecasts 301 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "265640": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-265640",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=105",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 375,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 258
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 264
+              },
+              {
+                "year": "2034-35",
+                "value": 276
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 375, with 258 students on October 31, 2024; it forecasts 276 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "275131": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-275131",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=70",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 643,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 663
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 731
+              },
+              {
+                "year": "2034-35",
+                "value": 881
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 643, with 663 students on October 31, 2024; it forecasts 881 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "297127": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-297127",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=55",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 374,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 285
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 267
+              },
+              {
+                "year": "2034-35",
+                "value": 267
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 374, with 285 students on October 31, 2024; it forecasts 267 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "297380": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-297380",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=91",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 284
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 292
+              },
+              {
+                "year": "2034-35",
+                "value": 300
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 284 students on October 31, 2024; it forecasts 300 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "304140": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-304140",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=91",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 394,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 166
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 165
+              },
+              {
+                "year": "2034-35",
+                "value": 166
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 394, with 166 students on October 31, 2024; it forecasts 166 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "305510": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-305510",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=77",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 210
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 222
+              },
+              {
+                "year": "2034-35",
+                "value": 221
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 337, with 210 students on October 31, 2024; it forecasts 221 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "308307": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-308307",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=62",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 389,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 325
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 344
+              },
+              {
+                "year": "2034-35",
+                "value": 340
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 389, with 325 students on October 31, 2024; it forecasts 340 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "319872": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-319872",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=62",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 182
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 173
+              },
+              {
+                "year": "2034-35",
+                "value": 138
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 182 students on October 31, 2024; it forecasts 138 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "356026": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-356026",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=55",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 766,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 770
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 831
+              },
+              {
+                "year": "2034-35",
+                "value": 893
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 766, with 770 students on October 31, 2024; it forecasts 893 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "361895": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-361895",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=48",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 302,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 136
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 111
+              },
+              {
+                "year": "2034-35",
+                "value": 103
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 302, with 136 students on October 31, 2024; it forecasts 103 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "371610": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-371610",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=63",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 256,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 96
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 82
+              },
+              {
+                "year": "2034-35",
+                "value": 79
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 256, with 96 students on October 31, 2024; it forecasts 79 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "432918": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-432918",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=63",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 530,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 516
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 530
+              },
+              {
+                "year": "2034-35",
+                "value": 516
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 530, with 516 students on October 31, 2024; it forecasts 516 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "462748": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-462748",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=70",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 442,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 314
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 297
+              },
+              {
+                "year": "2034-35",
+                "value": 288
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 442, with 314 students on October 31, 2024; it forecasts 288 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "462870": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-462870",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=77",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 397,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 337
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 345
+              },
+              {
+                "year": "2034-35",
+                "value": 359
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 397, with 337 students on October 31, 2024; it forecasts 359 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "463000": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-463000",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=63",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 475,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 269
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 237
+              },
+              {
+                "year": "2034-35",
+                "value": 210
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 475, with 269 students on October 31, 2024; it forecasts 210 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "486922": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-486922",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=119",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 148
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 177
+              },
+              {
+                "year": "2034-35",
+                "value": 176
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 148 students on October 31, 2024; it forecasts 176 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "491080": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-491080",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=91",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 492,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 468
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 446
+              },
+              {
+                "year": "2034-35",
+                "value": 461
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 492, with 468 students on October 31, 2024; it forecasts 461 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "516074": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-516074",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=63",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 472,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 466
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 570
+              },
+              {
+                "year": "2034-35",
+                "value": 752
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 472, with 466 students on October 31, 2024; it forecasts 752 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "548707": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-548707",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=55",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 559,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 571
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 604
+              },
+              {
+                "year": "2034-35",
+                "value": 656
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 559, with 571 students on October 31, 2024; it forecasts 656 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "551147": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-551147",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=84",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 199,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 155
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 171
+              },
+              {
+                "year": "2034-35",
+                "value": 177
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 199, with 155 students on October 31, 2024; it forecasts 177 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "556602": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-556602",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=112",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 470,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 310
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 327
+              },
+              {
+                "year": "2034-35",
+                "value": 342
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 470, with 310 students on October 31, 2024; it forecasts 342 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "570326": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-570326",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=119",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 161,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 141
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 126
+              },
+              {
+                "year": "2034-35",
+                "value": 129
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 161, with 141 students on October 31, 2024; it forecasts 129 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "572853": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-572853",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=70",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 533,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 319
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 323
+              },
+              {
+                "year": "2034-35",
+                "value": 340
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 533, with 319 students on October 31, 2024; it forecasts 340 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "580007": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-580007",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=48",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 192
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 161
+              },
+              {
+                "year": "2034-35",
+                "value": 156
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 192 students on October 31, 2024; it forecasts 156 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "587281": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-587281",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=98",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 351,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 226
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 254
+              },
+              {
+                "year": "2034-35",
+                "value": 287
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 351, with 226 students on October 31, 2024; it forecasts 287 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "604054": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-604054",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=112",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 169
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 168
+              },
+              {
+                "year": "2034-35",
+                "value": 166
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 337, with 169 students on October 31, 2024; it forecasts 166 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "615757": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-615757",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=70",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 374,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 255
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 234
+              },
+              {
+                "year": "2034-35",
+                "value": 231
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 374, with 255 students on October 31, 2024; it forecasts 231 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "619787": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-619787",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=98",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 331,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 298
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 303
+              },
+              {
+                "year": "2034-35",
+                "value": 350
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 331, with 298 students on October 31, 2024; it forecasts 350 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "622257": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-622257",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=77",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 257,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 301
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 349
+              },
+              {
+                "year": "2034-35",
+                "value": 387
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 257, with 301 students on October 31, 2024; it forecasts 387 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "625221": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-625221",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=84",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 219,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 100
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 104
+              },
+              {
+                "year": "2034-35",
+                "value": 104
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 219, with 100 students on October 31, 2024; it forecasts 104 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "890861": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-890861",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=63",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 1113,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 1118
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 1107
+              },
+              {
+                "year": "2034-35",
+                "value": 1149
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,113, with 1,118 students on October 31, 2024; it forecasts 1,149 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "895148": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-895148",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=48",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 768,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 240
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 244
+              },
+              {
+                "year": "2034-35",
+                "value": 196
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 768, with 240 students on October 31, 2024; it forecasts 196 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "910228": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-910228",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=98",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 822,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 581
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 641
+              },
+              {
+                "year": "2034-35",
+                "value": 668
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 822, with 581 students on October 31, 2024; it forecasts 668 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "918938": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-918938",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=70",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 921,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 558
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 624
+              },
+              {
+                "year": "2034-35",
+                "value": 595
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 921, with 558 students on October 31, 2024; it forecasts 595 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "919322": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-919322",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=55",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 1407,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 1160
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 1275
+              },
+              {
+                "year": "2034-35",
+                "value": 1305
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,407, with 1,160 students on October 31, 2024; it forecasts 1,305 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "921408": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-921408",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=77",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 1185,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 851
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 928
+              },
+              {
+                "year": "2034-35",
+                "value": 1139
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,185, with 851 students on October 31, 2024; it forecasts 1,139 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "921530": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-921530",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=84",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 756,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 351
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 282
+              },
+              {
+                "year": "2034-35",
+                "value": 325
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 756, with 351 students on October 31, 2024; it forecasts 325 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "930636": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-930636",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=91",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 1341,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 1165
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 1228
+              },
+              {
+                "year": "2034-35",
+                "value": 1245
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,341, with 1,165 students on October 31, 2024; it forecasts 1,245 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "938696": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-938696",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=105",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 495,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 124
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 124
+              },
+              {
+                "year": "2034-35",
+                "value": 140
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 495, with 124 students on October 31, 2024; it forecasts 140 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "948446": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-948446",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=112",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 537,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 352
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 310
+              },
+              {
+                "year": "2034-35",
+                "value": 308
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 537, with 352 students on October 31, 2024; it forecasts 308 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "950521": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-950521",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=119",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 1161,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 574
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 573
+              },
+              {
+                "year": "2034-35",
+                "value": 604
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,161, with 574 students on October 31, 2024; it forecasts 604 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "062081": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-062081",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=77",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 305,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 188
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 206
+              },
+              {
+                "year": "2034-35",
+                "value": 211
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 305, with 188 students on October 31, 2024; it forecasts 211 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "066370": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-066370",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=77",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 375,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 272
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 273
+              },
+              {
+                "year": "2034-35",
+                "value": 282
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 375, with 272 students on October 31, 2024; it forecasts 282 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "061824": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-061824",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=91",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 254,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 129
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 141
+              },
+              {
+                "year": "2034-35",
+                "value": 154
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 254, with 129 students on October 31, 2024; it forecasts 154 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "063517": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-063517",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=91",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 378,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 335
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 323
+              },
+              {
+                "year": "2034-35",
+                "value": 331
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 378, with 335 students on October 31, 2024; it forecasts 331 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "088609": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-088609",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=91",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 518,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 548
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 592
+              },
+              {
+                "year": "2034-35",
+                "value": 658
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 518, with 548 students on October 31, 2024; it forecasts 658 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "001244": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-001244",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=98",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 199,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 105
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 142
+              },
+              {
+                "year": "2034-35",
+                "value": 174
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 199, with 105 students on October 31, 2024; it forecasts 174 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "055719": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-055719",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=98",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 176
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 189
+              },
+              {
+                "year": "2034-35",
+                "value": 226
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 176 students on October 31, 2024; it forecasts 226 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "000078": {
+      "records": [
+        {
+          "id": "lkdsb-capacity-000078",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long Term Capital & Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf#page=119",
+          "source_date": "January 2025",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 257
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-30",
+                "value": 252
+              },
+              {
+                "year": "2034-35",
+                "value": 241
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 257 students on October 31, 2024; it forecasts 241 in 2034-35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

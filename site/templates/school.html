@@ -11,53 +11,54 @@
 <div class="page-head">
   <div class="wrap">
     <ol class="crumbs">
-      <li><a href="/">Home</a></li>
-      <li><a href="/board/{{ s.board_number }}/">{{ s.board_name }}</a></li>
+      <li><a href="{{ u('/') }}">{{ _("Home") }}</a></li>
+      <li><a href="{{ u('/board/' ~ s.board_number ~ '/') }}">{{ s.board_name }}</a></li>
       <li aria-current="page">{{ s.name }}</li>
     </ol>
     <div class="head-row">
       <div style="min-width:0">
         <div class="head-meta">
           {{ sysbadge(s.system, system_label) }}
-          <span class="badge">{{ s.level|capitalize }} · {{ s.grades or "grades not listed" }}</span>
-          {% if s.special %}<span class="badge badge-warn">School type: {{ s.special }}</span>{% endif %}
-          {% for b in fv.badges %}<span class="badge badge-prog prog-{{ b.key }}" title="{{ program_help.get(b.key, '') }} Source: {{ b.source }}.">{{ b.label }}</span>{% endfor %}
-          {% if s.status != "open" %}<span class="badge badge-warn">Not in the {{ contact_label }} contact list</span>{% endif %}
+          <span class="badge">{{ _(s.level|capitalize) }} · {{ s.grades|grades or _("grades not listed") }}</span>
+          {% if s.special %}<span class="badge badge-warn">{{ _("School type: {type}", type=_(s.special)) }}</span>{% endif %}
+          {% for b in fv.badges %}<span class="badge badge-prog prog-{{ b.key }}" title="{{ _(program_help.get(b.key, '')) }} {{ _('Source: {source}.', source=b.source) }}">{{ _(b.label) }}</span>{% endfor %}
+          {% if s.status != "open" %}<span class="badge badge-warn">{{ _("Not in the {list} contact list", list=contact_label) }}</span>{% endif %}
         </div>
         <h1>{{ s.name }}</h1>
         <p class="muted" style="margin:0">{{ address_line }}</p>
       </div>
       <div class="head-actions">
-        <button class="btn" type="button" data-compare-toggle="{{ s.bsid }}" data-compare-name="{{ s.name }}" aria-pressed="false">{{ icon("plus") }}<span>Compare</span></button>
-        {% if s.website %}<a class="btn btn-primary" href="{{ s.website }}" rel="noopener">{{ icon("globe") }}School website</a>{% endif %}
+        <button class="btn" type="button" data-compare-toggle="{{ s.bsid }}" data-compare-name="{{ s.name }}" aria-pressed="false">{{ icon("plus") }}<span>{{ _("Compare") }}</span></button>
+        {% if s.website %}<a class="btn btn-primary" href="{{ s.website }}" rel="noopener">{{ icon("globe") }}{{ _("School website") }}</a>{% endif %}
       </div>
     </div>
+    {% if s.website_note %}<p class="small muted" style="margin:8px 0 0" data-website-note>{{ _("The school website link in the Ministry’s list doesn’t work any more: {detail} (checked {checked}).", detail=_(s.website_note.detail), checked=s.website_note.checked) }}{% if s.board_website %} {{ _h('Find the school on <a href="{url}" rel="noopener">{board}’s website</a>.', url=s.board_website, board=s.board_name) }}{% endif %}</p>{% endif %}
     <dl class="facts">
-      <div><dt>Board</dt><dd><a href="/board/{{ s.board_number }}/">{{ s.board_name }}</a></dd></div>
-      <div><dt>Postal area</dt><dd><a href="/fsa/{{ s.fsa }}/">{{ s.fsa }}</a>{% if s.postal_code %} · {{ s.postal_code }}{% endif %}</dd></div>
-      {% if s.phone %}<div><dt>Phone</dt><dd><a href="tel:{{ s.phone|replace('-', '') }}">{{ s.phone }}</a></dd></div>{% endif %}
-      {% if s.email %}<div><dt>Email</dt><dd><a href="mailto:{{ s.email }}">{{ s.email }}</a></dd></div>{% endif %}
-      {% if fv.opened %}<div><dt>Open at this school number since</dt><dd title="The date in the Ministry’s school contact list for this school number. 1969 is the earliest date the list uses, and a building can be older or newer.">{{ fv.opened }}</dd></div>{% endif %}
-      <div><dt>School number (BSID)</dt><dd class="tnum">{{ s.bsid }}</dd></div>
+      <div><dt>{{ _("Board") }}</dt><dd><a href="{{ u('/board/' ~ s.board_number ~ '/') }}">{{ s.board_name }}</a></dd></div>
+      <div><dt>{{ _("Postal area") }}</dt><dd><a href="{{ u('/fsa/' ~ s.fsa ~ '/') }}">{{ s.fsa }}</a>{% if s.postal_code %} · {{ s.postal_code }}{% endif %}</dd></div>
+      {% if s.phone %}<div><dt>{{ _("Phone") }}</dt><dd><a href="tel:{{ s.phone|replace('-', '') }}">{{ s.phone }}</a></dd></div>{% endif %}
+      {% if s.email %}<div><dt>{{ _("Email") }}</dt><dd><a href="mailto:{{ s.email }}">{{ s.email }}</a></dd></div>{% endif %}
+      {% if fv.opened %}<div><dt>{{ _("Open at this school number since") }}</dt><dd title="{{ _('The date in the Ministry’s school contact list for this school number. 1969 is the earliest date the list uses, and a building can be older or newer.') }}">{{ fv.opened }}</dd></div>{% endif %}
+      <div><dt>{{ _("School number (BSID)") }}</dt><dd class="tnum">{{ s.bsid }}</dd></div>
     </dl>
   </div>
 </div>
 
-<nav class="subnav" aria-label="On this page">
+<nav class="subnav" aria-label="{{ _('On this page') }}">
   <div class="wrap">
-    <a href="#attendance">Getting in</a>
-    <a href="#overview">Map</a>
-    <a href="#programs">Programs</a>
-    <a href="#results">Results</a>
-    {% if fv.sq %}<a href="#experience">Student experience</a>{% endif %}
-    {% if s.enrolment %}<a href="#enrolment">Enrolment</a>{% endif %}
-    {% if cs_view or s.level == "elementary" %}<a href="#class-sizes">Class sizes</a>{% endif %}
-    <a href="#students">Students</a>
-    <a href="#supports">Supports</a>
-    <a href="#board-info">Plans and involvement</a>
-    <a href="#nearby">Child care</a>
-    <a href="#questions">Questions to ask</a>
-    <a href="#sources">Sources</a>
+    <a href="#attendance">{{ _("Getting in") }}</a>
+    <a href="#overview">{{ _("Map") }}</a>
+    <a href="#programs">{{ _("Programs") }}</a>
+    <a href="#results">{{ _("Results") }}</a>
+    {% if fv.sq %}<a href="#experience">{{ _("Student experience") }}</a>{% endif %}
+    {% if s.enrolment %}<a href="#enrolment">{{ _("Enrolment") }}</a>{% endif %}
+    {% if cs_view or s.level == "elementary" %}<a href="#class-sizes">{{ _("Class sizes") }}</a>{% endif %}
+    <a href="#students">{{ _("Students") }}</a>
+    <a href="#supports">{{ _("Supports") }}</a>
+    <a href="#board-info">{{ _("Plans and involvement") }}</a>
+    <a href="#nearby">{{ _("Child care") }}</a>
+    <a href="#questions">{{ _("Questions to ask") }}</a>
+    <a href="#sources">{{ _("Sources") }}</a>
   </div>
 </nav>
 
@@ -65,68 +66,72 @@
 {%- set loc = fv.locator %}
 <section class="block" id="attendance">
   <div class="wrap">
-    <h2>Attendance and registration</h2>
-    <p class="block-intro">What the Ministry and {{ info.board_name }} publish about getting into this school. Published rules are kept apart from decisions made case by case; anything we couldn’t find is labelled. Always confirm with the school or board: nothing here guarantees a place.</p>
+    <h2>{{ _("Attendance and registration") }}</h2>
+    <p class="block-intro">{{ _("What the Ministry and {board} publish about getting into this school. Published rules are kept apart from decisions made case by case; anything we couldn’t find is labelled. Always confirm with the school or board: nothing here guarantees a place.", board=info.board_name) }}</p>
     <div class="grid grid-2 grid-top">
       <div class="card">
-        <h3>{{ icon("check", "card-ic") }}Does it offer my child’s grade?</h3>
+        <h3>{{ icon("check", "card-ic") }}{{ _("Does it offer my child’s grade?") }}</h3>
         {% if fv.offered %}
-        <ul class="grade-strip" aria-label="Grades offered: {{ fv.grade_span }}">
-          {% for g in ["JK", "K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"] %}<li class="{{ 'on' if g in fv.offered else 'off' }}" title="{{ grade_label[g] }}: {{ 'offered' if g in fv.offered else 'not offered' }}"><span aria-hidden="true">{{ "SK" if g == "K" else g }}</span><span class="visually-hidden">{{ grade_label[g] }} {{ "offered" if g in fv.offered else "not offered" }}</span></li>{% endfor %}
+        <ul class="grade-strip" aria-label="{{ _('Grades offered: {grades}', grades=fv.grade_span) }}">
+          {% for g in ["JK", "K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"] %}<li class="{{ 'on' if g in fv.offered else 'off' }}" title="{{ _('{grade}: offered', grade=_(grade_label[g])) if g in fv.offered else _('{grade}: not offered', grade=_(grade_label[g])) }}"><span aria-hidden="true">{{ ("SK" if g == "K" else g)|grades }}</span><span class="visually-hidden">{{ _('{grade} offered', grade=_(grade_label[g])) if g in fv.offered else _('{grade} not offered', grade=_(grade_label[g])) }}</span></li>{% endfor %}
         </ul>
-        <p style="margin:10px 0 0"><strong>{{ fv.grade_span }}</strong>{% if "JK" not in fv.offered and s.level == "elementary" %}. No kindergarten at this school{% endif %}.</p>
+        <p style="margin:10px 0 0"><strong>{{ fv.grade_span }}</strong>{% if "JK" not in fv.offered and s.level == "elementary" %}. {{ _("No kindergarten at this school") }}{% endif %}.</p>
         {% else %}
-        <p class="muted" style="margin:0"><span class="badge">Not published</span> The Ministry’s file has no grade range for this school. Ask the school which grades it offers.</p>
+        <p class="muted" style="margin:0"><span class="badge">{{ _("Not published") }}</span> {{ _("The Ministry’s file has no grade range for this school. Ask the school which grades it offers.") }}</p>
         {% endif %}
-        <p class="small muted" style="margin:8px 0 0">From the Ministry’s school list ({{ s.context.year }}). Grades can change from year to year.</p>
+        <p class="small muted" style="margin:8px 0 0">{{ _("From the Ministry’s school list ({year}). Grades can change from year to year.", year=s.context.year) }}</p>
       </div>
       <div class="card">
-        <h3>{{ icon("pin", "card-ic") }}Which school serves my address?</h3>
+        <h3>{{ icon("pin", "card-ic") }}{{ _("Which school serves my address?") }}</h3>
         {% for r in T.get("address_lookup", []) %}<p style="margin:0 0 8px"><a class="btn btn-sm btn-wrap" href="{{ r.url }}" rel="noopener">{{ icon("pin") }}{{ r.title }}</a></p><p class="small" style="margin:0 0 8px">{{ r.summary }}</p>{% else %}
-        {% if loc %}<p style="margin:0 0 8px"><a class="btn btn-sm" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ "Boundary maps" if loc.kind == "maps" else "Check your address" }}</a></p>{% else %}<p class="small" style="margin:0 0 8px">Ask {{ s.board_name }}{% if s.board_website %} (<a href="{{ s.board_website }}" rel="noopener">board website</a>){% endif %}.</p>{% endif %}
+        {% if loc %}<p style="margin:0 0 8px"><a class="btn btn-sm" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ _("Boundary maps") if loc.kind == "maps" else _("Check your address") }}</a></p>{% else %}<p class="small" style="margin:0 0 8px">{% if s.board_website %}{{ _h('Ask {board} (<a href="{url}" rel="noopener">board website</a>).', board=s.board_name, url=s.board_website) }}{% else %}{{ _("Ask {board}.", board=s.board_name) }}{% endif %}</p>{% endif %}
         {% endfor %}
-        <p class="small muted" style="margin:0">Only the board decides which school serves an address. Distance, postal code and the map on this page are not a guarantee{% if official_label %}; the boundary shown is the board’s own map, but streets can have exceptions{% endif %}.</p>
+        <p class="small muted" style="margin:0">{% if official_label %}{{ _("Only the board decides which school serves an address. Distance, postal code and the map on this page are not a guarantee; the boundary shown is the board’s own map, but streets can have exceptions.") }}{% else %}{{ _("Only the board decides which school serves an address. Distance, postal code and the map on this page are not a guarantee.") }}{% endif %}</p>
       </div>
       <div class="card">
-        <h3>{{ icon("school", "card-ic") }}Programs and how to get in</h3>
-        {% if fv.badges %}<ul class="chips" style="margin:0 0 10px">{% for b in fv.badges %}<li class="chip-static">{{ b.label }}<span class="muted small"> · {{ b.source }}</span></li>{% endfor %}</ul>{% endif %}
-        {% for b in fv.badges if b.ministry_missing %}<p class="small note-inline"><strong>Sources differ.</strong> {{ info.board_name }} lists this school on its <a href="{{ fv.listed['french-immersion'].url }}" rel="noopener">French Immersion schools page</a> (checked {{ fv.listed['french-immersion'].verified }}), but the Ministry’s preliminary {{ s.programs.fsl.year if s.programs.fsl else "2024-25" }} list does not mark it as offering Immersion. Ask the board.</p>{% endfor %}
-        {% if T.get("program") %}{{ records(T.program) }}{% elif fv.badges|selectattr("key", "in", ["french-immersion", "extended-french"])|list %}{{ not_collected(info.board_name, s.board_website) }}{% elif not fv.badges %}<p class="muted small" style="margin:0">No French as a second language or Specialist High Skills Major program is listed for this school. Ask about other programs the school runs.</p>{% endif %}
+        <h3>{{ icon("school", "card-ic") }}{{ _("Programs and how to get in") }}</h3>
+        {% if fv.badges %}<ul class="chips" style="margin:0 0 10px">{% for b in fv.badges %}<li class="chip-static">{{ _(b.label) }}<span class="muted small"> · {{ b.source }}</span></li>{% endfor %}</ul>{% endif %}
+        {% for b in fv.badges if b.ministry_missing %}<p class="small note-inline">{{ _h('<strong>Sources differ.</strong> {board} lists this school on its <a href="{url}" rel="noopener">French Immersion schools page</a> (checked {checked}), but the Ministry’s preliminary {year} list does not mark it as offering Immersion. Ask the board.', board=info.board_name, url=fv.listed['french-immersion'].url, checked=fv.listed['french-immersion'].verified, year=(s.programs.fsl.year if s.programs.fsl else "2024-25")) }}</p>{% endfor %}
+        {% if T.get("program") %}{{ records(T.program) }}{% elif fv.badges|selectattr("key", "in", ["french-immersion", "extended-french"])|list %}{{ not_collected(info.board_name, s.board_website) }}{% elif not fv.badges %}<p class="muted small" style="margin:0">{{ _("No French as a second language or Specialist High Skills Major program is listed for this school. Ask about other programs the school runs.") }}</p>{% endif %}
       </div>
       <div class="card">
-        <h3>{{ icon("info", "card-ic") }}Registering, transfers and buses</h3>
+        <h3>{{ icon("info", "card-ic") }}{{ _("Registering, transfers and buses") }}</h3>
         {% set reg = T.get("registration", []) + T.get("transfer", []) + T.get("transportation", []) %}
         {% if reg %}{{ records(reg) }}{% else %}{{ not_collected(info.board_name, s.board_website) }}{% endif %}
       </div>
     </div>
-    {% if info.collected %}<p class="small muted" style="margin:12px 0 0">Board information collected by hand from {{ info.board_name }}’s own pages and checked {{ info.checked }}. Dates and deadlines change every year; follow the links for the current ones.</p>{% endif %}
+    {% if info.collected %}<p class="small muted" style="margin:12px 0 0">{{ _("Board information collected by hand from {board}’s own pages and checked {checked}. Dates and deadlines change every year; follow the links for the current ones.", board=info.board_name, checked=info.checked) }}</p>{% endif %}
   </div>
 </section>
 
 <section class="block" id="overview">
   <div class="wrap">
-    <h2>Overview</h2>
+    <h2>{{ _("Overview") }}</h2>
     <div class="kpis">
-      <div class="kpi"><div class="k">Enrolment {{ enrol_latest.year if enrol_latest else "" }}</div>
-        <div class="v">{% if enrol_latest and enrol_latest.value is not none %}{{ "{:,}".format(enrol_latest.value) }}{% elif enrol_latest %}<span class="code" title="{{ code_text(enrol_latest.code) }}">{{ enrol_latest.code }}</span>{% else %}—{% endif %}</div>
-        <div class="d">{% if enrol_change %}{{ enrol_change }}{% else %}Rounded by the Ministry{% endif %}</div></div>
-      <div class="kpi"><div class="k">Latest EQAO year</div><div class="v">{{ latest_eqao or "—" }}</div><div class="d">{{ results|length }} assessment{{ "" if results|length == 1 else "s" }} with results</div></div>
-      <div class="kpi"><div class="k">Child care at this address</div><div class="v">{{ s.childcare.at_address|length or "None" }}</div><div class="d">Licensed, {{ childcare_date }}</div></div>
-      <div class="kpi"><div class="k">Nearest other {{ s.level }} school</div><div class="v">{% if s.nearby %}{{ s.nearby[0].km }} <small>km</small>{% else %}—{% endif %}</div><div class="d">Straight-line distance</div></div>
+      <div class="kpi"><div class="k">{{ _("Enrolment {year}", year=(enrol_latest.year if enrol_latest else "")) }}</div>
+        <div class="v">{% if enrol_latest and enrol_latest.value is not none %}{{ (enrol_latest.value)|num }}{% elif enrol_latest %}<span class="code" title="{{ _(code_text(enrol_latest.code)) }}">{{ enrol_latest.code }}</span>{% else %}—{% endif %}</div>
+        <div class="d">{% if enrol_change %}{{ enrol_change }}{% else %}{{ _("Rounded by the Ministry") }}{% endif %}</div></div>
+      <div class="kpi"><div class="k">{{ _("Latest EQAO year") }}</div><div class="v">{{ latest_eqao or "—" }}</div><div class="d">{{ _("1 assessment with results") if results|length == 1 else _("{n} assessments with results", n=results|length) }}</div></div>
+      <div class="kpi"><div class="k">{{ _("Child care at this address") }}</div><div class="v">{{ s.childcare.at_address|length or _("None") }}</div><div class="d">{{ _("Licensed, {date}", date=childcare_date) }}</div></div>
+      <div class="kpi"><div class="k">{{ _("Nearest other {level} school", level=_(s.level)) }}</div><div class="v">{% if s.nearby %}{{ s.nearby[0].km }} <small>{{ _("km") }}</small>{% else %}—{% endif %}</div><div class="d">{{ _("Straight-line distance") }}</div></div>
     </div>
     <div class="map-shell" style="margin-top:16px">
-      <div class="map" data-map="school" aria-label="Map of {{ s.name }} and nearby schools"></div>
-      <div class="map-fallback" data-map-fallback><div>{{ icon("map", "card-ic") }}Map loads with JavaScript. <a href="https://www.openstreetmap.org/?mlat={{ s.lat }}&amp;mlon={{ s.lon }}#map=16/{{ s.lat }}/{{ s.lon }}" rel="noopener">View this location on OpenStreetMap</a>.</div></div>
+      <div class="map" data-map="school" aria-label="{{ _('Map of {name} and nearby schools', name=s.name) }}"></div>
+      <div class="map-fallback" data-map-fallback><div>{{ icon("map", "card-ic") }}{{ _h('Map loads with JavaScript. <a href="{url}" rel="noopener">View this location on OpenStreetMap</a>.', url="https://www.openstreetmap.org/?mlat=" ~ s.lat ~ "&mlon=" ~ s.lon ~ "#map=16/" ~ s.lat ~ "/" ~ s.lon) }}</div></div>
     </div>
     <div class="legend" style="margin-top:12px">
       <ul class="legend-inline" style="gap:8px 20px">
-        <li><span class="pin" style="--sys:var(--c-school)"></span>This school</li>
-        <li><span class="pin" style="--sys:var(--c-prov)"></span>Other {{ s.level }} schools nearby</li>
+        <li><span class="pin" style="--sys:var(--c-school)"></span>{{ _("This school") }}</li>
+        <li><span class="pin" style="--sys:var(--c-prov)"></span>{{ _("Other {level} schools nearby", level=_(s.level)) }}</li>
         {% if official_label %}<li><span class="sw sw-official-on" style="display:inline-block;width:22px;height:14px;border-radius:3px"></span>{{ official_label }}</li>
-        {% elif s.nearest_area %}<li><span class="sw sw-near" style="display:inline-block;width:22px;height:14px;border-radius:3px"></span>Nearest school, NOT the official boundary</li>{% endif %}
+        {% elif s.nearest_area %}<li><span class="sw sw-near" style="display:inline-block;width:22px;height:14px;border-radius:3px"></span>{{ _("Nearest school, NOT the official boundary") }}</li>{% endif %}
       </ul>
     </div>
-    <div class="note" style="margin-top:12px">{{ icon("info") }}<div><p>{% if official_label %}The shaded area is this school’s attendance area as published on {{ s.board_name }}’s own map{% if official_when.effective %} for {{ official_when.effective }}{% elif official_when.effective_note %} ({{ official_when.effective_note }}; the layer doesn’t say which school year){% endif %}{% if official_when.edited %}; the map was last edited {{ official_when.edited }}{% endif %}. It shows the board’s published geometry, not a confirmed assignment for your address: boundaries change, some streets have exceptions, and some areas are holding or shared areas. {% elif s.nearest_area %}The shaded area is every place closer to this school than to any other {{ system_label }} {{ s.level }} school, in a straight line: a rough guide only, never an attendance boundary. {% elif fv.prox_text %}{{ fv.prox_text }} {% endif %}<strong>Attendance boundaries are set by {{ s.board_name }}.</strong>{% if loc %} {% if loc.kind == "maps" %}See the board’s boundary maps and school finder to confirm which school serves your address.{% elif loc.kind == "consortium" %}Check which school serves your address with the school locator the board uses, run by its student transportation service.{% else %}Check which school serves your address with the board’s school locator.{% endif %}</p><p style="margin-top:8px"><a class="btn btn-sm" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ "Boundary maps" if loc.kind == "maps" else "Check your address" }}</a>{% else %} Confirm which school serves your address with the board{% if s.board_website %} (<a href="{{ s.board_website }}" rel="noopener">board website</a>){% endif %}.{% endif %}</p></div></div>
+    {%- if official_label %}
+      {%- set ow = (" " ~ _("for {date}", date=official_when.effective)) if official_when.effective else ((" (" ~ _("{note}; the layer doesn’t say which school year", note=official_when.effective_note) ~ ")") if official_when.effective_note else "") %}
+      {%- set oe = ("; " ~ _("the map was last edited {date}", date=official_when.edited)) if official_when.edited else "" %}
+    {%- endif %}
+    <div class="note" style="margin-top:12px">{{ icon("info") }}<div><p>{% if official_label %}{{ _("The shaded area is this school’s attendance area as published on {board}’s own map{when}{edited}.", board=s.board_name, when=ow, edited=oe) }} {{ _("It shows the board’s published geometry, not a confirmed assignment for your address: boundaries change, some streets have exceptions, and some areas are holding or shared areas.") }} {% elif s.nearest_area %}{{ _("The shaded area is every place closer to this school than to any other {system} {level} school, in a straight line: a rough guide only, never an attendance boundary.", system=_(system_label), level=_(s.level)) }} {% elif fv.prox_text %}{{ fv.prox_text }} {% endif %}<strong>{{ _("Attendance boundaries are set by {board}.", board=s.board_name) }}</strong>{% if loc %} {% if loc.kind == "maps" %}{{ _("See the board’s boundary maps and school finder to confirm which school serves your address.") }}{% elif loc.kind == "consortium" %}{{ _("Check which school serves your address with the school locator the board uses, run by its student transportation service.") }}{% else %}{{ _("Check which school serves your address with the board’s school locator.") }}{% endif %}</p><p style="margin-top:8px"><a class="btn btn-sm" href="{{ loc.url }}" rel="noopener">{{ icon("pin") }}{{ _("Boundary maps") if loc.kind == "maps" else _("Check your address") }}</a>{% else %} {% if s.board_website %}{{ _h('Confirm which school serves your address with the board (<a href="{url}" rel="noopener">board website</a>).', url=s.board_website) }}{% else %}{{ _("Confirm which school serves your address with the board.") }}{% endif %}{% endif %}</p></div></div>
     <script type="application/json" id="map-data">{{ map_json|safe }}</script>
   </div>
 </section>
@@ -135,44 +140,44 @@
 {%- set shsm = s.programs.shsm %}
 <section class="block" id="programs">
   <div class="wrap">
-    <h2>Programs</h2>
+    <h2>{{ _("Programs") }}</h2>
     <div class="grid grid-2 grid-top">
       <div class="card">
-        <h3>{{ icon("check", "card-ic") }}French programs {% if fsl %}<span class="badge">{{ fsl.year }}</span>{% endif %}</h3>
+        <h3>{{ icon("check", "card-ic") }}{{ _("French programs") }} {% if fsl %}<span class="badge">{{ fsl.year }}</span>{% endif %}</h3>
         {% if fsl %}
-        <p class="small muted" style="margin:0 0 8px">French as a second language, in an English-language school.</p>
+        <p class="small muted" style="margin:0 0 8px">{{ _("French as a second language, in an English-language school.") }}</p>
         <ul class="prog-list">
-          <li class="{{ 'on' if fsl.core else 'off' }}">{{ icon("check" if fsl.core else "x") }}<span><b>Core French</b> {{ "offered" if fsl.core else "not offered" }}<span class="d">French taught as a subject</span></span></li>
-          <li class="{{ 'on' if fsl.extended else 'off' }}">{{ icon("check" if fsl.extended else "x") }}<span><b>Extended French</b> {{ "offered" if fsl.extended else "not offered" }}<span class="d">Some subjects taught in French, at least a quarter of the day</span></span></li>
-          <li class="{{ 'on' if fsl.immersion else 'off' }}">{{ icon("check" if fsl.immersion else "x") }}<span><b>French Immersion</b> {{ "offered" if fsl.immersion else "not offered" }}<span class="d">Most subjects taught in French, at least half of the day</span></span></li>
+          <li class="{{ 'on' if fsl.core else 'off' }}">{{ icon("check" if fsl.core else "x") }}<span><b>{{ _("Core French") }}</b> {{ _("offered") if fsl.core else _("not offered") }}<span class="d">{{ _("French taught as a subject") }}</span></span></li>
+          <li class="{{ 'on' if fsl.extended else 'off' }}">{{ icon("check" if fsl.extended else "x") }}<span><b>{{ _("Extended French") }}</b> {{ _("offered") if fsl.extended else _("not offered") }}<span class="d">{{ _("Some subjects taught in French, at least a quarter of the day") }}</span></span></li>
+          <li class="{{ 'on' if fsl.immersion else 'off' }}">{{ icon("check" if fsl.immersion else "x") }}<span><b>{{ _("French Immersion") }}</b> {{ _("offered") if fsl.immersion else _("not offered") }}<span class="d">{{ _("Most subjects taught in French, at least half of the day") }}</span></span></li>
         </ul>
-        <p class="small muted" style="margin:10px 0 0">From the Ministry’s preliminary {{ fsl.year }} list. Entry grades, application dates and transportation for Extended French and Immersion are set by {{ s.board_name }}{% if T.get("program") %} (see <a href="#attendance">Attendance and registration</a>){% endif %}. <a class="ref" href="#src-{{ fsl.source_id }}">source</a></p>
+        <p class="small muted" style="margin:10px 0 0">{% if T.get("program") %}{{ _h('From the Ministry’s preliminary {year} list. Entry grades, application dates and transportation for Extended French and Immersion are set by {board} (see <a href="#attendance">Attendance and registration</a>).', year=fsl.year, board=s.board_name) }}{% else %}{{ _("From the Ministry’s preliminary {year} list. Entry grades, application dates and transportation for Extended French and Immersion are set by {board}.", year=fsl.year, board=s.board_name) }}{% endif %} <a class="ref" href="#src-{{ fsl.source_id }}">{{ _("source") }}</a></p>
         {% elif s.language == "French" %}
-        <p style="margin:0">This is a <strong>French-language school</strong>: students learn in French all day. That is French-language education for families with French-language rights, which is different from French Immersion (French as a second language in an English-language school). The Ministry’s French-as-a-second-language list covers English-language schools only.</p>
+        <p style="margin:0">{{ _h('This is a <strong>French-language school</strong>: students learn in French all day. That is French-language education for families with French-language rights, which is different from French Immersion (French as a second language in an English-language school). The Ministry’s French-as-a-second-language list covers English-language schools only.') }}</p>
         {% else %}
-        <p class="muted" style="margin:0">This school is not in the Ministry’s 2024-25 list of schools offering French programs. Ask {{ s.board_name }} which nearby school offers them.</p>
+        <p class="muted" style="margin:0">{{ _("This school is not in the Ministry’s 2024-25 list of schools offering French programs. Ask {board} which nearby school offers them.", board=s.board_name) }}</p>
         {% endif %}
       </div>
       {% if shsm or s.level == "secondary" %}
       <div class="card">
-        <h3>{{ icon("school", "card-ic") }}Specialist High Skills Majors {% if shsm %}<span class="badge">{{ shsm.year }}</span>{% endif %}</h3>
+        <h3>{{ icon("school", "card-ic") }}{{ _("Specialist High Skills Majors") }} {% if shsm %}<span class="badge">{{ shsm.year }}</span>{% endif %}</h3>
         {% if shsm %}
-        <p class="small muted" style="margin:0 0 10px">A focus on one career sector through a bundle of courses, industry certifications and work experience, recorded on the diploma.</p>
+        <p class="small muted" style="margin:0 0 10px">{{ _("A focus on one career sector through a bundle of courses, industry certifications and work experience, recorded on the diploma.") }}</p>
         <ul class="chips shsm-list">
-          {% for p in shsm.sectors %}<li class="chip-static">{{ p.sector }}{% if p.years %}<span class="muted"> · {{ p.years }} year{{ "" if p.years == 1 else "s" }}</span>{% endif %}{% if p.language and p.language != s.language %}<span class="muted"> · in {{ p.language }}</span>{% endif %}</li>{% endfor %}
+          {% for p in shsm.sectors %}<li class="chip-static">{{ _(p.sector) }}{% if p.years %}<span class="muted"> · {{ _("1 year") if p.years == 1 else _("{n} years", n=p.years) }}</span>{% endif %}{% if p.language and p.language != s.language %}<span class="muted"> · {{ _(("in " ~ p.language)) }}</span>{% endif %}</li>{% endfor %}
         </ul>
-        <p class="small muted" style="margin:10px 0 0">{{ shsm.sectors|length }} sector{{ "" if shsm.sectors|length == 1 else "s" }} in {{ shsm.year }}; the number of years each program has run. <a class="ref" href="#src-{{ shsm.source_id }}">source</a></p>
+        <p class="small muted" style="margin:10px 0 0">{{ _("1 sector in {year}; the number of years each program has run.", year=shsm.year) if shsm.sectors|length == 1 else _("{n} sectors in {year}; the number of years each program has run.", n=shsm.sectors|length, year=shsm.year) }} <a class="ref" href="#src-{{ shsm.source_id }}">{{ _("source") }}</a></p>
         {% else %}
-        <p class="muted" style="margin:0">No Specialist High Skills Major programs are listed for this school in 2025-26.</p>
+        <p class="muted" style="margin:0">{{ _("No Specialist High Skills Major programs are listed for this school in 2025-26.") }}</p>
         {% endif %}
       </div>
       {% endif %}
       {%- set nut = s.programs.nutrition %}
       {% if nut %}
       <div class="card">
-        <h3>{{ icon("child", "card-ic") }}Student nutrition program <span class="badge">Historical only</span></h3>
-        <p style="margin:0"><strong>Historically listed</strong> ({{ nut.year }}) as offering {{ nut.meals|join(", ")|lower }} through Ontario’s Student Nutrition Program. <strong>Current availability unverified.</strong></p>
-        <p class="small muted" style="margin:8px 0 0">The Ministry’s most recent list is from {{ nut.year }}. Programs start and stop, and a school missing from that old list may well have one now, so ask the school. <a class="ref" href="#src-{{ nut.source_id }}">source</a></p>
+        <h3>{{ icon("child", "card-ic") }}{{ _("Student nutrition program") }} <span class="badge">{{ _("Historical only") }}</span></h3>
+        <p style="margin:0">{{ _h('<strong>Historically listed</strong> ({year}) as offering {meals} through Ontario’s Student Nutrition Program. <strong>Current availability unverified.</strong>', year=nut.year, meals=nut.meals|join(", ")|lower) }}</p>
+        <p class="small muted" style="margin:8px 0 0">{{ _("The Ministry’s most recent list is from {year}. Programs start and stop, and a school missing from that old list may well have one now, so ask the school.", year=nut.year) }} <a class="ref" href="#src-{{ nut.source_id }}">{{ _("source") }}</a></p>
       </div>
       {% endif %}
     </div>
@@ -182,38 +187,38 @@
 {% if results or historical %}
 <section class="block" id="results">
   <div class="wrap">
-    <h2>EQAO results {% if eqao_span %}<span class="badge">{{ meta.eqao_eras.current_from }} to {{ latest_eqao }}</span>{% endif %}</h2>
-    <p class="block-intro">Share of this school’s students who met the provincial standard (level 3 or 4) on each EQAO assessment, next to the <strong>median school</strong> in {{ s.board_name }} and in Ontario ({{ s.language }}-language schools). Each year describes <strong>a different group of students</strong>, not the same children’s progress. Charts start in {{ meta.eqao_eras.current_from }}, when EQAO’s current online assessments began a new trend line; <a href="#results-paper">earlier paper-based results</a> are listed separately and never joined to them.{% if results|selectattr("detail")|list %} The latest year comes from EQAO’s own open data (used under licence), which also gives the share at each level.{% endif %}</p>
+    <h2>{{ _("EQAO results") }} {% if eqao_span %}<span class="badge">{{ _("{start} to {end}", start=meta.eqao_eras.current_from, end=latest_eqao) }}</span>{% endif %}</h2>
+    <p class="block-intro">{{ _h('Share of this school’s students who met the provincial standard (level 3 or 4) on each EQAO assessment, next to the <strong>median school</strong> in {board} and in Ontario ({schools}). Each year describes <strong>a different group of students</strong>, not the same children’s progress. Charts start in {from_year}, when EQAO’s current online assessments began a new trend line; <a href="#results-paper">earlier paper-based results</a> are listed separately and never joined to them.', board=s.board_name, schools=_(s.language ~ "-language schools"), from_year=meta.eqao_eras.current_from) }}{% if results|selectattr("detail")|list %} {{ _("The latest year comes from EQAO’s own open data (used under licence), which also gives the share at each level.") }}{% endif %}</p>
     {% if results %}
-    <ul class="legend-inline" aria-label="Chart legend">
-      <li><i class="l-school"></i>This school</li>
-      <li><i class="l-board"></i>Board median</li>
-      <li><i class="l-prov"></i>Ontario median</li>
+    <ul class="legend-inline" aria-label="{{ _('Chart legend') }}">
+      <li><i class="l-school"></i>{{ _("This school") }}</li>
+      <li><i class="l-board"></i>{{ _("Board median") }}</li>
+      <li><i class="l-prov"></i>{{ _("Ontario median") }}</li>
     </ul>
     <div class="charts">
       {% for r in results %}
       <figure class="chart-card" style="margin:0" id="eqao-{{ r.id }}">
-        <h3>{{ r.grade }} · {{ r.subject }}</h3>
+        <h3>{{ _(r.grade) }} · {{ _(r.subject) }}</h3>
         <p class="sum">{{ r.summary|safe }}</p>
         <div class="chart">{{ r.svg|safe }}</div>
         {% if r.detail and r.detail.levels %}
-        <div class="levels" role="img" aria-label="{{ r.detail.year }}: {% for l in r.detail.levels %}level {{ l.n }} {{ l.v }}%{{ ', ' if not loop.last }}{% endfor %}">{% for l in r.detail.levels %}<i class="l{{ l.n }}" style="width:{{ l.w }}%"></i>{% endfor %}</div>
-        <p class="levels-text"><b>{{ r.detail.year }}</b> · {% for l in r.detail.levels %}level {{ l.n }}: {{ l.v }}%{{ " · " if not loop.last }}{% endfor %}{% if r.detail.participation is not none %} · {{ r.detail.participation }}% of students took part{% endif %}</p>
+        <div class="levels" role="img" aria-label="{{ r.detail.year }}: {% for l in r.detail.levels %}{{ _('level {n} {v}%', n=l.n, v=l.v) }}{{ ', ' if not loop.last }}{% endfor %}">{% for l in r.detail.levels %}<i class="l{{ l.n }}" style="width:{{ l.w }}%"></i>{% endfor %}</div>
+        <p class="levels-text"><b>{{ r.detail.year }}</b> · {% for l in r.detail.levels %}{{ _("level {n}: {v}%", n=l.n, v=l.v) }}{{ " · " if not loop.last }}{% endfor %}{% if r.detail.participation is not none %} · {{ _("{p}% of students took part", p=r.detail.participation) }}{% endif %}</p>
         {% elif r.detail and r.detail.participation is not none %}
-        <p class="levels-text"><b>{{ r.detail.year }}</b> · {{ r.detail.participation }}% of eligible students wrote the test</p>
+        <p class="levels-text"><b>{{ r.detail.year }}</b> · {{ _("{p}% of eligible students wrote the test", p=r.detail.participation) }}</p>
         {% endif %}
-        {% if r.official %}<p class="small muted" style="margin:6px 0 0">Board’s official result (all students), {{ r.official.year }}: <b>{{ r.official.value }}%</b> <a class="ref" href="#src-{{ r.official.source_id }}">source</a></p>{% endif %}
+        {% if r.official %}<p class="small muted" style="margin:6px 0 0">{{ _h('Board’s official result (all students), {year}: <b>{value}%</b>', year=r.official.year, value=r.official.value) }} <a class="ref" href="#src-{{ r.official.source_id }}">{{ _("source") }}</a></p>{% endif %}
         <details class="data-table">
-          <summary>Show the numbers</summary>
+          <summary>{{ _("Show the numbers") }}</summary>
           <div class="table-wrap">
           <table>
-            <caption>{{ r.grade }} {{ r.subject }}: share meeting the standard, current assessments</caption>
-            <thead><tr><th scope="col">Year</th><th scope="col" class="n">School</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Ontario median</th><th scope="col">Source</th></tr></thead>
+            <caption>{{ _("{assessment}: share meeting the standard, current assessments", assessment=_(r.grade) ~ " " ~ _(r.subject)) }}</caption>
+            <thead><tr><th scope="col">{{ _("Year") }}</th><th scope="col" class="n">{{ _("School") }}</th><th scope="col" class="n">{{ _("Board median") }}</th><th scope="col" class="n">{{ _("Ontario median") }}</th><th scope="col">{{ _("Source") }}</th></tr></thead>
             <tbody>
             {% for row in r.rows %}
               <tr>
                 <th scope="row">{{ row.year }}</th>
-                <td class="n">{% if row.pct_at_or_above_standard is not none %}{{ row.pct_at_or_above_standard }}%{% else %}<span class="code" title="{{ code_text(row.code) }}">{{ row.code }}</span>{% endif %}</td>
+                <td class="n">{% if row.pct_at_or_above_standard is not none %}{{ row.pct_at_or_above_standard }}{{ pc }}{% else %}<span class="code" title="{{ _(code_text(row.code)) }}">{{ row.code }}</span>{% endif %}</td>
                 <td class="n">{{ pct(row.board_median) }}{% if row.board_n %} <span class="muted small">({{ row.board_n }})</span>{% endif %}</td>
                 <td class="n">{{ pct(row.province_median) }}</td>
                 <td><a class="ref" href="#src-{{ row.source_id }}">{{ row.source_id }}</a></td>
@@ -222,33 +227,33 @@
             </tbody>
           </table>
           </div>
-          <p class="small muted">Numbers in brackets: how many of the board’s schools had a result that year. {% if r.codes %}{% for c in r.codes %}<span class="code">{{ c }}</span> {{ code_text(c) }} {% endfor %}{% endif %}{% if r.paper_years %} Results for {{ r.paper_years|join(", ") }} are in <a href="#results-paper">earlier results</a>.{% endif %}</p>
+          <p class="small muted">{{ _("Numbers in brackets: how many of the board’s schools had a result that year.") }} {% if r.codes %}{% for c in r.codes %}<span class="code">{{ c }}</span> {{ _(code_text(c)) }} {% endfor %}{% endif %}{% if r.paper_years %} {{ _h('Results for {years} are in <a href="#results-paper">earlier results</a>.', years=r.paper_years|join(", ")) }}{% endif %}</p>
         </details>
       </figure>
       {% endfor %}
     </div>
     {% else %}
-    <div class="note">{{ icon("info") }}<div><p>No results from the current EQAO assessments ({{ meta.eqao_eras.current_from }} on) for this school. Earlier results are below.</p></div></div>
+    <div class="note">{{ icon("info") }}<div><p>{{ _("No results from the current EQAO assessments ({from_year} on) for this school. Earlier results are below.", from_year=meta.eqao_eras.current_from) }}</p></div></div>
     {% endif %}
     {% if historical %}
     <details class="data-table card" id="results-paper" style="margin-top:16px">
-      <summary>Earlier results: {{ meta.eqao_eras.eras.paper.label }} (a different test, not comparable)</summary>
-      <p class="small muted">{{ meta.eqao_eras.eras.paper.explain }} Grade 9 academic and applied mathematics were separate courses that no longer exist. No change is calculated between these years and {{ meta.eqao_eras.current_from }} or later.</p>
+      <summary>{{ _("Earlier results: {label} (a different test, not comparable)", label=meta.eqao_eras.eras.paper.label) }}</summary>
+      <p class="small muted">{{ _(meta.eqao_eras.eras.paper.explain) }} {{ _("Grade 9 academic and applied mathematics were separate courses that no longer exist. No change is calculated between these years and {from_year} or later.", from_year=meta.eqao_eras.current_from) }}</p>
       <div class="table-wrap"><table>
-        <caption>Paper-based EQAO results at {{ s.name }}</caption>
-        <thead><tr><th scope="col">Assessment</th><th scope="col">Year</th><th scope="col" class="n">School</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Ontario median</th><th scope="col">Source</th></tr></thead>
-        <tbody>{% for h in historical %}{% for row in h.rows %}<tr><th scope="row">{{ h.grade }} {{ h.subject }}</th><td>{{ row.year }}</td><td class="n">{% if row.pct_at_or_above_standard is not none %}{{ row.pct_at_or_above_standard }}%{% else %}<span class="code" title="{{ code_text(row.code) }}">{{ row.code }}</span>{% endif %}</td><td class="n">{{ pct(row.board_median) }}</td><td class="n">{{ pct(row.province_median) }}</td><td><a class="ref" href="#src-{{ row.source_id }}">{{ row.source_id }}</a></td></tr>{% endfor %}{% endfor %}</tbody>
+        <caption>{{ _("Paper-based EQAO results at {name}", name=s.name) }}</caption>
+        <thead><tr><th scope="col">{{ _("Assessment") }}</th><th scope="col">{{ _("Year") }}</th><th scope="col" class="n">{{ _("School") }}</th><th scope="col" class="n">{{ _("Board median") }}</th><th scope="col" class="n">{{ _("Ontario median") }}</th><th scope="col">{{ _("Source") }}</th></tr></thead>
+        <tbody>{% for h in historical %}{% for row in h.rows %}<tr><th scope="row">{{ _(h.grade) }} {{ _(h.subject) }}</th><td>{{ row.year }}</td><td class="n">{% if row.pct_at_or_above_standard is not none %}{{ row.pct_at_or_above_standard }}{{ pc }}{% else %}<span class="code" title="{{ _(code_text(row.code)) }}">{{ row.code }}</span>{% endif %}</td><td class="n">{{ pct(row.board_median) }}</td><td class="n">{{ pct(row.province_median) }}</td><td><a class="ref" href="#src-{{ row.source_id }}">{{ row.source_id }}</a></td></tr>{% endfor %}{% endfor %}</tbody>
       </table></div>
     </details>
     {% endif %}
-    <div class="note note-warn" style="margin-top:16px">{{ icon("info") }}<div><p><strong>Read with care.</strong> In a small school a handful of students can move the percentage by 10 points or more. The Ministry also randomly rounds some percentages to protect privacy, so a 0% or 100% may not be exact. These results don’t measure teaching on their own: they also reflect who the students are. <a href="https://www.eqao.com/results/?orgType=S&amp;mident={{ s.bsid }}&amp;lang=en" rel="noopener">See this school’s full report on EQAO’s site</a>.</p></div></div>
+    <div class="note note-warn" style="margin-top:16px">{{ icon("info") }}<div><p>{{ _h('<strong>Read with care.</strong> In a small school a handful of students can move the percentage by 10 points or more. The Ministry also randomly rounds some percentages to protect privacy, so a 0% or 100% may not be exact. These results don’t measure teaching on their own: they also reflect who the students are. <a href="{url}" rel="noopener">See this school’s full report on EQAO’s site</a>.', url="https://www.eqao.com/results/?orgType=S&mident=" ~ s.bsid ~ "&lang=" ~ lang) }}</p></div></div>
   </div>
 </section>
 {% else %}
 <section class="block" id="results">
   <div class="wrap">
-    <h2>EQAO results</h2>
-    <div class="note">{{ icon("info") }}<div><p><span class="badge">Not applicable</span> The source data has no EQAO results for this school. That is normal for schools without Grade 3, 6, 9 or 10 students{% if s.special %}, and for {{ s.special|lower }} schools{% endif %}. <a href="https://www.eqao.com/results/?orgType=S&amp;mident={{ s.bsid }}&amp;lang=en" rel="noopener">Check EQAO’s site</a>.</p></div></div>
+    <h2>{{ _("EQAO results") }}</h2>
+    <div class="note">{{ icon("info") }}<div><p><span class="badge">{{ _("Not applicable") }}</span> {% if s.special %}{{ _h('The source data has no EQAO results for this school. That is normal for schools without Grade 3, 6, 9 or 10 students, and for {special} schools. <a href="{url}" rel="noopener">Check EQAO’s site</a>.', special=_(s.special)|lower, url="https://www.eqao.com/results/?orgType=S&mident=" ~ s.bsid ~ "&lang=" ~ lang) }}{% else %}{{ _h('The source data has no EQAO results for this school. That is normal for schools without Grade 3, 6, 9 or 10 students. <a href="{url}" rel="noopener">Check EQAO’s site</a>.', url="https://www.eqao.com/results/?orgType=S&mident=" ~ s.bsid ~ "&lang=" ~ lang) }}{% endif %}</p></div></div>
   </div>
 </section>
 {% endif %}
@@ -256,38 +261,38 @@
 {% if fv.sq %}
 <section class="block" id="experience">
   <div class="wrap">
-    <h2>Student experience <span class="badge">{{ fv.sq[0].year }}</span></h2>
-    <p class="block-intro">What students said in EQAO’s questionnaire, answered when they wrote the assessment. These are students’ own views of themselves and their learning, not a measure of the school’s quality. The <strong>whole board</strong> and <strong>Ontario</strong> columns are EQAO’s figures for every student who answered there, not medians of schools. Earlier years appear under a school’s figure only when EQAO asked the same question with the same answers; each year is a different group of students.</p>
+    <h2>{{ _("Student experience") }} <span class="badge">{{ fv.sq[0].year }}</span></h2>
+    <p class="block-intro">{{ _h('What students said in EQAO’s questionnaire, answered when they wrote the assessment. These are students’ own views of themselves and their learning, not a measure of the school’s quality. The <strong>whole board</strong> and <strong>Ontario</strong> columns are EQAO’s figures for every student who answered there, not medians of schools. Earlier years appear under a school’s figure only when EQAO asked the same question with the same answers; each year is a different group of students.') }}</p>
     <div class="grid grid-2 grid-top">
     {% for b in fv.sq %}
       <div class="card sq-card">
-        <h3>{{ b.grade }}{% if b.respondents %} <span class="badge">{{ b.respondents }} students answered</span>{% endif %}</h3>
+        <h3>{{ _(b.grade) }}{% if b.respondents %} <span class="badge">{{ _("{n} students answered", n=b.respondents) }}</span>{% endif %}</h3>
         {% if b.withheld %}
-        <p class="muted" style="margin:0"><span class="badge">Withheld to protect privacy</span> EQAO doesn’t report this school’s answers because too few students took part. <a class="ref" href="#src-{{ b.source_id }}">source</a></p>
+        <p class="muted" style="margin:0"><span class="badge">{{ _("Withheld to protect privacy") }}</span> {{ _("EQAO doesn’t report this school’s answers because too few students took part.") }} <a class="ref" href="#src-{{ b.source_id }}">{{ _("source") }}</a></p>
         {% else %}
         <div class="table-wrap"><table class="sq-table ctx-table">
-          <caption class="visually-hidden">{{ b.grade }}, {{ b.year }}: share of students who agreed</caption>
-          <thead><tr><th scope="col">Students who said</th><th scope="col" class="n">This school</th><th scope="col" class="n">Whole board</th><th scope="col" class="n">Ontario</th></tr></thead>
+          <caption class="visually-hidden">{{ _("{grade}, {year}: share of students who agreed", grade=_(b.grade), year=b.year) }}</caption>
+          <thead><tr><th scope="col">{{ _("Students who said") }}</th><th scope="col" class="n">{{ _("This school") }}</th><th scope="col" class="n">{{ _("Whole board") }}</th><th scope="col" class="n">{{ _("Ontario") }}</th></tr></thead>
           <tbody>
           {% for it in b.rows %}
-            <tr role="row"><th scope="row" role="rowheader">“{{ it.question }}”<div class="small muted">{{ it.label }}: {{ it.agree|join(" or ")|lower }}</div></th>
-              <td class="n" role="cell" data-label="This school">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}%</b>{% if it.n %}<div class="small muted">of {{ it.n }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier">Earlier: {% for h in it.history %}{{ h.year }} {% if h.agree_pct is not none %}{{ h.agree_pct }}%{% else %}<span class="code" title="{{ code_text(h.code) }}">{{ h.code }}</span>{% endif %}{{ "" if loop.last else " · " }}{% endfor %}</div>{% endif %}</td>
-              <td class="n" role="cell" data-label="Whole board">{{ pct(it.board_pct) }}</td><td class="n" role="cell" data-label="Ontario">{{ pct(it.province_pct) }}</td></tr>
+            <tr role="row"><th scope="row" role="rowheader">{{ _("“{question}”", question=_(it.question)) }}<div class="small muted">{{ _("{label}: {answers}", label=_(it.label), answers=it.agree|map("lower")|join(" " ~ _("or") ~ " ")) }}</div></th>
+              <td class="n" role="cell" data-label="{{ _('This school') }}">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}{{ pc }}</b>{% if it.n %}<div class="small muted">{{ _("of {n}", n=it.n) }}</div>{% endif %}{% else %}<span class="code" title="{{ _(code_text(it.code)) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier">{{ _("Earlier:") }} {% for h in it.history %}{{ h.year }} {% if h.agree_pct is not none %}{{ h.agree_pct }}{{ pc }}{% else %}<span class="code" title="{{ _(code_text(h.code)) }}">{{ h.code }}</span>{% endif %}{{ "" if loop.last else " · " }}{% endfor %}</div>{% endif %}</td>
+              <td class="n" role="cell" data-label="{{ _('Whole board') }}">{{ pct(it.board_pct) }}</td><td class="n" role="cell" data-label="{{ _('Ontario') }}">{{ pct(it.province_pct) }}</td></tr>
           {% endfor %}
           </tbody>
         </table></div>
-        <details class="data-table"><summary>Every answer</summary>
+        <details class="data-table"><summary>{{ _("Every answer") }}</summary>
           {% for it in b.rows if it.dist %}
-          <p class="small" style="margin:8px 0 2px"><b>“{{ it.question }}”</b></p>
-          <ul class="sq-dist">{% for d in it.dist %}<li><span>{{ d.label }}</span><span class="tnum">{{ d.pct }}%{% if d.pct is not string %} <span class="muted">({{ d.n }})</span>{% endif %}</span></li>{% endfor %}</ul>
+          <p class="small" style="margin:8px 0 2px"><b>{{ _("“{question}”", question=_(it.question)) }}</b></p>
+          <ul class="sq-dist">{% for d in it.dist %}<li><span>{{ _(d.label) }}</span><span class="tnum">{{ d.pct }}{{ pc }}{% if d.pct is not string %} <span class="muted">({{ d.n }})</span>{% endif %}</span></li>{% endfor %}</ul>
           {% endfor %}
         </details>
-        <p class="small muted" style="margin:8px 0 0">Share of {{ b.rows[0].base }} ({{ b.rows[0].n or "—" }} students), including those who skipped the question. {% if b.five_point %}Students chose from five answers; “agreed” adds “somewhat” and “strongly agree”, counted by this site from EQAO’s numbers.{% else %}Students chose “yes”, “not sure” or “no”; the figure is EQAO’s own percentage.{% endif %} <a class="ref" href="#src-{{ b.source_id }}">source</a></p>
+        <p class="small muted" style="margin:8px 0 0">{{ _("Share of {base} ({n} students), including those who skipped the question.", base=_(b.rows[0].base), n=(b.rows[0].n or "—")) }} {% if b.five_point %}{{ _("Students chose from five answers; “agreed” adds “somewhat” and “strongly agree”, counted by this site from EQAO’s numbers.") }}{% else %}{{ _("Students chose “yes”, “not sure” or “no”; the figure is EQAO’s own percentage.") }}{% endif %} <a class="ref" href="#src-{{ b.source_id }}">{{ _("source") }}</a></p>
         {% endif %}
       </div>
     {% endfor %}
     </div>
-    <p class="small muted" style="margin:12px 0 0">Grades 3 and 6 use a three-answer scale and Grade 9 and the OSSLT a five-answer scale, so don’t compare figures across grades. Not every question is asked in every grade.</p>
+    <p class="small muted" style="margin:12px 0 0">{{ _("Grades 3 and 6 use a three-answer scale and Grade 9 and the OSSLT a five-answer scale, so don’t compare figures across grades. Not every question is asked in every grade.") }}</p>
   </div>
 </section>
 {% endif %}
@@ -295,18 +300,18 @@
 {% if s.enrolment %}
 <section class="block" id="enrolment">
   <div class="wrap">
-    <h2>Enrolment <span class="badge">{{ s.enrolment[0].year }} to {{ s.enrolment[-1].year }}</span></h2>
+    <h2>{{ _("Enrolment") }} <span class="badge">{{ _("{start} to {end}", start=s.enrolment[0].year, end=s.enrolment[-1].year) }}</span></h2>
     <div class="card">
       <div class="chart">{{ enrol_svg|safe }}</div>
       <details class="data-table">
-        <summary>Show the numbers</summary>
+        <summary>{{ _("Show the numbers") }}</summary>
         <div class="table-wrap"><table>
-          <caption>Enrolment by school year</caption>
-          <thead><tr><th scope="col">Year</th><th scope="col" class="n">Students</th><th scope="col">Source</th></tr></thead>
-          <tbody>{% for e in s.enrolment|reverse %}<tr><th scope="row">{{ e.year }}</th><td class="n">{% if e.value is not none %}{{ "{:,}".format(e.value) }}{% else %}<span class="code" title="{{ code_text(e.code) }}">{{ e.code }}</span>{% endif %}</td><td><a class="ref" href="#src-{{ e.source_id }}">{{ e.source_id }}</a></td></tr>{% endfor %}</tbody>
+          <caption>{{ _("Enrolment by school year") }}</caption>
+          <thead><tr><th scope="col">{{ _("Year") }}</th><th scope="col" class="n">{{ _("Students") }}</th><th scope="col">{{ _("Source") }}</th></tr></thead>
+          <tbody>{% for e in s.enrolment|reverse %}<tr><th scope="row">{{ e.year }}</th><td class="n">{% if e.value is not none %}{{ (e.value)|num }}{% else %}<span class="code" title="{{ _(code_text(e.code)) }}">{{ e.code }}</span>{% endif %}</td><td><a class="ref" href="#src-{{ e.source_id }}">{{ e.source_id }}</a></td></tr>{% endfor %}</tbody>
         </table></div>
       </details>
-      <p class="small muted" style="margin:8px 0 0">Headcount reported by the board. Since 2018-19 the Ministry rounds school enrolment to the nearest 5. Years missing from the chart are years the school was not in the file.</p>
+      <p class="small muted" style="margin:8px 0 0">{{ _("Headcount reported by the board. Since 2018-19 the Ministry rounds school enrolment to the nearest 5. Years missing from the chart are years the school was not in the file.") }}</p>
     </div>
   </div>
 </section>
@@ -315,13 +320,13 @@
 {% if grade_view %}
 <section class="block" id="grades">
   <div class="wrap">
-    <h2>Students by grade <span class="badge">{{ grade_view.years[0] }} to {{ grade_view.years[-1] }}</span></h2>
+    <h2>{{ _("Students by grade") }} <span class="badge">{{ _("{start} to {end}", start=grade_view.years[0], end=grade_view.years[-1]) }}</span></h2>
     <div class="card"><div class="table-wrap"><table>
-      <caption>Students enrolled in each grade (October count)</caption>
-      <thead><tr><th scope="col">Grade</th>{% for y in grade_view.years %}<th scope="col" class="n">{{ y }}</th>{% endfor %}</tr></thead>
-      <tbody>{% for r in grade_view.rows %}<tr><th scope="row">{{ r.label }}</th>{% for c in r.cells %}<td class="n">{% if c.v is not none %}{{ "{:,}".format(c.v) }}{% elif c.code %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% else %}<span class="muted">—</span>{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
+      <caption>{{ _("Students enrolled in each grade (October count)") }}</caption>
+      <thead><tr><th scope="col">{{ _("Grade") }}</th>{% for y in grade_view.years %}<th scope="col" class="n">{{ y }}</th>{% endfor %}</tr></thead>
+      <tbody>{% for r in grade_view.rows %}<tr><th scope="row">{{ _(r.label) }}</th>{% for c in r.cells %}<td class="n">{% if c.v is not none %}{{ (c.v)|num }}{% elif c.code %}<span class="code" title="{{ _(code_text(c.code)) }}">{{ c.code }}</span>{% else %}<span class="muted">—</span>{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody>
     </table></div>
-    <p class="small muted" style="margin:8px 0 0">Source: <a href="#src-{{ grade_view.latest.source_id }}">School enrolment by grade</a>. Counts under 10 are withheld (<span class="code">&lt;10</span>).</p></div>
+    <p class="small muted" style="margin:8px 0 0">{{ _h('Source: <a href="#src-{id}">School enrolment by grade</a>. Counts under 10 are withheld (<span class="code">&lt;10</span>).', id=grade_view.latest.source_id) }}</p></div>
   </div>
 </section>
 {% endif %}
@@ -329,69 +334,69 @@
 {% if cs_view %}
 <section class="block" id="class-sizes">
   <div class="wrap">
-    <h2>Class sizes <span class="badge">{{ cs_view.first }} to {{ cs_view.latest.year }}</span></h2>
-    <p class="block-intro">From the Ministry’s list of every elementary class, counted each September. Ontario caps Grades 1–3 classes at 23 students, with at least 90% of them at 20 or fewer.</p>
+    <h2>{{ _("Class sizes") }} <span class="badge">{{ _("{start} to {end}", start=cs_view.first, end=cs_view.latest.year) }}</span></h2>
+    <p class="block-intro">{{ _("From the Ministry’s list of every elementary class, counted each September. Ontario caps Grades 1–3 classes at 23 students, with at least 90% of them at 20 or fewer.") }}</p>
     <div class="kpis">
-      <div class="kpi"><div class="k">Average class, {{ cs_view.latest.year }}</div><div class="v">{{ cs_view.latest.avg_all if cs_view.latest.avg_all is not none else "—" }}</div><div class="d">{{ cs_view.latest.classes or "—" }} classes</div></div>
-      <div class="kpi"><div class="k">Grades 1–3 classes</div><div class="v">{{ cs_view.latest.primary_avg if cs_view.latest.primary_avg is not none else "—" }}</div><div class="d">{% if cs_view.latest.primary_le20_pct is not none %}{{ cs_view.latest.primary_le20_pct }}% have 20 or fewer{% else %}No single-grade-group primary classes{% endif %}</div></div>
-      <div class="kpi"><div class="k">Kindergarten classes</div><div class="v">{{ cs_view.latest.kinder_avg if cs_view.latest.kinder_avg is not none else "—" }}</div><div class="d">Average size</div></div>
-      <div class="kpi"><div class="k">Grades 4–8 classes</div><div class="v">{{ cs_view.latest.junior_avg if cs_view.latest.junior_avg is not none else "—" }}</div><div class="d">{{ cs_view.latest.combined_classes }} combined-grade class{{ "" if cs_view.latest.combined_classes == 1 else "es" }}</div></div>
+      <div class="kpi"><div class="k">{{ _("Average class, {year}", year=cs_view.latest.year) }}</div><div class="v">{{ cs_view.latest.avg_all if cs_view.latest.avg_all is not none else "—" }}</div><div class="d">{{ _("{n} classes", n=(cs_view.latest.classes or "—")) }}</div></div>
+      <div class="kpi"><div class="k">{{ _("Grades 1–3 classes") }}</div><div class="v">{{ cs_view.latest.primary_avg if cs_view.latest.primary_avg is not none else "—" }}</div><div class="d">{% if cs_view.latest.primary_le20_pct is not none %}{{ _("{p}% have 20 or fewer", p=cs_view.latest.primary_le20_pct) }}{% else %}{{ _("No single-grade-group primary classes") }}{% endif %}</div></div>
+      <div class="kpi"><div class="k">{{ _("Kindergarten classes") }}</div><div class="v">{{ cs_view.latest.kinder_avg if cs_view.latest.kinder_avg is not none else "—" }}</div><div class="d">{{ _("Average size") }}</div></div>
+      <div class="kpi"><div class="k">{{ _("Grades 4–8 classes") }}</div><div class="v">{{ cs_view.latest.junior_avg if cs_view.latest.junior_avg is not none else "—" }}</div><div class="d">{{ _("1 combined-grade class") if cs_view.latest.combined_classes == 1 else _("{n} combined-grade classes", n=cs_view.latest.combined_classes) }}</div></div>
     </div>
     <div class="card" style="margin-top:16px">
-      <h3>Grades 1–3 average class size over time</h3>
-      <ul class="legend-inline"><li><i class="l-school"></i>This school</li><li><i class="l-board"></i>Board median</li><li><i class="l-prov"></i>Ontario median</li></ul>
+      <h3>{{ _("Grades 1–3 average class size over time") }}</h3>
+      <ul class="legend-inline"><li><i class="l-school"></i>{{ _("This school") }}</li><li><i class="l-board"></i>{{ _("Board median") }}</li><li><i class="l-prov"></i>{{ _("Ontario median") }}</li></ul>
       <div class="chart">{{ cs_view.svg|safe }}</div>
-      <details class="data-table"><summary>Show the numbers</summary><div class="table-wrap"><table>
-        <thead><tr><th scope="col">Year</th><th scope="col" class="n">All classes</th><th scope="col" class="n">Grades 1–3</th><th scope="col" class="n">≤ 20</th><th scope="col" class="n">Kindergarten</th><th scope="col" class="n">Grades 4–8</th><th scope="col" class="n">Board median (1–3)</th><th scope="col" class="n">Ontario median (1–3)</th></tr></thead>
+      <details class="data-table"><summary>{{ _("Show the numbers") }}</summary><div class="table-wrap"><table>
+        <thead><tr><th scope="col">{{ _("Year") }}</th><th scope="col" class="n">{{ _("All classes") }}</th><th scope="col" class="n">{{ _("Grades 1–3") }}</th><th scope="col" class="n">{{ _("≤ 20") }}</th><th scope="col" class="n">{{ _("Kindergarten") }}</th><th scope="col" class="n">{{ _("Grades 4–8") }}</th><th scope="col" class="n">{{ _("Board median (1–3)") }}</th><th scope="col" class="n">{{ _("Ontario median (1–3)") }}</th></tr></thead>
         <tbody>{% for r in s.class_size|reverse %}<tr><th scope="row">{{ r.year }}</th><td class="n">{{ r.avg_all if r.avg_all is not none else "—" }}</td><td class="n">{{ r.primary_avg if r.primary_avg is not none else "—" }}</td><td class="n">{{ (r.primary_le20_pct|string ~ "%") if r.primary_le20_pct is not none else "—" }}</td><td class="n">{{ r.kinder_avg if r.kinder_avg is not none else "—" }}</td><td class="n">{{ r.junior_avg if r.junior_avg is not none else "—" }}</td><td class="n">{{ r.primary_board_median if r.primary_board_median is not none else "—" }}</td><td class="n">{{ r.primary_province_median if r.primary_province_median is not none else "—" }}</td></tr>{% endfor %}</tbody>
       </table></div></details>
-      <p class="small muted" style="margin:8px 0 0">Averages are computed by this site from the class list ({{ cs_view.latest.source_id }}). Before 2014-15 the list only covers primary classes, so “All classes” starts then. Classes are matched to this school by name.{% if fv.cs_status.unresolved_years %} Years with no figure ({{ fv.cs_status.unresolved_years|join(", ") }}) are years a same-named school in the board made the list ambiguous.{% endif %}</p>
+      <p class="small muted" style="margin:8px 0 0">{{ _("Averages are computed by this site from the class list ({source}). Before 2014-15 the list only covers primary classes, so “All classes” starts then. Classes are matched to this school by name.", source=cs_view.latest.source_id) }}{% if fv.cs_status.unresolved_years %} {{ _("Years with no figure ({years}) are years a same-named school in the board made the list ambiguous.", years=fv.cs_status.unresolved_years|join(", ")) }}{% endif %}</p>
     </div>
   </div>
 </section>
 {% elif s.level == "elementary" %}
 <section class="block" id="class-sizes">
   <div class="wrap">
-    <h2>Class sizes</h2>
-    <div class="note">{{ icon("info") }}<div><p><span class="badge">{{ coverage.match_unresolved if fv.cs_status.status == "match_unresolved" else coverage.not_published }}</span> {{ fv.cs_text or "The Ministry’s class lists have no classes for this school." }} Ask the school about class sizes for your child’s grade.</p></div></div>
+    <h2>{{ _("Class sizes") }}</h2>
+    <div class="note">{{ icon("info") }}<div><p><span class="badge">{{ _(coverage.match_unresolved if fv.cs_status.status == "match_unresolved" else coverage.not_published) }}</span> {{ fv.cs_text or _("The Ministry’s class lists have no classes for this school.") }} {{ _("Ask the school about class sizes for your child’s grade.") }}</p></div></div>
   </div>
 </section>
 {% endif %}
 
 <section class="block" id="students">
   <div class="wrap">
-    <h2>About the students <span class="badge">{{ s.context.year }}</span></h2>
-    <p class="block-intro">Context the Ministry publishes for every school. It describes who the school serves — it is not a measure of quality. A higher share of students receiving special education says nothing about the quality or availability of support.</p>
+    <h2>{{ _("About the students") }} <span class="badge">{{ s.context.year }}</span></h2>
+    <p class="block-intro">{{ _("Context the Ministry publishes for every school. It describes who the school serves — it is not a measure of quality. A higher share of students receiving special education says nothing about the quality or availability of support.") }}</p>
     <div class="card">
       <div class="table-wrap"><table class="ctx-table">
-        <caption>Student population, {{ s.context.year }}</caption>
-        <thead><tr><th scope="col">Measure</th><th scope="col" class="n">This school</th><th scope="col" class="n">Board median</th><th scope="col" class="n">Ontario median</th></tr></thead>
+        <caption>{{ _("Student population, {year}", year=s.context.year) }}</caption>
+        <thead><tr><th scope="col">{{ _("Measure") }}</th><th scope="col" class="n">{{ _("This school") }}</th><th scope="col" class="n">{{ _("Board median") }}</th><th scope="col" class="n">{{ _("Ontario median") }}</th></tr></thead>
         <tbody>
         {% for c in context_rows %}
-          <tr role="row"><th scope="row" role="rowheader" style="font-weight:550">{{ c.label }}<div class="small muted" style="font-weight:400">{{ c.definition }}</div></th>
-            <td class="n" role="cell" data-label="This school">{% if c.value is not none %}{{ c.value }}%{% else %}<span class="code" title="{{ code_text(c.code) }}">{{ c.code }}</span>{% endif %}</td>
-            <td class="n" role="cell" data-label="Board median">{{ pct(c.board_median) }}</td><td class="n" role="cell" data-label="Ontario median">{{ pct(c.province_median) }}</td></tr>
+          <tr role="row"><th scope="row" role="rowheader" style="font-weight:550">{{ _(c.label) }}<div class="small muted" style="font-weight:400">{{ _(c.definition) }}</div></th>
+            <td class="n" role="cell" data-label="{{ _('This school') }}">{% if c.value is not none %}{{ c.value }}{{ pc }}{% else %}<span class="code" title="{{ _(code_text(c.code)) }}">{{ c.code }}</span>{% endif %}</td>
+            <td class="n" role="cell" data-label="{{ _('Board median') }}">{{ pct(c.board_median) }}</td><td class="n" role="cell" data-label="{{ _('Ontario median') }}">{{ pct(c.province_median) }}</td></tr>
         {% endfor %}
         </tbody>
       </table></div>
-      <p class="small muted" style="margin:8px 0 0">Source: <a href="#src-{{ s.context.source_id }}">{{ s.context.source_id }}</a>. Medians are computed by this site from the same file. Values under 10 students are withheld (<span class="code">SP</span>). The Ministry rounds these to whole percentages, so 0% can still mean a few students. How many students are identified as gifted also depends on each board’s identification practice, so compare it within a board.</p>
+      <p class="small muted" style="margin:8px 0 0">{{ _h('Source: <a href="#src-{id}">{id}</a>. Medians are computed by this site from the same file. Values under 10 students are withheld (<span class="code">SP</span>). The Ministry rounds these to whole percentages, so 0% can still mean a few students. How many students are identified as gifted also depends on each board’s identification practice, so compare it within a board.', id=s.context.source_id) }}</p>
     </div>
   </div>
 </section>
 
 <section class="block" id="supports">
   <div class="wrap">
-    <h2>Learning supports</h2>
-    <p class="block-intro">Where to find how {{ info.board_name }} arranges special education, accessibility and language support. These are board-wide documents: they don’t tell you what support a particular child will get, whether there is a wait, or what this school building has. Ask the school about specific needs.</p>
+    <h2>{{ _("Learning supports") }}</h2>
+    <p class="block-intro">{{ _("Where to find how {board} arranges special education, accessibility and language support. These are board-wide documents: they don’t tell you what support a particular child will get, whether there is a wait, or what this school building has. Ask the school about specific needs.", board=info.board_name) }}</p>
     <div class="grid grid-2 grid-top">
       <div class="card">
-        <h3>{{ icon("child", "card-ic") }}Special education</h3>
+        <h3>{{ icon("child", "card-ic") }}{{ _("Special education") }}</h3>
         {% set sp = T.get("special_education", []) + T.get("seac", []) %}
         {% if sp %}{{ records(sp) }}{% else %}{{ not_collected(info.board_name, s.board_website) }}{% endif %}
-        <p class="small" style="margin:8px 0 0">For everyone in Ontario: <a href="https://www.ontario.ca/page/special-education" rel="noopener">Special education in Ontario</a> (Ontario.ca) explains Individual Education Plans (IEPs), Identification, Placement and Review Committees (IPRCs) and parents’ rights, and the <a href="https://www.ontario.ca/document/special-education-ontario-policy-and-resource-guide-kindergarten-grade-12/special" rel="noopener">Ministry’s policy and resource guide</a> has the details.</p>
+        <p class="small" style="margin:8px 0 0">{{ _h('For everyone in Ontario: <a href="https://www.ontario.ca/page/special-education" rel="noopener">Special education in Ontario</a> (Ontario.ca) explains Individual Education Plans (IEPs), Identification, Placement and Review Committees (IPRCs) and parents’ rights, and the <a href="https://www.ontario.ca/document/special-education-ontario-policy-and-resource-guide-kindergarten-grade-12/special" rel="noopener">Ministry’s policy and resource guide</a> has the details.') }}</p>
       </div>
       <div class="card">
-        <h3>{{ icon("info", "card-ic") }}Accessibility and language support</h3>
+        <h3>{{ icon("info", "card-ic") }}{{ _("Accessibility and language support") }}</h3>
         {% set ac = T.get("accessibility", []) + T.get("newcomer", []) %}
         {% if ac %}{{ records(ac) }}{% else %}{{ not_collected(info.board_name, s.board_website) }}{% endif %}
       </div>
@@ -401,21 +406,21 @@
 
 <section class="block" id="board-info">
   <div class="wrap">
-    <h2>Plans, priorities and getting involved</h2>
+    <h2>{{ _("Plans, priorities and getting involved") }}</h2>
     <div class="grid grid-2 grid-top">
       <div class="card">
-        <h3>{{ icon("map", "card-ic") }}Planned changes and school space</h3>
+        <h3>{{ icon("map", "card-ic") }}{{ _("Planned changes and school space") }}</h3>
         {% if T.get("planning") %}{{ records(T.planning) }}
-        <p class="small muted" style="margin:8px 0 0">Building capacity is not the number of open seats in a grade or program. Projections are the board’s forecasts. A proposal is not a decision.</p>
+        <p class="small muted" style="margin:8px 0 0">{{ _("Building capacity is not the number of open seats in a grade or program. Projections are the board’s forecasts. A proposal is not a decision.") }}</p>
         {% else %}{{ not_collected(info.board_name, s.board_website) }}{% endif %}
-        <p class="small" style="margin:8px 0 0">Across Ontario: the Financial Accountability Office’s <a href="https://www.fao-on.org/en/report/school-boards-capital-2024/" rel="noopener">2024 report on school boards’ buildings</a>.</p>
+        <p class="small" style="margin:8px 0 0">{{ _h('Across Ontario: the Financial Accountability Office’s <a href="https://www.fao-on.org/en/report/school-boards-capital-2024/" rel="noopener">2024 report on school boards’ buildings</a>.') }}</p>
       </div>
       <div class="card">
-        <h3>{{ icon("check", "card-ic") }}Board priorities</h3>
+        <h3>{{ icon("check", "card-ic") }}{{ _("Board priorities") }}</h3>
         {% if T.get("achievement_plan") %}{{ records(T.achievement_plan) }}{% else %}{{ not_collected(info.board_name, s.board_website) }}{% endif %}
       </div>
       <div class="card">
-        <h3>{{ icon("child", "card-ic") }}Have a say, or raise a concern</h3>
+        <h3>{{ icon("child", "card-ic") }}{{ _("Have a say, or raise a concern") }}</h3>
         {% set inv = T.get("involvement", []) + T.get("concerns", []) %}
         {% if inv %}{{ records(inv) }}{% else %}{{ not_collected(info.board_name, s.board_website) }}{% endif %}
       </div>
@@ -426,53 +431,53 @@
 <section class="block" id="nearby">
   <div class="wrap grid grid-2 grid-top">
     <div class="card">
-      <h2 style="font-size:1.2rem">{{ icon("child", "card-ic") }}Licensed child care</h2>
+      <h2 style="font-size:1.2rem">{{ icon("child", "card-ic") }}{{ _("Licensed child care") }}</h2>
       {% if s.childcare.at_address %}
-      <p class="small muted">Licensed by the Ministry <strong>at this school’s street address</strong> ({{ childcare_date }}):</p>
+      <p class="small muted">{{ _h('Licensed by the Ministry <strong>at this school’s street address</strong> ({date}):', date=childcare_date) }}</p>
       <ul class="list">{% for c in s.childcare.at_address %}
-        <li><div class="row-link" style="cursor:default"><div class="main"><div class="t">{{ c.name }}</div><div class="s">{{ c.type }}{% if c.options %} · {{ c.options }}{% endif %}{% if c.language %} · {{ c.language }}{% endif %}{% if c.licence %} · licence {{ c.licence }}{% endif %}</div></div></div></li>
+        <li><div class="row-link" style="cursor:default"><div class="main"><div class="t">{{ c.name }}</div><div class="s">{{ _(c.type) }}{% if c.options %} · {{ c.options|listing }}{% endif %}{% if c.language %} · {{ c.language|listing }}{% endif %}{% if c.licence %} · {{ _("licence {number}", number=c.licence) }}{% endif %}</div></div></div></li>
       {% endfor %}</ul>
-      <p class="small muted">A licence shows the program is approved, not that it has space, what it costs, or that it serves every family at the school. Register with the provider.</p>
+      <p class="small muted">{{ _("A licence shows the program is approved, not that it has space, what it costs, or that it serves every family at the school. Register with the provider.") }}</p>
       {% else %}
-      <p class="muted">No licensed child care is listed at this school’s street address.</p>
+      <p class="muted">{{ _("No licensed child care is listed at this school’s street address.") }}</p>
       {% endif %}
-      <p class="small"><a href="/fsa/{{ s.fsa }}/#childcare">{{ s.childcare.in_fsa_count }} licensed child care site{{ "" if s.childcare.in_fsa_count == 1 else "s" }} in postal area {{ s.fsa }}</a> <span class="muted">(the postal area, not necessarily close by)</span> · <a class="ref" href="#src-{{ s.childcare.source_id }}">source</a></p>
-      <p class="small" style="margin:0 0 6px"><a href="https://www.earlyyears.edu.gov.on.ca/LCCWWeb/childcare/search.xhtml" rel="noopener">Ontario’s licensed child care search</a> <span class="muted">· current licences and inspection results for each provider</span></p>
-      {% if s.earlyon_in_fsa %}<p class="small" style="margin:0"><a href="/fsa/{{ s.fsa }}/#earlyon">{{ s.earlyon_in_fsa }} EarlyON Child and Family Centre{{ "" if s.earlyon_in_fsa == 1 else "s" }} in {{ s.fsa }}</a> <span class="muted">· free drop-in programs for children up to age 6</span></p>{% endif %}
+      <p class="small"><a href="{{ u('/fsa/' ~ s.fsa ~ '/#childcare') }}">{{ _("1 licensed child care site in postal area {fsa}", fsa=s.fsa) if s.childcare.in_fsa_count == 1 else _("{n} licensed child care sites in postal area {fsa}", n=s.childcare.in_fsa_count, fsa=s.fsa) }}</a> <span class="muted">{{ _("(the postal area, not necessarily close by)") }}</span> · <a class="ref" href="#src-{{ s.childcare.source_id }}">{{ _("source") }}</a></p>
+      <p class="small" style="margin:0 0 6px"><a href="https://www.earlyyears.edu.gov.on.ca/LCCWWeb/childcare/search.xhtml" rel="noopener">{{ _("Ontario’s licensed child care search") }}</a> <span class="muted">· {{ _("current licences and inspection results for each provider") }}</span></p>
+      {% if s.earlyon_in_fsa %}<p class="small" style="margin:0"><a href="{{ u('/fsa/' ~ s.fsa ~ '/#earlyon') }}">{{ _("1 EarlyON Child and Family Centre in {fsa}", fsa=s.fsa) if s.earlyon_in_fsa == 1 else _("{n} EarlyON Child and Family Centres in {fsa}", n=s.earlyon_in_fsa, fsa=s.fsa) }}</a> <span class="muted">· {{ _("free drop-in programs for children up to age 6") }}</span></p>{% endif %}
     </div>
     <div class="card">
-      <h2 style="font-size:1.2rem">{{ icon("pin", "card-ic") }}Other {{ s.level }} schools nearby</h2>
+      <h2 style="font-size:1.2rem">{{ icon("pin", "card-ic") }}{{ _("Other {level} schools nearby", level=_(s.level)) }}</h2>
       <ul class="list">{% for n in s.nearby %}
-        <li><a class="row-link" href="/school/{{ n.bsid }}/"><span class="pin sys-{{ n.system }}"></span><span class="main"><span class="t">{{ n.name }}</span><span class="s" style="display:block">{{ n.board_name }} · {{ n.language }}</span>{% set nb = nearby_badges.get(n.bsid) %}{% if nb %}<span class="prog-badges">{% for b in nb %}<span class="badge badge-prog prog-{{ b.key }}">{{ b.label }}</span>{% endfor %}</span>{% endif %}</span><span class="side">{{ n.km }} km</span></a></li>
+        <li><a class="row-link" href="{{ u('/school/' ~ n.bsid ~ '/') }}"><span class="pin sys-{{ n.system }}"></span><span class="main"><span class="t">{{ n.name }}</span><span class="s" style="display:block">{{ n.board_name }} · {{ _(n.language) }}</span>{% set nb = nearby_badges.get(n.bsid) %}{% if nb %}<span class="prog-badges">{% for b in nb %}<span class="badge badge-prog prog-{{ b.key }}">{{ _(b.label) }}</span>{% endfor %}</span>{% endif %}</span><span class="side">{{ n.km }} {{ _("km") }}</span></a></li>
       {% endfor %}</ul>
-      <p class="small muted" style="margin:6px 0 0">Straight-line distances. The closest school is not always the one that serves an address.</p>
+      <p class="small muted" style="margin:6px 0 0">{{ _("Straight-line distances. The closest school is not always the one that serves an address.") }}</p>
     </div>
   </div>
 </section>
 
 <section class="block" id="questions">
   <div class="wrap">
-    <h2>Questions to ask</h2>
-    <p class="block-intro">For a visit, a phone call or an email to the school or board. Built from what this page shows; the school and board have the answers that apply to your child.</p>
+    <h2>{{ _("Questions to ask") }}</h2>
+    <p class="block-intro">{{ _("For a visit, a phone call or an email to the school or board. Built from what this page shows; the school and board have the answers that apply to your child.") }}</p>
     <div class="card"><ol class="questions">{% for q in fv.questions %}<li>{{ q }}</li>{% endfor %}</ol>
-    {% if s.phone or s.email %}<p class="small" style="margin:8px 0 0">School: {% if s.phone %}<a href="tel:{{ s.phone|replace('-', '') }}">{{ s.phone }}</a>{% endif %}{% if s.phone and s.email %} · {% endif %}{% if s.email %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% endif %}</p>{% endif %}</div>
+    {% if s.phone or s.email %}<p class="small" style="margin:8px 0 0">{{ _("School:") }} {% if s.phone %}<a href="tel:{{ s.phone|replace('-', '') }}">{{ s.phone }}</a>{% endif %}{% if s.phone and s.email %} · {% endif %}{% if s.email %}<a href="mailto:{{ s.email }}">{{ s.email }}</a>{% endif %}</p>{% endif %}</div>
   </div>
 </section>
 
 <section class="block" id="sources">
   <div class="wrap">
-    <h2>Sources</h2>
-    <p class="block-intro">Every number on this page comes from one of these public files. Codes such as <span class="code">N/R</span> are explained in <a href="/methodology/#codes">How it works</a>. The date shown for each file is when we downloaded it, not how current its information is: each title says the period it describes.</p>
+    <h2>{{ _("Sources") }}</h2>
+    <p class="block-intro">{{ _h('Every number on this page comes from one of these public files. Codes such as <span class="code">N/R</span> are explained in <a href="{url}">How it works</a>. The date shown for each file is when we downloaded it, not how current its information is: each title says the period it describes.', url=u('/methodology/#codes')) }}</p>
     {{ source_groups(s.sources) }}
-    {% if info.collected %}<p class="small muted" style="margin:14px 0 0">Attendance, program, support and planning information: {{ info.board_name }}’s own pages, linked next to each item and checked {{ info.checked }}.</p>{% endif %}
-    {% if s.geocoded %}<p class="small muted" style="margin:14px 0 0"><strong>Location found by address search.</strong> {% if s.coord_note %}{{ s.coord_note }}{% else %}No source year had coordinates for this school.{% endif %} Its address was matched with the <a href="https://natural-resources.canada.ca/maps-tools-and-publications/maps/geolocation-service" rel="noopener">Natural Resources Canada Geolocation Service</a> ({{ s.geocode_precision|lower|replace("_", " ") }}).</p>{% endif %}
-    <h3 style="margin-top:24px">Check it yourself</h3>
+    {% if info.collected %}<p class="small muted" style="margin:14px 0 0">{{ _("Attendance, program, support and planning information: {board}’s own pages, linked next to each item and checked {checked}.", board=info.board_name, checked=info.checked) }}</p>{% endif %}
+    {% if s.geocoded %}<p class="small muted" style="margin:14px 0 0">{{ _h('<strong>Location found by address search.</strong> {note} Its address was matched with the <a href="{url}" rel="noopener">Natural Resources Canada Geolocation Service</a> ({precision}).', note=(s.coord_note if s.coord_note else _("No source year had coordinates for this school.")), url="https://natural-resources.canada.ca/maps-tools-and-publications/maps/geolocation-service", precision=_(s.geocode_precision|lower|replace("_", " "))) }}</p>{% endif %}
+    <h3 style="margin-top:24px">{{ _("Check it yourself") }}</h3>
     <div class="chips">
-      <a class="chip" href="{{ s.links.eqao }}" rel="noopener">{{ icon("ext", "card-ic") }}EQAO school results</a>
-      <a class="chip" href="{{ s.links.find_your_school }}" rel="noopener">{{ icon("ext", "card-ic") }}Ontario School Information Finder</a>
-      {% if locators.get(s.board_number) %}<a class="chip" href="{{ locators[s.board_number].url }}" rel="noopener">{{ icon("pin", "card-ic") }}Which school serves an address</a>{% endif %}
-      {% if s.board_website %}<a class="chip" href="{{ s.board_website }}" rel="noopener">{{ icon("ext", "card-ic") }}{{ s.board_name }} website</a>{% endif %}
-      <a class="chip" href="/corrections/?school={{ s.bsid }}">{{ icon("flag", "card-ic") }}Report a correction</a>
+      <a class="chip" href="{{ s.links.eqao }}" rel="noopener">{{ icon("ext", "card-ic") }}{{ _("EQAO school results") }}</a>
+      <a class="chip" href="{{ s.links.find_your_school }}" rel="noopener">{{ icon("ext", "card-ic") }}{{ _("Ontario School Information Finder") }}</a>
+      {% if locators.get(s.board_number) %}<a class="chip" href="{{ locators[s.board_number].url }}" rel="noopener">{{ icon("pin", "card-ic") }}{{ _("Which school serves an address") }}</a>{% endif %}
+      {% if s.board_website %}<a class="chip" href="{{ s.board_website }}" rel="noopener">{{ icon("ext", "card-ic") }}{{ _("{board} website", board=s.board_name) }}</a>{% endif %}
+      <a class="chip" href="{{ u('/corrections/?school=' ~ s.bsid) }}">{{ icon("flag", "card-ic") }}{{ _("Report a correction") }}</a>
     </div>
   </div>
 </section>

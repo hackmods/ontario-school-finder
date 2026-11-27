@@ -11,3 +11,7 @@ playwright-report/
 deploy.tar
 *.log
 .DS_Store
+site/data.building/
+site/data.old/
+site/static/js/i18n-fr.js
+site/i18n/missing-fr.txt

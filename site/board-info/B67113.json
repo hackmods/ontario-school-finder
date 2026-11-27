@@ -430,5 +430,2327 @@
         "821241": "St. Marguerite d'Youville (Oakville)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "680039": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-680039",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=145",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 570,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 259
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 176
+              },
+              {
+                "year": "2035",
+                "value": 191
+              },
+              {
+                "year": "2040",
+                "value": 198
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 570, with 259 students in 2025; it forecasts 198 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "681054": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-681054",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=115",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 671,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 737
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 696
+              },
+              {
+                "year": "2035",
+                "value": 707
+              },
+              {
+                "year": "2040",
+                "value": 722
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 671, with 737 students in 2025; it forecasts 722 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "681423": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-681423",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=145",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 660
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 526
+              },
+              {
+                "year": "2035",
+                "value": 602
+              },
+              {
+                "year": "2040",
+                "value": 679
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 599, with 660 students in 2025; it forecasts 679 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "683661": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-683661",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=109",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 723,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 678
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 521
+              },
+              {
+                "year": "2035",
+                "value": 533
+              },
+              {
+                "year": "2040",
+                "value": 549
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 723, with 678 students in 2025; it forecasts 549 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "687286": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-687286",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=73",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 383,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 315
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 315
+              },
+              {
+                "year": "2035",
+                "value": 329
+              },
+              {
+                "year": "2040",
+                "value": 342
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 383, with 315 students in 2025; it forecasts 342 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "687394": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-687394",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=115",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 648,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 588
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 458
+              },
+              {
+                "year": "2035",
+                "value": 479
+              },
+              {
+                "year": "2040",
+                "value": 501
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 648, with 588 students in 2025; it forecasts 501 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "688231": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-688231",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=74",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1139,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1122
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1225
+              },
+              {
+                "year": "2035",
+                "value": 1294
+              },
+              {
+                "year": "2040",
+                "value": 1339
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,139, with 1,122 students in 2025; it forecasts 1,339 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "689726": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-689726",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=110",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1688,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 2546
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1811
+              },
+              {
+                "year": "2035",
+                "value": 1527
+              },
+              {
+                "year": "2040",
+                "value": 1554
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,688, with 2,546 students in 2025; it forecasts 1,554 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "693987": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-693987",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=85",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 465
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 492
+              },
+              {
+                "year": "2035",
+                "value": 469
+              },
+              {
+                "year": "2040",
+                "value": 444
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 409, with 465 students in 2025; it forecasts 444 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "696392": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-696392",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=116",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1573,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1811
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 2099
+              },
+              {
+                "year": "2035",
+                "value": 1848
+              },
+              {
+                "year": "2040",
+                "value": 1892
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,573, with 1,811 students in 2025; it forecasts 1,892 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "697125": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-697125",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=98",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1476,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1512
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1807
+              },
+              {
+                "year": "2035",
+                "value": 2167
+              },
+              {
+                "year": "2040",
+                "value": 2428
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,476, with 1,512 students in 2025; it forecasts 2,428 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "700058": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-700058",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=115",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 671,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 183
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 567
+              },
+              {
+                "year": "2035",
+                "value": 942
+              },
+              {
+                "year": "2040",
+                "value": 1109
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 671, with 183 students in 2025; it forecasts 1,109 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "704300": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-704300",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=134",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1361,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1848
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1863
+              },
+              {
+                "year": "2035",
+                "value": 2047
+              },
+              {
+                "year": "2040",
+                "value": 2277
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,361, with 1,848 students in 2025; it forecasts 2,277 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "708160": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-708160",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=121",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 723,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 756
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 670
+              },
+              {
+                "year": "2035",
+                "value": 667
+              },
+              {
+                "year": "2040",
+                "value": 681
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 723, with 756 students in 2025; it forecasts 681 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "709332": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-709332",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=121",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 671,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 360
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 512
+              },
+              {
+                "year": "2035",
+                "value": 844
+              },
+              {
+                "year": "2040",
+                "value": 995
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 671, with 360 students in 2025; it forecasts 995 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "714712": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-714712",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=97",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 455,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 468
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 288
+              },
+              {
+                "year": "2035",
+                "value": 346
+              },
+              {
+                "year": "2040",
+                "value": 375
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 455, with 468 students in 2025; it forecasts 375 in 2040. The plan notes: Scheduled to undergo renovations during the 2027-28 and 2028-29 school years. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "716936": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-716936",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=133",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 206
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 221
+              },
+              {
+                "year": "2035",
+                "value": 204
+              },
+              {
+                "year": "2040",
+                "value": 204
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 314, with 206 students in 2025; it forecasts 204 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "718483": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-718483",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=73",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 478,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 385
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 421
+              },
+              {
+                "year": "2035",
+                "value": 531
+              },
+              {
+                "year": "2040",
+                "value": 586
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 478, with 385 students in 2025; it forecasts 586 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "719005": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-719005",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=109",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 536,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 507
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 534
+              },
+              {
+                "year": "2035",
+                "value": 627
+              },
+              {
+                "year": "2040",
+                "value": 683
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 536, with 507 students in 2025; it forecasts 683 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "729159": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-729159",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=145",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 533,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 261
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 214
+              },
+              {
+                "year": "2035",
+                "value": 206
+              },
+              {
+                "year": "2040",
+                "value": 216
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 533, with 261 students in 2025; it forecasts 216 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "734373": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-734373",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=109",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 312
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 324
+              },
+              {
+                "year": "2035",
+                "value": 345
+              },
+              {
+                "year": "2040",
+                "value": 335
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 291, with 312 students in 2025; it forecasts 335 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "737147": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-737147",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=121",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 648,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 495
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 416
+              },
+              {
+                "year": "2035",
+                "value": 413
+              },
+              {
+                "year": "2040",
+                "value": 410
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 648, with 495 students in 2025; it forecasts 410 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "738271": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-738271",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=86",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1217,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1001
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1096
+              },
+              {
+                "year": "2035",
+                "value": 1116
+              },
+              {
+                "year": "2040",
+                "value": 1121
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,217, with 1,001 students in 2025; it forecasts 1,121 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "749052": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-749052",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=133",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 478,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 388
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 364
+              },
+              {
+                "year": "2035",
+                "value": 358
+              },
+              {
+                "year": "2040",
+                "value": 361
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 478, with 388 students in 2025; it forecasts 361 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "755052": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-755052",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=139",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 671,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 530
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 808
+              },
+              {
+                "year": "2035",
+                "value": 1179
+              },
+              {
+                "year": "2040",
+                "value": 1327
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 671, with 530 students in 2025; it forecasts 1,327 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "758280": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-758280",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=79",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 547,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 584
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 666
+              },
+              {
+                "year": "2035",
+                "value": 710
+              },
+              {
+                "year": "2040",
+                "value": 690
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 547, with 584 students in 2025; it forecasts 690 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "761182": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-761182",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=80",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1292,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1238
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1291
+              },
+              {
+                "year": "2035",
+                "value": 1126
+              },
+              {
+                "year": "2040",
+                "value": 1197
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,292, with 1,238 students in 2025; it forecasts 1,197 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "768936": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-768936",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=133",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 644
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 575
+              },
+              {
+                "year": "2035",
+                "value": 601
+              },
+              {
+                "year": "2040",
+                "value": 660
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 573, with 644 students in 2025; it forecasts 660 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "772099": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-772099",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=122",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1623,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1451
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 2513
+              },
+              {
+                "year": "2035",
+                "value": 3825
+              },
+              {
+                "year": "2040",
+                "value": 5308
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,623, with 1,451 students in 2025; it forecasts 5,308 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "772647": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-772647",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=79",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 622,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 592
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 423
+              },
+              {
+                "year": "2035",
+                "value": 445
+              },
+              {
+                "year": "2040",
+                "value": 467
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 622, with 592 students in 2025; it forecasts 467 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "777650": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-777650",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=145",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 228
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 194
+              },
+              {
+                "year": "2035",
+                "value": 195
+              },
+              {
+                "year": "2040",
+                "value": 200
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 504, with 228 students in 2025; it forecasts 200 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "780871": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-780871",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=97",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 674
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 793
+              },
+              {
+                "year": "2035",
+                "value": 1539
+              },
+              {
+                "year": "2040",
+                "value": 1955
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 573, with 674 students in 2025; it forecasts 1,955 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "781436": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-781436",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=97",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 622,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 710
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 486
+              },
+              {
+                "year": "2035",
+                "value": 648
+              },
+              {
+                "year": "2040",
+                "value": 647
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 622, with 710 students in 2025; it forecasts 647 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "786861": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-786861",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=151",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 536
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 496
+              },
+              {
+                "year": "2035",
+                "value": 530
+              },
+              {
+                "year": "2040",
+                "value": 570
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 527, with 536 students in 2025; it forecasts 570 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "789232": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-789232",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=79",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 455,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 313
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 282
+              },
+              {
+                "year": "2035",
+                "value": 400
+              },
+              {
+                "year": "2040",
+                "value": 472
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 455, with 313 students in 2025; it forecasts 472 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "792039": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-792039",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=97",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 437
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 406
+              },
+              {
+                "year": "2035",
+                "value": 425
+              },
+              {
+                "year": "2040",
+                "value": 429
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 363, with 437 students in 2025; it forecasts 429 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "793884": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-793884",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=85",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 547,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 542
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 576
+              },
+              {
+                "year": "2035",
+                "value": 565
+              },
+              {
+                "year": "2040",
+                "value": 536
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 547, with 542 students in 2025; it forecasts 536 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "794978": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-794978",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=115",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 671,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 770
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 818
+              },
+              {
+                "year": "2035",
+                "value": 907
+              },
+              {
+                "year": "2040",
+                "value": 908
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 671, with 770 students in 2025; it forecasts 908 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "798010": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-798010",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=146",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1433,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1276
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1291
+              },
+              {
+                "year": "2035",
+                "value": 1343
+              },
+              {
+                "year": "2040",
+                "value": 1501
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,433, with 1,276 students in 2025; it forecasts 1,501 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "798827": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-798827",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=151",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 586
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 639
+              },
+              {
+                "year": "2035",
+                "value": 800
+              },
+              {
+                "year": "2040",
+                "value": 955
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 527, with 586 students in 2025; it forecasts 955 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "801283": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-801283",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=145",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 547,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 257
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 250
+              },
+              {
+                "year": "2035",
+                "value": 278
+              },
+              {
+                "year": "2040",
+                "value": 270
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 547, with 257 students in 2025; it forecasts 270 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "804291": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-804291",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=139",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 671,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 514
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1015
+              },
+              {
+                "year": "2035",
+                "value": 1629
+              },
+              {
+                "year": "2040",
+                "value": 1915
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 671, with 514 students in 2025; it forecasts 1,915 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "804410": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-804410",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=73",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 383,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 332
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 381
+              },
+              {
+                "year": "2035",
+                "value": 430
+              },
+              {
+                "year": "2040",
+                "value": 415
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 383, with 332 students in 2025; it forecasts 415 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "809144": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-809144",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=97",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 386,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 377
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 387
+              },
+              {
+                "year": "2035",
+                "value": 388
+              },
+              {
+                "year": "2040",
+                "value": 378
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 386, with 377 students in 2025; it forecasts 378 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "810355": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-810355",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=115",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 671,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 639
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 564
+              },
+              {
+                "year": "2035",
+                "value": 633
+              },
+              {
+                "year": "2040",
+                "value": 645
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 671, with 639 students in 2025; it forecasts 645 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "820679": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-820679",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=151",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 157
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 133
+              },
+              {
+                "year": "2035",
+                "value": 133
+              },
+              {
+                "year": "2040",
+                "value": 134
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 360, with 157 students in 2025; it forecasts 134 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "821241": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-821241",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=133",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 396
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 513
+              },
+              {
+                "year": "2035",
+                "value": 575
+              },
+              {
+                "year": "2040",
+                "value": 617
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 504, with 396 students in 2025; it forecasts 617 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "823058": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-823058",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=85",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 443
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 421
+              },
+              {
+                "year": "2035",
+                "value": 420
+              },
+              {
+                "year": "2040",
+                "value": 418
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 363, with 443 students in 2025; it forecasts 418 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "823180": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-823180",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=145",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 307
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 227
+              },
+              {
+                "year": "2035",
+                "value": 220
+              },
+              {
+                "year": "2040",
+                "value": 220
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 363, with 307 students in 2025; it forecasts 220 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "834319": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-834319",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=133",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 305
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 350
+              },
+              {
+                "year": "2035",
+                "value": 340
+              },
+              {
+                "year": "2040",
+                "value": 338
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 291, with 305 students in 2025; it forecasts 338 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "838178": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-838178",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=79",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 478,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 280
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 337
+              },
+              {
+                "year": "2035",
+                "value": 403
+              },
+              {
+                "year": "2040",
+                "value": 395
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 478, with 280 students in 2025; it forecasts 395 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "839442": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-839442",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=73",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 313
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 333
+              },
+              {
+                "year": "2035",
+                "value": 329
+              },
+              {
+                "year": "2040",
+                "value": 338
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 337, with 313 students in 2025; it forecasts 338 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "840912": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-840912",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=73",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 458
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 493
+              },
+              {
+                "year": "2035",
+                "value": 471
+              },
+              {
+                "year": "2040",
+                "value": 457
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 337, with 458 students in 2025; it forecasts 457 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "843989": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-843989",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=109",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 619,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 593
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 572
+              },
+              {
+                "year": "2035",
+                "value": 599
+              },
+              {
+                "year": "2040",
+                "value": 606
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 619, with 593 students in 2025; it forecasts 606 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "848484": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-848484",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=73",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 346,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 368
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 347
+              },
+              {
+                "year": "2035",
+                "value": 351
+              },
+              {
+                "year": "2040",
+                "value": 356
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 346, with 368 students in 2025; it forecasts 356 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "854212": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-854212",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=152",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 1338,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1303
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1249
+              },
+              {
+                "year": "2035",
+                "value": 1292
+              },
+              {
+                "year": "2040",
+                "value": 1385
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 1,338, with 1,303 students in 2025; it forecasts 1,385 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "856630": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-856630",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=85",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 566
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 555
+              },
+              {
+                "year": "2035",
+                "value": 553
+              },
+              {
+                "year": "2040",
+                "value": 558
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 504, with 566 students in 2025; it forecasts 558 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "858889": {
+      "records": [
+        {
+          "id": "hcdsb-capacity-858889",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long-Term Capital Plan, Halton Catholic District School Board (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf#page=151",
+          "source_date": "June 1, 2026",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "Functional building capacity (FBC)",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 132
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 135
+              },
+              {
+                "year": "2035",
+                "value": 124
+              },
+              {
+                "year": "2040",
+                "value": 124
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's functional building capacity (FBC) as 268, with 132 students in 2025; it forecasts 124 in 2040. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

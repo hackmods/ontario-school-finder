@@ -3,6 +3,8 @@ from __future__ import annotations
 
 from html import escape
 
+from i18n import _
+
 EQAO_GAP = ("2018-19", "2021-22")  # no EQAO assessments in 2019-20 and 2020-21
 
 
@@ -40,10 +42,11 @@ def _svg_open(w: int, h: int, title: str, cls: str) -> str:
 
 
 def eqao_chart(rows: list[dict], years: list[str], *, title: str, main_key: str = "pct_at_or_above_standard",
-               main_label: str = "This school", w: int = 360, h: int = 200, board_key: str = "board_median",
+               main_label: str | None = None, w: int = 360, h: int = 200, board_key: str = "board_median",
                prov_key: str = "province_median", ymax: float = 100, unit: str = "%", gap: bool = True, cls: str = "") -> str:
     """Line chart: school (solid), board median (dashed), Ontario median (dotted)."""
     pad_l, pad_r, pad_t, pad_b = 34, 34, 14, 34
+    main_label = main_label or _("This school")
     xs = _x_positions(years, pad_l, w - pad_r)
     every = label_every(len(years), w - pad_l - pad_r)
 
@@ -57,7 +60,7 @@ def eqao_chart(rows: list[dict], years: list[str], *, title: str, main_key: str 
         x0, x1 = xs[EQAO_GAP[0]] + 10, xs[EQAO_GAP[1]] - 10
         if x1 > x0:
             out.append(f'<rect class="gap-band" x="{x0:.1f}" y="{pad_t}" width="{x1 - x0:.1f}" height="{h - pad_t - pad_b}" rx="4"/>')
-            out.append(f'<text class="gap-label" x="{(x0 + x1) / 2:.1f}" y="{pad_t + 12}" text-anchor="middle">no tests</text>')
+            out.append(f'<text class="gap-label" x="{(x0 + x1) / 2:.1f}" y="{pad_t + 12}" text-anchor="middle">{escape(_("no tests"))}</text>')
     for g in [ymax * f for f in (0, .25, .5, .75, 1)]:
         g = int(g) if float(g).is_integer() else round(g, 1)
         y = y_of(g)
@@ -133,7 +136,7 @@ def bar_chart(points: list[dict], *, title: str, w: int = 640, h: int = 190, cls
     for i, p in enumerate(points):
         cx = pad_l + slot * i + slot / 2
         if p["value"] is None:
-            out.append(f'<rect class="bar-null" x="{cx - bw / 2:.1f}" y="{base - 28}" width="{bw:.1f}" height="28" rx="3"><title>{escape(p["year"])}: {escape(p.get("code") or "not available")}</title></rect>')
+            out.append(f'<rect class="bar-null" x="{cx - bw / 2:.1f}" y="{base - 28}" width="{bw:.1f}" height="28" rx="3"><title>{escape(p["year"])}: {escape(p.get("code") or _("not available"))}</title></rect>')
         else:
             bh = max(2.0, (base - pad_t) * p["value"] / vmax)
             out.append(f'<rect class="bar" x="{cx - bw / 2:.1f}" y="{base - bh:.1f}" width="{bw:.1f}" height="{bh:.1f}" rx="3"><title>{escape(p["year"])}: {p["value"]:,}</title></rect>')

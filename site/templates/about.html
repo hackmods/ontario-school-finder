@@ -2,61 +2,61 @@
 {%- from "_icons.html" import icon -%}
 {% block main %}
 <div class="page-head"><div class="wrap">
-  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">About</li></ol>
-  <h1>About Ontario School Finder</h1>
-  <p class="lede" style="margin:0">A free, independent tool that puts Ontario’s public school data in one place, in plain language, with the sources one click away.</p>
+  <ol class="crumbs"><li><a href="{{ u('/') }}">{{ _("Home") }}</a></li><li aria-current="page">{{ _("About") }}</li></ol>
+  <h1>{{ _("About Ontario School Finder") }}</h1>
+  <p class="lede" style="margin:0">{{ _("A free, independent tool that puts Ontario’s public school data in one place, in plain language, with the sources one click away.") }}</p>
 </div></div>
 <div class="wrap doc"><div class="prose doc-main">
-<h2 id="what">What this is</h2>
-<p>Choosing or getting to know a school is a big decision, and the public information about Ontario schools is spread across spreadsheets from several government offices. This site gathers it, cleans it carefully, and shows each school next to its board and the province over time — without ranking anyone.</p>
-<p>It covers every publicly funded school in Ontario: English and French, public and Catholic, elementary and secondary. Private schools are not included because the Ministry does not publish comparable data for them.</p>
+<h2 id="what">{{ _("What this is") }}</h2>
+<p>{{ _("Choosing or getting to know a school is a big decision, and the public information about Ontario schools is spread across spreadsheets from several government offices. This site gathers it, cleans it carefully, and shows each school next to its board and the province over time — without ranking anyone.") }}</p>
+<p>{{ _("It covers every publicly funded school in Ontario: English and French, public and Catholic, elementary and secondary. Private schools are not included because the Ministry does not publish comparable data for them.") }}</p>
 
-<h2 id="who">Who runs it</h2>
-<p>{{ operator }} It is not affiliated with EQAO, the Ministry of Education, any school board, or any real-estate or ranking company.</p>
+<h2 id="who">{{ _("Who runs it") }}</h2>
+<p>{{ operator }} {{ _("It is not affiliated with EQAO, the Ministry of Education, any school board, or any real-estate or ranking company.") }}</p>
 {% if contact_email %}
-<h2 id="contact">Contact</h2>
-<p>Questions, ideas or a correction? Email <a href="mailto:{{ contact_email }}?subject=Ontario%20School%20Finder">{{ contact_email }}</a>. For a correction, please include the school’s name or number and where you saw the right value — or start from the school’s own page with “Report a correction”.</p>
+<h2 id="contact">{{ _("Contact") }}</h2>
+<p>{{ _h("Questions, ideas or a correction? Email <a href=\"mailto:{email}?subject=Ontario%20School%20Finder\">{email}</a>. For a correction, please include the school’s name or number and where you saw the right value — or start from the school’s own page with “Report a correction”.", email=contact_email) }}</p>
 {% endif %}
 
-<h2 id="free">Why it’s free</h2>
-<p>It is built on open data that taxpayers already paid for, and it costs very little to run: there is no server-side database and no accounts. There are no ads and there never will be. The cleaned data is <a href="/data/">free to download</a> under the same open licences.</p>
+<h2 id="free">{{ _("Why it’s free") }}</h2>
+<p>{{ _h("It is built on open data that taxpayers already paid for, and it costs very little to run: there is no server-side database and no accounts. There are no ads and there never will be. The cleaned data is <a href=\"{url}\">free to download</a> under the same open licences.", url=u("/data/")) }}</p>
 {% if support_url %}
 
-<h2 id="support">Support the site</h2>
-<p>The goal is a careful, high-quality site, not a business. There is nothing to buy, no premium version and no ads to switch off. If the site helped you and you’d like to chip in for hosting and the hours that go into it, you can buy me a coffee. It is entirely optional, and nothing on the site changes either way.</p>
-<p><a class="btn btn-sm" href="{{ support_url }}" target="_blank" rel="noopener">{{ icon("heart") }}Buy me a coffee</a></p>
-<p class="muted">Opens buymeacoffee.com in a new tab. It is a plain link: this site loads nothing from Buy Me a Coffee, and they see only what you choose to give them there.</p>
+<h2 id="support">{{ _("Support the site") }}</h2>
+<p>{{ _("The goal is a careful, high-quality site, not a business. There is nothing to buy, no premium version and no ads to switch off. If the site helped you and you’d like to chip in for hosting and the hours that go into it, you can buy me a coffee. It is entirely optional, and nothing on the site changes either way.") }}</p>
+<p><a class="btn btn-sm" href="{{ support_url }}" target="_blank" rel="noopener">{{ icon("heart") }}{{ _("Buy me a coffee") }}</a></p>
+<p class="muted">{{ _("Opens buymeacoffee.com in a new tab. It is a plain link: this site loads nothing from Buy Me a Coffee, and they see only what you choose to give them there.") }}</p>
 {% endif %}
 
-<h2 id="privacy">Privacy</h2>
+<h2 id="privacy">{{ _("Privacy") }}</h2>
 <ul>
-  <li><strong>No accounts, no tracking cookies, no analytics, no ads.</strong></li>
-  <li><strong>“Use my location”</strong> asks your browser for permission, uses your position only inside your browser tab to sort schools by distance, and never sends it to us or stores it.</li>
-  <li><strong>Address search</strong> sends only the text you type to the Government of Canada’s Natural Resources Canada Geolocation Service, and only when you ask for an address search.</li>
-  <li><strong>Maps</strong> load tiles from OpenFreeMap; like any website, their servers see your IP address when tiles load. Nothing else is loaded from third parties.</li>
-  <li>Your “compare” list and light/dark choice are saved only in your own browser (local storage) and you can clear them any time.</li>
-  <li>Our web server keeps standard short-lived access logs (IP address, page, time) for security and reliability. We don’t sell or share them.</li>
+  <li>{{ _h("<strong>No accounts, no tracking cookies, no analytics, no ads.</strong>") }}</li>
+  <li>{{ _h("<strong>“Use my location”</strong> asks your browser for permission, uses your position only inside your browser tab to sort schools by distance, and never sends it to us or stores it.") }}</li>
+  <li>{{ _h("<strong>Address search</strong> sends only the text you type to the Government of Canada’s Natural Resources Canada Geolocation Service, and only when you ask for an address search.") }}</li>
+  <li>{{ _h("<strong>Maps</strong> load tiles from OpenFreeMap; like any website, their servers see your IP address when tiles load. Nothing else is loaded from third parties.") }}</li>
+  <li>{{ _("Your “compare” list and light/dark choice are saved only in your own browser (local storage) and you can clear them any time.") }}</li>
+  <li>{{ _("Our web server keeps standard short-lived access logs (IP address, page, time) for security and reliability. We don’t sell or share them.") }}</li>
 </ul>
 
-<h2 id="corrections">Corrections</h2>
-<p>Found something wrong? See <a href="/corrections/">how to report a correction</a>{% if contact_email %} or email <a href="mailto:{{ contact_email }}?subject=Correction">{{ contact_email }}</a>{% endif %}. School contact details come from school boards; results come from EQAO and the Ministry. We fix our own mistakes quickly and pass source errors on to the right office.</p>
+<h2 id="corrections">{{ _("Corrections") }}</h2>
+<p>{% if contact_email %}{{ _h("Found something wrong? See <a href=\"{url}\">how to report a correction</a> or email <a href=\"mailto:{email}?subject=Correction\">{email}</a>.", url=u("/corrections/"), email=contact_email) }}{% else %}{{ _h("Found something wrong? See <a href=\"{url}\">how to report a correction</a>.", url=u("/corrections/")) }}{% endif %} {{ _("School contact details come from school boards; results come from EQAO and the Ministry. We fix our own mistakes quickly and pass source errors on to the right office.") }}</p>
 </div>
 
-<aside class="doc-aside" aria-label="At a glance">
+<aside class="doc-aside" aria-label="{{ _("At a glance") }}">
   <div class="card glance-card">
-    <p class="eyebrow">At a glance</p>
+    <p class="eyebrow">{{ _("At a glance") }}</p>
     <ul class="isnt">
-      <li class="yes">{{ icon("check") }}<span>Free, with no ads and no accounts</span></li>
-      <li class="yes">{{ icon("check") }}<span>No tracking cookies or analytics</span></li>
-      <li class="yes">{{ icon("check") }}<span>Every number links to its public source</span></li>
-      <li class="yes">{{ icon("check") }}<span>No rankings and no single score</span></li>
-      <li class="yes">{{ icon("check") }}<span>All {{ "{:,}".format(meta.counts.schools) }} publicly funded schools, English and French</span></li>
+      <li class="yes">{{ icon("check") }}<span>{{ _("Free, with no ads and no accounts") }}</span></li>
+      <li class="yes">{{ icon("check") }}<span>{{ _("No tracking cookies or analytics") }}</span></li>
+      <li class="yes">{{ icon("check") }}<span>{{ _("Every number links to its public source") }}</span></li>
+      <li class="yes">{{ icon("check") }}<span>{{ _("No rankings and no single score") }}</span></li>
+      <li class="yes">{{ icon("check") }}<span>{{ _("All {n} publicly funded schools, English and French", n=(meta.counts.schools)|num) }}</span></li>
     </ul>
     <div class="doc-actions">
-      <a class="btn btn-sm" href="/methodology/">{{ icon("info") }}How it works</a>
-      <a class="btn btn-sm" href="/data/">{{ icon("download") }}Download the data</a>
-      {% if support_url %}<a class="btn btn-sm btn-ghost" href="#support">{{ icon("heart") }}Support the site</a>{% endif %}
-      {% if contact_email %}<a class="btn btn-sm btn-ghost" href="mailto:{{ contact_email }}?subject=Ontario%20School%20Finder">{{ icon("mail") }}Email us</a>{% endif %}
+      <a class="btn btn-sm" href="{{ u('/methodology/') }}">{{ icon("info") }}{{ _("How it works") }}</a>
+      <a class="btn btn-sm" href="{{ u('/data/') }}">{{ icon("download") }}{{ _("Download the data") }}</a>
+      {% if support_url %}<a class="btn btn-sm btn-ghost" href="#support">{{ icon("heart") }}{{ _("Support the site") }}</a>{% endif %}
+      {% if contact_email %}<a class="btn btn-sm btn-ghost" href="mailto:{{ contact_email }}?subject=Ontario%20School%20Finder">{{ icon("mail") }}{{ _("Email us") }}</a>{% endif %}
     </div>
   </div>
 </aside>

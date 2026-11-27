@@ -1,0 +1,20 @@
+{
+  "_about": "Fragment for site/templates/corrections.html. Machine translation, unreviewed.",
+  "Home": "Accueil",
+  "Report a correction": "Signaler une correction",
+  "Thank you for helping keep this accurate. Here is who can fix what.": "Merci de nous aider à garder ces données exactes. Voici qui peut corriger quoi.",
+  "School name, address, phone, website or grades": "Nom, adresse, téléphone, site Web ou années d’études de l’école",
+  "These come from school boards through the Ministry of Education’s school list. Changes appear here after the Ministry publishes its next list and the site is rebuilt.": "Ces renseignements proviennent des conseils scolaires, par la liste des écoles du ministère de l’Éducation. Les changements apparaissent ici après la publication de la prochaine liste du ministère et la reconstruction du site.",
+  "<span class=\"muted\">Who fixes it:</span> <strong>the school board</strong>. Each school page links to its board.": "<span class=\"muted\">Qui corrige :</span> <strong>le conseil scolaire</strong>. Chaque page d’école renvoie à son conseil.",
+  "EQAO results": "Résultats de l’OQRE",
+  "Results are published by <a href=\"https://www.eqao.com/\" rel=\"noopener\">EQAO</a> and the Ministry. If a number here differs from the school’s report on EQAO’s site for the same year, that is our mistake — please tell us.": "Les résultats sont publiés par l’<a href=\"https://www.eqao.com/\" rel=\"noopener\">OQRE</a> et le ministère. Si un chiffre ici diffère du rapport de l’école sur le site de l’OQRE pour la même année, c’est notre erreur : veuillez nous le signaler.",
+  "<span class=\"muted\">Who fixes it:</span> <strong>EQAO</strong> for their report, <strong>us</strong> if this site differs from it.": "<span class=\"muted\">Qui corrige :</span> <strong>l’OQRE</strong> pour son rapport, <strong>nous</strong> si ce site en diffère.",
+  "Something this site got wrong": "Une erreur de ce site",
+  "Please include the school’s name or number (BSID), what is wrong, and where you saw the right value.": "Veuillez indiquer le nom ou le numéro (BSID) de l’école, ce qui est erroné et où vous avez vu la bonne valeur.",
+  "Email {email}": "Écrire à {email}",
+  "Report it on GitHub": "Le signaler sur GitHub",
+  "GitHub needs a free account, and reports there are public.": "GitHub exige un compte gratuit, et les signalements y sont publics.",
+  "Email stays private.": "Le courriel reste confidentiel.",
+  "A public correction form is being set up. Until then, please send corrections about school details to the school board, and about results to EQAO.": "Un formulaire public de correction est en préparation. D’ici là, veuillez envoyer les corrections sur les renseignements d’une école au conseil scolaire, et celles sur les résultats à l’OQRE.",
+  "<span class=\"muted\">Who fixes it:</span> <strong>us</strong>, quickly.": "<span class=\"muted\">Qui corrige :</span> <strong>nous</strong>, rapidement."
+}

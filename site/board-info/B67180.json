@@ -354,5 +354,2739 @@
       ],
       "verified": "2026-11-26"
     }
-  ]
+  ],
+  "schools": {
+    "688193": {
+      "records": [
+        {
+          "id": "ocsb-capacity-688193",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 323,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 208
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 323, with 208 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "688738": {
+      "records": [
+        {
+          "id": "ocsb-capacity-688738",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 308,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 553
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 308, with 553 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "688878": {
+      "records": [
+        {
+          "id": "ocsb-capacity-688878",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 308,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 372
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 308, with 372 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "689130": {
+      "records": [
+        {
+          "id": "ocsb-capacity-689130",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 254,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 361
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 254, with 361 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "689173": {
+      "records": [
+        {
+          "id": "ocsb-capacity-689173",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 211,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 246
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 211, with 246 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "689181": {
+      "records": [
+        {
+          "id": "ocsb-capacity-689181",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 492,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 715
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 492, with 715 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "689203": {
+      "records": [
+        {
+          "id": "ocsb-capacity-689203",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 771,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 563
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 771, with 563 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "689971": {
+      "records": [
+        {
+          "id": "ocsb-capacity-689971",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 361,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 300
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 361, with 300 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "691100": {
+      "records": [
+        {
+          "id": "ocsb-capacity-691100",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 219,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 195
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 219, with 195 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "691186": {
+      "records": [
+        {
+          "id": "ocsb-capacity-691186",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 430
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 504, with 430 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "691232": {
+      "records": [
+        {
+          "id": "ocsb-capacity-691232",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 617
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 504, with 617 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "695963": {
+      "records": [
+        {
+          "id": "ocsb-capacity-695963",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 201
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 268, with 201 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "699241": {
+      "records": [
+        {
+          "id": "ocsb-capacity-699241",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 252
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 291, with 252 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "699896": {
+      "records": [
+        {
+          "id": "ocsb-capacity-699896",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 259
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 432, with 259 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "700193": {
+      "records": [
+        {
+          "id": "ocsb-capacity-700193",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 238
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 268, with 238 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "700227": {
+      "records": [
+        {
+          "id": "ocsb-capacity-700227",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 567
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 507, with 567 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "701599": {
+      "records": [
+        {
+          "id": "ocsb-capacity-701599",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 317
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 527, with 317 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "702250": {
+      "records": [
+        {
+          "id": "ocsb-capacity-702250",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 422
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 432, with 422 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "702385": {
+      "records": [
+        {
+          "id": "ocsb-capacity-702385",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 462
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 507, with 462 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "702749": {
+      "records": [
+        {
+          "id": "ocsb-capacity-702749",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 323,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 365
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 323, with 365 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "704873": {
+      "records": [
+        {
+          "id": "ocsb-capacity-704873",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 798,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 688
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 798, with 688 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "707694": {
+      "records": [
+        {
+          "id": "ocsb-capacity-707694",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 248,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 164
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the Grade 7-8 part of the school is listed separately: 18 students, capacity 46"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 248, with 164 students on October 31, 2023. The plan notes: the Grade 7-8 part of the school is listed separately: 18 students, capacity 46. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "707724": {
+      "records": [
+        {
+          "id": "ocsb-capacity-707724",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 620,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 454
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 620, with 454 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "707821": {
+      "records": [
+        {
+          "id": "ocsb-capacity-707821",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 343
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 360, with 343 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "708267": {
+      "records": [
+        {
+          "id": "ocsb-capacity-708267",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 352,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 539
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 352, with 539 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "708470": {
+      "records": [
+        {
+          "id": "ocsb-capacity-708470",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 355,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 672
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 355, with 672 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "708739": {
+      "records": [
+        {
+          "id": "ocsb-capacity-708739",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 373,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 378
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 373, with 378 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "711497": {
+      "records": [
+        {
+          "id": "ocsb-capacity-711497",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 524,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 457
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 524, with 457 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "711721": {
+      "records": [
+        {
+          "id": "ocsb-capacity-711721",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 339
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 363, with 339 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "718408": {
+      "records": [
+        {
+          "id": "ocsb-capacity-718408",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 364,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 318
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 364, with 318 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "720569": {
+      "records": [
+        {
+          "id": "ocsb-capacity-720569",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 331,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 259
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 331, with 259 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "721085": {
+      "records": [
+        {
+          "id": "ocsb-capacity-721085",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 933,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 770
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 933, with 770 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "722561": {
+      "records": [
+        {
+          "id": "ocsb-capacity-722561",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 331,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 476
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 331, with 476 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "724530": {
+      "records": [
+        {
+          "id": "ocsb-capacity-724530",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 478,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 329
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 478, with 329 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "724734": {
+      "records": [
+        {
+          "id": "ocsb-capacity-724734",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 401,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 727
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 401, with 727 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "724742": {
+      "records": [
+        {
+          "id": "ocsb-capacity-724742",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 1017,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1274
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 1,017, with 1,274 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "724769": {
+      "records": [
+        {
+          "id": "ocsb-capacity-724769",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 630,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 452
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 630, with 452 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "724777": {
+      "records": [
+        {
+          "id": "ocsb-capacity-724777",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 1284,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 978
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 1,284, with 978 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "725617": {
+      "records": [
+        {
+          "id": "ocsb-capacity-725617",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 384,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 337
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 384, with 337 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "726036": {
+      "records": [
+        {
+          "id": "ocsb-capacity-726036",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 378,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 468
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 378, with 468 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "729795": {
+      "records": [
+        {
+          "id": "ocsb-capacity-729795",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 306
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 363, with 306 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "731374": {
+      "records": [
+        {
+          "id": "ocsb-capacity-731374",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 170,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 347
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 170, with 347 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "733270": {
+      "records": [
+        {
+          "id": "ocsb-capacity-733270",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 515,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 433
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 515, with 433 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "733288": {
+      "records": [
+        {
+          "id": "ocsb-capacity-733288",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 1038,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1065
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 1,038, with 1,065 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "734002": {
+      "records": [
+        {
+          "id": "ocsb-capacity-734002",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 522
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 507, with 522 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "734349": {
+      "records": [
+        {
+          "id": "ocsb-capacity-734349",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 323,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 313
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 323, with 313 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "740586": {
+      "records": [
+        {
+          "id": "ocsb-capacity-740586",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 213,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 166
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 213, with 166 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "741485": {
+      "records": [
+        {
+          "id": "ocsb-capacity-741485",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 288,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 374
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 288, with 374 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "741680": {
+      "records": [
+        {
+          "id": "ocsb-capacity-741680",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 496
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 268, with 496 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "744065": {
+      "records": [
+        {
+          "id": "ocsb-capacity-744065",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 595
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 504, with 595 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "749168": {
+      "records": [
+        {
+          "id": "ocsb-capacity-749168",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 216,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 227
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 216, with 227 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "750271": {
+      "records": [
+        {
+          "id": "ocsb-capacity-750271",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 254
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 268, with 254 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "751375": {
+      "records": [
+        {
+          "id": "ocsb-capacity-751375",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 406,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 274
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 406, with 274 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "752193": {
+      "records": [
+        {
+          "id": "ocsb-capacity-752193",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 271,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 514
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 271, with 514 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "753246": {
+      "records": [
+        {
+          "id": "ocsb-capacity-753246",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 880
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 504, with 880 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "753823": {
+      "records": [
+        {
+          "id": "ocsb-capacity-753823",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 375,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 269
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 375, with 269 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "754832": {
+      "records": [
+        {
+          "id": "ocsb-capacity-754832",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 592
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 504, with 592 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "759538": {
+      "records": [
+        {
+          "id": "ocsb-capacity-759538",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 530,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 308
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 530, with 308 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "759970": {
+      "records": [
+        {
+          "id": "ocsb-capacity-759970",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 1017,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1496
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 1,017, with 1,496 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "760005": {
+      "records": [
+        {
+          "id": "ocsb-capacity-760005",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 538,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 799
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 538, with 799 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "760013": {
+      "records": [
+        {
+          "id": "ocsb-capacity-760013",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 553,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 785
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 553, with 785 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "764914": {
+      "records": [
+        {
+          "id": "ocsb-capacity-764914",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 1284,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1423
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 1,284, with 1,423 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "764922": {
+      "records": [
+        {
+          "id": "ocsb-capacity-764922",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 653,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 924
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 653, with 924 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "773085": {
+      "records": [
+        {
+          "id": "ocsb-capacity-773085",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 346,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 104
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 346, with 104 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "775290": {
+      "records": [
+        {
+          "id": "ocsb-capacity-775290",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 234,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 273
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 234, with 273 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "779326": {
+      "records": [
+        {
+          "id": "ocsb-capacity-779326",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 422,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 542
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 422, with 542 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "780774": {
+      "records": [
+        {
+          "id": "ocsb-capacity-780774",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 318,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 312
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 318, with 312 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "784451": {
+      "records": [
+        {
+          "id": "ocsb-capacity-784451",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 352,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 327
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 352, with 327 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "785822": {
+      "records": [
+        {
+          "id": "ocsb-capacity-785822",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 266,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 192
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 266, with 192 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "789070": {
+      "records": [
+        {
+          "id": "ocsb-capacity-789070",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 332
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 409, with 332 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "794406": {
+      "records": [
+        {
+          "id": "ocsb-capacity-794406",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 547,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 294
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 547, with 294 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "796093": {
+      "records": [
+        {
+          "id": "ocsb-capacity-796093",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 460
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 314, with 460 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "804126": {
+      "records": [
+        {
+          "id": "ocsb-capacity-804126",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 453,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 316
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 453, with 316 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "809020": {
+      "records": [
+        {
+          "id": "ocsb-capacity-809020",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 798,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 461
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 798, with 461 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "812757": {
+      "records": [
+        {
+          "id": "ocsb-capacity-812757",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 380,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 235
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 380, with 235 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "814241": {
+      "records": [
+        {
+          "id": "ocsb-capacity-814241",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 461,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 308
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 461, with 308 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "816132": {
+      "records": [
+        {
+          "id": "ocsb-capacity-816132",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 1080,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1056
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 1,080, with 1,056 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "820792": {
+      "records": [
+        {
+          "id": "ocsb-capacity-820792",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 276
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 337, with 276 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "821195": {
+      "records": [
+        {
+          "id": "ocsb-capacity-821195",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 329,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 344
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 329, with 344 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "827609": {
+      "records": [
+        {
+          "id": "ocsb-capacity-827609",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 467
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 507, with 467 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "827843": {
+      "records": [
+        {
+          "id": "ocsb-capacity-827843",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 427
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 409, with 427 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "828386": {
+      "records": [
+        {
+          "id": "ocsb-capacity-828386",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 373
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 294, with 373 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "833010": {
+      "records": [
+        {
+          "id": "ocsb-capacity-833010",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 173
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 360, with 173 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "835617": {
+      "records": [
+        {
+          "id": "ocsb-capacity-835617",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 269
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 245, with 269 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "836265": {
+      "records": [
+        {
+          "id": "ocsb-capacity-836265",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 399,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 287
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 399, with 287 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "838912": {
+      "records": [
+        {
+          "id": "ocsb-capacity-838912",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 547,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 205
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 547, with 205 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "841900": {
+      "records": [
+        {
+          "id": "ocsb-capacity-841900",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 354,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 437
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 354, with 437 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "842915": {
+      "records": [
+        {
+          "id": "ocsb-capacity-842915",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 314
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 409, with 314 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "843296": {
+      "records": [
+        {
+          "id": "ocsb-capacity-843296",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 1059,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1352
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 1,059, with 1,352 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "843510": {
+      "records": [
+        {
+          "id": "ocsb-capacity-843510",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 1242,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1569
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 1,242, with 1,569 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "845124": {
+      "records": [
+        {
+          "id": "ocsb-capacity-845124",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 515,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 684
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 515, with 684 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "845620": {
+      "records": [
+        {
+          "id": "ocsb-capacity-845620",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 354,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 519
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 354, with 519 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "847313": {
+      "records": [
+        {
+          "id": "ocsb-capacity-847313",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 834,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 831
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 834, with 831 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "848612": {
+      "records": [
+        {
+          "id": "ocsb-capacity-848612",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 653,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 667
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 653, with 667 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "849260": {
+      "records": [
+        {
+          "id": "ocsb-capacity-849260",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 388
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 190, with 388 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "849407": {
+      "records": [
+        {
+          "id": "ocsb-capacity-849407",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 763
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 507, with 763 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "856118": {
+      "records": [
+        {
+          "id": "ocsb-capacity-856118",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 604
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 507, with 604 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "864331": {
+      "records": [
+        {
+          "id": "ocsb-capacity-864331",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 819,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 724
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%)"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 819, with 724 students on October 31, 2023. The plan notes: the board splits each Grade 7-12 building's capacity and enrolment between its Grade 7-8 school (30%) and its Grade 9-12 school (70%). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "864510": {
+      "records": [
+        {
+          "id": "ocsb-capacity-864510",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 329,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 163
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 329, with 163 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "864609": {
+      "records": [
+        {
+          "id": "ocsb-capacity-864609",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Capital Plan 2024, Appendix 1 (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link",
+          "source_date": "June 2024",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "Ministry rated capacity",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 207
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's Ministry rated capacity as 245, with 207 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

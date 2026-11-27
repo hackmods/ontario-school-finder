@@ -307,5 +307,969 @@
         "864366": "Ursuline College 'The Pines' (UCC) Secondary Catholic School, Chatham (9-12)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "686201": {
+      "records": [
+        {
+          "id": "stclair-capacity-686201",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 564,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 554
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 592
+              },
+              {
+                "year": "2030",
+                "value": 575
+              },
+              {
+                "year": "2033",
+                "value": 509
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "School Capacity Utilization for 2023 is based on combined previous locations with an OTG of 633"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 564, with 554 students in 2024; it forecasts 509 in 2033. The plan notes: School Capacity Utilization for 2023 is based on combined previous locations with an OTG of 633. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "690762": {
+      "records": [
+        {
+          "id": "stclair-capacity-690762",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 581
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 577
+              },
+              {
+                "year": "2030",
+                "value": 586
+              },
+              {
+                "year": "2033",
+                "value": 581
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 573, with 581 students in 2024; it forecasts 581 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "697567": {
+      "records": [
+        {
+          "id": "stclair-capacity-697567",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 219
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 219
+              },
+              {
+                "year": "2030",
+                "value": 222
+              },
+              {
+                "year": "2033",
+                "value": 231
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 190, with 219 students in 2024; it forecasts 231 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "710970": {
+      "records": [
+        {
+          "id": "stclair-capacity-710970",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 659,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 588
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 612
+              },
+              {
+                "year": "2030",
+                "value": 585
+              },
+              {
+                "year": "2033",
+                "value": 580
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 659, with 588 students in 2024; it forecasts 580 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "715492": {
+      "records": [
+        {
+          "id": "stclair-capacity-715492",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 302,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 235
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 218
+              },
+              {
+                "year": "2030",
+                "value": 211
+              },
+              {
+                "year": "2033",
+                "value": 206
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 302, with 235 students in 2024; it forecasts 206 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "719269": {
+      "records": [
+        {
+          "id": "stclair-capacity-719269",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 141,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 98
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 106
+              },
+              {
+                "year": "2030",
+                "value": 109
+              },
+              {
+                "year": "2033",
+                "value": 107
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 141, with 98 students in 2024; it forecasts 107 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "724009": {
+      "records": [
+        {
+          "id": "stclair-capacity-724009",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 423,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 378
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 421
+              },
+              {
+                "year": "2030",
+                "value": 456
+              },
+              {
+                "year": "2033",
+                "value": 443
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 423, with 378 students in 2024; it forecasts 443 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "757748": {
+      "records": [
+        {
+          "id": "stclair-capacity-757748",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 357,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 270
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 268
+              },
+              {
+                "year": "2030",
+                "value": 263
+              },
+              {
+                "year": "2033",
+                "value": 261
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "School Capacity Utilization for 2023 and 2024 is based on previous location with an OTG of 374"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 357, with 270 students in 2024; it forecasts 261 in 2033. The plan notes: School Capacity Utilization for 2023 and 2024 is based on previous location with an OTG of 374. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "758108": {
+      "records": [
+        {
+          "id": "stclair-capacity-758108",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 141,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 131
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 121
+              },
+              {
+                "year": "2030",
+                "value": 96
+              },
+              {
+                "year": "2033",
+                "value": 94
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 141, with 131 students in 2024; it forecasts 94 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "767339": {
+      "records": [
+        {
+          "id": "stclair-capacity-767339",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 449,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 373
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 393
+              },
+              {
+                "year": "2030",
+                "value": 419
+              },
+              {
+                "year": "2033",
+                "value": 413
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 449, with 373 students in 2024; it forecasts 413 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "770671": {
+      "records": [
+        {
+          "id": "stclair-capacity-770671",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 308,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 350
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 344
+              },
+              {
+                "year": "2030",
+                "value": 354
+              },
+              {
+                "year": "2033",
+                "value": 355
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 308, with 350 students in 2024; it forecasts 355 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "771295": {
+      "records": [
+        {
+          "id": "stclair-capacity-771295",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 351,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 441
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 497
+              },
+              {
+                "year": "2030",
+                "value": 489
+              },
+              {
+                "year": "2033",
+                "value": 468
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 351, with 441 students in 2024; it forecasts 468 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "773757": {
+      "records": [
+        {
+          "id": "stclair-capacity-773757",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 386,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 367
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 429
+              },
+              {
+                "year": "2030",
+                "value": 419
+              },
+              {
+                "year": "2033",
+                "value": 371
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 386, with 367 students in 2024; it forecasts 371 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "788813": {
+      "records": [
+        {
+          "id": "stclair-capacity-788813",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 154
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 160
+              },
+              {
+                "year": "2030",
+                "value": 146
+              },
+              {
+                "year": "2033",
+                "value": 149
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 236, with 154 students in 2024; it forecasts 149 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "803375": {
+      "records": [
+        {
+          "id": "stclair-capacity-803375",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 336
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 364
+              },
+              {
+                "year": "2030",
+                "value": 380
+              },
+              {
+                "year": "2033",
+                "value": 370
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 336 students in 2024; it forecasts 370 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "809233": {
+      "records": [
+        {
+          "id": "stclair-capacity-809233",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 351,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 355
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 360
+              },
+              {
+                "year": "2030",
+                "value": 387
+              },
+              {
+                "year": "2033",
+                "value": 382
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 351, with 355 students in 2024; it forecasts 382 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "811432": {
+      "records": [
+        {
+          "id": "stclair-capacity-811432",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 256,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 144
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 163
+              },
+              {
+                "year": "2030",
+                "value": 157
+              },
+              {
+                "year": "2033",
+                "value": 170
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 256, with 144 students in 2024; it forecasts 170 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "833142": {
+      "records": [
+        {
+          "id": "stclair-capacity-833142",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 210,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 148
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 154
+              },
+              {
+                "year": "2030",
+                "value": 160
+              },
+              {
+                "year": "2033",
+                "value": 156
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 210, with 148 students in 2024; it forecasts 156 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "834602": {
+      "records": [
+        {
+          "id": "stclair-capacity-834602",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 177
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 172
+              },
+              {
+                "year": "2030",
+                "value": 174
+              },
+              {
+                "year": "2033",
+                "value": 155
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 236, with 177 students in 2024; it forecasts 155 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "836788": {
+      "records": [
+        {
+          "id": "stclair-capacity-836788",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 1563,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 1459
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 1558
+              },
+              {
+                "year": "2030",
+                "value": 1533
+              },
+              {
+                "year": "2033",
+                "value": 1639
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,563, with 1,459 students in 2024; it forecasts 1,639 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "842249": {
+      "records": [
+        {
+          "id": "stclair-capacity-842249",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 187,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 108
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 127
+              },
+              {
+                "year": "2030",
+                "value": 142
+              },
+              {
+                "year": "2033",
+                "value": 134
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 187, with 108 students in 2024; it forecasts 134 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "843415": {
+      "records": [
+        {
+          "id": "stclair-capacity-843415",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 213,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 211
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 224
+              },
+              {
+                "year": "2030",
+                "value": 237
+              },
+              {
+                "year": "2033",
+                "value": 231
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 213, with 211 students in 2024; it forecasts 231 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "846015": {
+      "records": [
+        {
+          "id": "stclair-capacity-846015",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 233,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 201
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 211
+              },
+              {
+                "year": "2030",
+                "value": 188
+              },
+              {
+                "year": "2033",
+                "value": 189
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 233, with 201 students in 2024; it forecasts 189 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "864366": {
+      "records": [
+        {
+          "id": "stclair-capacity-864366",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Capital Plan 2024-2028, Appendix 2 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf#page=55",
+          "source_date": "September 2024",
+          "facts": {
+            "capacity_otg": 1781,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 1297
+              }
+            ],
+            "projected": [
+              {
+                "year": "2027",
+                "value": 1373
+              },
+              {
+                "year": "2030",
+                "value": 1421
+              },
+              {
+                "year": "2033",
+                "value": 1491
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,781, with 1,297 students in 2024; it forecasts 1,491 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

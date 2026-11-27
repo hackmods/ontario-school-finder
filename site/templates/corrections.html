@@ -2,36 +2,36 @@
 {%- from "_icons.html" import icon -%}
 {% block main %}
 <div class="page-head"><div class="wrap">
-  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">Report a correction</li></ol>
-  <h1>Report a correction</h1>
-  <p class="lede" style="margin:0">Thank you for helping keep this accurate. Here is who can fix what.</p>
+  <ol class="crumbs"><li><a href="{{ u('/') }}">{{ _("Home") }}</a></li><li aria-current="page">{{ _("Report a correction") }}</li></ol>
+  <h1>{{ _("Report a correction") }}</h1>
+  <p class="lede" style="margin:0">{{ _("Thank you for helping keep this accurate. Here is who can fix what.") }}</p>
 </div></div>
 <section class="block"><div class="wrap">
   <div class="card" data-correction-school hidden style="margin:0 0 20px;max-width:760px"></div>
   <div class="grid grid-3 fix-grid">
     <div class="card">
-      <h2 class="card-title">{{ icon("building", "card-ic") }}School name, address, phone, website or grades</h2>
-      <p>These come from school boards through the Ministry of Education’s school list. Changes appear here after the Ministry publishes its next list and the site is rebuilt.</p>
-      <p class="fix-who"><span class="muted">Who fixes it:</span> <strong>the school board</strong>. Each school page links to its board.</p>
+      <h2 class="card-title">{{ icon("building", "card-ic") }}{{ _("School name, address, phone, website or grades") }}</h2>
+      <p>{{ _("These come from school boards through the Ministry of Education’s school list. Changes appear here after the Ministry publishes its next list and the site is rebuilt.") }}</p>
+      <p class="fix-who">{{ _h('<span class="muted">Who fixes it:</span> <strong>the school board</strong>. Each school page links to its board.') }}</p>
     </div>
     <div class="card">
-      <h2 class="card-title">{{ icon("check", "card-ic") }}EQAO results</h2>
-      <p>Results are published by <a href="https://www.eqao.com/" rel="noopener">EQAO</a> and the Ministry. If a number here differs from the school’s report on EQAO’s site for the same year, that is our mistake — please tell us.</p>
-      <p class="fix-who"><span class="muted">Who fixes it:</span> <strong>EQAO</strong> for their report, <strong>us</strong> if this site differs from it.</p>
+      <h2 class="card-title">{{ icon("check", "card-ic") }}{{ _("EQAO results") }}</h2>
+      <p>{{ _h('Results are published by <a href="https://www.eqao.com/" rel="noopener">EQAO</a> and the Ministry. If a number here differs from the school’s report on EQAO’s site for the same year, that is our mistake — please tell us.') }}</p>
+      <p class="fix-who">{{ _h('<span class="muted">Who fixes it:</span> <strong>EQAO</strong> for their report, <strong>us</strong> if this site differs from it.') }}</p>
     </div>
     <div class="card fix-us">
-      <h2 class="card-title">{{ icon("flag", "card-ic") }}Something this site got wrong</h2>
+      <h2 class="card-title">{{ icon("flag", "card-ic") }}{{ _("Something this site got wrong") }}</h2>
       {% if corrections_url or contact_email %}
-      <p>Please include the school’s name or number (BSID), what is wrong, and where you saw the right value.</p>
+      <p>{{ _("Please include the school’s name or number (BSID), what is wrong, and where you saw the right value.") }}</p>
       <div class="doc-actions">
-        {% if contact_email %}<a class="btn btn-primary" href="mailto:{{ contact_email }}?subject=Correction" data-correction-mail>{{ icon("mail") }}Email {{ contact_email }}</a>{% endif %}
-        {% if corrections_url %}<a class="btn{{ '' if contact_email else ' btn-primary' }}" href="{{ corrections_url }}" rel="noopener" data-correction-link>{{ icon("flag") }}Report it on GitHub</a>{% endif %}
+        {% if contact_email %}<a class="btn btn-primary" href="mailto:{{ contact_email }}?subject=Correction" data-correction-mail>{{ icon("mail") }}{{ _("Email {email}", email=contact_email) }}</a>{% endif %}
+        {% if corrections_url %}<a class="btn{{ '' if contact_email else ' btn-primary' }}" href="{{ corrections_url }}" rel="noopener" data-correction-link>{{ icon("flag") }}{{ _("Report it on GitHub") }}</a>{% endif %}
       </div>
-      {% if corrections_url and "github.com" in corrections_url %}<p class="small muted" style="margin:10px 0 0">GitHub needs a free account, and reports there are public.{{ " Email stays private." if contact_email }}</p>{% endif %}
+      {% if corrections_url and "github.com" in corrections_url %}<p class="small muted" style="margin:10px 0 0">{{ _("GitHub needs a free account, and reports there are public.") }}{% if contact_email %} {{ _("Email stays private.") }}{% endif %}</p>{% endif %}
       {% else %}
-      <p>A public correction form is being set up. Until then, please send corrections about school details to the school board, and about results to EQAO.</p>
+      <p>{{ _("A public correction form is being set up. Until then, please send corrections about school details to the school board, and about results to EQAO.") }}</p>
       {% endif %}
-      <p class="fix-who"><span class="muted">Who fixes it:</span> <strong>us</strong>, quickly.</p>
+      <p class="fix-who">{{ _h('<span class="muted">Who fixes it:</span> <strong>us</strong>, quickly.') }}</p>
     </div>
   </div>
 </div></section>

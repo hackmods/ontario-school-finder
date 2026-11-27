@@ -406,5 +406,2743 @@
       "match": "Schools named in the motion matched by name and city to Westminster Woods PS, Sir Isaac Brock PS and Rickson Ridge PS (Guelph) and Centennial CVI (Guelph). The board's review page calls the new school \"Two Rivers SS (New Guelph SS)\", matched to Two Rivers Secondary School (Guelph, Grades 9-12).",
       "verified": "2026-11-26"
     }
-  ]
+  ],
+  "schools": {
+    "145882": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-145882",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 426,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 540
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 580
+              },
+              {
+                "year": "2030/31",
+                "value": 625
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 426, with 540 students in 2023/24; it forecasts 625 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "148539": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-148539",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=97",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 351,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 407
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 420
+              },
+              {
+                "year": "2030/31",
+                "value": 450
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 351, with 407 students in 2023/24; it forecasts 450 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "158764": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-158764",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=77",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 541,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 470
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 475
+              },
+              {
+                "year": "2030/31",
+                "value": 470
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 541, with 470 students in 2023/24; it forecasts 470 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "166472": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-166472",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=77",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 285,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 298
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 305
+              },
+              {
+                "year": "2030/31",
+                "value": 320
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 285, with 298 students in 2023/24; it forecasts 320 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "178969": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-178969",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=101",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 501
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 555
+              },
+              {
+                "year": "2030/31",
+                "value": 655
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 464, with 501 students in 2023/24; it forecasts 655 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "184411": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-184411",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=86",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 164,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 136
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 155
+              },
+              {
+                "year": "2030/31",
+                "value": 150
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 164, with 136 students in 2023/24; it forecasts 150 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "185191": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-185191",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=73",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 446,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 384
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 450
+              },
+              {
+                "year": "2030/31",
+                "value": 570
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 446, with 384 students in 2023/24; it forecasts 570 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "185329": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-185329",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=73",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 199,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 106
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 125
+              },
+              {
+                "year": "2030/31",
+                "value": 295
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 199, with 106 students in 2023/24; it forecasts 295 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "185582": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-185582",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=73",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 535,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 327
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 500
+              },
+              {
+                "year": "2030/31",
+                "value": 875
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 535, with 327 students in 2023/24; it forecasts 875 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "199699": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-199699",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 308,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 229
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 215
+              },
+              {
+                "year": "2030/31",
+                "value": 225
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 308, with 229 students in 2023/24; it forecasts 225 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "208310": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-208310",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=68",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 167,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 190
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 235
+              },
+              {
+                "year": "2030/31",
+                "value": 350
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 167, with 190 students in 2023/24; it forecasts 350 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "208620": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-208620",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=80",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 369,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 331
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 340
+              },
+              {
+                "year": "2030/31",
+                "value": 380
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 369, with 331 students in 2023/24; it forecasts 380 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "209635": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-209635",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=101",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 344
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 355
+              },
+              {
+                "year": "2030/31",
+                "value": 470
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 344 students in 2023/24; it forecasts 470 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "223735": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-223735",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=68",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 510,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 491
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 510
+              },
+              {
+                "year": "2030/31",
+                "value": 585
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 510, with 491 students in 2023/24; it forecasts 585 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "226793": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-226793",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=68",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 401
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 470
+              },
+              {
+                "year": "2030/31",
+                "value": 675
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458, with 401 students in 2023/24; it forecasts 675 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "271678": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-271678",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 490,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 594
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 630
+              },
+              {
+                "year": "2030/31",
+                "value": 670
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 490, with 594 students in 2023/24; it forecasts 670 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "281522": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-281522",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=101",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 380,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 248
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 265
+              },
+              {
+                "year": "2030/31",
+                "value": 280
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 380, with 248 students in 2023/24; it forecasts 280 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "282316": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-282316",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 343,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 428
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 460
+              },
+              {
+                "year": "2030/31",
+                "value": 505
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 343, with 428 students in 2023/24; it forecasts 505 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "282324": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-282324",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=101",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 627
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 610
+              },
+              {
+                "year": "2030/31",
+                "value": 730
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 573, with 627 students in 2023/24; it forecasts 730 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "284254": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-284254",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 484,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 550
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 535
+              },
+              {
+                "year": "2030/31",
+                "value": 550
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 484, with 550 students in 2023/24; it forecasts 550 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "286729": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-286729",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=80",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 257,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 191
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 215
+              },
+              {
+                "year": "2030/31",
+                "value": 265
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 257, with 191 students in 2023/24; it forecasts 265 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "289060": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-289060",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=92",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 118,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 96
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 105
+              },
+              {
+                "year": "2030/31",
+                "value": 105
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 118, with 96 students in 2023/24; it forecasts 105 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "296082": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-296082",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=77",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 481,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 454
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 465
+              },
+              {
+                "year": "2030/31",
+                "value": 475
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 481, with 454 students in 2023/24; it forecasts 475 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "311316": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-311316",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=68",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 375,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 241
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 240
+              },
+              {
+                "year": "2030/31",
+                "value": 285
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 375, with 241 students in 2023/24; it forecasts 285 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "363687": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-363687",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=77",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 510,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 495
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 560
+              },
+              {
+                "year": "2030/31",
+                "value": 550
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 510, with 495 students in 2023/24; it forecasts 550 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "366668": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-366668",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=95",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 500,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 462
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 475
+              },
+              {
+                "year": "2030/31",
+                "value": 535
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 500, with 462 students in 2023/24; it forecasts 535 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "368644": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-368644",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=80",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 495,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 497
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 530
+              },
+              {
+                "year": "2030/31",
+                "value": 470
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 495, with 497 students in 2023/24; it forecasts 470 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "368822": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-368822",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=63",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 481,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 485
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 510
+              },
+              {
+                "year": "2030/31",
+                "value": 525
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 481, with 485 students in 2023/24; it forecasts 525 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "369535": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-369535",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=68",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 297
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 330
+              },
+              {
+                "year": "2030/31",
+                "value": 365
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 297 students in 2023/24; it forecasts 365 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "371483": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-371483",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=97",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 179,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 164
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 155
+              },
+              {
+                "year": "2030/31",
+                "value": 170
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 179, with 164 students in 2023/24; it forecasts 170 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "381646": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-381646",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 588,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 669
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 695
+              },
+              {
+                "year": "2030/31",
+                "value": 770
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 588, with 669 students in 2023/24; it forecasts 770 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "418765": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-418765",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=63",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 490,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 573
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 590
+              },
+              {
+                "year": "2030/31",
+                "value": 645
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 490, with 573 students in 2023/24; it forecasts 645 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "418790": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-418790",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=63",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 426,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 460
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 470
+              },
+              {
+                "year": "2030/31",
+                "value": 560
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 426, with 460 students in 2023/24; it forecasts 560 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "428817": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-428817",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=77",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 357,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 238
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 270
+              },
+              {
+                "year": "2030/31",
+                "value": 325
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 357, with 238 students in 2023/24; it forecasts 325 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "431150": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-431150",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=80",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 510,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 394
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 395
+              },
+              {
+                "year": "2030/31",
+                "value": 470
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 510, with 394 students in 2023/24; it forecasts 470 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "432458": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-432458",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=95",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 426,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 492
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 520
+              },
+              {
+                "year": "2030/31",
+                "value": 570
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 426, with 492 students in 2023/24; it forecasts 570 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "434639": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-434639",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=63",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 521,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 386
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 435
+              },
+              {
+                "year": "2030/31",
+                "value": 510
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 521, with 386 students in 2023/24; it forecasts 510 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "438170": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-438170",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=97",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 106
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 115
+              },
+              {
+                "year": "2030/31",
+                "value": 115
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 190, with 106 students in 2023/24; it forecasts 115 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "450006": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-450006",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=101",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 157
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 160
+              },
+              {
+                "year": "2030/31",
+                "value": 165
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 190, with 157 students in 2023/24; it forecasts 165 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "452491": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-452491",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=68",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 377,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 578
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 580
+              },
+              {
+                "year": "2030/31",
+                "value": 580
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 377, with 578 students in 2023/24; it forecasts 580 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "457159": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-457159",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=63",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 636,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 526
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 515
+              },
+              {
+                "year": "2030/31",
+                "value": 580
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 636, with 526 students in 2023/24; it forecasts 580 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "457930": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-457930",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=63",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 443,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 289
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 285
+              },
+              {
+                "year": "2030/31",
+                "value": 280
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 443, with 289 students in 2023/24; it forecasts 280 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "458384": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-458384",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 280,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 206
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 225
+              },
+              {
+                "year": "2030/31",
+                "value": 330
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 280, with 206 students in 2023/24; it forecasts 330 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "460015": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-460015",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=92",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 442
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 505
+              },
+              {
+                "year": "2030/31",
+                "value": 580
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 442 students in 2023/24; it forecasts 580 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "460796": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-460796",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 537
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 560
+              },
+              {
+                "year": "2030/31",
+                "value": 565
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 527, with 537 students in 2023/24; it forecasts 565 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "461059": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-461059",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 423,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 393
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 390
+              },
+              {
+                "year": "2030/31",
+                "value": 500
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 423, with 393 students in 2023/24; it forecasts 500 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "477283": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-477283",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=63",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 423,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 438
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 455
+              },
+              {
+                "year": "2030/31",
+                "value": 475
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 423, with 438 students in 2023/24; it forecasts 475 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "477416": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-477416",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=77",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 380,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 377
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 405
+              },
+              {
+                "year": "2030/31",
+                "value": 395
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 380, with 377 students in 2023/24; it forecasts 395 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "488879": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-488879",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=86",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 469,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 366
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 375
+              },
+              {
+                "year": "2030/31",
+                "value": 365
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 469, with 366 students in 2023/24; it forecasts 365 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "497193": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-497193",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=101",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 213,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 287
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 305
+              },
+              {
+                "year": "2030/31",
+                "value": 465
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 213, with 287 students in 2023/24; it forecasts 465 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "506264": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-506264",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=86",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 320,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 253
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 240
+              },
+              {
+                "year": "2030/31",
+                "value": 270
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 320, with 253 students in 2023/24; it forecasts 270 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "548618": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-548618",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=80",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 465,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 440
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 485
+              },
+              {
+                "year": "2030/31",
+                "value": 525
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 465, with 440 students in 2023/24; it forecasts 525 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "576107": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-576107",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=101",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 222,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 210
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 205
+              },
+              {
+                "year": "2030/31",
+                "value": 225
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 222, with 210 students in 2023/24; it forecasts 225 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "577014": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-577014",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=80",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 308,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 286
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 280
+              },
+              {
+                "year": "2030/31",
+                "value": 285
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 308, with 286 students in 2023/24; it forecasts 285 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "586866": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-586866",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=77",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 576,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 569
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 600
+              },
+              {
+                "year": "2030/31",
+                "value": 615
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 576, with 569 students in 2023/24; it forecasts 615 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "590665": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-590665",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=77",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 616,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 570
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 615
+              },
+              {
+                "year": "2030/31",
+                "value": 630
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 616, with 570 students in 2023/24; it forecasts 630 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "603244": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-603244",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=80",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 345
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 360
+              },
+              {
+                "year": "2030/31",
+                "value": 350
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458, with 345 students in 2023/24; it forecasts 350 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "609552": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-609552",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=80",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 607,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 375
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 480
+              },
+              {
+                "year": "2030/31",
+                "value": 545
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 607, with 375 students in 2023/24; it forecasts 545 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "899283": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-899283",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=87",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 1167,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 1609
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 1730
+              },
+              {
+                "year": "2030/31",
+                "value": 1825
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,167, with 1,609 students in 2023/24; it forecasts 1,825 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "900214": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-900214",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=70",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 798,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 818
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 930
+              },
+              {
+                "year": "2030/31",
+                "value": 1170
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 798, with 818 students in 2023/24; it forecasts 1,170 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "902462": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-902462",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=87",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 507,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 346
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 200
+              },
+              {
+                "year": "2030/31",
+                "value": 185
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 507, with 346 students in 2023/24; it forecasts 185 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "909050": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-909050",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=74",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 558,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 505
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 590
+              },
+              {
+                "year": "2030/31",
+                "value": 1025
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 558, with 505 students in 2023/24; it forecasts 1,025 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "909831": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-909831",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=103",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 1467,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 1168
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 1200
+              },
+              {
+                "year": "2030/31",
+                "value": 1505
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,467, with 1,168 students in 2023/24; it forecasts 1,505 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "914770": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-914770",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=87",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 1269,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 1692
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 1780
+              },
+              {
+                "year": "2030/31",
+                "value": 1935
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,269, with 1,692 students in 2023/24; it forecasts 1,935 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "918679": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-918679",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=87",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 1800,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 2135
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 2265
+              },
+              {
+                "year": "2030/31",
+                "value": 2565
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,800, with 2,135 students in 2023/24; it forecasts 2,565 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "931284": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-931284",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=98",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 975,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 682
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 700
+              },
+              {
+                "year": "2030/31",
+                "value": 755
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 975, with 682 students in 2023/24; it forecasts 755 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "932450": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-932450",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=70",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 1332,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 1112
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 1165
+              },
+              {
+                "year": "2030/31",
+                "value": 1180
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,332, with 1,112 students in 2023/24; it forecasts 1,180 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "947253": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-947253",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=70",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 777,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 747
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 760
+              },
+              {
+                "year": "2030/31",
+                "value": 930
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 777, with 747 students in 2023/24; it forecasts 930 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "953555": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-953555",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=93",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 651,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 452
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 505
+              },
+              {
+                "year": "2030/31",
+                "value": 625
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 651, with 452 students in 2023/24; it forecasts 625 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "090247": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-090247",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=68",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 541,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 453
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 605
+              },
+              {
+                "year": "2030/31",
+                "value": 740
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 541, with 453 students in 2023/24; it forecasts 740 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "096502": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-096502",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=68",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 449,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 446
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 440
+              },
+              {
+                "year": "2030/31",
+                "value": 400
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 449, with 446 students in 2023/24; it forecasts 400 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "057380": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-057380",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=77",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 267
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 335
+              },
+              {
+                "year": "2030/31",
+                "value": 350
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 267 students in 2023/24; it forecasts 350 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "093696": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-093696",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=80",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 274,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 285
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 300
+              },
+              {
+                "year": "2030/31",
+                "value": 355
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 274, with 285 students in 2023/24; it forecasts 355 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "061228": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-061228",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=83",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 449,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 467
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/27",
+                "value": 475
+              },
+              {
+                "year": "2030/31",
+                "value": 430
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 449, with 467 students in 2023/24; it forecasts 430 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "024252": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-024252",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=92",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 446,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 375
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 395
+              },
+              {
+                "year": "2030/31",
+                "value": 520
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 446, with 375 students in 2023/24; it forecasts 520 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "099139": {
+      "records": [
+        {
+          "id": "ugdsb-capacity-099139",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan - Final Report (Upper Grand DSB) (PDF)",
+          "url": "https://5il.ca/gx#page=97",
+          "source_date": "March 2024 (file named 2024-03-19)",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023/24",
+                "value": 121
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025/26",
+                "value": 120
+              },
+              {
+                "year": "2030/31",
+                "value": 120
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 121 students in 2023/24; it forecasts 120 in 2030/31. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    }
+  }
 }

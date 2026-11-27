@@ -82,7 +82,24 @@ The brief ([idea.md](idea.md)) was treated as a strong starting point. These are
 ### Things deliberately not done
 - No ordering of search results by EQAO or any outcome. Sort is best match, A to Z, or nearest (straight line).
 - No runtime AI: "Questions to ask" are built from page facts by fixed rules.
-- No French-language interface yet: a partial toggle would mislead. Strings are in templates and two small modules (`site/family.py`, `site/static/js/lib.js`) so a reviewed translation can follow.
+- ~~No French-language interface yet~~: replaced on 2026-11-27, see "French version" below.
+
+## French version (2026-11-27)
+
+The owner asked for French "as best as you can, because it's better than nothing". So:
+- **Whole site, not a partial toggle.** Every page, script and board record has French; a build fails no test when
+  a string is missing but falls back to English and lists it in `site/i18n/missing-fr.txt` (0 at release).
+- **Machine translation, labelled.** Every French page carries a notice that the French was machine-translated and
+  not reviewed, links the same page in English, and says English is the reference. School, board and document
+  names, numbers and codes stay as published. A glossary (`site/i18n/glossary-fr.md`) keeps Ontario's terms
+  (OQRE, conseil scolaire, immersion en français, capacité réelle) the same everywhere.
+- **Separate URLs** (`/fr/…`), with `hreflang` links and both languages in the sitemap, so search engines and
+  shared links keep the language. Data files (`/data/…`) are shared; CSV downloads stay in English.
+- **The switch** is two plain links (EN / FR) with `lang`, `hreflang` and `aria-current`, at least 44 px tall on
+  touch screens, going to the same page in the other language. Modelled on UnionOps' language toggle.
+- **Numbers follow the language**: 1 234, 45 %, 1 234 $ in French, so a French reader never reads "1,234" as a
+  decimal.
+- Cost: the built site grows from about 1.1 GB to 1.8 GB (school pages dominate).
 
 ## Every board's records, questionnaire history, refreshes (2026-11-26, PR #26)
 

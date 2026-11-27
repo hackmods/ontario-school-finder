@@ -2,47 +2,47 @@
 {%- from "_icons.html" import icon -%}
 {% block main %}
 <div class="page-head"><div class="wrap">
-  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">Compare</li></ol>
+  <ol class="crumbs"><li><a href="{{ u('/') }}">{{ _("Home") }}</a></li><li aria-current="page">{{ _("Compare") }}</li></ol>
   <div class="head-row">
     <div style="min-width:0">
-      <h1>Compare schools</h1>
-      <p class="lede" style="margin:0">Up to six schools side by side: the practical facts first, then every measure we publish for the same school years, with board and Ontario figures for context.</p>
+      <h1>{{ _("Compare schools") }}</h1>
+      <p class="lede" style="margin:0">{{ _("Up to six schools side by side: the practical facts first, then every measure we publish for the same school years, with board and Ontario figures for context.") }}</p>
     </div>
     <div class="head-actions" data-cmp-actions hidden>
-      <button class="btn" type="button" data-cmp-share>{{ icon("link") }}<span>Copy link</span></button>
-      <button class="btn" type="button" data-cmp-csv>{{ icon("download") }}Download CSV</button>
-      <button class="btn btn-ghost" type="button" data-cmp-print>Print</button>
+      <button class="btn" type="button" data-cmp-share>{{ icon("link") }}<span>{{ _("Copy link") }}</span></button>
+      <button class="btn" type="button" data-cmp-csv>{{ icon("download") }}{{ _("Download CSV") }}</button>
+      <button class="btn btn-ghost" type="button" data-cmp-print>{{ _("Print") }}</button>
     </div>
   </div>
   <div class="cmp-picker">
     <div class="search search-sm" data-search data-search-compare>
-      <form class="search-box" action="/search/" role="search">
+      <form class="search-box" action="{{ u('/search/') }}" role="search">
         {{ icon("search", "lead") }}
-        <label class="visually-hidden" for="cq">Add a school to compare</label>
-        <input id="cq" name="q" type="search" placeholder="Add a school by name, city or postal code" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="cq-list">
-        <button class="icon-btn" type="submit" aria-label="Add">{{ icon("plus") }}</button>
+        <label class="visually-hidden" for="cq">{{ _("Add a school to compare") }}</label>
+        <input id="cq" name="q" type="search" placeholder="{{ _('Add a school by name, city or postal code') }}" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="cq-list">
+        <button class="icon-btn" type="submit" aria-label="{{ _('Add') }}">{{ icon("plus") }}</button>
       </form>
       <div class="suggest" id="cq-list" role="listbox" hidden></div>
     </div>
-    <ul class="cmp-chips" data-cmp-chips aria-label="Schools being compared"></ul>
+    <ul class="cmp-chips" data-cmp-chips aria-label="{{ _('Schools being compared') }}"></ul>
   </div>
   <div class="cmp-options" data-cmp-options hidden>
-    <label class="cmp-toggle"><input type="checkbox" data-opt="prov" checked> Ontario median</label>
-    <label class="cmp-toggle"><input type="checkbox" data-opt="board"> Board medians</label>
-    <label class="cmp-toggle"><input type="checkbox" data-opt="diff"> Only rows that differ</label>
+    <label class="cmp-toggle"><input type="checkbox" data-opt="prov" checked> {{ _("Ontario median") }}</label>
+    <label class="cmp-toggle"><input type="checkbox" data-opt="board"> {{ _("Board medians") }}</label>
+    <label class="cmp-toggle"><input type="checkbox" data-opt="diff"> {{ _("Only rows that differ") }}</label>
   </div>
 </div></div>
 
-<nav class="subnav" aria-label="Comparison sections" data-cmp-nav hidden>
+<nav class="subnav" aria-label="{{ _('Comparison sections') }}" data-cmp-nav hidden>
   <div class="wrap">
-    <a href="#cmp-practical">At a glance</a><a href="#cmp-overview">Details</a><a href="#cmp-eqao">EQAO</a><a href="#cmp-experience">Student experience</a><a href="#cmp-enrolment">Enrolment</a><a href="#cmp-grades">By grade</a>
-    <a href="#cmp-class">Class sizes</a><a href="#cmp-students">Students</a><a href="#cmp-area">Area</a><a href="#cmp-board">Board</a><a href="#cmp-nearby">Child care</a><a href="#cmp-sources">Sources</a>
+    <a href="#cmp-practical">{{ _("At a glance") }}</a><a href="#cmp-overview">{{ _("Details") }}</a><a href="#cmp-eqao">EQAO</a><a href="#cmp-experience">{{ _("Student experience") }}</a><a href="#cmp-enrolment">{{ _("Enrolment") }}</a><a href="#cmp-grades">{{ _("By grade") }}</a>
+    <a href="#cmp-class">{{ _("Class sizes") }}</a><a href="#cmp-students">{{ _("Students") }}</a><a href="#cmp-area">{{ _("Area") }}</a><a href="#cmp-board">{{ _("Board") }}</a><a href="#cmp-nearby">{{ _("Child care") }}</a><a href="#cmp-sources">{{ _("Sources") }}</a>
   </div>
 </nav>
 
 <section class="block"><div class="wrap">
-  <noscript><div class="note">{{ icon("info") }}<div><p>Comparing needs JavaScript. Every school page has the full figures.</p></div></div></noscript>
-  <div data-compare-root aria-live="polite"><p class="loading">Loading…</p></div>
+  <noscript><div class="note">{{ icon("info") }}<div><p>{{ _("Comparing needs JavaScript. Every school page has the full figures.") }}</p></div></div></noscript>
+  <div data-compare-root aria-live="polite"><p class="loading">{{ _("Loading…") }}</p></div>
 </div></section>
 {% endblock %}
 {% block scripts %}<script type="module" src="{{ asset('js/compare.js') }}"></script>{% endblock %}

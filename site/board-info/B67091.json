@@ -270,5 +270,1879 @@
       "url": "https://www.smcdsb.on.ca/our_schools/responding_to_issues_or_concern",
       "summary": "Start with the classroom teacher, then the principal. If it is not resolved, or is not school-related, use the Student and Family Support Office intake form; the board says it acknowledges inquiries within two business days and aims to answer within five."
     }
-  ]
+  ],
+  "schools": {
+    "516651": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-516651",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=44",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 475,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 347
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 415
+              },
+              {
+                "year": "2034/35",
+                "value": 412
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 475, with 347 students in 2024/25; it forecasts 412 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "685145": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-685145",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=61",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 470,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 614
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 527
+              },
+              {
+                "year": "2034/35",
+                "value": 495
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 470, with 614 students in 2024/25; it forecasts 495 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "693634": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-693634",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=74",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 218
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 201
+              },
+              {
+                "year": "2034/35",
+                "value": 174
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 314, with 218 students in 2024/25; it forecasts 174 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "706930": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-706930",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=84",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 401,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 616
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 817
+              },
+              {
+                "year": "2034/35",
+                "value": 827
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 401, with 616 students in 2024/25; it forecasts 827 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "711098": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-711098",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=61",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 702,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 1127
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 1385
+              },
+              {
+                "year": "2034/35",
+                "value": 1467
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 702, with 1,127 students in 2024/25; it forecasts 1,467 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "714208": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-714208",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=79",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 234,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 200
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 236
+              },
+              {
+                "year": "2034/35",
+                "value": 240
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 234, with 200 students in 2024/25; it forecasts 240 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "716413": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-716413",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=84",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 429,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 493
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 503
+              },
+              {
+                "year": "2034/35",
+                "value": 567
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 429, with 493 students in 2024/25; it forecasts 567 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "720518": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-720518",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=49",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 501,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 494
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 499
+              },
+              {
+                "year": "2034/35",
+                "value": 537
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 501, with 494 students in 2024/25; it forecasts 537 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "723630": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-723630",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 588,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 627
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 810
+              },
+              {
+                "year": "2034/35",
+                "value": 1077
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 588, with 627 students in 2024/25; it forecasts 1,077 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "724468": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-724468",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=49",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 493,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 418
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 571
+              },
+              {
+                "year": "2034/35",
+                "value": 709
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 493, with 418 students in 2024/25; it forecasts 709 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "729663": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-729663",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=91",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 118,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 60
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 77
+              },
+              {
+                "year": "2034/35",
+                "value": 66
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 118, with 60 students in 2024/25; it forecasts 66 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "732303": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-732303",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=74",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 225,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 226
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 232
+              },
+              {
+                "year": "2034/35",
+                "value": 261
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 225, with 226 students in 2024/25; it forecasts 261 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "732311": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-732311",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=44",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 317,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 241
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 283
+              },
+              {
+                "year": "2034/35",
+                "value": 289
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 317, with 241 students in 2024/25; it forecasts 289 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "732354": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-732354",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=91",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 378,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 395
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 437
+              },
+              {
+                "year": "2034/35",
+                "value": 433
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 378, with 395 students in 2024/25; it forecasts 433 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "733199": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-733199",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=61",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 421,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 463
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 457
+              },
+              {
+                "year": "2034/35",
+                "value": 454
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 421, with 463 students in 2024/25; it forecasts 454 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "733520": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-733520",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=79",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 312,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 344
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 368
+              },
+              {
+                "year": "2034/35",
+                "value": 362
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 312, with 344 students in 2024/25; it forecasts 362 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "733563": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-733563",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=84",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 329,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 463
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 587
+              },
+              {
+                "year": "2034/35",
+                "value": 728
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 329, with 463 students in 2024/25; it forecasts 728 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "737372": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-737372",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=91",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 407,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 618
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 744
+              },
+              {
+                "year": "2034/35",
+                "value": 764
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 407, with 618 students in 2024/25; it forecasts 764 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "744611": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-744611",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=55",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 516,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 877
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 950
+              },
+              {
+                "year": "2034/35",
+                "value": 971
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 516, with 877 students in 2024/25; it forecasts 971 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "745391": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-745391",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=74",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 202,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 242
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 232
+              },
+              {
+                "year": "2034/35",
+                "value": 232
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 202, with 242 students in 2024/25; it forecasts 232 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "750905": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-750905",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=49",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 533,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 512
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 576
+              },
+              {
+                "year": "2034/35",
+                "value": 625
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 533, with 512 students in 2024/25; it forecasts 625 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "751103": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-751103",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=91",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 639,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 722
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 829
+              },
+              {
+                "year": "2034/35",
+                "value": 1014
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 639, with 722 students in 2024/25; it forecasts 1,014 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "756962": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-756962",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=74",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 375,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 161
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 140
+              },
+              {
+                "year": "2034/35",
+                "value": 147
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 375, with 161 students in 2024/25; it forecasts 147 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "770655": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-770655",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=74",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 271,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 144
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 140
+              },
+              {
+                "year": "2034/35",
+                "value": 131
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 271, with 144 students in 2024/25; it forecasts 131 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "773050": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-773050",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=84",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 714,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 964
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 1164
+              },
+              {
+                "year": "2034/35",
+                "value": 1455
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 714, with 964 students in 2024/25; it forecasts 1,455 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "775061": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-775061",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=74",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 292
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 304
+              },
+              {
+                "year": "2034/35",
+                "value": 310
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 292 students in 2024/25; it forecasts 310 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "777935": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-777935",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=55",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 536,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 340
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 377
+              },
+              {
+                "year": "2034/35",
+                "value": 396
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 536, with 340 students in 2024/25; it forecasts 396 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "779849": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-779849",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=91",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 378,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 238
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 292
+              },
+              {
+                "year": "2034/35",
+                "value": 303
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 378, with 238 students in 2024/25; it forecasts 303 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "781487": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-781487",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=55",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 524,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 531
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 527
+              },
+              {
+                "year": "2034/35",
+                "value": 520
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 524, with 531 students in 2024/25; it forecasts 520 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "782130": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-782130",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=61",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 470,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 523
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 823
+              },
+              {
+                "year": "2034/35",
+                "value": 1111
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 470, with 523 students in 2024/25; it forecasts 1,111 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "786691": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-786691",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=79",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 546,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 158
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 187
+              },
+              {
+                "year": "2034/35",
+                "value": 208
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 546, with 158 students in 2024/25; it forecasts 208 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "790044": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-790044",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=49",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 401,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 463
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 406
+              },
+              {
+                "year": "2034/35",
+                "value": 379
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 401, with 463 students in 2024/25; it forecasts 379 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "795995": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-795995",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=84",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 470,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 556
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 726
+              },
+              {
+                "year": "2034/35",
+                "value": 854
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 470, with 556 students in 2024/25; it forecasts 854 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "798436": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-798436",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=84",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 193,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 272
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 347
+              },
+              {
+                "year": "2034/35",
+                "value": 411
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 193, with 272 students in 2024/25; it forecasts 411 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "801275": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-801275",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=55",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 1308,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 1062
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 1362
+              },
+              {
+                "year": "2034/35",
+                "value": 1574
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,308, with 1,062 students in 2024/25; it forecasts 1,574 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "805840": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-805840",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=49",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 274,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 261
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 291
+              },
+              {
+                "year": "2034/35",
+                "value": 317
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 274, with 261 students in 2024/25; it forecasts 317 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "808007": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-808007",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=49",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 703,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 525
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 598
+              },
+              {
+                "year": "2034/35",
+                "value": 784
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 703, with 525 students in 2024/25; it forecasts 784 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "809179": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-809179",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=61",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 257,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 402
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 533
+              },
+              {
+                "year": "2034/35",
+                "value": 627
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 257, with 402 students in 2024/25; it forecasts 627 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "813389": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-813389",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=44",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 1017,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 934
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 958
+              },
+              {
+                "year": "2034/35",
+                "value": 1280
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,017, with 934 students in 2024/25; it forecasts 1,280 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "822566": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-822566",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=44",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 349,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 361
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 406
+              },
+              {
+                "year": "2034/35",
+                "value": 376
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 349, with 361 students in 2024/25; it forecasts 376 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "824690": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-824690",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=61",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 562,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 701
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 866
+              },
+              {
+                "year": "2034/35",
+                "value": 1023
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 562, with 701 students in 2024/25; it forecasts 1,023 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "828335": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-828335",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=44",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 179
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 174
+              },
+              {
+                "year": "2034/35",
+                "value": 172
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 179 students in 2024/25; it forecasts 172 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "829374": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-829374",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 459
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 532
+              },
+              {
+                "year": "2034/35",
+                "value": 592
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458, with 459 students in 2024/25; it forecasts 592 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "833061": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-833061",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=49",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 524,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 412
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 554
+              },
+              {
+                "year": "2034/35",
+                "value": 765
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 524, with 412 students in 2024/25; it forecasts 765 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "835749": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-835749",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=44",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 521,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 448
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 577
+              },
+              {
+                "year": "2034/35",
+                "value": 610
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 521, with 448 students in 2024/25; it forecasts 610 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "836320": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-836320",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=55",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 490,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 268
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 355
+              },
+              {
+                "year": "2034/35",
+                "value": 510
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 490, with 268 students in 2024/25; it forecasts 510 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "837199": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-837199",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 386,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 592
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 726
+              },
+              {
+                "year": "2034/35",
+                "value": 815
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 386, with 592 students in 2024/25; it forecasts 815 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "840815": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-840815",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=84",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 519,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 543
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 542
+              },
+              {
+                "year": "2034/35",
+                "value": 574
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 519, with 543 students in 2024/25; it forecasts 574 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "843342": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-843342",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=79",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 216
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 221
+              },
+              {
+                "year": "2034/35",
+                "value": 223
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245, with 216 students in 2024/25; it forecasts 223 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "844012": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-844012",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=49",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 1233,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 1379
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 1618
+              },
+              {
+                "year": "2034/35",
+                "value": 1792
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,233, with 1,379 students in 2024/25; it forecasts 1,792 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "852775": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-852775",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=74",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 924,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 739
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 840
+              },
+              {
+                "year": "2034/35",
+                "value": 729
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 924, with 739 students in 2024/25; it forecasts 729 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "868914": {
+      "records": [
+        {
+          "id": "smcdsb-capacity-868914",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2025 (Simcoe Muskoka Catholic District School Board, prepared with Watson & Associates) (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf#page=55",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 398,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024/25",
+                "value": 553
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029/30",
+                "value": 610
+              },
+              {
+                "year": "2034/35",
+                "value": 646
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 398, with 553 students in 2024/25; it forecasts 646 in 2034/35. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

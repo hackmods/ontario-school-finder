@@ -99,6 +99,15 @@ test.describe("school page for families", () => {
     }
   });
 
+  test("a hijacked school website is not linked, and the page says why", async ({ page }) => {
+    // 428833: the Ministry's link (octc.ca) now leads to an unrelated site (site/school-links.json)
+    await page.goto("/school/428833/");
+    await expect(page.getByRole("link", { name: "School website" })).toHaveCount(0);
+    await expect(page.locator("[data-website-note]")).toContainText("unrelated to the school");
+    const data = await (await page.request.get("/data/schools/428833.json")).json();
+    expect(data.website).toBeNull();
+  });
+
   test("student figures say that 0% is rounded, not none", async ({ page }) => {
     await page.goto(`/school/${PP}/`);
     await expect(page.locator("#students")).toContainText("0% can still mean a few students");

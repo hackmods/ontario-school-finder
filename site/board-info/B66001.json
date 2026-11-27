@@ -351,5 +351,1269 @@
         "951692": "Owen Sound District Secondary School (Owen Sound)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "135143": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-135143",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=56",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 239,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 195
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 213
+              },
+              {
+                "year": "2034-2035",
+                "value": 214
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 239, with 195 students on October 31, 2024; it forecasts 214 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "152820": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-152820",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=51",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 322,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 539
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 549
+              },
+              {
+                "year": "2034-2035",
+                "value": 573
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 322, with 539 students on October 31, 2024; it forecasts 573 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "155683": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-155683",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=56",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 516,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 353
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 386
+              },
+              {
+                "year": "2034-2035",
+                "value": 425
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 516, with 353 students on October 31, 2024; it forecasts 425 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "167649": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-167649",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=56",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 233,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 232
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 251
+              },
+              {
+                "year": "2034-2035",
+                "value": 264
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 233, with 232 students on October 31, 2024; it forecasts 264 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "169200": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-169200",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=85",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 502,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 320
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 368
+              },
+              {
+                "year": "2034-2035",
+                "value": 491
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 502, with 320 students on October 31, 2024; it forecasts 491 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "198978": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-198978",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=51",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 611,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 601
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 1008
+              },
+              {
+                "year": "2034-2035",
+                "value": 1477
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the figures assume the approved grade structure and holding zones for September 2025"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 611, with 601 students on October 31, 2024; it forecasts 1,477 in 2034-2035. The plan notes: the figures assume the approved grade structure and holding zones for September 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "253316": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-253316",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=73",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 568,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 360
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 396
+              },
+              {
+                "year": "2034-2035",
+                "value": 471
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 568, with 360 students on October 31, 2024; it forecasts 471 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "257168": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-257168",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=85",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 150
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 170
+              },
+              {
+                "year": "2034-2035",
+                "value": 176
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245, with 150 students on October 31, 2024; it forecasts 176 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "257869": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-257869",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 660,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 480
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 456
+              },
+              {
+                "year": "2034-2035",
+                "value": 486
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 660, with 480 students on October 31, 2024; it forecasts 486 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "262935": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-262935",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 295
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 267
+              },
+              {
+                "year": "2034-2035",
+                "value": 280
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 295 students on October 31, 2024; it forecasts 280 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "273775": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-273775",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=62",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 344,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 288
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 241
+              },
+              {
+                "year": "2034-2035",
+                "value": 284
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 344, with 288 students on October 31, 2024; it forecasts 284 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "281131": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-281131",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=56",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 517,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 396
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 443
+              },
+              {
+                "year": "2034-2035",
+                "value": 455
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 517, with 396 students on October 31, 2024; it forecasts 455 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "291030": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-291030",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 377,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 453
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 527
+              },
+              {
+                "year": "2034-2035",
+                "value": 537
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 377, with 453 students on October 31, 2024; it forecasts 537 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "293750": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-293750",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=62",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 375,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 215
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 246
+              },
+              {
+                "year": "2034-2035",
+                "value": 272
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 375, with 215 students on October 31, 2024; it forecasts 272 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "293776": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-293776",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=62",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 222,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 291
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 286
+              },
+              {
+                "year": "2034-2035",
+                "value": 295
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 222, with 291 students on October 31, 2024; it forecasts 295 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "323900": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-323900",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=62",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 306,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 180
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 248
+              },
+              {
+                "year": "2034-2035",
+                "value": 304
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 306, with 180 students on October 31, 2024; it forecasts 304 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "331307": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-331307",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 935,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 806
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 825
+              },
+              {
+                "year": "2034-2035",
+                "value": 819
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 935, with 806 students on October 31, 2024; it forecasts 819 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "340804": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-340804",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=51",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 374
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 541
+              },
+              {
+                "year": "2034-2035",
+                "value": 555
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 360, with 374 students on October 31, 2024; it forecasts 555 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "364290": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-364290",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=85",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 162
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 161
+              },
+              {
+                "year": "2034-2035",
+                "value": 190
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 162 students on October 31, 2024; it forecasts 190 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "401129": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-401129",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=56",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 317,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 186
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 184
+              },
+              {
+                "year": "2034-2035",
+                "value": 176
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 317, with 186 students on October 31, 2024; it forecasts 176 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "403741": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-403741",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=79",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 410,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 509
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 747
+              },
+              {
+                "year": "2034-2035",
+                "value": 882
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 410, with 509 students on October 31, 2024; it forecasts 882 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "431028": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-431028",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=85",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 185
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 233
+              },
+              {
+                "year": "2034-2035",
+                "value": 285
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245, with 185 students on October 31, 2024; it forecasts 285 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "450910": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-450910",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=79",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 683,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 628
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 816
+              },
+              {
+                "year": "2034-2035",
+                "value": 999
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 683, with 628 students on October 31, 2024; it forecasts 999 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "458554": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-458554",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=51",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 265,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 413
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 448
+              },
+              {
+                "year": "2034-2035",
+                "value": 449
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 265, with 413 students on October 31, 2024; it forecasts 449 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "484970": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-484970",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=62",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 351,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 306
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 359
+              },
+              {
+                "year": "2034-2035",
+                "value": 427
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 351, with 306 students on October 31, 2024; it forecasts 427 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "524239": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-524239",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=79",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 455,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 360
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 518
+              },
+              {
+                "year": "2034-2035",
+                "value": 637
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 455, with 360 students on October 31, 2024; it forecasts 637 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "529826": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-529826",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=39",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 84,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 17
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 20
+              },
+              {
+                "year": "2034-2035",
+                "value": 21
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 84, with 17 students on October 31, 2024; it forecasts 21 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "540200": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-540200",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 152
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 175
+              },
+              {
+                "year": "2034-2035",
+                "value": 203
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 236, with 152 students on October 31, 2024; it forecasts 203 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "552585": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-552585",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=45",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 542,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 620
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 746
+              },
+              {
+                "year": "2034-2035",
+                "value": 1022
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 542, with 620 students on October 31, 2024; it forecasts 1,022 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "914444": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-914444",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=51",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 1035,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 727
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 1009
+              },
+              {
+                "year": "2034-2035",
+                "value": 1382
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "the school's capacity includes Grade 7-8 places, and its enrolment includes Grade 7-8 students temporarily housed there"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,035, with 727 students on October 31, 2024; it forecasts 1,382 in 2034-2035. The plan notes: the school's capacity includes Grade 7-8 places, and its enrolment includes Grade 7-8 students temporarily housed there. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "951692": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-951692",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 1230,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 1287
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 1345
+              },
+              {
+                "year": "2034-2035",
+                "value": 1422
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,230, with 1,287 students on October 31, 2024; it forecasts 1,422 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "011606": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-011606",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=73",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 198
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 197
+              },
+              {
+                "year": "2034-2035",
+                "value": 216
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245, with 198 students on October 31, 2024; it forecasts 216 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "093939": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-093939",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=51",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 351,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 422
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 539
+              },
+              {
+                "year": "2034-2035",
+                "value": 616
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 351, with 422 students on October 31, 2024; it forecasts 616 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "010472": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-010472",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=68",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 271,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 317
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 293
+              },
+              {
+                "year": "2034-2035",
+                "value": 286
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 271, with 317 students on October 31, 2024; it forecasts 286 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "022322": {
+      "records": [
+        {
+          "id": "bwdsb-capacity-022322",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2024-2025 Long-Term Accommodation Strategy (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf#page=79",
+          "source_date": "2025",
+          "facts": {
+            "capacity_otg": 400,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2024",
+                "value": 384
+              }
+            ],
+            "projected": [
+              {
+                "year": "2029-2030",
+                "value": 380
+              },
+              {
+                "year": "2034-2035",
+                "value": 362
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 400, with 384 students on October 31, 2024; it forecasts 362 in 2034-2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

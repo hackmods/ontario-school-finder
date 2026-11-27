@@ -2,14 +2,14 @@
 {%- from "_icons.html" import icon, sysbadge -%}
 {% block main %}
 <div class="page-head"><div class="wrap">
-  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">School boards</li></ol>
-  <h1>School boards</h1>
-  <p class="lede" style="margin:0">Ontario has four publicly funded systems: English public, English Catholic, French public and French Catholic. Each area of the province is served by one board from each system, plus a few small school authorities and provincial schools.</p>
+  <ol class="crumbs"><li><a href="{{ u('/') }}">{{ _("Home") }}</a></li><li aria-current="page">{{ _("School boards") }}</li></ol>
+  <h1>{{ _("School boards") }}</h1>
+  <p class="lede" style="margin:0">{{ _("Ontario has four publicly funded systems: English public, English Catholic, French public and French Catholic. Each area of the province is served by one board from each system, plus a few small school authorities and provincial schools.") }}</p>
 </div></div>
 <section class="block"><div class="wrap">
   {% for g in groups %}
-  <h2 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:28px">{{ sysbadge(g.system, g.label) }} <span>{{ g.boards|length }} board{{ "" if g.boards|length == 1 else "s" }}</span></h2>
-  <div class="cols">{% for b in g.boards %}<a href="/board/{{ b.number }}/">{{ b.name }} <span>{{ b.count }} school{{ "" if b.count == 1 else "s" }}</span></a>{% endfor %}</div>
+  <h2 style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:28px">{{ sysbadge(g.system, _(g.label)) }} <span>{{ _("1 board") if g.boards|length == 1 else _("{n} boards", n=g.boards|length) }}</span></h2>
+  <div class="cols">{% for b in g.boards %}<a href="{{ u('/board/' ~ b.number ~ '/') }}">{{ b.name }} <span>{{ _("1 school") if b.count == 1 else _("{n} schools", n=b.count) }}</span></a>{% endfor %}</div>
   {% endfor %}
 </div></section>
 {% endblock %}

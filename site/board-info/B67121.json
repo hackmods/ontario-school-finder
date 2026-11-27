@@ -393,5 +393,1519 @@
         "863955": "Sts. Peter & Paul Catholic Elementary School (Hamilton)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "689386": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-689386",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=22",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 1224,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1267
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,224, with 1,267 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "689750": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-689750",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=22",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 1708,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 2103
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,708, with 2,103 students on October 31, 2023. The plan notes: OTG includes new 11-classroom addition (plan Note 2). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "690279": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-690279",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 278
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 337, with 278 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "693650": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-693650",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 183
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 183 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "694134": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-694134",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=22",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 1311,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1547
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,311, with 1,547 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "695343": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-695343",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=22",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 1137,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1340
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,137, with 1,340 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "696196": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-696196",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 551
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 504, with 551 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "699500": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-699500",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 402
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 432, with 402 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "704288": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-704288",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 444,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 314
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 444, with 314 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "710997": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-710997",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 565,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 460
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 565, with 460 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "717053": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-717053",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 419
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458, with 419 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "721972": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-721972",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 478,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 333
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 478, with 333 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "733105": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-733105",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 395,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 290
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 395, with 290 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "735799": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-735799",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 509
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458, with 509 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "742350": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-742350",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 384,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 258
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 384, with 258 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "743868": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-743868",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 635
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 599, with 635 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "745279": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-745279",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 617,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 616
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 617, with 616 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "745650": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-745650",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 452,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 337
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 452, with 337 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "748544": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-748544",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 329,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 329
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 329, with 329 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "748633": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-748633",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 765
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 599, with 765 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "751553": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-751553",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 478,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 364
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 478, with 364 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "752800": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-752800",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 320
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 320 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "756180": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-756180",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 104,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 227
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 104, with 227 students on October 31, 2023. The plan notes: Sacred Heart utilizes unrated space; percent utilization only reflects rated space (plan Note 2). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "765180": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-765180",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 336
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 336 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "770965": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-770965",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 372,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 449
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 372, with 449 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "772046": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-772046",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 386,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 235
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 386, with 235 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "772160": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-772160",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 344
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 432, with 344 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "773786": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-773786",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 668,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 624
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 668, with 624 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "775681": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-775681",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 372,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 228
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 372, with 228 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "778028": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-778028",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 326,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 280
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 326, with 280 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "784400": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-784400",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 307
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 307 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "785865": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-785865",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 161
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 161 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "786152": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-786152",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 521,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 476
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 521, with 476 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "789720": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-789720",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 606
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 573, with 606 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "792217": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-792217",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 455,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 414
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 455, with 414 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "799530": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-799530",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 450
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 599, with 450 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "800430": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-800430",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=22",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 1101,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1488
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,101, with 1,488 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "804673": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-804673",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 400,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 376
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 400, with 376 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "814032": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-814032",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 414
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 573, with 414 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "817678": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-817678",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=23",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 295
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 504, with 295 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "819028": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-819028",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 591
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 599, with 591 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "820652": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-820652",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 378
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 432, with 378 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "821268": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-821268",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 455,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 493
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 455, with 493 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "821705": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-821705",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 478,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 416
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 478, with 416 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "824313": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-824313",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 282
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 314, with 282 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "825892": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-825892",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 528
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 504, with 528 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "827401": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-827401",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=22",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 1038,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 869
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,038, with 869 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "834220": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-834220",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 343,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 440
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 343, with 440 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "839779": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-839779",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 383,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 356
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 383, with 356 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "842389": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-842389",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 445
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 445 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "851264": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-851264",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 218
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 218 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "854336": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-854336",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=25",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 599,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 639
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 599, with 639 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "855685": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-855685",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=22",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 1389,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 1894
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,389, with 1,894 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "858102": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-858102",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 395,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 336
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 395, with 336 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "863955": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-863955",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 619,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 543
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 619, with 543 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "866725": {
+      "records": [
+        {
+          "id": "hwcdsb-capacity-866725",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Multi-Year Accommodation Plan 2024-2029 (Hamilton-Wentworth Catholic District School Board) (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf#page=24",
+          "source_date": "August 2024",
+          "facts": {
+            "capacity_otg": 349,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "October 31, 2023",
+                "value": 290
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 349, with 290 students on October 31, 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

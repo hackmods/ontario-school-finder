@@ -1,51 +1,51 @@
 {% extends "base.html" %}
 {%- from "_icons.html" import icon -%}
 {% block main %}
-<h1 class="visually-hidden">Map of Ontario schools</h1>
+<h1 class="visually-hidden">{{ _("Map of Ontario schools") }}</h1>
 <div class="map-shell map-page" style="border-radius:0;border:0">
-  <div class="map map-full" data-map="explore" aria-label="Map of all Ontario publicly funded schools"></div>
-  <div class="map-fallback" data-map-fallback><div>The map needs JavaScript. Browse by <a href="/boards/">board</a> or <a href="/areas/">postal area</a> instead.</div></div>
-  <aside class="map-panel" aria-label="Map layers and legend">
-    <h2>Schools</h2>
-    <div class="chips" role="group" aria-label="Level" data-level-filter>
-      <button class="chip on" type="button" data-level="all" aria-pressed="true">All</button>
-      <button class="chip" type="button" data-level="E" aria-pressed="false">Elementary</button>
-      <button class="chip" type="button" data-level="S" aria-pressed="false">Secondary</button>
+  <div class="map map-full" data-map="explore" aria-label="{{ _('Map of all Ontario publicly funded schools') }}"></div>
+  <div class="map-fallback" data-map-fallback><div>{{ _h('The map needs JavaScript. Browse by <a href="{boards}">board</a> or <a href="{areas}">postal area</a> instead.', boards=u("/boards/"), areas=u("/areas/")) }}</div></div>
+  <aside class="map-panel" aria-label="{{ _('Map layers and legend') }}">
+    <h2>{{ _("Schools") }}</h2>
+    <div class="chips" role="group" aria-label="{{ _('Level') }}" data-level-filter>
+      <button class="chip on" type="button" data-level="all" aria-pressed="true">{{ _("All") }}</button>
+      <button class="chip" type="button" data-level="E" aria-pressed="false">{{ _("Elementary") }}</button>
+      <button class="chip" type="button" data-level="S" aria-pressed="false">{{ _("Secondary") }}</button>
     </div>
-    <div class="chips" role="group" aria-label="Program" data-prog-filter style="margin-top:8px">
-      <button class="chip on" type="button" data-prog="all" aria-pressed="true">Any program</button>
-      <button class="chip" type="button" data-prog="fi" aria-pressed="false">French Immersion</button>
-      <button class="chip" type="button" data-prog="ef" aria-pressed="false">Extended French</button>
-      <button class="chip" type="button" data-prog="sh" aria-pressed="false">SHSM</button>
+    <div class="chips" role="group" aria-label="{{ _('Program') }}" data-prog-filter style="margin-top:8px">
+      <button class="chip on" type="button" data-prog="all" aria-pressed="true">{{ _("Any program") }}</button>
+      <button class="chip" type="button" data-prog="fi" aria-pressed="false">{{ _("French Immersion") }}</button>
+      <button class="chip" type="button" data-prog="ef" aria-pressed="false">{{ _("Extended French") }}</button>
+      <button class="chip" type="button" data-prog="sh" aria-pressed="false">{{ _("SHSM") }}</button>
     </div>
-    <p class="small muted" style="margin:6px 0 0" data-prog-note hidden>From the Ministry’s French program and Specialist High Skills Major (SHSM) lists, plus a board’s own Immersion list where we have it. Which school a child can attend for a program is set by the board.</p>
+    <p class="small muted" style="margin:6px 0 0" data-prog-note hidden>{{ _("From the Ministry’s French program and Specialist High Skills Major (SHSM) lists, plus a board’s own Immersion list where we have it. Which school a child can attend for a program is set by the board.") }}</p>
     <div class="legend">
-      <h3>School system</h3>
+      <h3>{{ _("School system") }}</h3>
       <ul>
-        {% for key, label in systems %}<li><label class="layer-toggle"><input type="checkbox" checked data-system="{{ key }}"><span class="lab"><span class="sw-dot sys-{{ key }}" style="display:inline-block;vertical-align:-2px;margin:0 6px 0 0"></span>{{ label }}</span><span class="muted small" data-system-count="{{ key }}"></span></label></li>{% endfor %}
+        {% for key, label in systems %}<li><label class="layer-toggle"><input type="checkbox" checked data-system="{{ key }}"><span class="lab"><span class="sw-dot sys-{{ key }}" style="display:inline-block;vertical-align:-2px;margin:0 6px 0 0"></span>{{ _(label) }}</span><span class="muted small" data-system-count="{{ key }}"></span></label></li>{% endfor %}
       </ul>
-      <h3>Areas (choose one)</h3>
+      <h3>{{ _("Areas (choose one)") }}</h3>
       <ul data-legend>
-        <li><label class="layer-toggle"><input type="radio" name="area" value="none" checked><span class="lab">No areas</span><span></span></label></li>
-        <li><label class="layer-toggle"><input type="radio" name="area" value="fsa"><span><span class="lab">Postal code area (first 3 characters)</span><span class="exp" style="display:block">Statistics Canada’s 2021 FSA outlines. Mail delivery areas, not school boundaries.</span></span><span class="sw sw-fsa"></span></label></li>
-        <li><label class="layer-toggle"><input type="radio" name="area" value="board"><span><span class="lab">Approximate school board area</span><span class="exp" style="display:block">Drawn from where each board’s schools are, for the system you pick below. Not the legal boundary.</span></span><span class="sw sw-board"></span></label></li>
-        <li><label class="layer-toggle"><input type="radio" name="area" value="nearest"><span><span class="lab">Nearest school, NOT the official boundary</span><span class="exp" style="display:block">Every place shaded by the school it is closest to, for the system and level you pick below. Only schools families attend by neighbourhood: French Immersion-only and special-purpose schools are left out.</span></span><span class="sw sw-near"></span></label></li>
+        <li><label class="layer-toggle"><input type="radio" name="area" value="none" checked><span class="lab">{{ _("No areas") }}</span><span></span></label></li>
+        <li><label class="layer-toggle"><input type="radio" name="area" value="fsa"><span><span class="lab">{{ _("Postal code area (first 3 characters)") }}</span><span class="exp" style="display:block">{{ _("Statistics Canada’s 2021 FSA outlines. Mail delivery areas, not school boundaries.") }}</span></span><span class="sw sw-fsa"></span></label></li>
+        <li><label class="layer-toggle"><input type="radio" name="area" value="board"><span><span class="lab">{{ _("Approximate school board area") }}</span><span class="exp" style="display:block">{{ _("Drawn from where each board’s schools are, for the system you pick below. Not the legal boundary.") }}</span></span><span class="sw sw-board"></span></label></li>
+        <li><label class="layer-toggle"><input type="radio" name="area" value="nearest"><span><span class="lab">{{ _("Nearest school, NOT the official boundary") }}</span><span class="exp" style="display:block">{{ _("Every place shaded by the school it is closest to, for the system and level you pick below. Only schools families attend by neighbourhood: French Immersion-only and special-purpose schools are left out.") }}</span></span><span class="sw sw-near"></span></label></li>
         {%- set ob = meta.official_boundaries|default([]) %}
         {%- set ob_boards = ob|map(attribute="board")|unique|list %}
         {% if ob %}
-        <li><label class="layer-toggle"><input type="radio" name="area" value="official"><span><span class="lab">Official boundary from the board</span><span class="exp" style="display:block">The attendance areas {{ ob_boards|length }} boards publish on their own maps: {{ ob_boards|join(", ") }}. Labelled on each school page with the board and date. Elsewhere, use your board’s school locator.</span></span><span class="sw sw-official-on"></span></label></li>
+        <li><label class="layer-toggle"><input type="radio" name="area" value="official"><span><span class="lab">{{ _("Official boundary from the board") }}</span><span class="exp" style="display:block">{{ _("The attendance areas {n} boards publish on their own maps: {boards}. Labelled on each school page with the board and date. Elsewhere, use your board’s school locator.", n=ob_boards|length, boards=ob_boards|join(", ")) }}</span></span><span class="sw sw-official-on"></span></label></li>
         {% else %}
-        <li class="off"><label class="layer-toggle" style="cursor:default"><input type="radio" name="area" value="official" disabled><span><span class="lab">Official boundary from the board</span><span class="exp" style="display:block">Not available yet. Use your board’s school locator.</span></span><span class="sw sw-official"></span></label></li>
+        <li class="off"><label class="layer-toggle" style="cursor:default"><input type="radio" name="area" value="official" disabled><span><span class="lab">{{ _("Official boundary from the board") }}</span><span class="exp" style="display:block">{{ _("Not available yet. Use your board’s school locator.") }}</span></span><span class="sw sw-official"></span></label></li>
         {% endif %}
       </ul>
       <div data-area-options hidden style="margin-top:12px;display:grid;gap:8px">
-        <label for="area-system">System for areas</label>
-        <select id="area-system" data-area-system>{% for key, label in systems %}{% if key != "other" %}<option value="{{ key }}">{{ label }}</option>{% endif %}{% endfor %}</select>
-        <span data-area-level-wrap><label for="area-level">Level</label>
-        <select id="area-level" data-area-level><option value="elementary">Elementary</option><option value="secondary">Secondary</option></select></span>
+        <label for="area-system">{{ _("System for areas") }}</label>
+        <select id="area-system" data-area-system>{% for key, label in systems %}{% if key != "other" %}<option value="{{ key }}">{{ _(label) }}</option>{% endif %}{% endfor %}</select>
+        <span data-area-level-wrap><label for="area-level">{{ _("Level") }}</label>
+        <select id="area-level" data-area-level><option value="elementary">{{ _("Elementary") }}</option><option value="secondary">{{ _("Secondary") }}</option></select></span>
       </div>
     </div>
-    <p class="small muted" style="margin:12px 0 0">Tap a school for details. Map tiles © OpenStreetMap contributors via OpenFreeMap.</p>
+    <p class="small muted" style="margin:12px 0 0">{{ _("Tap a school for details. Map tiles © OpenStreetMap contributors via OpenFreeMap.") }}</p>
   </aside>
 </div>
 {% endblock %}

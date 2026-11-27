@@ -201,6 +201,26 @@ a > .badge-count { margin-left: 8px; } /* the header nav and the phone menu (fle
   .site-header .wrap { gap: 4px; }
   .brand span small { display: none; }
 }
+/* language toggle (EN / FR): same page in the other language; 44px targets, current language marked */
+.lang-toggle { display: inline-flex; gap: 2px; padding: 2px; border: 1px solid var(--line); border-radius: 999px; flex: none; }
+.lang-toggle a { display: inline-grid; place-items: center; min-width: 44px; min-height: 40px; padding: 0 8px; border-radius: 999px; color: var(--ink-2); font-weight: 650; font-size: .85rem; text-decoration: none; letter-spacing: .02em; }
+.lang-toggle a:hover { background: var(--surface-2); color: var(--ink); }
+.lang-toggle a[aria-current="true"] { background: var(--brand-tint); color: var(--brand); }
+.lang-toggle-header { margin-left: 8px; }
+.lang-toggle-menu { margin: 0 var(--gutter) 16px; }
+.lang-toggle-footer { margin-top: 14px; }
+@media (pointer: coarse) { .lang-toggle a { min-height: 44px; } }
+@media (max-width: 820px) { .lang-toggle-header { display: none; } }
+.lang-switch { display: none; }
+@media (max-width: 820px) and (min-width: 360px) {
+  .lang-switch { display: inline-grid; place-items: center; min-width: 44px; min-height: 44px; margin-left: auto; border: 1px solid var(--line); border-radius: 999px; color: var(--ink-2); font-weight: 650; font-size: .85rem; letter-spacing: .02em; text-decoration: none; flex: none; }
+  .lang-switch:hover { background: var(--surface-2); color: var(--ink); }
+  .lang-switch + .menu-toggle { margin-left: 0; }
+}
+/* French pages: machine translation, not reviewed */
+.mt-notice { background: var(--surface-2); border-bottom: 1px solid var(--line); }
+.mt-notice p { margin: 0; padding: 8px 0; font-size: .88rem; color: var(--ink-2); max-width: 90ch; }
+@media (max-width: 600px) { .mt-notice p { font-size: .82rem; padding: 6px 0; } .mt-notice .mt-more { display: none; } }
 .mobile-menu { display: none; border-top: 1px solid var(--line); background: var(--surface); }
 .mobile-menu.open { display: block; }
 .mobile-menu nav { display: grid; padding: 8px var(--gutter) 16px; }

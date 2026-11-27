@@ -1,0 +1,19 @@
+{
+  "_about": "Fragment for site/static/js/lib.js. Machine translation, unreviewed. Includes the SYSTEMS and PROGRAM_LABELS values, which other scripts pass to t() at the point of use.",
+  "Elementary": "Élémentaire",
+  "Secondary": "Secondaire",
+  "English public": "Public de langue anglaise",
+  "English Catholic": "Catholique de langue anglaise",
+  "French public": "Public de langue française",
+  "French Catholic": "Catholique de langue française",
+  "Provincial or other": "Provincial ou autre",
+  "French-language school": "École de langue française",
+  "French Immersion": "Immersion en français",
+  "Extended French": "Français intensif",
+  "Specialist High Skills Major": "Majeure Haute Spécialisation",
+  "SHSM · 1 sector": "MHS · 1 secteur",
+  "SHSM · {n} sectors": "MHS · {n} secteurs",
+  "Junior kindergarten": "Maternelle",
+  "Senior kindergarten": "Jardin d’enfants",
+  "Grade {g}": "{g}e année"
+}

@@ -2,125 +2,128 @@
 {%- from "_icons.html" import icon -%}
 {% block main %}
 <div class="page-head"><div class="wrap">
-  <ol class="crumbs"><li><a href="/">Home</a></li><li aria-current="page">How it works</li></ol>
-  <h1>How it works</h1>
-  <p class="lede" style="margin:0">Where every number comes from, what it means, how missing values are handled, and how the map areas are drawn.</p>
+  <ol class="crumbs"><li><a href="{{ u('/') }}">{{ _("Home") }}</a></li><li aria-current="page">{{ _("How it works") }}</li></ol>
+  <h1>{{ _("How it works") }}</h1>
+  <p class="lede" style="margin:0">{{ _("Where every number comes from, what it means, how missing values are handled, and how the map areas are drawn.") }}</p>
 </div></div>
 
-<nav class="subnav" aria-label="On this page">
+<nav class="subnav" aria-label="{{ _("On this page") }}">
   <div class="wrap">
-    <a href="#principles">Principles</a>
-    <a href="#eqao">EQAO results</a>
-    <a href="#experience">Student experience</a>
-    <a href="#medians">Comparisons</a>
-    <a href="#coverage">Missing information</a>
-    <a href="#board-info">Board information</a>
-    <a href="#codes">Codes</a>
-    <a href="#context">Students &amp; enrolment</a>
-    <a href="#boundaries">Map areas</a>
-    <a href="#updates">Updates</a>
-    <a href="#sources">Sources</a>
+    <a href="#principles">{{ _("Principles") }}</a>
+    <a href="#eqao">{{ _("EQAO results") }}</a>
+    <a href="#experience">{{ _("Student experience") }}</a>
+    <a href="#medians">{{ _("Comparisons") }}</a>
+    <a href="#coverage">{{ _("Missing information") }}</a>
+    <a href="#board-info">{{ _("Board information") }}</a>
+    <a href="#codes">{{ _("Codes") }}</a>
+    <a href="#context">{{ _("Students & enrolment") }}</a>
+    <a href="#boundaries">{{ _("Map areas") }}</a>
+    <a href="#updates">{{ _("Updates") }}</a>
+    <a href="#sources">{{ _("Sources") }}</a>
   </div>
 </nav>
 
 <div class="wrap doc">
 <div class="prose doc-main">
-<h2 id="principles">Principles</h2>
+<h2 id="principles">{{ _("Principles") }}</h2>
 <ol>
-  <li><strong>Every number links to its source</strong> and shows its school year.</li>
-  <li><strong>Context, not leaderboards.</strong> Each school is shown next to its board and the province, over several years. There are no “top 10” lists and no single score.</li>
-  <li><strong>Honest about gaps.</strong> Withheld, missing and small-group values are labelled, never shown as 0.</li>
-  <li><strong>Boundaries are approximate unless official.</strong> Every map layer says what it is.</li>
-  <li><strong>Free and private.</strong> No accounts, ads, tracking cookies or third-party scripts.</li>
+  <li>{{ _h("<strong>Every number links to its source</strong> and shows its school year.") }}</li>
+  <li>{{ _h("<strong>Context, not leaderboards.</strong> Each school is shown next to its board and the province, over several years. There are no “top 10” lists and no single score.") }}</li>
+  <li>{{ _h("<strong>Honest about gaps.</strong> Withheld, missing and small-group values are labelled, never shown as 0.") }}</li>
+  <li>{{ _h("<strong>Boundaries are approximate unless official.</strong> Every map layer says what it is.") }}</li>
+  <li>{{ _h("<strong>Free and private.</strong> No accounts, ads, tracking cookies or third-party scripts.") }}</li>
 </ol>
 
-<h2 id="eqao">EQAO results</h2>
-<p>The Education Quality and Accountability Office (EQAO) assesses every student in Grade 3 and Grade 6 (reading, writing, mathematics), Grade 9 (mathematics) and Grade 10 (the Ontario Secondary School Literacy Test, OSSLT). For each school we show the <strong>percentage of students who met the provincial standard</strong> (level 3 or 4; for the OSSLT, students who passed on their first attempt), exactly as published in the Ministry’s <em>School information and student demographics</em> files.</p>
+<h2 id="eqao">{{ _("EQAO results") }}</h2>
+<p>{{ _h("The Education Quality and Accountability Office (EQAO) assesses every student in Grade 3 and Grade 6 (reading, writing, mathematics), Grade 9 (mathematics) and Grade 10 (the Ontario Secondary School Literacy Test, OSSLT). For each school we show the <strong>percentage of students who met the provincial standard</strong> (level 3 or 4; for the OSSLT, students who passed on their first attempt), exactly as published in the Ministry’s <em>School information and student demographics</em> files.") }}</p>
 <ul>
-  <li>Years shown: {{ meta.eqao_years|join(", ") }}. The latest year, {{ meta.latest_eqao_year }}, comes from EQAO’s own open data (used under licence) because the Ministry’s school file for that year is not out yet. We checked the two sources against each other for 2024-25: they give the same percentage for every school. EQAO’s files also give the share of students at each level and how many took part, shown under each chart. EQAO did not assess students in 2019-20 or 2020-21. The Ministry’s files for those two years repeat 2018-19 results, so we use them only for school details and student context, never as new results.</li>
-  <li><strong>Two eras that are never joined.</strong> In {{ meta.eqao_eras.current_from }} EQAO moved every assessment online, changed how the tests are built (and, in mathematics, set new standards for the 2020 curriculum), began reporting results for fully participating students only, and <strong>started new trend lines</strong>. It gives earlier results only as reference points. So charts, “change since” sentences and Compare’s change rows use {{ meta.eqao_eras.current_from }} onward only; the {{ meta.eqao_eras.eras.paper.label }} results are kept, listed separately as “earlier results”, and no change is ever calculated across the two. The downloads carry an <code>era</code> column. EQAO’s statements: {% for e in meta.eqao_eras.evidence %}<a href="{{ e.url }}" rel="noopener">{{ e.title }}</a>{{ "; " if not loop.last else "." }}{% endfor %}</li>
-  <li>Grade 9 math was split into “academic” and “applied” courses until 2018-19. Since 2021-22 there is one de-streamed course. We show them as separate measures and never join them into one trend line.</li>
-  <li><strong>Each year is a different group of students.</strong> A school’s Grade 6 result this year and last year describe two different classes, so a change is not the progress of the same children.</li>
-  <li>The Ministry randomly rounds some school percentages up or down to protect privacy, so 0% and 100% may not be exact.</li>
+  <li>{{ _("Years shown: {years}. The latest year, {latest}, comes from EQAO’s own open data (used under licence) because the Ministry’s school file for that year is not out yet. We checked the two sources against each other for 2024-25: they give the same percentage for every school. EQAO’s files also give the share of students at each level and how many took part, shown under each chart. EQAO did not assess students in 2019-20 or 2020-21. The Ministry’s files for those two years repeat 2018-19 results, so we use them only for school details and student context, never as new results.", years=meta.eqao_years|join(", "), latest=meta.latest_eqao_year) }}</li>
+  <li>{{ _h("<strong>Two eras that are never joined.</strong> In {cur} EQAO moved every assessment online, changed how the tests are built (and, in mathematics, set new standards for the 2020 curriculum), began reporting results for fully participating students only, and <strong>started new trend lines</strong>. It gives earlier results only as reference points. So charts, “change since” sentences and Compare’s change rows use {cur} onward only; the {paper} results are kept, listed separately as “earlier results”, and no change is ever calculated across the two. The downloads carry an <code>era</code> column.", cur=meta.eqao_eras.current_from, paper=_(meta.eqao_eras.eras.paper.label)) }} {{ _("EQAO’s statements:") }} {% for e in meta.eqao_eras.evidence %}<a href="{{ e.url }}" rel="noopener">{{ e.title }}</a>{{ "; " if not loop.last else "." }}{% endfor %}</li>
+  <li>{{ _("Grade 9 math was split into “academic” and “applied” courses until 2018-19. Since 2021-22 there is one de-streamed course. We show them as separate measures and never join them into one trend line.") }}</li>
+  <li>{{ _h("<strong>Each year is a different group of students.</strong> A school’s Grade 6 result this year and last year describe two different classes, so a change is not the progress of the same children.") }}</li>
+  <li>{{ _("The Ministry randomly rounds some school percentages up or down to protect privacy, so 0% and 100% may not be exact.") }}</li>
 </ul>
 
-<h2 id="experience">Student experience (EQAO questionnaire)</h2>
-<p>When students write an EQAO assessment they also answer a short questionnaire. EQAO publishes the answers for each school, board and the province as open data, separately from the results. We show a few questions a family might care about (liking to read and to do math, seeing themselves as good at it, keeping at something difficult, feeling prepared for next year, working well in a group), with EQAO’s exact wording, for the latest year ({% for k, m in meta.student_questionnaire.items() %}{{ "Grade 10 (OSSLT)" if m.grade == "10" else "Grade " ~ m.grade }} {{ m.year }}{{ ", " if not loop.last else "" }}{% endfor %}).</p>
+<h2 id="experience">{{ _("Student experience (EQAO questionnaire)") }}</h2>
+{%- set qlist %}{% for k, m in meta.student_questionnaire.items() %}{{ _("Grade 10 (OSSLT)") if m.grade == "10" else _("Grade {g}", g=m.grade) }} {{ m.year }}{{ ", " if not loop.last else "" }}{% endfor %}{% endset %}
+<p>{{ _("When students write an EQAO assessment they also answer a short questionnaire. EQAO publishes the answers for each school, board and the province as open data, separately from the results. We show a few questions a family might care about (liking to read and to do math, seeing themselves as good at it, keeping at something difficult, feeling prepared for next year, working well in a group), with EQAO’s exact wording, for the latest year ({list}).", list=qlist) }}</p>
 <ul>
-  <li>The answers describe what students said about themselves, not the quality of a school or its teachers.</li>
-  <li>The figure is the share of students who fully took part in the assessment (for Grades 3 and 6: in the reading part, or the math part for math questions) who agreed, <strong>including those who skipped the question</strong>, which is EQAO’s own denominator. For Grades 3 and 6 students chose “yes”, “not sure” or “no” and we show EQAO’s published percentage; for Grade 9 and the OSSLT they chose from five answers and “agreed” adds “somewhat” and “strongly agree”, counted by this site from EQAO’s numbers. Because the scales differ, figures aren’t compared across grades. The OSSLT figures are for first-time eligible students.</li>
-  <li>The board and Ontario columns are EQAO’s own figures for every student who answered in the board or province: not medians of schools.</li>
-  <li>When fewer than 10 students take part, EQAO withholds the school’s answers (<span class="code">N/R</span>); we show that, never a number. Questions about home language and devices at home are left out: they describe families, not schools.</li>
-  <li>Only one year is shown, so there is no trend to misread. EQAO notes that its open data doesn’t include every figure in its interactive dashboards, and that some 2021-22 files differ from the dashboards because of how they were calculated; earlier years will be added only where the question wording and answer scale are unchanged.</li>
+  <li>{{ _("The answers describe what students said about themselves, not the quality of a school or its teachers.") }}</li>
+  <li>{{ _h("The figure is the share of students who fully took part in the assessment (for Grades 3 and 6: in the reading part, or the math part for math questions) who agreed, <strong>including those who skipped the question</strong>, which is EQAO’s own denominator. For Grades 3 and 6 students chose “yes”, “not sure” or “no” and we show EQAO’s published percentage; for Grade 9 and the OSSLT they chose from five answers and “agreed” adds “somewhat” and “strongly agree”, counted by this site from EQAO’s numbers. Because the scales differ, figures aren’t compared across grades. The OSSLT figures are for first-time eligible students.") }}</li>
+  <li>{{ _("The board and Ontario columns are EQAO’s own figures for every student who answered in the board or province: not medians of schools.") }}</li>
+  <li>{{ _h("When fewer than 10 students take part, EQAO withholds the school’s answers (<span class=\"code\">N/R</span>); we show that, never a number. Questions about home language and devices at home are left out: they describe families, not schools.") }}</li>
+  <li>{{ _("Only one year is shown, so there is no trend to misread. EQAO notes that its open data doesn’t include every figure in its interactive dashboards, and that some 2021-22 files differ from the dashboards because of how they were calculated; earlier years will be added only where the question wording and answer scale are unchanged.") }}</li>
 </ul>
 
-<h2 id="medians">Board and Ontario comparisons</h2>
-<p>Next to each school we show two comparison lines, computed by this site from the same Ministry file and year:</p>
+<h2 id="medians">{{ _("Board and Ontario comparisons") }}</h2>
+<p>{{ _("Next to each school we show two comparison lines, computed by this site from the same Ministry file and year:") }}</p>
 <ul>
-  <li><strong>Board median</strong>: the middle value among the board’s schools that have a result for that assessment and year (shown only when at least 3 schools have one; the number of schools is in each table).</li>
-  <li><strong>Ontario median</strong>: the middle value among all schools of the same language (English-language or French-language schools write different versions of the assessments).</li>
+  <li>{{ _h("<strong>Board median</strong>: the middle value among the board’s schools that have a result for that assessment and year (shown only when at least 3 schools have one; the number of schools is in each table).") }}</li>
+  <li>{{ _h("<strong>Ontario median</strong>: the middle value among all schools of the same language (English-language or French-language schools write different versions of the assessments).") }}</li>
 </ul>
-<p>A median of schools is not the same as the official percentage of all students in a board or the province — a large school and a small school count the same. Where the Ministry publishes an <em>official</em> board result (Grade 6 reading and the OSSLT, from <em>School board achievements and progress</em>), we show it separately and label it “official”.</p>
+<p>{{ _h("A median of schools is not the same as the official percentage of all students in a board or the province — a large school and a small school count the same. Where the Ministry publishes an <em>official</em> board result (Grade 6 reading and the OSSLT, from <em>School board achievements and progress</em>), we show it separately and label it “official”.") }}</p>
 
-<h2 id="coverage">When something is missing</h2>
-<p>A blank isn’t a “no”. Pages say which of these applies:</p>
+<h2 id="coverage">{{ _("When something is missing") }}</h2>
+<p>{{ _("A blank isn’t a “no”. Pages say which of these applies:") }}</p>
 <ul>
-  {% for k, v in coverage.items() %}<li><strong>{{ v }}</strong> — {{ {"reported": "the source publishes a value for this school.", "suppressed": "the source withholds it because so few students are involved that someone could be identified.", "not_applicable": "it doesn’t apply (for example Grade 9 math at an elementary school, or class sizes at a high school).", "not_published": "the source doesn’t publish it for this school.", "not_collected": "we haven’t yet gathered it for this board (registration rules, supports and plans are collected board by board).", "match_unresolved": "the source has it, but we can’t tell which school it belongs to, so we show nothing rather than guess (class lists name schools without numbers; " ~ "two schools with the same name in one board can’t be told apart).", "historical": "the latest source is old (the Student Nutrition Program list is from December 2017), so it is labelled “historically listed; current availability unverified”. Missing from an old list doesn’t mean a school has no program."}[k] }}</li>{% endfor %}
+  {% for k, v in coverage.items() %}<li><strong>{{ _(v) }}</strong> — {{ _({"reported": "the source publishes a value for this school.", "suppressed": "the source withholds it because so few students are involved that someone could be identified.", "not_applicable": "it doesn’t apply (for example Grade 9 math at an elementary school, or class sizes at a high school).", "not_published": "the source doesn’t publish it for this school.", "not_collected": "we haven’t yet gathered it for this board (registration rules, supports and plans are collected board by board).", "match_unresolved": "the source has it, but we can’t tell which school it belongs to, so we show nothing rather than guess (class lists name schools without numbers; two schools with the same name in one board can’t be told apart).", "historical": "the latest source is old (the Student Nutrition Program list is from December 2017), so it is labelled “historically listed; current availability unverified”. Missing from an old list doesn’t mean a school has no program."}[k]) }}</li>{% endfor %}
 </ul>
 
-<h2 id="board-info">Attendance, programs, supports and plans (board information)</h2>
-<p>For each board we cover, we read the board’s own pages and documents by hand and record, in plain words, how families register, how program entry and out-of-area requests work, the transportation rules, special education, accessibility and newcomer support, the board’s plans and how to take part. Each item links to the board’s page, says what kind of fact it is (a published rule, a process decided case by case, an approved decision, a proposal or a forecast) and when we checked it, and is shown on every school page of that board it applies to. Deadlines are marked as possibly out of date after {{ 90 }} days. Where a board doesn’t publish something, the page says so. We never fill in forms, use sign-in systems, or claim a school has space. {% set cov = board_info_coverage %}Boards and school authorities covered: {{ cov.boards }} (checked {% if cov.first == cov.last %}{{ cov.first }}{% else %}between {{ cov.first }} and {{ cov.last }}{% endif %}); any other shows “not yet collected” and a link to the board. Board pages are written in English or French; we summarise them in English.</p>
-<p>Programs a board lists on its own pages (for example DSBN’s French Immersion schools) are matched to schools by hand and shown next to the Ministry’s list; when the two disagree, the school page shows both.</p>
-<p><strong>Nearest-school areas</strong> are drawn only for regular schools families attend by neighbourhood. They are not drawn for special-purpose schools, or for English-language elementary schools the Ministry lists as offering French Immersion but neither Core nor Extended French (Core French is required in Grades 4 to 8 of the regular English program, so these are almost certainly Immersion schools families choose for the program).</p>
+<h2 id="board-info">{{ _("Attendance, programs, supports and plans (board information)") }}</h2>
+{%- set cov = board_info_coverage %}
+{%- set covwhen = cov.first if cov.first == cov.last else _("between {a} and {b}", a=cov.first, b=cov.last) %}
+<p>{{ _("For each board we cover, we read the board’s own pages and documents by hand and record, in plain words, how families register, how program entry and out-of-area requests work, the transportation rules, special education, accessibility and newcomer support, the board’s plans and how to take part. Each item links to the board’s page, says what kind of fact it is (a published rule, a process decided case by case, an approved decision, a proposal or a forecast) and when we checked it, and is shown on every school page of that board it applies to. Deadlines are marked as possibly out of date after {days} days. Where a board doesn’t publish something, the page says so. We never fill in forms, use sign-in systems, or claim a school has space.", days=90) }} {{ _("Boards and school authorities covered: {n} (checked {when}); any other shows “not yet collected” and a link to the board. Board pages are written in English or French; we summarise them in English.", n=cov.boards, when=covwhen) }}</p>
+<p>{{ _("Programs a board lists on its own pages (for example DSBN’s French Immersion schools) are matched to schools by hand and shown next to the Ministry’s list; when the two disagree, the school page shows both.") }}</p>
+<p>{{ _h("<strong>Nearest-school areas</strong> are drawn only for regular schools families attend by neighbourhood. They are not drawn for special-purpose schools, or for English-language elementary schools the Ministry lists as offering French Immersion but neither Core nor Extended French (Core French is required in Grades 4 to 8 of the regular English program, so these are almost certainly Immersion schools families choose for the program).") }}</p>
 
-<h2 id="codes">Codes for missing or withheld values</h2>
-<p>We never turn a code into a number. A coded value is stored as empty (<code>null</code>) with a flag, and the page shows the code.</p>
+<h2 id="codes">{{ _("Codes for missing or withheld values") }}</h2>
+<p>{{ _h("We never turn a code into a number. A coded value is stored as empty (<code>null</code>) with a flag, and the page shows the code.") }}</p>
 <div class="card card-table"><div class="table-wrap"><table>
-  <thead><tr><th scope="col">Code</th><th scope="col">Meaning</th><th scope="col">Shown as</th></tr></thead>
-  <tbody>{% for k, c in codes %}<tr><td><span class="code">{{ k }}</span></td><td>{{ c.explain }}</td><td>{{ c.label }}</td></tr>{% endfor %}</tbody>
+  <thead><tr><th scope="col">{{ _("Code") }}</th><th scope="col">{{ _("Meaning") }}</th><th scope="col">{{ _("Shown as") }}</th></tr></thead>
+  <tbody>{% for k, c in codes %}<tr><td><span class="code">{{ k }}</span></td><td>{{ _(c.explain) }}</td><td>{{ _(c.label) }}</td></tr>{% endfor %}</tbody>
 </table></div></div>
-<p class="small muted">Definitions from the Ministry’s dataset notes and <a href="https://www.eqao.com/explanation-of-terms/" rel="noopener">EQAO’s explanation of terms</a>. Assessments a school doesn’t offer (code NA, for example Grade 9 math at an elementary school) are left out of that school’s page. Older files use the French forms <span class="code">S. R.</span> and <span class="code">A/D</span> for French-language schools; they mean N/R and N/D and are shown that way.</p>
+<p class="small muted">{{ _h("Definitions from the Ministry’s dataset notes and <a href=\"https://www.eqao.com/explanation-of-terms/\" rel=\"noopener\">EQAO’s explanation of terms</a>. Assessments a school doesn’t offer (code NA, for example Grade 9 math at an elementary school) are left out of that school’s page. Older files use the French forms <span class=\"code\">S. R.</span> and <span class=\"code\">A/D</span> for French-language schools; they mean N/R and N/D and are shown that way.") }}</p>
 
-<h2 id="context">Student population and enrolment</h2>
-<p>The “About the students” figures (first language, newcomers, special education, gifted, low-income households and parents’ education) come from the latest Ministry file ({{ meta.latest_sif }}). The last two are estimates the Ministry builds by matching student postal codes to Statistics Canada census data. Values are suppressed (<span class="code">SP</span>) when fewer than 10 students are represented. The Ministry publishes whole percentages, so 0% can mean a few students rather than none; a missing value is shown as its code (such as <span class="code">NA</span>), never as 0. The share identified as gifted also reflects each board’s identification practice: some boards identify few or no students as gifted, so compare it within a board.</p>
-<p>Enrolment comes from the Ministry’s <em>Ontario public schools enrolment</em> files (2011-12 onward). Since 2018-19 the Ministry rounds school enrolment to the nearest 5; schools with fewer than 10 students show <span class="code">&lt;10</span>.</p>
-<p><strong>“Open at this school number since”</strong> is the date in the Ministry’s contact list for the school number. About half of all schools carry 1969-09-01, the earliest date the list uses, so we show “1969 or earlier”. It is not the age of a building: schools move, are rebuilt and are renumbered.</p>
-<p><strong>Class sizes</strong> come from lists that name schools rather than numbering them. A class list row is matched to a school when the board and a name the school has used agree, and exactly one of the board’s schools with elementary grades fits. When two schools in one board share a name, the row can’t be split and neither school gets class sizes; their pages say “source match unresolved” rather than guess.</p>
-<p>School names are the Ministry’s, with one tidy-up: a few names in its files repeat a phrase (for example “Glenwood School School” or “B Davison Secondary School Secondary School”), and we show it once. Names with different words are kept as published; “Trenton High School Elementary School”, for example, is the elementary part of a secondary school, with its own school number.</p>
+<h2 id="context">{{ _("Student population and enrolment") }}</h2>
+<p>{{ _h("The “About the students” figures (first language, newcomers, special education, gifted, low-income households and parents’ education) come from the latest Ministry file ({sif}). The last two are estimates the Ministry builds by matching student postal codes to Statistics Canada census data. Values are suppressed (<span class=\"code\">SP</span>) when fewer than 10 students are represented. The Ministry publishes whole percentages, so 0% can mean a few students rather than none; a missing value is shown as its code (such as <span class=\"code\">NA</span>), never as 0. The share identified as gifted also reflects each board’s identification practice: some boards identify few or no students as gifted, so compare it within a board.", sif=meta.latest_sif) }}</p>
+<p>{{ _h("Enrolment comes from the Ministry’s <em>Ontario public schools enrolment</em> files (2011-12 onward). Since 2018-19 the Ministry rounds school enrolment to the nearest 5; schools with fewer than 10 students show <span class=\"code\">&lt;10</span>.") }}</p>
+<p>{{ _h("<strong>“Open at this school number since”</strong> is the date in the Ministry’s contact list for the school number. About half of all schools carry 1969-09-01, the earliest date the list uses, so we show “1969 or earlier”. It is not the age of a building: schools move, are rebuilt and are renumbered.") }}</p>
+<p>{{ _h("<strong>Class sizes</strong> come from lists that name schools rather than numbering them. A class list row is matched to a school when the board and a name the school has used agree, and exactly one of the board’s schools with elementary grades fits. When two schools in one board share a name, the row can’t be split and neither school gets class sizes; their pages say “source match unresolved” rather than guess.") }}</p>
+<p>{{ _("School names are the Ministry’s, with one tidy-up: a few names in its files repeat a phrase (for example “Glenwood School School” or “B Davison Secondary School Secondary School”), and we show it once. Names with different words are kept as published; “Trenton High School Elementary School”, for example, is the elementary part of a secondary school, with its own school number.") }}</p>
 
-<h2 id="boundaries">Map areas</h2>
+<h2 id="boundaries">{{ _("Map areas") }}</h2>
 <ol>
-  <li><strong>Postal code area (first 3 characters)</strong> — Statistics Canada’s 2021 forward sortation area (FSA) outlines. We check every school: the postal-code FSA matches the outline that contains the school’s point for <strong>{{ fsa_check_rate }}</strong> of {{ "{:,}".format(meta.fsa_check.checked) }} schools ({{ meta.fsa_check.mismatches }} mismatches, listed in the pipeline report). Pages group schools by their postal code.</li>
-  <li><strong>Approximate school board area</strong> — the Ministry’s <em>Board service area</em> file is listed as “under review” with nothing to download, so we cannot use it. Instead, for each of the four systems, we merge the nearest-school areas (below) of all of a board’s regular schools. This shows roughly where a board’s schools are; it is <em>not</em> its legal jurisdiction.</li>
-  <li><strong>Nearest school, NOT the official boundary</strong> — for each system and level, the province is split so every place belongs to the school it is closest to in a straight line (a Voronoi diagram), clipped to Ontario’s land. Schools that share a building share one area. Alternative, adult, online and similar special-purpose schools are left out. Real attendance areas follow roads, rivers, capacity and board decisions, so they can look very different.</li>
+  <li>{{ _h("<strong>Postal code area (first 3 characters)</strong> — Statistics Canada’s 2021 forward sortation area (FSA) outlines. We check every school: the postal-code FSA matches the outline that contains the school’s point for <strong>{rate}</strong> of {n} schools ({mm} mismatches, listed in the pipeline report). Pages group schools by their postal code.", rate=fsa_check_rate, n=(meta.fsa_check.checked)|num, mm=meta.fsa_check.mismatches) }}</li>
+  <li>{{ _h("<strong>Approximate school board area</strong> — the Ministry’s <em>Board service area</em> file is listed as “under review” with nothing to download, so we cannot use it. Instead, for each of the four systems, we merge the nearest-school areas (below) of all of a board’s regular schools. This shows roughly where a board’s schools are; it is <em>not</em> its legal jurisdiction.") }}</li>
+  <li>{{ _h("<strong>Nearest school, NOT the official boundary</strong> — for each system and level, the province is split so every place belongs to the school it is closest to in a straight line (a Voronoi diagram), clipped to Ontario’s land. Schools that share a building share one area. Alternative, adult, online and similar special-purpose schools are left out. Real attendance areas follow roads, rivers, capacity and board decisions, so they can look very different.") }}</li>
   {% set ob = meta.official_boundaries|default([]) %}
   {% if ob %}
-  <li><strong>Official boundary from a board</strong> — for {{ ob|map(attribute="board")|unique|list|length }} boards we show the attendance areas each board publishes on its own public map:
-    {% for board, rows in ob|groupby("board") %}{{ board }} ({% for r in rows %}{{ r.level }}, {{ r.areas }} areas, edited {{ r.edited|month_year }}{{ "; " if not loop.last }}{% endfor %}){{ ", " if not loop.last else "." }}{% endfor %}
-    Each area is matched to a school by name within the board and level, or else by the one school whose location is inside it; development, holding and dual-attendance areas that don’t name a single school are left out, and the pipeline report lists them. On a school page the official area replaces the nearest-school estimate and is labelled “Official boundary from &lt;board&gt;, &lt;date&gt;”.
-    <strong>These layers carry no licence.</strong> We show them while we ask each board for permission, credit the board on every page that uses them, and will take a board’s boundaries down as soon as it asks (<a href="/corrections/">tell us here</a>). We don’t use layers whose terms forbid reuse (Halton DSB’s staff-only layer, Lennox and Addington County, Grey County) or copies held by planning consultants.
-    Boundaries change between school years and some streets have exceptions, so always confirm your address with the board. For other boards, school and board pages link to the board’s own “which school serves my address” page ({{ locators|length }} boards, checked {{ locators_checked }}). We link to those pages; we don’t copy them.</li>
+  <li>{{ _h("<strong>Official boundary from a board</strong> — for {n} boards we show the attendance areas each board publishes on its own public map:", n=ob|map(attribute="board")|unique|list|length) }}
+    {% for board, rows in ob|groupby("board") %}{{ board }} ({% for r in rows %}{{ _("{level}, {n} areas, edited {date}", level=_(r.level), n=r.areas, date=r.edited|month_year) }}{{ "; " if not loop.last }}{% endfor %}){{ ", " if not loop.last else "." }}{% endfor %}
+    {{ _h("Each area is matched to a school by name within the board and level, or else by the one school whose location is inside it; development, holding and dual-attendance areas that don’t name a single school are left out, and the pipeline report lists them. On a school page the official area replaces the nearest-school estimate and is labelled “Official boundary from &lt;board&gt;, &lt;date&gt;”.") }}
+    {{ _h("<strong>These layers carry no licence.</strong> We show them while we ask each board for permission, credit the board on every page that uses them, and will take a board’s boundaries down as soon as it asks (<a href=\"{url}\">tell us here</a>). We don’t use layers whose terms forbid reuse (Halton DSB’s staff-only layer, Lennox and Addington County, Grey County) or copies held by planning consultants.", url=u("/corrections/")) }}
+    {{ _("Boundaries change between school years and some streets have exceptions, so always confirm your address with the board. For other boards, school and board pages link to the board’s own “which school serves my address” page ({n} boards, checked {date}). We link to those pages; we don’t copy them.", n=locators|length, date=locators_checked) }}</li>
   {% endif %}
 </ol>
-<p>Distances (“nearest other school”) are straight-line distances between published school coordinates. Schools with no coordinates in any source year were placed by matching their address with the Natural Resources Canada Geolocation Service; those pages say so.</p>
+<p>{{ _("Distances (“nearest other school”) are straight-line distances between published school coordinates. Schools with no coordinates in any source year were placed by matching their address with the Natural Resources Canada Geolocation Service; those pages say so.") }}</p>
 
-<h2 id="updates">Updates</h2>
-<p>Data last updated <strong>{{ meta.data_updated_human }}</strong>. The pipeline re-downloads every source, checks every column it reads, and stops with a clear message if a file’s layout changes — it never guesses. A full report of record counts, mismatches and suppressed values is published with the <a href="/data/">downloads</a>.</p>
+<h2 id="updates">{{ _("Updates") }}</h2>
+<p>{{ _h("Data last updated <strong>{date}</strong>. The pipeline re-downloads every source, checks every column it reads, and stops with a clear message if a file’s layout changes — it never guesses. A full report of record counts, mismatches and suppressed values is published with the <a href=\"{url}\">downloads</a>.", date=meta.data_updated_human, url=u("/data/")) }}</p>
 </div>
 
-<aside class="doc-aside" aria-label="At a glance">
+<aside class="doc-aside" aria-label="{{ _("At a glance") }}">
   <div class="card glance-card">
-    <p class="eyebrow">At a glance</p>
+    <p class="eyebrow">{{ _("At a glance") }}</p>
     <dl class="glance">
-      <div><dt>Data last updated</dt><dd>{{ meta.data_updated_human }}</dd></div>
-      <div><dt>EQAO results</dt><dd>{{ meta.eqao_years[0] }} to {{ meta.eqao_years[-1] }} <span class="muted">· {{ meta.eqao_years|length }} school years</span></dd></div>
-      <div><dt>Schools · boards · postal areas</dt><dd>{{ "{:,}".format(meta.counts.schools) }} · {{ meta.counts.boards }} · {{ meta.counts.fsas }}</dd></div>
-      <div><dt>School postal codes inside their mapped area</dt><dd>{{ fsa_check_rate }}</dd></div>
-      <div><dt>Public datasets used</dt><dd>{{ datasets|selectattr("status", "equalto", "used")|list|length }}{% for k, n in licence_counts %}<span class="muted small" style="display:block">{{ n }} · {{ meta.licence_status[k] }}</span>{% endfor %}</dd></div>
+      <div><dt>{{ _("Data last updated") }}</dt><dd>{{ meta.data_updated_human }}</dd></div>
+      <div><dt>{{ _("EQAO results") }}</dt><dd>{{ _("{a} to {b}", a=meta.eqao_years[0], b=meta.eqao_years[-1]) }} <span class="muted">· {{ _("{n} school years", n=meta.eqao_years|length) }}</span></dd></div>
+      <div><dt>{{ _("Schools · boards · postal areas") }}</dt><dd>{{ (meta.counts.schools)|num }} · {{ meta.counts.boards }} · {{ meta.counts.fsas }}</dd></div>
+      <div><dt>{{ _("School postal codes inside their mapped area") }}</dt><dd>{{ fsa_check_rate }}</dd></div>
+      <div><dt>{{ _("Public datasets used") }}</dt><dd>{{ datasets|selectattr("status", "equalto", "used")|list|length }}{% for k, n in licence_counts %}<span class="muted small" style="display:block">{{ n }} · {{ _(meta.licence_status[k]) }}</span>{% endfor %}</dd></div>
     </dl>
     <div class="doc-actions">
-      <a class="btn btn-sm" href="/data/">{{ icon("download") }}Download the data</a>
-      <a class="btn btn-sm btn-ghost" href="/corrections/">{{ icon("flag") }}Report a correction</a>
+      <a class="btn btn-sm" href="{{ u('/data/') }}">{{ icon("download") }}{{ _("Download the data") }}</a>
+      <a class="btn btn-sm btn-ghost" href="{{ u('/corrections/') }}">{{ icon("flag") }}{{ _("Report a correction") }}</a>
     </div>
   </div>
 </aside>
@@ -128,35 +131,35 @@
 
 <section class="block" id="sources">
   <div class="wrap">
-    <h2>Sources and licences</h2>
-    <p class="block-intro">Retrieved automatically by the data pipeline. Each school page lists only the files its numbers come from. <strong>“Retrieved” is when we downloaded a file, not how current it is</strong>: each file’s period is next to its name, and “preliminary” marks figures the Ministry may still revise. Being public on the web is not, by itself, permission to republish: the licence column says what each publisher allows.</p>
+    <h2>{{ _("Sources and licences") }}</h2>
+    <p class="block-intro">{{ _h("Retrieved automatically by the data pipeline. Each school page lists only the files its numbers come from. <strong>“Retrieved” is when we downloaded a file, not how current it is</strong>: each file’s period is next to its name, and “preliminary” marks figures the Ministry may still revise. Being public on the web is not, by itself, permission to republish: the licence column says what each publisher allows.") }}</p>
     <div class="card card-table">
     <div class="table-wrap"><table class="stack-table src-table">
-      <thead><tr><th scope="col">#</th><th scope="col">Dataset</th><th scope="col">Status</th><th scope="col">Licence</th><th scope="col">Retrieved</th></tr></thead>
+      <thead><tr><th scope="col">#</th><th scope="col">{{ _("Dataset") }}</th><th scope="col">{{ _("Status") }}</th><th scope="col">{{ _("Licence") }}</th><th scope="col">{{ _("Retrieved") }}</th></tr></thead>
       <tbody>
       {% for d in datasets %}
         <tr id="dataset-{{ d.key }}"><td class="tnum">{{ d.brief_no }}</td>
-          <td><strong>{% if d.landing %}<a href="{{ d.landing }}" rel="noopener">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}</strong>{% if d.historical %} <span class="badge badge-warn">Historical only</span>{% endif %}<div class="small muted">{{ d.publisher }}. {{ d.used_for }}{% if d.cadence %} <span>Published: {{ d.cadence|lower }}.</span>{% endif %}</div>
-            {% if d.files %}<details class="data-table"><summary>{{ d.files|length }} file{{ "" if d.files|length == 1 else "s" }}</summary><ul class="small">{% for f in d.files %}<li><a href="{{ f.url }}" rel="noopener">{{ f.source_id }}</a>{% if f.year %} — covers {{ f.year }}{% endif %}{% if f.release %} ({{ f.release }}){% endif %}{% if f.retrieved %}, retrieved {{ f.retrieved }}{% endif %}{% if f.note %}. {{ f.note }}{% endif %}</li>{% endfor %}</ul></details>{% endif %}</td>
-          <td data-label="Status">{% if d.status == "used" %}<span class="badge badge-brand">Used</span>{% elif d.status == "skipped" %}<span class="badge badge-warn">Skipped</span>{% else %}<span class="badge">Later</span>{% endif %}</td>
-          <td data-label="Licence"><span class="badge{{ ' badge-warn' if d.licence_status != 'open' else '' }}">{{ meta.licence_status.get(d.licence_status, d.licence_status) }}</span><div class="small">{% if d.licence_url %}<a href="{{ d.licence_url }}" rel="noopener">{{ d.licence }}</a>{% else %}{{ d.licence }}{% endif %}</div></td>
-          <td class="tnum nowrap" data-label="Retrieved">{{ d.retrieved or "—" }}</td></tr>
+          <td><strong>{% if d.landing %}<a href="{{ d.landing }}" rel="noopener">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}</strong>{% if d.historical %} <span class="badge badge-warn">{{ _("Historical only") }}</span>{% endif %}<div class="small muted">{{ _(d.publisher) }}. {{ _(d.used_for) }}{% if d.cadence %} <span>{{ _("Published: {cadence}.", cadence=_(d.cadence)|lower) }}</span>{% endif %}</div>
+            {% if d.files %}<details class="data-table"><summary>{{ _("1 file") if d.files|length == 1 else _("{n} files", n=d.files|length) }}</summary><ul class="small">{% for f in d.files %}<li><a href="{{ f.url }}" rel="noopener">{{ f.source_id }}</a>{% if f.year %} — {{ _("covers {year}", year=f.year) }}{% endif %}{% if f.release %} ({{ f.release }}){% endif %}{% if f.retrieved %}, {{ _("retrieved {date}", date=f.retrieved) }}{% endif %}{% if f.note %}. {{ _(f.note) }}{% endif %}</li>{% endfor %}</ul></details>{% endif %}</td>
+          <td data-label="{{ _("Status") }}">{% if d.status == "used" %}<span class="badge badge-brand">{{ _("Used") }}</span>{% elif d.status == "skipped" %}<span class="badge badge-warn">{{ _("Skipped") }}</span>{% else %}<span class="badge">{{ _("Later") }}</span>{% endif %}</td>
+          <td data-label="{{ _("Licence") }}"><span class="badge{{ ' badge-warn' if d.licence_status != 'open' else '' }}">{{ _(meta.licence_status.get(d.licence_status, d.licence_status)) }}</span><div class="small">{% if d.licence_url %}<a href="{{ d.licence_url }}" rel="noopener">{{ _(d.licence) }}</a>{% else %}{{ _(d.licence) }}{% endif %}</div></td>
+          <td class="tnum nowrap" data-label="{{ _("Retrieved") }}">{{ d.retrieved or "—" }}</td></tr>
       {% endfor %}
       </tbody>
     </table></div>
     </div>
-    {% if meta.notes %}<div class="note" style="margin-top:16px">{{ icon("info") }}<div>{% for n in meta.notes %}<p>{{ n }}</p>{% endfor %}</div></div>{% endif %}
+    {% if meta.notes %}<div class="note" style="margin-top:16px">{{ icon("info") }}<div>{% for n in meta.notes %}<p>{{ _(n) }}</p>{% endfor %}</div></div>{% endif %}
     <div class="grid grid-2" style="margin-top:20px">
       <div class="card">
-        <h3 id="services">Services the site calls from your browser</h3>
+        <h3 id="services">{{ _("Services the site calls from your browser") }}</h3>
         <ul class="plain-list">
-          <li><strong>Map tiles</strong> from <a href="https://openfreemap.org/" rel="noopener">OpenFreeMap</a>, built from <a href="https://www.openstreetmap.org/copyright" rel="noopener">OpenStreetMap</a> data (© OpenStreetMap contributors, ODbL). Loaded only when a map is shown.</li>
-          <li><strong>Address search</strong> (only when you search for a street address) uses the <a href="https://natural-resources.canada.ca/maps-tools-and-publications/maps/geolocation-service" rel="noopener">Natural Resources Canada Geolocation Service</a>. We send just the text you typed, at most once every two seconds.</li>
+          <li>{{ _h("<strong>Map tiles</strong> from <a href=\"https://openfreemap.org/\" rel=\"noopener\">OpenFreeMap</a>, built from <a href=\"https://www.openstreetmap.org/copyright\" rel=\"noopener\">OpenStreetMap</a> data (© OpenStreetMap contributors, ODbL). Loaded only when a map is shown.") }}</li>
+          <li>{{ _h("<strong>Address search</strong> (only when you search for a street address) uses the <a href=\"https://natural-resources.canada.ca/maps-tools-and-publications/maps/geolocation-service\" rel=\"noopener\">Natural Resources Canada Geolocation Service</a>. We send just the text you typed, at most once every two seconds.") }}</li>
         </ul>
       </div>
       <div class="card">
-        <h3>Not used</h3>
-        <p style="margin:0">Third-party school rankings, real-estate listings, or any data whose terms forbid reuse. We may link to them, but never copy them.</p>
+        <h3>{{ _("Not used") }}</h3>
+        <p style="margin:0">{{ _("Third-party school rankings, real-estate listings, or any data whose terms forbid reuse. We may link to them, but never copy them.") }}</p>
       </div>
     </div>
   </div>

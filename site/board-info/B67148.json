@@ -407,5 +407,1792 @@
       ],
       "verified": "2026-11-26"
     }
-  ]
+  ],
+  "schools": {
+    "690023": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-690023",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=54",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 349,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 529
+              },
+              {
+                "year": "2028/29",
+                "value": 560
+              },
+              {
+                "year": "2032/33",
+                "value": 590
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 349; it forecasts 590 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "690767": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-690767",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=51",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 297
+              },
+              {
+                "year": "2028/29",
+                "value": 314
+              },
+              {
+                "year": "2032/33",
+                "value": 333
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 360; it forecasts 333 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "693693": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-693693",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=57",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 391
+              },
+              {
+                "year": "2028/29",
+                "value": 420
+              },
+              {
+                "year": "2032/33",
+                "value": 479
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 314; it forecasts 479 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "697460": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-697460",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=64",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 255
+              },
+              {
+                "year": "2028/29",
+                "value": 251
+              },
+              {
+                "year": "2032/33",
+                "value": 244
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291; it forecasts 244 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "716790": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-716790",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=46",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 393
+              },
+              {
+                "year": "2028/29",
+                "value": 383
+              },
+              {
+                "year": "2032/33",
+                "value": 428
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245; it forecasts 428 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "718119": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-718119",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=54",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 657,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 712
+              },
+              {
+                "year": "2028/29",
+                "value": 789
+              },
+              {
+                "year": "2032/33",
+                "value": 883
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 657; it forecasts 883 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "718920": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-718920",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=44",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 672
+              },
+              {
+                "year": "2028/29",
+                "value": 726
+              },
+              {
+                "year": "2032/33",
+                "value": 861
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458; it forecasts 861 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "720208": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-720208",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=67",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 622,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 515
+              },
+              {
+                "year": "2028/29",
+                "value": 509
+              },
+              {
+                "year": "2032/33",
+                "value": 622
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 622; it forecasts 622 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "724602": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-724602",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=54",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 611,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 703
+              },
+              {
+                "year": "2028/29",
+                "value": 674
+              },
+              {
+                "year": "2032/33",
+                "value": 625
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 611; it forecasts 625 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "732320": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-732320",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=77",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 1197,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 1057
+              },
+              {
+                "year": "2028/29",
+                "value": 1125
+              },
+              {
+                "year": "2032/33",
+                "value": 1325
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,197; it forecasts 1,325 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "732338": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-732338",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=51",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 384
+              },
+              {
+                "year": "2028/29",
+                "value": 403
+              },
+              {
+                "year": "2032/33",
+                "value": 388
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245; it forecasts 388 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "733121": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-733121",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=64",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 479,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 344
+              },
+              {
+                "year": "2028/29",
+                "value": 336
+              },
+              {
+                "year": "2032/33",
+                "value": 317
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 479; it forecasts 317 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "743186": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-743186",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=62",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 495,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 332
+              },
+              {
+                "year": "2028/29",
+                "value": 310
+              },
+              {
+                "year": "2032/33",
+                "value": 284
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 495; it forecasts 284 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "744700": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-744700",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=51",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 413
+              },
+              {
+                "year": "2028/29",
+                "value": 441
+              },
+              {
+                "year": "2032/33",
+                "value": 474
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268; it forecasts 474 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "746304": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-746304",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=44",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 378
+              },
+              {
+                "year": "2028/29",
+                "value": 394
+              },
+              {
+                "year": "2032/33",
+                "value": 427
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 337; it forecasts 427 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "753009": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-753009",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=74",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 1532,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 1834
+              },
+              {
+                "year": "2028/29",
+                "value": 1929
+              },
+              {
+                "year": "2032/33",
+                "value": 2200
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,532; it forecasts 2,200 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "754410": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-754410",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=54",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 331
+              },
+              {
+                "year": "2028/29",
+                "value": 534
+              },
+              {
+                "year": "2032/33",
+                "value": 879
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 527; it forecasts 879 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "764450": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-764450",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=42",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 481,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 457
+              },
+              {
+                "year": "2028/29",
+                "value": 468
+              },
+              {
+                "year": "2032/33",
+                "value": 508
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 481; it forecasts 508 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "765678": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-765678",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=42",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 481,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 649
+              },
+              {
+                "year": "2028/29",
+                "value": 669
+              },
+              {
+                "year": "2032/33",
+                "value": 719
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 481; it forecasts 719 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "765694": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-765694",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=70",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 352,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 549
+              },
+              {
+                "year": "2028/29",
+                "value": 593
+              },
+              {
+                "year": "2032/33",
+                "value": 709
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 352; it forecasts 709 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "766844": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-766844",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=51",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 599
+              },
+              {
+                "year": "2028/29",
+                "value": 631
+              },
+              {
+                "year": "2032/33",
+                "value": 667
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 363; it forecasts 667 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "770876": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-770876",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=67",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 418,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 343
+              },
+              {
+                "year": "2028/29",
+                "value": 342
+              },
+              {
+                "year": "2032/33",
+                "value": 361
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 418; it forecasts 361 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "771007": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-771007",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=57",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 510,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 711
+              },
+              {
+                "year": "2028/29",
+                "value": 729
+              },
+              {
+                "year": "2032/33",
+                "value": 783
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 510; it forecasts 783 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "776726": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-776726",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=77",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 1657,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 2191
+              },
+              {
+                "year": "2028/29",
+                "value": 2173
+              },
+              {
+                "year": "2032/33",
+                "value": 2129
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,657; it forecasts 2,129 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "777501": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-777501",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=48",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 476
+              },
+              {
+                "year": "2028/29",
+                "value": 502
+              },
+              {
+                "year": "2032/33",
+                "value": 611
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291; it forecasts 611 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "780650": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-780650",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=72",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 372,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 402
+              },
+              {
+                "year": "2028/29",
+                "value": 470
+              },
+              {
+                "year": "2032/33",
+                "value": 577
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 372; it forecasts 577 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "782124": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-782124",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=57",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 527,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 476
+              },
+              {
+                "year": "2028/29",
+                "value": 491
+              },
+              {
+                "year": "2032/33",
+                "value": 577
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 527; it forecasts 577 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "785695": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-785695",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=57",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 317,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 186
+              },
+              {
+                "year": "2028/29",
+                "value": 167
+              },
+              {
+                "year": "2032/33",
+                "value": 143
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 317; it forecasts 143 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "786217": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-786217",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=74",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 1136,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 1162
+              },
+              {
+                "year": "2028/29",
+                "value": 1305
+              },
+              {
+                "year": "2032/33",
+                "value": 1524
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,136; it forecasts 1,524 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "786772": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-786772",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=48",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 447,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 548
+              },
+              {
+                "year": "2028/29",
+                "value": 559
+              },
+              {
+                "year": "2032/33",
+                "value": 572
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 447; it forecasts 572 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "788694": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-788694",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=62",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 352,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 406
+              },
+              {
+                "year": "2028/29",
+                "value": 414
+              },
+              {
+                "year": "2032/33",
+                "value": 443
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 352; it forecasts 443 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "795445": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-795445",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=70",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 242,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 134
+              },
+              {
+                "year": "2028/29",
+                "value": 120
+              },
+              {
+                "year": "2032/33",
+                "value": 113
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 242; it forecasts 113 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "801682": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-801682",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=48",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 468,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 403
+              },
+              {
+                "year": "2028/29",
+                "value": 398
+              },
+              {
+                "year": "2032/33",
+                "value": 407
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 468; it forecasts 407 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "814687": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-814687",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=60",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 257,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 295
+              },
+              {
+                "year": "2028/29",
+                "value": 315
+              },
+              {
+                "year": "2032/33",
+                "value": 367
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 257; it forecasts 367 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "820512": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-820512",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=40",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 668,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 511
+              },
+              {
+                "year": "2028/29",
+                "value": 522
+              },
+              {
+                "year": "2032/33",
+                "value": 569
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 668; it forecasts 569 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "821330": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-821330",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=64",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 310
+              },
+              {
+                "year": "2028/29",
+                "value": 332
+              },
+              {
+                "year": "2032/33",
+                "value": 368
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 314; it forecasts 368 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "823317": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-823317",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=48",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 412
+              },
+              {
+                "year": "2028/29",
+                "value": 419
+              },
+              {
+                "year": "2032/33",
+                "value": 455
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245; it forecasts 455 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "829936": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-829936",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=57",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 611,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 406
+              },
+              {
+                "year": "2028/29",
+                "value": 391
+              },
+              {
+                "year": "2032/33",
+                "value": 410
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 611; it forecasts 410 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "831724": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-831724",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=62",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 375,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 529
+              },
+              {
+                "year": "2028/29",
+                "value": 587
+              },
+              {
+                "year": "2032/33",
+                "value": 753
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 375; it forecasts 753 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "832103": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-832103",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=74",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 1679,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 2119
+              },
+              {
+                "year": "2028/29",
+                "value": 1938
+              },
+              {
+                "year": "2032/33",
+                "value": 2485
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,679; it forecasts 2,485 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "832375": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-832375",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=40",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 386,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 441
+              },
+              {
+                "year": "2028/29",
+                "value": 433
+              },
+              {
+                "year": "2032/33",
+                "value": 433
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 386; it forecasts 433 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "834440": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-834440",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=60",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 304
+              },
+              {
+                "year": "2028/29",
+                "value": 291
+              },
+              {
+                "year": "2032/33",
+                "value": 290
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 360; it forecasts 290 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "836303": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-836303",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=44",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 478,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 537
+              },
+              {
+                "year": "2028/29",
+                "value": 573
+              },
+              {
+                "year": "2032/33",
+                "value": 608
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 478; it forecasts 608 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "841331": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-841331",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=48",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 553
+              },
+              {
+                "year": "2028/29",
+                "value": 576
+              },
+              {
+                "year": "2032/33",
+                "value": 632
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291; it forecasts 632 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "845108": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-845108",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=64",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 383,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 334
+              },
+              {
+                "year": "2028/29",
+                "value": 338
+              },
+              {
+                "year": "2032/33",
+                "value": 348
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 383; it forecasts 348 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "851213": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-851213",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=42",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 355
+              },
+              {
+                "year": "2028/29",
+                "value": 388
+              },
+              {
+                "year": "2032/33",
+                "value": 357
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291; it forecasts 357 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "851736": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-851736",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=38",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 271,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 194
+              },
+              {
+                "year": "2028/29",
+                "value": 195
+              },
+              {
+                "year": "2032/33",
+                "value": 209
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 271; it forecasts 209 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "856592": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-856592",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=54",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 409
+              },
+              {
+                "year": "2028/29",
+                "value": 440
+              },
+              {
+                "year": "2032/33",
+                "value": 488
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291; it forecasts 488 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "858013": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-858013",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=67",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 562,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 684
+              },
+              {
+                "year": "2028/29",
+                "value": 683
+              },
+              {
+                "year": "2032/33",
+                "value": 670
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 562; it forecasts 670 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "866296": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-866296",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=38",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 474
+              },
+              {
+                "year": "2028/29",
+                "value": 554
+              },
+              {
+                "year": "2032/33",
+                "value": 687
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268; it forecasts 687 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "866555": {
+      "records": [
+        {
+          "id": "wcdsb-capacity-866555",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2026 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf#page=46",
+          "source_date": "May 25, 2026",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2026/27",
+                "value": 260
+              },
+              {
+                "year": "2028/29",
+                "value": 254
+              },
+              {
+                "year": "2032/33",
+                "value": 234
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268; it forecasts 234 in 2032/33. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

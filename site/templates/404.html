@@ -2,23 +2,23 @@
 {%- from "_icons.html" import icon -%}
 {% block main %}
 <section class="wrap not-found">
-  <p class="eyebrow">Page not found</p>
-  <h1>We couldn’t find that page.</h1>
-  <p class="lede" style="margin:0 auto 24px">The school may have closed or changed its number. Try searching instead.</p>
+  <p class="eyebrow">{{ _("Page not found") }}</p>
+  <h1>{{ _("We couldn’t find that page.") }}</h1>
+  <p class="lede" style="margin:0 auto 24px">{{ _("The school may have closed or changed its number. Try searching instead.") }}</p>
   <div class="search" data-search style="max-width:560px;margin:0 auto">
-    <form class="search-box" action="/search/" role="search">
+    <form class="search-box" action="{{ u('/search/') }}" role="search">
       {{ icon("search", "lead") }}
-      <label class="visually-hidden" for="nq">Search schools</label>
-      <input id="nq" name="q" type="search" placeholder="School, city or postal code" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="nq-list">
-      <button class="btn btn-primary" type="submit">{{ icon("search") }}<span>Search</span></button>
+      <label class="visually-hidden" for="nq">{{ _("Search schools") }}</label>
+      <input id="nq" name="q" type="search" placeholder="{{ _('School, city or postal code') }}" autocomplete="off" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="nq-list">
+      <button class="btn btn-primary" type="submit">{{ icon("search") }}<span>{{ _("Search") }}</span></button>
     </form>
     <div class="suggest" id="nq-list" role="listbox" hidden></div>
   </div>
-  <nav class="chips" aria-label="Or browse" style="justify-content:center;margin-top:20px">
-    <a class="chip" href="/map/">{{ icon("map", "card-ic") }}Map</a>
-    <a class="chip" href="/boards/">{{ icon("building", "card-ic") }}School boards</a>
-    <a class="chip" href="/areas/">{{ icon("pin", "card-ic") }}Postal areas</a>
-    <a class="chip" href="/methodology/">{{ icon("info", "card-ic") }}How it works</a>
+  <nav class="chips" aria-label="{{ _('Or browse') }}" style="justify-content:center;margin-top:20px">
+    <a class="chip" href="{{ u('/map/') }}">{{ icon("map", "card-ic") }}{{ _("Map") }}</a>
+    <a class="chip" href="{{ u('/boards/') }}">{{ icon("building", "card-ic") }}{{ _("School boards") }}</a>
+    <a class="chip" href="{{ u('/areas/') }}">{{ icon("pin", "card-ic") }}{{ _("Postal areas") }}</a>
+    <a class="chip" href="{{ u('/methodology/') }}">{{ icon("info", "card-ic") }}{{ _("How it works") }}</a>
   </nav>
 </section>
 {% endblock %}

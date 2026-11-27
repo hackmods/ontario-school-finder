@@ -32,6 +32,8 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import charts  # noqa: E402
 import family  # noqa: E402
+import i18n  # noqa: E402
+from i18n import _  # noqa: E402
 
 
 SERIES_RE = re.compile(r"^(.*?)\s*\(([^()]*)\)$")
@@ -91,9 +93,62 @@ def load(p: Path):
 
 def human_date(iso: str | None) -> str:
     if not iso:
-        return "unknown"
+        return _("unknown")
     d = date.fromisoformat(iso[:10])
-    return f"{d.strftime('%B')} {d.day}, {d.year}"
+    return _("{month} {day}, {year}", month=_(d.strftime("%B")), day=d.day, year=d.year)
+
+
+def listing(s: str | None) -> str:
+    """A licensing file's comma list, cleaned and translated item by item: "English, French, Other, ARABIC,
+    ENGLISH" -> "English, French, Other, Arabic"; French "anglais, français, autre, arabe". Commas inside
+    parentheses ("Flexible Hours(e.g. shifts, evenings)") stay inside their item."""
+    out, seen = [], set()
+    for part in re.split(r",\s*(?![^()]*\))", s or ""):
+        part = part.strip()
+        name = part.title() if part.isupper() else part
+        if not name or name.lower() in seen:
+            continue
+        seen.add(name.lower())
+        out.append(_(name))
+    if i18n.CURRENT.lang == "fr" and out:  # French writes language names and these options in lower case
+        out = [out[0]] + [x[:1].lower() + x[1:] for x in out[1:]]
+    return ", ".join(out)
+
+
+_EN_DATE = re.compile(r"\b(January|February|March|April|May|June|July|August|September|October|November|December)(?: (\d{1,2}),)? (\d{4})\b")
+
+
+def date_text(s: str | None) -> str:
+    """A date as a board's plan writes it, in the current language: "October 31, 2023" -> "31 octobre 2023",
+    "June 2024" -> "juin 2024". "current" is the plan's undated current count. Other text passes through."""
+    if not s:
+        return ""
+    if s == "current":
+        return _("current (no date given)")
+    if i18n.CURRENT.lang == "en":
+        return s
+
+    def fr(m):
+        month = _(m.group(1)).lower()
+        day = m.group(2)
+        return f"{'1er' if day == '1' else day} {month} {m.group(3)}" if day else f"{month} {m.group(3)}"
+    return _EN_DATE.sub(fr, s)
+
+
+def grades_text(g: str | None) -> str:
+    """A grade range as the Ministry writes it ("JK-8"), in the current language: French writes M (maternelle) and
+    JE (jardin d'enfants, senior kindergarten), as Ontario's French-language boards do. Same rule as lib.js gradesText."""
+    if not g or i18n.CURRENT.lang != "fr":
+        return g or ""
+    return re.sub(r"\bSK\b", "JE", re.sub(r"\bJK\b", "M", g))
+
+
+def month_year(ym: str | None) -> str:
+    """"2026-11" -> "November 2026" (month name in the current language)."""
+    if not ym:
+        return ""
+    d = datetime.strptime(ym, "%Y-%m")
+    return _("{month} {year}", month=_(d.strftime("%B")), year=d.year)
 
 
 def clip(text: str, limit: int) -> str:
@@ -170,7 +225,7 @@ def version_scripts(js_dir: Path, v: str) -> int:
 def pct(v) -> str:
     if v is None:
         return "—"
-    return f"{v}%" if isinstance(v, str) else f"{v:g}%"  # EQAO prints shares under 0.5% as "<1%"
+    return i18n.pct(v)  # EQAO prints shares under 0.5% as "<1%"; French spaces the sign: "45 %"
 
 
 def median(vals):
@@ -188,6 +243,15 @@ class Site:
         self.boards_index = load(DATA / "boards-index.json")
         self.fsa_index = load(DATA / "fsa-index.json")
         self.schools = {p.stem: load(p) for p in (DATA / "schools").glob("*.json")}
+        # school website links from the Ministry's list that no longer work (site/school-links.json, reviewed by hand):
+        # never link a family to a dead, parked or unrelated site; say why instead
+        links = json.loads((HERE / "school-links.json").read_text(encoding="utf-8"))
+        self.links_checked = links["checked"]
+        for bsid, bad in links["schools"].items():
+            s = self.schools.get(bsid)
+            if s and s.get("website") == bad["url"]:
+                s["website"] = None
+                s["website_note"] = {**bad, "checked": links["checked"]}
         self.boards = {p.stem: load(p) for p in (DATA / "boards").glob("*.json")}
         self.fsas = {p.stem: load(p) for p in (DATA / "fsa").glob("*.json")}
         print(f"loaded {len(self.schools)} schools, {len(self.boards)} boards, {len(self.fsas)} FSAs in {time.time() - t0:.1f}s")
@@ -198,10 +262,19 @@ class Site:
         loc = load(HERE / "locators.json")  # hand-checked links to each board's "which school serves my address" page
         self.env.globals.update(
             asset=self.assets, meta=self.meta, site_url=SITE_URL, pct=pct, contact_email=CONTACT_EMAIL, source_series=source_series, repo_url=REPO_URL, support_url=SUPPORT_URL,
-            code_text=lambda c: codes.get(c, {}).get("explain", "") if c else "",
+            code_text=lambda c: i18n.CURRENT(codes.get(c, {}).get("explain", "")) if c else "",
             locators=loc["boards"], locators_checked=loc["checked"], maplibre_dir=maplibre_dir(),
         )
-        self.env.filters["month_year"] = lambda ym: datetime.strptime(ym, "%Y-%m").strftime("%B %Y") if ym else ""
+        self.env.filters["month_year"] = month_year
+        self.env.filters["listing"] = listing
+        self.env.filters["grades"] = grades_text
+        self.env.filters["date_text"] = date_text
+        # numbers in the page's language: 1,234 / 1 234 (pc is the percent sign, spaced in French)
+        self.env.filters.update(num=lambda v, d=None: i18n.num(v, d), money=lambda v: i18n.money(v))
+        self.env.globals["pc"] = "%"
+        # every page is rendered once per language: _ and _h translate, u() makes a link in the current language
+        self.env.globals.update(_=lambda s, **kw: i18n.CURRENT(s, **kw), _h=lambda s, **kw: i18n.CURRENT.html(s, **kw),
+                                u=lambda p: i18n.CURRENT.url(p), lang="en")
         self.pages = 0
         svg, w, h = hero_svg(self.index)
         # bounds and colours go to the page too, so home.js can light up search matches on the same picture
@@ -211,7 +284,7 @@ class Site:
         # Data the scripts fetch (/data/...) is versioned by the pipeline run plus what this generator
         # derives from it, and stamped on every page as <html data-v> for lib.js's dataUrl().
         self.ctx_json = self.context_json()
-        self.env.globals["data_v"] = short_hash((DATA / "meta.json").read_bytes(), self.ctx_json.encode(), *(p.read_bytes() for p in family.BoardInfo.files(HERE / "board-info")))
+        self.env.globals["data_v"] = short_hash((DATA / "meta.json").read_bytes(), self.ctx_json.encode(), *(p.read_bytes() for p in family.BoardInfo.files(HERE / "board-info")), (HERE / "school-links.json").read_bytes())
         self.official_by_board = self._official()
         # hand-checked board records (registration, programs, transfers, supports, planning), inherited by schools
         self.info = family.BoardInfo(HERE / "board-info")
@@ -249,9 +322,21 @@ class Site:
         return out
 
     # ------------------------------------------------------------------
+    def set_lang(self, lang: str) -> None:
+        i18n.use(lang)
+        self.env.globals["lang"] = lang
+        self.info.lang = lang
+        self.meta["data_updated_human"] = human_date(self.meta.get("data_updated"))  # month names in this language
+        self.env.globals["pc"] = i18n.NBSP + "%" if lang == "fr" else "%"
+
     def render(self, rel: str, template: str, **ctx) -> None:
-        ctx.setdefault("path", "/" + rel.replace("index.html", ""))
-        ctx.setdefault("description", "Find Ontario public schools by name, city or postal code. EQAO results in context, with a source for every number.")
+        en_path = ctx.pop("path", None) or "/" + rel.replace("index.html", "")
+        lang = i18n.CURRENT.lang
+        if lang != "en":
+            rel = f"{lang}/{rel}"
+        ctx["path"] = i18n.CURRENT.url(en_path)
+        ctx["alternates"] = {lg: (en_path if lg == "en" else f"/{lg}{en_path}") for lg in i18n.LANGS}
+        ctx.setdefault("description", _("Find Ontario public schools by name, city or postal code. EQAO results in context, with a source for every number."))
         html = self.env.get_template(template).render(**ctx)
         if "<pre" not in html:
             html = re.sub(r"\n[ \t]+", "\n", html)  # drop template indentation (≈30% smaller pages)
@@ -300,7 +385,8 @@ class Site:
             results.append({
                 "id": aid, "grade": a["grade"], "subject": a["subject"], "rows": rows, "summary": summary, "official": off, "detail": detail,
                 "svg": charts.eqao_chart(rows, yrs, gap=False,
-                                         title=f"{a['grade']} {a['subject']}: this school, board median and Ontario median by year, {yrs[0]} to {yrs[-1]}"),
+                                         title=_("{grade} {subject}: this school, board median and Ontario median by year, {first} to {last}",
+                                                 grade=_(a["grade"]), subject=_(a["subject"]), first=yrs[0], last=yrs[-1])),
                 "codes": sorted({r["code"] for r in rows if r.get("code")}),
                 "paper_years": [r["year"] for r in paper],
             })
@@ -312,7 +398,7 @@ class Site:
             past = next((e for e in reversed(vals) if e["year"][:4] <= str(int(enrol_latest["year"][:4]) - 5)), vals[0])
             if past is not enrol_latest:
                 d = enrol_latest["value"] - past["value"]
-                enrol_change = f"{'+' if d >= 0 else '−'}{abs(d):,} since {past['year']}"
+                enrol_change = _("{change} since {year}", change=("+" if d >= 0 else "−") + i18n.num(abs(d)), year=past["year"])
         context_rows = []
         for it in s["context"]["items"]:
             context_rows.append({**it, "board_median": self.ctx_board.get((s["board_number"], it["key"])),
@@ -324,7 +410,7 @@ class Site:
             latest_cs = cs[-1]
             cs_view = {
                 "latest": latest_cs, "first": cs[0]["year"],
-                "svg": charts.wide_line_chart(cs, cyears, title=f"Average Grades 1 to 3 class size at {s['name']}, board median and Ontario median by year",
+                "svg": charts.wide_line_chart(cs, cyears, title=_("Average Grades 1 to 3 class size at {name}, board median and Ontario median by year", name=s["name"]),
                                               main_key="primary_avg", board_key="primary_board_median", prov_key="primary_province_median",
                                               ymax=30, unit="", gap=False),
             }
@@ -335,7 +421,7 @@ class Site:
             used = [g for g in order if any(g in r["grades"] for r in ge)]
             grade_view = {"years": [r["year"] for r in ge][-5:], "rows": [], "latest": ge[-1]}
             for g in used:
-                label = "Junior kindergarten" if g == "JK" else "Kindergarten" if g == "K" else f"Grade {g[1:]}"
+                label = _("Junior kindergarten") if g == "JK" else _("Kindergarten") if g == "K" else _(family.GRADE_LABEL[g[1:]])
                 cells = []
                 for r in ge[-5:]:
                     if g not in r["grades"]:
@@ -358,8 +444,13 @@ class Site:
         if s.get("official_area"):
             oa = s["official_area"]
             ed = oa.get("edited")
-            when = datetime.strptime(ed, "%Y-%m").strftime("%B %Y") if ed else None
-            official_label = f"Official boundary from {s['board_name']}" + (f", for {oa['effective']}" if oa.get("effective") else f", edited {when}" if when else "")
+            when = month_year(ed) if ed else None
+            if oa.get("effective"):
+                official_label = _("Official boundary from {board}, for {effective}", board=s["board_name"], effective=oa["effective"])
+            elif when:
+                official_label = _("Official boundary from {board}, edited {when}", board=s["board_name"], when=when)
+            else:
+                official_label = _("Official boundary from {board}", board=s["board_name"])
             # the school year a layer says it is for is not the same thing as when its map was last edited
             official_when = {"effective": oa.get("effective"), "effective_note": oa.get("effective_note"), "edited": when}
         addr = ", ".join(x for x in [s["address"], s["suite"], s["city"], "ON", s["postal_code"]] if x)
@@ -378,20 +469,21 @@ class Site:
             jsonld["sameAs"] = s["website"]
         sys_label = self.meta["systems"][s["system"]]
         latest_eqao = max((e["year"] for e in s["eqao"]), default=None)
-        desc = f"{s['name']}, {s['city'] or 'Ontario'}: {s['level']} school ({s['grades']}), {s['board_name']}. "
+        desc = _("{name}, {city}: {level} school ({grades}), {board}.", name=s["name"], city=s["city"] or "Ontario", level=_(s["level"]),
+                 grades=s["grades"], board=s["board_name"]) + " "
         if latest_eqao:
-            desc += f"EQAO {min(e['year'] for e in s['eqao'])} to {latest_eqao} with board and Ontario medians, enrolment and sources."
+            desc += _("EQAO {first} to {last} with board and Ontario medians, enrolment and sources.", first=min(e["year"] for e in s["eqao"]), last=latest_eqao)
         else:
-            desc += "Enrolment, student context, nearby schools and child care, with sources."
+            desc += _("Enrolment, student context, nearby schools and child care, with sources.")
         desc = clip(desc, 160)  # search results cut descriptions at about 160 characters
         self.render(f"school/{s['bsid']}/index.html", "school.html",
                     title=f"{s['name']} — {s['city'] or s['board_name']}", description=desc, page_kind="school", map=True,
                     s=s, results=results, historical=historical, system_label=sys_label, address_line=addr, official_label=official_label,
                     official_when=official_when, fv=family_view, nearby_badges=nearby_badges,
-                    contact_label=self.sources.get("contact-2026-11", {}).get("year", "current"),
+                    contact_label=self.sources.get("contact-2026-11", {}).get("year", _("current")),
                     enrol_latest=enrol_latest, enrol_change=enrol_change,
-                    enrol_svg=charts.wide_bar_chart(enrol, title=f"Enrolment at {s['name']} by school year"),
-                    latest_eqao=latest_eqao, eqao_span=f"{min(e['year'] for e in s['eqao'])} to {latest_eqao}" if latest_eqao else "",
+                    enrol_svg=charts.wide_bar_chart(enrol, title=_("Enrolment at {name} by school year", name=s["name"])),
+                    latest_eqao=latest_eqao, eqao_span=_("{first} to {last}", first=min(e["year"] for e in s["eqao"]), last=latest_eqao) if latest_eqao else "",
                     context_rows=context_rows, childcare_date=human_date(s["childcare"]["snapshot"]), cs_view=cs_view, grade_view=grade_view,
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"),
                     jsonld=json.dumps({k: v for k, v in jsonld.items() if v}, ensure_ascii=False).replace("</", "<\\/"))
@@ -409,21 +501,20 @@ class Site:
         cs_text = None
         if cs.get("status") == "match_unresolved":
             names = [self.schools[b]["name"] + (f" ({self.schools[b]['city']})" if self.schools[b].get("city") else "") for b in cs["others"] if b in self.schools]
-            cs_text = (f"The Ministry's class lists name schools rather than numbering them, and {s['board_name']} has another school with this "
-                       f"same name ({', '.join(names)}). The lists can't tell the two apart, so we show no class sizes for either rather than guess.")
+            cs_text = _("The Ministry's class lists name schools rather than numbering them, and {board} has another school with this same name ({names}). The lists can't tell the two apart, so we show no class sizes for either rather than guess.",
+                        board=s["board_name"], names=", ".join(names))
         elif cs.get("status") == "not_listed":
-            cs_text = "This school is not in the Ministry's elementary class lists under any name it has used since 2015-16."
+            cs_text = _("This school is not in the Ministry's elementary class lists under any name it has used since 2015-16.")
         prox = s.get("proximity_area")
         prox_text = None
         if not s.get("official_area"):
             if prox == "immersion_only":
-                prox_text = ("No nearest-school area is drawn for this school. The Ministry lists it as offering French Immersion but neither Core nor "
-                             "Extended French, so it is most likely a French Immersion school that families choose for the program, not a "
-                             "neighbourhood school. Who can attend is set by the board's program rules.")
+                prox_text = _("No nearest-school area is drawn for this school. The Ministry lists it as offering French Immersion but neither Core nor Extended French, so it is most likely a French Immersion school that families choose for the program, not a neighbourhood school. Who can attend is set by the board's program rules.")
             elif prox == "not_regular":
-                prox_text = f"No nearest-school area is drawn for {(s.get('special') or 'special-purpose').lower()} schools: families don't attend them by neighbourhood."
+                prox_text = _("No nearest-school area is drawn for {kind} schools: families don't attend them by neighbourhood.",
+                              kind=_(s.get("special") or "special-purpose").lower())
             elif prox == "other_system":
-                prox_text = "No nearest-school area is drawn for provincial and other special schools."
+                prox_text = _("No nearest-school area is drawn for provincial and other special schools.")
         questions = family.visit_questions(s, info=info, badges=badges, offered=offered, class_status=cs,
                                            has_childcare_here=bool(s["childcare"]["at_address"]), sq=s.get("student_experience") or [])
         return {"offered": offered, "grade_span": family.grade_span_label(s.get("grades")), "badges": badges, "listed": listed,
@@ -439,7 +530,7 @@ class Site:
                 continue
             qs = {q["key"]: q for q in m["questions"]}
             five = len(qs[next(iter(qs))]["options"]) > 4
-            grade = {"3": "Grade 3", "6": "Grade 6", "9": "Grade 9", "10": "Grade 10 (OSSLT)"}[b["grade"]]
+            grade = {"3": _("Grade 3"), "6": _("Grade 6"), "9": _("Grade 9"), "10": _("Grade 10 (OSSLT)")}[b["grade"]]
             items = []
             for it in b["items"]:
                 q = qs.get(it["key"])
@@ -501,36 +592,40 @@ class Site:
         return n
 
     def summary_sentence(self, s, a, last, rows=()) -> str:
-        subj = a["subject"].lower()
-        who = f"{a['grade']} students"
-        if a["grade"] == "Grade 10":
-            what = "passed the literacy test on their first try"
-        else:
-            what = f"met the provincial standard in {subj}"
         v = last["pct_at_or_above_standard"]
         yr = last["year"]
         if v is None:
             code = last.get("code") or ""
-            expl = self.meta["codes"].get(code, {}).get("explain", "No value published.")
-            return f"<b>{yr}:</b> no result shown ({code}). {expl}"
-        parts = [f"In <b>{yr}</b>, <b>{v:g}%</b> of {who} {what}."]
-        cmp = []
-        if last.get("board_median") is not None:
-            cmp.append(f"board median {last['board_median']:g}%")
-        if last.get("province_median") is not None:
-            cmp.append(f"Ontario median {last['province_median']:g}%")
-        if cmp:
-            txt = ", ".join(cmp)
-            parts.append(" " + txt[0].upper() + txt[1:] + ".")
+            expl = _(self.meta["codes"].get(code, {}).get("explain", "No value published."))
+            return _("<b>{year}:</b> no result shown ({code}). {explain}", year=yr, code=code, explain=expl)
+        if a["grade"] == "Grade 10":
+            parts = [_("In <b>{year}</b>, <b>{v}%</b> of {grade} students passed the literacy test on their first try.", year=yr, v=f"{v:g}", grade=_(a["grade"]))]
+        else:
+            parts = [_("In <b>{year}</b>, <b>{v}%</b> of {grade} students met the provincial standard in {subject}.",
+                       year=yr, v=f"{v:g}", grade=_(a["grade"]), subject=_(a["subject"]).lower())]
+        bm, pm = last.get("board_median"), last.get("province_median")
+        if bm is not None and pm is not None:
+            parts.append(" " + _("Board median {board}%, Ontario median {ontario}%.", board=f"{bm:g}", ontario=f"{pm:g}"))
+        elif bm is not None:
+            parts.append(" " + _("Board median {board}%.", board=f"{bm:g}"))
+        elif pm is not None:
+            parts.append(" " + _("Ontario median {ontario}%.", ontario=f"{pm:g}"))
         # A change is only stated within one assessment era (EQAO's current trend line starts in 2021-22),
         # and it compares different groups of students, not the same children's progress.
         era = last.get("era")
         pts = [r for r in rows if r["pct_at_or_above_standard"] is not None and r.get("era") == era]
         if era == "current" and len(pts) >= 2 and pts[0]["year"] != pts[-1]["year"]:
             d = round(pts[-1]["pct_at_or_above_standard"] - pts[0]["pct_at_or_above_standard"], 1)
-            unit = "point" if abs(d) == 1 else "points"
-            how = f"{abs(d):g} {unit} {'higher' if d > 0 else 'lower'} than" if d else "the same as"
-            parts.append(f" That is {how} in {pts[0]['year']} (a different group of students).")
+            n, y0 = f"{abs(d):g}", pts[0]["year"]
+            if not d:
+                sent = _("That is the same as in {year} (a different group of students).", year=y0)
+            elif d > 0:
+                sent = (_("That is {n} point higher than in {year} (a different group of students).", n=n, year=y0) if abs(d) == 1
+                        else _("That is {n} points higher than in {year} (a different group of students).", n=n, year=y0))
+            else:
+                sent = (_("That is {n} point lower than in {year} (a different group of students).", n=n, year=y0) if abs(d) == 1
+                        else _("That is {n} points lower than in {year} (a different group of students).", n=n, year=y0))
+            parts.append(" " + sent)
         return "".join(parts)
 
     # ------------------------------------------------------------------
@@ -555,10 +650,10 @@ class Site:
             if i["source_id"] not in [r["source_id"] for r in releases]:
                 releases.append({"source_id": i["source_id"], "label": self.sources.get(i["source_id"], {}).get("note", "").split(":")[0] or i["source_id"]})
         for r in releases:
-            r["label"] = {"sbpr-2026-11": "Nov 2026 release", "sbpr-2026-05": "May 2026 release"}.get(r["source_id"], r["source_id"])
+            r["label"] = {"sbpr-2026-11": _("Nov 2026 release"), "sbpr-2026-05": _("May 2026 release")}.get(r["source_id"], r["source_id"])
         by_key = defaultdict(dict)
         for i in b["indicators"]:
-            yl = f"cohort {i['cohort']}" if i.get("cohort") else i["year"]
+            yl = _("cohort {cohort}", cohort=i["cohort"]) if i.get("cohort") else i["year"]
             by_key[i["key"]][i["source_id"]] = {**i, "year_label": yl}
         indicators = []
         labels = {}
@@ -570,7 +665,7 @@ class Site:
         headline = []
         if releases:
             first = releases[0]["source_id"]
-            for k, lab in (("g6_reading", "Grade 6 reading"), ("osslt", "OSSLT pass, first try"), ("grad_5yr", "5-year graduation")):
+            for k, lab in (("g6_reading", _("Grade 6 reading")), ("osslt", _("OSSLT pass, first try")), ("grad_5yr", _("5-year graduation"))):
                 c = by_key.get(k, {}).get(first)
                 if c:
                     headline.append({"label": lab, "value": c["value"], "code": c.get("code"), "year_label": c["year_label"]})
@@ -593,19 +688,20 @@ class Site:
                 continue
             yrs = [y for y in years_all if any(r["year"] == y for r in rws)]
             medians.append({"grade": a["grade"], "subject": a["subject"], "rows": rws,
-                            "svg": charts.eqao_chart(rws, yrs, gap=False, title=f"{a['grade']} {a['subject']}: board median and Ontario median, {yrs[0]} to {yrs[-1]}", main_key="board_median", main_label="Board median")})
+                            "svg": charts.eqao_chart(rws, yrs, gap=False, title=_("{grade} {subject}: board median and Ontario median, {first} to {last}", grade=_(a["grade"]), subject=_(a["subject"]), first=yrs[0], last=yrs[-1]),
+                                         main_key="board_median", main_label=_("Board median"))})
         # chart helper draws board_median dashed too; blank it so only the two lines show
         for m in medians:
             m["svg"] = m["svg"].replace('class="s-board"', 'class="s-board" style="display:none"').replace('class="p-board"', 'class="p-board" style="display:none"')
-        types = {"english-public": "English-language public district school board", "english-catholic": "English-language Catholic district school board",
-                 "french-public": "French-language public district school board", "french-catholic": "French-language Catholic district school board",
-                 "other": "Provincial school, hospital school or school authority"}
+        types = {"english-public": _("English-language public district school board"), "english-catholic": _("English-language Catholic district school board"),
+                 "french-public": _("French-language public district school board"), "french-catholic": _("French-language Catholic district school board"),
+                 "other": _("Provincial school, hospital school or school authority")}
         b = {**b, "full_type": types[b["system"]]}
         csm = b.get("class_size_medians") or []
         cs_board = None
         if csm:
             rows_cs = [{"year": r["year"], "board_median": r["primary_median"], "province_median": r["province_median"], "board_n": r["n"]} for r in csm]
-            cs_board = {"rows": rows_cs, "svg": charts.wide_line_chart(rows_cs, [r["year"] for r in rows_cs], title="Average Grades 1 to 3 class size: median school in the board and in Ontario",
+            cs_board = {"rows": rows_cs, "svg": charts.wide_line_chart(rows_cs, [r["year"] for r in rows_cs], title=_("Average Grades 1 to 3 class size: median school in the board and in Ontario"),
                                                                       main_key="board_median", board_key="_none", prov_key="province_median", ymax=30, unit="", gap=False)}
         # board context: suspension trend chart (board vs Ontario) and spending split
         ctx = b.get("context") or {}
@@ -616,25 +712,25 @@ class Site:
             top = max([r["rate"] or 0 for r in safe["series"]] + [r["province_rate"] or 0 for r in safe["series"]])
             ymax = max(2, int(top) + (2 if top < 10 else 4))
             safe_view = {"rows": safe["series"], "last": next(r for r in reversed(safe["series"]) if r["rate"] is not None),
-                         "svg": charts.wide_line_chart(sr, [r["year"] for r in sr], title=f"Share of {b['name']} students suspended each year, with Ontario",
+                         "svg": charts.wide_line_chart(sr, [r["year"] for r in sr], title=_("Share of {name} students suspended each year, with Ontario", name=b["name"]),
                                                        main_key="board_median", main_label=b["name"], board_key="_none", prov_key="province_median",
                                                        ymax=ymax, unit="%", gap=False)}
         spend = ctx.get("spending")
         spend_view = None
         if spend:
-            parts = [("instruction", "Classroom", "teachers, assistants, supplies, principals, guidance"),
-                     ("accommodation", "Buildings", "running, repairing and renewing schools"),
-                     ("transportation", "Transportation", "school buses"),
-                     ("administration", "Administration", "trustees, director, board offices"),
-                     ("other", "Other", "everything else")]
+            parts = [("instruction", _("Classroom"), _("teachers, assistants, supplies, principals, guidance")),
+                     ("accommodation", _("Buildings"), _("running, repairing and renewing schools")),
+                     ("transportation", _("Transportation"), _("school buses")),
+                     ("administration", _("Administration"), _("trustees, director, board offices")),
+                     ("other", _("Other"), _("everything else"))]
             spend_view = {**spend, "parts": [{"key": k, "label": l, "what": w, "v": spend["parts"].get(k, 0),
                                               "pct": round(100 * spend["parts"].get(k, 0) / spend["per_student"])} for k, l, w in parts if spend["parts"].get(k, 0) > 0]}
         map_data = {"schools": [{"id": s["bsid"], "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"], "l": "E" if s["level"] == "elementary" else "S", "g": s["grades"], **self.pt_flags(s)} for s in schools],
                     "board": b["number"], "system": b["system"]}
         self.render(f"board/{b['number']}/index.html", "board.html", title=b["name"], page_kind="board", map=True,
-                    description=f"{b['name']}: {len(schools)} schools, official board results, EQAO medians across its schools and a map, with sources.",
+                    description=_("{name}: {n} schools, official board results, EQAO medians across its schools and a map, with sources.", name=b["name"], n=len(schools)),
                     safe_view=safe_view, spend_view=spend_view, fsl_enrol=ctx.get("fsl_enrolment"),
-                    b=b, schools=rows, school_groups=school_groups, cs_board=cs_board, indicators=indicators, indicator_releases=releases, headline=headline, medians=medians, medians_paper=medians_paper, board_info=self.board_records(b["number"]),
+                    b=b, schools=rows, school_groups=school_groups, cs_board=cs_board, indicators=indicators, indicator_releases=releases, headline=headline, medians=medians, medians_paper=medians_paper, board_info=self.board_records(b["number"]), board_sq=self.sq_view(b),
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"))
 
     # ------------------------------------------------------------------
@@ -664,21 +760,21 @@ class Site:
                 return "—"
             unit = fields[key]["unit"]
             if unit == "pct":
-                return f"{v:g}%"
+                return i18n.pct(v)
             if unit == "dollars":
-                return f"${v:,.0f}"
+                return i18n.money(v)
             if unit == "count":
-                return f"{v:,}"
-            return f"{v:,.1f}"
+                return i18n.num(v)
+            return i18n.num(v, 1)
         kpis = []
         if c:
             kpis = [
-                {"label": "Population, 2021", "value": fmt("population"), "d": f"{fmt('density_per_km2')} per km²"},
-                {"label": "Children 0–14", "value": fmt("children_0_14"), "d": f"{fmt('children_0_14_pct')} of residents"},
-                {"label": "Households: couples with children", "value": fmt("couple_hh_children_pct"), "d": f"One-parent: {fmt('one_parent_hh_pct')}"},
-                {"label": "Median household income (2020)", "value": fmt("median_household_income"), "d": "Before tax"},
-                {"label": "Children 0–17 in low income", "value": fmt("low_income_0_17_pct"), "d": "LIM-AT, 2020"},
-                {"label": "Non-official language at home", "value": fmt("home_other_pct"), "d": f"French at home: {fmt('home_french_pct')}"},
+                {"label": _("Population, 2021"), "value": fmt("population"), "d": _("{density} per km²", density=fmt("density_per_km2"))},
+                {"label": _("Children 0–14"), "value": fmt("children_0_14"), "d": _("{pct} of residents", pct=fmt("children_0_14_pct"))},
+                {"label": _("Households: couples with children"), "value": fmt("couple_hh_children_pct"), "d": _("One-parent: {pct}", pct=fmt("one_parent_hh_pct"))},
+                {"label": _("Median household income (2020)"), "value": fmt("median_household_income"), "d": _("Before tax")},
+                {"label": _("Children 0–17 in low income"), "value": fmt("low_income_0_17_pct"), "d": _("LIM-AT, 2020")},
+                {"label": _("Non-official language at home"), "value": fmt("home_other_pct"), "d": _("French at home: {pct}", pct=fmt("home_french_pct"))},
             ]
         census_rows = [{"label": x["label"], "value": fmt(x["key"])} for x in self.meta["census_fields"]] if c else []
         pts = []
@@ -688,34 +784,34 @@ class Site:
                 pts.append({"id": bsid, "n": s["name"], "sys": s["system"], "x": s["lon"], "y": s["lat"], "in": inside, "g": s["grades"], "l": "E" if s["level"] == "elementary" else "S", **self.pt_flags(s)})
         map_data = {"fsa": f["fsa"], "boundary": f["boundary"], "schools": pts}
         place = f" ({f['place']})" if f["place"] else ""
-        self.render(f"fsa/{f['fsa']}/index.html", "fsa.html", title=f"Schools in postal area {f['fsa']}{place}", page_kind="fsa", map=True,
-                    description=f"Public schools in and near Ontario postal area {f['fsa']}{place}, grouped by board and level, with 2021 Census context and licensed child care.",
+        self.render(f"fsa/{f['fsa']}/index.html", "fsa.html", title=_("Schools in postal area {fsa}", fsa=f["fsa"]) + place, page_kind="fsa", map=True,
+                    description=_("Public schools in and near Ontario postal area {fsa}{place}, grouped by board and level, with 2021 Census context and licensed child care.", fsa=f["fsa"], place=place),
                     f=f, groups=glist, census_kpis=kpis, census_rows=census_rows, near_km=1.5,
                     childcare_date=human_date(next(iter(self.schools.values()))["childcare"]["snapshot"]),
                     map_json=json.dumps(map_data, separators=(",", ":")).replace("</", "<\\/"))
 
     # ------------------------------------------------------------------
     def index_pages(self) -> None:
-        self.render("index.html", "home.html", title="Ontario School Finder — find a school, see the facts in context", home=True, page_kind="home",
+        self.render("index.html", "home.html", title=_("Ontario School Finder — find a school, see the facts in context"), home=True, page_kind="home",
                     og_title="Ontario School Finder", hero=self.hero)
         groups = []
         for system in SYSTEM_ORDER:
             bs = [b for b in self.boards_index if b["sys"] == system]
             if bs:
                 groups.append({"system": system, "label": self.meta["systems"][system], "boards": [{"number": b["n"], "name": b["name"], "count": b["count"]} for b in bs]})
-        self.render("boards/index.html", "boards.html", title="School boards", page_kind="boards", groups=groups,
-                    description="All Ontario school boards and school authorities, grouped by English/French and public/Catholic.")
+        self.render("boards/index.html", "boards.html", title=_("School boards"), page_kind="boards", groups=groups,
+                    description=_("All Ontario school boards and school authorities, grouped by English/French and public/Catholic."))
         areas = defaultdict(list)
         for a in self.fsa_index:
             areas[a["f"][0]].append({"fsa": a["f"], "place": a["p"], "count": a["count"]})
-        self.render("areas/index.html", "areas.html", title="Postal areas", page_kind="areas",
-                    groups=[{"letter": k, "label": REGION_LABEL.get(k, ""), "entries": v} for k, v in sorted(areas.items())],
-                    description="Every Ontario forward sortation area (first three characters of a postal code) with its schools.")
-        self.render("search/index.html", "search.html", title="Search", page_kind="search")
-        self.render("compare/index.html", "compare.html", title="Compare schools", page_kind="compare")
-        self.render("map/index.html", "map.html", title="Map", page_kind="map", map=True,
+        self.render("areas/index.html", "areas.html", title=_("Postal areas"), page_kind="areas",
+                    groups=[{"letter": k, "label": _(REGION_LABEL.get(k, "")), "entries": v} for k, v in sorted(areas.items())],
+                    description=_("Every Ontario forward sortation area (first three characters of a postal code) with its schools."))
+        self.render("search/index.html", "search.html", title=_("Search"), page_kind="search")
+        self.render("compare/index.html", "compare.html", title=_("Compare schools"), page_kind="compare")
+        self.render("map/index.html", "map.html", title=_("Map"), page_kind="map", map=True,
                     systems=[(k, self.meta["systems"][k]) for k in SYSTEM_ORDER],
-                    description="Map of every Ontario public school with postal areas, approximate board areas, nearest-school areas and the official attendance areas boards publish, each clearly labelled.")
+                    description=_("Map of every Ontario public school with postal areas, approximate board areas, nearest-school areas and the official attendance areas boards publish, each clearly labelled."))
         ds = []
         files = defaultdict(list)
         for x in self.sources.values():
@@ -725,27 +821,27 @@ class Site:
             retrieved = sorted(f["retrieved"] for f in fl if f.get("retrieved"))
             ds.append({**d, "key": key, "files": fl, "retrieved": retrieved[-1] if retrieved else None})
         rate = 100 * (self.meta["fsa_check"]["checked"] - self.meta["fsa_check"]["mismatches"]) / max(1, self.meta["fsa_check"]["checked"])
-        self.render("methodology/index.html", "methodology.html", title="How it works", page_kind="methodology",
-                    datasets=ds, licence_counts=sorted(Counter(d["licence_status"] for d in ds if d["status"] == "used").items(), key=lambda kv: (kv[0] != "open", kv[0])), codes=[(k, v) for k, v in self.meta["codes"].items() if k != "BLANK"], fsa_check_rate=f"{rate:.1f}%",
-                    description="Sources, licences, definitions, how withheld values are handled and how map areas are drawn.")
-        self.render("about/index.html", "about.html", title="About", page_kind="about", operator=OPERATOR, contact_email=CONTACT_EMAIL,
-                    description="Why Ontario School Finder exists, who runs it, why it's free and how it protects your privacy.")
-        self.render("corrections/index.html", "corrections.html", title="Report a correction", page_kind="corrections",
+        self.render("methodology/index.html", "methodology.html", title=_("How it works"), page_kind="methodology",
+                    datasets=ds, licence_counts=sorted(Counter(d["licence_status"] for d in ds if d["status"] == "used").items(), key=lambda kv: (kv[0] != "open", kv[0])), codes=[(k, v) for k, v in self.meta["codes"].items() if k != "BLANK"], fsa_check_rate=i18n.pct(round(rate, 1)),
+                    description=_("Sources, licences, definitions, how withheld values are handled and how map areas are drawn."))
+        self.render("about/index.html", "about.html", title=_("About"), page_kind="about", operator=_(OPERATOR), contact_email=CONTACT_EMAIL,
+                    description=_("Why Ontario School Finder exists, who runs it, why it's free and how it protects your privacy."))
+        self.render("corrections/index.html", "corrections.html", title=_("Report a correction"), page_kind="corrections",
                     contact_email=CONTACT_EMAIL, corrections_url=CORRECTIONS_URL)
         downloads = []
         for name, title, desc in [
-            ("schools.csv", "Schools", "One row per school: board, level, grades, address, coordinates, contact, status."),
-            ("eqao.csv", "EQAO results", "Every school, assessment and year, with codes, board and Ontario medians."),
-            ("enrolment.csv", "Enrolment", "Every school and year from 2011-12."),
-            ("student-experience.csv", "Student experience", "EQAO questionnaire answers by school, with the whole board and Ontario, latest year."),
-            ("fsa-census.csv", "Postal-area census", "2021 Census figures for every Ontario FSA."),
-            ("sources.csv", "Sources", "Every source file with URL, licence and retrieval date."),
+            ("schools.csv", _("Schools"), _("One row per school: board, level, grades, address, coordinates, contact, status.")),
+            ("eqao.csv", _("EQAO results"), _("Every school, assessment and year, with codes, board and Ontario medians.")),
+            ("enrolment.csv", _("Enrolment"), _("Every school and year from 2011-12.")),
+            ("student-experience.csv", _("Student experience"), _("EQAO questionnaire answers by school, with the whole board and Ontario, latest year.")),
+            ("fsa-census.csv", _("Postal-area census"), _("2021 Census figures for every Ontario FSA.")),
+            ("sources.csv", _("Sources"), _("Every source file with URL, licence and retrieval date.")),
         ]:
             p = DATA / "downloads" / name
-            downloads.append({"href": f"/data/downloads/{name}", "title": title, "desc": desc, "size": f"{p.stat().st_size / 1e6:.1f} MB" if p.stat().st_size > 1e5 else f"{p.stat().st_size // 1024} KB"})
-        self.render("data/index.html", "data.html", title="Download the data", page_kind="data", downloads=downloads,
-                    description="Download Ontario school data as CSV and JSON with a source id on every row.")
-        self.render("404.html", "404.html", title="Page not found", page_kind="404", path="/404.html")
+            downloads.append({"href": f"/data/downloads/{name}", "title": title, "desc": desc, "size": _("{n} MB", n=f"{p.stat().st_size / 1e6:.1f}") if p.stat().st_size > 1e5 else _("{n} KB", n=p.stat().st_size // 1024)})
+        self.render("data/index.html", "data.html", title=_("Download the data"), page_kind="data", downloads=downloads,
+                    description=_("Download Ontario school data as CSV and JSON with a source id on every row."))
+        self.render("404.html", "404.html", title=_("Page not found"), page_kind="404", path="/404.html")
 
     # ------------------------------------------------------------------
     def extras(self) -> None:
@@ -754,8 +850,12 @@ class Site:
         urls += [f"/fsa/{f}/" for f in self.fsas]
         urls += [f"/school/{s}/" for s in self.schools]
         lastmod = (self.meta.get("data_updated") or "")[:10]
-        sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-        sm += [f"<url><loc>{SITE_URL}{u}</loc><lastmod>{lastmod}</lastmod></url>" for u in urls]
+        # both languages, each page naming its counterpart (hreflang) so search engines pair them
+        sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
+        for path in urls:
+            alts = "".join(f'<xhtml:link rel="alternate" hreflang="{lg}" href="{SITE_URL}{path if lg == "en" else "/" + lg + path}"/>' for lg in i18n.LANGS)
+            for lg in i18n.LANGS:
+                sm.append(f"<url><loc>{SITE_URL}{path if lg == 'en' else '/' + lg + path}</loc><lastmod>{lastmod}</lastmod>{alts}</url>")
         sm.append("</urlset>")
         (DIST / "sitemap.xml").write_text("\n".join(sm), encoding="utf-8")
         (DIST / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n", encoding="utf-8")
@@ -863,14 +963,21 @@ def main() -> int:
         print("site/data is missing: run `python -m pipeline.build` first", file=sys.stderr)
         return 2
     clear_dir(DIST)
+    # the browser scripts' French dictionary is a module next to them, so it shares their version (?v=)
+    (STATIC / "js" / "i18n-fr.js").write_text(i18n.js_module("fr"), encoding="utf-8")
     site = Site()
-    for s in site.schools.values():
-        site.school_page(s)
-    for b in site.boards.values():
-        site.board_page(b)
-    for f in site.fsas.values():
-        site.fsa_page(f)
-    site.index_pages()
+    for lang in i18n.LANGS:
+        site.set_lang(lang)
+        for s in site.schools.values():
+            site.school_page(s)
+        for b in site.boards.values():
+            site.board_page(b)
+        for f in site.fsas.values():
+            site.fsa_page(f)
+        site.index_pages()
+    missing = sorted(i18n.CURRENT.missing)
+    (HERE / "i18n" / "missing-fr.txt").write_text("".join(m + "\n" for m in missing), encoding="utf-8")
+    site.set_lang("en")
     copy_static_and_data()
     site.index_with_board_lists()
     split_board_areas()

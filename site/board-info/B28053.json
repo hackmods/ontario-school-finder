@@ -280,5 +280,547 @@
       ],
       "verified": "2026-11-26"
     }
-  ]
+  ],
+  "schools": {
+    "141518": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-141518",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 257,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 192
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 177
+              },
+              {
+                "year": "2028",
+                "value": 175
+              },
+              {
+                "year": "2033",
+                "value": 183
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 257, with 192 students in 2022; it forecasts 183 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "280747": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-280747",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 221
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 226
+              },
+              {
+                "year": "2028",
+                "value": 232
+              },
+              {
+                "year": "2033",
+                "value": 220
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 221 students in 2022; it forecasts 220 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "343404": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-343404",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 222,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 209
+              },
+              {
+                "year": "2028",
+                "value": 203
+              },
+              {
+                "year": "2033",
+                "value": 192
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 222; it forecasts 192 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "350818": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-350818",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 124,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 43
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 13
+              },
+              {
+                "year": "2028",
+                "value": 23
+              },
+              {
+                "year": "2033",
+                "value": 22
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 124, with 43 students in 2022; it forecasts 22 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "366285": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-366285",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 127,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 78
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 76
+              },
+              {
+                "year": "2028",
+                "value": 82
+              },
+              {
+                "year": "2033",
+                "value": 72
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 127, with 78 students in 2022; it forecasts 72 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "383058": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-383058",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 46,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 24
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 27
+              },
+              {
+                "year": "2028",
+                "value": 34
+              },
+              {
+                "year": "2033",
+                "value": 30
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 46, with 24 students in 2022; it forecasts 30 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "487830": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-487830",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 458,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 319
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 299
+              },
+              {
+                "year": "2028",
+                "value": 262
+              },
+              {
+                "year": "2033",
+                "value": 248
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 458, with 319 students in 2022; it forecasts 248 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "540005": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-540005",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 196,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 104
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 99
+              },
+              {
+                "year": "2028",
+                "value": 92
+              },
+              {
+                "year": "2033",
+                "value": 99
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 196, with 104 students in 2022; it forecasts 99 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "596092": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-596092",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 184,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 172
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 207
+              },
+              {
+                "year": "2028",
+                "value": 173
+              },
+              {
+                "year": "2033",
+                "value": 166
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 184, with 172 students in 2022; it forecasts 166 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "892939": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-892939",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 192,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 126
+              },
+              {
+                "year": "2028",
+                "value": 134
+              },
+              {
+                "year": "2033",
+                "value": 130
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 192; it forecasts 130 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "910872": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-910872",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 870,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 649
+              },
+              {
+                "year": "2028",
+                "value": 592
+              },
+              {
+                "year": "2033",
+                "value": 594
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 870; it forecasts 594 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "937657": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-937657",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 357,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 107
+              },
+              {
+                "year": "2028",
+                "value": 104
+              },
+              {
+                "year": "2033",
+                "value": 102
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 357; it forecasts 102 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "097209": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-097209",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 222,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 124
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 124
+              },
+              {
+                "year": "2028",
+                "value": 126
+              },
+              {
+                "year": "2033",
+                "value": 130
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 222, with 124 students in 2022; it forecasts 130 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "009954": {
+      "records": [
+        {
+          "id": "rrdsb-capacity-009954",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Program and Facility Plan 2024-2029 (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan#page=45",
+          "source_date": "April 2024",
+          "facts": {
+            "capacity_otg": 231,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 107
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 121
+              },
+              {
+                "year": "2028",
+                "value": 97
+              },
+              {
+                "year": "2033",
+                "value": 106
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 231, with 107 students in 2022; it forecasts 106 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

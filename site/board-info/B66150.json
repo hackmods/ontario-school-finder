@@ -307,6 +307,2030 @@
     }
   ],
   "schools": {
+    "105767": {
+      "records": [
+        {
+          "id": "dsbn-capacity-105767",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=62",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 221
+              },
+              {
+                "year": "2022",
+                "value": 245
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 243
+              },
+              {
+                "year": "2027",
+                "value": 271
+              },
+              {
+                "year": "2032",
+                "value": 274
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 245 students in 2022; it forecasts 274 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "117722": {
+      "records": [
+        {
+          "id": "dsbn-capacity-117722",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=26",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 472,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 405
+              },
+              {
+                "year": "2022",
+                "value": 449
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 470
+              },
+              {
+                "year": "2027",
+                "value": 538
+              },
+              {
+                "year": "2032",
+                "value": 565
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 472, with 449 students in 2022; it forecasts 565 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "121754": {
+      "records": [
+        {
+          "id": "dsbn-capacity-121754",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=38",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 509,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 224
+              },
+              {
+                "year": "2022",
+                "value": 376
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 388
+              },
+              {
+                "year": "2027",
+                "value": 417
+              },
+              {
+                "year": "2032",
+                "value": 394
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 509, with 376 students in 2022; it forecasts 394 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "131890": {
+      "records": [
+        {
+          "id": "dsbn-capacity-131890",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 461,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 418
+              },
+              {
+                "year": "2022",
+                "value": 369
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 392
+              },
+              {
+                "year": "2027",
+                "value": 424
+              },
+              {
+                "year": "2032",
+                "value": 430
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 461, with 369 students in 2022; it forecasts 430 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "139823": {
+      "records": [
+        {
+          "id": "dsbn-capacity-139823",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=72",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 351,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 223
+              },
+              {
+                "year": "2022",
+                "value": 240
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 247
+              },
+              {
+                "year": "2027",
+                "value": 287
+              },
+              {
+                "year": "2032",
+                "value": 303
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 351, with 240 students in 2022; it forecasts 303 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "156418": {
+      "records": [
+        {
+          "id": "dsbn-capacity-156418",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 225,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 231
+              },
+              {
+                "year": "2022",
+                "value": 259
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 261
+              },
+              {
+                "year": "2027",
+                "value": 283
+              },
+              {
+                "year": "2032",
+                "value": 295
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 225, with 259 students in 2022; it forecasts 295 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "156841": {
+      "records": [
+        {
+          "id": "dsbn-capacity-156841",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=46",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 351,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 276
+              },
+              {
+                "year": "2022",
+                "value": 360
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 384
+              },
+              {
+                "year": "2027",
+                "value": 438
+              },
+              {
+                "year": "2032",
+                "value": 432
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 351, with 360 students in 2022; it forecasts 432 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "165956": {
+      "records": [
+        {
+          "id": "dsbn-capacity-165956",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=34",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 397,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 226
+              },
+              {
+                "year": "2022",
+                "value": 237
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 238
+              },
+              {
+                "year": "2027",
+                "value": 254
+              },
+              {
+                "year": "2032",
+                "value": 257
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 397, with 237 students in 2022; it forecasts 257 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "195596": {
+      "records": [
+        {
+          "id": "dsbn-capacity-195596",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=38",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 509,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 405
+              },
+              {
+                "year": "2022",
+                "value": 400
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 384
+              },
+              {
+                "year": "2027",
+                "value": 338
+              },
+              {
+                "year": "2032",
+                "value": 329
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 509, with 400 students in 2022; it forecasts 329 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "197416": {
+      "records": [
+        {
+          "id": "dsbn-capacity-197416",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=54",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 394,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 312
+              },
+              {
+                "year": "2022",
+                "value": 487
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 505
+              },
+              {
+                "year": "2027",
+                "value": 579
+              },
+              {
+                "year": "2032",
+                "value": 556
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 394, with 487 students in 2022; it forecasts 556 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "201138": {
+      "records": [
+        {
+          "id": "dsbn-capacity-201138",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=46",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 400,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 359
+              },
+              {
+                "year": "2022",
+                "value": 434
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 441
+              },
+              {
+                "year": "2027",
+                "value": 554
+              },
+              {
+                "year": "2032",
+                "value": 630
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 400, with 434 students in 2022; it forecasts 630 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "207810": {
+      "records": [
+        {
+          "id": "dsbn-capacity-207810",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=26",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 383,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 215
+              },
+              {
+                "year": "2022",
+                "value": 199
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 195
+              },
+              {
+                "year": "2027",
+                "value": 216
+              },
+              {
+                "year": "2032",
+                "value": 229
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 383, with 199 students in 2022; it forecasts 229 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "210358": {
+      "records": [
+        {
+          "id": "dsbn-capacity-210358",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=76",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 464,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 474
+              },
+              {
+                "year": "2022",
+                "value": 500
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 489
+              },
+              {
+                "year": "2027",
+                "value": 639
+              },
+              {
+                "year": "2032",
+                "value": 671
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 464, with 500 students in 2022; it forecasts 671 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "218600": {
+      "records": [
+        {
+          "id": "dsbn-capacity-218600",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=54",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 279,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 230
+              },
+              {
+                "year": "2022",
+                "value": 225
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 227
+              },
+              {
+                "year": "2027",
+                "value": 244
+              },
+              {
+                "year": "2032",
+                "value": 246
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 279, with 225 students in 2022; it forecasts 246 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "221856": {
+      "records": [
+        {
+          "id": "dsbn-capacity-221856",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=54",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 400,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 519
+              },
+              {
+                "year": "2022",
+                "value": 536
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 540
+              },
+              {
+                "year": "2027",
+                "value": 558
+              },
+              {
+                "year": "2032",
+                "value": 555
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 400, with 536 students in 2022; it forecasts 555 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "225754": {
+      "records": [
+        {
+          "id": "dsbn-capacity-225754",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 210,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 169
+              },
+              {
+                "year": "2022",
+                "value": 151
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 148
+              },
+              {
+                "year": "2027",
+                "value": 139
+              },
+              {
+                "year": "2032",
+                "value": 117
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 210, with 151 students in 2022; it forecasts 117 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "226556": {
+      "records": [
+        {
+          "id": "dsbn-capacity-226556",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=22",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 279,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 233
+              },
+              {
+                "year": "2022",
+                "value": 221
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 212
+              },
+              {
+                "year": "2027",
+                "value": 191
+              },
+              {
+                "year": "2032",
+                "value": 183
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 279, with 221 students in 2022; it forecasts 183 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "228010": {
+      "records": [
+        {
+          "id": "dsbn-capacity-228010",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=34",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 530,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 400
+              },
+              {
+                "year": "2022",
+                "value": 401
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 397
+              },
+              {
+                "year": "2027",
+                "value": 361
+              },
+              {
+                "year": "2032",
+                "value": 333
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 530, with 401 students in 2022; it forecasts 333 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "229520": {
+      "records": [
+        {
+          "id": "dsbn-capacity-229520",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=60",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 301
+              },
+              {
+                "year": "2022",
+                "value": 373
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 365
+              },
+              {
+                "year": "2027",
+                "value": 368
+              },
+              {
+                "year": "2032",
+                "value": 363
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 373 students in 2022; it forecasts 363 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "235750": {
+      "records": [
+        {
+          "id": "dsbn-capacity-235750",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=42",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 567,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 516
+              },
+              {
+                "year": "2022",
+                "value": 444
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 435
+              },
+              {
+                "year": "2027",
+                "value": 394
+              },
+              {
+                "year": "2032",
+                "value": 376
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 567, with 444 students in 2022; it forecasts 376 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "254223": {
+      "records": [
+        {
+          "id": "dsbn-capacity-254223",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=64",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 288,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 203
+              },
+              {
+                "year": "2022",
+                "value": 265
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 268
+              },
+              {
+                "year": "2027",
+                "value": 305
+              },
+              {
+                "year": "2032",
+                "value": 348
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 288, with 265 students in 2022; it forecasts 348 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "254519": {
+      "records": [
+        {
+          "id": "dsbn-capacity-254519",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=30",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 495,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 493
+              },
+              {
+                "year": "2022",
+                "value": 493
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 496
+              },
+              {
+                "year": "2027",
+                "value": 508
+              },
+              {
+                "year": "2032",
+                "value": 481
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 495, with 493 students in 2022; it forecasts 481 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "264237": {
+      "records": [
+        {
+          "id": "dsbn-capacity-264237",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=38",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 588,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 603
+              },
+              {
+                "year": "2022",
+                "value": 576
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 584
+              },
+              {
+                "year": "2027",
+                "value": 646
+              },
+              {
+                "year": "2032",
+                "value": 663
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 588, with 576 students in 2022; it forecasts 663 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "281000": {
+      "records": [
+        {
+          "id": "dsbn-capacity-281000",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=30",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 374,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 235
+              },
+              {
+                "year": "2022",
+                "value": 366
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 380
+              },
+              {
+                "year": "2027",
+                "value": 450
+              },
+              {
+                "year": "2032",
+                "value": 477
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 374, with 366 students in 2022; it forecasts 477 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "281654": {
+      "records": [
+        {
+          "id": "dsbn-capacity-281654",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=64",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 420,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 304
+              },
+              {
+                "year": "2022",
+                "value": 464
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 552
+              },
+              {
+                "year": "2027",
+                "value": 325
+              },
+              {
+                "year": "2032",
+                "value": 300
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 420, with 464 students in 2022; it forecasts 300 in 2032. The plan notes: Plan footnote: a new elementary school will open in Planning Area EPA 12 in 2025; portable requirements at James Morden PS will be reviewed then. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "283991": {
+      "records": [
+        {
+          "id": "dsbn-capacity-283991",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=62",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 359
+              },
+              {
+                "year": "2022",
+                "value": 183
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 266
+              },
+              {
+                "year": "2027",
+                "value": 203
+              },
+              {
+                "year": "2032",
+                "value": 207
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 183 students in 2022; it forecasts 207 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "287660": {
+      "records": [
+        {
+          "id": "dsbn-capacity-287660",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=60",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 428
+              },
+              {
+                "year": "2022",
+                "value": 554
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 524
+              },
+              {
+                "year": "2027",
+                "value": 252
+              },
+              {
+                "year": "2032",
+                "value": 246
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 337, with 554 students in 2022; it forecasts 246 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "294037": {
+      "records": [
+        {
+          "id": "dsbn-capacity-294037",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=38",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 639,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 651
+              },
+              {
+                "year": "2022",
+                "value": 626
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 628
+              },
+              {
+                "year": "2027",
+                "value": 649
+              },
+              {
+                "year": "2032",
+                "value": 643
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 639, with 626 students in 2022; it forecasts 643 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "304921": {
+      "records": [
+        {
+          "id": "dsbn-capacity-304921",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=22",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 472,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 419
+              },
+              {
+                "year": "2022",
+                "value": 423
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 416
+              },
+              {
+                "year": "2027",
+                "value": 433
+              },
+              {
+                "year": "2032",
+                "value": 403
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 472, with 423 students in 2022; it forecasts 403 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "313114": {
+      "records": [
+        {
+          "id": "dsbn-capacity-313114",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 374,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 309
+              },
+              {
+                "year": "2022",
+                "value": 368
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 376
+              },
+              {
+                "year": "2027",
+                "value": 380
+              },
+              {
+                "year": "2032",
+                "value": 359
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 374, with 368 students in 2022; it forecasts 359 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "318086": {
+      "records": [
+        {
+          "id": "dsbn-capacity-318086",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 370
+              },
+              {
+                "year": "2022",
+                "value": 408
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 422
+              },
+              {
+                "year": "2027",
+                "value": 455
+              },
+              {
+                "year": "2032",
+                "value": 461
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 432, with 408 students in 2022; it forecasts 461 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "326785": {
+      "records": [
+        {
+          "id": "dsbn-capacity-326785",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=60",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 697,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 711
+              },
+              {
+                "year": "2022",
+                "value": 706
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 688
+              },
+              {
+                "year": "2027",
+                "value": 636
+              },
+              {
+                "year": "2032",
+                "value": 569
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 697, with 706 students in 2022; it forecasts 569 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "344834": {
+      "records": [
+        {
+          "id": "dsbn-capacity-344834",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=62",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 305,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 185
+              },
+              {
+                "year": "2022",
+                "value": 292
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 295
+              },
+              {
+                "year": "2027",
+                "value": 311
+              },
+              {
+                "year": "2032",
+                "value": 296
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 305, with 292 students in 2022; it forecasts 296 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "352500": {
+      "records": [
+        {
+          "id": "dsbn-capacity-352500",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=72",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 460,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 450
+              },
+              {
+                "year": "2022",
+                "value": 473
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 518
+              },
+              {
+                "year": "2027",
+                "value": 685
+              },
+              {
+                "year": "2032",
+                "value": 938
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 460, with 473 students in 2022; it forecasts 938 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "382868": {
+      "records": [
+        {
+          "id": "dsbn-capacity-382868",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=22",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 321
+              },
+              {
+                "year": "2022",
+                "value": 290
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 279
+              },
+              {
+                "year": "2027",
+                "value": 268
+              },
+              {
+                "year": "2032",
+                "value": 238
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 236, with 290 students in 2022; it forecasts 238 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "414514": {
+      "records": [
+        {
+          "id": "dsbn-capacity-414514",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=38",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 320
+              },
+              {
+                "year": "2022",
+                "value": 424
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 442
+              },
+              {
+                "year": "2027",
+                "value": 494
+              },
+              {
+                "year": "2032",
+                "value": 503
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 424 students in 2022; it forecasts 503 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "414905": {
+      "records": [
+        {
+          "id": "dsbn-capacity-414905",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=72",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 182
+              },
+              {
+                "year": "2022",
+                "value": 209
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 227
+              },
+              {
+                "year": "2027",
+                "value": 337
+              },
+              {
+                "year": "2032",
+                "value": 441
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 209 students in 2022; it forecasts 441 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "417521": {
+      "records": [
+        {
+          "id": "dsbn-capacity-417521",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=50",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 202
+              },
+              {
+                "year": "2022",
+                "value": 352
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 414
+              },
+              {
+                "year": "2027",
+                "value": 760
+              },
+              {
+                "year": "2032",
+                "value": 941
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 352 students in 2022; it forecasts 941 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "419320": {
+      "records": [
+        {
+          "id": "dsbn-capacity-419320",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=62",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 348,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 343
+              },
+              {
+                "year": "2022",
+                "value": 340
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 339
+              },
+              {
+                "year": "2027",
+                "value": 362
+              },
+              {
+                "year": "2032",
+                "value": 349
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 348, with 340 students in 2022; it forecasts 349 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "433357": {
+      "records": [
+        {
+          "id": "dsbn-capacity-433357",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=22",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 185,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 163
+              },
+              {
+                "year": "2022",
+                "value": 112
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 106
+              },
+              {
+                "year": "2027",
+                "value": 80
+              },
+              {
+                "year": "2032",
+                "value": 74
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 185, with 112 students in 2022; it forecasts 74 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "436747": {
+      "records": [
+        {
+          "id": "dsbn-capacity-436747",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 340,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 322
+              },
+              {
+                "year": "2022",
+                "value": 321
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 310
+              },
+              {
+                "year": "2027",
+                "value": 288
+              },
+              {
+                "year": "2032",
+                "value": 274
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 340, with 321 students in 2022; it forecasts 274 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "449350": {
+      "records": [
+        {
+          "id": "dsbn-capacity-449350",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=56",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 397,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 286
+              },
+              {
+                "year": "2022",
+                "value": 379
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 391
+              },
+              {
+                "year": "2027",
+                "value": 410
+              },
+              {
+                "year": "2032",
+                "value": 427
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 397, with 379 students in 2022; it forecasts 427 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "451568": {
+      "records": [
+        {
+          "id": "dsbn-capacity-451568",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 348,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 284
+              },
+              {
+                "year": "2022",
+                "value": 314
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 311
+              },
+              {
+                "year": "2027",
+                "value": 326
+              },
+              {
+                "year": "2032",
+                "value": 314
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 348, with 314 students in 2022; it forecasts 314 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "452084": {
+      "records": [
+        {
+          "id": "dsbn-capacity-452084",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=34",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 443,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 391
+              },
+              {
+                "year": "2022",
+                "value": 358
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 350
+              },
+              {
+                "year": "2027",
+                "value": 312
+              },
+              {
+                "year": "2032",
+                "value": 295
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 443, with 358 students in 2022; it forecasts 295 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "455075": {
+      "records": [
+        {
+          "id": "dsbn-capacity-455075",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 305,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 220
+              },
+              {
+                "year": "2022",
+                "value": 281
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 294
+              },
+              {
+                "year": "2027",
+                "value": 301
+              },
+              {
+                "year": "2032",
+                "value": 283
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 305, with 281 students in 2022; it forecasts 283 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "455989": {
+      "records": [
+        {
+          "id": "dsbn-capacity-455989",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 481,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 409
+              },
+              {
+                "year": "2022",
+                "value": 454
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 444
+              },
+              {
+                "year": "2027",
+                "value": 444
+              },
+              {
+                "year": "2032",
+                "value": 412
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 481, with 454 students in 2022; it forecasts 412 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
     "456110": {
       "records": [
         {
@@ -347,6 +2371,2030 @@
             ]
           },
           "summary": "The board's 2023 plan lists this school as Grades 1 to 8 French Immersion with an on-the-ground capacity of 322 and 495 students in 2022, and says it is over capacity and expected to stay over capacity long term. It lists no upcoming project for this planning area. Projections are the board's forecasts, and capacity is building space, not open seats in a grade or program.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "457540": {
+      "records": [
+        {
+          "id": "dsbn-capacity-457540",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=56",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 397
+              },
+              {
+                "year": "2022",
+                "value": 484
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 482
+              },
+              {
+                "year": "2027",
+                "value": 534
+              },
+              {
+                "year": "2032",
+                "value": 515
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 360, with 484 students in 2022; it forecasts 515 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "458066": {
+      "records": [
+        {
+          "id": "dsbn-capacity-458066",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=64",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 490,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 380
+              },
+              {
+                "year": "2022",
+                "value": 546
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 468
+              },
+              {
+                "year": "2027",
+                "value": 507
+              },
+              {
+                "year": "2032",
+                "value": 478
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 490, with 546 students in 2022; it forecasts 478 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "461415": {
+      "records": [
+        {
+          "id": "dsbn-capacity-461415",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=54",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 384,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 306
+              },
+              {
+                "year": "2022",
+                "value": 576
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 667
+              },
+              {
+                "year": "2027",
+                "value": 1109
+              },
+              {
+                "year": "2032",
+                "value": 1589
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 384, with 576 students in 2022; it forecasts 1,589 in 2032. The plan notes: Plan footnote: OTG capacity will change to 715 when the facility addition is completed in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "483117": {
+      "records": [
+        {
+          "id": "dsbn-capacity-483117",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=50",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 587,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 546
+              },
+              {
+                "year": "2022",
+                "value": 545
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 554
+              },
+              {
+                "year": "2027",
+                "value": 655
+              },
+              {
+                "year": "2032",
+                "value": 733
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 587, with 545 students in 2022; it forecasts 733 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "485365": {
+      "records": [
+        {
+          "id": "dsbn-capacity-485365",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=64",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 317,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 343
+              },
+              {
+                "year": "2022",
+                "value": 378
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 391
+              },
+              {
+                "year": "2027",
+                "value": 569
+              },
+              {
+                "year": "2032",
+                "value": 1049
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 317, with 378 students in 2022; it forecasts 1,049 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "491861": {
+      "records": [
+        {
+          "id": "dsbn-capacity-491861",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=54",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 213,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 213
+              },
+              {
+                "year": "2022",
+                "value": 239
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 242
+              },
+              {
+                "year": "2027",
+                "value": 250
+              },
+              {
+                "year": "2032",
+                "value": 252
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 213, with 239 students in 2022; it forecasts 252 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "505005": {
+      "records": [
+        {
+          "id": "dsbn-capacity-505005",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=38",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 164,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 184
+              },
+              {
+                "year": "2022",
+                "value": 174
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 169
+              },
+              {
+                "year": "2027",
+                "value": 174
+              },
+              {
+                "year": "2032",
+                "value": 162
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 164, with 174 students in 2022; it forecasts 162 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "505382": {
+      "records": [
+        {
+          "id": "dsbn-capacity-505382",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=30",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 581,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 515
+              },
+              {
+                "year": "2022",
+                "value": 513
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 508
+              },
+              {
+                "year": "2027",
+                "value": 502
+              },
+              {
+                "year": "2032",
+                "value": 504
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 581, with 513 students in 2022; it forecasts 504 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "510530": {
+      "records": [
+        {
+          "id": "dsbn-capacity-510530",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 302,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 248
+              },
+              {
+                "year": "2022",
+                "value": 263
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 267
+              },
+              {
+                "year": "2027",
+                "value": 276
+              },
+              {
+                "year": "2032",
+                "value": 274
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 302, with 263 students in 2022; it forecasts 274 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "514748": {
+      "records": [
+        {
+          "id": "dsbn-capacity-514748",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=62",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 305,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 160
+              },
+              {
+                "year": "2022",
+                "value": 243
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 248
+              },
+              {
+                "year": "2027",
+                "value": 253
+              },
+              {
+                "year": "2032",
+                "value": 226
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 305, with 243 students in 2022; it forecasts 226 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "514780": {
+      "records": [
+        {
+          "id": "dsbn-capacity-514780",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 354,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 346
+              },
+              {
+                "year": "2022",
+                "value": 387
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 387
+              },
+              {
+                "year": "2027",
+                "value": 401
+              },
+              {
+                "year": "2032",
+                "value": 400
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 354, with 387 students in 2022; it forecasts 400 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "517453": {
+      "records": [
+        {
+          "id": "dsbn-capacity-517453",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=22",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 259,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 351
+              },
+              {
+                "year": "2022",
+                "value": 334
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 326
+              },
+              {
+                "year": "2027",
+                "value": 315
+              },
+              {
+                "year": "2032",
+                "value": 313
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 259, with 334 students in 2022; it forecasts 313 in 2032. The plan notes: Plan footnote: OTG capacity will change to 423 when the facility addition is completed in 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "529648": {
+      "records": [
+        {
+          "id": "dsbn-capacity-529648",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=42",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 293
+              },
+              {
+                "year": "2022",
+                "value": 401
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 418
+              },
+              {
+                "year": "2027",
+                "value": 454
+              },
+              {
+                "year": "2032",
+                "value": 503
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 294, with 401 students in 2022; it forecasts 503 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "535419": {
+      "records": [
+        {
+          "id": "dsbn-capacity-535419",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=72",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 233,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 181
+              },
+              {
+                "year": "2022",
+                "value": 193
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 199
+              },
+              {
+                "year": "2027",
+                "value": 232
+              },
+              {
+                "year": "2032",
+                "value": 267
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 233, with 193 students in 2022; it forecasts 267 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "536636": {
+      "records": [
+        {
+          "id": "dsbn-capacity-536636",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=76",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 357,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 302
+              },
+              {
+                "year": "2022",
+                "value": 325
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 339
+              },
+              {
+                "year": "2027",
+                "value": 394
+              },
+              {
+                "year": "2032",
+                "value": 426
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 357, with 325 students in 2022; it forecasts 426 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "547449": {
+      "records": [
+        {
+          "id": "dsbn-capacity-547449",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=34",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 311,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 221
+              },
+              {
+                "year": "2022",
+                "value": 230
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 219
+              },
+              {
+                "year": "2027",
+                "value": 255
+              },
+              {
+                "year": "2032",
+                "value": 268
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 311, with 230 students in 2022; it forecasts 268 in 2032. The plan notes: Plan footnote: specialized programming and structure. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "557773": {
+      "records": [
+        {
+          "id": "dsbn-capacity-557773",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=76",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 308,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 416
+              },
+              {
+                "year": "2022",
+                "value": 428
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 443
+              },
+              {
+                "year": "2027",
+                "value": 498
+              },
+              {
+                "year": "2032",
+                "value": 545
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 308, with 428 students in 2022; it forecasts 545 in 2032. The plan notes: Plan footnote: OTG capacity will change to 510 when the facility addition is completed in 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "569348": {
+      "records": [
+        {
+          "id": "dsbn-capacity-569348",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=62",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 256,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 238
+              },
+              {
+                "year": "2022",
+                "value": 313
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 304
+              },
+              {
+                "year": "2027",
+                "value": 289
+              },
+              {
+                "year": "2032",
+                "value": 260
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 256, with 313 students in 2022; it forecasts 260 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "573507": {
+      "records": [
+        {
+          "id": "dsbn-capacity-573507",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=62",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 164,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 84
+              },
+              {
+                "year": "2022",
+                "value": 71
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 68
+              },
+              {
+                "year": "2027",
+                "value": 63
+              },
+              {
+                "year": "2032",
+                "value": 65
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 164, with 71 students in 2022; it forecasts 65 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "598984": {
+      "records": [
+        {
+          "id": "dsbn-capacity-598984",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=34",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 317,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 285
+              },
+              {
+                "year": "2022",
+                "value": 272
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 275
+              },
+              {
+                "year": "2027",
+                "value": 278
+              },
+              {
+                "year": "2032",
+                "value": 270
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 317, with 272 students in 2022; it forecasts 270 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "602493": {
+      "records": [
+        {
+          "id": "dsbn-capacity-602493",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=50",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 262,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 194
+              },
+              {
+                "year": "2022",
+                "value": 202
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 207
+              },
+              {
+                "year": "2027",
+                "value": 238
+              },
+              {
+                "year": "2032",
+                "value": 254
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 262, with 202 students in 2022; it forecasts 254 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "618870": {
+      "records": [
+        {
+          "id": "dsbn-capacity-618870",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=34",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 325,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 143
+              },
+              {
+                "year": "2022",
+                "value": 132
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 133
+              },
+              {
+                "year": "2027",
+                "value": 187
+              },
+              {
+                "year": "2032",
+                "value": 233
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 325, with 132 students in 2022; it forecasts 233 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "890200": {
+      "records": [
+        {
+          "id": "dsbn-capacity-890200",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=88",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1170,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 1208
+              },
+              {
+                "year": "2022",
+                "value": 1155
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 1187
+              },
+              {
+                "year": "2027",
+                "value": 1199
+              },
+              {
+                "year": "2032",
+                "value": 1350
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,170, with 1,155 students in 2022; it forecasts 1,350 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "897646": {
+      "records": [
+        {
+          "id": "dsbn-capacity-897646",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=88",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 732,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 811
+              },
+              {
+                "year": "2022",
+                "value": 984
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 1038
+              },
+              {
+                "year": "2027",
+                "value": 1182
+              },
+              {
+                "year": "2032",
+                "value": 1336
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 732, with 984 students in 2022; it forecasts 1,336 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "906328": {
+      "records": [
+        {
+          "id": "dsbn-capacity-906328",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=86",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1152,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 782
+              },
+              {
+                "year": "2022",
+                "value": 836
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 849
+              },
+              {
+                "year": "2027",
+                "value": 971
+              },
+              {
+                "year": "2032",
+                "value": 1147
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,152, with 836 students in 2022; it forecasts 1,147 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "906972": {
+      "records": [
+        {
+          "id": "dsbn-capacity-906972",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=86",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 849,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 327
+              },
+              {
+                "year": "2022",
+                "value": 441
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 482
+              },
+              {
+                "year": "2027",
+                "value": 522
+              },
+              {
+                "year": "2032",
+                "value": 628
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 849, with 441 students in 2022; it forecasts 628 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "907677": {
+      "records": [
+        {
+          "id": "dsbn-capacity-907677",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=82",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1092,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 828
+              },
+              {
+                "year": "2022",
+                "value": 1083
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 1065
+              },
+              {
+                "year": "2027",
+                "value": 1214
+              },
+              {
+                "year": "2032",
+                "value": 1272
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,092, with 1,083 students in 2022; it forecasts 1,272 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "914010": {
+      "records": [
+        {
+          "id": "dsbn-capacity-914010",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=82",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 789,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 831
+              },
+              {
+                "year": "2022",
+                "value": 686
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 711
+              },
+              {
+                "year": "2027",
+                "value": 669
+              },
+              {
+                "year": "2032",
+                "value": 729
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 789, with 686 students in 2022; it forecasts 729 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "921750": {
+      "records": [
+        {
+          "id": "dsbn-capacity-921750",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=82",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 714,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 601
+              },
+              {
+                "year": "2022",
+                "value": 638
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 639
+              },
+              {
+                "year": "2027",
+                "value": 695
+              },
+              {
+                "year": "2032",
+                "value": 771
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 714, with 638 students in 2022; it forecasts 771 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "922854": {
+      "records": [
+        {
+          "id": "dsbn-capacity-922854",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=82",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 210,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 49
+              },
+              {
+                "year": "2022",
+                "value": 51
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 50
+              },
+              {
+                "year": "2027",
+                "value": 50
+              },
+              {
+                "year": "2032",
+                "value": 50
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 210, with 51 students in 2022; it forecasts 50 in 2032. The plan notes: Plan footnote: specialized programming and structure. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "935455": {
+      "records": [
+        {
+          "id": "dsbn-capacity-935455",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=84",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 231,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 211
+              },
+              {
+                "year": "2022",
+                "value": 233
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 253
+              },
+              {
+                "year": "2027",
+                "value": 245
+              },
+              {
+                "year": "2032",
+                "value": 275
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 231, with 233 students in 2022; it forecasts 275 in 2032. The plan notes: Plan footnote: specialized programming and structure. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "935700": {
+      "records": [
+        {
+          "id": "dsbn-capacity-935700",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=86",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1143,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 367
+              },
+              {
+                "year": "2022",
+                "value": 395
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 437
+              },
+              {
+                "year": "2027",
+                "value": 561
+              },
+              {
+                "year": "2032",
+                "value": 758
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,143, with 395 students in 2022; it forecasts 758 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "942464": {
+      "records": [
+        {
+          "id": "dsbn-capacity-942464",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=84",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 807,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 894
+              },
+              {
+                "year": "2022",
+                "value": 966
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 984
+              },
+              {
+                "year": "2027",
+                "value": 1027
+              },
+              {
+                "year": "2032",
+                "value": 1094
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 807, with 966 students in 2022; it forecasts 1,094 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "944157": {
+      "records": [
+        {
+          "id": "dsbn-capacity-944157",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=84",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1347,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 532
+              },
+              {
+                "year": "2022",
+                "value": 608
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 612
+              },
+              {
+                "year": "2027",
+                "value": 542
+              },
+              {
+                "year": "2032",
+                "value": 595
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,347, with 608 students in 2022; it forecasts 595 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "945064": {
+      "records": [
+        {
+          "id": "dsbn-capacity-945064",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=88",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1074,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 535
+              },
+              {
+                "year": "2022",
+                "value": 674
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 734
+              },
+              {
+                "year": "2027",
+                "value": 862
+              },
+              {
+                "year": "2032",
+                "value": 1144
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,074, with 674 students in 2022; it forecasts 1,144 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "947180": {
+      "records": [
+        {
+          "id": "dsbn-capacity-947180",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=86",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 882,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 819
+              },
+              {
+                "year": "2022",
+                "value": 945
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 1013
+              },
+              {
+                "year": "2027",
+                "value": 1119
+              },
+              {
+                "year": "2032",
+                "value": 1271
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 882, with 945 students in 2022; it forecasts 1,271 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "948055": {
+      "records": [
+        {
+          "id": "dsbn-capacity-948055",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=84",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 903,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 623
+              },
+              {
+                "year": "2022",
+                "value": 622
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 720
+              },
+              {
+                "year": "2027",
+                "value": 958
+              },
+              {
+                "year": "2032",
+                "value": 1117
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 903, with 622 students in 2022; it forecasts 1,117 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "951561": {
+      "records": [
+        {
+          "id": "dsbn-capacity-951561",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=80",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1456,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 1341
+              },
+              {
+                "year": "2022",
+                "value": 1446
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 1568
+              },
+              {
+                "year": "2027",
+                "value": 1748
+              },
+              {
+                "year": "2032",
+                "value": 1867
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,456, with 1,446 students in 2022; it forecasts 1,867 in 2032. The plan notes: Plan footnote: current utilization is based on the combined OTG of the former Grimsby SS and Beamsville HS buildings; OTG capacity of West Niagara SS will be 1,456 when the new school opens in 2023. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "952214": {
+      "records": [
+        {
+          "id": "dsbn-capacity-952214",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=88",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1113,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 604
+              },
+              {
+                "year": "2022",
+                "value": 663
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 752
+              },
+              {
+                "year": "2027",
+                "value": 847
+              },
+              {
+                "year": "2032",
+                "value": 854
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,113, with 663 students in 2022; it forecasts 854 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "094978": {
+      "records": [
+        {
+          "id": "dsbn-capacity-094978",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=22",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 486,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 462
+              },
+              {
+                "year": "2022",
+                "value": 592
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 623
+              },
+              {
+                "year": "2027",
+                "value": 711
+              },
+              {
+                "year": "2032",
+                "value": 682
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 486, with 592 students in 2022; it forecasts 682 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "073784": {
+      "records": [
+        {
+          "id": "dsbn-capacity-073784",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=26",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 193
+              },
+              {
+                "year": "2022",
+                "value": 215
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 217
+              },
+              {
+                "year": "2027",
+                "value": 246
+              },
+              {
+                "year": "2032",
+                "value": 257
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 215 students in 2022; it forecasts 257 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "084700": {
+      "records": [
+        {
+          "id": "dsbn-capacity-084700",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=36",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 369,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 216
+              },
+              {
+                "year": "2022",
+                "value": 259
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 264
+              },
+              {
+                "year": "2027",
+                "value": 290
+              },
+              {
+                "year": "2032",
+                "value": 308
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 369, with 259 students in 2022; it forecasts 308 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "070661": {
+      "records": [
+        {
+          "id": "dsbn-capacity-070661",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=38",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 233,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 141
+              },
+              {
+                "year": "2022",
+                "value": 196
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 196
+              },
+              {
+                "year": "2027",
+                "value": 206
+              },
+              {
+                "year": "2032",
+                "value": 189
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 233, with 196 students in 2022; it forecasts 189 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "000590": {
+      "records": [
+        {
+          "id": "dsbn-capacity-000590",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=46",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 327
+              },
+              {
+                "year": "2022",
+                "value": 329
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 320
+              },
+              {
+                "year": "2027",
+                "value": 340
+              },
+              {
+                "year": "2032",
+                "value": 355
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 329 students in 2022; it forecasts 355 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "001793": {
+      "records": [
+        {
+          "id": "dsbn-capacity-001793",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=56",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 377
+              },
+              {
+                "year": "2022",
+                "value": 429
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 453
+              },
+              {
+                "year": "2027",
+                "value": 469
+              },
+              {
+                "year": "2032",
+                "value": 656
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 363, with 429 students in 2022; it forecasts 656 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "001649": {
+      "records": [
+        {
+          "id": "dsbn-capacity-001649",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2023–2032 (PDF)",
+          "url": "https://www.dsbn.org/wp-content/uploads/2026/07/dsbn-long-term-accommodation-plan-2023-2032.pdf#page=76",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 518,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2017",
+                "value": 533
+              },
+              {
+                "year": "2022",
+                "value": 662
+              }
+            ],
+            "projected": [
+              {
+                "year": "2023",
+                "value": 690
+              },
+              {
+                "year": "2027",
+                "value": 832
+              },
+              {
+                "year": "2032",
+                "value": 860
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 518, with 662 students in 2022; it forecasts 860 in 2032. Capacity is building space, not open seats in a grade or program, and forecasts change.",
           "verified": "2026-11-26"
         }
       ]

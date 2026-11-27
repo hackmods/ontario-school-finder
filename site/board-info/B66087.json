@@ -385,5 +385,1195 @@
         "099007": "Central Senior School (Lindsay)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "147524": {
+      "records": [
+        {
+          "id": "tldsb-capacity-147524",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=14",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 583,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 327
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 583, with 327 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "154113": {
+      "records": [
+        {
+          "id": "tldsb-capacity-154113",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=15",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 524,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 278
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 524, with 278 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "170240": {
+      "records": [
+        {
+          "id": "tldsb-capacity-170240",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=32",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 410,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 349
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 410, with 349 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "194018": {
+      "records": [
+        {
+          "id": "tldsb-capacity-194018",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=31",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 294,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 239
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 294, with 239 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "228877": {
+      "records": [
+        {
+          "id": "tldsb-capacity-228877",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=59",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 264
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 314, with 264 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "240761": {
+      "records": [
+        {
+          "id": "tldsb-capacity-240761",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=41",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 484,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 331
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 484, with 331 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "273597": {
+      "records": [
+        {
+          "id": "tldsb-capacity-273597",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=47",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 535,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 418
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 535, with 418 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "278211": {
+      "records": [
+        {
+          "id": "tldsb-capacity-278211",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=48",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 211,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 139
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 211, with 139 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "294004": {
+      "records": [
+        {
+          "id": "tldsb-capacity-294004",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=18",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 234,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 129
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 234, with 129 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "307947": {
+      "records": [
+        {
+          "id": "tldsb-capacity-307947",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=33",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 516,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 435
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 516, with 435 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "311685": {
+      "records": [
+        {
+          "id": "tldsb-capacity-311685",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=20",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 487,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 514
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 487, with 514 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "327280": {
+      "records": [
+        {
+          "id": "tldsb-capacity-327280",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=62",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 271,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 315
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 271, with 315 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "329460": {
+      "records": [
+        {
+          "id": "tldsb-capacity-329460",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=21",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 558,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 388
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 558, with 388 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "357707": {
+      "records": [
+        {
+          "id": "tldsb-capacity-357707",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=58",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 212
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 314, with 212 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "368946": {
+      "records": [
+        {
+          "id": "tldsb-capacity-368946",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=63",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 753,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 589
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 753, with 589 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "374601": {
+      "records": [
+        {
+          "id": "tldsb-capacity-374601",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=61",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 196,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 188
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 196, with 188 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "382140": {
+      "records": [
+        {
+          "id": "tldsb-capacity-382140",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=64",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 326,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 357
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 326, with 357 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "382191": {
+      "records": [
+        {
+          "id": "tldsb-capacity-382191",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=65",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 208,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 193
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 208, with 193 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "418013": {
+      "records": [
+        {
+          "id": "tldsb-capacity-418013",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=17",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 338
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 338 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "435708": {
+      "records": [
+        {
+          "id": "tldsb-capacity-435708",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=22",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 401,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 417
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 401, with 417 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "503630": {
+      "records": [
+        {
+          "id": "tldsb-capacity-503630",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=25",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 484,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 240
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 484, with 240 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "568694": {
+      "records": [
+        {
+          "id": "tldsb-capacity-568694",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=52",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 248,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 252
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 248, with 252 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "575194": {
+      "records": [
+        {
+          "id": "tldsb-capacity-575194",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=23",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 231,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 159
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 231, with 159 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "590002": {
+      "records": [
+        {
+          "id": "tldsb-capacity-590002",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=66",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 130,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 122
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 130, with 122 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "606138": {
+      "records": [
+        {
+          "id": "tldsb-capacity-606138",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=43",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 81,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 62
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 81, with 62 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "620173": {
+      "records": [
+        {
+          "id": "tldsb-capacity-620173",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=35",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 279
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 432, with 279 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "895660": {
+      "records": [
+        {
+          "id": "tldsb-capacity-895660",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=67",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 1155,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 790
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,155, with 790 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "909700": {
+      "records": [
+        {
+          "id": "tldsb-capacity-909700",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=36",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 1008,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 651
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,008, with 651 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "914380": {
+      "records": [
+        {
+          "id": "tldsb-capacity-914380",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=68",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 588,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 315
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 588, with 315 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "915297": {
+      "records": [
+        {
+          "id": "tldsb-capacity-915297",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=44",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 675,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 438
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 675, with 438 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "917761": {
+      "records": [
+        {
+          "id": "tldsb-capacity-917761",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=53",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 1089,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 961
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,089, with 961 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "918130": {
+      "records": [
+        {
+          "id": "tldsb-capacity-918130",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=27",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 1311,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 1030
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,311, with 1,030 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "922838": {
+      "records": [
+        {
+          "id": "tldsb-capacity-922838",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=26",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 1176,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 535
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,176, with 535 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "010219": {
+      "records": [
+        {
+          "id": "tldsb-capacity-010219",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=12",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 222,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 118
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 222, with 118 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "099007": {
+      "records": [
+        {
+          "id": "tldsb-capacity-099007",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=13",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 437,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 354
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 437, with 354 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "055450": {
+      "records": [
+        {
+          "id": "tldsb-capacity-055450",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=30",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 447,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 463
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 447, with 463 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "048305": {
+      "records": [
+        {
+          "id": "tldsb-capacity-048305",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=34",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 453,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 278
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 453, with 278 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "019577": {
+      "records": [
+        {
+          "id": "tldsb-capacity-019577",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=39",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 685,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 485
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 685, with 485 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "083798": {
+      "records": [
+        {
+          "id": "tldsb-capacity-083798",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=40",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 256,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 38
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 256, with 38 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "099520": {
+      "records": [
+        {
+          "id": "tldsb-capacity-099520",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=49",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 338,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 256
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 338, with 256 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "068454": {
+      "records": [
+        {
+          "id": "tldsb-capacity-068454",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=50",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 596,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "June 2024",
+                "value": 479
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 596, with 479 students in June 2024. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "099783": {
+      "records": [
+        {
+          "id": "tldsb-capacity-099783",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=51",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 399,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 341
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 399, with 341 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "056758": {
+      "records": [
+        {
+          "id": "tldsb-capacity-056758",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=57",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 466,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 380
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 466, with 380 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "034789": {
+      "records": [
+        {
+          "id": "tldsb-capacity-034789",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan 2025-2029 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf#page=60",
+          "source_date": "March 2025",
+          "facts": {
+            "capacity_otg": 121,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "current",
+                "value": 56
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 121, with 56 students in the plan's current count (no date given). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

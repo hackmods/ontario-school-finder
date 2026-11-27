@@ -1,5 +1,20 @@
 // Small shared helpers. No dependencies.
 
+// ---- language: pages under /fr/ are French (machine translation, unreviewed; English is the reference).
+// t(text, vars) translates with the same catalogue the server pages use (site/i18n/fr/js-*.json
+// and data.json, built into i18n-fr.js), falling back to English; u("/school/1/") links in the page's language.
+export const LANG = document.documentElement.lang.startsWith("fr") ? "fr" : "en";
+const DICT = LANG === "fr" ? (await import("./i18n-fr.js")).default : {};
+export function t(s, vars) {
+  let out = DICT[s] ?? s;
+  if (vars) out = out.replace(/\{(\w+)\}/g, (m, k) => (k in vars ? String(vars[k]) : m));
+  return out;
+}
+const SHARED = /^\/(data|static)\/|^\/(favicon\.ico|sitemap\.xml|robots\.txt|build\.json)/;
+export const u = (path) => (LANG !== "en" && path.startsWith("/") && !path.startsWith("//") && !SHARED.test(path) && !path.startsWith(`/${LANG}/`) ? `/${LANG}${path}` : path);
+/** Numbers in the page's language (French: 1 234,5). */
+export const num = (n, opts) => (n == null ? "" : Number(n).toLocaleString(LANG === "fr" ? "fr-CA" : "en-CA", opts));
+
 export const SYSTEMS = {
   "english-public": "English public",
   "english-catholic": "English Catholic",
@@ -61,9 +76,12 @@ export function km(a, b) {
   return 2 * R * Math.asin(Math.sqrt(h));
 }
 
-export const fmtKm = (d) => (d < 1 ? `${Math.round(d * 1000)} m` : `${d < 10 ? d.toFixed(1) : Math.round(d)} km`);
+export const fmtKm = (d) => (d < 1 ? `${num(Math.round(d * 1000), { useGrouping: false })} m` : `${d < 10 ? num(d, { minimumFractionDigits: 1, maximumFractionDigits: 1 }) : num(Math.round(d), { useGrouping: false })} km`);
 
-export const levelName = (l) => (l === "E" ? "Elementary" : l === "S" ? "Secondary" : l);
+/** A grade range as the Ministry writes it ("JK-8"), in the page's language (French: "M-8"; JE = senior kindergarten). */
+export const gradesText = (g) => (LANG === "fr" && g ? String(g).replace(/\bJK\b/g, "M").replace(/\bSK\b/g, "JE") : g || "");
+
+export const levelName = (l) => (l === "E" ? t("Elementary") : l === "S" ? t("Secondary") : l);
 
 // One program vocabulary for search, maps, school pages and Compare. Keep in step with
 // PROGRAM_LABELS in site/family.py (pipeline/tests/test_family.py checks they match).
@@ -77,10 +95,10 @@ export const PROGRAM_LABELS = {
 /** Program badges for a search-index row or map point: fi/fb = French Immersion (Ministry list / board's list). */
 export function programBadges(r) {
   const out = [];
-  if (r.lang === "F") out.push({ key: "french-language", label: PROGRAM_LABELS["french-language"] });
-  if (r.fi || r.fb) out.push({ key: "french-immersion", label: PROGRAM_LABELS["french-immersion"] });
-  if (r.ef) out.push({ key: "extended-french", label: PROGRAM_LABELS["extended-french"] });
-  if (r.sh) out.push({ key: "shsm", label: `SHSM · ${r.sh} sector${+r.sh === 1 ? "" : "s"}` });
+  if (r.lang === "F") out.push({ key: "french-language", label: t(PROGRAM_LABELS["french-language"]) });
+  if (r.fi || r.fb) out.push({ key: "french-immersion", label: t(PROGRAM_LABELS["french-immersion"]) });
+  if (r.ef) out.push({ key: "extended-french", label: t(PROGRAM_LABELS["extended-french"]) });
+  if (r.sh) out.push({ key: "shsm", label: +r.sh === 1 ? t("SHSM · 1 sector") : t("SHSM · {n} sectors", { n: r.sh }) });
   return out;
 }
 
@@ -91,7 +109,7 @@ export const badgesHTML = (r) => {
 
 // Grades in order; "K" is senior kindergarten (SK).
 export const GRADE_ORDER = ["JK", "K", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
-export const gradeName = (g) => (g === "JK" ? "Junior kindergarten" : g === "K" ? "Senior kindergarten" : `Grade ${g}`);
+export const gradeName = (g) => (g === "JK" ? t("Junior kindergarten") : g === "K" ? t("Senior kindergarten") : t("Grade {g}", { g }));
 
 /** "JK-8" -> ["JK", "K", "1", ... "8"]; null when the range is missing or unreadable (unknown, not "none"). */
 export function gradesOffered(range) {

@@ -347,5 +347,2874 @@
         "941557": "Simcoe Composite School (Simcoe)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "126306": {
+      "records": [
+        {
+          "id": "gedsb-capacity-126306",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=28",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 223
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 222
+              },
+              {
+                "year": "2030",
+                "value": 238
+              },
+              {
+                "year": "2035",
+                "value": 230
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 223 students in 2024; it forecasts 230 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "132010": {
+      "records": [
+        {
+          "id": "gedsb-capacity-132010",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=20",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 395
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 395
+              },
+              {
+                "year": "2030",
+                "value": 408
+              },
+              {
+                "year": "2035",
+                "value": 393
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 395 students in 2024; it forecasts 393 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "136441": {
+      "records": [
+        {
+          "id": "gedsb-capacity-136441",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=26",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 379
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 386
+              },
+              {
+                "year": "2030",
+                "value": 468
+              },
+              {
+                "year": "2035",
+                "value": 547
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 379 students in 2024; it forecasts 547 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "145602": {
+      "records": [
+        {
+          "id": "gedsb-capacity-145602",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=24",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 748,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 617
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 604
+              },
+              {
+                "year": "2030",
+                "value": 602
+              },
+              {
+                "year": "2035",
+                "value": 598
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 748, with 617 students in 2024; it forecasts 598 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "151130": {
+      "records": [
+        {
+          "id": "gedsb-capacity-151130",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=10",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 374,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 322
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 314
+              },
+              {
+                "year": "2030",
+                "value": 336
+              },
+              {
+                "year": "2035",
+                "value": 332
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 374, with 322 students in 2024; it forecasts 332 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "153931": {
+      "records": [
+        {
+          "id": "gedsb-capacity-153931",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=20",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 596,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 531
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 527
+              },
+              {
+                "year": "2030",
+                "value": 506
+              },
+              {
+                "year": "2035",
+                "value": 505
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 596, with 531 students in 2024; it forecasts 505 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "176049": {
+      "records": [
+        {
+          "id": "gedsb-capacity-176049",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=16",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 498,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 707
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 699
+              },
+              {
+                "year": "2030",
+                "value": 535
+              },
+              {
+                "year": "2035",
+                "value": 511
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 498, with 707 students in 2024; it forecasts 511 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "192880": {
+      "records": [
+        {
+          "id": "gedsb-capacity-192880",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=14",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 547,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 421
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 398
+              },
+              {
+                "year": "2030",
+                "value": 366
+              },
+              {
+                "year": "2035",
+                "value": 394
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 547, with 421 students in 2024; it forecasts 394 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "215321": {
+      "records": [
+        {
+          "id": "gedsb-capacity-215321",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=12",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 184,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 305
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 314
+              },
+              {
+                "year": "2030",
+                "value": 349
+              },
+              {
+                "year": "2035",
+                "value": 359
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 184, with 305 students in 2024; it forecasts 359 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "220035": {
+      "records": [
+        {
+          "id": "gedsb-capacity-220035",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=6",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 167,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 204
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 206
+              },
+              {
+                "year": "2030",
+                "value": 222
+              },
+              {
+                "year": "2035",
+                "value": 236
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 167, with 204 students in 2024; it forecasts 236 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "226017": {
+      "records": [
+        {
+          "id": "gedsb-capacity-226017",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=10",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 305,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 194
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 218
+              },
+              {
+                "year": "2030",
+                "value": 254
+              },
+              {
+                "year": "2035",
+                "value": 270
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 305, with 194 students in 2024; it forecasts 270 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "227056": {
+      "records": [
+        {
+          "id": "gedsb-capacity-227056",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=10",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 312,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 141
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 119
+              },
+              {
+                "year": "2030",
+                "value": 114
+              },
+              {
+                "year": "2035",
+                "value": 118
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 312, with 141 students in 2024; it forecasts 118 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "229393": {
+      "records": [
+        {
+          "id": "gedsb-capacity-229393",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=14",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 222
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 259
+              },
+              {
+                "year": "2030",
+                "value": 347
+              },
+              {
+                "year": "2035",
+                "value": 331
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 222 students in 2024; it forecasts 331 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "233706": {
+      "records": [
+        {
+          "id": "gedsb-capacity-233706",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=22",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 335,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 311
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 302
+              },
+              {
+                "year": "2030",
+                "value": 298
+              },
+              {
+                "year": "2035",
+                "value": 300
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 335, with 311 students in 2024; it forecasts 300 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "253397": {
+      "records": [
+        {
+          "id": "gedsb-capacity-253397",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=18",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 441,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 376
+              },
+              {
+                "year": "2030",
+                "value": 489
+              },
+              {
+                "year": "2035",
+                "value": 478
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 441; it forecasts 478 in 2035. The plan notes: New school opening 2025-26; plan shows 0 enrolment for 2024 (not an actual figure). Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "265608": {
+      "records": [
+        {
+          "id": "gedsb-capacity-265608",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=28",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 302,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 261
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 253
+              },
+              {
+                "year": "2030",
+                "value": 171
+              },
+              {
+                "year": "2035",
+                "value": 147
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 302, with 261 students in 2024; it forecasts 147 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "280097": {
+      "records": [
+        {
+          "id": "gedsb-capacity-280097",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=20",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 434,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 450
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 383
+              },
+              {
+                "year": "2030",
+                "value": 553
+              },
+              {
+                "year": "2035",
+                "value": 937
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 434, with 450 students in 2024; it forecasts 937 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "281263": {
+      "records": [
+        {
+          "id": "gedsb-capacity-281263",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=10",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 294
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 292
+              },
+              {
+                "year": "2030",
+                "value": 291
+              },
+              {
+                "year": "2035",
+                "value": 296
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 314, with 294 students in 2024; it forecasts 296 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "282308": {
+      "records": [
+        {
+          "id": "gedsb-capacity-282308",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=22",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 400,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 367
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 366
+              },
+              {
+                "year": "2030",
+                "value": 363
+              },
+              {
+                "year": "2035",
+                "value": 389
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 400, with 367 students in 2024; it forecasts 389 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "295434": {
+      "records": [
+        {
+          "id": "gedsb-capacity-295434",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=12",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 398,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 374
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 377
+              },
+              {
+                "year": "2030",
+                "value": 353
+              },
+              {
+                "year": "2035",
+                "value": 350
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 398, with 374 students in 2024; it forecasts 350 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "308170": {
+      "records": [
+        {
+          "id": "gedsb-capacity-308170",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=10",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 317,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 360
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 367
+              },
+              {
+                "year": "2030",
+                "value": 367
+              },
+              {
+                "year": "2035",
+                "value": 353
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 317, with 360 students in 2024; it forecasts 353 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "326259": {
+      "records": [
+        {
+          "id": "gedsb-capacity-326259",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=24",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 373,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 460
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 441
+              },
+              {
+                "year": "2030",
+                "value": 463
+              },
+              {
+                "year": "2035",
+                "value": 451
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 373, with 460 students in 2024; it forecasts 451 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "329100": {
+      "records": [
+        {
+          "id": "gedsb-capacity-329100",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=12",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 316
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 327
+              },
+              {
+                "year": "2030",
+                "value": 349
+              },
+              {
+                "year": "2035",
+                "value": 368
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 316 students in 2024; it forecasts 368 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "378372": {
+      "records": [
+        {
+          "id": "gedsb-capacity-378372",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=8",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 245
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 238
+              },
+              {
+                "year": "2030",
+                "value": 220
+              },
+              {
+                "year": "2035",
+                "value": 220
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 236, with 245 students in 2024; it forecasts 220 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "403466": {
+      "records": [
+        {
+          "id": "gedsb-capacity-403466",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=26",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 233,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 234
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 229
+              },
+              {
+                "year": "2030",
+                "value": 220
+              },
+              {
+                "year": "2035",
+                "value": 215
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 233, with 234 students in 2024; it forecasts 215 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "403725": {
+      "records": [
+        {
+          "id": "gedsb-capacity-403725",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=26",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 248,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 217
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 216
+              },
+              {
+                "year": "2030",
+                "value": 217
+              },
+              {
+                "year": "2035",
+                "value": 222
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 248, with 217 students in 2024; it forecasts 222 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "410225": {
+      "records": [
+        {
+          "id": "gedsb-capacity-410225",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=6",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 512,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 508
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 500
+              },
+              {
+                "year": "2030",
+                "value": 487
+              },
+              {
+                "year": "2035",
+                "value": 595
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 512, with 508 students in 2024; it forecasts 595 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "412984": {
+      "records": [
+        {
+          "id": "gedsb-capacity-412984",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=16",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 616,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 832
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 833
+              },
+              {
+                "year": "2030",
+                "value": 668
+              },
+              {
+                "year": "2035",
+                "value": 690
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 616, with 832 students in 2024; it forecasts 690 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "417505": {
+      "records": [
+        {
+          "id": "gedsb-capacity-417505",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=18",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 213,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 217
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 209
+              },
+              {
+                "year": "2030",
+                "value": 197
+              },
+              {
+                "year": "2035",
+                "value": 187
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 213, with 217 students in 2024; it forecasts 187 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "451304": {
+      "records": [
+        {
+          "id": "gedsb-capacity-451304",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=28",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 179,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 239
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 230
+              },
+              {
+                "year": "2030",
+                "value": 214
+              },
+              {
+                "year": "2035",
+                "value": 206
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 179, with 239 students in 2024; it forecasts 206 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "452866": {
+      "records": [
+        {
+          "id": "gedsb-capacity-452866",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=10",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 300,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 201
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 199
+              },
+              {
+                "year": "2030",
+                "value": 180
+              },
+              {
+                "year": "2035",
+                "value": 177
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 300, with 201 students in 2024; it forecasts 177 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "456764": {
+      "records": [
+        {
+          "id": "gedsb-capacity-456764",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=16",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 279,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 240
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 235
+              },
+              {
+                "year": "2030",
+                "value": 240
+              },
+              {
+                "year": "2035",
+                "value": 228
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 279, with 240 students in 2024; it forecasts 228 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "468064": {
+      "records": [
+        {
+          "id": "gedsb-capacity-468064",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=6",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 536,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 601
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 576
+              },
+              {
+                "year": "2030",
+                "value": 463
+              },
+              {
+                "year": "2035",
+                "value": 540
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 536, with 601 students in 2024; it forecasts 540 in 2035. The plan notes: Capacity rises to 720 with an addition due in 2026-27. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "469505": {
+      "records": [
+        {
+          "id": "gedsb-capacity-469505",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=20",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 266
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 260
+              },
+              {
+                "year": "2030",
+                "value": 240
+              },
+              {
+                "year": "2035",
+                "value": 233
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 266 students in 2024; it forecasts 233 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "485306": {
+      "records": [
+        {
+          "id": "gedsb-capacity-485306",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=18",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 642,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 694
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 708
+              },
+              {
+                "year": "2030",
+                "value": 732
+              },
+              {
+                "year": "2035",
+                "value": 772
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 642, with 694 students in 2024; it forecasts 772 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "494208": {
+      "records": [
+        {
+          "id": "gedsb-capacity-494208",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=14",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 377,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 366
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 358
+              },
+              {
+                "year": "2030",
+                "value": 433
+              },
+              {
+                "year": "2035",
+                "value": 479
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 377, with 366 students in 2024; it forecasts 479 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "502324": {
+      "records": [
+        {
+          "id": "gedsb-capacity-502324",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=8",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 225,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 215
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 220
+              },
+              {
+                "year": "2030",
+                "value": 222
+              },
+              {
+                "year": "2035",
+                "value": 231
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 225, with 215 students in 2024; it forecasts 231 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "505510": {
+      "records": [
+        {
+          "id": "gedsb-capacity-505510",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=20",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 164,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 236
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 166
+              },
+              {
+                "year": "2030",
+                "value": 130
+              },
+              {
+                "year": "2035",
+                "value": 110
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 164, with 236 students in 2024; it forecasts 110 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "521116": {
+      "records": [
+        {
+          "id": "gedsb-capacity-521116",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=26",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 271,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 260
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 261
+              },
+              {
+                "year": "2030",
+                "value": 258
+              },
+              {
+                "year": "2035",
+                "value": 258
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 271, with 260 students in 2024; it forecasts 258 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "521760": {
+      "records": [
+        {
+          "id": "gedsb-capacity-521760",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=6",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 470,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 382
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 388
+              },
+              {
+                "year": "2030",
+                "value": 465
+              },
+              {
+                "year": "2035",
+                "value": 540
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 470, with 382 students in 2024; it forecasts 540 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "558113": {
+      "records": [
+        {
+          "id": "gedsb-capacity-558113",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=12",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 213,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 187
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 198
+              },
+              {
+                "year": "2030",
+                "value": 187
+              },
+              {
+                "year": "2035",
+                "value": 178
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 213, with 187 students in 2024; it forecasts 178 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "584037": {
+      "records": [
+        {
+          "id": "gedsb-capacity-584037",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=22",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 235
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 215
+              },
+              {
+                "year": "2030",
+                "value": 202
+              },
+              {
+                "year": "2035",
+                "value": 190
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 236, with 235 students in 2024; it forecasts 190 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "586110": {
+      "records": [
+        {
+          "id": "gedsb-capacity-586110",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=24",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 412,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 403
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 387
+              },
+              {
+                "year": "2030",
+                "value": 394
+              },
+              {
+                "year": "2035",
+                "value": 412
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 412, with 403 students in 2024; it forecasts 412 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "596647": {
+      "records": [
+        {
+          "id": "gedsb-capacity-596647",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=104",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 327,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 544
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 548
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 327, with 544 students in 2024; it forecasts 548 in 2025. The plan notes: Closes 2026; capacity 327 is from the appendix table (p104), the profile table on p24 leaves capacity blank; no 2030/2035 projections. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "891304": {
+      "records": [
+        {
+          "id": "gedsb-capacity-891304",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=32",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 168,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 145
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 128
+              },
+              {
+                "year": "2030",
+                "value": 128
+              },
+              {
+                "year": "2035",
+                "value": 127
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 168, with 145 students in 2024; it forecasts 127 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "896187": {
+      "records": [
+        {
+          "id": "gedsb-capacity-896187",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=32",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 1260,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 1148
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 1142
+              },
+              {
+                "year": "2030",
+                "value": 1064
+              },
+              {
+                "year": "2035",
+                "value": 1101
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,260, with 1,148 students in 2024; it forecasts 1,101 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "898007": {
+      "records": [
+        {
+          "id": "gedsb-capacity-898007",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=34",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 558,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 660
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 699
+              },
+              {
+                "year": "2030",
+                "value": 740
+              },
+              {
+                "year": "2035",
+                "value": 744
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 558, with 660 students in 2024; it forecasts 744 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "899046": {
+      "records": [
+        {
+          "id": "gedsb-capacity-899046",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=34",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 927,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 634
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 705
+              },
+              {
+                "year": "2030",
+                "value": 836
+              },
+              {
+                "year": "2035",
+                "value": 790
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 927, with 634 students in 2024; it forecasts 790 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "903728": {
+      "records": [
+        {
+          "id": "gedsb-capacity-903728",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=36",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 546,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 572
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 637
+              },
+              {
+                "year": "2030",
+                "value": 650
+              },
+              {
+                "year": "2035",
+                "value": 682
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 546, with 572 students in 2024; it forecasts 682 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "906069": {
+      "records": [
+        {
+          "id": "gedsb-capacity-906069",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=34",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 978,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 338
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 358
+              },
+              {
+                "year": "2030",
+                "value": 384
+              },
+              {
+                "year": "2035",
+                "value": 384
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 978, with 338 students in 2024; it forecasts 384 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "915033": {
+      "records": [
+        {
+          "id": "gedsb-capacity-915033",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=34",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 801,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 387
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 427
+              },
+              {
+                "year": "2030",
+                "value": 441
+              },
+              {
+                "year": "2035",
+                "value": 431
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 801, with 387 students in 2024; it forecasts 431 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "916412": {
+      "records": [
+        {
+          "id": "gedsb-capacity-916412",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=32",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 630,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 262
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 239
+              },
+              {
+                "year": "2030",
+                "value": 145
+              },
+              {
+                "year": "2035",
+                "value": 145
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 630, with 262 students in 2024; it forecasts 145 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "930245": {
+      "records": [
+        {
+          "id": "gedsb-capacity-930245",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=32",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 1386,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 1054
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 1073
+              },
+              {
+                "year": "2030",
+                "value": 1086
+              },
+              {
+                "year": "2035",
+                "value": 1131
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,386, with 1,054 students in 2024; it forecasts 1,131 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "933490": {
+      "records": [
+        {
+          "id": "gedsb-capacity-933490",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=30",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 948,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 945
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 984
+              },
+              {
+                "year": "2030",
+                "value": 1104
+              },
+              {
+                "year": "2035",
+                "value": 1189
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 948, with 945 students in 2024; it forecasts 1,189 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "934402": {
+      "records": [
+        {
+          "id": "gedsb-capacity-934402",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=32",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 1374,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 933
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 999
+              },
+              {
+                "year": "2030",
+                "value": 1251
+              },
+              {
+                "year": "2035",
+                "value": 1293
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,374, with 933 students in 2024; it forecasts 1,293 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "941557": {
+      "records": [
+        {
+          "id": "gedsb-capacity-941557",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=36",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 1083,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 728
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 767
+              },
+              {
+                "year": "2030",
+                "value": 826
+              },
+              {
+                "year": "2035",
+                "value": 797
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,083, with 728 students in 2024; it forecasts 797 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "949035": {
+      "records": [
+        {
+          "id": "gedsb-capacity-949035",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=36",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 702,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 498
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 512
+              },
+              {
+                "year": "2030",
+                "value": 447
+              },
+              {
+                "year": "2035",
+                "value": 378
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 702, with 498 students in 2024; it forecasts 378 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "950785": {
+      "records": [
+        {
+          "id": "gedsb-capacity-950785",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=36",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 606,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 486
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 496
+              },
+              {
+                "year": "2030",
+                "value": 426
+              },
+              {
+                "year": "2035",
+                "value": 362
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 606, with 486 students in 2024; it forecasts 362 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "097578": {
+      "records": [
+        {
+          "id": "gedsb-capacity-097578",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=6",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 259,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 243
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 252
+              },
+              {
+                "year": "2030",
+                "value": 286
+              },
+              {
+                "year": "2035",
+                "value": 220
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 259, with 243 students in 2024; it forecasts 220 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "070254": {
+      "records": [
+        {
+          "id": "gedsb-capacity-070254",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=8",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 518,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 501
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 486
+              },
+              {
+                "year": "2030",
+                "value": 463
+              },
+              {
+                "year": "2035",
+                "value": 450
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 518, with 501 students in 2024; it forecasts 450 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "090816": {
+      "records": [
+        {
+          "id": "gedsb-capacity-090816",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=12",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 208
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 203
+              },
+              {
+                "year": "2030",
+                "value": 186
+              },
+              {
+                "year": "2035",
+                "value": 192
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 190, with 208 students in 2024; it forecasts 192 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "097446": {
+      "records": [
+        {
+          "id": "gedsb-capacity-097446",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=12",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 164,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 237
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 232
+              },
+              {
+                "year": "2030",
+                "value": 217
+              },
+              {
+                "year": "2035",
+                "value": 212
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 164, with 237 students in 2024; it forecasts 212 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "031739": {
+      "records": [
+        {
+          "id": "gedsb-capacity-031739",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=14",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 331,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 387
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 387
+              },
+              {
+                "year": "2030",
+                "value": 467
+              },
+              {
+                "year": "2035",
+                "value": 507
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 331, with 387 students in 2024; it forecasts 507 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "034339": {
+      "records": [
+        {
+          "id": "gedsb-capacity-034339",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=14",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 426,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 468
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 478
+              },
+              {
+                "year": "2030",
+                "value": 635
+              },
+              {
+                "year": "2035",
+                "value": 685
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 426, with 468 students in 2024; it forecasts 685 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "062006": {
+      "records": [
+        {
+          "id": "gedsb-capacity-062006",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=14",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 351,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 345
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 360
+              },
+              {
+                "year": "2030",
+                "value": 440
+              },
+              {
+                "year": "2035",
+                "value": 442
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 351, with 345 students in 2024; it forecasts 442 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "089966": {
+      "records": [
+        {
+          "id": "gedsb-capacity-089966",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=14",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 271
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 274
+              },
+              {
+                "year": "2030",
+                "value": 284
+              },
+              {
+                "year": "2035",
+                "value": 287
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 271 students in 2024; it forecasts 287 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "090077": {
+      "records": [
+        {
+          "id": "gedsb-capacity-090077",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=14",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 173
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 172
+              },
+              {
+                "year": "2030",
+                "value": 178
+              },
+              {
+                "year": "2035",
+                "value": 178
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 173 students in 2024; it forecasts 178 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "004758": {
+      "records": [
+        {
+          "id": "gedsb-capacity-004758",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=16",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 489,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 714
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 809
+              },
+              {
+                "year": "2030",
+                "value": 675
+              },
+              {
+                "year": "2035",
+                "value": 723
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 489, with 714 students in 2024; it forecasts 723 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "041807": {
+      "records": [
+        {
+          "id": "gedsb-capacity-041807",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=16",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 305,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 346
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 363
+              },
+              {
+                "year": "2030",
+                "value": 318
+              },
+              {
+                "year": "2035",
+                "value": 330
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 305, with 346 students in 2024; it forecasts 330 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "075604": {
+      "records": [
+        {
+          "id": "gedsb-capacity-075604",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=18",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 421
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 225
+              },
+              {
+                "year": "2030",
+                "value": 382
+              },
+              {
+                "year": "2035",
+                "value": 466
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 360, with 421 students in 2024; it forecasts 466 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "001899": {
+      "records": [
+        {
+          "id": "gedsb-capacity-001899",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=26",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 282,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 304
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 250
+              },
+              {
+                "year": "2030",
+                "value": 287
+              },
+              {
+                "year": "2035",
+                "value": 303
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 282, with 304 students in 2024; it forecasts 303 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    },
+    "097314": {
+      "records": [
+        {
+          "id": "gedsb-capacity-097314",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Grand Erie District School Board Long-Term Accommodation Plan 2025-30 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1#page=28",
+          "source_date": "September 2025",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2024",
+                "value": 164
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 156
+              },
+              {
+                "year": "2030",
+                "value": 147
+              },
+              {
+                "year": "2035",
+                "value": 155
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245, with 164 students in 2024; it forecasts 155 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-26"
+        }
+      ]
+    }
+  }
 }

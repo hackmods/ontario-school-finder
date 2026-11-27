@@ -1,58 +1,59 @@
 {% extends "base.html" %}
 {%- from "_icons.html" import icon -%}
 {% block main %}
+{%- set nschools = meta.counts.schools|num %}
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <p class="eyebrow">Free public service for Ontario families</p>
-      <h1>Find a school. <em>See the facts in context.</em></h1>
-      <p class="lede">Search all {{ "{:,}".format(meta.counts.schools) }} publicly funded schools in Ontario by name, city or postal code. Every result shows its school year, its board and province for comparison, and a link to the original source.</p>
+      <p class="eyebrow">{{ _("Free public service for Ontario families") }}</p>
+      <h1>{{ _("Find a school.") }} <em>{{ _("See the facts in context.") }}</em></h1>
+      <p class="lede">{{ _("Search all {n} publicly funded schools in Ontario by name, city or postal code. Every result shows its school year, its board and province for comparison, and a link to the original source.", n=nschools) }}</p>
       <div class="search" data-search data-search-home>
-        <form class="search-box" action="/search/" role="search">
+        <form class="search-box" action="{{ u('/search/') }}" role="search">
           {{ icon("search", "lead") }}
-          <label class="visually-hidden" for="q">Search schools, cities or postal codes</label>
-          <input id="q" name="q" type="search" placeholder="Try “Laura Secord”, “Kingston” or “L2S”" autocomplete="off" spellcheck="false"
+          <label class="visually-hidden" for="q">{{ _("Search schools, cities or postal codes") }}</label>
+          <input id="q" name="q" type="search" placeholder="{{ _('Try “Laura Secord”, “Kingston” or “L2S”') }}" autocomplete="off" spellcheck="false"
                  role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="q-list">
-          <button class="btn btn-primary" type="submit">{{ icon("search") }}<span>Search</span></button>
+          <button class="btn btn-primary" type="submit">{{ icon("search") }}<span>{{ _("Search") }}</span></button>
         </form>
         <div class="suggest" id="q-list" role="listbox" hidden></div>
       </div>
       <div class="search-actions">
-        <button class="btn" type="button" data-near-me>{{ icon("locate") }}Use my location</button>
-        <span class="search-hints">Or try <button type="button" data-try="Toronto">Toronto</button><button type="button" data-try="K7L">K7L</button><button type="button" data-try="St. Joseph">St. Joseph</button></span>
+        <button class="btn" type="button" data-near-me>{{ icon("locate") }}{{ _("Use my location") }}</button>
+        <span class="search-hints">{{ _("Or try") }} <button type="button" data-try="Toronto">Toronto</button><button type="button" data-try="K7L">K7L</button><button type="button" data-try="St. Joseph">St. Joseph</button></span>
       </div>
       <div class="near-status small" data-near-status role="status" aria-live="polite"></div>
       <ul class="trust">
-        <li>{{ icon("check") }}Every number sourced</li>
-        <li>{{ icon("check") }}No ads, no tracking</li>
-        <li>{{ icon("check") }}No rankings</li>
+        <li>{{ icon("check") }}{{ _("Every number sourced") }}</li>
+        <li>{{ icon("check") }}{{ _("No ads, no tracking") }}</li>
+        <li>{{ icon("check") }}{{ _("No rankings") }}</li>
       </ul>
     </div>
     {# the picture answers the search box: matches light up as you type, and it opens them on a real map #}
-    <a class="hero-art" href="/map/" data-hero-map data-bounds="{{ hero.bounds|join(',') }}" data-w="{{ hero.w }}" data-h="{{ hero.h }}" data-colors='{{ hero.colors|tojson }}'>
+    <a class="hero-art" href="{{ u('/map/') }}" data-hero-map data-bounds="{{ hero.bounds|join(',') }}" data-w="{{ hero.w }}" data-h="{{ hero.h }}" data-colors='{{ hero.colors|tojson }}'>
       <span class="hero-map"><span class="hero-zoom" data-hero-zoom>
-        <img src="{{ hero.src }}" width="{{ hero.w }}" height="{{ hero.h }}" alt="Dot map: each dot is a publicly funded school in southern Ontario, coloured by system" decoding="async">
+        <img src="{{ hero.src }}" width="{{ hero.w }}" height="{{ hero.h }}" alt="{{ _('Dot map: each dot is a publicly funded school in southern Ontario, coloured by system') }}" decoding="async">
         <svg class="hero-hits" viewBox="0 0 {{ hero.w }} {{ hero.h }}" aria-hidden="true" data-hero-hits></svg>
       </span></span>
       <ul class="legend-inline" style="margin:12px 0 4px">
-        <li><span class="pin sys-english-public"></span>English public</li><li><span class="pin sys-english-catholic"></span>English Catholic</li>
-        <li><span class="pin sys-french-public"></span>French public</li><li><span class="pin sys-french-catholic"></span>French Catholic</li>
+        <li><span class="pin sys-english-public"></span>{{ _("English public") }}</li><li><span class="pin sys-english-catholic"></span>{{ _("English Catholic") }}</li>
+        <li><span class="pin sys-french-public"></span>{{ _("French public") }}</li><li><span class="pin sys-french-catholic"></span>{{ _("French Catholic") }}</li>
       </ul>
-      <span class="hero-cap small"><span class="muted" data-hero-cap>Each dot is a publicly funded school · southern Ontario</span><span class="hero-go" data-hero-go>Open the map →</span></span>
+      <span class="hero-cap small"><span class="muted" data-hero-cap>{{ _("Each dot is a publicly funded school · southern Ontario") }}</span><span class="hero-go" data-hero-go>{{ _("Open the map →") }}</span></span>
     </a>
   </div>
 </section>
 
-<section class="wrap" id="near" aria-label="Results near you" data-near-results hidden>
+<section class="wrap" id="near" aria-label="{{ _('Results near you') }}" data-near-results hidden>
   <div class="card">
-    <div class="toolbar"><h2 style="margin:0">Schools nearest to you</h2>
-      <div class="chips" role="group" aria-label="Level">
-        <button class="chip on" type="button" data-near-level="all" aria-pressed="true">All</button>
-        <button class="chip" type="button" data-near-level="E" aria-pressed="false">Elementary</button>
-        <button class="chip" type="button" data-near-level="S" aria-pressed="false">Secondary</button>
+    <div class="toolbar"><h2 style="margin:0">{{ _("Schools nearest to you") }}</h2>
+      <div class="chips" role="group" aria-label="{{ _('Level') }}">
+        <button class="chip on" type="button" data-near-level="all" aria-pressed="true">{{ _("All") }}</button>
+        <button class="chip" type="button" data-near-level="E" aria-pressed="false">{{ _("Elementary") }}</button>
+        <button class="chip" type="button" data-near-level="S" aria-pressed="false">{{ _("Secondary") }}</button>
       </div>
     </div>
-    <p class="small muted">Straight-line distance from where your device says you are. Your location stays in this browser tab and is never sent to us or stored. The nearest school is not always your designated school: check with the board.</p>
+    <p class="small muted">{{ _("Straight-line distance from where your device says you are. Your location stays in this browser tab and is never sent to us or stored. The nearest school is not always your designated school: check with the board.") }}</p>
     <ul class="list" data-near-list></ul>
   </div>
 </section>
@@ -60,42 +61,42 @@
 <section class="section-tight">
   <div class="wrap">
     <div class="stat-strip">
-      <div><b>{{ "{:,}".format(meta.counts.schools) }}</b><span>schools</span></div>
-      <div><b>{{ meta.counts.boards }}</b><span>boards &amp; authorities</span></div>
-      <div><b>{{ meta.counts.fsas }}</b><span>postal areas</span></div>
-      <div><b>{{ meta.eqao_years|length }} years</b><span>of EQAO results</span></div>
+      <div><b>{{ nschools }}</b><span>{{ _("schools") }}</span></div>
+      <div><b>{{ meta.counts.boards }}</b><span>{{ _("boards & authorities") }}</span></div>
+      <div><b>{{ meta.counts.fsas }}</b><span>{{ _("postal areas") }}</span></div>
+      <div><b>{{ _("{n} years", n=meta.eqao_years|length) }}</b><span>{{ _("of EQAO results") }}</span></div>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="wrap">
-    <p class="eyebrow">Read this first</p>
-    <h2>What EQAO results are — and what they aren’t</h2>
-    <p class="lede" style="margin-bottom:24px">EQAO (the Education Quality and Accountability Office) gives the same reading, writing and math assessments to every Ontario student in Grades 3, 6 and 9, plus the Grade 10 literacy test (OSSLT). The number we show is the share of a school’s students who met the provincial standard.</p>
+    <p class="eyebrow">{{ _("Read this first") }}</p>
+    <h2>{{ _("What EQAO results are — and what they aren’t") }}</h2>
+    <p class="lede" style="margin-bottom:24px">{{ _("EQAO (the Education Quality and Accountability Office) gives the same reading, writing and math assessments to every Ontario student in Grades 3, 6 and 9, plus the Grade 10 literacy test (OSSLT). The number we show is the share of a school’s students who met the provincial standard.") }}</p>
     <div class="explain">
       <div class="card">
-        <h3><span class="ic">{{ icon("check") }}</span>Useful for</h3>
+        <h3><span class="ic">{{ icon("check") }}</span>{{ _("Useful for") }}</h3>
         <ul class="isnt">
-          <li class="yes">{{ icon("check") }}<span>Seeing how a school’s results have moved over several years.</span></li>
-          <li class="yes">{{ icon("check") }}<span>Putting a school next to its board and the province.</span></li>
-          <li class="yes">{{ icon("check") }}<span>Starting a conversation with the school about how they support students.</span></li>
+          <li class="yes">{{ icon("check") }}<span>{{ _("Seeing how a school’s results have moved over several years.") }}</span></li>
+          <li class="yes">{{ icon("check") }}<span>{{ _("Putting a school next to its board and the province.") }}</span></li>
+          <li class="yes">{{ icon("check") }}<span>{{ _("Starting a conversation with the school about how they support students.") }}</span></li>
         </ul>
       </div>
       <div class="card">
-        <h3><span class="ic">{{ icon("info") }}</span>Not a measure of</h3>
+        <h3><span class="ic">{{ icon("info") }}</span>{{ _("Not a measure of") }}</h3>
         <ul class="isnt">
-          <li class="no">{{ icon("x") }}<span>How good the teachers are, or how happy and safe students feel.</span></li>
-          <li class="no">{{ icon("x") }}<span>Arts, sports, French, special education or the many things tests don’t cover.</span></li>
-          <li class="no">{{ icon("x") }}<span>A fair ranking. Small schools swing a lot from year to year, and student needs differ widely.</span></li>
+          <li class="no">{{ icon("x") }}<span>{{ _("How good the teachers are, or how happy and safe students feel.") }}</span></li>
+          <li class="no">{{ icon("x") }}<span>{{ _("Arts, sports, French, special education or the many things tests don’t cover.") }}</span></li>
+          <li class="no">{{ icon("x") }}<span>{{ _("A fair ranking. Small schools swing a lot from year to year, and student needs differ widely.") }}</span></li>
         </ul>
       </div>
       <div class="card">
-        <h3><span class="ic">{{ icon("shield") }}</span>How we keep it honest</h3>
+        <h3><span class="ic">{{ icon("shield") }}</span>{{ _("How we keep it honest") }}</h3>
         <ul class="isnt">
-          <li class="yes">{{ icon("check") }}<span>Every figure shows its school year and links to its source.</span></li>
-          <li class="yes">{{ icon("check") }}<span>Withheld or missing results are labelled — never shown as 0.</span></li>
-          <li class="yes">{{ icon("check") }}<span>No “top 10” lists and no single score. <a href="/methodology/">Read the method</a>.</span></li>
+          <li class="yes">{{ icon("check") }}<span>{{ _("Every figure shows its school year and links to its source.") }}</span></li>
+          <li class="yes">{{ icon("check") }}<span>{{ _("Withheld or missing results are labelled — never shown as 0.") }}</span></li>
+          <li class="yes">{{ icon("check") }}<span>{{ _h('No “top 10” lists and no single score. <a href="{url}">Read the method</a>.', url=u("/methodology/")) }}</span></li>
         </ul>
       </div>
     </div>
@@ -104,23 +105,23 @@
 
 <section class="section" style="padding-top:0">
   <div class="wrap grid grid-3">
-    <a class="card" href="/map/" style="text-decoration:none;color:inherit">
-      <h3>{{ icon("map", "card-ic") }}Explore the map</h3>
-      <p class="muted" style="margin:0">All schools, postal areas, approximate board areas and nearest-school areas — each clearly labelled.</p>
+    <a class="card" href="{{ u('/map/') }}" style="text-decoration:none;color:inherit">
+      <h3>{{ icon("map", "card-ic") }}{{ _("Explore the map") }}</h3>
+      <p class="muted" style="margin:0">{{ _("All schools, postal areas, approximate board areas and nearest-school areas — each clearly labelled.") }}</p>
     </a>
-    <a class="card" href="/boards/" style="text-decoration:none;color:inherit">
-      <h3>{{ icon("building", "card-ic") }}Browse by board</h3>
-      <p class="muted" style="margin:0">{{ meta.counts.boards }} boards and school authorities, with official board results and graduation rates.</p>
+    <a class="card" href="{{ u('/boards/') }}" style="text-decoration:none;color:inherit">
+      <h3>{{ icon("building", "card-ic") }}{{ _("Browse by board") }}</h3>
+      <p class="muted" style="margin:0">{{ _("{n} boards and school authorities, with official board results and graduation rates.", n=meta.counts.boards) }}</p>
     </a>
-    <a class="card" href="/compare/" style="text-decoration:none;color:inherit">
-      <h3>{{ icon("compare", "card-ic") }}Compare up to 6 schools</h3>
-      <p class="muted" style="margin:0">Every measure, the same years, side by side — EQAO trends, class sizes, enrolment and more.</p>
+    <a class="card" href="{{ u('/compare/') }}" style="text-decoration:none;color:inherit">
+      <h3>{{ icon("compare", "card-ic") }}{{ _("Compare up to 6 schools") }}</h3>
+      <p class="muted" style="margin:0">{{ _("Every measure, the same years, side by side — EQAO trends, class sizes, enrolment and more.") }}</p>
     </a>
   </div>
 </section>
 
 <section class="wrap">
-  <div class="note">{{ icon("info") }}<div><p><strong>Looking for your designated school?</strong> School attendance boundaries are set by each board and change over time. Use this site to learn about schools, then confirm with your board’s own school locator — every school page links to its board.</p></div></div>
+  <div class="note">{{ icon("info") }}<div><p>{{ _h("<strong>Looking for your designated school?</strong> School attendance boundaries are set by each board and change over time. Use this site to learn about schools, then confirm with your board’s own school locator — every school page links to its board.") }}</p></div></div>
 </section>
 {% endblock %}
 {% block scripts %}<script type="module" src="{{ asset('js/home.js') }}"></script>{% endblock %}

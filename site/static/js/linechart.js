@@ -1,5 +1,5 @@
 // Client-side multi-series line chart (SVG string). Mirrors the server-rendered charts' look.
-import { esc } from "./lib.js";
+import { esc, t, num } from "./lib.js";
 
 const GAP = ["2018-19", "2021-22"]; // EQAO did not run in 2019-20 or 2020-21
 
@@ -34,17 +34,17 @@ export function lineChart(years, series, opts = {}) {
   const span = slots[slots.length - 1] || 1;
   const X = (i) => (years.length === 1 ? (pl + w - pr) / 2 : pl + ((w - pl - pr) * slots[i]) / span);
   const Y = (v) => pt + (h - pt - pb) * (1 - (v - min) / (max - min || 1));
-  const out = [`<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(opts.title || "Chart")}" preserveAspectRatio="xMidYMid meet">`];
+  const out = [`<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(opts.title || t("Chart"))}" preserveAspectRatio="xMidYMid meet">`];
   if (opts.gap) {
     const a = years.indexOf(GAP[0]), b = years.indexOf(GAP[1]);
     if (a >= 0 && b === a + 1) {
       out.push(`<rect class="gap-band" x="${X(a) + 12}" y="${pt}" width="${X(b) - X(a) - 24}" height="${h - pt - pb}" rx="4"/>`);
-      out.push(`<text class="gap-label" x="${(X(a) + X(b)) / 2}" y="${pt + 12}" text-anchor="middle">no tests</text>`);
+      out.push(`<text class="gap-label" x="${(X(a) + X(b)) / 2}" y="${pt + 12}" text-anchor="middle">${t("no tests")}</text>`);
     }
   }
-  for (const t of ticks(min, max)) {
-    out.push(`<line class="grid-line" x1="${pl}" x2="${w - pr}" y1="${Y(t)}" y2="${Y(t)}"/>`);
-    out.push(`<text class="axis-label" x="${pl - 6}" y="${Y(t) + 4}" text-anchor="end">${fmt(t)}${unit}</text>`);
+  for (const tk of ticks(min, max)) {
+    out.push(`<line class="grid-line" x1="${pl}" x2="${w - pr}" y1="${Y(tk)}" y2="${Y(tk)}"/>`);
+    out.push(`<text class="axis-label" x="${pl - 6}" y="${Y(tk) + 4}" text-anchor="end">${fmt(tk)}${unit}</text>`);
   }
   // label every k-th year (always the latest) so labels keep at least 44px apart
   const slot = (w - pl - pr) / span; // span counts the extra room drawn for the pandemic gap
@@ -89,4 +89,4 @@ function ticks(min, max) {
   return out;
 }
 
-const fmt = (v) => (Math.abs(v) >= 1000 ? Math.round(v).toLocaleString("en-CA") : String(+(+v).toFixed(1)));
+const fmt = (v) => (Math.abs(v) >= 1000 ? num(Math.round(v)) : num(+(+v).toFixed(1), { maximumFractionDigits: 1 }));

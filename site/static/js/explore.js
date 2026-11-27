@@ -1,5 +1,5 @@
 // /map/ — every school, with optional area layers. Each layer is labelled with exactly what it is.
-import { qs, qsa, loadIndex, dataUrl } from "./lib.js";
+import { qs, qsa, loadIndex, dataUrl, num } from "./lib.js";
 import { lazyMap, addSchoolLayer, addArea, removeArea, pointsFC, LAYER_COLORS, setSchoolFilter } from "./maps.js";
 
 const container = qs('[data-map="explore"]');
@@ -56,7 +56,7 @@ if (container) {
     const rows = await loadIndex();
     for (const k of state.systems) {
       const c = qs(`[data-system-count="${k}"]`);
-      if (c) c.textContent = rows.filter((r) => r.sys === k).length.toLocaleString("en-CA");
+      if (c) c.textContent = num(rows.filter((r) => r.sys === k).length);
     }
     addSchoolLayer(map, gl, "schools", pointsFC(rows), { radius: 4.5, labels: 12 });
     map.setPaintProperty("schools", "circle-radius", ["interpolate", ["linear"], ["zoom"], 5, 2.2, 9, 4.5, 13, 7]);

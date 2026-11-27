@@ -17,6 +17,9 @@ What's on it:
 - **Compare** up to six schools on every measure, with a share link, CSV download and print layout.
 - **A province-wide map** with filters and labelled area layers, and **search** by name, city, postal code, street address or your location (never stored or sent).
 - **How it works** (`/methodology/`) lists every source with its licence, retrieval date and how each number is built.
+- **In English and French**: every page also exists at `/fr/…`, with an EN/FR switch. The French is a machine
+  translation, labelled as unreviewed on every page; English is the reference. Translations live in
+  `site/i18n/fr/*.json` (interface) and `site/board-info/fr/` (board records); see [docs/i18n-brief.md](docs/i18n-brief.md).
 
 ## How it fits together
 

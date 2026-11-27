@@ -4,12 +4,12 @@
 {% block main %}
 <div class="page-head">
   <div class="wrap">
-    <ol class="crumbs"><li><a href="/">Home</a></li><li><a href="/areas/">Postal areas</a></li><li aria-current="page">{{ f.fsa }}</li></ol>
+    <ol class="crumbs"><li><a href="{{ u('/') }}">{{ _("Home") }}</a></li><li><a href="{{ u('/areas/') }}">{{ _("Postal areas") }}</a></li><li aria-current="page">{{ f.fsa }}</li></ol>
     <div class="head-row">
       <div style="min-width:0">
-        <div class="head-meta"><span class="badge badge-brand">Postal code area (first 3 characters)</span>{% if f.rural %}<span class="badge">Rural postal area</span>{% endif %}</div>
+        <div class="head-meta"><span class="badge badge-brand">{{ _("Postal code area (first 3 characters)") }}</span>{% if f.rural %}<span class="badge">{{ _("Rural postal area") }}</span>{% endif %}</div>
         <h1>{{ f.fsa }}{% if f.place %} <span class="muted" style="font-weight:600">· {{ f.place }}</span>{% endif %}</h1>
-        <p class="muted" style="margin:0">{{ f["in"]|length }} school{{ "" if f["in"]|length == 1 else "s" }} inside this postal area{% if f.near %}, {{ f.near|length }} more within {{ near_km }} km of its edge{% endif %}.</p>
+        <p class="muted" style="margin:0">{% set n_in = f["in"]|length %}{{ _("1 school inside this postal area") if n_in == 1 else _("{n} schools inside this postal area", n=n_in) }}{% if f.near %}{{ _(", {n} more within {km} km of its edge", n=f.near|length, km=near_km) }}{% endif %}.</p>
       </div>
     </div>
   </div>
@@ -18,29 +18,29 @@
 <section class="block">
   <div class="wrap">
     <div class="map-shell">
-      <div class="map map-tall" data-map="fsa" aria-label="Map of postal area {{ f.fsa }} and its schools"></div>
-      <div class="map-fallback" data-map-fallback><div>Map loads with JavaScript. The school lists below work without it.</div></div>
+      <div class="map map-tall" data-map="fsa" aria-label="{{ _('Map of postal area {fsa} and its schools', fsa=f.fsa) }}"></div>
+      <div class="map-fallback" data-map-fallback><div>{{ _("Map loads with JavaScript. The school lists below work without it.") }}</div></div>
     </div>
     <div class="legend" style="margin-top:12px"><ul class="legend-inline" style="gap:8px 20px">
-      <li><span class="sw sw-fsa" style="display:inline-block;width:22px;height:14px;border-radius:3px"></span>Postal code area (first 3 characters)</li>
-      <li><span class="pin sys-english-public"></span>English public</li><li><span class="pin sys-english-catholic"></span>English Catholic</li>
-      <li><span class="pin sys-french-public"></span>French public</li><li><span class="pin sys-french-catholic"></span>French Catholic</li>
+      <li><span class="sw sw-fsa" style="display:inline-block;width:22px;height:14px;border-radius:3px"></span>{{ _("Postal code area (first 3 characters)") }}</li>
+      <li><span class="pin sys-english-public"></span>{{ _("English public") }}</li><li><span class="pin sys-english-catholic"></span>{{ _("English Catholic") }}</li>
+      <li><span class="pin sys-french-public"></span>{{ _("French public") }}</li><li><span class="pin sys-french-catholic"></span>{{ _("French Catholic") }}</li>
     </ul></div>
-    <div class="note" style="margin-top:12px">{{ icon("info") }}<div><p>Postal areas are Canada Post delivery areas mapped by Statistics Canada. They are <strong>not school attendance boundaries</strong>: a school in {{ f.fsa }} may not serve every home in it, and a home here may be served by a school outside it.</p></div></div>
+    <div class="note" style="margin-top:12px">{{ icon("info") }}<div><p>{{ _h("Postal areas are Canada Post delivery areas mapped by Statistics Canada. They are <strong>not school attendance boundaries</strong>: a school in {fsa} may not serve every home in it, and a home here may be served by a school outside it.", fsa=f.fsa) }}</p></div></div>
     <script type="application/json" id="map-data">{{ map_json|safe }}</script>
   </div>
 </section>
 
 <section class="block" id="schools">
   <div class="wrap">
-    <h2>Schools in and near {{ f.fsa }}</h2>
-    {% if not groups %}<div class="note">{{ icon("info") }}<div><p>No school is inside this postal area. The closest schools to its centre are listed below.</p></div></div>{% endif %}
+    <h2>{{ _("Schools in and near {fsa}", fsa=f.fsa) }}</h2>
+    {% if not groups %}<div class="note">{{ icon("info") }}<div><p>{{ _("No school is inside this postal area. The closest schools to its centre are listed below.") }}</p></div></div>{% endif %}
     <div class="grid grid-2" style="margin-top:12px">
       {% for g in groups %}
       <div class="card" style="padding:16px 16px 6px">
-        <h3 style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">{{ sysbadge(g.system, g.system_label) }} {{ g.level|capitalize }} <span class="muted small" style="font-weight:500">({{ g.entries|length }})</span></h3>
+        <h3 style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">{{ sysbadge(g.system, g.system_label) }} {{ _(g.level|capitalize) }} <span class="muted small" style="font-weight:500">({{ g.entries|length }})</span></h3>
         <ul class="list">{% for s in g.entries %}
-          <li><a class="row-link" href="/school/{{ s.bsid }}/"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.board_name }} · {{ s.grades }}{% if not s.inside %} · <em>just outside {{ f.fsa }}</em>{% endif %}</span>{% if s.badges %}<span class="prog-badges">{% for b in s.badges %}<span class="badge badge-prog prog-{{ b.key }}">{{ b.label }}</span>{% endfor %}</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
+          <li><a class="row-link" href="{{ u('/school/' ~ s.bsid ~ '/') }}"><span class="main"><span class="t">{{ s.name }}</span><span class="s" style="display:block">{{ s.board_name }} · {{ s.grades|grades }}{% if not s.inside %} · <em>{{ _("just outside {fsa}", fsa=f.fsa) }}</em>{% endif %}</span>{% if s.badges %}<span class="prog-badges">{% for b in s.badges %}<span class="badge badge-prog prog-{{ b.key }}">{{ _(b.label) }}</span>{% endfor %}</span>{% endif %}</span>{{ icon("chev", "chev") }}</a></li>
         {% endfor %}</ul>
       </div>
       {% endfor %}
@@ -51,47 +51,47 @@
 {% if f.census %}
 <section class="block" id="area">
   <div class="wrap">
-    <h2>About the area <span class="badge">2021 Census</span></h2>
-    <p class="block-intro">Statistics Canada’s 2021 Census for this postal area. It describes everyone who lives here, not only families at these schools.</p>
+    <h2>{{ _("About the area") }} <span class="badge">{{ _("2021 Census") }}</span></h2>
+    <p class="block-intro">{{ _("Statistics Canada’s 2021 Census for this postal area. It describes everyone who lives here, not only families at these schools.") }}</p>
     <div class="kpis">
-      {% for k in census_kpis %}<div class="kpi"><div class="k">{{ k.label }}</div><div class="v">{{ k.value }}</div>{% if k.d %}<div class="d">{{ k.d }}</div>{% endif %}</div>{% endfor %}
+      {% for k in census_kpis %}<div class="kpi"><div class="k">{{ _(k.label) }}</div><div class="v">{{ k.value }}</div>{% if k.d %}<div class="d">{{ _(k.d) }}</div>{% endif %}</div>{% endfor %}
     </div>
-    <details class="data-table" style="margin-top:8px"><summary>All census figures for {{ f.fsa }}</summary><div class="table-wrap"><table>
-      <thead><tr><th scope="col">Measure</th><th scope="col" class="n">{{ f.fsa }}</th></tr></thead>
-      <tbody>{% for r in census_rows %}<tr><th scope="row" style="font-weight:550">{{ r.label }}</th><td class="n">{{ r.value }}</td></tr>{% endfor %}</tbody>
+    <details class="data-table" style="margin-top:8px"><summary>{{ _("All census figures for {fsa}", fsa=f.fsa) }}</summary><div class="table-wrap"><table>
+      <thead><tr><th scope="col">{{ _("Measure") }}</th><th scope="col" class="n">{{ f.fsa }}</th></tr></thead>
+      <tbody>{% for r in census_rows %}<tr><th scope="row" style="font-weight:550">{{ _(r.label) }}</th><td class="n">{{ r.value }}</td></tr>{% endfor %}</tbody>
     </table></div></details>
-    <p class="small muted">Source: <a href="#src-census-2021-fsa">census-2021-fsa</a>. Income figures are for 2020, the year before the census.</p>
+    <p class="small muted">{{ _h("Source: <a href=\"#src-census-2021-fsa\">census-2021-fsa</a>. Income figures are for 2020, the year before the census.") }}</p>
   </div>
 </section>
 {% endif %}
 
 <section class="block" id="childcare">
   <div class="wrap">
-    <h2>Licensed child care in {{ f.fsa }} <span class="badge">{{ f.childcare.count }}</span></h2>
+    <h2>{{ _("Licensed child care in {fsa}", fsa=f.fsa) }} <span class="badge">{{ f.childcare.count }}</span></h2>
     {% if f.childcare.sites %}
-    <details class="data-table card" style="padding:8px 16px"><summary>Show all {{ f.childcare.count }} licensed sites</summary>
-      <div class="table-wrap"><table><thead><tr><th scope="col">Name</th><th scope="col">Type</th><th scope="col">Address</th><th scope="col">Language</th></tr></thead>
-      <tbody>{% for c in f.childcare.sites|sort(attribute="name") %}<tr><td>{{ c.name }}</td><td>{{ c.type }}</td><td>{{ c.address }}{% if c.city %}, {{ c.city }}{% endif %}</td><td>{{ c.language }}</td></tr>{% endfor %}</tbody></table></div>
+    <details class="data-table card" style="padding:8px 16px"><summary>{{ _("Show all {n} licensed sites", n=f.childcare.count) }}</summary>
+      <div class="table-wrap"><table><thead><tr><th scope="col">{{ _("Name") }}</th><th scope="col">{{ _("Type") }}</th><th scope="col">{{ _("Address") }}</th><th scope="col">{{ _("Language") }}</th></tr></thead>
+      <tbody>{% for c in f.childcare.sites|sort(attribute="name") %}<tr><td>{{ c.name }}</td><td>{{ _(c.type) }}</td><td>{{ c.address }}{% if c.city %}, {{ c.city }}{% endif %}</td><td>{{ c.language|listing }}</td></tr>{% endfor %}</tbody></table></div>
     </details>
-    {% else %}<p class="muted">No licensed child care sites list a postal code in {{ f.fsa }}.</p>{% endif %}
-    <p class="small muted">Active licences as of {{ childcare_date }}. Home child care agencies are listed at their office address.</p>
+    {% else %}<p class="muted">{{ _("No licensed child care sites list a postal code in {fsa}.", fsa=f.fsa) }}</p>{% endif %}
+    <p class="small muted">{{ _("Active licences as of {date}. Home child care agencies are listed at their office address.", date=childcare_date) }}</p>
   </div>
 </section>
 
 <section class="block" id="earlyon">
   <div class="wrap">
-    <h2>EarlyON Child and Family Centres in {{ f.fsa }} <span class="badge">{{ f.earlyon.count }}</span></h2>
-    <p class="block-intro">Free drop-in programs for children up to age 6 and their parents and caregivers, run by local agencies for the province.</p>
+    <h2>{{ _("EarlyON Child and Family Centres in {fsa}", fsa=f.fsa) }} <span class="badge">{{ f.earlyon.count }}</span></h2>
+    <p class="block-intro">{{ _("Free drop-in programs for children up to age 6 and their parents and caregivers, run by local agencies for the province.") }}</p>
     {% if f.earlyon.sites %}
     <ul class="src-list eo-list">{% for e in f.earlyon.sites|sort(attribute="name") %}<li><span class="t">{{ e.name }}</span><span class="m">{{ e.address }}{% if e.city %}, {{ e.city }}{% endif %}</span></li>{% endfor %}</ul>
-    {% else %}<p class="muted">No EarlyON centre lists a postal code in {{ f.fsa }}. Your municipality’s EarlyON page lists centres nearby.</p>{% endif %}
-    {% if f.earlyon.sites %}<p class="small muted" style="margin-top:10px">Ministry list of EarlyON locations, November 2026. <a class="ref" href="#src-{{ f.earlyon.source_id }}">source</a></p>{% endif %}
+    {% else %}<p class="muted">{{ _("No EarlyON centre lists a postal code in {fsa}. Your municipality’s EarlyON page lists centres nearby.", fsa=f.fsa) }}</p>{% endif %}
+    {% if f.earlyon.sites %}<p class="small muted" style="margin-top:10px">{{ _("Ministry list of EarlyON locations, November 2026.") }} <a class="ref" href="#src-{{ f.earlyon.source_id }}">{{ _("source") }}</a></p>{% endif %}
   </div>
 </section>
 
 <section class="block" id="sources">
   <div class="wrap">
-    <h2>Sources</h2>
+    <h2>{{ _("Sources") }}</h2>
     {{ source_groups(f.sources) }}
   </div>
 </section>
