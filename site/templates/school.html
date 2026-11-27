@@ -32,6 +32,7 @@
         {% if s.website %}<a class="btn btn-primary" href="{{ s.website }}" rel="noopener">{{ icon("globe") }}School website</a>{% endif %}
       </div>
     </div>
+    {% if s.website_note %}<p class="small muted" style="margin:8px 0 0" data-website-note>The school website link in the Ministry’s list doesn’t work any more: {{ s.website_note.detail }} (checked {{ s.website_note.checked }}).{% if s.board_website %} Find the school on <a href="{{ s.board_website }}" rel="noopener">{{ s.board_name }}’s website</a>.{% endif %}</p>{% endif %}
     <dl class="facts">
       <div><dt>Board</dt><dd><a href="/board/{{ s.board_number }}/">{{ s.board_name }}</a></dd></div>
       <div><dt>Postal area</dt><dd><a href="/fsa/{{ s.fsa }}/">{{ s.fsa }}</a>{% if s.postal_code %} · {{ s.postal_code }}{% endif %}</dd></div>

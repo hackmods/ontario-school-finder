@@ -23,3 +23,11 @@ def test_board_website_fixes_reach_the_board_pages():
         p = d / f"{board.lower()}.json"
         if p.exists():
             assert json.loads(p.read_text(encoding="utf-8"))["website"] == url, board
+
+
+def test_school_link_list_is_well_formed():
+    links = json.loads((config.ROOT / "site" / "school-links.json").read_text(encoding="utf-8"))
+    assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", links["checked"])
+    for bsid, v in links["schools"].items():
+        assert re.fullmatch(r"\d{6}", bsid)
+        assert v["status"] in ("dead", "parked", "unrelated") and v["detail"] and v["url"].startswith("http")

@@ -1,0 +1,3871 @@
+{
+ "_about": "School website links from the Ministry's contact list that no longer work, checked with scripts/check-school-links.mjs and reviewed by hand. dead = the domain no longer exists or the page is gone (404/410); parked = a domain-for-sale page; unrelated = the address now leads to a site that has nothing to do with the school. The site hides these links and says why. Links a site refused to answer for automated checks are never listed. Recheck yearly and drop entries the Ministry has fixed.",
+ "checked": "2026-11-26",
+ "schools": {
+  "101214": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/content/schools/school_details.asp?SchoolID=24"
+  },
+  "105503": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/chedoke/"
+  },
+  "106526": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Chippewa.cfm"
+  },
+  "106913": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/sis/default.aspx"
+  },
+  "108103": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ClaraBrenton.cfm"
+  },
+  "109920": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://rdhs.lkdsb.net"
+  },
+  "111406": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Cleardale.cfm"
+  },
+  "114073": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/cochrane"
+  },
+  "114477": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/gatestone/"
+  },
+  "117986": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.hwdsb.on.ca/collegiateavenue"
+  },
+  "118583": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://colonelcameron.lkdsb.net/"
+  },
+  "120715": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://confederation.lkdsb.net/"
+  },
+  "122017": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://crolancia.kpdsb.on.ca/"
+  },
+  "123838": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/coronati"
+  },
+  "128058": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://crmarchant.com"
+  },
+  "131245": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/eagle"
+  },
+  "131377": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Winchester.cfm"
+  },
+  "132020": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/dalewood/"
+  },
+  "134236": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Davenport.cfm"
+  },
+  "134880": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/maxwell"
+  },
+  "135135": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://dawneuphemia.lkdsb.net/"
+  },
+  "135470": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/wross/index.html"
+  },
+  "136182": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/DelawareCentral.cfm"
+  },
+  "137967": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/cis/default.aspx"
+  },
+  "138720": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://esrdf.cspgno.ca"
+  },
+  "138990": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.hdsb.ca/jwh/Pages/default.aspx"
+  },
+  "140210": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/diamond"
+  },
+  "141771": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.donwoodpark.ca"
+  },
+  "142565": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/SouthDorchester.cfm"
+  },
+  "142689": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sgdsb.on.ca/article/dorion-public-school-256.asp"
+  },
+  "142948": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/dougall"
+  },
+  "144872": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/wpi/default.aspx"
+  },
+  "147362": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/schools/westgate"
+  },
+  "148660": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://dresden.lkdsb.net/"
+  },
+  "153087": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/dundascentral/"
+  },
+  "155810": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Dunwich-Dutton.cfm"
+  },
+  "156159": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.jean-paul-ii.ecolecatholique.ca/"
+  },
+  "157244": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Ealing.cfm"
+  },
+  "157325": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://ephg.cspgno.ca"
+  },
+  "157503": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://earfalls.kpdsb.on.ca/"
+  },
+  "158151": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/earlkitchener/"
+  },
+  "160210": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/EastOxford.cfm"
+  },
+  "161276": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/evs/default.aspx"
+  },
+  "162221": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/EastWilliams.cfm"
+  },
+  "163481": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/eastdale/"
+  },
+  "163740": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Eastdale.cfm"
+  },
+  "164909": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://eppa.cspgno.ca"
+  },
+  "164925": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://esvfj.cspgno.ca"
+  },
+  "165042": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/ech/default.aspx"
+  },
+  "167738": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/EkcoeCentral.cfm"
+  },
+  "170500": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ElginCourt.cfm"
+  },
+  "174882": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epd.cspgno.ca"
+  },
+  "179752": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/EmilyCarr.cfm"
+  },
+  "181552": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/englehart"
+  },
+  "184284": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://fcweb.limestone.on.ca/~entpr/"
+  },
+  "185833": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://errolvillage.lkdsb.net/"
+  },
+  "185841": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://errolroad.lkdsb.net/"
+  },
+  "186783": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/est/default.aspx"
+  },
+  "190268": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/EvelynHarrison.cfm"
+  },
+  "190390": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://evergreen.kpdsb.on.ca/"
+  },
+  "193771": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/federal"
+  },
+  "195200": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/mvs/default.aspx"
+  },
+  "196240": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/fessenden/"
+  },
+  "198668": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/flamboroughcentre/"
+  },
+  "201391": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/forestglade/Pages/default.aspx"
+  },
+  "201529": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ForestPark.cfm"
+  },
+  "202614": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/fhc/default.aspx"
+  },
+  "203009": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/begley"
+  },
+  "203521": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/FDR.cfm"
+  },
+  "203912": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/franklinroad/"
+  },
+  "208944": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://www.kemptville.cepeo.on.ca"
+  },
+  "211192": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/brock"
+  },
+  "212490": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/georgelarmstrong/"
+  },
+  "213012": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/cootesparadise/"
+  },
+  "217174": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/GlenCairn.cfm"
+  },
+  "218863": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/SirIsaacBrock.cfm"
+  },
+  "220145": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/hillcrest/"
+  },
+  "220817": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/glenwood"
+  },
+  "221554": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/golden"
+  },
+  "222119": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/mcgregor/"
+  },
+  "222135": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/gordonprice/"
+  },
+  "222240": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/gorehill/Pages/default.aspx"
+  },
+  "223746": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://jwbps.hdsb.ca"
+  },
+  "226482": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://sirjohna.limestone.on.ca/"
+  },
+  "226661": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://grandbend.lkdsb.net/"
+  },
+  "227331": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/gvs/default.aspx"
+  },
+  "230561": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/gps/default.aspx"
+  },
+  "230693": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://gregorydrive.lkdsb.net/"
+  },
+  "236675": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.HalbertJPS.ca"
+  },
+  "237191": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/hmr/default.aspx"
+  },
+  "237329": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://hwburgess.lkdsb.net/"
+  },
+  "242853": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://esh.cspgno.ca"
+  },
+  "243175": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://hanna.lkdsb.net/"
+  },
+  "243524": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/talbottrail"
+  },
+  "244791": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://harmony.ddsb.ca"
+  },
+  "245658": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/harrowps/Pages/default.aspx"
+  },
+  "247197": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://harwichraleigh.lkdsb.net/"
+  },
+  "252018": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/clayton"
+  },
+  "254096": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/hessstreet/"
+  },
+  "255300": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/HicksonCentral.cfm"
+  },
+  "255394": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://highpark.lkdsb.net/"
+  },
+  "255416": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.highparkalternativeschool.com"
+  },
+  "256048": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/highview/"
+  },
+  "257737": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Hillcrest-London.cfm"
+  },
+  "258016": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://hillcrest.lkdsb.net/"
+  },
+  "263451": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Trudeau.cfm"
+  },
+  "264695": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://horizonalternative.ca/"
+  },
+  "264750": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/hor/default.aspx"
+  },
+  "268267": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/ELEM/beaton/"
+  },
+  "270291": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/tcps/index.php"
+  },
+  "273201": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/huntingtonpark/"
+  },
+  "273724": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/louisearbour.cfm"
+  },
+  "275026": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://ignaceschool.kpdsb.on.ca/"
+  },
+  "275131": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://indiancreek.lkdsb.net/"
+  },
+  "275514": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/InnerkipCentral.cfm"
+  },
+  "278270": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/isf/default.aspx"
+  },
+  "279315": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/ELEM/mcwillia/"
+  },
+  "280810": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/JackChambers.cfm"
+  },
+  "281492": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/jamesmacdonald/"
+  },
+  "281786": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://jrhenderson.limestone.on.ca/JR_Henderson/Home.html"
+  },
+  "282170": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/elklake"
+  },
+  "282898": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epjs.cspgno.ca"
+  },
+  "283347": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca"
+  },
+  "283410": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/JohnDearness.cfm"
+  },
+  "285552": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/content/schools/school_details.asp?SchoolID=40"
+  },
+  "287210": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/ancastermeadow/"
+  },
+  "288675": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://keewatin.kpdsb.on.ca/"
+  },
+  "289710": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/KensalPark.cfm"
+  },
+  "291048": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/kerns/index.php"
+  },
+  "294659": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/kingedward/Pages/default.aspx"
+  },
+  "296600": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/kldcs/index.php"
+  },
+  "296996": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://kinggeorge.kpdsb.on.ca/"
+  },
+  "297127": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://kinggeorgec.lkdsb.net/"
+  },
+  "300125": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://chss.hpedsb.on.ca"
+  },
+  "300500": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/kps"
+  },
+  "302350": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/kps/default.aspx"
+  },
+  "302664": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/JohnWise.cfm"
+  },
+  "302716": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/KnollwoodPark.cfm"
+  },
+  "303755": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/lakeavenue/"
+  },
+  "304140": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://lakeroad.lkdsb.net"
+  },
+  "305510": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://centennial.lkdsb.net/"
+  },
+  "307831": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.limestone.on.ca/schools/elementary/lanol_profile"
+  },
+  "308307": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://lansdowne.lkdsb.net/"
+  },
+  "308897": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/lps"
+  },
+  "311855": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Pearson.cfm"
+  },
+  "313173": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/lincolnalexander/"
+  },
+  "314544": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/lisgar/"
+  },
+  "318051": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Locke.cfm"
+  },
+  "319872": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://londonroad.lkdsb.net/"
+  },
+  "320005": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/CentennialCentral.cfm"
+  },
+  "321338": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/LordElgin.cfm"
+  },
+  "321370": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/LordNelson.cfm"
+  },
+  "321435": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/LordRoberts.cfm"
+  },
+  "327026": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/hetherin"
+  },
+  "327425": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://esmc.cspgno.ca"
+  },
+  "329886": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Summers.cfm"
+  },
+  "331180": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/mcps"
+  },
+  "332100": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epfm.cspgno.ca"
+  },
+  "334012": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/essex"
+  },
+  "336580": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://mountviewalternative.ca"
+  },
+  "338010": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://mtps.sgdsb.on.ca/"
+  },
+  "338206": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/mdbs"
+  },
+  "342432": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epcp.cspgno.ca"
+  },
+  "343536": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/schFinder/schoolSelect.asp?rec=36"
+  },
+  "346780": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Masonville.cfm"
+  },
+  "347957": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/jhk"
+  },
+  "351466": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/McGillivray.cfm"
+  },
+  "351725": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/McGregor.cfm"
+  },
+  "356026": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://mcnaughton.lkdsb.net"
+  },
+  "359520": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Wilberforce.cfm"
+  },
+  "360309": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.hwdsb.on.ca/memorialcity/"
+  },
+  "361747": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/wemiller"
+  },
+  "361895": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://merlin.lkdsb.net/"
+  },
+  "362379": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/eastmersea/Pages/default.aspx"
+  },
+  "364983": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/millgrove/"
+  },
+  "371610": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://mooretown.lkdsb.net"
+  },
+  "375128": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/MosaCentral.cfm"
+  },
+  "375900": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/mountalbion/"
+  },
+  "376035": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/ELEM/mtcarmelblyth/"
+  },
+  "376086": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.hdsb.ca/montclair/Pages/default.aspx"
+  },
+  "376299": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/mounthope/"
+  },
+  "378119": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Mountsfield.cfm"
+  },
+  "378178": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/mountview/"
+  },
+  "381568": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Hepburn.cfm"
+  },
+  "384224": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/nlps"
+  },
+  "384615": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://fcweb.limestone.on.ca/~NWBGH/"
+  },
+  "384909": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/NicholasWilson.cfm"
+  },
+  "385131": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sgdsb.on.ca/article/george-oneill-public-school-285.asp"
+  },
+  "403377": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/NorthMeadows.cfm"
+  },
+  "406929": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://newprospect.kpdsb.on.ca/"
+  },
+  "408735": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epjeb.cspgno.ca"
+  },
+  "410357": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Northbrae.cfm"
+  },
+  "410454": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/NorthdaleCentral.cfm"
+  },
+  "410748": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/NorthdaleWoodstock.cfm"
+  },
+  "410870": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/nhs/default.aspx"
+  },
+  "411396": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Northridge.cfm"
+  },
+  "411787": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/northwoo"
+  },
+  "412180": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://ttps://norwoodintermediate.kprdsb.ca\\"
+  },
+  "412309": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/norwoodpark/"
+  },
+  "417203": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Stephens.cfm"
+  },
+  "417556": {
+   "status": "unrelated",
+   "detail": "the address now leads to a site unrelated to the school",
+   "url": "http://www.bloorviewschool.ca"
+  },
+  "417564": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/wross/index.html"
+  },
+  "417572": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/sjw/index.html"
+  },
+  "417580": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/ecd/index.html"
+  },
+  "428833": {
+   "status": "unrelated",
+   "detail": "the address now leads to a site unrelated to the school",
+   "url": "https://www.octc.ca"
+  },
+  "429597": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Oxbow.cfm"
+  },
+  "430242": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/EagleHeights.cfm"
+  },
+  "433608": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Parkhill-WestWilliams.cfm"
+  },
+  "434272": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/parkdale/"
+  },
+  "434922": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/pps/default.aspx"
+  },
+  "435317": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Parkview.cfm"
+  },
+  "435872": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/parkview/Pages/default.aspx"
+  },
+  "437557": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/paulinejohnson/"
+  },
+  "438062": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/LaurieHawkins.cfm"
+  },
+  "439088": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/peleeisland/Pages/default.aspx"
+  },
+  "440256": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/hermanacademy-elementary/Pages/default.aspx"
+  },
+  "442054": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/pin/default.aspx"
+  },
+  "444022": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.hdsb.ca/pinegrove/Pages/default.aspx"
+  },
+  "445061": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/pinecrest"
+  },
+  "448389": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Plattsville.cfm"
+  },
+  "448940": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/dundana/"
+  },
+  "450391": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/PortBurwell.cfm"
+  },
+  "451177": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://rhcornish.ddsb.ca/"
+  },
+  "451436": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://kettlecreek.tvdsb.ca/en/index.aspx"
+  },
+  "452734": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/paps"
+  },
+  "453773": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/PrinceCharles.cfm"
+  },
+  "454168": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/princeed"
+  },
+  "456314": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/PrincessAnne.cfm"
+  },
+  "457280": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/princesselizabeth/Pages/default.aspx"
+  },
+  "457418": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Elizabeth.cfm"
+  },
+  "460338": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epfn.cspgno.ca"
+  },
+  "461423": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://quakervillage.ddsb.ca"
+  },
+  "462098": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/qeps"
+  },
+  "462616": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/qes/default.aspx"
+  },
+  "462748": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://queenelizabethc.lkdsb.net/"
+  },
+  "463000": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://queenelizabeths.lkdsb.net/"
+  },
+  "464430": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.hwdsb.on.ca/schools/schoolprofiles/index.aspx?school_id=queenmary"
+  },
+  "466387": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/queensdale/"
+  },
+  "466639": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/sirwilliamosler/"
+  },
+  "467324": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/rariddell/"
+  },
+  "467572": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/BlenheimDistrict.cfm"
+  },
+  "468339": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/rmm/default.aspx"
+  },
+  "468371": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/rrb"
+  },
+  "476773": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/raylewis/"
+  },
+  "478997": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://redlakemadsen.kpdsb.on.ca/"
+  },
+  "480452": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/robarts/index.html"
+  },
+  "480738": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/richardbeasley/"
+  },
+  "481017": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/RickHansen.cfm"
+  },
+  "485322": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/RiverHeights.cfm"
+  },
+  "485497": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/rvs/default.aspx"
+  },
+  "486272": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Riverside.cfm"
+  },
+  "486663": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://openroads.kpdsb.on.ca/"
+  },
+  "486922": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://riverview.lkdsb.net/"
+  },
+  "487210": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/robarts/index.html"
+  },
+  "490695": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/rosedale/"
+  },
+  "490822": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://rosedale.adsb.on.ca/"
+  },
+  "491080": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://rosedale.lkdsb.net/"
+  },
+  "491217": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/roseland"
+  },
+  "491764": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/rosevill"
+  },
+  "493163": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/rousseau/"
+  },
+  "495263": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://rye.hdsb.ca"
+  },
+  "495379": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/ryerson/"
+  },
+  "498513": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/swps"
+  },
+  "501484": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://savantlake.kpdsb.on.ca/"
+  },
+  "502030": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/schumacher"
+  },
+  "510700": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/OrchardPark.cfm"
+  },
+  "514659": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://siouxmountain.kpdsb.on.ca/"
+  },
+  "515000": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://siouxnarrows.kpdsb.on.ca/"
+  },
+  "515008": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/WestNissouri.cfm"
+  },
+  "515396": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/sje/default.aspx"
+  },
+  "515523": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://hhttps://sirjamacdonald.ddsb.ca"
+  },
+  "515787": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Macdonald.cfm"
+  },
+  "516074": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://sirjohnmoore.lkdsb.net/"
+  },
+  "516244": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/sirwilfridlaurier/"
+  },
+  "519294": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.dsb1.edu.ca/schools/srfps"
+  },
+  "522619": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/JeanneSauve.cfm"
+  },
+  "524883": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Southside.cfm"
+  },
+  "525278": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Southwold.cfm"
+  },
+  "526436": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/SouthRidge.cfm"
+  },
+  "526703": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/southwoo"
+  },
+  "527742": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Springbank.cfm"
+  },
+  "528005": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Springfield.cfm"
+  },
+  "529176": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://standrewsjhstoronto.wordpress.com"
+  },
+  "530212": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/St.cfm"
+  },
+  "530603": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/sjo/default.aspx"
+  },
+  "537675": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Stoneybrook.cfm"
+  },
+  "539180": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Straffordville.cfm"
+  },
+  "539197": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epedr.cspgno.ca"
+  },
+  "539427": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/Tecumseh/"
+  },
+  "539570": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/strathcona/"
+  },
+  "548022": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/tapleytown/"
+  },
+  "548413": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/tps/default.aspx"
+  },
+  "548545": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Tavistock.cfm"
+  },
+  "548707": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://tecumseh.lkdsb.net"
+  },
+  "550493": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Tecumseh.cfm"
+  },
+  "550809": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/temagami"
+  },
+  "550817": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/templemead/"
+  },
+  "551104": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Thamesford.cfm"
+  },
+  "551147": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://thamesville.lkdsb.net/"
+  },
+  "551660": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/the/default.aspx"
+  },
+  "551941": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/lakeshore"
+  },
+  "554596": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/ecd/index.html"
+  },
+  "554600": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/sagonaska/index.html"
+  },
+  "557188": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/RochCarrier.cfm"
+  },
+  "560766": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Robarts.cfm"
+  },
+  "560898": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Trafalgar.cfm"
+  },
+  "563102": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Tweedsmuir.cfm"
+  },
+  "566225": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/UniversityHeights.cfm"
+  },
+  "566489": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://upsala.kpdsb.on.ca/"
+  },
+  "568961": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epfj.cspgno.ca"
+  },
+  "569565": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.wdcs.bwdsb.on.ca/"
+  },
+  "569739": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://valleyview.kpdsb.on.ca/"
+  },
+  "569860": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Valleyview.cfm"
+  },
+  "570326": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://wdss.lkdsb.net"
+  },
+  "570516": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://lillianberg.kpdsb.on.ca/"
+  },
+  "572853": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://victor.lkdsb.net/"
+  },
+  "574155": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/qvictoria"
+  },
+  "575321": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Victoria.cfm"
+  },
+  "578703": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/viscountmontgomery/"
+  },
+  "579327": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/SherwoodFox.cfm"
+  },
+  "579610": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/whballard/"
+  },
+  "580007": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://wjbaird.lkdsb.net"
+  },
+  "583403": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://beaverbrae.kpdsb.on.ca/"
+  },
+  "586970": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/StoneyCreek.cfm"
+  },
+  "587281": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://eastlambton.lkdsb.net/"
+  },
+  "590984": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/ELEM/Suzuki/"
+  },
+  "602272": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Westmount.cfm"
+  },
+  "602957": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/westview/"
+  },
+  "603538": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/westwood/"
+  },
+  "604054": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://wheatley.lkdsb.net/"
+  },
+  "604836": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/WhiteOaks.cfm"
+  },
+  "605816": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/WilfridJury.cfm"
+  },
+  "607541": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/davis"
+  },
+  "612707": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/WiltonGrove.cfm"
+  },
+  "612766": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ArthurStringer.cfm"
+  },
+  "615498": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/winona/"
+  },
+  "615757": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://winstonchurchill.lkdsb.net/"
+  },
+  "616160": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://www.kemptville.cepeo.on.ca"
+  },
+  "619000": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/WoodlandHeights.cfm"
+  },
+  "619787": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://kinnwood.lkdsb.net"
+  },
+  "621862": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/WortleyRoad.cfm"
+  },
+  "622257": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://southplymptonwyoming.lkdsb.net/"
+  },
+  "622346": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/NewSarum.cfm"
+  },
+  "624721": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/yorkview/"
+  },
+  "625221": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://zone.lkdsb.net/"
+  },
+  "627194": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ZorraHighlandPark.cfm"
+  },
+  "672610": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/shc/default.aspx"
+  },
+  "673013": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/glenwood/"
+  },
+  "686042": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/alexanderkuska/"
+  },
+  "688320": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/assumption/"
+  },
+  "688762": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pierre-elliott-trudeau.ecolecatholique.ca/"
+  },
+  "688784": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/motherteresa/"
+  },
+  "689343": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://bsch.rccdsb.edu.on.ca/"
+  },
+  "689351": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://baccss.scdsb.edu.on.ca/"
+  },
+  "689939": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://bsch.rccdsb.edu.on.ca/"
+  },
+  "690023": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://blessedkateri.wcdsb.ca"
+  },
+  "693910": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/canadianmartyrs/"
+  },
+  "694134": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://cn.hwcdsb.ca/"
+  },
+  "694177": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/cardinalnewman/"
+  },
+  "694304": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/ourladyofmountcarmel/"
+  },
+  "694827": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.franco-ouest.ecolecatholique.ca/"
+  },
+  "695211": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/cathedral/"
+  },
+  "695955": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.samuel-genest.ecolecatholique.ca/"
+  },
+  "696005": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.jeanne-lajoie-elementaire.ecolecatholique.ca/"
+  },
+  "696030": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.jeanne-lajoie-secondaire.ecolecatholique.ca/"
+  },
+  "698334": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StJosephsClinton/Pages/default.aspx"
+  },
+  "701670": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.lenvol.ecolecatholique.ca/"
+  },
+  "701688": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.ecolecatholique.ca/fr/53"
+  },
+  "701971": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.saint-guillaume.ecolecatholique.ca"
+  },
+  "703168": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.despionniers.ecolecatholique.ca"
+  },
+  "703753": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.lasource.ecolecatholique.ca/"
+  },
+  "705055": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.elisabeth-bruyere.ecolecatholique.ca/"
+  },
+  "705136": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.jean-robert-gauthier.ecolecatholique.ca/"
+  },
+  "705217": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.tbcschools.ca/bishop-eq-jennings"
+  },
+  "705233": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.franco-cite.ecolecatholique.ca/"
+  },
+  "705241": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.marie-rivier.ecolecatholique.ca/fr/"
+  },
+  "705276": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.beatrice-desloges.ecolecatholique.ca/"
+  },
+  "705314": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.beatrice-desloges.ecolecatholique.ca/"
+  },
+  "705365": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.reine-des-bois.ecolecatholique.ca/fr/"
+  },
+  "705390": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.deladecouverte.ecolecatholique.ca"
+  },
+  "705420": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.mgr-remi-gaulin.ecolecatholique.ca"
+  },
+  "705497": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://escna.csdccs.edu.on.ca/"
+  },
+  "705748": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StPatricksKinkora/Pages/default.aspx"
+  },
+  "706264": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/olmc/Pages/default.aspx"
+  },
+  "706396": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/PreciousBlood/Pages/default.aspx"
+  },
+  "706655": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/fatherhennepin/"
+  },
+  "708011": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/gvan/Pages/default.aspx"
+  },
+  "709387": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sainte-bernadette.ecolecatholique.ca/"
+  },
+  "709646": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sainte-marie.ecolecatholique.ca/"
+  },
+  "710903": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.garneau.ecolecatholique.ca/"
+  },
+  "710954": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://gshepherd.dcdsb.ca/"
+  },
+  "713678": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StColumbanStPatrick/Pages/default.aspx"
+  },
+  "714194": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sncdsb.on.ca/article/holy-angels-school--schreiber-on-65.asp"
+  },
+  "715166": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/st-john-bosco/"
+  },
+  "715298": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/hcss/Pages/default.aspx"
+  },
+  "717185": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/holy-name/"
+  },
+  "717312": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/holyname/Pages/default.aspx"
+  },
+  "717703": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/name/Pages/default.aspx"
+  },
+  "718092": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/holyname/"
+  },
+  "718973": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pierre-savard.ecolecatholique.ca/fr/"
+  },
+  "719919": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/rosa/Pages/default.aspx"
+  },
+  "719994": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sncdsb.on.ca/article/holy-saviour-school--marathon-on-63.asp"
+  },
+  "721212": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://immaculate.scdsb.edu.on.ca/"
+  },
+  "722901": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.j-l-couroux.ecolecatholique.ca/fr/"
+  },
+  "724068": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/john/Pages/default.aspx"
+  },
+  "724076": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-john-xxiii/"
+  },
+  "724084": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://johnxxiii.dcdsb.ca"
+  },
+  "725536": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.laverendrye.ecolecatholique.ca"
+  },
+  "725633": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.lamoureux.ecolecatholique.ca"
+  },
+  "728098": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/lorettocatholic/"
+  },
+  "728420": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.learningatloyola.ca/campus/kingston/"
+  },
+  "730831": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/maryward/"
+  },
+  "730963": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://marymount.scdsb.edu.on.ca/"
+  },
+  "730971": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://marymount.scdsb.edu.on.ca/"
+  },
+  "730980": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sainte-marguerite-bourgeoys.ecolecatholique.ca/"
+  },
+  "731226": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StColumbanStPatrick/Pages/default.aspx"
+  },
+  "731374": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://mcm.ocsb.ca"
+  },
+  "732397": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.montfort.ecolecatholique.ca"
+  },
+  "732788": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StMarysListowel/Pages/default.aspx"
+  },
+  "733067": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.sta-russell.com/"
+  },
+  "734314": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.laurier-carriere.ecolecatholique.ca/"
+  },
+  "735060": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://jpereyma.dcdsb.ca/"
+  },
+  "735523": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/jjon/Pages/default.aspx"
+  },
+  "736465": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stvincentdepaul/"
+  },
+  "737720": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/notredame/"
+  },
+  "740195": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://notredamewelland.com/Home"
+  },
+  "740845": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sainte-therese-davila.ecolecatholique.ca/"
+  },
+  "741671": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.desvoyageurs.ecolecatholique.ca"
+  },
+  "741817": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.tbcschools.ca/our-lady-charity"
+  },
+  "742147": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-lady-of-fatima/"
+  },
+  "742155": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/ourladyoffatima-grimsby/"
+  },
+  "742279": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/ofat/Pages/default.aspx"
+  },
+  "742309": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tncdsb.on.ca/school/olow/Pages/default.aspx"
+  },
+  "742660": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sncdsb.on.ca/article/our-lady-of-fatima-school--longlac-on-67.asp"
+  },
+  "743577": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/ourladyoffatima-stcatharines/"
+  },
+  "744352": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/st-therese/"
+  },
+  "744654": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/our-lady-of-grace/"
+  },
+  "744743": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/st-george/"
+  },
+  "745782": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sncdsb.on.ca/article/our-lady-of-lourdes-school--manitouwadge-on-68.asp"
+  },
+  "745910": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/our-lady-of-lourdes/"
+  },
+  "746568": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/lady/Pages/default.aspx"
+  },
+  "746690": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/omer/Pages/default.aspx"
+  },
+  "746827": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://st-paul.scdsb.edu.on.ca/index.php"
+  },
+  "747211": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/mtcarmel/Pages/default.aspx"
+  },
+  "748129": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/our-lady-of-sorrows/"
+  },
+  "749427": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/ourladyofvictory/"
+  },
+  "750085": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.marie-rivier.ecolecatholique.ca/"
+  },
+  "750107": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.franco-ouest.ecolecatholique.ca/"
+  },
+  "750336": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://piusxii.scdsb.edu.on.ca/"
+  },
+  "750468": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://prdg.csdccs.edu.on.ca/"
+  },
+  "751073": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://prdg.csdccs.edu.on.ca/"
+  },
+  "751120": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.samuel-genest.ecolecatholique.ca/fr/"
+  },
+  "752410": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/george-vanier/"
+  },
+  "752550": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.franco-cite.ecolecatholique.ca/"
+  },
+  "752576": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.garneau.ecolecatholique.ca/fr/"
+  },
+  "753157": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.marius-barbeau.ecolecatholique.ca"
+  },
+  "753203": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.roger-saint-denis.ecolecatholique.ca/"
+  },
+  "753580": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-francis-of-assisi/"
+  },
+  "756642": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/stfa/Pages/default.aspx"
+  },
+  "756830": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/shrm/Pages/default.aspx"
+  },
+  "758000": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tncdsb.on.ca/school/sacredheart/Pages/default.aspx"
+  },
+  "758264": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/sacredheart/"
+  },
+  "763721": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StJames/Pages/default.aspx"
+  },
+  "764248": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/stpe/Pages/default.aspx"
+  },
+  "764264": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.despins.ecolecatholique.ca/"
+  },
+  "764370": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/shrb/Pages/default.aspx"
+  },
+  "765031": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/abos/Pages/default.aspx"
+  },
+  "766453": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stalexander/"
+  },
+  "766712": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stalfred/"
+  },
+  "766976": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StAloysius/Pages/default.aspx"
+  },
+  "767978": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.ange-gabriel.ecolecatholique.ca/"
+  },
+  "768405": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StAmbrose/Pages/default.aspx"
+  },
+  "768928": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/standrew/"
+  },
+  "769185": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-andrews/"
+  },
+  "769765": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.bernard-grandmaitre.ecolecatholique.ca/"
+  },
+  "770353": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stann-stcatharines/"
+  },
+  "770612": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/st-ann-pelham/"
+  },
+  "770744": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://st-anne.scdsb.edu.on.ca/"
+  },
+  "771406": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://brotherandre.dcdsb.ca"
+  },
+  "771686": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StAnnes/Pages/default.aspx"
+  },
+  "773026": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.sta-russell.com/"
+  },
+  "773344": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stanthony/"
+  },
+  "773875": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/trsa/Pages/default.aspx"
+  },
+  "774251": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-anthonys/"
+  },
+  "775550": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/staugustine/"
+  },
+  "777196": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://st-benedict.scdsb.edu.on.ca/"
+  },
+  "781142": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/cart/Pages/default.aspx"
+  },
+  "782181": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://st-charles.scdsb.edu.on.ca/"
+  },
+  "782831": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/monsignor-clancy/"
+  },
+  "783749": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stchristopher/"
+  },
+  "784133": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://christopher.dcdsb.ca/"
+  },
+  "785954": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://st-david.scdsb.edu.on.ca/"
+  },
+  "786349": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stdenis/"
+  },
+  "786634": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.edouard-bond.ecolecatholique.ca/"
+  },
+  "787906": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stedward/"
+  },
+  "788031": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sncdsb.on.ca/article/st-edward-school--nipigon-on-72.asp"
+  },
+  "789330": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/st-elizabeth/"
+  },
+  "791075": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://st-francis.scdsb.edu.on.ca/"
+  },
+  "793027": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.saint-francois-dassise.ecolecatholique.ca/"
+  },
+  "793108": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.cscdgr.on.ca"
+  },
+  "793752": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stgabriellalemant/"
+  },
+  "794708": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www2.cscdgr.on.ca/default.aspx?SchoolID=58&PageID=3202"
+  },
+  "796220": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/greg/Pages/default.aspx"
+  },
+  "797260": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sncdsb.on.ca/article/st-hilary-school--red-rock-on-77.asp"
+  },
+  "798568": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-james/"
+  },
+  "798878": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://st-james.scdsb.edu.on.ca/"
+  },
+  "799211": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stjames/"
+  },
+  "799556": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/jams/Pages/default.aspx"
+  },
+  "803766": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stjohn/"
+  },
+  "804282": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://st-john.scdsb.edu.on.ca/"
+  },
+  "805068": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.kcdsb.on.ca/schools/sjs"
+  },
+  "806234": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-josephs-arnprior/"
+  },
+  "806382": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-josephs-calabogie/"
+  },
+  "806436": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.kcdsb.on.ca/schools/pjp"
+  },
+  "806972": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://stjohnpaulii.dcdsb.ca/en/index.aspx"
+  },
+  "808571": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sncdsb.on.ca/article/st-joseph-school--geraldton-on-78.asp"
+  },
+  "808709": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stjoseph-grimsby/"
+  },
+  "809098": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stjoseph-forterie/"
+  },
+  "810525": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://st-joseph.scdsb.edu.on.ca/"
+  },
+  "811696": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://stjosephux.dcdsb.ca"
+  },
+  "812994": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StJosephsStratford/Pages/default.aspx"
+  },
+  "813770": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tncdsb.on.ca/school/stjosephs/Pages/default.aspx"
+  },
+  "814423": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://stjoseph.dcdsb.ca"
+  },
+  "814687": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://stjosephcambridge.wcdsb.ca"
+  },
+  "815330": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/jose/Pages/default.aspx"
+  },
+  "815985": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.cscdgr.on.ca"
+  },
+  "816892": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stkevin/"
+  },
+  "819360": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.kcdsb.on.ca/schools/sls"
+  },
+  "821225": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.kcdsb.on.ca/schools/smb"
+  },
+  "823112": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stmark/"
+  },
+  "823570": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/mart/Pages/default.aspx"
+  },
+  "823783": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stmartin/"
+  },
+  "824046": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sncdsb.on.ca/article/st-martin-school--terrace-bay-on-79.asp"
+  },
+  "824330": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/marn/Pages/default.aspx"
+  },
+  "826120": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stmary-niagarafalls/"
+  },
+  "826211": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://jpereyma.dcdsb.ca/"
+  },
+  "827681": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/ecth/Pages/default.aspx"
+  },
+  "827819": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stmary-welland/"
+  },
+  "827940": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StMarysGoderich/Pages/default.aspx"
+  },
+  "829501": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-marys-deep-river/"
+  },
+  "829936": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://pjp.wcdsb.ca/"
+  },
+  "830984": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/marg/Pages/default.aspx"
+  },
+  "831840": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/stmt/Pages/default.aspx"
+  },
+  "832480": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.smchs.ca/"
+  },
+  "832502": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.smchs.ca/"
+  },
+  "832545": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StMichael/Pages/default.aspx"
+  },
+  "832634": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/jeannesauve/Pages/default.aspx"
+  },
+  "832670": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pierre-savard.ecolecatholique.ca/fr/"
+  },
+  "832880": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stmichael/"
+  },
+  "834688": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/mich/Pages/default.aspx"
+  },
+  "835099": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/nicc/Pages/default.aspx"
+  },
+  "835226": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-michaels/"
+  },
+  "836001": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stnicholas/"
+  },
+  "836788": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.st-clair.net/sph/"
+  },
+  "837563": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stpatrick-niagarafalls/"
+  },
+  "838993": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/st-patrick-port-colborne/"
+  },
+  "839388": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tncdsb.on.ca/school/stpatricks/Pages/default.aspx"
+  },
+  "841773": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/stph/Pages/default.aspx"
+  },
+  "842761": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/paul/Pages/default.aspx"
+  },
+  "844322": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stpeter/"
+  },
+  "844713": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.stpetercatholicschool.ca/"
+  },
+  "845493": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/pett/Pages/default.aspx"
+  },
+  "846147": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/stphilomena/"
+  },
+  "852910": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://portal.niagaracatholic.ca/elementary/sttheresa/"
+  },
+  "855949": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.ange-gabriel.ecolecatholique.ca/"
+  },
+  "856150": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/sttm/Pages/default.aspx"
+  },
+  "856410": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://rccdsb.edu.on.ca/our-schools/st-thomas-the-apostle/"
+  },
+  "857998": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.tbcschools.ca/st-vincent-school"
+  },
+  "860573": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sainte-anne.ecolecatholique.ca/"
+  },
+  "860676": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://allsaints.dcdsb.ca/en/index.aspx"
+  },
+  "861480": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.terre-des-jeunes.ecolecatholique.ca/"
+  },
+  "861871": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sainte-genevieve.ecolecatholique.ca/"
+  },
+  "864366": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.st-clair.net/ucc/"
+  },
+  "864471": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.kcdsb.on.ca/schools/sta"
+  },
+  "864617": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.kcdsb.on.ca/schools/sta"
+  },
+  "864730": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.george-etienne-cartier.ecolecatholique.ca"
+  },
+  "865125": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/stms/Pages/default.aspx"
+  },
+  "865257": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/namm/Pages/default.aspx"
+  },
+  "865648": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.letoile-de-lest.ecolecatholique.ca/"
+  },
+  "867985": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/SacredHeart/Pages/default.aspx"
+  },
+  "868370": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.alcdsb.on.ca/school/shrt/Pages/default.aspx"
+  },
+  "868639": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.huronperthcatholic.ca/StBoniface/Pages/default.aspx"
+  },
+  "890073": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Lucas.cfm"
+  },
+  "890817": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://esodb.cspgno.ca"
+  },
+  "890861": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://glss.lkdsb.net"
+  },
+  "891274": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://amss.lkdsb.net/"
+  },
+  "891347": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/cas/default.aspx"
+  },
+  "891401": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.hwdsb.on.ca/programs/achievementcenter/"
+  },
+  "892670": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ArthurVoaden.cfm"
+  },
+  "894230": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://beaverbrae.kpdsb.on.ca/"
+  },
+  "895270": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/wce/default.aspx"
+  },
+  "897485": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://burnhamthorpecollegiate.com"
+  },
+  "898090": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://chci.wrdsb.ca/"
+  },
+  "899305": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/CentralElgin.cfm"
+  },
+  "900478": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://chss.hpedsb.on.ca"
+  },
+  "900516": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://www.cefeo-eoetc.on.ca"
+  },
+  "900869": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/css/default.aspx"
+  },
+  "901644": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Clarke.cfm"
+  },
+  "902292": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/eschs"
+  },
+  "902299": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/tecumsehvista-sec/Pages/default.aspx"
+  },
+  "902420": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/CollegeAvenue.cfm"
+  },
+  "902748": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://crolancia.kpdsb.on.ca/"
+  },
+  "904503": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/LordDorchester.cfm"
+  },
+  "905283": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://dhseagles.kpdsb.on.ca/"
+  },
+  "906514": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.cairinewilsonss.ocdsb.ca/index.html"
+  },
+  "906581": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/EastElgin.cfm"
+  },
+  "906972": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.eastdale.ca/"
+  },
+  "907448": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://esh.cspgno.ca"
+  },
+  "907553": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-secondaire-franco-niagara/"
+  },
+  "907570": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://esmc.cspgno.ca"
+  },
+  "907677": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.eden.dsbn.org"
+  },
+  "908010": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/els/default.aspx"
+  },
+  "908924": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/ehs"
+  },
+  "909190": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/ecd/index.html"
+  },
+  "909203": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/ecd/index.html"
+  },
+  "909440": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/edhs/Pages/default.aspx"
+  },
+  "910228": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://nlss.lkdsb.net/"
+  },
+  "910350": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://fhci.wrdsb.ca/"
+  },
+  "911100": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://esrdf.cspgno.ca"
+  },
+  "911609": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.sudburysecondary.net/adult-and-continuing-education-program.html"
+  },
+  "912433": {
+   "status": "unrelated",
+   "detail": "the address now leads to a site unrelated to the school",
+   "url": "http://georgetowndistricthighschool.com/website2/index.asp"
+  },
+  "912573": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://escj.cspgno.ca"
+  },
+  "912824": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Glencoe.cfm"
+  },
+  "912956": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Glendale.cfm"
+  },
+  "913081": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/glendale/"
+  },
+  "913340": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://gpss.wrdsb.ca/"
+  },
+  "914070": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://grci.wrdsb.ca/"
+  },
+  "914908": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Beal.cfm"
+  },
+  "915424": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.lakeheadschools.ca/hammarskjold/"
+  },
+  "916293": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/hhs"
+  },
+  "916579": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/dundasvalley"
+  },
+  "917231": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://scdsb.on.ca/Schools/Alt-School/Pages/South-Barrie-Campus.aspx"
+  },
+  "917249": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/sec/kennedy"
+  },
+  "917370": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/hhs/default.aspx"
+  },
+  "918024": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/HuronPark.cfm"
+  },
+  "918113": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://ignaceschool.kpdsb.on.ca/"
+  },
+  "918156": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Ingersoll.cfm"
+  },
+  "918555": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://jhss.wrdsb.ca/"
+  },
+  "918563": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.hwdsb.on.ca/turningpoint/"
+  },
+  "918806": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/westviewfreedom/Pages/default.aspx"
+  },
+  "918938": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://jmss.lkdsb.net/"
+  },
+  "919063": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/kdhs"
+  },
+  "919322": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://ckss.lkdsb.net/"
+  },
+  "920100": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/SEC/kdhs/"
+  },
+  "920231": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.kiplingci.ca"
+  },
+  "920363": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/kldcs/index.php"
+  },
+  "920533": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/kor/default.aspx"
+  },
+  "921408": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://lccvi.lkdsb.net/"
+  },
+  "921530": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://lkcs.lkdsb.net/"
+  },
+  "921750": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://secord.dsbn.edu.on.ca/"
+  },
+  "922188": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/sec/ldss"
+  },
+  "922854": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsbn.org/programs-services/adult-and-community-education"
+  },
+  "923745": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Central.cfm"
+  },
+  "923877": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/South.cfm"
+  },
+  "924652": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://mnhs.sgdsb.on.ca"
+  },
+  "924784": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://mrhs.sgdsb.on.ca/"
+  },
+  "924792": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://escs.cspgno.ca"
+  },
+  "925560": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/MedwayHighSchool.cfm"
+  },
+  "926086": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/mic/default.aspx"
+  },
+  "927163": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.hwdsb.on.ca/kingwilliam"
+  },
+  "927252": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.hpedsb.on.ca/mss"
+  },
+  "927430": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Montcalm.cfm"
+  },
+  "929727": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/sec/brdhs"
+  },
+  "930113": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/NorthMiddlesex.cfm"
+  },
+  "930636": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://northern.lkdsb.net/"
+  },
+  "930768": {
+   "status": "unrelated",
+   "detail": "the address now leads to a site unrelated to the school",
+   "url": "http://www.northern-secondary.com"
+  },
+  "931934": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Oakridge.cfm"
+  },
+  "932302": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/wross/index.html"
+  },
+  "932310": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/wross/index.html"
+  },
+  "932507": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/orchardpark/"
+  },
+  "936871": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://siouxnorth.kpdsb.on.ca/"
+  },
+  "937266": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.rhkingacademy.ca"
+  },
+  "937789": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://rldhs.kpdsb.on.ca/"
+  },
+  "938696": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://rdhs.lkdsb.net"
+  },
+  "939218": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/riverside/Pages/default.aspx"
+  },
+  "939765": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/sandwich/Pages/default.aspx"
+  },
+  "940437": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Saunders.cfm"
+  },
+  "940666": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://lshs.sgdsb.on.ca/"
+  },
+  "940925": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.hdsb.ca/Schools/Pages/SchoolDetails.aspx?sc=2054&sn=gary&pr=&ci=&gr="
+  },
+  "940968": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.hdsb.ca/Schools/Pages/SchoolDetails.aspx?sc=2050&sn=gary+allan&pr=&ci=&gr="
+  },
+  "941328": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/sherwood/"
+  },
+  "941743": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Banting.cfm"
+  },
+  "941840": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/sjw/index.html"
+  },
+  "941859": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/sjw/index.html"
+  },
+  "942162": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/SirWilfridLaurier.cfm"
+  },
+  "943509": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/rmss/index.php"
+  },
+  "944939": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Parkside.cfm"
+  },
+  "945846": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Strathroy.cfm"
+  },
+  "946192": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://subwayacademyone.com"
+  },
+  "947229": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.pdsbnet.ca/eng/schools/robarts/index.html"
+  },
+  "948446": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://tdhs.lkdsb.net/"
+  },
+  "948578": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/thvs"
+  },
+  "949612": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/massey/Pages/default.aspx"
+  },
+  "949744": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://satecatwaporter.ca"
+  },
+  "950009": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.publicboard.ca/school/hermanacademy-secondary/Pages/default.aspx"
+  },
+  "950262": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.wdss.bwdsb.on.ca"
+  },
+  "950394": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/sec/walkervi"
+  },
+  "950521": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://wdss.lkdsb.net"
+  },
+  "950848": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.lakeheadschools.ca/superior"
+  },
+  "951048": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://wodss.wrdsb.ca/"
+  },
+  "951439": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/WestElgin.cfm"
+  },
+  "951820": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/westdale/"
+  },
+  "952346": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Westminster.cfm"
+  },
+  "952478": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/westmount/"
+  },
+  "952605": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.westonci.ca"
+  },
+  "952803": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://ecolesecondairetorontoouest.csviamonde.ca"
+  },
+  "953148": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/wps/default.aspx"
+  },
+  "953822": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/"
+  },
+  "954551": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Woodstock.cfm"
+  },
+  "955622": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://ecsa.cspgno.ca"
+  },
+  "958050": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/shs/default.aspx"
+  },
+  "965570": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://esvfj.cspgno.ca"
+  },
+  "000078": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://aawright.lkdsb.net/"
+  },
+  "000540": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Baker.cfm"
+  },
+  "000728": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/amcunningham/"
+  },
+  "001104": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/schFinder/schoolSelect.asp?rec=1"
+  },
+  "001244": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://aberarder.lkdsb.net/"
+  },
+  "001503": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Aberdeen.cfm"
+  },
+  "002542": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Adelaide.cfm"
+  },
+  "002674": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/adelaidehoodless/"
+  },
+  "002801": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://adelaide.ddsb.ca"
+  },
+  "007358": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Aldborough.cfm"
+  },
+  "011576": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Algonquin.cfm"
+  },
+  "011584": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://alq.scdsb.on.ca"
+  },
+  "011568": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/aagreenleaf/"
+  },
+  "014052": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://altona.ddsb.ca/"
+  },
+  "018660": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/aps"
+  },
+  "019054": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/anderdon"
+  },
+  "019186": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/amc/default.aspx"
+  },
+  "011622": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/AnnandaleSchool.cfm"
+  },
+  "019445": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://www.annettestreetpublicschool.com"
+  },
+  "023990": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ArthurFord.cfm"
+  },
+  "026395": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/AshleyOaksPS.cfm"
+  },
+  "037770": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.sgdsb.on.ca/article/beardmore-public-school-255.asp"
+  },
+  "041297": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/brps"
+  },
+  "041947": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/bellewoo"
+  },
+  "041548": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/bellmoore/"
+  },
+  "043362": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/brm/default.aspx"
+  },
+  "045578": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/berthashaw"
+  },
+  "041980": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/billygreen/"
+  },
+  "054542": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/bli/default.aspx"
+  },
+  "055611": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Bonaventure.cfm"
+  },
+  "055719": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://bosanquet.lkdsb.net/"
+  },
+  "061824": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://bridgeview.lkdsb.net"
+  },
+  "062081": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://brigden.lkdsb.net/"
+  },
+  "063517": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://brightsgrove.lkdsb.net/"
+  },
+  "066370": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://brooke.lkdsb.net/"
+  },
+  "068845": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/buchananpark/"
+  },
+  "072095": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ByronNorthview.cfm"
+  },
+  "058416": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ByronSomerset.cfm"
+  },
+  "072222": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/ByronSouthwood.cfm"
+  },
+  "072613": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Carrothers.cfm"
+  },
+  "072907": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://cebroughton.ddsb.ca"
+  },
+  "082880": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/CaradocNorth.cfm"
+  },
+  "082759": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/Caradoc.cfm"
+  },
+  "088609": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://cathcart.lkdsb.net"
+  },
+  "098094": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/ccps"
+  },
+  "093548": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/cen/default.aspx"
+  },
+  "091723": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/central/"
+  },
+  "095885": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/central"
+  },
+  "098876": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/CentralPS.cfm"
+  },
+  "097969": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "https://www.dsb1.ca/schools/central"
+  },
+  "091073": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "http://www.gecdsb.on.ca/schools/elem/cnps"
+  },
+  "018961": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://schools.hwdsb.on.ca/ancastersenior/"
+  },
+  "091464": {
+   "status": "parked",
+   "detail": "the address now shows a domain-for-sale page",
+   "url": "https://www.gecdsb.on.ca/schools/elem/gnps"
+  },
+  "076104": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/ifps"
+  },
+  "018309": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.adsb.on.ca/sites/schools/kis/default.aspx"
+  },
+  "000469": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/lambeth.cfm"
+  },
+  "032700": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "http://shr.rcdsb.on.ca"
+  },
+  "087548": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.tvdsb.ca/SirGeorges.cfm"
+  },
+  "050571": {
+   "status": "dead",
+   "detail": "the page no longer exists",
+   "url": "http://www.dsb1.ca/schools/tdss"
+  },
+  "045253": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epbr.cspgno.ca"
+  },
+  "025977": {
+   "status": "dead",
+   "detail": "the website address no longer exists",
+   "url": "https://epe.cspgno.ca"
+  }
+ }
+}

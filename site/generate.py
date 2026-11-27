@@ -188,6 +188,15 @@ class Site:
         self.boards_index = load(DATA / "boards-index.json")
         self.fsa_index = load(DATA / "fsa-index.json")
         self.schools = {p.stem: load(p) for p in (DATA / "schools").glob("*.json")}
+        # school website links from the Ministry's list that no longer work (site/school-links.json, reviewed by hand):
+        # never link a family to a dead, parked or unrelated site; say why instead
+        links = json.loads((HERE / "school-links.json").read_text(encoding="utf-8"))
+        self.links_checked = links["checked"]
+        for bsid, bad in links["schools"].items():
+            s = self.schools.get(bsid)
+            if s and s.get("website") == bad["url"]:
+                s["website"] = None
+                s["website_note"] = {**bad, "checked": links["checked"]}
         self.boards = {p.stem: load(p) for p in (DATA / "boards").glob("*.json")}
         self.fsas = {p.stem: load(p) for p in (DATA / "fsa").glob("*.json")}
         print(f"loaded {len(self.schools)} schools, {len(self.boards)} boards, {len(self.fsas)} FSAs in {time.time() - t0:.1f}s")
@@ -211,7 +220,7 @@ class Site:
         # Data the scripts fetch (/data/...) is versioned by the pipeline run plus what this generator
         # derives from it, and stamped on every page as <html data-v> for lib.js's dataUrl().
         self.ctx_json = self.context_json()
-        self.env.globals["data_v"] = short_hash((DATA / "meta.json").read_bytes(), self.ctx_json.encode(), *(p.read_bytes() for p in family.BoardInfo.files(HERE / "board-info")))
+        self.env.globals["data_v"] = short_hash((DATA / "meta.json").read_bytes(), self.ctx_json.encode(), *(p.read_bytes() for p in family.BoardInfo.files(HERE / "board-info")), (HERE / "school-links.json").read_bytes())
         self.official_by_board = self._official()
         # hand-checked board records (registration, programs, transfers, supports, planning), inherited by schools
         self.info = family.BoardInfo(HERE / "board-info")

@@ -57,6 +57,7 @@ What changed and why is in [DECISIONS.md](DECISIONS.md#family-pass-2026-11-26-pr
 - **Board websites**: the Ministry's contact list had dead, parked or hijacked board website links (Bloorview's
   now redirects to an unrelated blog). `sources.BOARD_WEBSITE_FIXES` replaces those, with the reason; drop an
   entry once the Ministry fixes its list. School websites from the same list were not checked.
+- **School website links**: the Ministry's list had 773 school links that no longer work (2026-11-26: 717 dead, 52 on GECDSB's old domain that is now parked, 4 hijacked to unrelated sites such as a games-download page). `site/school-links.json` lists them and the site hides those links and says why. Recheck yearly: `node scripts/check-school-links.mjs <out.json>` sorts every link (links a site refuses to answer for scripts are never treated as broken); review anything new by hand before adding it, especially "elsewhere" results, which can be a school's own new site.
 - **EQAO questionnaire**: add next year's four ZIPs and field-definition workbooks to
   `sources.EQAO_SQ_RESOURCES` and move the current year into `sources.EQAO_SQ_HISTORY` (its definitions workbook
   is named by the spring: `G36_2026` = 2025-26). Earlier years show only for questions whose wording and answers
