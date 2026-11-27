@@ -49,3 +49,37 @@ The brief ([idea.md](idea.md)) was treated as a strong starting point. These are
 ## Hosting
 - CapRover (Docker + nginx) instead of GitHub/Cloudflare Pages, because that is where the owner's other sites run. Public address: **ontarioschoolfinder.ca** (canonical URLs, sitemap and share links use it; `www` and `ontario-schools.behind7proxies.com` redirect to it once `scripts/connect-domain.sh` has run). The site is still a plain static folder and can move to any static host.
 - The build context is one archive (`site.tar.gz`): CapRover's builder timed out ingesting ~16,000 loose files.
+
+## Family pass (2026-11-26, PR #24)
+
+### EQAO results are split at 2021-22 and never joined
+- EQAO moved every assessment online in 2021-22, changed the test design (and, in mathematics, set new standards for the 2020 curriculum), began reporting fully participating students only, and **set new trendlines** that year; it gives 2018-19 results "only as reference points". The site used to draw one line from 2016-17 and say things like "Down 14 points since 2016-17".
+- Now `pipeline/eras.py` assigns every row an era (`current` from 2021-22, `paper` before; Grade 9 academic/applied always `paper`). Charts, summary sentences, board medians and Compare's change row use the current era only; earlier results are in a separate "Earlier results (a different test, not comparable)" table. `eqao.csv` has an `era` column. The official numbers are unchanged.
+- Summaries say a change compares **a different group of students**, not the same children's progress.
+
+### Student experience from EQAO's questionnaire, latest year only
+- EQAO publishes student questionnaire answers per school, board and province (counts and percentages, N/R when fewer than 10 students). We show a handful of questions (liking reading or math, seeing themselves as good at it, keeping at something difficult, feeling prepared for next year, working in a group), with EQAO's **exact wording read from its field-definitions workbook** each run; a reworded or removed question stops the pipeline.
+- Denominator: EQAO's own (all fully participating students, including those who skipped the question), checked equal to the sum of answer counts for every school and board. Grades 3/6 use EQAO's published "Yes, I agree" percentage; Grade 9 and the OSSLT have five answers, so "agreed" = somewhat + strongly agree, counted from EQAO's numbers and labelled as such.
+- Board and Ontario columns are EQAO's student-weighted figures, not medians of schools. Home-language and home-technology questions are left out (they describe families). One year only, so no trend can be misread; earlier years can be added where question wording and scale are unchanged.
+
+### Class sizes: say why they're missing
+- The Ministry's class lists name schools without numbers. When two schools with elementary grades in one board share a name (92 schools, e.g. both DSBN "Prince Philip Public School"s; a 9-12 school number is never a candidate for elementary classes, which resolved its 7-8 twin), a row can't be split, so neither school gets class sizes. Before, this showed as an empty section. Now every school has `class_size_status` (`reported`, `match_unresolved` with the other school, `not_listed`, `not_applicable`) and the page explains it. We don't split rows by grade mix or enrolment: that would be inference.
+
+### Nearest-school areas only for neighbourhood schools
+- Not drawn for 106 English-language elementary schools the Ministry lists as offering French Immersion but neither Core nor Extended French (Core French is required in Grades 4-8 of the regular English program, so these are Immersion schools families choose; DSBN confirms Prince Philip is one). Their pages explain why. Special-purpose schools were already left out.
+
+### Licence status is computed and honest
+- Each dataset has a `licence_status`: open, published without a licence (board finance), shown pending permission (board boundary layers), link-only, or unavailable. The methodology summary counts these instead of saying "all on open licences". Being publicly accessible isn't treated as permission.
+- Files record the period they describe (`year`), any `release` status (preliminary), and a `historical` flag (the 2017 nutrition list), separately from the retrieval date. Boundary layers record the school year they say they are for (`effective`) apart from the GIS last-edit date.
+
+### "Opened" is not a building's age
+- 2,438 of 4,945 schools have the contact list's date 1969-09-01, its earliest date. Pages say "Open at this school number since 1969 or earlier" and explain it.
+
+### Board information is collected by hand, board by board
+- Registration, program entry, transfers, transportation, special education, accessibility, plans and involvement come from each board's own pages, summarised and dated in `site/board-info.json` (rules in `docs/board-info.md`). Started with DSB Niagara and Niagara Catholic; other boards show "Not yet collected" with a link. Records say whether something is a published rule, a case-by-case process, an approved decision, a proposal or a forecast. A board's own program list is shown next to the Ministry's and disagreements are visible ("Sources differ").
+- Capacity: only the plan's own figures, labelled (on-the-ground capacity excludes portables; it is building space, not open seats). Portable counts weren't published in a form we could read reliably, so they're left out.
+
+### Things deliberately not done
+- No ordering of search results by EQAO or any outcome. Sort is best match, A to Z, or nearest (straight line).
+- No runtime AI: "Questions to ask" are built from page facts by fixed rules.
+- No French-language interface yet: a partial toggle would mislead. Strings are in templates and two small modules (`site/family.py`, `site/static/js/lib.js`) so a reviewed translation can follow.

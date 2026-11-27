@@ -1,6 +1,6 @@
 # Pipeline report
 
-Generated 2026-11-26 20:36 UTC in 133 s.
+Generated 2026-11-26 22:46 UTC in 246 s.
 
 ## Output
 
@@ -59,6 +59,10 @@ Generated 2026-11-26 20:36 UTC in 133 s.
 | eqao-g6-2025-26 | 3453 | schools in EQAO's file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-6-2025-2026-Achievement-Results.zip |
 | eqao-g9-2025-26 | 824 | schools in EQAO's file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-9-2025-2026-Achievement-Results.zip |
 | eqao-osslt-2025-26 | 847 | schools in EQAO's file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/OSSLT-2025-2026-Achievement-Results.zip |
+| eqao-sq-g3-2025-26 | 3605 | schools in EQAO's questionnaire file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-3-2025-2026-Student-Questionnaire-Results.zip |
+| eqao-sq-g6-2025-26 | 3432 | schools in EQAO's questionnaire file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-6-2025-2026-Student-Questionnaire-Results.zip |
+| eqao-sq-g9-2025-26 | 789 | schools in EQAO's questionnaire file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/Grade-9-2025-2026-Student-Questionnaire-Results.zip |
+| eqao-sq-osslt-2025-26 | 833 | schools in EQAO's questionnaire file | 2026-11-26 | https://www.eqao.com/wp-content/uploads/2026/10/OSSLT-2025-2026-Student-Questionnaire-Results.zip |
 | suspensions-2007-22 | 72 | boards with suspension rates | 2026-11-26 | https://data.ontario.ca/dataset/1f711bda-8953-46df-a09f-a66035a01717/resource/c26c7fe8-f59e-44f7-ad6a-6f6400b6fe8e/download/enbrd_suspensions_0708-2122.xlsx |
 | efis-fs-2024-25 | 72 | boards with 2024-25 spending | 2026-11-26 | https://data.ontario.ca/dataset/f9393864-17ae-43f4-a0e1-062fddc6c99c/resource/42f81bd6-20d3-4b20-a09c-c8ed8043c3e7/download/efis_2024-25_financial_statements_-_board_submitted.csv |
 | fsl-enrol-2024-25 | 62 | boards with French program enrolment | 2026-11-26 | https://data.ontario.ca/dataset/5d00661a-b662-4027-a61a-1a6969f16598/resource/4496a569-ae43-4c05-aebe-bb40c5ffc61e/download/fsl_enrolment_by_board_2024-2025_en.txt |
@@ -394,14 +398,18 @@ Codes are stored as `null` with a flag, never as 0.
 | eqao-g6-2025-26 | code_N/D: 64, code_N/R: 537 |
 | eqao-g9-2025-26 | code_N/D: 35, code_N/R: 40 |
 | eqao-osslt-2025-26 | code_N/D: 14, code_N/R: 76 |
+| eqao-sq-g3-2025-26 | code_N/D: 276, code_N/R: 1147 |
+| eqao-sq-g6-2025-26 | code_N/D: 35, code_N/R: 1274 |
+| eqao-sq-g9-2025-26 | code_N/D: 20, code_N/R: 210 |
+| eqao-sq-osslt-2025-26 | code_N/D: 50, code_N/R: 385 |
 
 ## Map layers
 
 - FSA polygons: 520 (1225 KB)
-- Approximate board areas: 75 boards (1625 KB)
-- Nearest-school areas english-catholic|elementary: 1137 cells for 1138 schools (1 shared buildings), 1539 KB
+- Approximate board areas: 75 boards (1624 KB)
+- Nearest-school areas english-catholic|elementary: 1114 cells for 1115 schools (1 shared buildings), 1523 KB
 - Nearest-school areas english-catholic|secondary: 202 cells for 202 schools (0 shared buildings), 939 KB
-- Nearest-school areas english-public|elementary: 2485 cells for 2496 schools (11 shared buildings), 2061 KB
+- Nearest-school areas english-public|elementary: 2402 cells for 2413 schools (11 shared buildings), 2034 KB
 - Nearest-school areas english-public|secondary: 491 cells for 492 schools (1 shared buildings), 1239 KB
 - Nearest-school areas french-catholic|elementary: 260 cells for 260 schools (0 shared buildings), 1132 KB
 - Nearest-school areas french-catholic|secondary: 66 cells for 66 schools (0 shared buildings), 870 KB
@@ -410,9 +418,105 @@ Codes are stored as `null` with a flag, never as 0.
 
 ## Class sizes (matched to schools by board and school name)
 
-- Class-list rows matched to a school: 62414 school-years; ambiguous names skipped: 1319
-- Schools with class sizes: 3863
-- Unmatched school-years by year (closed or renamed schools, private/other boards): 2007-08: 692, 2008-09: 675, 2009-10: 641, 2010-11: 605, 2011-12: 578, 2012-13: 526, 2013-14: 503, 2014-15: 506, 2015-16: 564, 2016-17: 515, 2017-18: 481, 2018-19: 421, 2019-20: 427, 2020-21: 295, 2021-22: 222, 2022-23: 206, 2023-24: 160, 2024-25: 152, 2025-26: 39
+- Class-list rows matched to a school: 62664 school-years; ambiguous names skipped: 1057
+- Schools with class sizes: 3885
+- Unmatched school-years by year (closed or renamed schools, private/other boards): 2007-08: 693, 2008-09: 676, 2009-10: 642, 2010-11: 606, 2011-12: 579, 2012-13: 527, 2013-14: 504, 2014-15: 507, 2015-16: 565, 2016-17: 515, 2017-18: 482, 2018-19: 422, 2019-20: 428, 2020-21: 295, 2021-22: 222, 2022-23: 206, 2023-24: 160, 2024-25: 152, 2025-26: 39
+- Status on school pages: match_unresolved 92, not_applicable 910, not_listed 58, reported 3885
+
+Elementary schools whose class lists can't be told apart from a same-named school in their board (the lists name schools without a number, so neither gets class sizes, and their pages say so):
+
+- 756830 Sacred Heart Catholic School (Algonquin and Lakeshore CDSB): same name as 764370, 868370
+- 764370 Sacred Heart Catholic School (Algonquin and Lakeshore CDSB): same name as 756830, 868370
+- 868370 Sacred Heart Catholic School (Algonquin and Lakeshore CDSB): same name as 756830, 764370
+- 831840 St Mary Catholic School (Algonquin and Lakeshore CDSB): same name as 865125
+- 865125 St Mary Catholic School (Algonquin and Lakeshore CDSB): same name as 831840
+- 764248 St Patrick Catholic School (Algonquin and Lakeshore CDSB): same name as 841773
+- 841773 St Patrick Catholic School (Algonquin and Lakeshore CDSB): same name as 764248
+- 706744 St Paul Catholic Elementary School (Algonquin and Lakeshore CDSB): same name as 842761
+- 842761 St Paul Catholic School (Algonquin and Lakeshore CDSB): same name as 706744
+- 736481 Notre Dame Catholic Catholic Elementary School (Brant Haldimand Norfolk CDSB): same name as 739200
+- 739200 Notre Dame School (Brant Haldimand Norfolk CDSB): same name as 736481
+- 762756 Sacred Heart Catholic Elementary School (Brant Haldimand Norfolk CDSB): same name as 759309
+- 759309 Sacred Heart School (Brant Haldimand Norfolk CDSB): same name as 762756
+- 834963 St. Michael's School (Brant Haldimand Norfolk CDSB): same name as 834831
+- 732133 Sacred Heart School (Bruce-Grey CDSB): same name as 864218
+- 864218 Sacred Heart Separate School (Bruce-Grey CDSB): same name as 732133
+- 792365 St Francis Xavier Elementary School (CDSB of Eastern Ontario): same name as 792322
+- 792322 St Francis Xavier Separate School (CDSB of Eastern Ontario): same name as 792365
+- 725374 St Joseph's Separate School (CDSB of Eastern Ontario): same name as 813907
+- 813907 St Joseph's Separate School (CDSB of Eastern Ontario): same name as 725374
+- 828726 St Mary's Separate School (CDSB of Eastern Ontario): same name as 828874, 828980
+- 828874 St Mary's Separate School (CDSB of Eastern Ontario): same name as 828726, 828980
+- 828980 St Mary's Separate School (CDSB of Eastern Ontario): same name as 828726, 828874
+- 806625 École élémentaire Saint-Joseph (CSDC du Nouvel-Ontario): same name as 809390, 811173, 811599
+- 809390 École élémentaire Saint-Joseph (CSDC du Nouvel-Ontario): same name as 806625, 811173, 811599
+- 811173 École élémentaire Saint-Joseph (CSDC du Nouvel-Ontario): same name as 806625, 809390, 811599
+- 811599 École élémentaire Saint-Joseph (CSDC du Nouvel-Ontario): same name as 806625, 809390, 811173
+- 455989 Prince Philip Public School (DSB Niagara): same name as 456110
+- 456110 Prince Philip Public School (DSB Niagara): same name as 455989
+- 455075 Prince of Wales Public School (DSB Niagara): same name as 455202
+- 455202 Prince of Wales Public School (DSB Niagara): same name as 455075
+- 806889 St Joseph School (Dufferin-Peel CDSB): same name as 811041
+- 811041 St Joseph Separate School (Dufferin-Peel CDSB): same name as 806889
+- 811696 St Joseph Catholic School (Durham CDSB): same name as 814423
+- 814423 St Joseph Catholic School (Durham CDSB): same name as 811696
+- 453382 Prince Charles Public School (Hastings & Prince Edward DSB): same name as 453641
+- 453641 Prince Charles Public School (Hastings & Prince Edward DSB): same name as 453382
+- 698334 St Joseph Separate School (Huron Perth CDSB): same name as 812994
+- 812994 St Joseph Separate School (Huron Perth CDSB): same name as 698334
+- 705748 St Patricks Separate School (Huron Perth CDSB): same name as 713678
+- 713678 St Patricks Separate School (Huron Perth CDSB): same name as 705748
+- 742929 Our Lady of Fatima Catholic School (Huron-Superior CDSB): same name as 744093
+- 744093 Our Lady of Fatima Catholic School (Huron-Superior CDSB): same name as 742929
+- 776335 St Basil Catholic School (Huron-Superior CDSB): same name as 792017
+- 792017 St. Basil Catholic School (Huron-Superior CDSB): same name as 776335
+- 297127 King George VI Public School (Lambton Kent DSB): same name as 297380
+- 297380 King George VI Public School (Lambton Kent DSB): same name as 297127
+- 453129 Prince Charles Public School (Limestone DSB): same name as 551376
+- 551376 The Prince Charles School (Limestone DSB): same name as 453129
+- 716294 Holy Family Elementary School (London District Catholic School Board): same name as 704237
+- 771139 St Anne's Separate School (London District Catholic School Board): same name as 874085
+- 874085 St. Anne's Separate School (London District Catholic School Board): same name as 771139
+- 742155 Our Lady of Fatima Catholic Elementary School (Niagara CDSB): same name as 743577
+- 743577 Our Lady of Fatima Catholic Elementary School (Niagara CDSB): same name as 742155
+- 770353 St Ann Catholic Elementary School (Niagara CDSB): same name as 770612
+- 770612 St Ann Catholic Elementary School (Niagara CDSB): same name as 770353
+- 808709 St Joseph Catholic Elementary School (Niagara CDSB): same name as 809098
+- 809098 St Joseph Catholic Elementary School (Niagara CDSB): same name as 808709
+- 826120 St Mary Catholic Elementary School (Niagara CDSB): same name as 827819
+- 827819 St Mary Catholic Elementary School (Niagara CDSB): same name as 826120
+- 837563 St Patrick Catholic Elementary School (Niagara CDSB): same name as 838993
+- 838993 St Patrick Catholic Elementary School (Niagara CDSB): same name as 837563
+- 839515 St. Patrick Catholic School (Northeastern CDSB): same name as 840688
+- 704318 St. Joseph Catholic Elementary School (Peterborough Victoria Northum Clarington CDSB): same name as 741620, 809535
+- 741620 St. Joseph Catholic Elementary School (Peterborough Victoria Northum Clarington CDSB): same name as 704318, 809535
+- 809535 St. Joseph Catholic Elementary School (Peterborough Victoria Northum Clarington CDSB): same name as 704318, 741620
+- 825654 St. Mary Catholic Elementary School (Peterborough Victoria Northum Clarington CDSB): same name as 828858, 830020
+- 828858 St. Mary Catholic Elementary School (Peterborough Victoria Northum Clarington CDSB): same name as 825654, 830020
+- 830020 St. Mary Catholic Elementary School (Peterborough Victoria Northum Clarington CDSB): same name as 825654, 828858
+- 841498 St. Paul Catholic Elementary School (Peterborough Victoria Northum Clarington CDSB): same name as 842893, 843024
+- 842893 St. Paul Catholic Elementary School (Peterborough Victoria Northum Clarington CDSB): same name as 841498, 843024
+- 843024 St. Paul Catholic Elementary School (Peterborough Victoria Northum Clarington CDSB): same name as 841498, 842893
+- 432693 Lasalle Elementary School (Rainbow DSB): same name as 359529
+- 806234 St Joseph's Separate School (Renfrew County CDSB): same name as 806382, 854186
+- 806382 St Joseph's Separate School (Renfrew County CDSB): same name as 806234, 854186
+- 854186 St. Joseph's Separate School (Renfrew County CDSB): same name as 806234, 806382
+- 757748 Sacred Heart Catholic School (St Clair CDSB): same name as 758108
+- 758108 Sacred Heart Catholic School (St Clair CDSB): same name as 757748
+- 770671 St Anne Catholic School (St Clair CDSB): same name as 771295
+- 771295 St Anne Catholic School (St Clair CDSB): same name as 770671
+- 809233 St Joseph Catholic School (St Clair CDSB): same name as 811432
+- 811432 St Joseph Catholic School (St Clair CDSB): same name as 809233
+- 833142 St Michael Catholic School (St Clair CDSB): same name as 834602
+- 834602 St Michael Catholic School (St Clair CDSB): same name as 833142
+- 770876 St Anne Catholic Elementary School (Waterloo CDSB): same name as 771007
+- 771007 St Anne Catholic Elementary School (Waterloo CDSB): same name as 770876
+- 801550 St John Catholic School (Wellington CDSB): same name as 801429
+- 806366 St Joseph Catholic Elementary School (York CDSB): same name as 809381, 809489
+- 809381 St Joseph Catholic Elementary School (York CDSB): same name as 806366, 809489
+- 809489 St Joseph Catholic Elementary School (York CDSB): same name as 806366, 809381
+- 837431 St Patrick Catholic Elementary School (York CDSB): same name as 838314
+- 838314 St Patrick Catholic Elementary School (York CDSB): same name as 837431
 
 ## Official attendance boundaries (boards' public map layers)
 
@@ -438,6 +542,21 @@ Areas are matched to schools by name within the board and level (or by the one s
 - eqao-g6-2025-26: 3453 schools in EQAO's file, 3429 matched to the school list
 - eqao-g9-2025-26: 824 schools in EQAO's file, 807 matched to the school list
 - eqao-osslt-2025-26: 847 schools in EQAO's file, 825 matched to the school list
+
+## EQAO student questionnaire (latest year)
+
+- eqao-sq-g3-2025-26: 3605 schools in EQAO's file, 3595 matched to the school list, 162 of those withheld by EQAO (too few students)
+- eqao-sq-g6-2025-26: 3432 schools in EQAO's file, 3421 matched to the school list, 168 of those withheld by EQAO (too few students)
+- eqao-sq-g9-2025-26: 789 schools in EQAO's file, 781 matched to the school list, 38 of those withheld by EQAO (too few students)
+- eqao-sq-osslt-2025-26: 833 schools in EQAO's file, 813 matched to the school list, 62 of those withheld by EQAO (too few students)
+
+## Nearest-school areas
+
+Drawn only for regular schools families attend by neighbourhood. Not drawn: immersion only 106, not regular 94, other system 24; drawn: 4721.
+
+## Licences of the files used
+
+Published openly by the government, no licence stated: 1 files; Open licence: 56 files; No licence stated: shown while we ask the publisher for permission, removed on request: 13 files
 
 ## Programs (French as a second language, SHSM)
 

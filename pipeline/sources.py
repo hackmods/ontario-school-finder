@@ -10,6 +10,15 @@ from __future__ import annotations
 OGL_ON = ("Open Government Licence – Ontario", "https://www.ontario.ca/page/open-government-licence-ontario")
 STATCAN = ("Statistics Canada Open Licence", "https://www.statcan.gc.ca/en/reference/licence")
 
+# What a source's terms let us do. Public availability alone is not permission to republish.
+LICENCE_STATUS = {
+    "open": "Open licence",
+    "no-licence-stated": "Published openly by the government, no licence stated",
+    "pending-permission": "No licence stated: shown while we ask the publisher for permission, removed on request",
+    "link-only": "Linked, not copied (no licence to republish)",
+    "unavailable": "Not available to download",
+}
+
 DATA_ON = "https://data.ontario.ca/dataset/"
 
 # ---------------------------------------------------------------------------
@@ -25,6 +34,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "School list, board, address, grades, coordinates, EQAO results (Grade 3, 6, 9, OSSLT) for every year published, student-population context.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Yearly; the newest year is labelled preliminary at first",
     },
     "contact": {
         "brief_no": 2,
@@ -35,6 +46,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Current phone, email, website and open status; date each school opened.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Monthly",
     },
     "eqao_repo": {
         "brief_no": 3,
@@ -46,6 +59,8 @@ DATASETS: dict[str, dict] = {
         "used_for": "School results for years the Ministry's school file does not have yet (2025-26), with the level 1–4 split and participation. "
                     "Checked against the Ministry's 2024-25 file: the same percentages for every school.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Yearly, each autumn",
     },
     "sbpr": {
         "brief_no": 4,
@@ -56,6 +71,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Official board-level Grade 6 reading, Grade 10 OSSLT, credit accumulation and graduation rates.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "About twice a year",
     },
     "enrol": {
         "brief_no": 5,
@@ -66,6 +83,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Enrolment trend for every school, 2011-12 to 2024-25.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Yearly",
     },
     "board_area": {
         "brief_no": 6,
@@ -76,6 +95,8 @@ DATASETS: dict[str, dict] = {
         "licence": ("Licence not specified (dataset under review)", DATA_ON + "board-service-area"),
         "used_for": "Skipped: the dataset is listed as \"under review\" with no files to download. Approximate board areas are drawn from school locations instead.",
         "status": "skipped",
+        "licence_status": "unavailable",
+        "cadence": "Under review",
     },
     "fsa_boundary": {
         "brief_no": 7,
@@ -85,6 +106,8 @@ DATASETS: dict[str, dict] = {
         "licence": STATCAN,
         "used_for": "Postal-area (FSA) outlines, the Ontario outline, and the FSA check for every school.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Every census (five years)",
     },
     "csd_boundary": {
         "brief_no": 8,
@@ -94,6 +117,8 @@ DATASETS: dict[str, dict] = {
         "licence": STATCAN,
         "used_for": "Not needed: it was only for joining the board service areas (#6), which are unavailable.",
         "status": "skipped",
+        "licence_status": "open",
+        "cadence": "Every census (five years)",
     },
     "census": {
         "brief_no": 9,
@@ -103,6 +128,8 @@ DATASETS: dict[str, dict] = {
         "licence": STATCAN,
         "used_for": "Area context on postal-area pages: population, children 0–14, families with children, household income, children in low income, languages.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Every census (five years)",
     },
     "childcare": {
         "brief_no": 10,
@@ -113,6 +140,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Licensed child care at each school's address and in each postal area.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "A few times a year",
     },
     "enrol_grade": {
         "brief_no": 12,
@@ -123,6 +152,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Added for parents: how many students are in each grade at each school, 2017-18 to 2024-25.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Yearly",
     },
     "class_size": {
         "brief_no": 13,
@@ -133,6 +164,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Added for parents: class sizes at each elementary school, 2007-08 to 2025-26 (primary classes every year; all classes from 2014-15).",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Yearly",
     },
     "fsl": {
         "brief_no": 14,
@@ -143,6 +176,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Added for parents: which English-language schools offer Core French, Extended French and French Immersion (2024-25, preliminary).",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Irregular; the current list is a preliminary 2024-25 list",
     },
     "shsm": {
         "brief_no": 15,
@@ -153,6 +188,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Added for parents: which high schools offer which Specialist High Skills Major sectors, and for how many years (2025-26).",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Yearly",
     },
     "suspensions": {
         "brief_no": 16,
@@ -163,6 +200,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Added for parents: share of each board's students suspended (and expelled) each year, 2007-08 to 2021-22, next to Ontario. The latest year the Ministry has published.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Yearly in the past; nothing newer than 2021-22 has been published",
     },
     "board_finance": {
         "brief_no": 17,
@@ -173,6 +212,8 @@ DATASETS: dict[str, dict] = {
         "licence": ("Licence not specified on the Ontario Data Catalogue (published openly by the Ministry)", DATA_ON + "school-board-financial-reports-estimates-revised-estimates-and-financial-statements"),
         "used_for": "Added for parents: what each board spent per student in 2024-25 (actual spending from its financial statements), split into classroom instruction, buildings, transportation, administration and other.",
         "status": "used",
+        "licence_status": "no-licence-stated",
+        "cadence": "Yearly",
     },
     "fsl_enrol": {
         "brief_no": 18,
@@ -183,6 +224,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Added for parents: how many of each English-language board's students are in Core French, Extended French and French Immersion (2024-25).",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Yearly",
     },
     "earlyon": {
         "brief_no": 19,
@@ -193,6 +236,8 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Added for parents: free EarlyON programs for children up to age 6 in each postal area, linked from school pages (November 2026 list).",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "A few times a year",
     },
     "nutrition": {
         "brief_no": 20,
@@ -203,6 +248,20 @@ DATASETS: dict[str, dict] = {
         "licence": OGL_ON,
         "used_for": "Added for parents: whether a school was listed as offering breakfast, lunch or a snack. The Ministry's list is from December 2017, so pages say so and ask families to check with the school.",
         "status": "used",
+        "licence_status": "open",
+        "cadence": "Not updated since December 2017",
+        "historical": True,
+    },
+    "eqao_sq": {
+        "brief_no": 21,
+        "title": "EQAO Open Data: student questionnaire results",
+        "publisher": "Education Quality and Accountability Office (EQAO)",
+        "landing": "https://www.eqao.com/about-eqao/open-data/",
+        "licence": ("Open Government Licence – Ontario (used under licence)", "https://www.ontario.ca/page/open-government-licence-ontario"),
+        "used_for": "Added for parents: what students who wrote each EQAO assessment said about a few things (liking to read, liking math, feeling prepared, keeping at it), for the school, its whole board and Ontario. Latest year only.",
+        "status": "used",
+        "licence_status": "open",
+        "cadence": "Yearly, each autumn",
     },
     "attendance": {
         "brief_no": 11,
@@ -212,6 +271,8 @@ DATASETS: dict[str, dict] = {
         "licence": ("No licence stated: public map layers on each board's own map service. Shown while the site asks each board for permission; removed on request", ""),
         "used_for": "Official attendance areas for seven boards that publish them as public map layers (Waterloo Region DSB, Hamilton-Wentworth DSB, Simcoe County DSB, Grand Erie DSB, Dufferin-Peel CDSB, Kawartha Pine Ridge DSB, Halton CDSB), labelled with the board and the layer's last-edit date. Not used: layers whose terms forbid reuse (Halton DSB's is staff-only; Lennox and Addington and Grey County forbid redistribution) and consultants' copies.",
         "status": "used",
+        "licence_status": "pending-permission",
+        "cadence": "Each board's own schedule, usually before each school year",
     },
 }
 
@@ -226,9 +287,9 @@ G9_DESTREAMED = "destreamed"
 # (None when the file only repeats an earlier year's results — EQAO did not run during
 # the pandemic in 2019-20 and 2020-21).
 SIF_RESOURCES = [
-    dict(id="sif-2024-25", year="2024-25", eqao_year="2024-25", g9=G9_DESTREAMED, note="Ministry label: \"Preliminary 2024-2025\" (OnSIS preliminary as of July 17, 2026)",
+    dict(id="sif-2024-25", year="2024-25", eqao_year="2024-25", g9=G9_DESTREAMED, release="preliminary", note="Ministry label: \"Preliminary 2024-2025\" (OnSIS preliminary as of July 17, 2026)",
          url=SIF_URL.format("f75540ed-59eb-49ab-ac43-976d563b3a65", "new_sif_data_2024_25_final_en_oct_2026.xlsx")),
-    dict(id="sif-2023-24", year="2023-24", eqao_year="2023-24", g9=G9_DESTREAMED, context_numeric="fraction", note="Ministry label: \"Preliminary 2023-2024\"; percentages stored as 0-1 numbers",
+    dict(id="sif-2023-24", year="2023-24", eqao_year="2023-24", g9=G9_DESTREAMED, context_numeric="fraction", release="preliminary", note="Ministry label: \"Preliminary 2023-2024\"; percentages stored as 0-1 numbers",
          url=SIF_URL.format("f381e1de-3aa8-4ae9-826a-20009a6f4a01", "new_sif_data_table_2023_24prelim_en_january2026.xlsx")),
     dict(id="sif-2022-23", year="2022-23", context_numeric="whole", eqao_year="2022-23", g9=G9_DESTREAMED, note="",
          url=SIF_URL.format("f95fc955-b1f0-4a2e-9b7f-cfa6eda37e0b", "sif_data_table_2022_2023_en.xlsx")),
@@ -360,6 +421,8 @@ def all_resources() -> list[dict]:
         out.append({**r, "dataset": "class_size"})
     for r in EQAO_OPEN_RESOURCES:
         out.append({**r, "dataset": "eqao_repo"})
+    for r in EQAO_SQ_RESOURCES:
+        out.append({**r, "dataset": "eqao_sq"})
     out.append({**FSL_RESOURCE, "dataset": "fsl"})
     out.append({**SHSM_RESOURCE, "dataset": "shsm"})
     out.append({**SUSPENSION_RESOURCE, "dataset": "suspensions"})
@@ -397,7 +460,7 @@ CLASS_SIZE_RESOURCES = [
 ]
 
 FSL_RESOURCE = dict(
-    id="fsl-2024-25", year="2024-25",
+    id="fsl-2024-25", year="2024-25", release="preliminary",
     url="https://data.ontario.ca/dataset/0743f4d3-64bb-4b76-b9fc-51743c7a7f46/resource/3b211d55-85b6-4f35-ac54-58e2d2452372/download/schools_offering_fsl_2425_en.txt",
     note="Preliminary 2024-25 list (the catalogue labels the files 2023-2024); English-language school boards only",
 )
@@ -416,6 +479,25 @@ EQAO_OPEN_RESOURCES = [
     dict(id="eqao-g9-2025-26", year="2025-26", label="Grade 9, 2025-26", kind="g9", grade="9", url=EQAO_OD_URL.format("Grade-9"), member="G9_2026.csv"),
     dict(id="eqao-osslt-2025-26", year="2025-26", label="OSSLT, 2025-26", kind="osslt", grade="10", url=EQAO_OD_URL.format("OSSLT"), member="G10_2026_FTE.csv",
          note="First-time eligible students; % successful among those who wrote"),
+]
+
+# EQAO student questionnaire results: one ZIP per assessment and year, several CSVs inside that each
+# carry part of the questionnaire, plus EQAO's field-definitions workbook (the source of each question's
+# exact wording, checked every run). Latest year only for now; earlier years exist back to 2021-22.
+EQAO_SQ_RESOURCES = [
+    dict(id="eqao-sq-g3-2025-26", year="2025-26", label="Grade 3 questionnaire, 2025-26", kind="g36", grade="3",
+         url="https://www.eqao.com/wp-content/uploads/2026/10/Grade-3-2025-2026-Student-Questionnaire-Results.zip",
+         definitions="https://www.eqao.com/wp-content/uploads/2026/10/G36_2026_Aggregate_Field_Definitions.xlsx"),
+    dict(id="eqao-sq-g6-2025-26", year="2025-26", label="Grade 6 questionnaire, 2025-26", kind="g36", grade="6",
+         url="https://www.eqao.com/wp-content/uploads/2026/10/Grade-6-2025-2026-Student-Questionnaire-Results.zip",
+         definitions="https://www.eqao.com/wp-content/uploads/2026/10/G36_2026_Aggregate_Field_Definitions.xlsx"),
+    dict(id="eqao-sq-g9-2025-26", year="2025-26", label="Grade 9 questionnaire, 2025-26", kind="g9", grade="9",
+         url="https://www.eqao.com/wp-content/uploads/2026/10/Grade-9-2025-2026-Student-Questionnaire-Results.zip",
+         definitions="https://www.eqao.com/wp-content/uploads/2026/10/G9_2026_Aggregate_Field_Definitions.xlsx"),
+    dict(id="eqao-sq-osslt-2025-26", year="2025-26", label="OSSLT questionnaire, 2025-26", kind="osslt", grade="10",
+         url="https://www.eqao.com/wp-content/uploads/2026/10/OSSLT-2025-2026-Student-Questionnaire-Results.zip",
+         definitions="https://www.eqao.com/wp-content/uploads/2025/06/G10_2026_Aggregate_Field_Definitions.xlsx",
+         note="First-time eligible students"),
 ]
 
 SUSPENSION_RESOURCE = dict(
@@ -478,36 +560,38 @@ EFIS_BOARDS = {
 # split: keep same-named areas apart by this field (Dufferin-Peel has two "St. Joseph CES");
 # Dufferin-Peel's Program field lists programs a school offers, not separate areas, so it isn't filtered;
 # skip: regex patterns for area names that aren't schools.
+# effective: the school year the layer says it is for (from its name or filter), kept apart from the GIS
+# last-edit date; None when the layer doesn't say (effective_note records what its name does say).
 BOUNDARY_LAYERS = [
-    dict(id="bdy-wrdsb-elem", board="B66176", level="elementary", label="Waterloo Region DSB, elementary", name_field="NAME",
+    dict(id="bdy-wrdsb-elem", effective=None, effective_note='layer named 2026', board="B66176", level="elementary", label="Waterloo Region DSB, elementary", name_field="NAME",
          url="https://services1.arcgis.com/xKY66Gy3crN5ZX2F/arcgis/rest/services/Boundaries_Elementary_2026/FeatureServer/0"),
-    dict(id="bdy-wrdsb-sec", board="B66176", level="secondary", label="Waterloo Region DSB, secondary", name_field="NAME",
+    dict(id="bdy-wrdsb-sec", effective=None, effective_note='layer named 2026', board="B66176", level="secondary", label="Waterloo Region DSB, secondary", name_field="NAME",
          url="https://services1.arcgis.com/xKY66Gy3crN5ZX2F/arcgis/rest/services/Boundaries_Secondary_2026/FeatureServer/0"),
-    dict(id="bdy-hwdsb-elem", board="B66141", level="elementary", label="Hamilton-Wentworth DSB, elementary", name_field="SchoolName",
+    dict(id="bdy-hwdsb-elem", effective='2025-26', board="B66141", level="elementary", label="Hamilton-Wentworth DSB, elementary", name_field="SchoolName",
          url="https://services3.arcgis.com/xa1UBgwOXoenQ2Ob/arcgis/rest/services/2025_2026_School_Locations_and_Boundaries_WFL1/FeatureServer/0"),
-    dict(id="bdy-hwdsb-sec", board="B66141", level="secondary", label="Hamilton-Wentworth DSB, secondary", name_field="SchoolName",
+    dict(id="bdy-hwdsb-sec", effective=None, effective_note='layer named 2025', board="B66141", level="secondary", label="Hamilton-Wentworth DSB, secondary", name_field="SchoolName",
          url="https://services3.arcgis.com/xa1UBgwOXoenQ2Ob/arcgis/rest/services/2025_HWDSB_Secondary_Boundaries/FeatureServer/0"),
-    dict(id="bdy-scdsb-elem", board="B66109", level="elementary", label="Simcoe County DSB, elementary", name_field="SCHOOL_NAM",
+    dict(id="bdy-scdsb-elem", effective='2025-26', board="B66109", level="elementary", label="Simcoe County DSB, elementary", name_field="SCHOOL_NAM",
          url="https://services.arcgis.com/gV678DkT4msvdr0P/arcgis/rest/services/2025_2026_Elementary_Attendance_Areas/FeatureServer/0"),
-    dict(id="bdy-scdsb-sec", board="B66109", level="secondary", label="Simcoe County DSB, secondary", name_field="SCHOOL_NAM",
+    dict(id="bdy-scdsb-sec", effective='2025-26', board="B66109", level="secondary", label="Simcoe County DSB, secondary", name_field="SCHOOL_NAM",
          url="https://services.arcgis.com/gV678DkT4msvdr0P/arcgis/rest/services/2025_2026_Secondary_Attendance_Areas/FeatureServer/0"),
-    dict(id="bdy-gedsb-elem", board="B66168", level="elementary", label="Grand Erie DSB, elementary", name_field="NAME",
+    dict(id="bdy-gedsb-elem", effective=None, effective_note='layer named 2025', board="B66168", level="elementary", label="Grand Erie DSB, elementary", name_field="NAME",
          url="https://services8.arcgis.com/XcIMWbWgADdwHqBM/arcgis/rest/services/Elementary_Boundaries_2025_/FeatureServer/0"),
-    dict(id="bdy-gedsb-sec", board="B66168", level="secondary", label="Grand Erie DSB, secondary", name_field="NAME",
+    dict(id="bdy-gedsb-sec", effective='2025-26', board="B66168", level="secondary", label="Grand Erie DSB, secondary", name_field="NAME",
          url="https://services8.arcgis.com/XcIMWbWgADdwHqBM/arcgis/rest/services/SecondaryBoundaries2025_26/FeatureServer/0"),
-    dict(id="bdy-dpcdsb-elem", board="B67083", level="elementary", label="Dufferin-Peel CDSB, elementary", name_field="School_Nam",
+    dict(id="bdy-dpcdsb-elem", effective='2023-24', board="B67083", level="elementary", label="Dufferin-Peel CDSB, elementary", name_field="School_Nam",
          where="Panel='Elementary'", split="Code",
          url="https://services5.arcgis.com/OTdNpvC9YulsqUyQ/arcgis/rest/services/School_Locator_Boundaries_2023_2024_NEW/FeatureServer/0"),
-    dict(id="bdy-dpcdsb-sec", board="B67083", level="secondary", label="Dufferin-Peel CDSB, secondary", name_field="School_Nam",
+    dict(id="bdy-dpcdsb-sec", effective='2023-24', board="B67083", level="secondary", label="Dufferin-Peel CDSB, secondary", name_field="School_Nam",
          where="Panel='Secondary'", split="Code",
          url="https://services5.arcgis.com/OTdNpvC9YulsqUyQ/arcgis/rest/services/School_Locator_Boundaries_2023_2024_NEW/FeatureServer/0"),
-    dict(id="bdy-kprdsb-elem", board="B66079", level="elementary", label="Kawartha Pine Ridge DSB, elementary", name_field="Name",
+    dict(id="bdy-kprdsb-elem", effective=None, effective_note='layer named July 22', board="B66079", level="elementary", label="Kawartha Pine Ridge DSB, elementary", name_field="Name",
          skip=[r"^KPRDSB Area"],
          url="https://services5.arcgis.com/zWVGGWdq5YnrBtnA/arcgis/rest/services/School_Boundary_July_22/FeatureServer/0"),
-    dict(id="bdy-kprdsb-sec", board="B66079", level="secondary", label="Kawartha Pine Ridge DSB, secondary", name_field="Name", dissolve="Highschool",
+    dict(id="bdy-kprdsb-sec", effective=None, effective_note='layer named July 22', board="B66079", level="secondary", label="Kawartha Pine Ridge DSB, secondary", name_field="Name", dissolve="Highschool",
          skip=[r"^KPRDSB Area"],
          url="https://services5.arcgis.com/zWVGGWdq5YnrBtnA/arcgis/rest/services/School_Boundary_July_22/FeatureServer/0"),
-    dict(id="bdy-hcdsb-elem", board="B67113", level="elementary", label="Halton CDSB, elementary (2025-2026)", name_field="SCH_NAM",
+    dict(id="bdy-hcdsb-elem", effective='2025-26', board="B67113", level="elementary", label="Halton CDSB, elementary (2025-2026)", name_field="SCH_NAM",
          where="YEAR='2025-2026'",
          url="https://services1.arcgis.com/Z2ZyXpStrYRDJ1cf/arcgis/rest/services/Elementary_Regular_Track_Boundary/FeatureServer/0"),
 ]

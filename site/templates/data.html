@@ -21,7 +21,8 @@
   <div class="doc" style="margin-top:40px">
     <div class="prose doc-main">
       <h2 id="licence">Licence and attribution</h2>
-      <p>The source data is published under the <a href="https://www.ontario.ca/page/open-government-licence-ontario" rel="noopener">Open Government Licence – Ontario</a> and the <a href="https://www.statcan.gc.ca/en/reference/licence" rel="noopener">Statistics Canada Open Licence</a>. If you reuse these files, please keep the source ids and include the attribution text in the box.</p>
+      <p>The CSV downloads come from data published under the <a href="https://www.ontario.ca/page/open-government-licence-ontario" rel="noopener">Open Government Licence – Ontario</a> (including EQAO’s open data, used under licence) and the <a href="https://www.statcan.gc.ca/en/reference/licence" rel="noopener">Statistics Canada Open Licence</a>. If you reuse these files, please keep the source ids and include the attribution text in the box.</p>
+      <p>The per-school and per-board JSON files also carry two things without an open licence: official attendance boundaries from seven boards’ public map layers (no licence stated; shown while we ask each board for permission) and board spending from the Ministry’s financial statements (published without a licence). The attribution doesn’t cover those; the licence of every source is on <a href="/methodology/#sources">How it works</a>. Information we summarise from boards’ own web pages is linked, not copied.</p>
       <p>Each row’s <code>source_id</code> matches a line in <code>sources.csv</code>, which lists the original URL, licence and retrieval date. Coded values (suppressed, not reported, not applicable) are empty with a <code>code</code> column — never 0. See <a href="/methodology/">How it works</a>.</p>
       <p>Per-school JSON files are at <code>/data/schools/&lt;BSID&gt;.json</code>, and the full pipeline report is at <a href="/data/report.md">/data/report.md</a>.</p>
     </div>
@@ -29,6 +30,7 @@
       <div class="card glance-card">
         <p class="eyebrow">Attribution to include</p>
         <pre class="attribution" id="attribution">Contains information licensed under the Open Government Licence – Ontario.
+EQAO data: used under licence (Education Quality and Accountability Office).
 Adapted from Statistics Canada, 2021 Census of Population and 2021 boundary files. This does not constitute an endorsement by Statistics Canada of this product.
 Compiled by Ontario School Finder ({{ site_url }}).</pre>
         <div class="doc-actions"><button class="btn btn-sm" type="button" data-copy="#attribution"><span>Copy the text</span></button></div>

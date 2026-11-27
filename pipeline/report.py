@@ -24,6 +24,8 @@ class Report:
         self.programs: dict = {}
         self.boundaries: dict = {}
         self.eqao_open: dict = {}
+        self.eqao_sq: dict = {}
+        self.proximity: Counter = Counter()
         self.elapsed = 0
 
     def count(self, source_id: str, n: int, what: str) -> None:
@@ -107,7 +109,13 @@ class Report:
                   f"- Class-list rows matched to a school: {cs['matched']} school-years; ambiguous names skipped: {cs['ambiguous']}",
                   f"- Schools with class sizes: {cs['schools_with_class_sizes']}",
                   "- Unmatched school-years by year (closed or renamed schools, private/other boards): "
-                  + ", ".join(f"{y}: {n}" for y, n in cs["unmatched_by_year"].items()), ""]
+                  + ", ".join(f"{y}: {n}" for y, n in cs["unmatched_by_year"].items()),
+                  "- Status on school pages: " + ", ".join(f"{k} {v}" for k, v in sorted(cs.get("by_status", {}).items())), ""]
+            if cs.get("unresolved"):
+                L += ["Elementary schools whose class lists can't be told apart from a same-named school in their board "
+                      "(the lists name schools without a number, so neither gets class sizes, and their pages say so):", ""]
+                L += [f"- {u['bsid']} {u['name']} ({u['board']}): same name as {', '.join(u['others'])}" for u in cs["unresolved"]]
+                L.append("")
         if self.boundaries:
             L += ["## Official attendance boundaries (boards' public map layers)", "",
                   "Areas are matched to schools by name within the board and level (or by the one school inside the area). "
@@ -121,6 +129,19 @@ class Report:
             L += ["## EQAO open data (years not yet in the Ministry's school file)", ""]
             L += [f"- {sid}: {v['schools']} schools in EQAO's file, {v['matched']} matched to the school list" for sid, v in self.eqao_open.items()]
             L += [""]
+        if self.eqao_sq:
+            L += ["## EQAO student questionnaire (latest year)", ""]
+            L += [f"- {sid}: {v['schools']} schools in EQAO's file, {v['matched']} matched to the school list, "
+                  f"{v['withheld']} of those withheld by EQAO (too few students)" for sid, v in self.eqao_sq.items()]
+            L += [""]
+        if self.proximity:
+            L += ["## Nearest-school areas", "",
+                  "Drawn only for regular schools families attend by neighbourhood. Not drawn: "
+                  + ", ".join(f"{k.replace('_', ' ')} {v}" for k, v in sorted(self.proximity.items()) if k != "drawn")
+                  + f"; drawn: {self.proximity.get('drawn', 0)}.", ""]
+        lic = Counter(t.get("licence_status") for t in sources_table.values())
+        L += ["## Licences of the files used", "",
+              "; ".join(f"{sources.LICENCE_STATUS.get(k, k)}: {v} files" for k, v in sorted(lic.items(), key=lambda kv: str(kv[0]))), ""]
         if self.programs:
             pg = self.programs
             L += ["## Programs (French as a second language, SHSM)", "",
