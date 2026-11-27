@@ -69,3 +69,18 @@ def test_numbers_follow_the_language(lang, n, pct, money):
         assert i18n.pct("<1").startswith("<1") and i18n.num(None) == ""
     finally:
         i18n.use("en")
+
+
+def test_plan_dates_follow_the_language():
+    import generate  # noqa: E402 (site/ is on the path above)
+    try:
+        i18n.use("fr")
+        assert generate.date_text("October 31, 2023") == "31 octobre 2023"
+        assert generate.date_text("September 1, 2025") == "1er septembre 2025"
+        assert generate.date_text("June 2024") == "juin 2024" and generate.date_text("2024-25") == "2024-25"
+        assert generate.date_text("current") == "actuel (sans date)"
+        assert generate.grades_text("JK-8") == "M-8" and generate.grades_text("SK-3") == "JE-3"
+        i18n.use("en")
+        assert generate.date_text("October 31, 2023") == "October 31, 2023" and generate.grades_text("JK-8") == "JK-8"
+    finally:
+        i18n.use("en")

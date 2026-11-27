@@ -375,5 +375,1592 @@
         "407275": "York River Public School (Bancroft)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "114731": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-114731",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=82",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 95,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 56
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 59
+              },
+              {
+                "year": "2035/36",
+                "value": 58
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 95, with 56 students in 2025/26; it forecasts 58 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "122661": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-122661",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=90",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 466,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 255
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 281
+              },
+              {
+                "year": "2035/36",
+                "value": 287
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 466, with 255 students in 2025/26; it forecasts 287 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "139173": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-139173",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=73",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 242,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 144
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 123
+              },
+              {
+                "year": "2035/36",
+                "value": 116
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 242, with 144 students in 2025/26; it forecasts 116 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "147957": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-147957",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=56",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 196,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 117
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 143
+              },
+              {
+                "year": "2035/36",
+                "value": 151
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 196, with 117 students in 2025/26; it forecasts 151 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "162909": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-162909",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=98",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 609,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 442
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 464
+              },
+              {
+                "year": "2035/36",
+                "value": 488
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 609, with 442 students in 2025/26; it forecasts 488 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "199315": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-199315",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=73",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 490,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 491
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 522
+              },
+              {
+                "year": "2035/36",
+                "value": 510
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 490, with 491 students in 2025/26; it forecasts 510 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "202495": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-202495",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=56",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 412,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 407
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 402
+              },
+              {
+                "year": "2035/36",
+                "value": 409
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 412, with 407 students in 2025/26; it forecasts 409 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "203130": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-203130",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=98",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 434,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 319
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 331
+              },
+              {
+                "year": "2035/36",
+                "value": 337
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 434, with 319 students in 2025/26; it forecasts 337 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "244600": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-244600",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=73",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 695,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 580
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 655
+              },
+              {
+                "year": "2035/36",
+                "value": 816
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 695, with 580 students in 2025/26; it forecasts 816 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "246034": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-246034",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=73",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 697,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 583
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 654
+              },
+              {
+                "year": "2035/36",
+                "value": 787
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 697, with 583 students in 2025/26; it forecasts 787 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "290130": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-290130",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=90",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 348,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 246
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 285
+              },
+              {
+                "year": "2035/36",
+                "value": 287
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 348, with 246 students in 2025/26; it forecasts 287 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "300125": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-300125",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=65",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 428,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 331
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 338
+              },
+              {
+                "year": "2035/36",
+                "value": 346
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 428, with 331 students in 2025/26; it forecasts 346 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "344338": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-344338",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=65",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 303
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 323
+              },
+              {
+                "year": "2035/36",
+                "value": 328
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 303 students in 2025/26; it forecasts 328 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "349640": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-349640",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=82",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 153,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 74
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 70
+              },
+              {
+                "year": "2035/36",
+                "value": 76
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 153, with 74 students in 2025/26; it forecasts 76 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "349909": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-349909",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=82",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 165,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 84
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 78
+              },
+              {
+                "year": "2035/36",
+                "value": 75
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 165, with 84 students in 2025/26; it forecasts 75 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "407275": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-407275",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=82",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 451,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 180
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 166
+              },
+              {
+                "year": "2035/36",
+                "value": 174
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 451, with 180 students in 2025/26; it forecasts 174 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "409839": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-409839",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=98",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 164,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 76
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 82
+              },
+              {
+                "year": "2035/36",
+                "value": 96
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 164, with 76 students in 2025/26; it forecasts 96 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "433497": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-433497",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=56",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 305
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 322
+              },
+              {
+                "year": "2035/36",
+                "value": 344
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 305 students in 2025/26; it forecasts 344 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "453382": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-453382",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=98",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 444,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 282
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 333
+              },
+              {
+                "year": "2035/36",
+                "value": 353
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 444, with 282 students in 2025/26; it forecasts 353 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "453641": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-453641",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=56",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 409,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 328
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 361
+              },
+              {
+                "year": "2035/36",
+                "value": 371
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 409, with 328 students in 2025/26; it forecasts 371 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "455598": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-455598",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=73",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 465,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 321
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 299
+              },
+              {
+                "year": "2035/36",
+                "value": 291
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 465, with 321 students in 2025/26; it forecasts 291 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "473211": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-473211",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=90",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 591,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 599
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 700
+              },
+              {
+                "year": "2035/36",
+                "value": 747
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 591, with 599 students in 2025/26; it forecasts 747 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "478084": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-478084",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=48",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 812,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 686
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 677
+              },
+              {
+                "year": "2035/36",
+                "value": 689
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 812, with 686 students in 2025/26; it forecasts 689 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "507166": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-507166",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=82",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 170,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 167
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 155
+              },
+              {
+                "year": "2035/36",
+                "value": 139
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 170, with 167 students in 2025/26; it forecasts 139 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "512796": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-512796",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=48",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 421,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 331
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 333
+              },
+              {
+                "year": "2035/36",
+                "value": 399
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "This capacity adds the main building (288) and the annex (133), which the plan lists separately"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 421, with 331 students in 2025/26; it forecasts 399 in 2035/36. This capacity adds the main building (288) and the annex (133), which the plan lists separately. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "513611": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-513611",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=48",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 208,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 173
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 173
+              },
+              {
+                "year": "2035/36",
+                "value": 156
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 208, with 173 students in 2025/26; it forecasts 156 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "515639": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-515639",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=56",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 320,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 241
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 235
+              },
+              {
+                "year": "2035/36",
+                "value": 248
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 320, with 241 students in 2025/26; it forecasts 248 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "545008": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-545008",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=98",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 274,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 196
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 241
+              },
+              {
+                "year": "2035/36",
+                "value": 252
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 274, with 196 students in 2025/26; it forecasts 252 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "557146": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-557146",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=65",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 410,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 424
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 455
+              },
+              {
+                "year": "2035/36",
+                "value": 461
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 410, with 424 students in 2025/26; it forecasts 461 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "564133": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-564133",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=73",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 389,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 384
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 448
+              },
+              {
+                "year": "2035/36",
+                "value": 487
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 389, with 384 students in 2025/26; it forecasts 487 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "568821": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-568821",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=98",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 137
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 153
+              },
+              {
+                "year": "2035/36",
+                "value": 163
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 190, with 137 students in 2025/26; it forecasts 163 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "600610": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-600610",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=56",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 404,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 460
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 681
+              },
+              {
+                "year": "2035/36",
+                "value": 848
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 404, with 460 students in 2025/26; it forecasts 848 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "893803": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-893803",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=48",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 810,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 878
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 771
+              },
+              {
+                "year": "2035/36",
+                "value": 783
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 810, with 878 students in 2025/26; it forecasts 783 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "899275": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-899275",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=56",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 852,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 903
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 1199
+              },
+              {
+                "year": "2035/36",
+                "value": 1415
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 852, with 903 students in 2025/26; it forecasts 1,415 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "900478": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-900478",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=65",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 723,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 551
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 638
+              },
+              {
+                "year": "2035/36",
+                "value": 691
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 723, with 551 students in 2025/26; it forecasts 691 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "927252": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-927252",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=73",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 1074,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 1015
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 1072
+              },
+              {
+                "year": "2035/36",
+                "value": 1135
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,074, with 1,015 students in 2025/26; it forecasts 1,135 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "929980": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-929980",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=82",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 714,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 441
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 439
+              },
+              {
+                "year": "2035/36",
+                "value": 407
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 714, with 441 students in 2025/26; it forecasts 407 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "936618": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-936618",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=90",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 720,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 491
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 632
+              },
+              {
+                "year": "2035/36",
+                "value": 808
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 720, with 491 students in 2025/26; it forecasts 808 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "948705": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-948705",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=98",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 786,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 475
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 541
+              },
+              {
+                "year": "2035/36",
+                "value": 625
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 786, with 475 students in 2025/26; it forecasts 625 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "092509": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-092509",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=65",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 234,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 218
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 260
+              },
+              {
+                "year": "2035/36",
+                "value": 280
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 234, with 218 students in 2025/26; it forecasts 280 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "049506": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-049506",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=82",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 199,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 124
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 123
+              },
+              {
+                "year": "2035/36",
+                "value": 125
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 199, with 124 students in 2025/26; it forecasts 125 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "026743": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-026743",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=90",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 187
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 254
+              },
+              {
+                "year": "2035/36",
+                "value": 291
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 190, with 187 students in 2025/26; it forecasts 291 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "018279": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-018279",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=90",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 178
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 167
+              },
+              {
+                "year": "2035/36",
+                "value": 176
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 190, with 178 students in 2025/26; it forecasts 176 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "096016": {
+      "records": [
+        {
+          "id": "hpedsb-capacity-096016",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "2025/26 Long-Term Capital and Accommodation Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf#page=90",
+          "source_date": "Winter 2026",
+          "facts": {
+            "capacity_otg": 257,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2025/26",
+                "value": 173
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030/31",
+                "value": 225
+              },
+              {
+                "year": "2035/36",
+                "value": 240
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 257, with 173 students in 2025/26; it forecasts 240 in 2035/36. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

@@ -7,5 +7,7 @@
   "Functional building capacity (FBC)": "Capacité fonctionnelle du bâtiment (FBC)",
   "Capacity (on-the-ground)": "Capacité réelle (OTG)",
   "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's": "La capacité correspond à l’espace du bâtiment selon le plan du conseil, et non aux places libres dans une année ou un programme ; les prévisions sont celles du conseil",
-  "On-the-ground (OTG) capacity: the provincially recognized pupil space of the building, not counting portables": "Capacité réelle (OTG) : l’espace-élèves reconnu par la province pour le bâtiment, sans les classes mobiles"
+  "On-the-ground (OTG) capacity: the provincially recognized pupil space of the building, not counting portables": "Capacité réelle (OTG) : l’espace-élèves reconnu par la province pour le bâtiment, sans les classes mobiles",
+  "Ministry rated capacity": "Capacité nominale du ministère",
+  "Capacity": "Capacité"
 }

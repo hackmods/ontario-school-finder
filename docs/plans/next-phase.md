@@ -25,7 +25,7 @@ space. site/dist is 1.1 GB (school pages 633 MB, data 382 MB); static /fr/ pages
 - [x] 2, 3: atomic data swap, Compare race fixed (a real bug, not just a flaky test).
 - [x] 1: 4,510 links checked; 773 hidden with the reason (717 dead, 52 parked, 4 now unrelated sites).
 - [x] 4: board pages show the whole board's questionnaire vs Ontario, with earlier years.
-- [x] 5: capacity for 1,276 schools at 14 boards, every row rechecked (0 errors). Next boards: docs/capacity-sources.md.
+- [x] 5: capacity for 1,853 schools at 26 boards, every row rechecked by a second reader. Left: three boards with old plans (docs/capacity-sources.md).
 - [x] 6: French for every page, script and board record (fragments site/i18n/fr/*.json, board-info/fr/), EN/FR switch
   in header, phone menu and footer, hreflang + bilingual sitemap, French numbers and dates, notice on every page.
   Document titles, dataset titles and names stay as published.

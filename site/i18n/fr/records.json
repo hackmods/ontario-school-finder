@@ -23,5 +23,6 @@
   "Not yet collected for this board": "Pas encore recueilli pour ce conseil",
   "We haven’t checked {board}’s pages for this yet.": "Nous n’avons pas encore vérifié les pages de {board} à ce sujet.",
   "Its <a href=\"{url}\" rel=\"noopener\">website</a> is the place to ask.": "Son <a href=\"{url}\" rel=\"noopener\">site Web</a> est l’endroit où vous renseigner.",
-  "Ask the board.": "Renseignez-vous auprès du conseil."
+  "Ask the board.": "Renseignez-vous auprès du conseil.",
+  "current (no date given)": "actuel (sans date)"
 }

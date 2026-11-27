@@ -96,7 +96,7 @@ What changed and why is in [DECISIONS.md](DECISIONS.md#family-pass-2026-11-26-pr
 5. **School-level capacity: not available as data.** The Ministry's capacity dataset (SFIS) is still "under
    review" with no files (checked 2026-11-26). Each board's long-term plan is linked from its `planning` record,
    and [capacity-sources.md](capacity-sources.md) lists where 33 boards publish a per-school capacity table.
-   **Transcribed by hand for 14 boards (1,276 schools, 2026-11-27)**, each row rechecked by a second reader; the
+   **Transcribed by hand for 26 boards (1,853 schools, 2026-11-27)**, each row rechecked by a second reader; the
    rest of that list is next (PDF extraction misaligns the tables, so read them by hand).
 6. **Child care**: blocked. The provincial compliance dataset is still "under review" with no files (rechecked
    2026-11-26); pages link to Ontario's licensed child care search instead.

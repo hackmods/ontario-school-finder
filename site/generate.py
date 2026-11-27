@@ -115,6 +115,26 @@ def listing(s: str | None) -> str:
     return ", ".join(out)
 
 
+_EN_DATE = re.compile(r"\b(January|February|March|April|May|June|July|August|September|October|November|December)(?: (\d{1,2}),)? (\d{4})\b")
+
+
+def date_text(s: str | None) -> str:
+    """A date as a board's plan writes it, in the current language: "October 31, 2023" -> "31 octobre 2023",
+    "June 2024" -> "juin 2024". "current" is the plan's undated current count. Other text passes through."""
+    if not s:
+        return ""
+    if s == "current":
+        return _("current (no date given)")
+    if i18n.CURRENT.lang == "en":
+        return s
+
+    def fr(m):
+        month = _(m.group(1)).lower()
+        day = m.group(2)
+        return f"{'1er' if day == '1' else day} {month} {m.group(3)}" if day else f"{month} {m.group(3)}"
+    return _EN_DATE.sub(fr, s)
+
+
 def grades_text(g: str | None) -> str:
     """A grade range as the Ministry writes it ("JK-8"), in the current language: French writes M (maternelle) and
     JE (jardin d'enfants, senior kindergarten), as Ontario's French-language boards do. Same rule as lib.js gradesText."""
@@ -248,6 +268,7 @@ class Site:
         self.env.filters["month_year"] = month_year
         self.env.filters["listing"] = listing
         self.env.filters["grades"] = grades_text
+        self.env.filters["date_text"] = date_text
         # numbers in the page's language: 1,234 / 1 234 (pc is the percent sign, spaced in French)
         self.env.filters.update(num=lambda v, d=None: i18n.num(v, d), money=lambda v: i18n.money(v))
         self.env.globals["pc"] = "%"

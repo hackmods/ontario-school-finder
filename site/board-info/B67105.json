@@ -372,5 +372,1888 @@
       "kind": "decision",
       "lifecycle": "plans"
     }
-  ]
+  ],
+  "schools": {
+    "685984": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-685984",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=16",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 1078,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1205
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 1252
+              },
+              {
+                "year": "2028",
+                "value": 1278
+              },
+              {
+                "year": "2033",
+                "value": 1396
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,078, with 1,205 students in 2023; it forecasts 1,396 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "691259": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-691259",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 513,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 338
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 329
+              },
+              {
+                "year": "2028",
+                "value": 474
+              },
+              {
+                "year": "2033",
+                "value": 877
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 513, with 338 students in 2023; it forecasts 877 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "703923": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-703923",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=16",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 825,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 663
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 606
+              },
+              {
+                "year": "2028",
+                "value": 573
+              },
+              {
+                "year": "2033",
+                "value": 558
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 825, with 663 students in 2023; it forecasts 558 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "710083": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-710083",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=16",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 1216,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1111
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 1024
+              },
+              {
+                "year": "2028",
+                "value": 870
+              },
+              {
+                "year": "2033",
+                "value": 883
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,216, with 1,111 students in 2023; it forecasts 883 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "710954": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-710954",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=15",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 199,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 231
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 244
+              },
+              {
+                "year": "2028",
+                "value": 262
+              },
+              {
+                "year": "2033",
+                "value": 246
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 199, with 231 students in 2023; it forecasts 246 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "720313": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-720313",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=15",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 205,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 136
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 138
+              },
+              {
+                "year": "2028",
+                "value": 152
+              },
+              {
+                "year": "2033",
+                "value": 136
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 205, with 136 students in 2023; it forecasts 136 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "724084": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-724084",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 254
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 281
+              },
+              {
+                "year": "2028",
+                "value": 305
+              },
+              {
+                "year": "2033",
+                "value": 297
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 314, with 254 students in 2023; it forecasts 297 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "730718": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-730718",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 323,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 310
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 322
+              },
+              {
+                "year": "2028",
+                "value": 416
+              },
+              {
+                "year": "2033",
+                "value": 439
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 323, with 310 students in 2023; it forecasts 439 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "733040": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-733040",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=13",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 398,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 281
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 274
+              },
+              {
+                "year": "2028",
+                "value": 291
+              },
+              {
+                "year": "2033",
+                "value": 286
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 398, with 281 students in 2023; it forecasts 286 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "735060": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-735060",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=16",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 641,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 406
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 463
+              },
+              {
+                "year": "2028",
+                "value": 492
+              },
+              {
+                "year": "2033",
+                "value": 533
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 641, with 406 students in 2023; it forecasts 533 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "738050": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-738050",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=16",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 1308,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1085
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 1053
+              },
+              {
+                "year": "2028",
+                "value": 1002
+              },
+              {
+                "year": "2033",
+                "value": 818
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,308, with 1,085 students in 2023; it forecasts 818 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "741310": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-741310",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=16",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 982,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1080
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 1146
+              },
+              {
+                "year": "2028",
+                "value": 1193
+              },
+              {
+                "year": "2033",
+                "value": 1294
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's",
+            "plan_note": "OTG at 811 as of 2026"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 982, with 1,080 students in 2023; it forecasts 1,294 in 2033. The plan notes: OTG at 811 as of 2026. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "750435": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-750435",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 372,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 594
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 670
+              },
+              {
+                "year": "2028",
+                "value": 584
+              },
+              {
+                "year": "2033",
+                "value": 789
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 372, with 594 students in 2023; it forecasts 789 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "762083": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-762083",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 280,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 269
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 275
+              },
+              {
+                "year": "2028",
+                "value": 323
+              },
+              {
+                "year": "2033",
+                "value": 382
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 280, with 269 students in 2023; it forecasts 382 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "762733": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-762733",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=13",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 479,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 500
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 438
+              },
+              {
+                "year": "2028",
+                "value": 367
+              },
+              {
+                "year": "2033",
+                "value": 383
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 479, with 500 students in 2023; it forecasts 383 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "764434": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-764434",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 317
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 315
+              },
+              {
+                "year": "2028",
+                "value": 361
+              },
+              {
+                "year": "2033",
+                "value": 366
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 317 students in 2023; it forecasts 366 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "771406": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-771406",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=13",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 461,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 280
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 269
+              },
+              {
+                "year": "2028",
+                "value": 230
+              },
+              {
+                "year": "2033",
+                "value": 222
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 461, with 280 students in 2023; it forecasts 222 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "772020": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-772020",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=13",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 254,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 382
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 356
+              },
+              {
+                "year": "2028",
+                "value": 318
+              },
+              {
+                "year": "2033",
+                "value": 338
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 254, with 382 students in 2023; it forecasts 338 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "777242": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-777242",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=13",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 608,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 638
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 604
+              },
+              {
+                "year": "2028",
+                "value": 651
+              },
+              {
+                "year": "2033",
+                "value": 702
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 608, with 638 students in 2023; it forecasts 702 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "781282": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-781282",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=13",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 395,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 330
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 319
+              },
+              {
+                "year": "2028",
+                "value": 323
+              },
+              {
+                "year": "2033",
+                "value": 355
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 395, with 330 students in 2023; it forecasts 355 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "784133": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-784133",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 346,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 563
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 450
+              },
+              {
+                "year": "2028",
+                "value": 395
+              },
+              {
+                "year": "2033",
+                "value": 382
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 346, with 563 students in 2023; it forecasts 382 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "789178": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-789178",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=14",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 720,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 613
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 583
+              },
+              {
+                "year": "2028",
+                "value": 629
+              },
+              {
+                "year": "2033",
+                "value": 639
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 720, with 613 students in 2023; it forecasts 639 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "791806": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-791806",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=13",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 173
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 152
+              },
+              {
+                "year": "2028",
+                "value": 146
+              },
+              {
+                "year": "2033",
+                "value": 142
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 173 students in 2023; it forecasts 142 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "796352": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-796352",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 159,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 164
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 190
+              },
+              {
+                "year": "2028",
+                "value": 215
+              },
+              {
+                "year": "2033",
+                "value": 251
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 159, with 164 students in 2023; it forecasts 251 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "798258": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-798258",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=14",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 530,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 529
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 525
+              },
+              {
+                "year": "2028",
+                "value": 499
+              },
+              {
+                "year": "2033",
+                "value": 424
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 530, with 529 students in 2023; it forecasts 424 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "798460": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-798460",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=13",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 346,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 459
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 490
+              },
+              {
+                "year": "2028",
+                "value": 497
+              },
+              {
+                "year": "2033",
+                "value": 478
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 346, with 459 students in 2023; it forecasts 478 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "803057": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-803057",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 398,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 432
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 437
+              },
+              {
+                "year": "2028",
+                "value": 565
+              },
+              {
+                "year": "2033",
+                "value": 802
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 398, with 432 students in 2023; it forecasts 802 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "805327": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-805327",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 346,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 375
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 403
+              },
+              {
+                "year": "2028",
+                "value": 460
+              },
+              {
+                "year": "2033",
+                "value": 453
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 346, with 375 students in 2023; it forecasts 453 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "806972": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-806972",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 481,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 335
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 334
+              },
+              {
+                "year": "2028",
+                "value": 379
+              },
+              {
+                "year": "2033",
+                "value": 572
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 481, with 335 students in 2023; it forecasts 572 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "811696": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-811696",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=15",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 300,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 344
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 355
+              },
+              {
+                "year": "2028",
+                "value": 377
+              },
+              {
+                "year": "2033",
+                "value": 391
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 300, with 344 students in 2023; it forecasts 391 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "814423": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-814423",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 395,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 586
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 588
+              },
+              {
+                "year": "2028",
+                "value": 624
+              },
+              {
+                "year": "2033",
+                "value": 632
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 395, with 586 students in 2023; it forecasts 632 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "818844": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-818844",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 266,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 207
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 207
+              },
+              {
+                "year": "2028",
+                "value": 227
+              },
+              {
+                "year": "2033",
+                "value": 234
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 266, with 207 students in 2023; it forecasts 234 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "820830": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-820830",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 467,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 613
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 624
+              },
+              {
+                "year": "2028",
+                "value": 713
+              },
+              {
+                "year": "2033",
+                "value": 707
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 467, with 613 students in 2023; it forecasts 707 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "823015": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-823015",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 490,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 623
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 572
+              },
+              {
+                "year": "2028",
+                "value": 536
+              },
+              {
+                "year": "2033",
+                "value": 484
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 490, with 623 students in 2023; it forecasts 484 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "826211": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-826211",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 138,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 190
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 184
+              },
+              {
+                "year": "2028",
+                "value": 216
+              },
+              {
+                "year": "2033",
+                "value": 213
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 138, with 190 students in 2023; it forecasts 213 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "826278": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-826278",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=16",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 1528,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 1272
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 1232
+              },
+              {
+                "year": "2028",
+                "value": 1351
+              },
+              {
+                "year": "2033",
+                "value": 1682
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,528, with 1,272 students in 2023; it forecasts 1,682 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "830801": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-830801",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 490,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 395
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 379
+              },
+              {
+                "year": "2028",
+                "value": 369
+              },
+              {
+                "year": "2033",
+                "value": 397
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 490, with 395 students in 2023; it forecasts 397 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "835668": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-835668",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=14",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 392,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 464
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 459
+              },
+              {
+                "year": "2028",
+                "value": 417
+              },
+              {
+                "year": "2033",
+                "value": 399
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 392, with 464 students in 2023; it forecasts 399 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "840696": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-840696",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=13",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 685,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 518
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 507
+              },
+              {
+                "year": "2028",
+                "value": 490
+              },
+              {
+                "year": "2033",
+                "value": 514
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 685, with 518 students in 2023; it forecasts 514 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "843156": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-843156",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 404
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 404
+              },
+              {
+                "year": "2028",
+                "value": 410
+              },
+              {
+                "year": "2033",
+                "value": 417
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 404 students in 2023; it forecasts 417 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "845884": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-845884",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 300,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 290
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 277
+              },
+              {
+                "year": "2028",
+                "value": 283
+              },
+              {
+                "year": "2033",
+                "value": 301
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 300, with 290 students in 2023; it forecasts 301 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "851764": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-851764",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 596,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 799
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 842
+              },
+              {
+                "year": "2028",
+                "value": 877
+              },
+              {
+                "year": "2033",
+                "value": 903
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 596, with 799 students in 2023; it forecasts 903 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "852902": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-852902",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 245
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 240
+              },
+              {
+                "year": "2028",
+                "value": 270
+              },
+              {
+                "year": "2033",
+                "value": 269
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 245, with 245 students in 2023; it forecasts 269 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "854980": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-854980",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=11",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 360,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 401
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 453
+              },
+              {
+                "year": "2028",
+                "value": 407
+              },
+              {
+                "year": "2033",
+                "value": 383
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 360, with 401 students in 2023; it forecasts 383 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "858960": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-858960",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=14",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 501,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 554
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 565
+              },
+              {
+                "year": "2028",
+                "value": 629
+              },
+              {
+                "year": "2033",
+                "value": 749
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 501, with 554 students in 2023; it forecasts 749 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "860676": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-860676",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=12",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 147,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 154
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 163
+              },
+              {
+                "year": "2028",
+                "value": 155
+              },
+              {
+                "year": "2033",
+                "value": 138
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 147, with 154 students in 2023; it forecasts 138 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "871140": {
+      "records": [
+        {
+          "id": "dcdsb-capacity-871140",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf#page=14",
+          "source_date": "2024",
+          "facts": {
+            "capacity_otg": 386,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2023",
+                "value": 444
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 480
+              },
+              {
+                "year": "2028",
+                "value": 495
+              },
+              {
+                "year": "2033",
+                "value": 537
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 386, with 444 students in 2023; it forecasts 537 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

@@ -391,5 +391,3094 @@
         "062995": "Brighton P.S. (Brighton)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "102644": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-102644",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 678,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 799
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 772
+              },
+              {
+                "year": "2035",
+                "value": 754
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 678, with 799 students in 2025; it forecasts 754 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "105678": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-105678",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=12",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 501,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 460
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 404
+              },
+              {
+                "year": "2035",
+                "value": 383
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 501, with 460 students in 2025; it forecasts 383 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "109010": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-109010",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=5",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 222,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 248
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 280
+              },
+              {
+                "year": "2035",
+                "value": 290
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 222, with 248 students in 2025; it forecasts 290 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "110728": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-110728",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=5",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 251,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 436
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 438
+              },
+              {
+                "year": "2035",
+                "value": 402
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 251, with 436 students in 2025; it forecasts 402 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "115380": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-115380",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=17",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 231,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 193
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 246
+              },
+              {
+                "year": "2035",
+                "value": 262
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 231, with 193 students in 2025; it forecasts 262 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "124907": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-124907",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=6",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 795,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 864
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 840
+              },
+              {
+                "year": "2035",
+                "value": 819
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 795, with 864 students in 2025; it forecasts 819 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "125213": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-125213",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 265,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 194
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 155
+              },
+              {
+                "year": "2035",
+                "value": 161
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 265, with 194 students in 2025; it forecasts 161 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "131768": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-131768",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 124,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 169
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 202
+              },
+              {
+                "year": "2035",
+                "value": 191
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 124, with 169 students in 2025; it forecasts 191 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "136891": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-136891",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=6",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 422,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 383
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 356
+              },
+              {
+                "year": "2035",
+                "value": 364
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 422, with 383 students in 2025; it forecasts 364 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "147621": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-147621",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 216,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 258
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 236
+              },
+              {
+                "year": "2035",
+                "value": 211
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 216, with 258 students in 2025; it forecasts 211 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "147826": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-147826",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 456,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 606
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 638
+              },
+              {
+                "year": "2035",
+                "value": 643
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 456, with 606 students in 2025; it forecasts 643 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "166340": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-166340",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 453
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 391
+              },
+              {
+                "year": "2035",
+                "value": 385
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 432, with 453 students in 2025; it forecasts 385 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "182338": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-182338",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 219,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 221
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 184
+              },
+              {
+                "year": "2035",
+                "value": 190
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 219, with 221 students in 2025; it forecasts 190 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "240184": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-240184",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 284
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 301
+              },
+              {
+                "year": "2035",
+                "value": 293
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 291, with 284 students in 2025; it forecasts 293 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "241091": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-241091",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 107,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 135
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 182
+              },
+              {
+                "year": "2035",
+                "value": 176
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 107, with 135 students in 2025; it forecasts 176 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "241610": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-241610",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 199,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 239
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 227
+              },
+              {
+                "year": "2035",
+                "value": 235
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 199, with 239 students in 2025; it forecasts 235 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "242390": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-242390",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 268
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 264
+              },
+              {
+                "year": "2035",
+                "value": 281
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 291, with 268 students in 2025; it forecasts 281 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "242780": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-242780",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 144,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 146
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 105
+              },
+              {
+                "year": "2035",
+                "value": 118
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 144, with 146 students in 2025; it forecasts 118 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "244422": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-244422",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 585,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 514
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 435
+              },
+              {
+                "year": "2035",
+                "value": 381
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 585, with 514 students in 2025; it forecasts 381 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "246425": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-246425",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=12",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 118,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 175
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 163
+              },
+              {
+                "year": "2035",
+                "value": 181
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 118, with 175 students in 2025; it forecasts 181 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "249939": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-249939",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=16",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 164,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 129
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 153
+              },
+              {
+                "year": "2035",
+                "value": 145
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 164, with 129 students in 2025; it forecasts 145 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "250325": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-250325",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=12",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 257,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 205
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 189
+              },
+              {
+                "year": "2035",
+                "value": 196
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 257, with 205 students in 2025; it forecasts 196 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "251356": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-251356",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 161,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 109
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 161, with 109 students in 2025. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "255912": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-255912",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 300,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 244
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 260
+              },
+              {
+                "year": "2035",
+                "value": 247
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 300, with 244 students in 2025; it forecasts 247 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "256897": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-256897",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=16",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 384,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 274
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 296
+              },
+              {
+                "year": "2035",
+                "value": 301
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 384, with 274 students in 2025; it forecasts 301 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "282081": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-282081",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 714,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 705
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 592
+              },
+              {
+                "year": "2035",
+                "value": 582
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 714, with 705 students in 2025; it forecasts 582 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "287890": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-287890",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 243
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 250
+              },
+              {
+                "year": "2035",
+                "value": 243
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 268, with 243 students in 2025; it forecasts 243 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "288802": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-288802",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 353,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 233
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 281
+              },
+              {
+                "year": "2035",
+                "value": 258
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 353, with 233 students in 2025; it forecasts 258 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "289841": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-289841",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=16",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 269,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 263
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 244
+              },
+              {
+                "year": "2035",
+                "value": 245
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 269, with 263 students in 2025; it forecasts 245 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "289884": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-289884",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 306,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 113
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 61
+              },
+              {
+                "year": "2035",
+                "value": 62
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 306, with 113 students in 2025; it forecasts 62 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "325040": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-325040",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=6",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 469,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 368
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 402
+              },
+              {
+                "year": "2035",
+                "value": 430
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 469, with 368 students in 2025; it forecasts 430 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "357120": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-357120",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 536
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 523
+              },
+              {
+                "year": "2035",
+                "value": 543
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 432, with 536 students in 2025; it forecasts 543 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "364665": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-364665",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 447,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 580
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 561
+              },
+              {
+                "year": "2035",
+                "value": 579
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 447, with 580 students in 2025; it forecasts 579 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "380733": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-380733",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=17",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 637,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 606
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 595
+              },
+              {
+                "year": "2035",
+                "value": 602
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 637, with 606 students in 2025; it forecasts 602 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "381233": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-381233",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=17",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 190,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 225
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 198
+              },
+              {
+                "year": "2035",
+                "value": 191
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 190, with 225 students in 2025; it forecasts 191 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "384747": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-384747",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=5",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 554,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 666
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 598
+              },
+              {
+                "year": "2035",
+                "value": 589
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 554, with 666 students in 2025; it forecasts 589 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "402908": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-402908",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=12",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 678,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 592
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 541
+              },
+              {
+                "year": "2035",
+                "value": 558
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 678, with 592 students in 2025; it forecasts 558 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "403334": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-403334",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 130,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 224
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 206
+              },
+              {
+                "year": "2035",
+                "value": 192
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 130, with 224 students in 2025; it forecasts 192 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "403350": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-403350",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 441,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 406
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 426
+              },
+              {
+                "year": "2035",
+                "value": 402
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 441, with 406 students in 2025; it forecasts 402 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "412171": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-412171",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=12",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 323,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 357
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 365
+              },
+              {
+                "year": "2035",
+                "value": 382
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 323, with 357 students in 2025; it forecasts 382 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "412180": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-412180",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=12",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 138,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 123
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 137
+              },
+              {
+                "year": "2035",
+                "value": 135
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 138, with 123 students in 2025; it forecasts 135 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "428680": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-428680",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 459,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 333
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 377
+              },
+              {
+                "year": "2035",
+                "value": 309
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 459, with 333 students in 2025; it forecasts 309 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "434858": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-434858",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 703,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 717
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 631
+              },
+              {
+                "year": "2035",
+                "value": 639
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 703, with 717 students in 2025; it forecasts 639 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "439983": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-439983",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=16",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 245,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 273
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 261
+              },
+              {
+                "year": "2035",
+                "value": 271
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 245, with 273 students in 2025; it forecasts 271 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "445658": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-445658",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 686,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 612
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 645
+              },
+              {
+                "year": "2035",
+                "value": 644
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 686, with 612 students in 2025; it forecasts 644 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "449510": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-449510",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=12",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 680,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 717
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 530
+              },
+              {
+                "year": "2035",
+                "value": 521
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 680, with 717 students in 2025; it forecasts 521 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "454818": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-454818",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 622,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 543
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 540
+              },
+              {
+                "year": "2035",
+                "value": 550
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 622, with 543 students in 2025; it forecasts 550 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "462225": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-462225",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 295,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 229
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 221
+              },
+              {
+                "year": "2035",
+                "value": 206
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 295, with 229 students in 2025; it forecasts 206 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "464562": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-464562",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 421,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 354
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 298
+              },
+              {
+                "year": "2035",
+                "value": 284
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 421, with 354 students in 2025; it forecasts 284 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "467529": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-467529",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 222,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 262
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 280
+              },
+              {
+                "year": "2035",
+                "value": 295
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 222, with 262 students in 2025; it forecasts 295 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "489298": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-489298",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 338,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 305
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 336
+              },
+              {
+                "year": "2035",
+                "value": 339
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 338, with 305 students in 2025; it forecasts 339 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "491632": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-491632",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 196,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 216
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 243
+              },
+              {
+                "year": "2035",
+                "value": 265
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 196, with 216 students in 2025; it forecasts 265 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "501557": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-501557",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=6",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 254,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 257
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 270
+              },
+              {
+                "year": "2035",
+                "value": 282
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 254, with 257 students in 2025; it forecasts 282 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "504632": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-504632",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=6",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 115,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 222
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 208
+              },
+              {
+                "year": "2035",
+                "value": 206
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 115, with 222 students in 2025; it forecasts 206 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "515252": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-515252",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=17",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 343,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 370
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 387
+              },
+              {
+                "year": "2035",
+                "value": 414
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 343, with 370 students in 2025; it forecasts 414 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "527661": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-527661",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=17",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 216
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 191
+              },
+              {
+                "year": "2035",
+                "value": 171
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 291, with 216 students in 2025; it forecasts 171 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "551074": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-551074",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 401,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 412
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 390
+              },
+              {
+                "year": "2035",
+                "value": 387
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 401, with 412 students in 2025; it forecasts 387 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "551333": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-551333",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 285,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 310
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 251
+              },
+              {
+                "year": "2035",
+                "value": 204
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 285, with 310 students in 2025; it forecasts 204 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "578053": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-578053",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 395,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 409
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 448
+              },
+              {
+                "year": "2035",
+                "value": 433
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 395, with 409 students in 2025; it forecasts 433 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "587150": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-587150",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=12",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 187,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 154
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 162
+              },
+              {
+                "year": "2035",
+                "value": 163
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 187, with 154 students in 2025; it forecasts 163 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "587443": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-587443",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 432,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 468
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 554
+              },
+              {
+                "year": "2035",
+                "value": 534
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 432, with 468 students in 2025; it forecasts 534 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "602361": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-602361",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 423
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 357
+              },
+              {
+                "year": "2035",
+                "value": 368
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 573, with 423 students in 2025; it forecasts 368 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "890464": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-890464",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=20",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 1102,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1050
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 961
+              },
+              {
+                "year": "2035",
+                "value": 889
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 1,102, with 1,050 students in 2025; it forecasts 889 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "895539": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-895539",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=19",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 983,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1198
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 983
+              },
+              {
+                "year": "2035",
+                "value": 982
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 983, with 1,198 students in 2025; it forecasts 982 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "898260": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-898260",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=21",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 775,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 445
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 493
+              },
+              {
+                "year": "2035",
+                "value": 513
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 775, with 445 students in 2025; it forecasts 513 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "901512": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-901512",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=19",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 630,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 114
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 334
+              },
+              {
+                "year": "2035",
+                "value": 360
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 630, with 114 students in 2025; it forecasts 360 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "901687": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-901687",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=19",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 1154,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 862
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1024
+              },
+              {
+                "year": "2035",
+                "value": 1052
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 1,154, with 862 students in 2025; it forecasts 1,052 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "903078": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-903078",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=19",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 841,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 754
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 792
+              },
+              {
+                "year": "2035",
+                "value": 808
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 841, with 754 students in 2025; it forecasts 808 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "903337": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-903337",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=20",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 722,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 705
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 737
+              },
+              {
+                "year": "2035",
+                "value": 706
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 722, with 705 students in 2025; it forecasts 706 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "906719": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-906719",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=21",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 1186,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 930
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1051
+              },
+              {
+                "year": "2035",
+                "value": 975
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 1,186, with 930 students in 2025; it forecasts 975 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "919195": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-919195",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=20",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 1002,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 457
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 531
+              },
+              {
+                "year": "2035",
+                "value": 526
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 1,002, with 457 students in 2025; it forecasts 526 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "931543": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-931543",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=20",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 469,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 262
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 258
+              },
+              {
+                "year": "2035",
+                "value": 266
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 469, with 262 students in 2025; it forecasts 266 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "936090": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-936090",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=21",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 757,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 222
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 223
+              },
+              {
+                "year": "2035",
+                "value": 231
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 757, with 222 students in 2025; it forecasts 231 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "947563": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-947563",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=20",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 1408,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1228
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1215
+              },
+              {
+                "year": "2035",
+                "value": 1223
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 1,408, with 1,228 students in 2025; it forecasts 1,223 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "967836": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-967836",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=21",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 1396,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 1112
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 1202
+              },
+              {
+                "year": "2035",
+                "value": 1301
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 1,396, with 1,112 students in 2025; it forecasts 1,301 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "069841": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-069841",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=6",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 353,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 526
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 499
+              },
+              {
+                "year": "2035",
+                "value": 521
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 353, with 526 students in 2025; it forecasts 521 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "097187": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-097187",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=8",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 234,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 276
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 316
+              },
+              {
+                "year": "2035",
+                "value": 342
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 234, with 276 students in 2025; it forecasts 342 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "002194": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-002194",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=10",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 248,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 327
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 284
+              },
+              {
+                "year": "2035",
+                "value": 260
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 248, with 327 students in 2025; it forecasts 260 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "020222": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-020222",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=12",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 141,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 179
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 168
+              },
+              {
+                "year": "2035",
+                "value": 160
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 141, with 179 students in 2025; it forecasts 160 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "033812": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-033812",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 349,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 305
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 293
+              },
+              {
+                "year": "2035",
+                "value": 270
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 349, with 305 students in 2025; it forecasts 270 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "071056": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-071056",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 315,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 283
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 296
+              },
+              {
+                "year": "2035",
+                "value": 304
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 315, with 283 students in 2025; it forecasts 304 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "091855": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-091855",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 176,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 196
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 184
+              },
+              {
+                "year": "2035",
+                "value": 183
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 176, with 196 students in 2025; it forecasts 183 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "056723": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-056723",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 427
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 448
+              },
+              {
+                "year": "2035",
+                "value": 478
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 504, with 427 students in 2025; it forecasts 478 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "091987": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-091987",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=14",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 95,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 131
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 134
+              },
+              {
+                "year": "2035",
+                "value": 138
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 95, with 131 students in 2025; it forecasts 138 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "062995": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-062995",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=17",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 504,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 523
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 469
+              },
+              {
+                "year": "2035",
+                "value": 445
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 504, with 523 students in 2025; it forecasts 445 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "062340": {
+      "records": [
+        {
+          "id": "kprdsb-capacity-062340",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Student Accommodation Planning 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf#page=17",
+          "source_date": "June 2026",
+          "facts": {
+            "capacity_otg": 187,
+            "capacity_label": "Capacity",
+            "enrolment": [
+              {
+                "year": "2025",
+                "value": 206
+              }
+            ],
+            "projected": [
+              {
+                "year": "2030",
+                "value": 149
+              },
+              {
+                "year": "2035",
+                "value": 139
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's capacity as 187, with 206 students in 2025; it forecasts 139 in 2035. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

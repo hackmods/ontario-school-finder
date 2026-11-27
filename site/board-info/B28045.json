@@ -307,5 +307,628 @@
         "905283": "Dryden High School (Dryden)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "122017": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-122017",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 150,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 74
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 150, with 74 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "157503": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-157503",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 196,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 102
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 196, with 102 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "190390": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-190390",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 222,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 137
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 222, with 137 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "275026": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-275026",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 187,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 112
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 187, with 112 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "288675": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-288675",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 211,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 143
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 211, with 143 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "296996": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-296996",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 291,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 272
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 291, with 272 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "406929": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-406929",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 493,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 299
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 493, with 299 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "478997": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-478997",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 337,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 156
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 337, with 156 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "486663": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-486663",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 470,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 413
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 470, with 413 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "501484": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-501484",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 118,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 4
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 118, with 4 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "514659": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-514659",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 530,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 317
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 530, with 317 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "515000": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-515000",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 72,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 43
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 72, with 43 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "566489": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-566489",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 127,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 8
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 127, with 8 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "569739": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-569739",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 236,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 323
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 236, with 323 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "570516": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-570516",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 265,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 86
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 265, with 86 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "583403": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-583403",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 184,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 236
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 184, with 236 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "894230": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-894230",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 814,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 475
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 814, with 475 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "902748": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-902748",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 105,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 16
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 105, with 16 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "905283": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-905283",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 1038,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 594
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,038, with 594 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "918113": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-918113",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 492,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 59
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 492, with 59 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "936871": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-936871",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 513,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 509
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 513, with 509 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "937789": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-937789",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 492,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 252
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 492, with 252 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "030759": {
+      "records": [
+        {
+          "id": "kpdsb-capacity-030759",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long-Term Accommodation Plan 2024-2034 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf#page=35",
+          "source_date": "April 23, 2024",
+          "facts": {
+            "capacity_otg": 386,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "2022",
+                "value": 194
+              }
+            ],
+            "projected": [],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 386, with 194 students in 2022. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

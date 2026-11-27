@@ -387,5 +387,2527 @@
         "920100": "Erie Migration District School (Kingsville)"
       }
     }
-  ]
+  ],
+  "schools": {
+    "123838": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-123838",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=28",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 300,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 249
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 266
+              },
+              {
+                "year": "2028",
+                "value": 264
+              },
+              {
+                "year": "2033",
+                "value": 260
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 300, with 249 students on September 30, 2023; it forecasts 260 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "134880": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-134880",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=28",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 328,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 230
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 222
+              },
+              {
+                "year": "2028",
+                "value": 225
+              },
+              {
+                "year": "2033",
+                "value": 231
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 328, with 230 students on September 30, 2023; it forecasts 231 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "142948": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-142948",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=105",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 406,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 382
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 403
+              },
+              {
+                "year": "2028",
+                "value": 382
+              },
+              {
+                "year": "2033",
+                "value": 371
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 406, with 382 students on September 30, 2023; it forecasts 371 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "147362": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-147362",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=105",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 571,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 662
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 665
+              },
+              {
+                "year": "2028",
+                "value": 681
+              },
+              {
+                "year": "2033",
+                "value": 693
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 571, with 662 students on September 30, 2023; it forecasts 693 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "201391": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-201391",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=74",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 776,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 670
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 685
+              },
+              {
+                "year": "2028",
+                "value": 690
+              },
+              {
+                "year": "2033",
+                "value": 700
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 776, with 670 students on September 30, 2023; it forecasts 700 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "203009": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-203009",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=98",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 596,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 440
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 431
+              },
+              {
+                "year": "2028",
+                "value": 434
+              },
+              {
+                "year": "2033",
+                "value": 450
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 596, with 440 students on September 30, 2023; it forecasts 450 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "211192": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-211192",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=105",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 404,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 356
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 364
+              },
+              {
+                "year": "2028",
+                "value": 354
+              },
+              {
+                "year": "2033",
+                "value": 335
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 404, with 356 students on September 30, 2023; it forecasts 335 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "220817": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-220817",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=58",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 406,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 514
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 515
+              },
+              {
+                "year": "2028",
+                "value": 510
+              },
+              {
+                "year": "2033",
+                "value": 520
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 406, with 514 students on September 30, 2023; it forecasts 520 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "222119": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-222119",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=28",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 487,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 531
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 534
+              },
+              {
+                "year": "2028",
+                "value": 541
+              },
+              {
+                "year": "2033",
+                "value": 534
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 487, with 531 students on September 30, 2023; it forecasts 534 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "222240": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-222240",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=50",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 349,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 240
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 261
+              },
+              {
+                "year": "2028",
+                "value": 275
+              },
+              {
+                "year": "2033",
+                "value": 285
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 349, with 240 students on September 30, 2023; it forecasts 285 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "243524": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-243524",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=58",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 808,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 911
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 935
+              },
+              {
+                "year": "2028",
+                "value": 966
+              },
+              {
+                "year": "2033",
+                "value": 988
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 808, with 911 students on September 30, 2023; it forecasts 988 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "245658": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-245658",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=43",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 470,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 397
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 426
+              },
+              {
+                "year": "2028",
+                "value": 426
+              },
+              {
+                "year": "2033",
+                "value": 430
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 470, with 397 students on September 30, 2023; it forecasts 430 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "268267": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-268267",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=98",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 453,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 353
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 347
+              },
+              {
+                "year": "2028",
+                "value": 335
+              },
+              {
+                "year": "2033",
+                "value": 336
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 453, with 353 students on September 30, 2023; it forecasts 336 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "279315": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-279315",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=37",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 335,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 296
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 282
+              },
+              {
+                "year": "2028",
+                "value": 264
+              },
+              {
+                "year": "2033",
+                "value": 269
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 335, with 296 students on September 30, 2023; it forecasts 269 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "283347": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-283347",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=37",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 438,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 343
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 328
+              },
+              {
+                "year": "2028",
+                "value": 324
+              },
+              {
+                "year": "2033",
+                "value": 327
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 438, with 343 students on September 30, 2023; it forecasts 327 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "294659": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-294659",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=98",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 439,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 358
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 345
+              },
+              {
+                "year": "2028",
+                "value": 350
+              },
+              {
+                "year": "2033",
+                "value": 350
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 439, with 358 students on September 30, 2023; it forecasts 350 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "308897": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-308897",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=84",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 586,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 573
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 572
+              },
+              {
+                "year": "2028",
+                "value": 540
+              },
+              {
+                "year": "2033",
+                "value": 542
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 586, with 573 students on September 30, 2023; it forecasts 542 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "327026": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-327026",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=74",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 386,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 442
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 442
+              },
+              {
+                "year": "2028",
+                "value": 450
+              },
+              {
+                "year": "2033",
+                "value": 430
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 386, with 442 students on September 30, 2023; it forecasts 430 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "331180": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-331180",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=68",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 263
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 277
+              },
+              {
+                "year": "2028",
+                "value": 273
+              },
+              {
+                "year": "2033",
+                "value": 268
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 263 students on September 30, 2023; it forecasts 268 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "334012": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-334012",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=23",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 669,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 606
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 608
+              },
+              {
+                "year": "2028",
+                "value": 656
+              },
+              {
+                "year": "2033",
+                "value": 667
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 669, with 606 students on September 30, 2023; it forecasts 667 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "338206": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-338206",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=50",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 263,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 342
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 345
+              },
+              {
+                "year": "2028",
+                "value": 350
+              },
+              {
+                "year": "2033",
+                "value": 365
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 263, with 342 students on September 30, 2023; it forecasts 365 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "343536": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-343536",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=105",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 616,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 484
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 493
+              },
+              {
+                "year": "2028",
+                "value": 492
+              },
+              {
+                "year": "2033",
+                "value": 500
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 616, with 484 students on September 30, 2023; it forecasts 500 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "362379": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-362379",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=50",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 211,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 202
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 206
+              },
+              {
+                "year": "2028",
+                "value": 215
+              },
+              {
+                "year": "2033",
+                "value": 222
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 211, with 202 students on September 30, 2023; it forecasts 222 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "376035": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-376035",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=50",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 314,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 244
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 236
+              },
+              {
+                "year": "2028",
+                "value": 231
+              },
+              {
+                "year": "2033",
+                "value": 240
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 314, with 244 students on September 30, 2023; it forecasts 240 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "411787": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-411787",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=58",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 810,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 897
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 923
+              },
+              {
+                "year": "2028",
+                "value": 949
+              },
+              {
+                "year": "2033",
+                "value": 991
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 810, with 897 students on September 30, 2023; it forecasts 991 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "435872": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-435872",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=74",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 501,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 584
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 613
+              },
+              {
+                "year": "2028",
+                "value": 627
+              },
+              {
+                "year": "2033",
+                "value": 620
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 501, with 584 students on September 30, 2023; it forecasts 620 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "439088": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-439088",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=43",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 69,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 17
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 20
+              },
+              {
+                "year": "2028",
+                "value": 21
+              },
+              {
+                "year": "2033",
+                "value": 20
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 69, with 17 students on September 30, 2023; it forecasts 20 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "440256": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-440256",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=28",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 544,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 437
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 451
+              },
+              {
+                "year": "2028",
+                "value": 465
+              },
+              {
+                "year": "2033",
+                "value": 495
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 544, with 437 students on September 30, 2023; it forecasts 495 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "452734": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-452734",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=84",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 444,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 582
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 634
+              },
+              {
+                "year": "2028",
+                "value": 698
+              },
+              {
+                "year": "2033",
+                "value": 732
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 444, with 582 students on September 30, 2023; it forecasts 732 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "454168": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-454168",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=98",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 630,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 580
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 579
+              },
+              {
+                "year": "2028",
+                "value": 591
+              },
+              {
+                "year": "2033",
+                "value": 606
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 630, with 580 students on September 30, 2023; it forecasts 606 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "457280": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-457280",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=74",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 300,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 264
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 267
+              },
+              {
+                "year": "2028",
+                "value": 259
+              },
+              {
+                "year": "2033",
+                "value": 270
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 300, with 264 students on September 30, 2023; it forecasts 270 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "462098": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-462098",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=50",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 562,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 463
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 455
+              },
+              {
+                "year": "2028",
+                "value": 445
+              },
+              {
+                "year": "2033",
+                "value": 450
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 562, with 463 students on September 30, 2023; it forecasts 450 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "491217": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-491217",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=58",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 435,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 491
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 504
+              },
+              {
+                "year": "2028",
+                "value": 514
+              },
+              {
+                "year": "2033",
+                "value": 520
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 435, with 491 students on September 30, 2023; it forecasts 520 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "491764": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-491764",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=28",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 372,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 226
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 224
+              },
+              {
+                "year": "2028",
+                "value": 220
+              },
+              {
+                "year": "2033",
+                "value": 219
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 372, with 226 students on September 30, 2023; it forecasts 219 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "498513": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-498513",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=84",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 730,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 563
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 553
+              },
+              {
+                "year": "2028",
+                "value": 550
+              },
+              {
+                "year": "2033",
+                "value": 541
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 730, with 563 students on September 30, 2023; it forecasts 541 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "526703": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-526703",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=58",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 450,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 385
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 419
+              },
+              {
+                "year": "2028",
+                "value": 401
+              },
+              {
+                "year": "2033",
+                "value": 405
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 450, with 385 students on September 30, 2023; it forecasts 405 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "539427": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-539427",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=92",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 873,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 677
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 635
+              },
+              {
+                "year": "2028",
+                "value": 675
+              },
+              {
+                "year": "2033",
+                "value": 716
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 873, with 677 students on September 30, 2023; it forecasts 716 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "551941": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-551941",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=17",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 815,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 940
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 948
+              },
+              {
+                "year": "2028",
+                "value": 960
+              },
+              {
+                "year": "2033",
+                "value": 1054
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 815, with 940 students on September 30, 2023; it forecasts 1,054 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "574155": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-574155",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=37",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 639,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 479
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 492
+              },
+              {
+                "year": "2028",
+                "value": 501
+              },
+              {
+                "year": "2033",
+                "value": 500
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 639, with 479 students on September 30, 2023; it forecasts 500 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "590984": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-590984",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=74",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 573,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 476
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 470
+              },
+              {
+                "year": "2028",
+                "value": 485
+              },
+              {
+                "year": "2033",
+                "value": 495
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 573, with 476 students on September 30, 2023; it forecasts 495 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "607541": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-607541",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=28",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 395,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 377
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 355
+              },
+              {
+                "year": "2028",
+                "value": 347
+              },
+              {
+                "year": "2033",
+                "value": 355
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 395, with 377 students on September 30, 2023; it forecasts 355 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "902299": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-902299",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=123",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 858,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 771
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 755
+              },
+              {
+                "year": "2028-29",
+                "value": 761
+              },
+              {
+                "year": "2033-34",
+                "value": 800
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 858, with 771 students on September 13, 2023; it forecasts 800 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "909440": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-909440",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=114",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 786,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 697
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 725
+              },
+              {
+                "year": "2028-29",
+                "value": 730
+              },
+              {
+                "year": "2033-34",
+                "value": 734
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 786, with 697 students on September 13, 2023; it forecasts 734 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "916422": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-916422",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=120",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 821,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 721
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 704
+              },
+              {
+                "year": "2028-29",
+                "value": 739
+              },
+              {
+                "year": "2033-34",
+                "value": 749
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 821, with 721 students on September 13, 2023; it forecasts 749 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "917249": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-917249",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=116",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 864,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 948
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 966
+              },
+              {
+                "year": "2028-29",
+                "value": 970
+              },
+              {
+                "year": "2033-34",
+                "value": 1011
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 864, with 948 students on September 13, 2023; it forecasts 1,011 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "918806": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-918806",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=125",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 852,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 649
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 631
+              },
+              {
+                "year": "2028-29",
+                "value": 648
+              },
+              {
+                "year": "2033-34",
+                "value": 665
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 852, with 649 students on September 13, 2023; it forecasts 665 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "922188": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-922188",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=118",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1005,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 937
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 913
+              },
+              {
+                "year": "2028-29",
+                "value": 877
+              },
+              {
+                "year": "2033-34",
+                "value": 833
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,005, with 937 students on September 13, 2023; it forecasts 833 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "929727": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-929727",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=113",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1131,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 827
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 827
+              },
+              {
+                "year": "2028-29",
+                "value": 840
+              },
+              {
+                "year": "2033-34",
+                "value": 853
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,131, with 827 students on September 13, 2023; it forecasts 853 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "939218": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-939218",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=121",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1269,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 1028
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 1035
+              },
+              {
+                "year": "2028-29",
+                "value": 1043
+              },
+              {
+                "year": "2033-34",
+                "value": 1056
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,269, with 1,028 students on September 13, 2023; it forecasts 1,056 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "939765": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-939765",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=122",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 963,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 1017
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 1035
+              },
+              {
+                "year": "2028-29",
+                "value": 1060
+              },
+              {
+                "year": "2033-34",
+                "value": 1090
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 963, with 1,017 students on September 13, 2023; it forecasts 1,090 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "949612": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-949612",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=119",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 1761,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 1848
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 1800
+              },
+              {
+                "year": "2028-29",
+                "value": 1854
+              },
+              {
+                "year": "2033-34",
+                "value": 1892
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 1,761, with 1,848 students on September 13, 2023; it forecasts 1,892 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "950009": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-950009",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=115",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 972,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 666
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 660
+              },
+              {
+                "year": "2028-29",
+                "value": 660
+              },
+              {
+                "year": "2033-34",
+                "value": 652
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 972, with 666 students on September 13, 2023; it forecasts 652 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "950394": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-950394",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=124",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 849,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 13, 2023",
+                "value": 723
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025-26",
+                "value": 720
+              },
+              {
+                "year": "2028-29",
+                "value": 715
+              },
+              {
+                "year": "2033-34",
+                "value": 727
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 849, with 723 students on September 13, 2023; it forecasts 727 in 2033-34. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "098094": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-098094",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=17",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 357,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 212
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 218
+              },
+              {
+                "year": "2028",
+                "value": 225
+              },
+              {
+                "year": "2033",
+                "value": 236
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 357, with 212 students on September 30, 2023; it forecasts 236 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "091073": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-091073",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=23",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 268,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 276
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 276
+              },
+              {
+                "year": "2028",
+                "value": 288
+              },
+              {
+                "year": "2033",
+                "value": 282
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 268, with 276 students on September 30, 2023; it forecasts 282 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "091464": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-091464",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=23",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 363,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 470
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 455
+              },
+              {
+                "year": "2028",
+                "value": 471
+              },
+              {
+                "year": "2033",
+                "value": 479
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 363, with 470 students on September 30, 2023; it forecasts 479 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "095885": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-095885",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=58",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 412,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 362
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 395
+              },
+              {
+                "year": "2028",
+                "value": 420
+              },
+              {
+                "year": "2033",
+                "value": 430
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 412, with 362 students on September 30, 2023; it forecasts 430 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "018660": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-018660",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=68",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 521,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 457
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 478
+              },
+              {
+                "year": "2028",
+                "value": 472
+              },
+              {
+                "year": "2033",
+                "value": 490
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 521, with 457 students on September 30, 2023; it forecasts 490 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "019054": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-019054",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=68",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 516,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 571
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 623
+              },
+              {
+                "year": "2028",
+                "value": 639
+              },
+              {
+                "year": "2033",
+                "value": 628
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 516, with 571 students on September 30, 2023; it forecasts 628 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "041947": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-041947",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=84",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 711,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 699
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 663
+              },
+              {
+                "year": "2028",
+                "value": 635
+              },
+              {
+                "year": "2033",
+                "value": 600
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 711, with 699 students on September 30, 2023; it forecasts 600 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "034361": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-034361",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=84",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 645,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 523
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 545
+              },
+              {
+                "year": "2028",
+                "value": 585
+              },
+              {
+                "year": "2033",
+                "value": 619
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 645, with 523 students on September 30, 2023; it forecasts 619 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "001104": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-001104",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=92",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 508,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 542
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 460
+              },
+              {
+                "year": "2028",
+                "value": 457
+              },
+              {
+                "year": "2033",
+                "value": 465
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 508, with 542 students on September 30, 2023; it forecasts 465 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    },
+    "041297": {
+      "records": [
+        {
+          "id": "gecdsb-capacity-041297",
+          "topic": "planning",
+          "kind": "projection",
+          "lifecycle": "plans",
+          "title": "Long Term Accommodation Plan, 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf#page=17",
+          "source_date": "2023",
+          "facts": {
+            "capacity_otg": 677,
+            "capacity_label": "On-the-ground capacity (OTG)",
+            "enrolment": [
+              {
+                "year": "September 30, 2023",
+                "value": 722
+              }
+            ],
+            "projected": [
+              {
+                "year": "2025",
+                "value": 729
+              },
+              {
+                "year": "2028",
+                "value": 747
+              },
+              {
+                "year": "2033",
+                "value": 768
+              }
+            ],
+            "capacity_definition": "Capacity is the building's space as the board's plan counts it, not open seats in a grade or program; forecasts are the board's"
+          },
+          "summary": "The board's plan gives this school's on-the-ground capacity (OTG) as 677, with 722 students on September 30, 2023; it forecasts 768 in 2033. Capacity is building space, not open seats in a grade or program, and forecasts change.",
+          "verified": "2026-11-27"
+        }
+      ]
+    }
+  }
 }

@@ -12,9 +12,9 @@
   {%- endif %}
   {%- if r.facts and r.facts.capacity_otg %}
   <table class="mini"><caption>{{ _("Figures from the plan") }}</caption><tbody>
-    <tr><th scope="row">{{ _(r.facts.capacity_label) if r.facts.capacity_label else _("Capacity (on-the-ground)") }}</th><td class="n">{{ r.facts.capacity_otg }}</td></tr>
-    {% for e in r.facts.enrolment %}<tr><th scope="row">{{ _("Enrolment, {year}", year=e.year) }}</th><td class="n">{{ e.value }}</td></tr>{% endfor %}
-    {% for e in r.facts.projected %}<tr><th scope="row">{{ _("Projected, {year}", year=e.year) }}</th><td class="n">{{ e.value }} <span class="muted small">{{ _("forecast") }}</span></td></tr>{% endfor %}
+    <tr><th scope="row">{{ _(r.facts.capacity_label) if r.facts.capacity_label else _("Capacity (on-the-ground)") }}</th><td class="n">{{ r.facts.capacity_otg|num }}</td></tr>
+    {% for e in r.facts.enrolment %}<tr><th scope="row">{{ _("Enrolment, {year}", year=e.year|date_text) }}</th><td class="n">{{ e.value|num }}</td></tr>{% endfor %}
+    {% for e in r.facts.projected %}<tr><th scope="row">{{ _("Projected, {year}", year=e.year|date_text) }}</th><td class="n">{{ e.value|num }} <span class="muted small">{{ _("forecast") }}</span></td></tr>{% endfor %}
   </tbody></table>
   <p class="small muted">{{ _(r.facts.capacity_definition) }}.</p>
   {%- endif %}
