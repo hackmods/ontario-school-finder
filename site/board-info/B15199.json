@@ -1,0 +1,92 @@
+{
+  "board": "B15199",
+  "name": "Moose Factory Island District School Area Board",
+  "short": "Moose Factory Island DSAB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "mfidsab-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "New Student Registration (Moose Factory Ministik School)",
+      "url": "https://mfidsab.ca/caregiver-communication-new/new-student-registration/",
+      "summary": "Moose Factory Ministik School (Kindergarten to Grade 8) is the board's only school. New students need the board's Student Registration & Information Form plus copies of proof of birth, immunization record, proof of status if applicable, health card and the most recent report card if previously enrolled; send them to the school by email. Returning students start on August 20, 2026; new students are told their start date once their package is processed.",
+      "related": [
+        {
+          "title": "Procedure 305 School Registration Requirements (PDF)",
+          "url": "https://mfidsab.ca/wp-content/uploads/2018/04/14-MFIDSAB-Procedure-No.-305-School-Registration-Requirements.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mfidsab-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "MFIDSAB Procedure No. 240 Special Education (PDF)",
+      "url": "https://mfidsab.ca/wp-content/uploads/2018/04/12-MFIDSAB-Procedure-No.-240-Special-Education.pdf",
+      "summary": "The board's special education procedure says the local school is the starting point and most exceptional students are served in inclusive classrooms. Programs are based on strengths and needs set through the IPRC process and the IEP, which parents are consulted on. Supports include consultation for teachers, accommodations, assistive technology and resource-teacher or educational assistant help. It is an older document; ask the school for current practice.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mfidsab-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility (Multi-Year Accessibility Plan)",
+      "url": "https://mfidsab.ca/accessibility/",
+      "summary": "The board's accessibility page links its Multi-Year Accessibility Plan (2025-2028, last updated March 10, 2026), its 2025 accessibility compliance report and an accessibility feedback form. Feedback goes to the Supervisory Officer, who replies in writing.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2025-2028 (PDF)",
+          "url": "https://mfidsab.ca/wp-content/uploads/2026/03/MFIDSAB-Multi-Year-Accessibility-Plan.pdf"
+        }
+      ],
+      "source_date": "Last updated March 10, 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mfidsab-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "MFIDSAB Procedure No. 175 School Council (PDF)",
+      "url": "https://mfidsab.ca/wp-content/uploads/2018/04/08-MFIDSAB-Procedure-No.-175-School-Council.pdf",
+      "summary": "How the Ministik School council works: it is an advisory body that helps parents take part in improving student achievement, with at least six parent members, the principal, a teacher, a non-teaching staff member and sometimes a student. The board's directory page also lists a trustee on its Parent Involvement Committee.",
+      "related": [
+        {
+          "title": "Board Directory and committees",
+          "url": "https://mfidsab.ca/board-directory-new/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mfidsab-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "MFIDSAB Procedure No. 170 Communications: Addressing Concerns (PDF)",
+      "url": "https://mfidsab.ca/wp-content/uploads/2018/04/07-MFIDSAB-Procedure-No.-170-Communications-Addressing-Concerns.pdf",
+      "summary": "Concerns about school matters are handled at the school where possible. Talk first with the teacher or staff member involved, then the principal; if you do not agree with the principal's decision you may appeal to the supervisory officer. The concern needs your name and a phone number or address, and the board may ask for it in writing.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

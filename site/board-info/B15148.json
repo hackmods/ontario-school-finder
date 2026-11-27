@@ -1,0 +1,93 @@
+{
+  "board": "B15148",
+  "name": "James Bay Lowlands Secondary School Board",
+  "short": "James Bay Lowlands SSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "jblssb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "NLSS Registration Forms (Northern Lights Secondary School)",
+      "url": "https://nlss.me/nlss-registration-forms/",
+      "summary": "The board runs one school, Northern Lights Secondary School (grades 9 to 12) in Moosonee, serving Moosonee and Moose Factory. New students register by completing the school's registration, guardianship and medical information forms and emailing a scan or photo to the school; the same page has the Moose Factory transportation forms. The page gives no registration dates or eligibility rules, so contact the school.",
+      "related": [
+        {
+          "title": "Northern Lights Secondary School contact page",
+          "url": "https://nlss.me/contact/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "jblssb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Annual Plan to the Minister of Education on Special Education Programs and Services, 2026-2027 (PDF)",
+      "url": "https://jblssb.ca/wp-content/uploads/2026/11/JBLSSB-Special-Education-Board-Plan-2026-2027.pdf",
+      "summary": "The board's special education plan for 2026-2027. It explains early intervention before an IPRC referral, how the IPRC identification and placement process and appeals work, individual education plans, information on provincial and demonstration schools, and the Special Education Advisory Committee. Ask the school's special education teacher about a specific student.",
+      "source_date": "2026-2027 School Year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "jblssb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "SEAC Minutes",
+      "url": "https://jblssb.ca/seac-minutes/",
+      "summary": "The board posts Special Education Advisory Committee minutes by school year (2022-23 to 2024-25 listed). Its special education plan says the committee includes local association representatives, a board member and a parent, that the school principal and special education teacher support it, and that parents and community members may give input at SEAC meetings, which is recorded in the minutes.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://jblssb.ca/wp-content/uploads/2026/11/JBLSSB-Special-Education-Board-Plan-2026-2027.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "jblssb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility for Ontarians with Disability Act (plans and policies)",
+      "url": "https://jblssb.ca/boardroom/aoda/",
+      "summary": "The board's accessibility page lists its multi-year accessibility plans, with the 2022-2027 plan as the current one, and earlier plans from 2019-2022 and 2015-2018. It also has a feedback page for comments on accessibility.",
+      "related": [
+        {
+          "title": "2022-2027 Multi Year Accessibility Plan (PDF)",
+          "url": "https://www.jblssb.ca/wp-content/uploads/2023/12/JBLSSB-2022-2027-Multiyear-Accessibility-Plan.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "jblssb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan (PDF)",
+      "url": "https://jblssb.ca/wp-content/uploads/2025/07/B15148_James-Bay-Lowlands-SSB_Template.pdf",
+      "summary": "A short Ministry-style plan with three goals: literacy and core skills, preparation for future success (credits, graduation, job-skills programs) and student engagement and well-being (attendance, suspensions). It shows board results next to provincial results for 2023-2024, the year the document covers, so it is not the newest data.",
+      "source_date": "2023-2024 Academic Year",
+      "verified": "2026-11-26"
+    }
+  ]
+}

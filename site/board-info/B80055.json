@@ -1,0 +1,40 @@
+{
+  "board": "B80055",
+  "name": "CHEO School Authority",
+  "short": "CHEO School",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "cheo-admit",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "School (CHEO School Authority)",
+      "url": "https://www.cheo.on.ca/en/clinics-programs/school/",
+      "summary": "CHEO School is a two-year English and French kindergarten program inside the CHEO Children's Treatment Centre in Ottawa for children with complex physical disabilities. Children must be Centre clients, 4 by December 31, with needs in two or more of physiotherapy, occupational therapy and speech-language pathology. The referring therapist applies by January 31; decisions are made by April 1 (families hear March to April). Applying does not guarantee a place.",
+      "related": [
+        {
+          "title": "CHEO School Programs",
+          "url": "https://www.cheo.on.ca/en/clinics-programs/school/cheo-school-programs/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cheo-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "CHEO School Programs",
+      "url": "https://www.cheo.on.ca/en/clinics-programs/school/cheo-school-programs/",
+      "summary": "Each student follows an IEP built on the Ontario Kindergarten Program with small classes of six to seven, a monthly multi-disciplinary team review and integrated therapy. School liaison teachers (special education teachers supervised by the principal) support transitions into school, between boards and to secondary school for Centre clients with a physical exceptionality.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

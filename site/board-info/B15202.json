@@ -1,0 +1,131 @@
+{
+  "board": "B15202",
+  "name": "Moosonee District School Area Board",
+  "short": "Moosonee DSAB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "mdsab-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Registration for Kindergarten (Moosonee Public School)",
+      "url": "https://moosoneepublic.ca/registration-for-kindegarten/",
+      "summary": "Moosonee Public School is the board's only school. To register a child, bring proof of age (birth certificate, passport and similar), proof of address, custody papers if needed and proof of immunization to the school office, or fill out the registration form first; staff help if documents are missing. Kindergarten has no fee. The board's registration procedure also says it may open January junior kindergarten spots for children turning four before March 31, depending on space, with space decided in November.",
+      "related": [
+        {
+          "title": "AP 304 School Registration Requirements (PDF)",
+          "url": "https://mdsab.ca/wp-content/uploads/2023/08/AP-304-School-Registration-Requirements.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mdsab-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation (Moosonee Public School)",
+      "url": "https://moosoneepublic.ca/transportation/",
+      "summary": "The school lists who is bussed: junior and senior kindergarten students, students living at the former Armed Forces Base, students living along and south of Pisew Street, and Grade 1 to 3 students living north of Fourth Street and south of Gardiner. Each student gets one pick-up and one drop-off point; changes must be requested in writing at least a day ahead unless permanent. The page gives no walking distances.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mdsab-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Annual Plan to the Minister of Education on Special Education Programs and Services, 2026-2027 (PDF)",
+      "url": "https://mdsab.ca/wp-content/uploads/2026/11/MDSAB-Special-Education-Board-Plan-2026-2027.pdf",
+      "summary": "The board's special education plan for 2026-2027, covering early intervention, the IPRC process, individual education plans and the Special Education Advisory Committee. The board also has an administrative procedure on special education programming; ask Moosonee Public School about a particular student.",
+      "related": [
+        {
+          "title": "AP 260 Special Education Programming (PDF)",
+          "url": "https://mdsab.ca/wp-content/uploads/2023/08/AP-260-Special-Education-Programming.pdf"
+        }
+      ],
+      "source_date": "2026-2027 School Year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mdsab-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "SEAC Minutes",
+      "url": "https://mdsab.ca/seac-minutes/",
+      "summary": "The board posts Special Education Advisory Committee minutes by school year, with 2022-23 to 2024-25 listed. Use them to see what the committee has discussed.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mdsab-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "MDSAB Multi-Year Accessibility Plan 2022-2027 (PDF)",
+      "url": "https://mdsab.ca/wp-content/uploads/2023/12/MDSAB-2022-2027-Multiyear-Accessibility-Plan.pdf",
+      "summary": "The board's accessibility plan for 2022 to 2027. Its feedback page says accessibility comments can be made by email, in person or by phone, go to the supervisory officer, and get a direct reply or a summary report on the website.",
+      "related": [
+        {
+          "title": "Accessibility feedback",
+          "url": "https://mdsab.ca/feedback/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mdsab-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan (PDF)",
+      "url": "https://mdsab.ca/wp-content/uploads/2025/07/B15202_Moosonee-DSAB_Template.pdf",
+      "summary": "The board's one-page student achievement plan from the Ministry template, with goals for core academic skills, preparation for future success and engagement and well-being. Board results sit next to provincial results for earlier school years, so check the years shown.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mdsab-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Council (Moosonee Public School)",
+      "url": "https://moosoneepublic.ca/school-council/",
+      "summary": "The school council is an advisory group of elected parents, educators and appointed community members that advises the board through the principal. To join, contact the principal at 705-336-2365.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "mdsab-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "AP 175 Parent Communications: Complaint Procedures (PDF)",
+      "url": "https://mdsab.ca/wp-content/uploads/2023/08/AP-175-Parent-Communications.pdf",
+      "summary": "Steps for a school concern: talk to the classroom teacher first, then the principal, then the Director of Education. A parent may also contact a trustee at any time; trustees help find the right process but do not act as the parent's official representative. You may bring a representative to meetings with staff by telling staff in advance.",
+      "verified": "2026-11-26"
+    }
+  ]
+}
