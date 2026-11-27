@@ -1,0 +1,270 @@
+{
+  "board": "B29076",
+  "name": "Superior North Catholic District School Board",
+  "short": "Superior North CDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "sncdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Register",
+      "url": "https://www.sncdsb.on.ca/register",
+      "summary": "Families register online through the board's registration portal (create an account first) or bring original documents to the school. Registration for 2026-27 opened in January 2026. For Kindergarten, children must turn 4 (Year 1) or 5 (Year 2) by December 31; bring proof of birthdate and address. The kindergarten page says students and caregivers do not have to be Catholic to register. The board serves Kindergarten to Grade 8 only.",
+      "related": [
+        {
+          "title": "Kindergarten Registration",
+          "url": "https://www.sncdsb.on.ca/schools/kindergarten_registration"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (East of Thunder Bay Transportation Consortium)",
+      "url": "https://etbtc.mybusplanner.ca/Eligibility.aspx?from=%27transportation%27",
+      "summary": "The consortium that runs buses for Superior North Catholic publishes this lookup. Enter your address and municipality, choose Superior North Catholic DSB and the school year. The page says that if anything disagrees, the transportation office has the final word.",
+      "related": [
+        {
+          "title": "Bus Registration (ETBTC)",
+          "url": "https://etbtc.on.ca/bus-registration/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-fi",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "program": "french-immersion",
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.sncdsb.on.ca/programs_and_priorities/teaching_excellence/french_as_a_second_language",
+      "summary": "The board offers French as a Second Language in all grades from Kindergarten to Grade 8, using the AIM method. We could not find any French Immersion or Extended French program. Ask the board if you want one.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policies and Procedures",
+      "url": "https://www.sncdsb.on.ca/board/policies_and_procedures",
+      "summary": "We could not find a Superior North Catholic page or policy about asking to attend a school other than your home school. The board's policy list is loaded by script and we could not read a complete list. Ask the school principal or the board office.",
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "sncdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Eligibility (East of Thunder Bay Transportation Consortium)",
+      "url": "https://etbtc.on.ca/eligibility/",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.2,
+          "Grades 1 to 3": 1.2,
+          "Grades 4 to 8": 1.6
+        }
+      },
+      "summary": "Buses are run by a consortium shared by four northern boards. Students may be provided transportation if they live beyond these distances from school by public road: 0.2 km for JK and SK, 1.2 km for Grades 1 to 3, 1.6 km for Grades 4 to 8. The board's kindergarten page says all Kindergarten students are eligible for the bus. Requests go through your school.",
+      "related": [
+        {
+          "title": "M04 100 Transportation Policy and Procedures (PDF)",
+          "url": "https://etbtc.on.ca/wp-content/uploads/2022/03/M04-100-Transportation-Policy.pdf"
+        },
+        {
+          "title": "Can I Ride the Bus?",
+          "url": "https://etbtc.mybusplanner.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Learning for All (Special Education) in Ontario",
+      "url": "https://www.sncdsb.on.ca/programs_and_priorities/teaching_excellence/learning_for_all_education",
+      "summary": "The board calls special education Learning for All. Students are placed in age-appropriate classes with support at each school, identified by an IPRC where needed and given an IEP. The page links the 2026 Special Education Plan and a Parents' Guide to Special Education.",
+      "related": [
+        {
+          "title": "2026 Special Education Plan (PDF)",
+          "url": "https://www.sncdsb.on.ca/UserFiles/Servers/Server_58450/File/Programs%20and%20Priorities/Learning%20for%20All/2026%20Special%20Education%20Plan-extended.pdf"
+        },
+        {
+          "title": "Parents' Guide to Special Education, September 2026 (PDF)",
+          "url": "https://www.sncdsb.on.ca/UserFiles/Servers/Server_58450/File/Programs%20and%20Priorities/Learning%20for%20All/2026%20Parents%20Guide%20To%20Special%20Education%20September%202026.pdf"
+        }
+      ],
+      "source_date": "Special Education Plan, September 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.sncdsb.on.ca/board/get_involved/special_education_advisory_committee",
+      "summary": "The board's SEAC advises on special education programs and services and takes part in the yearly special education plan and budget. The page lists meeting dates from September 2026 to June 2027 and its members, and says parent members are needed. Contact the Assistant Superintendent of Education to volunteer.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Accessibility",
+      "url": "https://www.sncdsb.on.ca/board/broader_public_sector_business_documents/accessibility",
+      "summary": "The board links its Accessibility Standards policy and procedure and a multi-year accessibility plan for January 2024 to 2029. It also says how to request a barrier-free or renovation change and an accessible copy of a PDF, by contact form or by calling 807-825-3209.",
+      "related": [
+        {
+          "title": "Multi-year Accessibility Plan January 2024-2029 (PDF)",
+          "url": "https://www.sncdsb.on.ca/UserFiles/Servers/Server_58450/File/Board/Broader%20Public%20Sector%20Business%20Documents/Accessibility/Final%202024-2029%20MULTI-YEAR%20ACCESSIBILITY%20PLAN%20-%20June%202025.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register",
+      "url": "https://www.sncdsb.on.ca/register",
+      "summary": "We could not find a Superior North Catholic page about newcomer families or English language learner support. Ask the school or the board office what support is offered. Registration asks for proof of birthdate and address.",
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "sncdsb-plan",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policy: Pupil Accommodation Review (P-CP 213, PDF)",
+      "url": "https://www.sncdsb.on.ca/common/pages/DisplayFile.aspx?itemId=62371",
+      "summary": "This policy says the board monitors its schools regularly and will consider boundary changes, blending, consolidation or closure when enrolment changes. A detailed procedure sets out the review committee steps. We found no long-term accommodation plan with school-by-school figures. Projections are forecasts and capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Administrative Procedure: Pupil Accommodation Review (AP-CP 213, PDF)",
+          "url": "https://www.sncdsb.on.ca/common/pages/DisplayFile.aspx?itemId=62369"
+        }
+      ],
+      "source_date": "Effective March 5, 2018",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-achieve",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Academic Excellence (Student Achievement Plan)",
+      "url": "https://www.sncdsb.on.ca/programs_and_priorities/teaching_excellence/academic_excellence",
+      "summary": "The board publishes its Ministry-required Student Achievement Plan on this page, with results compared to the province for core academic skills, preparation for future success and engagement and well-being, plus a short summary of planned actions. The linked report uses 2022-23 to 2024-25 data.",
+      "related": [
+        {
+          "title": "Student Achievement Plan: SNCDSB (PDF)",
+          "url": "https://www.sncdsb.on.ca/UserFiles/Servers/Server_58450/File/Programs%20and%20Priorities/Achieving%20Excellence/B29076_Superior%20North%20CDSB_Final-3a.pdf"
+        },
+        {
+          "title": "Strategic Plan",
+          "url": "https://www.sncdsb.on.ca/board/publications/strategic_plan"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-cpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Catholic Parent Involvement Committee (CPIC)",
+      "url": "https://www.sncdsb.on.ca/board/get_involved/catholic_parent_involvement_committee_cpic",
+      "summary": "The CPIC links parents with the trustees and the director of education and supports school councils. It meets at least four times a year, three by teleconference and one in person in spring. The page links its by-laws (last revised March 2021).",
+      "related": [
+        {
+          "title": "CPIC By-laws, March 2021 (PDF)",
+          "url": "https://www.sncdsb.on.ca/UserFiles/Servers/Server_58450/File/Board/Get%20Involved/Catholic%20Parent%20Involvement%20Committee/CPIC%20By-laws-March%203,%202021%20-%20Website.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Joining Your School Council",
+      "url": "https://www.sncdsb.on.ca/board/get_involved/school_council",
+      "summary": "School councils give parents a voice in school improvement planning, budget priorities and local calendars, and must be consulted on matters like codes of conduct and school closings. For how to join, the page says to call your local school.",
+      "related": [
+        {
+          "title": "Policy P-CP 207 Catholic Parent School Councils (PDF)",
+          "url": "https://www.sncdsb.on.ca/common/pages/DisplayFile.aspx?itemId=62387"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sncdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student and Family Support Office",
+      "url": "https://www.sncdsb.on.ca/for_parents/student_family_support_office",
+      "summary": "Go in order: start with the classroom teacher or support staff, then the school principal. If it is still unresolved, or the concern is not school-related, contact the Student and Family Support Office by online intake form, email or phone (807-825-2004). It says it will acknowledge within 2 business days and aims to answer within 5, and will give an estimated date if a full answer takes longer.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

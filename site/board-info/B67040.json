@@ -1,0 +1,311 @@
+{
+  "board": "B67040",
+  "name": "St. Clair Catholic District School Board",
+  "short": "St. Clair Catholic",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "stclair-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Register for Elementary School",
+      "url": "https://www.sccdsb.net/schools/register-for-school/register-for-elementary-school/",
+      "summary": "Catholic families (a parent or the student is Catholic, or belongs to a rite recognized by the See of Rome) register online for each child; the confirmation arrives by email. The page says registrations for 2027-2028 are not being accepted yet and that opening dates will be announced on the board site and in news releases. Immunization records must be current with the local health unit.",
+      "related": [
+        {
+          "title": "Which School Do I Attend?",
+          "url": "https://class.mybusplanner.ca/Eligibility.aspx"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-register-secondary",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register for Secondary School",
+      "url": "https://www.sccdsb.net/schools/register-for-school/register-for-secondary-school/",
+      "summary": "Download and save the board's secondary registration form, book an appointment with St. Patrick's (Sarnia) or Ursuline College (Chatham), and bring the birth certificate, proof of residency (a driver's licence, health card and phone or retail bill are not accepted), proof of immigration status if born outside Canada, and any custody papers.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-register-noncatholic",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Non-Catholic Intent to Register",
+      "url": "https://www.sccdsb.net/schools/register-for-school/non-catholic-intent-to-register/",
+      "summary": "Families who are not separate school supporters or Catholic submit an Intent to Register form for consideration: it is a pre-registration step and accommodation is not guaranteed. The page says decisions for September 2026 may not come until late August and that reviews begin in June. The board advises having alternative plans.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School Do I Attend? (CLASS BusPlanner)",
+      "url": "https://class.mybusplanner.ca/Eligibility.aspx",
+      "summary": "The lookup the board points families to: enter a street address and choose St. Clair Catholic District School Board to see the school that serves it. It is run by the CLASS transportation consortium, which also serves Lambton Kent. The board also posts boundary maps for its French Immersion schools.",
+      "related": [
+        {
+          "title": "Elementary French Immersion (boundary details)",
+          "url": "https://www.sccdsb.net/schools/register-for-school/elementary-french-immersion/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-fi",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Elementary French Immersion",
+      "url": "https://www.sccdsb.net/schools/register-for-school/elementary-french-immersion/",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "JK"
+        ]
+      },
+      "summary": "French Immersion starts in Junior Kindergarten at four elementary schools (Christ the King, Gregory Hogan, Monsignor Uyen, St. Anne Blenheim). Catholic families file a Registration Request for each child; the page lists intake periods up to December 16 and December 17 to January 30, a random selection if requests exceed spaces, then a pool, and says 2027-2028 requests are not being accepted yet. Siblings get priority only if requested by the first deadline. Entry after JK depends on prior French and space (see the board flowchart).",
+      "related": [
+        {
+          "title": "French Immersion program",
+          "url": "https://www.sccdsb.net/programs-and-learning/programs/french-immersion/"
+        },
+        {
+          "title": "Can I Ride a Bus? (CLASS BusPlanner)",
+          "url": "https://class.mybusplanner.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.sccdsb.net/programs-and-learning/programs/french-immersion/",
+      "program": "french-immersion",
+      "summary": "French is the main language of instruction (90 percent) from JK to Grade 2, English begins in Grade 3 and the split is half and half by Grades 7 and 8. In high school, immersion students take 10 credits in French, at St. Patrick's (Sarnia) or Ursuline College (Chatham). The board offers Grade 12 students the DELF exam and gives immersion certificates at Grade 8 and Grade 12.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Section C - Students (Admissions of Students policy)",
+      "url": "https://www.sccdsb.net/about-sccdsb/policies-and-procedures/section-c-students/",
+      "summary": "Under the board's admissions procedure, a student living outside a school's boundary may be considered, approved by the Student Admissions Team, for a maximum of one school year, with reapplication before each new year. Siblings may get priority at the same school (JK priority is at the board's discretion). Elementary students who are not Catholic are considered separately. French Immersion has extra admission steps.",
+      "source_date": "Procedure dated 2024-12-03",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Parent Guides",
+      "url": "https://www.sccdsb.net/student-and-family-support/parent-guides/",
+      "facts": {
+        "walk_km": {
+          "Elementary": 1.6,
+          "Secondary": 3.2
+        }
+      },
+      "summary": "The guide says CLASS runs the board's buses and that students are eligible if they live farther than 1.6 km (elementary) or 3.2 km (secondary) from their eligible school. Kindergarten distances are not given there. Families can request courtesy seats and bus passes through the CLASS parent portal. Bus eligibility for an address can be checked on the CLASS tool.",
+      "related": [
+        {
+          "title": "Can I Ride a Bus? (CLASS BusPlanner)",
+          "url": "https://class.mybusplanner.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.sccdsb.net/programs-and-learning/programs/special-education/",
+      "summary": "The board's statement of beliefs for special education: inclusion in the regular classroom where the child's needs allow, shared responsibility among teacher, resource team and parents, and a range of programs and services. It points to a yearly Special Education Report on the Plans and Reports page. We could not read that report (a large scanned PDF); ask your school about IEPs and IPRC meetings.",
+      "related": [
+        {
+          "title": "Plans and Reports",
+          "url": "https://www.sccdsb.net/about-sccdsb/plans-and-reports/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.sccdsb.net/about-sccdsb/committees/special-education-advisory-committee/",
+      "summary": "The board's standing committee under Ontario Regulation 464/97 that advises the board on special education programs and services. The page explains its role and areas of focus; for past agendas and minutes, you are asked to contact the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility Plan",
+      "url": "https://www.sccdsb.net/about-sccdsb/accessibility/accessibility-plan/",
+      "summary": "The board's multi-year accessibility plan under the Accessibility for Ontarians with Disabilities Act, prepared by its Accessibility Working Group. Accessible formats are available on request from the Board Office.",
+      "source_date": "May 2026 - May 2030",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Register for School",
+      "url": "https://www.sccdsb.net/schools/register-for-school/",
+      "summary": "We looked for a welcome centre or English language learner supports and found none on the board site; registration pages only list documents for children born outside Canada. Ask the school or the board's Student and Family Support Office what language supports are available.",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.sccdsb.net/about-sccdsb/contact-sccdsb/student-and-family-support-office/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long Term Capital Plan 2024-2028 (PDF)",
+      "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/cghfeqhg/2024-2028-long-term-capital-plan.pdf",
+      "summary": "The board's capital plan: facility age and condition, building capacity, enrolment trends and projections, planning areas, program and boundary notes. Projections are forecasts, and capacity is building space, not open seats. The board added a September 2025 update.",
+      "related": [
+        {
+          "title": "Long Term Capital Plan update, September 2025 (PDF)",
+          "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/r1xhdck2/longtermcapitalplansept2025.pdf"
+        }
+      ],
+      "source_date": "2024-2028; update September 23, 2025",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "2025-2026 SCCDSB Student Achievement Plan (PDF)",
+      "url": "https://media-001-ca.cdn.govstack.com/sccdsb-006-ca/media/ewwjzaha/sccdsb-25-26-sap-public-reporting-v2.pdf",
+      "summary": "The board's public reporting on its student achievement goals: reading and writing, graduation and preparation for the future, and engagement and well-being, with board and provincial results.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.sccdsb.net/about-sccdsb/committees/parent-involvement-committee/",
+      "summary": "The board-level advisory committee under Ontario Regulation 612/00: it advises on parent communication and involvement and supports school councils. The page posts meeting agendas and notes.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "stclair-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Parent Guides",
+      "url": "https://www.sccdsb.net/student-and-family-support/parent-guides/",
+      "summary": "For a school concern: first the staff member involved, then the principal, then the Superintendent of Education. The Student and Family Support Office can answer questions and point you to staff; it aims to acknowledge within two business days and answer within five. Concerns must be signed; anonymous ones are not addressed.",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.sccdsb.net/about-sccdsb/contact-sccdsb/student-and-family-support-office/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion",
+      "url": "https://www.sccdsb.net/programs-and-learning/programs/french-immersion/",
+      "verified": "2026-11-26",
+      "schools": {
+        "697567": "Christ the King Catholic School Wallaceburg (JK-8)",
+        "710970": "Gregory Hogan Catholic School Sarnia (JK-8)",
+        "724009": "Monsignor Uyen Catholic School Chatham (JK-8)",
+        "771295": "St. Anne Catholic School Blenheim (Dual track JK-8)",
+        "836788": "St. Patrick's Secondary Catholic School, Sarnia (9-12)",
+        "864366": "Ursuline College 'The Pines' (UCC) Secondary Catholic School, Chatham (9-12)"
+      }
+    }
+  ]
+}

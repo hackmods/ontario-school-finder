@@ -1,0 +1,289 @@
+{
+  "board": "B29050",
+  "name": "Kenora Catholic District School Board",
+  "short": "KCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "kcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register Your Child",
+      "url": "https://www.mykenoracatholic.ca/register_now",
+      "summary": "Register online for Kindergarten to Grade 12, or use the guided form (paper or assisted) and a school administrator will contact you. The page lists no documents, deadlines or baptism rules. The board's Kindergarten page says families need not be Catholic to register and that early registration helps staffing; ask the school about documents and eligibility.",
+      "related": [
+        {
+          "title": "Online registration",
+          "url": "https://www.registeratkenoracatholic.ca/"
+        },
+        {
+          "title": "Kindergarten: top questions answered",
+          "url": "https://www.kcdsb.on.ca/parents/kindergarten_-_top_questions_answered"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Check Eligibility (NWO Student Services Consortium)",
+      "url": "https://www.nwobus.ca/check-eligibility/",
+      "summary": "The board has no address-to-school tool that we found. The bus consortium's Edulog Web Query takes a home address and checks bus eligibility, not which school serves you. Ask the school or the board office, 807-468-9851, which school your address uses.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Language Education",
+      "url": "https://www.kcdsb.on.ca/our_programs/academics/french_language_education",
+      "summary": "French Immersion starts in Kindergarten at École Ste-Marguerite Bourgeoys in Kenora and welcomes students from any language background. The page does not say how or when to apply, or about a waitlist or transportation; ask the school.",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "K"
+        ]
+      },
+      "related": [
+        {
+          "title": "École Ste-Marguerite Bourgeoys",
+          "url": "https://smb.kcdsb.on.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Language Education",
+      "url": "https://www.kcdsb.on.ca/our_programs/academics/french_language_education",
+      "summary": "French Immersion continues through graduation at St. Thomas Aquinas High School in Kenora. Graduates earn the diploma and a French Immersion Certificate (10 French credits). Core French is also offered at the other schools listed on the page.",
+      "program": "french-immersion",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Attending a school outside your area",
+      "url": "https://www.kcdsb.on.ca/trustees/policies",
+      "summary": "We could not read the board's policy and procedure libraries, which load only in a browser, so we do not know whether it publishes a procedure for attending a school outside your area. Ask the school principal or check those libraries yourself. The bus consortium says families who attend outside their boundary provide their own transportation.",
+      "related": [
+        {
+          "title": "School Boundaries & Calendars (NWO Student Services Consortium)",
+          "url": "https://www.nwobus.ca/school-boundaries-calendars/"
+        }
+      ],
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "kcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Check Eligibility (NWO Student Services Consortium)",
+      "url": "https://www.nwobus.ca/check-eligibility/",
+      "summary": "The Northwestern Ontario Student Services Consortium runs the board's buses. Students may be eligible when they live farther than the walk distance for their grade, measured by road or public route; families register with the consortium and check an address in its online tool. Courtesy seats and program transportation are not mentioned for this board.",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.5,
+          "Grades 1 to 3": 1,
+          "Grades 4 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "related": [
+        {
+          "title": "Board bus page (links to the consortium)",
+          "url": "https://www.kcdsb.on.ca/parents/school_bus_transportation"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.kcdsb.on.ca/our_programs/special_education",
+      "summary": "The board keeps students in regular classrooms wherever possible. Its Special Education Plan for 2026-2027 explains the in-school team, written parent consent for assessment, the IPRC process and IEPs, and a parents' guide is linked.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.kcdsb.on.ca/UserFiles/Servers/Server_12116929/File/Programs/Special%20Education/KCDSB%20Special%20Education%20Plan%202026-2027%20Final.pdf"
+        },
+        {
+          "title": "A Parent's Guide to Special Education (PDF)",
+          "url": "https://www.kcdsb.on.ca/UserFiles/Servers/Server_12116929/File/Programs/Special%20Education/Special%20Education%20A%20Parent's%20Guide_30%20June%202025.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.kcdsb.on.ca/our_programs/special_education/special_education_advisory_committee___s_e_a_c_/",
+      "summary": "The committee advises the board on services for students with special needs and reviews the Special Education Plan each year. Meetings are at the Catholic Education Centre and on Teams, with the 2025-2026 dates and minutes posted. Contact the board office, 807-468-9851.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan 2019-2022 (PDF)",
+      "url": "https://www.kcdsb.on.ca/UserFiles/Servers/Server_12116929/File/Programs/Special%20Education/Multi-Year%20Accessibility%20Plan%202019-2022.pdf",
+      "summary": "The board's special education page links this multi-year accessibility plan, labelled 2020-2022. It is the only plan we found and it is out of date; ask the board whether a newer one exists.",
+      "source_date": "2019-2022",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "English Language Learners Supports",
+      "url": "https://www.kcdsb.on.ca/our_programs/english_language_learners_supports",
+      "summary": "New English language learners are assessed in English and math when they register, and the results shape a learning plan. Support, including tutoring, is offered for up to four years after arrival. Contact the board office, 807-468-9851.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-par",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Policy 15: Pupil Accommodation Review (PDF)",
+      "url": "https://www.kcdsb.on.ca/common/pages/GetFile.ashx?key=cDCRAR7O",
+      "summary": "We did not find a long-term accommodation plan with school capacity and enrolment. The board's Pupil Accommodation Review policy explains how a school review would run (committee, two public meetings) and says the province's school closure moratorium prevents new reviews. Plans are forecasts and capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Strategic Plan",
+          "url": "https://www.kcdsb.on.ca/our_board/strategic_plan"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.kcdsb.on.ca/our_board/student_achievement_plan",
+      "summary": "The board's plan under Ontario's student achievement framework: reading and writing (EQAO, the literacy test), math, graduation and credits, suspensions and attendance, each next to the provincial result. These are board-wide figures, not a school's.",
+      "source_date": "2024-2025 academic year",
+      "related": [
+        {
+          "title": "Student Achievement Action Plan (PDF)",
+          "url": "https://www.kcdsb.on.ca/UserFiles/Servers/Server_12116929/File/Our%20Board/Student%20Achievement%20Action%20Plan/B29050_Kenora%20CDSB_Template%20(2).pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-cpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic Parent Involvement Committee (CPIC)",
+      "url": "https://www.kcdsb.on.ca/parents/catholic_parent_involvement_committee",
+      "summary": "A group of parents, trustees and staff that gives school council members a forum and links councils with the board. The page lists 2026-2027 members and meetings (November, February, April and June). Ask your school about its school council.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Protocol for Responding to Inquiries",
+      "url": "https://www.kcdsb.on.ca/parents/protocol_for_responding_to_inquiries",
+      "summary": "Start with your child's teacher, then the principal, then the Student and Family Support Office. The board aims to acknowledge within 2 business days and give an estimated response date if a full answer takes more than 5. Bullying, racism or hate go through a separate reporting portal.",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.kcdsb.on.ca/parents/student_and_family_support_office"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Language Education",
+      "url": "https://www.kcdsb.on.ca/our_programs/academics/french_language_education",
+      "verified": "2026-11-26",
+      "schools": {
+        "821225": "École Ste-Marguerite Bourgeoys (Kenora)",
+        "864471": "St. Thomas Aquinas High School (Kenora)"
+      }
+    }
+  ]
+}

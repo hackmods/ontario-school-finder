@@ -1,0 +1,362 @@
+{
+  "board": "B67008",
+  "name": "Bruce-Grey Catholic District School Board",
+  "short": "Bruce-Grey Catholic",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "bgcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101065&type=d&pREC_ID=1375597",
+      "related": [
+        {
+          "title": "Elementary registration",
+          "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1170095&type=d&pREC_ID=1399349"
+        },
+        {
+          "title": "Secondary registration",
+          "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1170095&type=d&pREC_ID=1399350"
+        },
+        {
+          "title": "Catholic Student Registration Checklist 2026 (PDF)",
+          "url": "https://22.files.edl.io/13bb/01/05/26/155245-fa54590f-3a12-46ed-8556-b542b3b33e2e.pdf"
+        },
+        {
+          "title": "Non-Catholic Student Application Checklist 2026 (PDF)",
+          "url": "https://22.files.edl.io/ddea/01/05/26/155337-075fedec-34d8-467f-94a0-bc16df739bcb.pdf"
+        },
+        {
+          "title": "Admission of Students, 2-101-POL (PDF)",
+          "url": "https://22.files.edl.io/efc9/05/26/26/155556-41182900-c04b-41a3-88f8-4894b5758d92.pdf"
+        }
+      ],
+      "summary": "Elementary: create a parent account in the board's online portal (on a computer, not a phone) or call the school for an in-person appointment. Secondary: contact the school directly. Catholic students, or students with a Catholic parent, bring a baptismal certificate (the student's or a parent's); non-Catholic applications are reviewed and waitlisted, depend on space, and acceptance is not guaranteed. The board says it serves students from all backgrounds; the page does not say if secondary students must be Catholic.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten registration",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101062&type=d&pREC_ID=1377752",
+      "related": [
+        {
+          "title": "Help Me Register form",
+          "url": "https://www.bgcdsb.org/apps/form/form.BRUGCDSB.uL6fies.1UU_"
+        }
+      ],
+      "summary": "The page says online registration opens October 5, and each school hosts an open house and registration help evening between October 19 and 22 (times are listed by school). It names children born in 2023 and gives no year for the dates, so check the page for the current cycle. Bring proof of birth and address, immunization record, and baptismal certificate if it applies. Non-Catholic families meet a school administrator.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find the closest eligible school (Shared School Services)",
+      "url": "https://webquery-sharedschoolservices-on.etstack.io/#/home",
+      "related": [
+        {
+          "title": "Shared School Services: Transportation",
+          "url": "https://www.sharedschoolservices.ca/transportation"
+        }
+      ],
+      "summary": "The board's registration pages point to a school finder run by the Grey-Bruce transportation consortium to identify the right school for an address. The board's own link (mybrucegreyschoolbus.ca/Eligibility) no longer loads, so this is the consortium's current eligibility lookup. Confirm the result with the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-fi",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French programs",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101062&type=d&pREC_ID=1382968",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "K"
+        ]
+      },
+      "related": [
+        {
+          "title": "Kindergarten registration",
+          "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101062&type=d&pREC_ID=1377752"
+        }
+      ],
+      "summary": "French Immersion is offered at five elementary schools: St. Joseph (Port Elgin), St. Anthony (Kincardine), St. Basil and Notre Dame (Owen Sound) and Immaculate Conception (Formosa, Immersion only). The page describes kindergarten to Grade 6 in French, then half the day in Grades 7 and 8. It gives no application dates, lottery or waitlist rules and no transportation details, so ask the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French programs",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101062&type=d&pREC_ID=1382968",
+      "program": "french-immersion",
+      "summary": "French Immersion continues at St. Mary's High School (Owen Sound) and Sacred Heart High School (Walkerton). Students earn ten French credits: four French as a second language courses and six other subjects taught in French. The page gives no separate application steps for secondary.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Admission of Students, 2-101-POL (PDF)",
+      "url": "https://22.files.edl.io/efc9/05/26/26/155556-41182900-c04b-41a3-88f8-4894b5758d92.pdf",
+      "source_date": "Reviewed 21-138",
+      "summary": "We looked for a published out-of-area or school-transfer procedure and found none. The board's admission policy only says it admits eligible students and, under some conditions, others, and points to procedures that are not posted. Ask the school you want, or the board office at 519-364-5820.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Transportation, BP 7-6 (PDF)",
+      "url": "https://www.brucegreyschoolbus.ca/UserFiles/Servers/Server_9210115/File/Policies%20and%20Procedures/BP7-6StudentTransportation2022%20BGCDSB.pdf",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 12": 1.6
+        }
+      },
+      "related": [
+        {
+          "title": "Student Transportation (board page)",
+          "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101065&type=d&pREC_ID=1373862"
+        },
+        {
+          "title": "Out of Boundary Transportation, TCP-A010 (PDF)",
+          "url": "https://www.brucegreyschoolbus.ca/UserFiles/Servers/Server_9210115/File/Policies%20and%20Procedures/TCP_A010_Out_of_Boundary.pdf"
+        }
+      ],
+      "summary": "Buses are run by the Grey-Bruce transportation consortium (Shared School Services). Bus eligibility is 1.6 km for both elementary and secondary students, and where possible no eligible student walks more than 0.8 km to a stop. Families can be offered mileage when bussing is not practical. Out-of-boundary riders are approved only if there is space on the bus.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101062&type=d&pREC_ID=1373857",
+      "related": [
+        {
+          "title": "Special Education Plan & Report 2025-2026 (PDF)",
+          "url": "https://22.files.edl.io/a84a/07/29/26/184233-c28d2615-a761-488a-a1ab-f2b7552197bc.pdf"
+        },
+        {
+          "title": "Special Education Parent Guardian Guide, updated May 2026 (PDF)",
+          "url": "https://22.files.edl.io/499d/05/11/26/190753-eb99b9a4-db7f-490b-ab09-58f92fdec05a.pdf"
+        }
+      ],
+      "summary": "The board educates exceptional students in regular classrooms where possible and favours the home school. The page lists the Special Education Plan and Report 2025-2026, a May 2026 parent and guardian guide, and guides on IEPs and assistive technology. It does not explain the IEP or IPRC steps itself, so ask your school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101066&type=d&pREC_ID=1373871",
+      "related": [
+        {
+          "title": "SEAC Membership 2025-2026 (PDF)",
+          "url": "https://22.files.edl.io/4e3b/05/11/26/190615-c60d00df-b1e7-4a9a-a7d4-9afc15e7353f.pdf"
+        }
+      ],
+      "summary": "SEAC advises the board on special education and includes trustees and local association representatives. The page lists agendas and minutes by date, most recently November 19, 2026, and posts the 2025-2026 membership list. It gives no joining steps; use the board office at 519-364-5820.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-access",
+      "topic": "accessibility",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101059&type=d&pREC_ID=1393327",
+      "related": [
+        {
+          "title": "Accessibility Planning, 1-301-POL (PDF)",
+          "url": "https://22.files.edl.io/4cee/02/28/24/144554-7042c1eb-4342-4270-a834-abc73da9201b.pdf"
+        },
+        {
+          "title": "Accessibility Compliance Report 2025 (PDF)",
+          "url": "https://22.files.edl.io/c605/12/30/25/165542-4b8306fc-23c5-40ac-b8f3-5e858d544783.pdf"
+        }
+      ],
+      "summary": "We did not find the board's accessibility plan itself. Its policy 1-301-POL commits it to an accessibility committee and an annual plan. The accessibility page offers an alternative-format request form and AODA compliance reports (latest 2025). Ask the board for the current plan.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Multilingual Language Learners",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101062&type=d&pREC_ID=1381627",
+      "related": [
+        {
+          "title": "YMCA settlement and language services",
+          "url": "https://www.ymcaowensound.on.ca/community-initiatives/settlement-language-services-programs/"
+        }
+      ],
+      "summary": "Students who are learning English are placed in age- and grade-appropriate classes and supported by classroom teachers and a school ELL team, through English as a Second Language or English Literacy Development programs. The page describes no reception centre or assessment steps. It links YMCA Owen Sound settlement services and the Arden Language Centre.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-ltap",
+      "topic": "planning",
+      "kind": "projection",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "BGCDSB Long Term Accommodation Plan 2024-2025 (PDF)",
+      "url": "https://22.files.edl.io/c1a3/10/29/24/133006-0b5a8ebe-ede1-470d-8041-3f77f0a3db28.pdf",
+      "source_date": "2024/25",
+      "related": [
+        {
+          "title": "School Accommodation Review, 6-117-POL (PDF)",
+          "url": "https://22.files.edl.io/c3cc/10/28/25/165433-f6ccf694-d188-48f1-9d23-7304f9313abd.pdf"
+        }
+      ],
+      "summary": "The plan compares enrolment with capacity for the board's two families of schools (Sacred Heart and St. Mary's) and projects both to 2033-34, with priorities such as reviewing Owen Sound and Southgate school needs. Figures are forecasts, and capacity is building space, not open seats. The board's school accommodation review policy is 6-117-POL.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-bsap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Board Student Achievement Plan 2026 (PDF)",
+      "url": "https://22.files.edl.io/6bef/05/01/26/133529-f1ca43cf-e3dd-43a7-afa9-64267966a010.pdf",
+      "source_date": "2024-2025 Academic Year",
+      "related": [
+        {
+          "title": "Board Improvement Plan",
+          "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101062&type=d&pREC_ID=1382938"
+        }
+      ],
+      "summary": "The board's Student Achievement Plan sets goals for literacy, math and preparing students for future success, and charts board results against the province (the 2026 edition reports 2024-2025 results such as EQAO reading, writing and math). The board's Board Improvement Plan page links the current and earlier plans.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-cpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic Parent Involvement Committee (CPIC)",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101066&type=d&pREC_ID=1373874",
+      "related": [
+        {
+          "title": "School Advisory Councils",
+          "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101066&type=d&pREC_ID=1373872"
+        }
+      ],
+      "summary": "The Catholic Parent Involvement Committee meets four times a year; the 2025-2026 meetings were virtual, 6:30 to 7:30 pm (November 10, January 13, March 25, May 14). Minutes are posted. The page gives no joining steps; use the board office at 519-364-5820.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Advisory Council",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101066&type=d&pREC_ID=1373872",
+      "summary": "School councils advise principals and the board. Parents and guardians must make up the majority of members, joined by the principal, a teacher, a non-teaching staff member and community members; secondary councils add a student. Councils can advise on codes of conduct, curriculum priorities and community use of the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bgcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student & Family Support Office",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101065&type=d&pREC_ID=1400964",
+      "summary": "Talk to your child's teacher first, then the principal. If it is unresolved, contact the Student and Family Support Office (519-364-5820 ext. 63235, or its online form). It confirms in writing with a case number within two business days and aims to resolve within five.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French programs",
+      "url": "https://www.bgcdsb.org/apps/pages/index.jsp?uREC_ID=1101062&type=d&pREC_ID=1382968",
+      "verified": "2026-11-26",
+      "schools": {
+        "721255": "Immaculate Conception Catholic School (Formosa)",
+        "737399": "Notre Dame Catholic School (Owen Sound)",
+        "751464": "St. Joseph Catholic School (Port Elgin)",
+        "759430": "Sacred Heart High School (Walkerton)",
+        "774332": "St. Anthony Catholic School (Kincardine)",
+        "776599": "St. Mary's High School (Owen Sound)",
+        "776602": "St. Basil Catholic School (Owen Sound)"
+      }
+    }
+  ]
+}

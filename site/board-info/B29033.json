@@ -1,0 +1,360 @@
+{
+  "board": "B29033",
+  "name": "Sudbury Catholic District School Board",
+  "short": "Sudbury Catholic",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "sudcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration",
+      "url": "https://www.sudburycatholicschools.ca/registration/",
+      "related": [
+        {
+          "title": "Information Guide for Newcomer Families and Students (PDF, lists documents to bring)",
+          "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2026/10/Information-Guide-for-Newcomer-Families-and-Students.pdf"
+        },
+        {
+          "title": "Appendix A: non-Catholic elementary families (PDF)",
+          "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2021/06/Appendix-A.pdf"
+        },
+        {
+          "title": "Appendix B: non-Catholic secondary families (PDF)",
+          "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2021/06/Appendix-B.pdf"
+        }
+      ],
+      "summary": "Families pre-register online through the board's registration portal and the school then follows up; questions go to register@sudburycatholicschools.ca. Elementary students who are baptized Catholic, or have a baptized Catholic parent or guardian, use the standard process; other families may still enrol by completing the board's Appendix A form. High schools are open to all Grade 9 to 12 students (non-Catholic families complete Appendix B). The page gives no Kindergarten registration dates or document list.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration (finding your school and bus eligibility)",
+      "url": "https://www.sudburycatholicschools.ca/registration/",
+      "related": [
+        {
+          "title": "School and bus catchment locator (My Ride K-12)",
+          "url": "https://myridek12.tylerapp.com/schoolsearch?district=24727cb8-ba92-4949-9a13-45e4835e0dfb"
+        },
+        {
+          "title": "Commonly Asked Questions",
+          "url": "https://www.sudburycatholicschools.ca/commonly-asked-questions/"
+        }
+      ],
+      "summary": "The board does not host its own address lookup. It sends families to the Student Services Consortium (businfo.ca) to find the closest school and check busing, and to a school and bus catchment locator. Say that the child is with Sudbury Catholic and whether the program is English or French Immersion. The consortium has the final word.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.sudburycatholicschools.ca/academic/french-as-a-second-language/",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "K"
+        ]
+      },
+      "related": [
+        {
+          "title": "French Immersion FAQs (PDF)",
+          "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2025/08/French-Immersion73.pdf"
+        },
+        {
+          "title": "French Immersion schools",
+          "url": "https://www.sudburycatholicschools.ca/list-of-schools/?cat=french-immersion-schools&cat_name=French%20Immersion%20Schools"
+        }
+      ],
+      "summary": "Early French Immersion starts in Kindergarten, with about 90% of instruction in French; the board's newcomer guide adds that children must be 4 by December 31 to register and that Grades 7 and 8 Immersion is about half French. No lottery, waitlist or application dates are published on the pages we read; register through the usual process and ask the school principal. Nine elementary schools and four high schools are listed as offering Immersion.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion FAQs (PDF)",
+      "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2025/08/French-Immersion73.pdf",
+      "program": "french-immersion",
+      "summary": "Immersion continues in Grades 9 to 12 at four high schools (Marymount Academy, St Benedict, St Charles College and Bishop Alexander Carter). Students need at least 10 credits, four in French and six other subjects taught in French. All Grade 12 Immersion students are offered the DELF exam.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-extended-french",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.sudburycatholicschools.ca/academic/french-as-a-second-language/",
+      "program": "extended-french",
+      "summary": "We did not find an Extended French program on the board's French pages. Ask the school or the board whether one is offered.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Commonly Asked Questions",
+      "url": "https://www.sudburycatholicschools.ca/commonly-asked-questions/",
+      "related": [
+        {
+          "title": "Registration",
+          "url": "https://www.sudburycatholicschools.ca/registration/"
+        }
+      ],
+      "summary": "To attend a school outside your boundary, contact the principal of the school you are interested in to talk through your options. The page describes no separate request form, deadline or approval steps, and does not say whether transportation is provided.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Bus Transportation - What you should know (Sudbury Student Services Consortium)",
+      "url": "https://www.rainbowschools.ca/wp-content/uploads/2016/03/SSSC_SchoolTransportENG.pdf",
+      "summary": "Busing is run by the Sudbury Student Services Consortium for all four Sudbury-area boards. Its guide lists Junior and Senior Kindergarten as eligible with no distance limit, Grades 1 to 3 beyond 1.0 km, Grades 4 to 8 beyond 1.6 km and secondary beyond 2.5 km. Students may walk up to 0.25 km (JK and SK) to 1.25 km (Grades 9 to 12) to a stop. The copy is an older, undated upload, so check your address with the consortium at 705-521-1234 (businfo.ca).",
+      "verified": "2026-11-26",
+      "facts": {
+        "walk_km": {
+          "Grades 1 to 3": 1,
+          "Grades 4 to 8": 1.6,
+          "Secondary": 2.5
+        }
+      }
+    },
+    {
+      "id": "sudcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.sudburycatholicschools.ca/special-education/",
+      "source_date": "2026-2027",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2026/08/SCDSB-Spec-Ed-Plan-2026.pdf"
+        }
+      ],
+      "summary": "The board's 2026-2027 Special Education Plan and a family guide to special education. The plan covers early identification, the IPRC (the committee that identifies a student as exceptional and decides placement), assessments, IEPs, placements and support staff. The board aims to keep most students in regular classrooms with support. Start with your child's teacher and principal.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education (SEAC section)",
+      "url": "https://www.sudburycatholicschools.ca/special-education/",
+      "summary": "The Special Education Advisory Committee advises the board on special education. It meets at least ten times a year, usually on the third Thursday of the month at the Catholic Education Centre. Members are nominated by local associations and parent groups. The page gives the contact number 705-673-5620 extension 204.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan for 2019-2025",
+      "url": "https://www.sudburycatholicschools.ca/public-reports/accessibility-plan/",
+      "source_date": "2019-2025",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2019-2025 (PDF)",
+          "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2019/02/REVISED-Multi-Year-Accessibility-Plan-2019-2025-Facilities2.pdf"
+        }
+      ],
+      "summary": "The board's accessibility plan, covering 2019 to 2025: legal requirements, what the previous plan achieved and commitments to remove barriers over time. The newest plan on the page covers years that have ended, so ask the board whether a newer plan exists. It is board-wide, not a description of a particular school building.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Information Guide for Newcomer Families and Students (PDF)",
+      "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2026/10/Information-Guide-for-Newcomer-Families-and-Students.pdf",
+      "related": [
+        {
+          "title": "Navigating the School System",
+          "url": "https://www.sudburycatholicschools.ca/navigating-our-school-system/"
+        }
+      ],
+      "summary": "A guide for newcomer families covering the zone lookup, what to bring to registration (past school records, Catholic baptism certificate for elementary priority, identity and immigration papers, proof of address, immunization records), programs and a school directory. It mentions an assessment meeting at registration but no separate welcome or language assessment centre.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long Term Accommodation Plan 2021-2025 (PDF)",
+      "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2021/04/Long-Term-Accomodation-Plan-2021-2025-Final1.pdf",
+      "source_date": "2021-2025",
+      "related": [
+        {
+          "title": "Capital Plan",
+          "url": "https://www.sudburycatholicschools.ca/public-reports/capital-plan/"
+        }
+      ],
+      "summary": "The board's plan for how its buildings are used: age, condition, capacity and enrolment by school in three planning areas, with projections and recommendations. Projections are forecasts, and capacity is building space, not open seats. Its proposals are subject to public consultation before any decision. It was posted in 2021; check with the board for a newer plan.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan (Operational Plan 2025-2026) (PDF)",
+      "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2026/04/21a-Student-Achievement-Plan-Operational-25-26.pdf",
+      "source_date": "Revised October 2025",
+      "related": [
+        {
+          "title": "Student Achievement Plan: Sudbury CDSB 2024-2025 (PDF)",
+          "url": "https://www.sudburycatholicschools.ca/wp-content/uploads/2026/06/B29033_Sudbury-CDSB_Template-1.pdf"
+        },
+        {
+          "title": "Student Achievement Plan page",
+          "url": "https://www.sudburycatholicschools.ca/public-reports/student-achievement-plan/"
+        }
+      ],
+      "summary": "The board combines its operational and student achievement plans under three strategic pathways: faith-based and inclusive community, innovation, and leadership in learning for all. Each goal lists actions and the evidence collected, such as attendance and survey results. A second document on the page shows board results next to Ontario's for 2024-2025. These are board-wide, not school figures.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee (PIC)",
+      "url": "https://www.sudburycatholicschools.ca/parent-involvement-2/pic/",
+      "summary": "The Parent Involvement Committee advises the board on engaging parents and shares information with school councils. Members are parent representatives from each school's Catholic School Council, plus a trustee, the Director of Education and a community representative. The page gives no meeting schedule.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic School Council",
+      "url": "https://www.sudburycatholicschools.ca/parent-involvement-2/school-councils/",
+      "related": [
+        {
+          "title": "Trustees",
+          "url": "https://www.sudburycatholicschools.ca/scdsb-trustees/"
+        }
+      ],
+      "summary": "Each school has a Catholic School Council, an advisory group with a majority of parents. Councils are elected in the first 30 days of the school year and parents can nominate themselves. You can also ask the principal or a council member about joining at any time. Meetings are open to the public.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sudcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Complaint Resolution Process",
+      "url": "https://www.sudburycatholicschools.ca/parents-2/complaint-resolution-process/",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.sudburycatholicschools.ca/student-success-support/"
+        }
+      ],
+      "summary": "Start with the teacher or staff member, then the principal. If it is still unresolved, contact the Student and Family Support Office, which can connect you with your school's superintendent. After that you can ask the CEO and Chief Education Officer to review it, or contact your local trustee. No deadlines are given.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion Schools",
+      "url": "https://www.sudburycatholicschools.ca/list-of-schools/?cat=french-immersion-schools&cat_name=French%20Immersion%20Schools",
+      "verified": "2026-11-26",
+      "schools": {
+        "689351": "Bishop Alexander Carter C.S.S. (Hanmer)",
+        "701745": "Holy Trinity School (Sudbury)",
+        "721212": "Immaculate Conception School (Val Caron)",
+        "730963": "Marymount Academy (Sudbury)",
+        "730971": "Marymount Academy Elementary (Sudbury)",
+        "746827": "St. Paul School (Coniston)",
+        "757127": "St. Benedict Elementary (Sudbury)",
+        "770744": "St. Anne School (Hanmer)",
+        "777196": "St. Benedict C.S.S. (Sudbury)",
+        "782181": "St. Charles School (Chelmsford)",
+        "783358": "St. Charles College (Sudbury)",
+        "791075": "St. Francis School (Sudbury)",
+        "798878": "St. James School (Lively)",
+        "804282": "St. John School (Garson)",
+        "830399": "St. Charles College Elementary (Sudbury)",
+        "869673": "Holy Cross School (Sudbury)"
+      }
+    }
+  ]
+}

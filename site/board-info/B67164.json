@@ -1,0 +1,369 @@
+{
+  "board": "B67164",
+  "name": "Brant Haldimand Norfolk Catholic District School Board",
+  "short": "BHN Catholic",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "bhncdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Elementary registration",
+      "url": "https://www1.bhncdsb.ca/register2/",
+      "related": [
+        {
+          "title": "Admission of Elementary Students (policy, PDF)",
+          "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/PoliciesAndProcedures/Section%20200%20-%20Students/STU%20200.14.P%20-%20Admission%20of%20Elementary%20Students.pdf"
+        }
+      ],
+      "source_date": "Policy last reviewed August 2024",
+      "summary": "Elementary registration is online: choose Kindergarten, transferring between BHNCDSB schools, Grades 1 to 8 new to the board, or new to Canada, then follow the steps. Under the board's admission policy a first-time student shows proof of age and a Catholic baptismal certificate (the child's, or one parent's); otherwise a Non-Catholic Student Registration Request is made and the school decides on motivation, space, services and transportation. St. Bernard of Clairvaux, St. Frances Cabrini and St. Joseph's (Simcoe) were closed to out-of-boundary and non-Catholic registrations when we checked.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten Register for School",
+      "url": "https://www1.bhncdsb.ca/kindergarten/register-for-school/",
+      "summary": "Kindergarten registration for the next September runs in October, online through the Parent Portal (about 20 minutes; help is available at any elementary school). Families who register then are invited to The Road to Kindergarten in November (the page listed November 2026, 4 to 8 p.m.). Start at your home school (the closest Catholic school in your boundary). Bring proof of address, proof of age and legal name, and a baptismal certificate if you have one; non-Catholic families also apply to the principal.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-register-secondary",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary registration",
+      "url": "https://www1.bhncdsb.ca/register/",
+      "related": [
+        {
+          "title": "Admission of Secondary Students (policy, PDF)",
+          "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/PoliciesAndProcedures/Section%20200%20-%20Students/STU%20200.15.P%20-%20Admission%20of%20Secondary%20Students.pdf"
+        }
+      ],
+      "source_date": "Policy last reviewed August 28, 2024",
+      "summary": "Choose the route that fits: Grade 9 from a BHNCDSB Grade 8, Grade 9 from another board, Grades 10 to 12, transferring schools, or international students, then follow that page. The board's admission policy says non-Catholic students may attend its Catholic high schools, subject to boundary and transportation rules; proof of age and address is needed, and an out-of-boundary form applies outside your school's boundary.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find Your School (transportation consortium)",
+      "url": "https://transinfobhn.ca/Eligibility.aspx?Page=School",
+      "summary": "The board points families to the school-finder tool run by Student Transportation Services Brant Haldimand Norfolk: enter an address to see the school you are assigned to. The tool is run by the consortium, not the board, and the board's Kindergarten page calls it the starting point for registration.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Elementary French Programs",
+      "url": "https://www1.bhncdsb.ca/elementary-french-programs/",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "related": [
+        {
+          "title": "French Immersion FAQ",
+          "url": "https://www1.bhncdsb.ca/frequently-asked-questions/"
+        }
+      ],
+      "summary": "French Immersion runs Grades 1 to 8 with at least half the instruction in French. Grade 1 is the only entry point; Kindergarten is in English. Families who want Immersion register at a dual-track school: Madonna Della Libera and St. Leo (Brantford), Sacred Heart (Paris), St. Joseph's (Simcoe) and Notre Dame (Caledonia). Space is limited, so register early. The page gives no application dates or lottery rules; ask the School Family Support Office. Siblings not in Immersion may get courtesy bus seats, not guaranteed.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-extended-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary French Programs",
+      "url": "https://www1.bhncdsb.ca/secondary-french-programs/",
+      "program": "extended-french",
+      "summary": "In high school the pathway for elementary Immersion students is Extended French (FEF1D), taken for about four years with at least 7 credits taught in French, at Assumption College, St. John's College and Holy Trinity. Core French is compulsory in Grade 9. The page gives no application steps; it advises talking with the Grade 8 French teacher about course choices.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-out-of-boundary",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Out of Boundary Admissions (procedure STU 200.25, PDF)",
+      "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/PoliciesAndProcedures/Section%20200%20-%20Students/STU%20200.25.AP%20-%20Out%20of%20Boundary%20Admissions.pdf",
+      "related": [
+        {
+          "title": "Elementary registration (lists closed schools)",
+          "url": "https://www1.bhncdsb.ca/register2/"
+        }
+      ],
+      "summary": "Students normally attend the school in their own boundary. To ask for another school, apply at that school with the Out of Boundary/Jurisdiction form; the principal decides. Approval lasts one year and is not automatic, and the board does not provide transportation to out-of-boundary students. Schools whose enrolment greatly exceeds capacity can be closed to these requests, and then only the Superintendent of Business can review them.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation of Students (procedure 400.19, PDF)",
+      "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/PoliciesAndProcedures/Section%20400%20-%20Operations/OPS%20400.19.P%20-%20Transportation%20of%20Students.pdf",
+      "facts": {
+        "walk_km": {
+          "Elementary, urban (JK to Grade 8)": 1.4,
+          "Secondary, urban (Grades 9 to 12)": 3.2,
+          "Rural students": 0.8
+        }
+      },
+      "source_date": "Revised April 24, 2018",
+      "related": [
+        {
+          "title": "STSBHN Procedure 002: Transportation Eligibility (PDF, last reviewed Oct 2023)",
+          "url": "https://stsbhn.ca/documents/002-transportation-eligibility-242-165.pdf"
+        },
+        {
+          "title": "Check transportation eligibility for an address",
+          "url": "https://transinfobhn.ca/Eligibility.aspx?Page=Transportation"
+        }
+      ],
+      "summary": "Students registered at a board school and living in its attendance area may get transportation beyond a walking distance of 1.4 km for urban elementary students, 3.2 km for urban secondary students and 0.8 km for rural students, measured by the consortium's software. The consortium also sets 1.4 km for JK to Grade 8 and 3.2 km for Grades 9 to 12. Courtesy seats are separate and not guaranteed. Student Transportation Services Brant Haldimand Norfolk runs the buses.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www1.bhncdsb.ca/special-education/",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-27 (PDF)",
+          "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/Reports/Reports%20and%20plans/Reports%20and%20Plans%20Current/Special_Education_Plan_FINAL_2026_2027.pdf"
+        },
+        {
+          "title": "IEP guide for parents (PDF)",
+          "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/Others/iep_guide_for_parents.pdf"
+        }
+      ],
+      "summary": "The board's special education page, with its Special Education Plan for 2026-27 (PDF), and parent guides to Individual Education Plans (IEPs) and the Identification, Placement and Review Committee (IPRC). Start with your child's teacher and principal; feedback on the plan goes to the Superintendent for special education.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (on the Special Education page)",
+      "url": "https://www1.bhncdsb.ca/special-education/",
+      "related": [
+        {
+          "title": "SEAC members",
+          "url": "https://www1.bhncdsb.ca/special-education-advisory-committee-members/"
+        },
+        {
+          "title": "Schedule of meetings",
+          "url": "https://www1.bhncdsb.ca/schedule-of-meetings/"
+        }
+      ],
+      "summary": "SEAC advises the board on special education programs and services and reviews the annual plan and special education finances. It meets monthly at the Catholic Education Centre in Brantford, and meetings are open to the public. Members include community agencies and board staff; the page links the member list, schedule of meetings and terms.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Integrated Accessibility Plan 2024-2029 (PDF)",
+      "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/Others/Multi-Year%20Integrated%20Acceccilbility%20Plan%202024-2029.pdf",
+      "related": [
+        {
+          "title": "Accessibility",
+          "url": "https://www1.bhncdsb.ca/accessibility/"
+        }
+      ],
+      "summary": "The board's accessibility plan under Ontario's accessibility law, covering 2024 to 2029. It is board-wide, not a description of a particular school building; ask the school about specific needs. Feedback and alternate formats are available from the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "English as a Second Language and newcomer support",
+      "url": "https://www1.bhncdsb.ca/english-as-a-second-language/",
+      "related": [
+        {
+          "title": "Multilingual Learners fact sheet (PDF)",
+          "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/Others/BHNCDSB_Multilingual_Learners_Fact_Sheet.pdf"
+        }
+      ],
+      "summary": "For families new to Canada whose child does not speak English as a first language: staff help with enrolment, assess English language learners and guide students and families. Contact the board's School Family Support Office. The page does not describe a separate welcome centre.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Pupil Accommodation Reviews",
+      "url": "https://www1.bhncdsb.ca/pupil-accommodation-reviews/",
+      "related": [
+        {
+          "title": "School Boundary Reviews",
+          "url": "https://www1.bhncdsb.ca/boundary-reviews/"
+        },
+        {
+          "title": "County of Brant boundary review",
+          "url": "https://www1.bhncdsb.ca/county-of-brant/"
+        }
+      ],
+      "summary": "We found no long-term accommodation plan or school-by-school capacity table; the board's Student Accommodation Data Dashboards page says Coming soon. The board says no pupil accommodation reviews are under way. A County of Brant elementary boundary review (started June 2025) is in progress with nothing approved yet. Ask the board about capacity; capacity is building space, not open seats.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan (PDF)",
+      "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/Reports/Reports%20and%20plans/Reports%20and%20Plans%20Current/BHNCDSB.pdf",
+      "source_date": "2024-2025 Academic Year",
+      "related": [
+        {
+          "title": "Strategic Plan 2023-27 (PDF)",
+          "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/Reports/Reports%20and%20plans/Reports%20and%20Plans%20Current/23-3455%20-%20BHNCDSB_Strategic_Plan_final.pdf"
+        }
+      ],
+      "summary": "The board's plan under Ontario's student achievement framework: literacy (EQAO, the OSSLT), graduation and credits, and engagement and well-being, with board results next to Ontario's for 2024-25. These are board-wide figures, not this school's.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-rcpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee and RCPIC",
+      "url": "https://www1.bhncdsb.ca/parent-involvement-committee-and-rcpic/",
+      "summary": "The Regional Catholic Parent Involvement Committee gives school councils a regional voice. Each school council sends one representative, and it meets three times a year. Agendas and minutes are posted by the board; the chair can be reached by email.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-csac",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic School Advisory Councils",
+      "url": "https://www1.bhncdsb.ca/catholic-school-advisory-councils-csac/",
+      "summary": "Every school has a Catholic School Advisory Council of parents, staff and the principal, focused on the school. To join, contact your school's principal.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bhncdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Public Concerns (policy 400.10, PDF)",
+      "url": "https://www1.bhncdsb.ca/wp-content/uploads/BHNCDSB_Files/PoliciesAndProcedures/Section%20400%20-%20Operations/OPS%20400.10.P%20-%20Public%20Concerns.pdf",
+      "source_date": "Last reviewed February 25, 2025",
+      "summary": "Concerns are handled at the level closest to the issue: first the teacher, then the principal, then the school's Superintendent of Education, then the Director of Education. Trustees help with communication but do not take up individual student or staff matters.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "Elementary French Programs",
+      "url": "https://www1.bhncdsb.ca/elementary-french-programs/",
+      "verified": "2026-11-26",
+      "schools": {
+        "736481": "Notre Dame (Caledonia)",
+        "750259": "Madonna Della Libera (Brantford)",
+        "762756": "Sacred Heart (Paris)",
+        "810827": "St. Joseph's (Simcoe)",
+        "818453": "St. Leo (Brantford)"
+      }
+    },
+    {
+      "program": "extended-french",
+      "title": "Secondary French Programs",
+      "url": "https://www1.bhncdsb.ca/secondary-french-programs/",
+      "verified": "2026-11-26",
+      "schools": {
+        "688088": "Assumption College (Brantford)",
+        "720232": "Holy Trinity (Simcoe)",
+        "751898": "St. John's College (Brantford)"
+      }
+    }
+  ]
+}

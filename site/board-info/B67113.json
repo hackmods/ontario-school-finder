@@ -1,0 +1,434 @@
+{
+  "board": "B67113",
+  "name": "Halton Catholic District School Board",
+  "short": "Halton Catholic DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "hcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Register Your Child",
+      "url": "https://www.hcdsb.org/parents/register-your-child/",
+      "summary": "Registration is only for students new to HCDSB. Create a PowerSchool account, register online and upload documents, or bring them to your home school by appointment. You need the child's birth certificate and proof of address; new families show parent ID in person, and elementary also asks for a baptismal certificate. Separate pages cover Kindergarten, Grades 1 to 8 and Grades 9 to 12.",
+      "related": [
+        {
+          "title": "Register for Elementary",
+          "url": "https://www.hcdsb.org/parents/register-your-child/elementary-1-8/"
+        },
+        {
+          "title": "Register for Secondary",
+          "url": "https://www.hcdsb.org/parents/register-your-child/secondary-9-12/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten Registration",
+      "url": "https://www.hcdsb.org/parents/register-your-child/kindergarten/",
+      "summary": "Registration for 2027-2028 is open now, with no deadline shown. A child must be 4 by December 31, 2027 for Year 1 and 5 for Year 2. Register through PowerSchool, then the school contacts you to confirm documents. Children already in Year 1 at an HCDSB school do not register again for Year 2.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-admission",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policy I-22 Admission to HCDSB Elementary and Secondary Schools (PDF)",
+      "url": "https://www.hcdsb.org/policies-procedures/i-22-admission-to-hcdsb-elementary-and-secondary-schools/",
+      "summary": "For elementary school the board asks for a Roman or Eastern Rite Catholic baptismal certificate for the child or, failing that, one parent or guardian; the policy describes other routes and says requests that do not meet it are handled case by case. For secondary school the policy says the Education Act allows any student to enrol in a Catholic secondary school regardless of religion, and first-time applicants apply to the secondary school principal.",
+      "related": [
+        {
+          "title": "Policy I-22 (PDF)",
+          "url": "https://www.hcdsb.org/policies-procedures/i-22-admission-to-hcdsb-elementary-and-secondary-schools/download/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find Your School (School Planning)",
+      "url": "https://schoolplanning.hcdsb.org/find-your-school/",
+      "summary": "The board's interactive School Finder map: search by home address to find your home school, or by school to see its boundary map. The page also links boundary maps for 2025-26, the 2026-27 cross-boundary open/closed list and the planning office (planning.services@hcdsb.org) for questions.",
+      "related": [
+        {
+          "title": "Transportation eligibility check (HSTS)",
+          "url": "https://geoquery.haltonbus.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion",
+      "url": "https://www.hcdsb.org/learning-resources/french-programs/french-immersion/",
+      "summary": "French Immersion starts in Grade 1 at a designated school linked to your home school; apply once per child through the PowerSchool portal. The Grade 1 window for 2026-27 ran January 8 to February 13, 2026 and the board updates it yearly. Space is no longer allocated by lottery; after the window it depends on availability at each host school. Transportation follows the board's FAQ (see transportation).",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "related": [
+        {
+          "title": "Grade 1 French Immersion designated schools 2027-2028 (PDF)",
+          "url": "https://www.hcdsb.org/wp-content/uploads/2026/11/French-Immersion-School-Sites-2027-2028.pdf"
+        },
+        {
+          "title": "Optional French programs FAQ (PDF)",
+          "url": "https://www.hcdsb.org/wp-content/uploads/2026/01/2026-FAQ-Optional-French-Programs.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-extended-french",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Extended French",
+      "url": "https://www.hcdsb.org/learning-resources/french-programs/extended-french/",
+      "summary": "Extended French starts in Grade 5 at designated sites. Apply per child through the PowerSchool portal; the page says it opens November 25 and closes December 9, 2026 for September 2027 entry. Placement is by random selection, and families are told whether their child has a spot or is on the waiting list. Cross-boundary siblings of French Immersion students may ask, but closed schools do not accept these.",
+      "program": "extended-french",
+      "facts": {
+        "entry_grades": [
+          "5"
+        ],
+        "single_entry": true
+      },
+      "related": [
+        {
+          "title": "Grade 5 Extended French designated schools 2027-2028 (PDF)",
+          "url": "https://www.hcdsb.org/wp-content/uploads/2026/11/Extended-French-School-Sites-2027-2028.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary French as a Second Language",
+      "url": "https://www.hcdsb.org/learning-resources/french-programs/secondary-fsl/",
+      "summary": "French Immersion continues in Grade 9 for students who completed HCDSB French Immersion in Grades 1 to 8, at four secondary schools listed on the page. Extended French continues with academic and university-prep courses and seven French credits. Core French is offered at every HCDSB secondary school. The page sets minimum French hours by the end of Grade 8 for each pathway.",
+      "program": "french-immersion",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Transferring Schools within HCDSB (Cross Boundary School Attendance)",
+      "url": "https://www.hcdsb.org/schools/transferring-schools/",
+      "summary": "Register at your home school, then submit the annual online Cross Boundary application. The page gives elementary applications January 1 to April 30 (decisions by mid-May) and secondary January 1 to March 1 (decisions by mid-March), without naming the school year. Approval depends on space and staffing and is not guaranteed; open and closed schools are posted each March. An optional program outside your boundary also needs a cross-boundary request.",
+      "related": [
+        {
+          "title": "Cross-boundary open/closed status, School Planning",
+          "url": "https://schoolplanning.hcdsb.org/find-your-school/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policy II-24 Home to School Student Transportation",
+      "url": "https://www.hcdsb.org/policies-procedures/ii-24-home-to-school-student-transportation/",
+      "summary": "Students may be eligible if they live more than 1.6 km (JK to Grade 8) or 3.2 km (Grades 9 to 12) from their home school; Halton Student Transportation Services measures and runs the buses. For French Immersion and Extended French, the board's FAQ says students living more than 1.6 km from the program site are eligible. Cross-boundary students are not transported; siblings may ask for a courtesy seat each year.",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "source_date": "Last reviewed January 20, 2026",
+      "related": [
+        {
+          "title": "Optional French programs FAQ (PDF)",
+          "url": "https://www.hcdsb.org/wp-content/uploads/2026/01/2026-FAQ-Optional-French-Programs.pdf"
+        },
+        {
+          "title": "Courtesy seats (HSTS HS-1-004)",
+          "url": "https://www.haltonbus.ca/operating-procedure-hs-1-004-courtesy-seats/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.hcdsb.org/learning-resources/special-education/",
+      "summary": "The board's special education page states its inclusion approach, which favours support in the regular classroom where possible, and links the Special Education Plan for 2026-27 and a parent guide to programs and services. The page itself does not describe IEP or IPRC steps; the guide and your school principal do.",
+      "related": [
+        {
+          "title": "Special Education Annual Plan 2026-27 (PDF)",
+          "url": "https://www.hcdsb.org/wp-content/uploads/2026/07/HCDSB-Special-Education-Annual-Plan_2026-27-FINAL.pdf"
+        },
+        {
+          "title": "A Parent's Guide to Special Education Programs & Services (PDF)",
+          "url": "https://www.hcdsb.org/wp-content/uploads/2026/11/SpecEdParentGuide_October_2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.hcdsb.org/our-board/board-level-committees/seac-committee/",
+      "summary": "SEAC recommends to the board on special education programs and services. Members are nominated by community associations and approved by the board. Meetings are usually the last Monday of the month, recorded for YouTube, and the public can send questions to seac@hcdsb.org by 4:00 pm on the meeting day.",
+      "source_date": "Roster labelled 2022-2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility (Our Current Accessibility Plan)",
+      "url": "https://www.hcdsb.org/our-board/accessibility/",
+      "summary": "The board's accessibility plan (the linked PDF is the 2023 plan) sets goals and describes measures to identify and remove barriers for students, staff and visitors. The page says the plan is currently under review and will be posted once finalized. It is board-wide, not about one building; ask the school about specific needs.",
+      "source_date": "2023 plan, under review",
+      "related": [
+        {
+          "title": "Accessibility Plan 2023 (PDF)",
+          "url": "https://www.hcdsb.org/wp-content/uploads/2023/12/Accessibility-Plan-2023.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-welcome",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "New to Canada? New to Ontario?",
+      "url": "https://www.hcdsb.org/parents/new-to-canada/",
+      "summary": "Register at your local Catholic school office; the Welcome Centres suggest doing this first. Welcome Centres in Oakville and Milton help with math and language assessments, community resources and the Youth Settlement Program, and settlement workers speak several languages. The page does not describe English language learner classroom programs; ask the Welcome Centre.",
+      "related": [
+        {
+          "title": "Documents to register for school (PDF)",
+          "url": "https://www.hcdsb.org/wp-content/uploads/2021/01/Documents-to-Register-for-School.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-ltcp",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "2026 Long-Term Capital Plan",
+      "url": "https://schoolplanning.hcdsb.org/ltcp/",
+      "summary": "The board's 2026 plan for school space, presented to the board on June 16, 2026, with sections by municipality covering each school and the board's accommodation issues and strategies. Projections are forecasts and capacity is building space, not open seats in a grade or program. Boundary reviews are listed on the School Planning site.",
+      "source_date": "2026",
+      "related": [
+        {
+          "title": "Full 2026 plan (PDF)",
+          "url": "https://schoolplanning.hcdsb.org/wp-content/uploads/sites/9/2026/06/2026-LTCP.pdf"
+        },
+        {
+          "title": "School Boundary Reviews",
+          "url": "https://schoolplanning.hcdsb.org/school-boundary-reviews/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.hcdsb.org/our-board/student-achievement-plan/",
+      "summary": "The board's plan under Ontario's student achievement framework covering core academic skills, preparing students for future success, and student engagement and well-being. The page lists plans for 2023-24 to 2025-26; the 2025-26 plan was out for feedback in spring 2026. These are board-wide figures, not this school's.",
+      "source_date": "2025-2026",
+      "related": [
+        {
+          "title": "Student Achievement Plan 2025-2026 (PDF)",
+          "url": "https://www.hcdsb.org/wp-content/uploads/2026/05/Student-Achievement-Plan-2025-2026-archivable.pdf"
+        },
+        {
+          "title": "Multi-Year Strategic Plan 2024-2028",
+          "url": "https://www.hcdsb.org/our-board/multi-year-strategic-plan/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-cpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic Parent Involvement Committee (CPIC)",
+      "url": "https://www.hcdsb.org/our-board/board-level-committees/cpic-committee/",
+      "summary": "A committee of parents, trustees and board staff that supports parent engagement across the board. It gives Catholic school council members a place to network and hear presentations. The page links annual reports, by-laws, meeting recordings and a handbook for school councils.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic School Councils",
+      "url": "https://www.hcdsb.org/parents/catholic-school-councils/",
+      "summary": "Each school has a council of elected and appointed members that advises the principal, the parish and the board. Parents or guardians hold the majority of seats; elections are usually held by September 30 and terms are one year. Meetings are open to the public. Contact the principal to take part.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.hcdsb.org/our-board/student-and-family-support-office/",
+      "summary": "Start with your child's teacher or principal. If it is not school-specific or you are unsure where to start, the Student and Family Support Office (online form, 905-340-2133, supportoffice@hcdsb.org) can connect you to the right superintendent or department. It says it acknowledges within two business days and responds within five. The page links the Board of Trustees.",
+      "related": [
+        {
+          "title": "Board of Trustees",
+          "url": "https://www.hcdsb.org/our-board/board-of-trustees/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "Grade 1 French Immersion Program List of Designated Schools 2027-2028 (PDF)",
+      "url": "https://www.hcdsb.org/wp-content/uploads/2026/11/French-Immersion-School-Sites-2027-2028.pdf",
+      "verified": "2026-11-26",
+      "schools": {
+        "681054": "St. Benedict (Milton)",
+        "681423": "St. Mary (Oakville)",
+        "708160": "Guardian Angels (Milton)",
+        "709332": "St. Veronica (Milton, Grade 1 start site for the new Milton #11 boundary in 2027-28 per the list note)",
+        "758280": "Sacred Heart of Jesus (Burlington)",
+        "780871": "St. Brigid, Grades 6-8 (Halton Hills)",
+        "781436": "St. Catherine of Alexandria, Grades 1-5 (Halton Hills)",
+        "794978": "St. Scholastica (Milton)",
+        "821241": "St. Marguerite d'Youville (Oakville)",
+        "843989": "St. Peter (Milton)"
+      }
+    },
+    {
+      "program": "french-immersion",
+      "title": "Secondary French as a Second Language (French Immersion schools listed)",
+      "url": "https://www.hcdsb.org/learning-resources/french-programs/secondary-fsl/",
+      "verified": "2026-11-26",
+      "schools": {
+        "697125": "Christ the King Catholic Secondary School (Halton Hills)",
+        "738271": "Notre Dame Catholic Secondary School (Burlington)",
+        "772099": "St. Kateri Tekakwitha Catholic Secondary School (Milton)",
+        "798010": "St. Ignatius of Loyola Catholic Secondary School (Oakville)"
+      }
+    },
+    {
+      "program": "extended-french",
+      "title": "Grade 5 Extended French Program List of Designated Schools 2027-2028 (PDF)",
+      "url": "https://www.hcdsb.org/wp-content/uploads/2026/11/Extended-French-School-Sites-2027-2028.pdf",
+      "verified": "2026-11-26",
+      "schools": {
+        "687394": "Lumen Christi (Milton)",
+        "719005": "Holy Rosary (Milton)",
+        "737147": "Our Lady of Fatima (Milton)",
+        "749052": "Our Lady of Peace (Oakville)",
+        "777650": "St. Bernadette (Oakville)",
+        "792039": "St. Francis of Assisi (Halton Hills)",
+        "793884": "St. Gabriel (Burlington)",
+        "798827": "St. Nicholas (Oakville)",
+        "801283": "St. Joan of Arc (Oakville)",
+        "821241": "St. Marguerite d'Youville (Oakville)"
+      }
+    }
+  ]
+}

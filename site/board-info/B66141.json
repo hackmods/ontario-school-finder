@@ -1,0 +1,388 @@
+{
+  "board": "B66141",
+  "name": "Hamilton-Wentworth District School Board",
+  "short": "HWDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "hwdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "How to Register",
+      "url": "https://www.hwdsb.on.ca/how-register",
+      "summary": "Register online through the board's PowerSchool link, or in person at your in-catchment school. Bring original proof of age, proof of Hamilton address and proof of status in Canada; immunization records go to Hamilton Public Health. Families with study permits, visitor visas or parents living outside Ontario start with the Admissions Office. The page describes the 2026-27 year; the board updates it yearly.",
+      "related": [
+        {
+          "title": "Kindergarten registration",
+          "url": "https://www.hwdsb.on.ca/kindergarten-registration"
+        }
+      ],
+      "source_date": "2026-27 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten Registration",
+      "url": "https://www.hwdsb.on.ca/kindergarten-registration",
+      "summary": "Registration for 2026-27 opened February 2, 2026 (the board updates this each year). Children can start the two-year Kindergarten program in the calendar year they turn four or five. Only a parent or legal guardian can register a child, online or with the printed form. Summer document checks are held at the Education Centre.",
+      "source_date": "2026-27 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find My School",
+      "url": "https://www.hwdsb.on.ca/find-school",
+      "summary": "The board's page for finding the school that serves an address (its catchment). The interactive boundary map, where you search an address, and PDF maps by school type are on the board's School Boundary Maps page. The board says maps are for display only and may change; its Planning Department answers boundary questions.",
+      "related": [
+        {
+          "title": "School Boundary Maps",
+          "url": "https://www.hwdsb.on.ca/school-boundary-maps"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-fi-grade1",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion",
+      "url": "https://www.hwdsb.on.ca/french-immersion-0",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "summary": "Grade 1 is the only system-wide entry point. Apply online only; for 2027-28 the page gives an application window of October 27 to November 27, 2026, with outcomes on December 15 and a January 8, 2027 deadline to accept. If more apply than a school has seats, a random draw decides; siblings may be placed first. The board says it guarantees a placement, but not always at the neighbourhood school. Late applications open April 1. Joining after Grade 1 needs a French proficiency assessment.",
+      "related": [
+        {
+          "title": "Grade 1 French Immersion application (PowerSchool)",
+          "url": "https://registration.ca.powerschool.com/family/gosnap.aspx?action=100001243&culture=en"
+        }
+      ],
+      "source_date": "2027-28 intake",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-fi-transport",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.hwdsb.on.ca/french-immersion-0",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ]
+      },
+      "summary": "Students whose in-catchment school is more than 1.6 km away (Grades 1 to 8) may qualify for transportation to their French Immersion school: bus with community stops in Grades 1 to 6, HSR transit in Grades 7 and 8. The page says transportation to an out-of-catchment school is the parent's responsibility. Every French Immersion school is closed to out-of-catchment requests.",
+      "related": [
+        {
+          "title": "Out-of-catchment process",
+          "url": "https://www.hwdsb.on.ca/out-catchment"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary French Immersion",
+      "url": "https://www.hwdsb.on.ca/secondary-french-immersion",
+      "summary": "Secondary French Immersion is offered at Sherwood Secondary and Westdale Secondary. Students earn a Certificate of French Immersion by completing four French Immersion courses plus at least six other courses taught in French. The page describes no separate application and invites Grade 7 and 8 families to information nights; the dates shown were in November 2025.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-out-catchment",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Out-of-Catchment Process",
+      "url": "https://www.hwdsb.on.ca/out-catchment",
+      "summary": "Families may ask for a school outside their catchment, but only schools marked open accept requests. The page lists 28 open elementary schools and seven open secondary schools. For 2026-27 applications were due March 6, 2026 (the board updates dates yearly); late elementary requests wait until mid-September. Elementary requests are decided by the principal, secondary ones by a committee. Out-of-catchment students get no transportation.",
+      "related": [
+        {
+          "title": "Elementary out-of-catchment form 2026-27 (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-05/Elementary-OOC-Application-Form-2026-27.pdf"
+        },
+        {
+          "title": "Secondary out-of-catchment form 2026-27 (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-05/Secondary-OOC-Application-Form-2026-27.pdf"
+        }
+      ],
+      "source_date": "2026-27 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "HWDSB Transportation",
+      "url": "https://www.hwdsb.on.ca/hwdsb-transportation",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 1.2,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Students living more than these walking distances from their in-catchment school may be eligible for busing: more than 1.2 km in kindergarten, more than 1.6 km in Grades 1 to 8 and more than 3.2 km in Grades 9 to 12. The board's transportation policy also names French Immersion (using community stops) and some specialized secondary programs as priorities, and allows courtesy transportation. Hamilton-Wentworth Student Transportation Services runs the buses for HWDSB and HWCDSB.",
+      "related": [
+        {
+          "title": "Transportation policy 3.10 (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-04/FINAL_Transportation_2019.pdf"
+        },
+        {
+          "title": "Hamilton-Wentworth Student Transportation Services",
+          "url": "https://www.hamiltonschoolbus.ca/"
+        }
+      ],
+      "source_date": "Policy approved 2019",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.hwdsb.on.ca/special-education",
+      "summary": "The board's special education page explains Individual Education Plans (IEPs) and the Identification, Placement and Review Committee (IPRC), with parent guides and videos, and links its Special Education Plan for each year to 2026-27. Start with your child's school team.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-07/26-27%20HWDSB%20Spec%20Ed%20Plan.pdf"
+        },
+        {
+          "title": "Guide for Parents/Guardians to the IPRC (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-03/IPRC_2019_22112019.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.hwdsb.on.ca/special-education#seac",
+      "summary": "SEAC advises the board on special education programs and services and takes part in the special education budget process. Members include local association representatives and trustees. The page says it usually meets monthly on the last Wednesday at 5:30 p.m. at the Education Centre, and lists membership and minutes.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.hwdsb.on.ca/accessibility-1",
+      "summary": "The board's accessibility page links its Multi-Year Accessibility Plan 2022-2027 and annual accessibility reports. The plan covers how the board identifies and removes barriers under Ontario's accessibility law. It is board-wide; ask a school about specific building needs.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2022-27 (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-01/HWDSB-Multi-Year-Accessibility-Plan-2022-27-v7.pdf"
+        }
+      ],
+      "source_date": "2022-2027",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-welcome",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Welcome Centre",
+      "url": "https://www.hwdsb.on.ca/welcome-centre",
+      "summary": "The Welcome Centre handles admissions paperwork and language assessments for families new to Canada or to Ontario schools, and for some students transferring from outside Ontario. Phone and address details are on the page. English language learner support in schools is described on the board's ESL pages.",
+      "related": [
+        {
+          "title": "ESL/ELD programming, elementary",
+          "url": "https://www.hwdsb.on.ca/english-second-language-elementary"
+        },
+        {
+          "title": "ESL/ELD programming, secondary",
+          "url": "https://www.hwdsb.on.ca/english-second-language-secondary"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-ltfp",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long-Term Facilities Plan",
+      "url": "https://www.hwdsb.on.ca/long-term-facilities-plan",
+      "summary": "The board's annually updated plan for school buildings and accommodation. The full report gives each school's capacity, enrolment and projections by planning area. Projections are forecasts, and capacity is building space, not open seats in a grade or program. Boundary review pages list individual reviews and their status.",
+      "related": [
+        {
+          "title": "2026 Long-Term Facilities Plan, full report (PDF)",
+          "url": "https://www.hwdsb.on.ca/sites/default/files/documents/2026-06/2026%20LTFP%20-%20FULL%20REPORT-Reduced.pdf"
+        },
+        {
+          "title": "Boundary reviews",
+          "url": "https://www.hwdsb.on.ca/boundary-reviews"
+        }
+      ],
+      "source_date": "2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-bip",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Board Improvement Plan",
+      "url": "https://www.hwdsb.on.ca/board-improvement-plan",
+      "summary": "The board's annual improvement plan, tied to its 2023-2028 strategic plan, with five goals: literacy, numeracy, preparedness for the future, well-being and engagement. These are board-wide plans, not results for one school.",
+      "source_date": "2026-2028",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://pic.hwdsb.on.ca/",
+      "summary": "The board's Parent Involvement Committee supports partnership between families and the board. The site has meetings and events, minutes and a page on how to join.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "School Councils",
+      "url": "https://www.hwdsb.on.ca/school-councils",
+      "summary": "Every school has a council of elected parent representatives that advises the principal and board. Parents and guardians can vote and run; ask the school principal for a nomination form. The page links council bylaws and a guide.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.hwdsb.on.ca/student-family-support-office",
+      "summary": "Start with your child's teacher, then the principal, then the school's superintendent. If it is still unresolved, the Student and Family Support Office takes an online intake form or phone call and aims to answer within five business days. Your trustee can help at any point.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion (schools offering it, 2027-28)",
+      "url": "https://www.hwdsb.on.ca/french-immersion-0",
+      "verified": "2026-11-26",
+      "schools": {
+        "132020": "Dalewood (Hamilton)",
+        "158151": "Earl Kitchener (Hamilton)",
+        "163481": "Eastdale (Stoney Creek)",
+        "198668": "Flamborough Centre (Hamilton)",
+        "213012": "Cootes Paradise (Hamilton)",
+        "233552": "Guy B. Brown (Waterdown)",
+        "345873": "Mary Hopkins (Waterdown)",
+        "412309": "Norwood Park (Hamilton)",
+        "434272": "Parkdale (Hamilton)",
+        "448940": "Dundana (Dundas)",
+        "466639": "Sir William Osler (Dundas)",
+        "495379": "Kanétskare (Hamilton)",
+        "579610": "W.H. Ballard (Hamilton)",
+        "000728": "A.M. Cunningham (Hamilton)",
+        "008795": "École Élémentaire Michaëlle Jean (Hamilton)",
+        "094608": "Lawfield (Hamilton)",
+        "090131": "Bennetto (Hamilton)"
+      }
+    },
+    {
+      "program": "french-immersion",
+      "title": "Secondary French Immersion",
+      "url": "https://www.hwdsb.on.ca/secondary-french-immersion",
+      "verified": "2026-11-26",
+      "schools": {
+        "941328": "Sherwood Secondary School (Hamilton)",
+        "951820": "Westdale Secondary School (Hamilton)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "board": "B29009",
+  "name": "Northeastern Catholic District School Board",
+  "short": "NCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "necdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Registration",
+      "url": "https://ncdsb.on.ca/registration/",
+      "summary": "Submit an online registration request, then the school arranges an in-person admission meeting; bring proof of name and age, proof of address, immigration papers if the child was not born in Canada, custody papers, baptismal certificates if they apply, and the latest report card. Kindergarten online registration opens in February each year, and the board recommends registering by the end of April; Catholic family registrations are prioritized. Elementary: children of Catholic ratepayers have the right to attend; the principal may admit others. Secondary: students of any faith may attend.",
+      "related": [
+        {
+          "title": "Kindergarten",
+          "url": "https://ncdsb.on.ca/our-schools/kindergarten/"
+        },
+        {
+          "title": "Student Enrolment procedure APE004-1 (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/APE004-1-Student-Enrolment-2025.12.10.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport EnRoute school and transportation eligibility lookup",
+      "url": "https://enroute.mybusplanner.ca/Eligibility",
+      "summary": "The board's registration page links a School Locator Tool (address and grade), but that older link no longer opens; its transportation page now uses the Transport EnRoute consortium's BusPlanner, where you pick the board and add your address and grade. The consortium has the final word on schools and busing.",
+      "related": [
+        {
+          "title": "Registration",
+          "url": "https://ncdsb.on.ca/registration/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "program": "french-immersion",
+      "title": "French as a Second Language",
+      "url": "https://ncdsb.on.ca/programs-services/french-second-language/",
+      "facts": {
+        "entry_grades": [
+          "K"
+        ]
+      },
+      "summary": "The board's French page says elementary French Immersion starts in Kindergarten, with about 70% of instruction in French, falling to about 50% by Grades 5 to 8; Religion and Math are taught in English. It does not say how or when to apply, how places are given, or which schools offer it; ask the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "program": "french-immersion",
+      "title": "French as a Second Language",
+      "url": "https://ncdsb.on.ca/programs-services/french-second-language/",
+      "summary": "French Immersion continues in Grades 9 to 12. Students take four French language courses and at least two other courses taught in French, aiming for upper-intermediate (B2) French, and may sit the DELF exam. The page does not describe an application step.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-xfi",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "program": "extended-french",
+      "title": "French as a Second Language",
+      "url": "https://ncdsb.on.ca/programs-services/french-second-language/",
+      "summary": "We looked for an Extended French program and found none on the board's French page. Ask the school what French programs it offers.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Enrolment (procedure APE004-1, PDF)",
+      "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/APE004-1-Student-Enrolment-2025.12.10.pdf",
+      "summary": "To move between the board's elementary schools, complete the Online Registration Request and tell your current principal. Transfers usually result in admission when the new school can fit the student within its existing structures; specialized needs can delay it. The procedure gives no deadline and the board lists no separate out-of-area policy.",
+      "related": [
+        {
+          "title": "Student Enrolment policy E-4 (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/E-4-Student-Enrolment-1757426157.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-transport",
+      "topic": "transportation",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation",
+      "url": "https://ncdsb.on.ca/programs-services/transportation/",
+      "summary": "Busing is run through the Transport EnRoute consortium, which the board shares with three other northeastern boards; the board's policy leaves eligibility criteria to the consortium. No walk distances by grade are published on the board's pages or the consortium's. Check eligibility by address and grade in the consortium's BusPlanner tool or call the board at 705-268-7443.",
+      "related": [
+        {
+          "title": "Student Transportation policy E-30 (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/E-30-Student-Transportation-25-104.pdf"
+        },
+        {
+          "title": "Transport EnRoute",
+          "url": "https://transportenroute.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://ncdsb.on.ca/programs-services/special-education/",
+      "summary": "The board uses an inclusive model, meeting needs in the regular classroom where possible, with accommodations or modifications. Its page links the 2026-2028 Special Education Plan, a Parents' Guide to Special Education and an IEP parent guide.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2028 (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2026/07/NCDSB-Updated-2026-2028-Special-Education-Plan-Final.pdf"
+        },
+        {
+          "title": "Parents Guide to Special Education (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/Parents-Guide-to-Special-Education.pdf"
+        },
+        {
+          "title": "IEP Parent Guide (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/IEP-Parent-Guide.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education (SEAC section)",
+      "url": "https://ncdsb.on.ca/programs-services/special-education/",
+      "summary": "SEAC advises the board on special education and reviews the plan each year. The 2026-27 meetings are Wednesdays at 11:45 am at the Timmins board office and are open to the public (next ones December 16, January 20, February 17 and March 24, among others listed on the page).",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://ncdsb.on.ca/our-board/accessibility/",
+      "summary": "The board's Multi-Year Accessibility Plan, with annual reports and a feedback form. It describes board-wide plans, not the features of a particular school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/ncdsb-multi-year-accessibility-plan.pdf"
+        },
+        {
+          "title": "Accessibility Report 2025-2026 (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2026/06/accessibility-annual-report-2025-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Supporting English Language Learners (procedure APE004-2, PDF)",
+      "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/APE004-2-Supporting-ELL-2025.05.28.pdf",
+      "summary": "New students meet the principal in an in-person admission meeting, where the school learns about the child's background and English and decides whether to refer them for English language support. Interpretation is available by phone or online. Elementary students are placed with an age-appropriate group whatever their English level. The board describes no separate welcome centre.",
+      "source_date": "2025.05.28 (from file name)",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-plan",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Pupil Accommodation Review (policy F-3, PDF)",
+      "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/F-3-Pupil-Accommodation-Review-1723475979.pdf",
+      "summary": "We looked for a long-term accommodation or capital plan with school capacity and enrolment and did not find one on the board's pages; only the policy for how the board runs accommodation reviews (which could change a school's future) is posted. Ask the board office. Capacity is building space, not open seats.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan (2024-2025, PDF)",
+      "url": "https://ncdsb.on.ca/wp-content/uploads/2026/05/student-achievement-plan-2024-2025.pdf",
+      "summary": "The board's plan under Ontario's student achievement framework: core skills (reading, writing, math), preparing students for future success (graduation, credits, job-skills programs) and engagement and well-being (attendance, mental health awareness). These are board-wide goals, not this school's.",
+      "related": [
+        {
+          "title": "Student Achievement",
+          "url": "https://ncdsb.on.ca/our-schools/student-achievement/"
+        }
+      ],
+      "source_date": "2024-2025 (from file name)",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Catholic School Councils (policy E-28, PDF)",
+      "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/E-28-Catholic-School-Councils-26-110.pdf",
+      "summary": "The board supports a Catholic School Council at each school; councils advise the principal or board on student achievement, well-being and Catholic identity. Ask the school how to join. The board's pages list no Parent Involvement Committee.",
+      "related": [
+        {
+          "title": "Catholic School Councils procedure APE028 (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2026/09/APE028-Catholic-School-Councils-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-trustees",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Trustees",
+      "url": "https://ncdsb.on.ca/our-board/trustees/",
+      "summary": "The board's trustees and its 2026-27 board meeting schedule. Public board meetings are held at the Catholic Education Centre in Timmins and the public may attend. For earlier agendas and minutes, email info@ncdsb.on.ca.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "necdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support",
+      "url": "https://ncdsb.on.ca/contact-us/student-family-support/",
+      "summary": "Start with the teacher, then the principal; if it is still unresolved or complex, the Student and Family Support Office helps (705-531-7225, supportoffice@ncdsb.on.ca, or its online form) and may refer you to a superintendent. It aims to acknowledge within 2 business days and answer within 5.",
+      "related": [
+        {
+          "title": "Resolution of Complaints policy P-16 (PDF)",
+          "url": "https://ncdsb.on.ca/wp-content/uploads/2025/09/P-16-Resolution-of-Complaints-1690918194.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

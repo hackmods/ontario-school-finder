@@ -1,0 +1,298 @@
+{
+  "board": "B28070",
+  "name": "Superior-Greenstone District School Board",
+  "short": "Superior-Greenstone DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "sgdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Kindergarten (registration)",
+      "url": "https://www.sgdsb.on.ca/kindergarten-registration",
+      "summary": "Families register through an online form on this page, which lets you pick a school and a grade from JK to 12 or adult education, or they can contact the school principal first. For Kindergarten the page says children who will be 4 or 5 years old before December 2026 are ready to register, and asks you to bring proof of age and address. The board gives no registration window.",
+      "related": [
+        {
+          "title": "Parent Resources",
+          "url": "https://www.sgdsb.on.ca/parent-resources"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (East of Thunder Bay Transportation Consortium)",
+      "url": "https://etbtc.mybusplanner.ca/Eligibility.aspx?from=%27transportation%27",
+      "summary": "The consortium that runs the buses for Superior-Greenstone publishes this lookup. Enter your street address and municipality, choose Superior-Greenstone DSB and the school year. The page says that if anything disagrees, the transportation office has the final word.",
+      "related": [
+        {
+          "title": "Bus Registration (ETBTC)",
+          "url": "https://etbtc.on.ca/bus-registration/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-fi",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "program": "french-immersion",
+      "lifecycle": "rules",
+      "title": "Kindergarten (registration)",
+      "url": "https://www.sgdsb.on.ca/kindergarten-registration",
+      "summary": "We could not find any French Immersion or Extended French program on the Superior-Greenstone DSB site, in its school pages or in its policies. The Ministry's list also shows only core French for its schools. If you want French Immersion, ask the board whether any program exists.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Board policies and information (500 Schools and Students)",
+      "url": "https://www.sgdsb.on.ca/500-schools--students",
+      "summary": "We could not find a Superior-Greenstone DSB policy or page about asking to attend a school other than your home school. The 500 Schools and Students policy list has no admission or out-of-area policy. Ask the school principal or the board office.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Eligibility (East of Thunder Bay Transportation Consortium)",
+      "url": "https://etbtc.on.ca/eligibility/",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.2,
+          "Grades 1 to 3": 1.2,
+          "Grades 4 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Buses are run by a consortium shared by four northern boards. Students may be provided transportation if they live beyond these distances from their school by public road: 0.2 km for JK and SK, 1.2 km for Grades 1 to 3, 1.6 km for Grades 4 to 8 and 3.2 km for secondary. Requests and changes go through your school. The board page says transportation questions go first to the principal.",
+      "related": [
+        {
+          "title": "Student Transportation (SGDSB)",
+          "url": "https://www.sgdsb.on.ca/student-transportation"
+        },
+        {
+          "title": "M04 100 Transportation Policy and Procedures (PDF)",
+          "url": "https://etbtc.on.ca/wp-content/uploads/2022/03/M04-100-Transportation-Policy.pdf"
+        },
+        {
+          "title": "Can I Ride the Bus?",
+          "url": "https://etbtc.mybusplanner.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education",
+      "url": "https://www.sgdsb.on.ca/special-education",
+      "summary": "The board places students with exceptionalities as close to the regular classroom as possible, with resource support, and uses IEPs and the IPRC process. This page links the 2026-2027 Special Education Plan, a Parents' Guide to Special Education, a Parent Guide to the IEP and an IPRC parent guide.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.sgdsb.on.ca/upload/documents/departments/spec-ed/sgdsb-special-education-plan-2026-2027-final-approved-june-26-2026.pdf"
+        },
+        {
+          "title": "SGDSB Identification Placement and Review Committee Parent Guide (PDF)",
+          "url": "https://www.sgdsb.on.ca/upload/documents/departments/spec-ed/sgdsb-identification-placement-and-revie.pdf"
+        }
+      ],
+      "source_date": "Special Education Plan 2026-2027, approved June 22, 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.sgdsb.on.ca/special-ed-advisory-committee",
+      "summary": "The board's SEAC advises the board on special education programs and services and helps parents of children who may need support. It meets by video conference at 3:00 p.m., usually the second Tuesday of the month, and the public may attend by emailing the board office. The page lists minutes only up to 2022.",
+      "related": [
+        {
+          "title": "SEAC Terms of Reference (PDF)",
+          "url": "https://www.sgdsb.on.ca/upload/documents/seac-terms-of-reference-updated-february.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Accessibility",
+      "url": "https://www.sgdsb.on.ca/accessibility-information",
+      "summary": "The board commits to removing barriers and gives a feedback address (accessibility@sgdsb.on.ca) and phone number. It links a multi-year accessibility plan covering December 2019 to December 2025 and a 2023 compliance report. We did not find a newer plan, so ask the board whether one has replaced it.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2019-2025 (PDF)",
+          "url": "https://www.sgdsb.on.ca/upload/documents/aboutus/accessibility/accessibility-plan-2019-2023.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "English Language Learners: ESL and ELD (policy 544, PDF)",
+      "url": "https://www.sgdsb.on.ca/upload/documents/policies/544-english-language-learner-may-31-22.pdf",
+      "summary": "The board has a policy for English language learners, covering students who speak another language at home and newcomers from other countries, with ESL (English as a Second Language) and ELD (English Literacy Development) support. We found no welcome or assessment centre page. Ask your school what support it offers.",
+      "related": [
+        {
+          "title": "500 Schools and Students policies",
+          "url": "https://www.sgdsb.on.ca/500-schools--students"
+        }
+      ],
+      "source_date": "Board approved May 31, 2022",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-plan",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Pupil Accommodation (policy 905, PDF)",
+      "url": "https://www.sgdsb.on.ca/upload/documents/905-pupil-accommodation-jun-21-16.pdf",
+      "summary": "This is the board's policy for studying schools whose use of space or programs is in question. It sets steps from a staff report to an accommodation review committee and public input. We found no long-term accommodation plan and no current review. Projections are forecasts and capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Pupil Accommodation Management Guideline (PDF)",
+          "url": "https://www.sgdsb.on.ca/upload/documents/905-pupil-accommodation-jun-21-16-mg.pdf"
+        }
+      ],
+      "source_date": "Board approved June 21, 2016; review by December 2021",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-achieve",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Achievement Plan",
+      "url": "https://www.sgdsb.on.ca/student-achievement-plan",
+      "summary": "The board publishes its Ministry-required Student Achievement Plan each April. The 2025-2026 report (using 2024-2025 results) compares the board with the province on reading and writing, graduation and suspensions. It says new reports appear by April 2 each year.",
+      "related": [
+        {
+          "title": "Student Achievement Plan 2025-2026 (PDF)",
+          "url": "https://www.sgdsb.on.ca/upload/documents/superior-greenstone-dsb_april-2026_student_achievement_plan_report.pdf"
+        },
+        {
+          "title": "Strategic Plan 2024-2030 (PDF)",
+          "url": "https://www.sgdsb.on.ca/upload/documents/communication/sgdsb-strategic-plan-2024-2030.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-pec",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Parent Engagement Committee",
+      "url": "https://www.sgdsb.on.ca/parent-involvement",
+      "summary": "The board's Parent Engagement Committee advises the board on parent engagement and supports school councils. Parents are the majority of members, joined by the director of education and a trustee. It meets at least four times a year in public.",
+      "related": [
+        {
+          "title": "Parent Engagement Committee Terms of Reference",
+          "url": "https://www.sgdsb.on.ca/upload/documents/communication/pec-terms-of-reference-sgdsb-january-202.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Councils (policy 515, PDF)",
+      "url": "https://www.sgdsb.on.ca/upload/documents/515-policy-school-councils-feb-23-21.pdf",
+      "summary": "Every school must have a school council that advises the principal and the board. It works through parent participation and makes reports and recommendations about matters affecting students. Members are elected or appointed for one-year terms.",
+      "source_date": "Board approved February 23, 2021",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "sgdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student and Family Support Office",
+      "url": "https://www.sgdsb.on.ca/student-and-family-support-office",
+      "summary": "Start with your child's teacher, then the principal, then the Superintendent. If it is still not resolved, the Student and Family Support Office will acknowledge you within 2 business days and aims to answer within 5. Transportation concerns go to the transportation consortium.",
+      "related": [
+        {
+          "title": "Student and Family Support Office process chart (PDF)",
+          "url": "https://www.sgdsb.on.ca/upload/documents/student-and-family-support-office-process.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

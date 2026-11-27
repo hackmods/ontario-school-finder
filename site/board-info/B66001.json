@@ -1,0 +1,355 @@
+{
+  "board": "B66001",
+  "name": "Bluewater District School Board",
+  "short": "Bluewater DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "bwdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Registration",
+      "url": "https://www.bwdsb.on.ca/students/student_registration",
+      "related": [
+        {
+          "title": "Online student registration",
+          "url": "https://www.bwdsb.on.ca/families_community/online_student_registration"
+        },
+        {
+          "title": "Student Admission and Registration, AP 6201-D (PDF)",
+          "url": "https://cdnsm5-ss14.sharpschool.com/UserFiles/Servers/Server_8166100/File/About%20Us/Polices%20and%20Procedures/AP_6201-D.pdf"
+        }
+      ],
+      "summary": "Registration is online. Find the area school that serves your address, check the elementary school list, then start the online registration form; the home school's office manager helps if the platform gives trouble. Bring proof of birth, proof of address, proof of custody if it applies and immigration documents if needed, plus immunization records. The page lists no kindergarten registration dates.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find the closest eligible school (Shared School Services)",
+      "url": "https://webquery-sharedschoolservices-on.etstack.io/#/home",
+      "related": [
+        {
+          "title": "School Areas (which schools sit in each Area)",
+          "url": "https://www.bwdsb.on.ca/schools/school_areas"
+        }
+      ],
+      "summary": "The board's registration page sends families to this lookup, run by the Grey-Bruce transportation consortium, to find the school that serves an address. The board's own School Attendance Boundaries page now forwards to a consortium site that would not load for us. Confirm the result with the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-fi-early",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Kindergarten French Immersion",
+      "url": "https://www.bwdsb.on.ca/programs/french_as_a_second_language/kindergarten_french_immersion",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "JK"
+        ]
+      },
+      "related": [
+        {
+          "title": "French Immersion Program Guidelines, AP 5420-D (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/About%20Us/Polices%20and%20Procedures/AP_5420-D.pdf"
+        },
+        {
+          "title": "Student Registration",
+          "url": "https://www.bwdsb.on.ca/families_community/kindergarten_registration"
+        }
+      ],
+      "summary": "French Immersion starts in Junior Kindergarten. Families apply through the usual kindergarten registration; the page gives no deadline, lottery or waitlist. The board's guidelines say kindergarten registration packages at every school include Immersion information and recommend starting in kindergarten. Students reach at least 3,800 hours of French by the end of Grade 8.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-fi-late",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion Program Guidelines, AP 5420-D (PDF)",
+      "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/About%20Us/Polices%20and%20Procedures/AP_5420-D.pdf",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ]
+      },
+      "source_date": "Revised November 11, 2026",
+      "summary": "Joining after kindergarten is case by case. Families who move in from another board with a child already in Immersion may be placed directly, and a child with no Immersion experience may be placed within the first six weeks of Grade 1, both at the principal's discretion. Entry at any other time needs an informal language assessment with the board's French consultant.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Kindergarten French Immersion",
+      "url": "https://www.bwdsb.on.ca/programs/french_as_a_second_language/kindergarten_french_immersion",
+      "program": "french-immersion",
+      "related": [
+        {
+          "title": "School Listing - Secondary",
+          "url": "https://www.bwdsb.on.ca/schools/school_listing_secondary"
+        }
+      ],
+      "summary": "The secondary program earns ten French credits: four French as a second language courses and six other subjects taught in French. The board's school list marks Georgian Bay, Grey Highlands, John Diefenbaker, Kincardine District, Owen Sound District and Saugeen District as secondary Immersion schools. The board's guidelines (AP 5420-D) call the ten-credit route an honours certificate and also grant a certificate for seven credits (four French courses plus three subjects in French). No separate application is described for secondary.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Out of Boundary Requests, AP 6212-D (PDF)",
+      "url": "https://cdnsm5-ss14.sharpschool.com/UserFiles/Servers/Server_8166100/File/About%20Us/Polices%20and%20Procedures/AP_6212-D.pdf",
+      "source_date": "Last revised March 10, 2021",
+      "summary": "To attend a school outside your address area, register at your home school, then submit the board's out-of-boundary form to its principal. The principal of the school you ask for decides, and only if space exists in the permanent building and class, with no extra staffing. Parents provide transportation. Approval is reviewed each year and can be withdrawn to make room for in-area students.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation, BP 6501-D (PDF)",
+      "url": "https://www.brucegreyschoolbus.ca/UserFiles/Servers/Server_9210115/File/Policies%20and%20Procedures/BP_6501-D.pdf",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 12": 1.6
+        }
+      },
+      "source_date": "Revision dates to June 21, 2016",
+      "related": [
+        {
+          "title": "Transportation",
+          "url": "https://www.bwdsb.on.ca/schools/transportation"
+        },
+        {
+          "title": "Out of Boundary Transportation, TCP-A010 (PDF)",
+          "url": "https://www.brucegreyschoolbus.ca/UserFiles/Servers/Server_9210115/File/Policies%20and%20Procedures/TCP_A010_Out_of_Boundary.pdf"
+        }
+      ],
+      "summary": "Buses are arranged by the Grey-Bruce transportation consortium (Shared School Services). Bus eligibility is 1.6 km for both elementary and secondary students. Where possible, urban students walk no more than half that to a stop and rural students no more than 0.8 km. The board's page says families must opt in each child through the Edulog parent portal. Families with an approved out-of-boundary request provide their own transportation unless the consortium finds space.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.bwdsb.on.ca/families_community/special_education",
+      "related": [
+        {
+          "title": "Special Education Plan",
+          "url": "https://www.bwdsb.on.ca/cms/One.aspx?portalId=8166184&pageId=10580272"
+        },
+        {
+          "title": "Individual Education Plans, Section 8 (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Special%20Education%20LS/Special%20Ed/Section_8.pdf"
+        }
+      ],
+      "summary": "The board's special education page explains Individual Education Plans (a written plan for each identified student) and IPRCs (the committee that identifies a student as exceptional and recommends a placement). It links the full Special Education Plan, the IEP section of that plan and the 2026 Parent Guide. Start with your child's school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education",
+      "url": "https://www.bwdsb.on.ca/families_community/special_education",
+      "related": [
+        {
+          "title": "How to Join SEAC 2026-2030 (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Special%20Education%20LS/Special%20Ed/How%20to%20Join%20SEAC%202026-2030.pdf"
+        }
+      ],
+      "summary": "The Special Education Advisory Committee (SEAC) is covered on the board's special education page. It is a board-appointed group of local association and agency representatives, trustees and student trustees that advises the board on special education. The page lists 2026-2027 priorities and recruits new members; a how-to-join document for 2026-2030 is linked.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Annual Accessibility Plan 2025-2026 (PDF)",
+      "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/AODA/BWDSB%20Annual%20Accessibility%20Plan%202025-2026.pdf",
+      "source_date": "2025-2026",
+      "related": [
+        {
+          "title": "Accessibility Standards for Customer Service",
+          "url": "https://www.bwdsb.on.ca/Accessibility_Standards_for_Customer_Service"
+        }
+      ],
+      "summary": "The board publishes an annual (not multi-year) accessibility plan, prepared by its Accessibility Executive Committee. It covers the board's approach under the AODA and the steps to prevent and remove barriers in buildings, corporate services and school transportation. A separate page sets out the board's customer-service accessibility standards.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Multilingual Learners",
+      "url": "https://www.bwdsb.on.ca/programs/multilingual_learners",
+      "related": [
+        {
+          "title": "Grey Bruce Settlement Services (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Learning%20Services%20Program/Grey%20Bruce%20Settlement%20Services%20(7).pdf"
+        }
+      ],
+      "summary": "The board's multilingual learner page describes a welcome ambassador program planned for every school and welcome booklets in seven languages. It links local settlement services and an English self-assessment tool. It does not describe a board assessment or reception centre, so ask your school or the board how a new student's language needs are assessed.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-ltas",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "BWDSB 2024-2025 Long-Term Accommodation Strategy (PDF)",
+      "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Departments/Business%20Services/CPP%20Meeting/2025%20Meeting/BWDSB%20Long-Term%20Strategy-Final_04_08_2025(web).pdf",
+      "source_date": "2024-2025",
+      "related": [
+        {
+          "title": "Student Accommodations and Planning",
+          "url": "https://www.bwdsb.on.ca/departments/financial_services/capital_plan"
+        },
+        {
+          "title": "New school builds",
+          "url": "https://www.bwdsb.on.ca/spotlight/new_school_builds"
+        }
+      ],
+      "summary": "Prepared with Watson and Associates, the strategy projects enrolment and compares it with school capacity by region, then suggests short, medium and long-term actions. Enrolment figures are forecasts, and capacity is building space (on-the-ground capacity), not open seats. The board says the strategy alone does not decide the future of any school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-strategic",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Strategic Plan",
+      "url": "https://www.bwdsb.on.ca/about_us/strategic_plan",
+      "source_date": "Approved December 17, 2024",
+      "related": [
+        {
+          "title": "Multi-Year Strategic Plan (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Multi-Year%20Strategic%20Plan_FINAL.pdf"
+        }
+      ],
+      "summary": "The board posts no separate student achievement plan that we found. Its Multi-Year Strategic Plan sets three priorities: a safe supportive learning community, quality education (including literacy and math) and aligning resources for student success. Trustees approved the revised plan on December 17, 2024, and it is reviewed each year.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.bwdsb.on.ca/families_community/parent_involvement_committee",
+      "related": [
+        {
+          "title": "School Councils",
+          "url": "https://www.bwdsb.on.ca/families_community/school_councils"
+        }
+      ],
+      "summary": "The Parent Involvement Committee supports school councils, links parents to learning resources and advises the board from a parent view. It meets about four times a school year, mostly on Teams, and has open parent seats. The page lists meetings on January 11, March 8 and May 10, 2027.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bwdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office (addressing concerns)",
+      "url": "https://www.bwdsb.on.ca/families_community/quick_links_for_parents/addressing_concerns",
+      "related": [
+        {
+          "title": "Addressing Concerns flowchart (PDF)",
+          "url": "https://www.bwdsb.on.ca/UserFiles/Servers/Server_8166100/File/Families%20-Community/Quick%20Links%20for%20Parents/Addressing%20Concerns/Addressing%20Concerns%20SFSO_2026.pdf"
+        }
+      ],
+      "summary": "Start with your child's teacher, then the principal or area superintendent. If it is still unresolved, contact the Student and Family Support Office by online form or phone at 226-908-5829. The office aims to acknowledge within two business days and respond within five. Transportation questions have their own contact.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "School Listing - Elementary (2026-2027); School Listing - Secondary",
+      "url": "https://www.bwdsb.on.ca/schools/school_listing_elementary",
+      "verified": "2026-11-26",
+      "schools": {
+        "135143": "Dawnview Public School (Hanover)",
+        "198978": "Macphail Memorial Elementary School (Flesherton)",
+        "253316": "Hepworth Central Public School (Hepworth)",
+        "293776": "Elgin Market Public School (Kincardine)",
+        "331307": "East Ridge Community School (Owen Sound)",
+        "450910": "Port Elgin-Saugeen Central School (Port Elgin)",
+        "914444": "Grey Highlands Secondary School (Flesherton)",
+        "951692": "Owen Sound District Secondary School (Owen Sound)"
+      }
+    }
+  ]
+}

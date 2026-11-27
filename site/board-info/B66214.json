@@ -1,0 +1,308 @@
+{
+  "board": "B66214",
+  "name": "Renfrew County District School Board",
+  "short": "RCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "rcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration & Transfers",
+      "url": "https://www.rcdsb.on.ca/our_schools/registration_and_transfers",
+      "summary": "Check your home school with the School Locator, then pre-register online (use a desktop, laptop or Chromebook, not a phone) or print the form, and book an in-person appointment at the home school to show original documents. You need the signed registration form, proof of address, proof of age, custody and immigration papers if they apply, and a recent report card for students coming from another school. Schools do not collect immunization records; families update them with the health unit's ICON tool. In July and August, contact the Board Office.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Kindergarten (Early Learning)",
+      "url": "https://www.rcdsb.on.ca/programs___learning/kindergarten___early_learning_",
+      "summary": "Kindergarten is play-based, taught by a teacher and an early childhood educator, and families register through the same steps as any new student. The page describes the program and links to registration but gives no registration dates or age cut-offs; ask the home school or the board. French is part of every Kindergarten day, in a Core French or an Early French Immersion pathway.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Boundaries",
+      "url": "https://www.rcdsb.on.ca/our_schools/school_boundaries",
+      "summary": "The board's School Locator shows the school for an address, including which French as a second language schools you may attend. If it finds nothing, contact the board. The board says boundaries are subject to change and that it has the final word; the school confirms the school of attendance when registration is validated. Boundary maps are also on the transportation consortium's site.",
+      "related": [
+        {
+          "title": "School Locator",
+          "url": "https://schoollocator.baragar.com/ONB66214"
+        },
+        {
+          "title": "Boundary maps (Renfrew County Joint Transportation Consortium)",
+          "url": "https://www.onthebus.ca/bus-information/boundary-maps/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language (FSL)",
+      "url": "https://www.rcdsb.on.ca/programs___learning/french-as-a-_second-_language",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ]
+      },
+      "summary": "French Immersion starts in Grade 1, with half the day in French (Social Studies, History, Geography, Health, Physical Education, the Arts) and half in English (Language Arts, Math, Science) through Grade 8. Kindergarten has an Early French Immersion pathway with French every day (240 minutes over five days) that prepares children for Grade 1. Both are offered at designated schools in each family of schools, not every school. The page does not say how or when to apply. Parents do not need to speak French.",
+      "related": [
+        {
+          "title": "School Locator (shows the schools you may attend)",
+          "url": "https://schoollocator.baragar.com/ONB66214"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-ef",
+      "topic": "program",
+      "program": "extended-french",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language (FSL)",
+      "url": "https://www.rcdsb.on.ca/programs___learning/french-as-a-_second-_language",
+      "facts": {
+        "entry_grades": [
+          "4"
+        ]
+      },
+      "summary": "Extended French is for students who want more French after several years in an English program. It begins in Grade 4, with half of instruction in French from Grades 4 to 8, and is offered at designated schools. The page does not say how or when to apply; ask your home school or the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language (FSL)",
+      "url": "https://www.rcdsb.on.ca/programs___learning/french-as-a-_second-_language",
+      "summary": "In high school, students from Early French Immersion work toward a French Immersion Certificate: 10 credits in French, 6 of them taught in French and 4 French language credits. The board also describes an Extended French Certificate (7 credits, 3 taught in French) and Core French. The board suggests pathways by hours of French by Grade 8 (600 Core, 1,260 Extended, 3,800 Immersion), and Grade 12 students can take the DELF exam.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "AP 550 Attendance Boundary Areas and Cross-boundary Transfer Applications (PDF)",
+      "url": "https://www.rcdsb.on.ca/UserFiles/Servers/Server_315469/File/APs/AP-550-Attendance-Boundary-Areas-Final-Jun-2025.pdf",
+      "summary": "Register at your home school first, then ask for a cross-boundary transfer with the board's Form 550, completed with both principals and decided by the Superintendent of Business. Approval is for one year; renewal applications are due by February 15 for the next school year. Transportation is not provided if a transfer is approved, some schools may be closed to transfers because of capacity, and a denial can be appealed in writing.",
+      "related": [
+        {
+          "title": "Form 550 Cross-boundary Transfer Application (PDF)",
+          "url": "https://www.rcdsb.on.ca/UserFiles/Servers/Server_315469/File/APs/FORM-550-CBT-Application-Final-Jun-2025.pdf"
+        }
+      ],
+      "source_date": "Revised 2025",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Eligibility for Transportation, RCJTC policy P.01.02 (PDF)",
+      "url": "https://onthebus-ca.govstack.com/media/2hshwbiv/p0102_eligibility_for_transportation_aoda.pdf",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.5,
+          "Grades 1 to 6": 1.6,
+          "Grades 7 to 12 (rural)": 1.6,
+          "Grades 7 to 12 (urban/developed)": 2.5
+        }
+      },
+      "summary": "The Renfrew County Joint Transportation Consortium (shared with the Catholic board) sets the rules: transportation may be provided to students living farther than these distances by the shortest public route, and safety hazards can shorten them. Buses serve a student's own attendance zone only; students outside it are not bussed, apart from temporary seats if space allows.",
+      "related": [
+        {
+          "title": "Eligibility for Bussing, policy P.01.17 (PDF)",
+          "url": "https://onthebus-ca.govstack.com/media/xwznk1pr/p0117_eligibility_for_bussing_aoda.pdf"
+        },
+        {
+          "title": "Buses and Transportation (board page)",
+          "url": "https://www.rcdsb.on.ca/our_schools/buses_and_transportation"
+        },
+        {
+          "title": "Can I ride the bus? (consortium lookup)",
+          "url": "https://portal.onthebus.ca/TransportationEligibility"
+        }
+      ],
+      "source_date": "Reviewed May 25, 2019",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Specialized Services",
+      "url": "https://www.rcdsb.on.ca/programs___learning/specialized_services",
+      "summary": "Register at your home school, then talk with the principal about your child's needs; the principal works with the Specialized Services team on next steps. The board uses three tiers of support and offers placements from classroom support to full-time special education classes. The page links the board's Comprehensive Special Education Plan (updated September 2026) and a parents' guide covering IEPs and the IPRC process.",
+      "related": [
+        {
+          "title": "Comprehensive Special Education Plan (PDF)",
+          "url": "https://www.rcdsb.on.ca/UserFiles/Servers/Server_315469/File/Specialized%20Services/SEPT%202026%20RCDSB%20Comprehensive%20Special%20Education%20Plan.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Comprehensive Special Education Plan, Section 17 (PDF)",
+      "url": "https://www.rcdsb.on.ca/UserFiles/Servers/Server_315469/File/Specialized%20Services/SEPT%202026%20RCDSB%20Comprehensive%20Special%20Education%20Plan.pdf",
+      "summary": "The Special Education Advisory Committee advises trustees on special education programs and takes part in the yearly review of the plan and the budget. The plan says it meets 10 times a year on the third Wednesday of the month, 3:00 to 5:00 p.m., at the board office in Pembroke, open to the public. To present, contact the Specialized Services Department. The board has no separate SEAC page that we found.",
+      "related": [
+        {
+          "title": "Specialized Services (FAQ on SEAC)",
+          "url": "https://www.rcdsb.on.ca/programs___learning/specialized_services"
+        }
+      ],
+      "source_date": "Updated September 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.rcdsb.on.ca/our_district/accessibility",
+      "summary": "The board's 2026-30 Multi-Year Accessibility Plan, with annual action plans and updates for 2025-26. It covers board-wide barriers; how to get into the administration building is described, and each school website has an Accessing Our School page for building details. Ask the school about specific needs.",
+      "source_date": "2026-30 plan",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-mll",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Multilingual Language Learners (MLL)",
+      "url": "https://www.rcdsb.on.ca/programs___learning/english_language_learner",
+      "summary": "Tell the school at registration that English is not your child's first language. A teacher from the MLL team does an initial assessment with the provincial STEP tool and plans English as a Second Language or Early Literacy Development support. Students attend their home school with a visiting MLL teacher; there is no separate reception centre. Settlement workers for newcomer families come through Lanark and Renfrew Immigrant Settlement Services.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accommodation Reviews",
+      "url": "https://www.rcdsb.on.ca/our_district/accommodation_reviews",
+      "summary": "We looked for a long-term accommodation or capital plan with school capacity and enrolment and found none. The board's Accommodation Reviews page has its pupil accommodation policy and documents from past reviews of Deep River and Petawawa schools (2008 to 2009). For current plans or boundary changes, ask the board's Superintendent of Business; capacity is building space, not open seats.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.rcdsb.on.ca/our_district/student_achievement_plan",
+      "summary": "The board's 2025-2026 plan under Ontario's student achievement framework, with three priorities: core academic skills, preparation for future success, and student engagement and well-being. It shows Ministry data, extra indicators the board tracks and key actions. These are board-wide results, not one school's. The page invites feedback on the plan.",
+      "related": [
+        {
+          "title": "2025-2026 Student Achievement Plan (PDF)",
+          "url": "https://www.rcdsb.on.ca/UserFiles/Servers/Server_315469/File/Student%20Achievement%20Plan/Student%20Achievement%20Plan%20Renfrew%20County%20DSB%202024-2025%20-%20June2026.pdf"
+        }
+      ],
+      "source_date": "2025-2026 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.rcdsb.on.ca/students___families/parent_involvement_committee",
+      "summary": "A parent-led committee that advises the board and the CEO and supports school councils; parents and caregivers are the majority and serve one-year terms. It meets at least four times a year. The 2026-2027 dates listed are October 5, November 2 and December 7, 2026, and February 1, March 1, April 5, May 3 and June 7, 2027, with agendas and minutes posted.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Getting Help With an Issue",
+      "url": "https://www.rcdsb.on.ca/students___families/getting_help_with_an_issue",
+      "summary": "Start with your child's school and principal. If you need more help afterwards, the Student and Family Support Office takes questions by form, email or phone (613-735-6012) and aims to acknowledge within 2 business days and respond within 5. The page links a decision tree that shows where each kind of issue goes.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

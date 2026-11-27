@@ -1,0 +1,299 @@
+{
+  "board": "B28010",
+  "name": "Algoma District School Board",
+  "short": "Algoma DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "adsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Kindergarten Registration",
+      "url": "https://www.adsb.on.ca/register-for-kindergarten",
+      "summary": "Register online: create an account, then pick your child's school from the list. If you do not know your zoned school, enter your home address in the eligibility tool on the page. If you cannot register online, call your neighbourhood school or the board at 705-945-7235. The page lists no registration dates and no required documents. For Grades 7 and 8, contact the intermediate school directly; the board says school placement is based on where the child lives.",
+      "related": [
+        {
+          "title": "Intermediate Student Registration",
+          "url": "https://www.adsb.on.ca/intermediate-registration"
+        },
+        {
+          "title": "Students New to Our Area",
+          "url": "https://www.adsb.on.ca/new-to-our-area"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which school do I attend? (Algoma and Huron-Superior Transportation Services)",
+      "url": "https://ahsts.mybusplanner.ca/Eligibility",
+      "summary": "The board points families to this lookup, run by its transportation consortium, to find the school zoned for a home address. The board says school placement is based on where a child lives.",
+      "related": [
+        {
+          "title": "Students New to Our Area",
+          "url": "https://www.adsb.on.ca/new-to-our-area"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.adsb.on.ca/french-immersion-1753896997301",
+      "summary": "The board lists Boreal and F.H. Clergue (Sault Ste. Marie) and Esten Park with Elliot Lake Intermediate (Elliot Lake) as its French Immersion schools. The page does not say which grade the program starts in, how or when to apply, whether there is a waitlist, or whether buses are provided. Ask the school or the board, and use the registration pages for how to enrol.",
+      "related": [
+        {
+          "title": "French as a Second Language (FSL) Programs",
+          "url": "https://www.adsb.on.ca/frenchelem-1753896998038"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion - Secondary Program",
+      "url": "https://www.adsb.on.ca/french-immersion-secondary",
+      "summary": "Secondary French Immersion is offered at Superior Heights Collegiate and Vocational School, Grades 9 to 12. Students who complete 10 Immersion courses, including 4 credits in Francais, earn a bilingual certificate. The page gives no entry steps; it points families to the school at 705-945-7177.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-ext-french",
+      "topic": "program",
+      "program": "extended-french",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language (FSL) Programs - What and Where",
+      "url": "https://www.adsb.on.ca/frenchelem-1753896998038",
+      "summary": "Extended French teaches at least 25% of the day in French, with 1,260 hours of French by the end of Grade 8. In high school, a certificate comes after four Extended French courses plus three other subjects taught in French. The page names Elliot Lake Secondary School as offering it and does not list elementary schools or elementary entry steps.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Out of Boundary Request Forms",
+      "url": "https://www.adsb.on.ca/out-of-boundary-request-forms",
+      "summary": "To ask for a school outside your zone, use one of two board forms: Elementary K-8 or Secondary and Intermediate 7-12 (both PDFs on this page). The page gives no eligibility rules, deadline or decision process, and says nothing about transportation. Ask the board at 705-945-7111.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policies - Algoma & Huron-Superior Transportation Services (AHSTS)",
+      "url": "https://ahsts.ca/policies/",
+      "facts": {
+        "walk_km": {
+          "SK to Grade 3": 0.75,
+          "Grades 4 to 8": 1.5,
+          "Grades 9 to 12": 2.25
+        }
+      },
+      "summary": "The consortium buses students who live beyond set distances from school. In Sault Ste. Marie, central Algoma and the north (Chapleau, Hornepayne, Wawa, White River): beyond 0.75 km for Senior Kindergarten to Grade 3, 1.5 km for Grades 4 to 8, 2.25 km for secondary. In the east (Blind River, Elliot Lake, Spanish): beyond 1.6 km for Grades 1 to 8, 2.25 km for secondary. Junior Kindergarten gets door-to-door service when possible (JK and SK in the east). The page does not mention courtesy seats.",
+      "related": [
+        {
+          "title": "Check transportation eligibility for an address",
+          "url": "https://ahsts.mybusplanner.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.adsb.on.ca/special-education-1753897814649",
+      "summary": "The board's special education page, with its 2026 Special Education Plan and a Parent Guide to Special Education Programs and Services. The board says inclusion in regular classrooms is the first option, with specialized classes available when families prefer them. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "ADSB Special Education Plan 2026 (PDF)",
+          "url": "https://www.adsb.on.ca/documents/5a1194ae-a0c5-4b9d-b4c2-0856c5d6fbe3/ADSB-Special-Education-Plan-2026.pdf"
+        },
+        {
+          "title": "Parent Guide to Special Education Programs and Services 2026 (PDF)",
+          "url": "https://www.adsb.on.ca/documents/8ba8ee5c-d004-4ec3-b8ce-a1309a8b70bd/ADSB-Parent-s-Guide-to-Special-Education-Programs-and-Services-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (S.E.A.C.)",
+      "url": "https://www.adsb.on.ca/seac",
+      "summary": "SEAC meets monthly in the school year, on Tuesdays from 12:00 to 1:30 p.m. at the Education Centre, with a virtual option. Meetings are open to the public and can be watched live; call 705-945-7297 for the link. The page posts the 2026-2027 dates, the member list and a membership application.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.adsb.on.ca/accessibility",
+      "summary": "The board's accessibility plan (titled Fall 2025-2029), with its accessibility standards policy, a 2023 status report and a list of 2022-2024 accessibility upgrades. These are board-wide documents, not the features of a particular building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "ADSB Accessibility Plan Fall 2025-2029 (PDF)",
+          "url": "https://www.adsb.on.ca/documents/aa06d017-a3b0-5d8a-a6a7-eeda683e173d"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Welcome To Canada",
+      "url": "https://www.adsb.on.ca/index.jsp-uREC_ID-1145019-pREC_ID-1392827-type-d-1754602726774",
+      "summary": "Families new to Canada start by filling out the online Student Information form; the board then contacts you with registration instructions. Students can register any time from September to June. The page names work or study permit holders, permanent residents, refugee claimants and citizens whose child is not a citizen. The FAQ is marked coming soon. Email welcometocanada@adsb.on.ca. It does not describe English language support.",
+      "related": [
+        {
+          "title": "Students New to Our Area",
+          "url": "https://www.adsb.on.ca/new-to-our-area"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-capital",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "ADSB Capital Plan (PDF)",
+      "url": "https://www.adsb.on.ca/documents/20a4b52e-8c23-490a-b75a-b3a1b9f89149/Capital-Plan-Update-Aug-2026r.pdf",
+      "source_date": "Revised August 2026",
+      "summary": "The board's capital plan, school by school in the Sault, Wawa, Blind River and Thessalon areas: building ages, approximate enrolment and planned projects such as new schools. It is a facilities plan, not a long-term accommodation plan; figures are approximate, and building space is not the same as open seats. We found no separate accommodation plan or review on the site.",
+      "related": [
+        {
+          "title": "Plant Operations",
+          "url": "https://www.adsb.on.ca/business-plant-operations-1753896950459"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan: ADSB",
+      "url": "https://www.adsb.on.ca/student-achievement-plan",
+      "source_date": "Prepared April 2026",
+      "summary": "The board's plan under Ontario's student achievement framework: literacy and math (EQAO, OSSLT), graduation and credits, and engagement and well-being (attendance, suspensions, awareness of mental health supports), with the board's actions and results next to the province's. Main reporting year is 2024-2025. These are board-wide figures, not a school's.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.adsb.on.ca/parent-involvement-committee-1753897745744",
+      "summary": "The PIC links parents with the Director of Education and trustees and supports school councils. Parents join by self-nomination at the start of each school year; meetings are in person or virtual, usually at 6:30 pm. Each school also has a school council for school-level matters; ask your school or call 705-945-7111.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "adsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Public / Parent Concerns",
+      "url": "https://www.adsb.on.ca/1dc412cb-219d-419d-86bf-fec927540812",
+      "summary": "Start with your child's teacher, then the principal. If it is still unresolved, or not about a school, contact the Student and Family Support Office through its online request form; it can explain next steps and connect you with your superintendent. General questions go through the Contact Us form.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion",
+      "url": "https://www.adsb.on.ca/french-immersion-1753896997301",
+      "verified": "2026-11-26",
+      "schools": {
+        "186783": "Esten Park (Elliot Lake)",
+        "202614": "F.H. Clergue (Sault Ste. Marie)",
+        "293055": "Elliot Lake Intermediate (Elliot Lake)",
+        "490822": "Boreal Public School (Sault Ste. Marie)",
+        "958050": "Superior Heights C&VS (Sault Ste. Marie)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "board": "B29041",
+  "name": "Northwest Catholic District School Board",
+  "short": "Northwest Catholic DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "nwcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Registration",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1157143&type=d&pREC_ID=1390881",
+      "summary": "The board runs five Catholic elementary schools (JK to Grade 8) and no high school. Register through the board's online registration (a 2026-2027 link is on the page), then follow your school's own transition plan. Under the board's admission procedure, children of separate school supporters have the right to attend from the year they turn four (JK) or five (K); Catholic-faith children where no separate school zone exists are treated the same way. Non-Catholic children may be admitted in order of application, with the principal's agreement and if space and staff allow.",
+      "related": [
+        {
+          "title": "F-07 School Admissions (PDF)",
+          "url": "https://22.files.edl.io/6107/03/25/25/205237-69b53551-54e9-459d-8116-1488b50c4ab1.pdf"
+        },
+        {
+          "title": "Kindergarten Program",
+          "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1157143&type=d&pREC_ID=1390879"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten Program",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1157143&type=d&pREC_ID=1390879",
+      "summary": "Schools offer a two-year, full-day Kindergarten led by a teacher and an early childhood educator, with French Immersion available at some schools. The board's admission procedure says the four boards in the area set the dates of a joint Kindergarten Registration Week each year, and that Kindergarten registration stays open after that window. This page gives no dates, so ask your school.",
+      "related": [
+        {
+          "title": "F-07 School Admissions (PDF)",
+          "url": "https://22.files.edl.io/6107/03/25/25/205237-69b53551-54e9-459d-8116-1488b50c4ab1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-address",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Check Eligibility (NWOSSC Web Query)",
+      "url": "https://www.nwobus.ca/check-eligibility/",
+      "summary": "For St. Joseph's (Dryden) and Sacred Heart (Sioux Lookout), the Northwestern Ontario Student Services Consortium has an address tool that shows which school attendance area you live in and whether your child is eligible for busing. For St. Mary (Fort Frances), St. Patrick's (Atikokan) and Our Lady of the Way (Stratton), use the Rainy River District consortium's boundary maps. The tool's answer is confirmed by the consortium once you request transportation.",
+      "related": [
+        {
+          "title": "School Boundary Maps (Rainy River District consortium)",
+          "url": "https://rrdtsc.rrdsb.com/our_schools/school_boundary_maps"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "F-04, French Immersion (PDF)",
+      "url": "https://22.files.edl.io/4cc9/05/21/25/181538-6008e54e-c7df-4b26-ba29-c1ea33f99c22.pdf",
+      "summary": "Early French Immersion starts in Year 1 or Year 2 of full-day Kindergarten and continues to Grade 8, with at least half of instruction in French. The board lists it at St. Joseph's (Dryden) and St. Mary (Fort Frances) from Kindergarten to Grade 8 and at Sacred Heart (Sioux Lookout) from Kindergarten to Grade 3. Apply at the school office. A new Kindergarten class needs at least 16 students. No bus is added or extended only to reach Immersion. Leaving the program in writing means not being allowed back.",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "K"
+        ]
+      },
+      "source_date": "Date Last Reviewed May 2025",
+      "related": [
+        {
+          "title": "French Language (Core French and French Immersion schools)",
+          "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1157145&type=d&pREC_ID=1390889"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Boundaries & Calendars (NWOSSC)",
+      "url": "https://www.nwobus.ca/school-boundaries-calendars/",
+      "summary": "Children living inside a school's attendance boundary are entitled to attend it. The consortium says parents may apply to the principal for approval to attend a school outside the boundary; if approved, the parents are responsible for transportation. The board's own admission procedure (F-07) covers children who live outside the board's area, who apply through the Superintendent of Education and may pay tuition. We found no separate out-of-area policy from the board.",
+      "related": [
+        {
+          "title": "F-07 School Admissions (PDF)",
+          "url": "https://22.files.edl.io/6107/03/25/25/205237-69b53551-54e9-459d-8116-1488b50c4ab1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Joint Transportation Policy (PDF)",
+      "url": "https://rrdtsc.rrdsb.com/policy_procedures/joint_transportation_policy",
+      "summary": "Busing is run by two consortia under common policies: Rainy River District for St. Mary, St. Patrick's and Our Lady of the Way, and Northwestern Ontario Student Services for St. Joseph's and Sacred Heart. Distances shown are for living inside the school's boundary; JK and SK are door to door in the Rainy River area and over 500 m in the NWOSSC area. Courtesy seats are possible on existing routes with room. Transportation is not added just for French Immersion.",
+      "facts": {
+        "walk_km": {
+          "Grades 1 to 3": 1,
+          "Grades 4 to 8": 1.6
+        }
+      },
+      "related": [
+        {
+          "title": "Joint Transportation Policy (PDF)",
+          "url": "https://rrdtsc.rrdsb.com/policy_procedures/joint_transportation_policy"
+        },
+        {
+          "title": "Check Eligibility (NWOSSC)",
+          "url": "https://www.nwobus.ca/check-eligibility/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1157145&type=d&pREC_ID=1390922",
+      "summary": "The board aims to keep as many exceptional students as possible in regular classes, with Special Education Resource Teachers helping classroom teachers. A student is identified as exceptional by an Identification, Placement and Review Committee (IPRC), and placements range from resource support to special classes. The page links the 2026-2027 Plan for the Provision of Special Education Programs and Services, revised June 2026.",
+      "source_date": "Plan revised June 2026",
+      "related": [
+        {
+          "title": "2026-2027 Plan for the Provision of Special Education Programs and Services (PDF)",
+          "url": "https://22.files.edl.io/c831/06/10/26/183612-86d86c26-51a3-45ac-a84a-482bf6f4e6d5.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1157145&type=d&pREC_ID=1390922",
+      "summary": "The Special Education Advisory Committee advises the board on special education programs and services. It is mostly parents, often from local associations, with trustees and administrators in an advisory role. It meets monthly from September to June at 12:00 p.m.; the 2026-27 schedule runs from September 8, 2026 to June 8, 2027, and minutes are posted on the page.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan 2023-2028 (PDF)",
+      "url": "https://22.files.edl.io/bdc4/09/14/26/165151-5b48e545-ffa4-404b-a036-86365d2cacea.pdf",
+      "summary": "The board's accessibility plan covers January 2023 to December 2028 and was prepared by its Accessibility Working Committee. It describes the barrier-removal work done so far, how new barriers are prevented and identified, and the barriers the board plans to address. The plan is also available in accessible formats on request from the board's Human Resources office (807-274-2931).",
+      "verified": "2026-11-26",
+      "source_date": "January 2023 to December 2028"
+    },
+    {
+      "id": "nwcdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Multilingual Language Learners",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1157145&type=d&pREC_ID=1400015",
+      "summary": "The board has a Multilingual Language Learners page, but it only links to a Google Sites resource that needs a board sign-in, so we could not read what support is offered. Ask your school about language support for children who are new to English; the admission procedure asks for proof of residency status in Canada.",
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "nwcdsb-accomm",
+      "topic": "planning",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accommodation Review",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1156458&type=d&pREC_ID=1390742",
+      "summary": "No long-term accommodation plan with school capacity and enrolment tables was found. The page explains the board's pupil accommodation review process (procedure D-10) for school consolidation, closure or boundary change, led by a committee that consults the community before the board decides, and posts the 2013 Our Lady of the Way review. Projections are forecasts, and capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "D-18 School Attendance Zone Review (PDF)",
+          "url": "https://22.files.edl.io/8639/05/21/25/181538-7f0f8685-147a-4522-874d-e28daf1fe664.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1156458&type=d&pREC_ID=1394365",
+      "summary": "The board's annual improvement plan under the Ministry framework; the page lists the 2026-2027 Student Achievement Plan and the 2023 Joint Protocol for Student Achievement. Earlier plans we could read set goals and results under the Ministry's three headings: core academic skills, preparing students for future success, and student engagement and well-being. A multi-year strategic plan for 2023-2027 is also posted.",
+      "related": [
+        {
+          "title": "2026-2027 Student Achievement Plan (PDF)",
+          "url": "https://22.files.edl.io/9a6f/04/30/26/152747-80445db0-da8f-4ef2-be83-12e4c7d61d8b.pdf"
+        },
+        {
+          "title": "Strategic Plan",
+          "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1156458&type=d&pREC_ID=1390871"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-cpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic Parent Involvement Committee",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1157143&type=d&pREC_ID=1396320",
+      "summary": "The Catholic Parent Involvement Committee includes a representative from each school council, with board and trustee representatives. Meetings cover topics such as bullying, mental health and social media, and councils share ideas. At least one parent member from each school council should attend, usually the chair; the principal passes on the chair's contact details to the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "F-12, Catholic School Councils (PDF)",
+      "url": "https://22.files.edl.io/f8ea/07/07/23/233011-ea7f0a2b-3df1-4314-aec3-6ce6a551d13d.pdf",
+      "summary": "Each school must have a Catholic school council to help its school meet its goals and to link home, school, parish and community. Councils are expected to respect and support the right to Catholic education in all their decisions. The procedure sets out the council's duties, membership and how it operates; ask your principal how to join.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "nwcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1170750&type=d&pREC_ID=1401001",
+      "summary": "Start with the school: the staff member involved, then the principal. If it stays unresolved or needs more than the school can do, contact the Student and Family Support Office (1-807-277-8109, or its online form), which brings in the right superintendent or the Director. The office acknowledges inquiries within two business days and aims to respond within five.",
+      "related": [
+        {
+          "title": "I-01 Disposition of Commendations, Complaints or Questions (PDF)",
+          "url": "https://22.files.edl.io/02ed/05/01/26/130217-e3b8f970-5396-4996-af07-f8dd522bceec.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Language",
+      "url": "https://www.tncdsb.on.ca/apps/pages/index.jsp?uREC_ID=1157145&type=d&pREC_ID=1390889",
+      "verified": "2026-11-26",
+      "schools": {
+        "734252": "St. Mary School - Kindergarten to Grade 8 (Fort Frances)",
+        "758000": "Sacred Heart School - Kindergarten to Grade 3 (Sioux Lookout)",
+        "813770": "St. Joseph's School - Kindergarten to Grade 8 (Dryden)"
+      }
+    }
+  ]
+}

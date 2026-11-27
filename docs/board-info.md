@@ -1,12 +1,13 @@
-# Board information (`site/board-info.json`)
+# Board information (`site/board-info/`)
 
 Practical, sourced information families need to act: how to register, which school serves an address,
 program entry (French Immersion), asking for another school, transportation rules, special education,
 accessibility, newcomer support, board plans and how to take part. It is collected **by hand** from each
 board's own pages, summarised in plain words, and inherited by every school page of that board.
 
-Coverage (checked 2026-11-26): **DSB Niagara (B66150)** and **Niagara Catholic (B67156)**. Every other board
-shows "Not yet collected for this board" and a link to the board, never a guess.
+One file per board: `site/board-info/<board number>.json` (e.g. `B66150.json`), plus `_meta.json` (the
+refresh rules). A board with no file shows "Not yet collected for this board" and a link to the board, never a
+guess. Coverage and the boards that couldn't be collected are listed in [HANDOFF.md](HANDOFF.md).
 
 ## Rules
 
@@ -42,7 +43,7 @@ shows "Not yet collected for this board" and a link to the board, never a guess.
 | `lifecycle` | `dates` (registration windows, deadlines), `rules`, `plans`, `contacts`: how fast it goes stale |
 | `title`, `url` | the board's own page or document |
 | `summary` | plain words |
-| `facts` | structured facts used on pages: `entry_grades`, `walk_km`, `capacity_otg`, `enrolment`, `projected` |
+| `facts` | structured facts used on pages: `entry_grades` (grade codes `JK`, `K` = senior kindergarten, `1` to `12`; list every entry point, e.g. early and middle Immersion), `walk_km` (the board's own grade groups and distances), `capacity_otg`, `enrolment`, `projected` |
 | `related` | further official links |
 | `source_date` | the date the document gives itself (e.g. "Latest review September 8, 2026") |
 | `verified` | the day you read it (ISO date) |
@@ -61,9 +62,28 @@ shows "Not yet collected for this board" and a link to the board, never a guess.
 A quick reachability check of every link: `node -e` or `curl -s -o /dev/null -w "%{http_code}"` over the
 URLs; every one returned 200 on 2026-11-26.
 
+## A board file
+
+```json
+{ "board": "B66150", "name": "District School Board of Niagara", "short": "DSB Niagara", "checked": "2026-11-26",
+  "records": [ ... ],
+  "schools": { "<bsid>": { "records": [ ... ] } },
+  "decisions": [ { ..., "decided": "2026-06-16", "schools": ["<bsid>"], "match": "how names were matched" } ],
+  "school_programs": [ { "program": "french-immersion", "title": "...", "url": "...", "verified": "...", "schools": { "<bsid>": "name on the list (city)" } } ] }
+```
+
+Every record id in a file starts with the same prefix (`dsbn-`), unique to the board. `schools`, `decisions`
+and `school_programs` are optional, and every school they name must belong to the board (the tests check).
+District school boards need at least one record for each of the 13 topics (`not_found` when the board doesn't
+publish it); school authorities (hospital and treatment-centre schools, isolate boards, provincial schools) only
+what applies to them.
+
+**A site that blocks automated reading** (Cloudflare challenge, 403) is not a board that publishes nothing: leave
+that board without a file rather than write `not_found` records, and list it in HANDOFF.md for a person to read.
+
 ## Adding a board
 
-Copy one board's block, then read that board's pages for each topic. Start with registration, the address
+Copy one board's file to `site/board-info/<board number>.json`, change `board`, `name`, `short` and the id prefix, then read that board's pages for each topic. Start with registration, the address
 lookup, program entry, out-of-area requests and transportation (the "Attendance and registration" panel),
-then special education, SEAC, accessibility, newcomer support, plans and involvement. Leave a topic out
-rather than guess; use `not_found` when you looked and the board doesn't publish it.
+then special education, SEAC, accessibility, newcomer support, plans and involvement. Never guess: use
+`not_found` when you looked and the board doesn't publish it.

@@ -1,0 +1,463 @@
+{
+  "board": "B66176",
+  "name": "Waterloo Region District School Board",
+  "short": "WRDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "wrdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register for Kindergarten to Grade 8",
+      "url": "https://www.wrdsb.ca/register/register/elementary/",
+      "summary": "Fill in the online New Student Registration Form (use a computer for the first sign-in); the school then emails next steps and you book an appointment. Bring proof of address, original proof of birth, custody papers if they apply, immigration documents where required, and a recent report card. Immunization records go to Region of Waterloo Public Health, not the board. Grade is set by birth year. Transfers within the board follow a separate Transfer page.",
+      "related": [
+        {
+          "title": "How to Register",
+          "url": "https://www.wrdsb.ca/register/"
+        },
+        {
+          "title": "Register for Grades 9 to 12",
+          "url": "https://www.wrdsb.ca/register/register/secondary/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten in the WRDSB",
+      "url": "https://www.wrdsb.ca/kindergarten/",
+      "summary": "The page says to register now for Kindergarten starting September 2026 and names children born in 2021 or 2022 as eligible; it gives no opening or closing dates, so the board updates it yearly. Registration is the online form, then your home school calls to book an in-person appointment to check documents.",
+      "source_date": "Kindergarten starting September 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Maps (School Attendance Boundaries) - Planning Department",
+      "url": "https://www.wrdsb.ca/planning/school-boundary-and-location-maps/",
+      "summary": "Enter a home address in School Finder, run by the shared transportation service (STSWR), to see the designated school and whether the address is in a walk or bus zone. The page also links the 2026/2027 boundary map. Boundaries can change from year to year, so check the school year selected.",
+      "related": [
+        {
+          "title": "School Finder (STSWR)",
+          "url": "https://bpweb.stswr.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Application Process - French Programs",
+      "url": "https://www.wrdsb.ca/french/application/",
+      "facts": {
+        "entry_grades": [
+          "2"
+        ],
+        "single_entry": true
+      },
+      "summary": "WRDSB French Immersion starts in Grade 2; Core French begins in Grade 1. Families of children born in 2020 may apply for September 2027. Phase 1 runs January 6 to 31, 2027; Phase 2 follows if space remains. A lottery is used only where a school has more Phase 1 applicants than places, with students for their home-address school and approved out-of-boundary students ahead of other requests. Offers are expected in early March 2027 with about 5 business days to reply. A preference does not guarantee a place. No bus is provided to an out-of-boundary Immersion school.",
+      "source_date": "Applications for 2027-2028",
+      "related": [
+        {
+          "title": "French Programs",
+          "url": "https://www.wrdsb.ca/french/"
+        },
+        {
+          "title": "Schools Offering French Immersion",
+          "url": "https://www.wrdsb.ca/french/schools/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Instruction Pathways",
+      "url": "https://www.wrdsb.ca/french/french-programs/",
+      "summary": "Students who finish elementary French Immersion can continue in secondary school in either French Immersion (at least ten courses taught in French) or Extended French (at least seven). The board lists two high schools for Immersion and five for Extended French on its schools page.",
+      "related": [
+        {
+          "title": "Schools Offering French Immersion",
+          "url": "https://www.wrdsb.ca/french/schools/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-ef",
+      "topic": "program",
+      "program": "extended-french",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Instruction Pathways",
+      "url": "https://www.wrdsb.ca/french/french-programs/",
+      "summary": "Extended French is a secondary option that students coming out of elementary French Immersion can continue into: four French language courses plus at least three other courses taught in French. The page states no separate entry grade or entry rule. The board lists five high schools for it.",
+      "related": [
+        {
+          "title": "Schools Offering French Immersion",
+          "url": "https://www.wrdsb.ca/french/schools/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Out-of-Boundary Requests (Elementary Schools) - Register for Programs with the WRDSB",
+      "url": "https://www.wrdsb.ca/register/out%e2%80%91of%e2%80%91boundary-requests-elementary/",
+      "summary": "Fill in the out-of-boundary form and give it to your designated school. The page says the deadline for the next school year is the last Friday in February, with answers by the first Friday of May. Accepted reasons are narrow (medical needs, a Safe Schools concern, undue hardship); convenience is not one. Approval depends on space, some schools are closed to requests, and families arrange transportation. The page covers elementary only; we found no secondary equivalent, so ask the high school.",
+      "related": [
+        {
+          "title": "Register for Grades 9 to 12",
+          "url": "https://www.wrdsb.ca/register/register/secondary/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "3.1 Transportation Eligibility - Student Transportation Services of Waterloo Region",
+      "url": "https://www.stswr.ca/ppf/3-1-transportation-eligibility",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.8,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "In urban and established settlement areas, students may get transportation from 0.8 km (kindergarten), 1.6 km (Grades 1 to 8) or 3.2 km (Grades 9 to 12), measured by the shortest walking route; up to 200 m of flexibility is allowed. Rural areas have no fixed distance. Buses can also be provided for unsafe walking routes or special needs. The page does not mention courtesy seats.",
+      "related": [
+        {
+          "title": "Student Transportation (WRDSB)",
+          "url": "https://www.wrdsb.ca/our-schools/student-transportation-home/student-transportation/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Plan - Waterloo Region District School Board",
+      "url": "https://www.wrdsb.ca/learning/programs/special-education/special-education-plan/",
+      "source_date": "2026-2027, amended July 2026",
+      "summary": "The board's Special Education Plan for 2026-2027 explains its programs and services for families, staff and the Ministry. Two parent guides explain how Individual Education Plans (IEPs) and Identification, Placement and Review Committee (IPRC) meetings work. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.wrdsb.ca/wp-content/uploads/WRDSB-Special-Education-Plan-2026-2027.pdf"
+        },
+        {
+          "title": "Understanding the IPRC process - A Parent Guide",
+          "url": "https://www.wrdsb.ca/learning/programs/special-education/understanding-the-iprc-process-a-parent-guide/"
+        },
+        {
+          "title": "Individual Education Plan (IEP) Guide for Families",
+          "url": "https://www.wrdsb.ca/learning/programs/special-education/individual-education-plan-iep-guide-for-families/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.wrdsb.ca/learning/programs/special-education/seac/",
+      "summary": "SEAC advises the board on special education. It meets online on the second Wednesday of each month, 7 to 9 p.m., and includes up to 12 community associations. The page gives an email and phone number to attend a meeting or ask about joining.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility Plan - Waterloo Region District School Board",
+      "url": "https://www.wrdsb.ca/about/organizational-information/human-rights/accessibility-plan/",
+      "source_date": "2021-2026",
+      "summary": "The board's multi-year accessibility plan covers 2021-2026, with a June 2024 progress update; we did not find a newer plan on the page. It covers board-wide duties under Ontario's accessibility law, not the features of a particular school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "June 2024 Update on the 2021-2026 Accessibility Plan (PDF)",
+          "url": "https://www.wrdsb.ca/wp-content/uploads/2024-Report-to-the-Board-AODA-Plan-Update.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-newcomer-secondary",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Welcome Centre for Newcomers - Register for Programs with the WRDSB",
+      "url": "https://www.wrdsb.ca/register/welcome-centre-for-newcomers/",
+      "summary": "The Welcome Centre is the first stop for newcomer students in Grades 9 to 12 whose first language is not English: staff interview or assess them and recommend courses. It works by appointment only. Booking directly needs proof of permanent residence or citizenship; families with study, work or other statuses start with International Admissions.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-newcomer-elementary",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Multilingual Language Learners (MLL) Department - Waterloo Region District School Board",
+      "url": "https://www.wrdsb.ca/learning/support-programs/mll/",
+      "summary": "In Kindergarten to Grade 8, newcomers register at their school like any other student and are assessed by an English as a second language teacher at the home school; the Welcome Centre serves high school students only. The page links to language support programs and to International Admissions for families on permits.",
+      "related": [
+        {
+          "title": "Welcome Centre for Newcomers",
+          "url": "https://www.wrdsb.ca/register/welcome-centre-for-newcomers/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long-Term Accommodation Plan - Planning Department",
+      "url": "https://www.wrdsb.ca/planning/ltap/",
+      "source_date": "2020-2030, adopted June 21, 2021",
+      "summary": "The board's long-term accommodation plan for 2020-2030 reports enrolment, school capacity and use, and recommendations by review area. Projections are forecasts, and capacity is building space, not open seats in a grade or program. The planning pages list no active school-closure review, and three boundary proposals for 2026 (Breslau, West Waterloo, Southeast Cambridge) that are proposals, not decisions.",
+      "related": [
+        {
+          "title": "2020-2030 Long Term Accommodation Plan (PDF)",
+          "url": "https://www.wrdsb.ca/planning/wp-content/uploads/sites/5/2020-2030-WRDSB-Long-Term-Accommodation-Plan-FINAL.pdf"
+        },
+        {
+          "title": "Boundary Reviews",
+          "url": "https://www.wrdsb.ca/planning/boundary-reviews/"
+        },
+        {
+          "title": "Accommodation Reviews (School Closure)",
+          "url": "https://www.wrdsb.ca/planning/accommodation-review/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "2025-26 Student Achievement Plan",
+      "url": "https://www.wrdsb.ca/learning/learning-plans/sap/2025-26-student-achievement-plan/",
+      "source_date": "2025-26",
+      "summary": "The board's Student Achievement Plan for 2025-26, posted as a standard and an accessible PDF, with earlier years (2023-24, 2024-25) on the section page. These are board-wide plans, not this school's results.",
+      "related": [
+        {
+          "title": "Student Achievement Plan",
+          "url": "https://www.wrdsb.ca/learning/learning-plans/sap/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Family and Caregiver Engagement: How to Get Involved",
+      "url": "https://www.wrdsb.ca/community/get-involved/",
+      "summary": "Describes the board's Parent Involvement Committee, a Ministry-required group of parents, community members, a trustee and staff that advises the board on parent engagement. Parents co-chair it. It has its own page and an email contact.",
+      "related": [
+        {
+          "title": "Parent Involvement Committee",
+          "url": "https://www.wrdsb.ca/pic/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "School Councils - Waterloo Region District School Board",
+      "url": "https://www.wrdsb.ca/school-councils",
+      "summary": "A school council is an advisory group of elected parents (the majority), the principal, staff, a community member and, in high schools, a student. Councils advise the principal and board on school improvement; they are not for individual cases. Ask your school's principal who chairs it and when it meets.",
+      "related": [
+        {
+          "title": "School Council Handbook (PDF)",
+          "url": "https://www.wrdsb.ca/wp-content/uploads/school_council_chairpersons_handbook.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wrdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://sfso.wrdsb.ca/",
+      "summary": "Bring a question or concern to your child's school and principal first. If it needs follow-up beyond the school, the Student and Family Support Office takes an online inquiry and connects you with the right support. The page does not describe escalating to a superintendent or trustee; ask the office. Phone and email are on the page.",
+      "related": [
+        {
+          "title": "Family and Caregiver Engagement",
+          "url": "https://www.wrdsb.ca/community/get-involved/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "Schools Offering French Immersion - French Programs",
+      "url": "https://www.wrdsb.ca/french/schools/",
+      "verified": "2026-11-26",
+      "schools": {
+        "108693": "Clemens Mill Public School (Cambridge)",
+        "109487": "Moffat Creek Public School (Cambridge)",
+        "118524": "Vista Hills Public School (Waterloo)",
+        "127876": "Crestview Public School (Kitchener)",
+        "134618": "Edna Staebler Public School (Waterloo)",
+        "144266": "Driftwood Park Public School (Kitchener)",
+        "170682": "Elgin Street Public School (Cambridge)",
+        "171417": "Elizabeth Ziegler Public School (Waterloo)",
+        "181030": "Empire Public School (Waterloo)",
+        "203394": "Franklin Public School (Kitchener)",
+        "255653": "Highland Public School (Cambridge)",
+        "278280": "Williamsburg Public School (Kitchener)",
+        "279595": "J.F. Carmichael Public School (Kitchener)",
+        "283860": "John Mahood Public School (Elmira)",
+        "288241": "Keatsway Public School (Waterloo)",
+        "308463": "Laurelwood Public School (Waterloo)",
+        "311731": "Lester B. Pearson Public School (Waterloo)",
+        "327930": "MacGregor Public School (Waterloo)",
+        "339451": "Janet Metcalfe Public School (Kitchener)",
+        "345997": "Mary Johnston Public School (Waterloo)",
+        "382620": "N.A. MacEachern Public School (Waterloo)",
+        "433799": "Park Manor Public School (Elmira)",
+        "471541": "Jean Steckle Public School (Kitchener)",
+        "486336": "J.W. Gerth Public School (Kitchener)",
+        "495891": "Blue Heron Public School (Cambridge)",
+        "496685": "Saginaw Public School (Cambridge)",
+        "497738": "Sandhills Public School (Kitchener)",
+        "497800": "Sandowne Public School (Waterloo)",
+        "509159": "Sheppard Public School (Kitchener)",
+        "524751": "Southridge Public School (Kitchener)",
+        "528781": "St. Andrews Public School (Cambridge)",
+        "534242": "Stanley Park Public School (Kitchener)",
+        "540099": "Suddaby Public School (Kitchener)",
+        "547506": "Tait Street Public School (Cambridge)",
+        "588849": "Breslau Public School (Breslau)",
+        "588970": "Doon Public School (Kitchener)",
+        "595098": "Westheights Public School (Kitchener)",
+        "602230": "Westmount Public School (Kitchener)",
+        "602906": "Westvale Public School (Waterloo)",
+        "606189": "W.T. Townshend Public School (Kitchener)",
+        "609422": "Groh Public School (Kitchener)",
+        "634232": "Chicopee Hills Public School (Kitchener)",
+        "911399": "Galt Collegiate Institute (Cambridge)",
+        "920495": "Kitchener-Waterloo Collegiate & Vocational School (Kitchener)",
+        "095230": "Hespeler Public School (Cambridge)",
+        "034355": "Bridgadoon Public School (Kitchener)",
+        "000671": "Abraham Erb Public School (Waterloo)",
+        "090220": "Centennial Public School (Waterloo)",
+        "083559": "Millen Woods Public School (Waterloo)",
+        "034363": "Baden Public School (Baden)",
+        "089451": "Cedar Creek Public School (Ayr)"
+      }
+    },
+    {
+      "program": "extended-french",
+      "title": "Schools Offering French Immersion - French Programs",
+      "url": "https://www.wrdsb.ca/french/schools/",
+      "verified": "2026-11-26",
+      "schools": {
+        "910350": "Forest Heights Collegiate Institute (Kitchener)",
+        "911399": "Galt Collegiate Institute (Cambridge)",
+        "914070": "Grand River Collegiate Institute (Kitchener)",
+        "920495": "Kitchener-Waterloo Collegiate & Vocational School (Kitchener)",
+        "950912": "Waterloo Collegiate Institute (Waterloo)"
+      }
+    }
+  ]
+}

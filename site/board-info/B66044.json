@@ -1,0 +1,378 @@
+{
+  "board": "B66044",
+  "name": "Thames Valley District School Board",
+  "short": "TVDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "tvdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register for School",
+      "url": "https://www.tvdsb.ca/schools/register-for-school/",
+      "summary": "Find your school with the School Locator, then pre-register online (a computer or tablet is needed; the system does not work on phones) or print the registration form and return it to the school. You need proof of birth, proof of your home address (a driver's licence is not accepted), proof of status for permanent residents and children born outside Canada, and custody papers if they apply. Questions go to StudentPreRegistration@tvdsb.ca.",
+      "related": [
+        {
+          "title": "How to Register",
+          "url": "https://www.tvdsb.ca/schools/register-for-school/how-to-register/"
+        },
+        {
+          "title": "International Student Registration",
+          "url": "https://www.tvdsb.ca/schools/register-for-school/international-student-registration/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-register-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Kindergarten Registration",
+      "url": "https://www.tvdsb.ca/schools/register-for-school/kindergarten-registration/",
+      "summary": "Children must turn 4 by December 31 for Junior Kindergarten and 5 by December 31 for Senior Kindergarten. Registration works the same way as for other grades (online pre-registration or a printed form returned to the school). The page does not say when kindergarten registration opens, so ask your school or the board.",
+      "related": [
+        {
+          "title": "Kindergarten Guide (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/tvdsb-014-ca/media/rqxfs0de/kindergarten-here-i-come-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find My Local School",
+      "url": "https://www.tvdsb.ca/schools/find-my-local-school/",
+      "summary": "The board's own School Locator: enter your address to see your designated school. The board says it cannot guarantee that the attendance area shown is accurate, and you can phone the board to confirm your school.",
+      "related": [
+        {
+          "title": "School Locator tool",
+          "url": "https://sls.tvdsb.ca/pub/tvdsb.htm"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French as a Second Language",
+      "url": "https://www.tvdsb.ca/programs/language-programs/french-as-a-second-language/",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "summary": "Grade 1 is the only entry point; the child must be 6 by December 31, and no French is needed at home. Families register online or with the printed form; the page says the registration deadline is September 30 but encourages registering by January 29, 2027 for 2027-28. English Kindergarten at an Immersion school is separate (random selection, deadline January 29, 2027, no sibling priority). Busing goes to the designated Immersion school for students living more than 1.6 km away.",
+      "related": [
+        {
+          "title": "Elementary French Immersion information for parents (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/tvdsb-014-ca/media/vi1pru1f/elem-fi-parent-information-general-12-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.tvdsb.ca/programs/language-programs/french-as-a-second-language/",
+      "summary": "French Immersion continues in Grades 9 to 12 at five high schools: Parkside, Sir Frederick Banting, Sir Wilfrid Laurier, Strathroy District and Woodstock Collegiate. Entry after Grade 1 is only for students coming directly from a program with at least half of instruction in French (with proof). Busing to the designated Immersion school is for students more than 3.2 km away.",
+      "related": [
+        {
+          "title": "Elementary French Immersion information for parents (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/tvdsb-014-ca/media/vi1pru1f/elem-fi-parent-information-general-12-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Grades 7 and 8 Transition Planning",
+      "url": "https://www.tvdsb.ca/students/high-school/grades-7-and-8-transition-planning/",
+      "summary": "For secondary school, families wanting a school other than their designated one contact that school for a registration package and submit the out-of-area information by the deadline their guidance teacher shares. Out-of-area applications are considered only after in-area students are placed, and approval does not include bus service. We found no matching page for elementary requests, so ask the school or the board.",
+      "related": [
+        {
+          "title": "Capping of Elementary and Secondary Schools Procedure",
+          "url": "https://www.tvdsb.ca/media-manager/media-pages/policies-and-procedures/capping-of-elementary-and-secondary-schools-procedure/"
+        },
+        {
+          "title": "School Holding Zones",
+          "url": "https://www.tvdsb.ca/our-board/planning/school-holding-zones/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Buses and Transportation",
+      "url": "https://www.tvdsb.ca/schools/buses-and-transportation/",
+      "facts": {
+        "walk_km": {
+          "Elementary": 1.6,
+          "Secondary": 3.2
+        }
+      },
+      "summary": "Elementary students living more than 1.6 km from their school and secondary students living more than 3.2 km are eligible for a bus. Southwestern Ontario Student Transportation Services runs buses for the public and Catholic boards. Its policy covers a student's designated school; elementary students at an eligible daycare address may apply for a vacant seat. The board's page does not mention courtesy seats.",
+      "related": [
+        {
+          "title": "Transportation Eligibility policy (STS, PDF)",
+          "url": "https://www.mybigyellowbus.ca/app/uploads/2022/10/trans-eligibility-1.pdf"
+        },
+        {
+          "title": "Check bus eligibility (STS)",
+          "url": "https://www.mybigyellowbus.ca/bus-registration/check-bus-eligibility/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.tvdsb.ca/programs/special-education/",
+      "summary": "The board's special education page links its Special Education Plan for 2026-27 and describes supports that range from extra help in the home school, often from itinerant specialists, to classes with more intensive support. The page does not explain IEPs or IPRC meetings; the plan's standards cover identification, placement and review. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-27 (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/tvdsb-014-ca/media/epyg4t24/working-2026-27-spec-ed.pdf"
+        }
+      ],
+      "source_date": "2026-27",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.tvdsb.ca/programs/special-education/special-education-advisory-committee/",
+      "summary": "SEAC advises the board on special education programs and services; it recommends rather than decides. It meets at least ten times a school year, usually at the Education Centre in London with an online option, and meetings are open to the public. Members include local association representatives and up to three trustees; the current term runs November 15, 2026 to November 14, 2030, and the 2026-30 schedule was still to be confirmed.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility Plan 2023-2026 (PDF)",
+      "url": "https://media-002-ca.cdn.govstack.com/tvdsb-014-ca/media/sd2fjsiu/thames-valley-district-school-board-accessibility-guide-2023-to-2026_30may2026_b.pdf",
+      "summary": "The board's multi-year accessibility plan under Ontario's accessibility law, covering customer service, information and communication, employment and the built environment, plus accessible busing. It describes board-wide actions, not the features of a particular school; ask the school about specific needs. The plan period ends in 2026, so a newer plan may follow.",
+      "related": [
+        {
+          "title": "Accessibility",
+          "url": "https://www.tvdsb.ca/schools/accessibility/"
+        }
+      ],
+      "source_date": "2023-2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-welcome",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "One World International Welcome Centre",
+      "url": "https://www.tvdsb.ca/students/one-world-international-welcome-centre/",
+      "summary": "The centre in London combines international admissions and the newcomer assessment teams so families can register in one place. Before school starts, newcomers book a language and math assessment and an interview so staff can recommend a program and school. Settlement Workers in Schools give free settlement help, and English as a Second Language and literacy programs support English learners.",
+      "related": [
+        {
+          "title": "New to Canada",
+          "url": "https://www.tvdsb.ca/parents/new-to-canada/"
+        },
+        {
+          "title": "English Language Learners",
+          "url": "https://www.tvdsb.ca/programs/language-programs/english-language-learners/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-accommodation",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Annual Accommodation Plan",
+      "url": "https://www.tvdsb.ca/our-board/planning/annual-accommodation-plan/",
+      "summary": "The 2025-2026 plan gives a system-wide view of school space, with tables of each school's capacity, enrolment and projections, plus planned boundary reviews and new schools. Projections are forecasts and capacity is building space, not open seats. One boundary review (East Oxford elementary) was still in consultation, with no decision on the page.",
+      "related": [
+        {
+          "title": "Table F: Elementary enrolment and capacity by school 2025/26 (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/tvdsb-014-ca/media/jvap3hof/table-f-elementary-english-and-dual-track-enrolment-202526_2.pdf"
+        },
+        {
+          "title": "Attendance Area Reviews",
+          "url": "https://www.tvdsb.ca/our-board/planning/attendance-area-reviews/"
+        }
+      ],
+      "source_date": "2025-2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.tvdsb.ca/students/student-achievement-plan/",
+      "summary": "The board's public plan, set up under the province's student outcomes law and posted each April. The 2025-2026 plan covers core literacy and math skills, preparation for future success (graduation, credits, pathways) and engagement and well-being (attendance, suspensions, mental health supports). Earlier years' plans are on the page.",
+      "related": [
+        {
+          "title": "Multi-Year Strategic Plan",
+          "url": "https://www.tvdsb.ca/our-board/multi-year-strategic-plan/"
+        }
+      ],
+      "source_date": "2025-2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "TVPIC Parent Involvement Committee",
+      "url": "https://www.tvdsb.ca/parents/tvpic-parent-involvement-committee/",
+      "summary": "The Thames Valley Parent Involvement Committee links families and the board and supports school councils. It meets monthly during the school year in public sessions listed on the board calendar. The page also hosts the school council guide, policy and annual report form.",
+      "related": [
+        {
+          "title": "School Councils",
+          "url": "https://www.tvdsb.ca/parents/family-engagement/school-councils/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Councils",
+      "url": "https://www.tvdsb.ca/parents/family-engagement/school-councils/",
+      "summary": "The board's page for school councils, the parent-led groups at each school. Resources include a council resource guide, a leadership guide, and the board's council policy and procedure; ask your school how to join its council.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "tvdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Public Concerns",
+      "url": "https://www.tvdsb.ca/parents/conflict-and-problem-resolution/public-concerns/",
+      "summary": "Start with your child's teacher or school staff, then the principal, then the superintendent for your school. If it is still unresolved, use the Student and Family Support Office (online form, phone or email). The office says it acknowledges inquiries within two business days and aims to answer within five.",
+      "related": [
+        {
+          "title": "Conflict and Problem Resolution",
+          "url": "https://www.tvdsb.ca/parents/conflict-and-problem-resolution/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French as a Second Language (Our French Immersion Schools)",
+      "url": "https://www.tvdsb.ca/programs/language-programs/french-as-a-second-language/",
+      "verified": "2026-11-26",
+      "schools": {
+        "133006": "J.S. Buchanan French Immersion P.S (Strathroy)",
+        "263451": "Pierre Elliott Trudeau French Immersion P.S. (St. Thomas)",
+        "273724": "Louise Arbour French Immersion P.S. (London)",
+        "289710": "Kensal Park French Immersion P.S. (London)",
+        "321435": "Woodfield French Immersion P.S. (London)",
+        "417203": "Oliver Stephens P.S. (Woodstock)",
+        "456314": "Princess Anne French Immersion P.S. (London)",
+        "457418": "Princess Elizabeth P.S. (London)",
+        "522619": "Jeanne Sauvé French Immersion P.S. (London)",
+        "557188": "Roch Carrier French Immersion P.S. (Woodstock)",
+        "587215": "West Oaks French Immersion P.S. (London)",
+        "589890": "Éva Circé-Côté French Immersion P.S. (St. Thomas)",
+        "941743": "Sir Frederick Banting S.S. (London)",
+        "942162": "Sir Wilfrid Laurier S.S. (London)",
+        "944939": "Parkside Collegiate Institute (St. Thomas)",
+        "945846": "Strathroy District Collegiate Institute (Strathroy)",
+        "954551": "Woodstock Collegiate Institute (Woodstock)"
+      }
+    }
+  ]
+}

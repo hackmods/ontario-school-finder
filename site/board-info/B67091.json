@@ -1,0 +1,274 @@
+{
+  "board": "B67091",
+  "name": "Simcoe Muskoka Catholic District School Board",
+  "short": "SMCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register New Students at SMCDSB",
+      "url": "https://www.smcdsb.on.ca/our_schools/registration/register_new_students",
+      "summary": "New students apply with the board's online registration application (or a printable form), then meet school administration with original documents: birth certificate, proof of address, immunization record and, for elementary, a Roman Catholic baptismal certificate for the child or a parent (exceptions are in policy EP-01). High school students do not need to be Catholic. Registration for 2026-27 is open, and Kindergarten is for children turning 4 in 2026.",
+      "related": [
+        {
+          "title": "Kindergarten",
+          "url": "https://www.smcdsb.on.ca/our_schools/registration/our_kindergarten_program"
+        },
+        {
+          "title": "Register current and returning students",
+          "url": "https://www.smcdsb.on.ca/our_schools/registration/register_current__returning_students_at_s_m_c_d_s_b"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School Do I Attend?",
+      "url": "https://www.smcdsb.on.ca/our_schools/registration/what_catholic_school_is_in_my_area_",
+      "summary": "The board sends families to the Simcoe County Student Transportation Consortium's \"Which School Do I Attend?\" tool: enter your address, school board and grade to see the school for your boundary. The board says boundaries can change and the map is not guaranteed; its Planning Department answers questions at 705-722-3555 ext. 355.",
+      "related": [
+        {
+          "title": "Which School Do I Attend? (Simcoe County Student Transportation Consortium)",
+          "url": "https://scstc.ca/Eligibility"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language (FSL)",
+      "url": "https://www.smcdsb.on.ca/programs/french_as_a_second_language",
+      "summary": "The board French page lists Core French only (Grade 1 to Grade 12, open to all students) and does not list a French Immersion program. Core French is 60 hours a year in Grades 1 to 3 and about 40 minutes a day by Grades 7 and 8. Ask the board or the school if you want to know about other French options.",
+      "related": [
+        {
+          "title": "Learning French Grades 1 to 12",
+          "url": "https://www.smcdsb.on.ca/programs/french_as_a_second_language/learning_french_grades_1_to_12"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-boundary-exemption",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "GP-15 School Boundaries and Boundary Exemptions (policy)",
+      "url": "https://www.smcdsb.on.ca/common/pages/DisplayFile.aspx?itemId=36504124",
+      "summary": "To attend a school outside your boundary, complete a Request to Attend an Out-of-Boundary School form at your home school and take it to the receiving principal. The receiving and home principals decide (a superintendent if they disagree), and only if the school has room without new portables or extra resources. Some schools are closed to these requests; the Planning Department has the current list. Transportation is the family's responsibility."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation",
+      "url": "https://www.smcdsb.on.ca/our_schools/transportation",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Buses are run by the Simcoe County Student Transportation Consortium. The board says students must live at least 1.6 km from the school at the elementary level and 3.2 km at the secondary level to get school vehicle transportation. Families who choose a school outside their boundary are responsible for getting there. Bus cancellations are posted by the consortium.",
+      "related": [
+        {
+          "title": "Can I Ride a Bus? (check an address)",
+          "url": "https://scstc.ca/TransportationEligibility"
+        },
+        {
+          "title": "TE06 Out-of-Attendance Area Students (PDF)",
+          "url": "https://main.simcoecountyschoolbus.ca/wp-content/uploads/TE06.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Plan 2026-2027 (PDF)",
+      "url": "https://www.smcdsb.on.ca/UserFiles/Servers/Server_29970/Image/Programs/Special%20Education/2026-2027%20SMCDSB%20Special%20Education%20Plan.pdf",
+      "source_date": "2026-2027",
+      "summary": "The board's Special Education Plan covers its model of special education, early identification, Individual Education Plans (IEPs), the Identification, Placement and Review Committee (IPRC) process, health supports and special transportation. The special education page says to start with your child's classroom teacher and offers an IEP parent guide.",
+      "related": [
+        {
+          "title": "Special Education programs and services",
+          "url": "https://www.smcdsb.on.ca/programs/special_education"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.smcdsb.on.ca/programs/special_education/special_education_advisory_committee",
+      "summary": "SEAC advises the board on special education programs and services. It holds public meetings monthly in the school year (usually Wednesdays at 5:30 p.m., in person with a virtual option and a livestream). Members include trustees, board staff and up to 12 people nominated by local parent associations."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility Planning",
+      "url": "https://www.smcdsb.on.ca/our_board/accessibility_planning",
+      "source_date": "Approved May 28, 2026",
+      "summary": "The board's Multi-Year Accessibility Plan for 2026 to 2030 sets out measures to identify, remove and prevent barriers for students, staff and the community. The page also has an accessibility feedback form and tells you how to ask for information in an accessible format.",
+      "related": [
+        {
+          "title": "Accessibility Plan 2026-2030 (PDF)",
+          "url": "https://www.smcdsb.on.ca/UserFiles/Servers/Server_29970/Image/Our%20Board/Accessibility%20Planning/Accessibility%20Plan%2026-30_Approved%20May%2028,%202026.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registering Students New in Canada",
+      "url": "https://www.smcdsb.on.ca/our_schools/registration/registering_students_new_in_canada",
+      "summary": "Newcomer families visit their nearest Catholic school, meet a staff member for a family interview and complete registration; ask for an interpreter if you need one. Grade placement follows the child's year of birth, not English level or prior schooling. There is no separate welcome centre named on this page."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long-Term Accommodation Plan (LTAP)",
+      "url": "https://www.smcdsb.on.ca/our_board/planning/long-_term_accommodation_plan___l_t_a_p_",
+      "source_date": "2025",
+      "summary": "The board's 2025 Long-Term Accommodation Plan guides capital and boundary planning, with recommendations by area. Projections are forecasts and capacity is building space, not open seats. The board's boundary review page said no boundary reviews were active when we checked.",
+      "related": [
+        {
+          "title": "Long-Term Accommodation Plan 2025 (PDF)",
+          "url": "https://smcdsb.on.ca/UserFiles/Servers/Server_29970/File/Our%20Board/Planning/LTAP/FINAL_2025%20SMCDSB_LTAP-web.pdf"
+        },
+        {
+          "title": "Boundary reviews",
+          "url": "https://www.smcdsb.on.ca/our_board/planning/boundary_reviews"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.smcdsb.on.ca/our_board/student_achievement_plan",
+      "source_date": "2024-2025 Academic Year",
+      "summary": "The board's Student Achievement Plan follows the Ministry's common template: goals, measures and results on literacy, graduation and well-being compared with the province. The plan linked on the page covers the 2024-2025 academic year.",
+      "related": [
+        {
+          "title": "SMCDSB Student Achievement Plan (PDF)",
+          "url": "https://www.smcdsb.on.ca/UserFiles/Servers/Server_29970/Image/Our%20Board/Student%20Achievement%20Plans/Simcoe%20Muskoka%20CDSB_SAP.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-cpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic Parent Involvement Committee (CPIC)",
+      "url": "https://www.smcdsb.on.ca/our_schools/parent_involvement_committee",
+      "summary": "CPIC advises the board and trustees on parent engagement, supports school councils and shares ideas for helping children learn. The page links a handbook, agendas and minutes, and an application form to join."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-cscc",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Catholic School Community Councils",
+      "url": "https://www.smcdsb.on.ca/our_schools/volunteering/catholic_school_community_council",
+      "summary": "Each school has a Catholic School Community Council of parents, the principal, a teacher, a staff member and community members. It makes recommendations to the principal and board. Membership is by election; tell the principal or a current member you are interested."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "smcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Get help with questions or concerns about your child's education",
+      "url": "https://www.smcdsb.on.ca/our_schools/responding_to_issues_or_concern",
+      "summary": "Start with the classroom teacher, then the principal. If it is not resolved, or is not school-related, use the Student and Family Support Office intake form; the board says it acknowledges inquiries within two business days and aims to answer within five."
+    }
+  ]
+}

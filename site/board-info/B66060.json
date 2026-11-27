@@ -1,0 +1,366 @@
+{
+  "board": "B66060",
+  "name": "Durham District School Board",
+  "short": "Durham DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register a Child for School",
+      "url": "https://www.ddsb.ca/students/register-a-child-for-school/",
+      "summary": "New students apply online, then the school contacts you to book an appointment and you bring documents: proof of citizenship or residency, proof of a Durham address, immunization records, and a recent report card (not for JK). Returning students verify details in the Parent Portal. Register at your home school first, even if you want another school. Non-resident and international students use a separate page.",
+      "related": [
+        {
+          "title": "Registering International or Non-Resident Students",
+          "url": "https://www.ddsb.ca/students/register-a-child-for-school/registering-international-or-non-resident-students/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-register-k",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten",
+      "url": "https://www.ddsb.ca/families/early-years/kindergarten/",
+      "summary": "The board says online registration for the 2027/2028 school year opens January 5, 2027, and encourages registering before June 1; families who register later are contacted in the last week of August. A child must be 4 (JK) or 5 (SK) by December 31 of the registration year. Register at your designated home school. The page's steps still mention the 2026-2027 year, so confirm the year when you register."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find My School",
+      "url": "https://www.ddsb.ca/schools/find-my-school/",
+      "summary": "The board's own school locator: enter an address to find the school that serves it. When we checked, the page warned of technical problems with links from the locator to individual school websites. For boundary questions, call the board at 905-666-5500."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion",
+      "url": "https://www.ddsb.ca/students/programs-opportunities/french-immersion/",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "summary": "French Immersion starts in Grade 1. Single-track Immersion schools no longer run Kindergarten, so children do Kindergarten at their designated home school. Grades 1 to 3 are taught all day in French; from Grade 4 the day is split between French and English, and Core French begins in Grade 4. Children interested in Immersion can transfer to the closest single-track Immersion school in the spring before Grade 1. The page gives no application dates, lottery or transportation details; ask the school or the board French facilitator.",
+      "related": [
+        {
+          "title": "Register a Child for School",
+          "url": "https://www.ddsb.ca/students/register-a-child-for-school/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary School French Immersion",
+      "url": "https://www.ddsb.ca/students/secondary-school-programs/french-immersion/",
+      "summary": "French Immersion continues in high school at the secondary schools the page lists (it says seven schools but names eight). The page does not state entry requirements or transportation; it points families to the school locator to see which Immersion elementary schools feed which Immersion high schools."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-permission-to-enrol",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Permission to Enrol a Resident Internal Student (PDF)",
+      "source_date": "Reviewed 2009-07-08",
+      "url": "https://media-003-ca.cdn.govstack.com/ddsb-ca/media/51sb1lm1/permission-to-enrol-a-resident-internal-student_002.pdf?sys_id=89448c021b900a90508f54ae034bcb74&view=true",
+      "summary": "Students are expected to attend their home school. A parent may ask to attend another DDSB school if there is space in the grade, the parent provides transportation, and the superintendent's office approves before classes start. Approval is provisional until enrolment is confirmed in the fall, is renewed yearly, and Grade 9 students attend their home school. The procedure is dated 2009; ask the school if it has changed.",
+      "related": [
+        {
+          "title": "Register a Child for School (out-of-area note)",
+          "url": "https://www.ddsb.ca/students/register-a-child-for-school/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "DSTS Transportation Policy",
+      "url": "https://www.dsts.on.ca/transportation-policy",
+      "facts": {
+        "walk_km": {
+          "Elementary": 1.6,
+          "Secondary": 3.2
+        }
+      },
+      "summary": "Durham Student Transportation Services (DSTS) runs buses for DDSB and the Durham Catholic board. Students living more than 1.6 km (elementary) or 3.2 km (secondary) from their designated school may be eligible; the page gives no separate Kindergarten distance. Students who choose a school other than their area school are not eligible, with a limited exception for elementary students when the area school has no space. The page does not mention courtesy seats or program buses.",
+      "related": [
+        {
+          "title": "Buses and Transportation (DDSB)",
+          "url": "https://www.ddsb.ca/schools/buses-and-transportation/"
+        },
+        {
+          "title": "Durham Student Transportation Services",
+          "url": "https://www.dsts.on.ca/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Inclusive Student Services",
+      "url": "https://www.ddsb.ca/about-ddsb/inclusive-student-services/",
+      "summary": "The board's special education page, with its Special Education Plan (2026-2027), a parent and guardian guide to the IPRC (Identification, Placement and Review Committee) process, and an overview of programs. The IPRC must consider a regular class with support first. Start with your child's teacher and principal about IEPs (Individual Education Plans).",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/ddsb-ca/media/tw4plbvv/iss-se-plan-2026-2027-final-as-of-october-21-2026.pdf"
+        },
+        {
+          "title": "Parent/Guardian Guide to the IPRC process, June 2026 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/ddsb-ca/media/o0gfac4c/guide-to-special-education-iprc-process_june-2026.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.ddsb.ca/about-ddsb/special-education-advisory-committee/",
+      "summary": "SEAC advises the board on special education and meets at least ten times a year, on the first Thursday of the month at 6:30 p.m. at the Education Centre in Whitby. Anyone can attend; in-person space is limited, so pre-register through the SEAC calendar, and meetings are livestreamed and recorded. Members include local family associations and trustees."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility (DDSB Multi-Year Accessibility Plan, PDF)",
+      "url": "https://www.ddsb.ca/about-ddsb/equity-and-inclusion/accessibility/",
+      "source_date": "2022-2026",
+      "summary": "The board's accessibility page links its multi-year accessibility plan, which is dated 2022-2026 on its cover, so a newer plan may follow. It covers board-wide goals under Ontario's accessibility law, not the features of a particular school; ask the school about specific needs. Alternative formats of board documents can be requested from the board.",
+      "related": [
+        {
+          "title": "Accessibility plan (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/ddsb-ca/media/ck5l25an/accessibility-multi-year-plan.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-new-to-durham",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "New to Durham",
+      "url": "https://www.ddsb.ca/families/new-to-durham/",
+      "summary": "Register at your local school; Settlement Workers in Schools help new families reach services, with a consent form available in about 30 languages. The page points to the Durham Welcome Centre and names a system lead for multilingual language learners. It does not describe a board reception or assessment centre. Families not yet citizens or permanent residents use the non-resident registration page.",
+      "related": [
+        {
+          "title": "Registering International or Non-Resident Students",
+          "url": "https://www.ddsb.ca/students/register-a-child-for-school/registering-international-or-non-resident-students/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-pupil-accommodation",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Pupil Accommodation Plan 2026-2030: Trends, Issues and Future Opportunities (PDF)",
+      "url": "https://media-003-ca.cdn.govstack.com/ddsb-ca/media/3tbjmzec/2026-2030-accommodation-plan.pdf",
+      "source_date": "2026-2030",
+      "summary": "The board's yearly plan for school space: enrolment trends, Ministry rated capacity, high- and low-use schools, and boundary and French Immersion reviews. Appendix A has projected enrolment tables by school. Projections are forecasts, and capacity is building space, not open seats in a grade or program. Boundary reviews are listed on a separate page.",
+      "related": [
+        {
+          "title": "Boundary Reviews",
+          "url": "https://www.ddsb.ca/schools/whats-happening-with-ddsb-properties/boundary-reviews/"
+        },
+        {
+          "title": "Accommodation Reviews",
+          "url": "https://www.ddsb.ca/schools/whats-happening-with-ddsb-properties/accommodation-reviews/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.ddsb.ca/resources/plans-and-reports/student-achievement-plan/",
+      "source_date": "2026-2027",
+      "summary": "The board's 2026-2027 plan under Ontario's student achievement law, with seven outcomes including literacy and mathematics, timely and inclusive supports, attendance and well-being, and expanding pathways. These are board-wide goals, not this school's results. The page invites feedback through an online form.",
+      "related": [
+        {
+          "title": "Student Achievement Plan 2026 (PDF)",
+          "url": "https://www.ddsb.ca/media/rb1jxhkh/ddsb-student-achievement-plan_2026.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.ddsb.ca/families/parent-engagement/parent-involvement-committee/",
+      "summary": "The board-level parent committee, which advises school principals and administrators on issues related to students' education and helps plan the Regional School Community Council meetings. See the page for its handbook, fact sheet and newsletters."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-scc",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "School Community Councils",
+      "url": "https://www.ddsb.ca/families/parent-engagement/school-community-councils/",
+      "summary": "Each school can have a school community council that advises the principal on issues related to students' education. Regional council meetings give members workshops and a chance to meet members from other schools. The page gives no sign-up steps; ask your school office."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "ddsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Public Concerns Procedure",
+      "url": "https://www.ddsb.ca/about-ddsb/policies-and-procedures/communications-community-engagement/pr-com-05-01/public-concerns-procedure/",
+      "summary": "Start with your child's classroom educator, then the principal, then the school's superintendent, then the Director's Office. Staff aim to acknowledge a concern within two business days. System-wide concerns go to the superintendent, Director's Office or trustees; trustees do not investigate operational concerns. A separate Tell Us! tool covers reports such as bullying."
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion",
+      "url": "https://www.ddsb.ca/students/programs-opportunities/french-immersion/",
+      "verified": "2026-11-26",
+      "schools": {
+        "170662": "David Bouchard Public School (Oshawa)",
+        "179554": "Brooklin Village Public School (Whitby)",
+        "206253": "Frenchman's Bay Public School (Pickering)",
+        "283495": "John Dryden Public School (Whitby)",
+        "328740": "Maple Ridge Public School (Pickering)",
+        "350508": "McCaskill's Mills Public School (Brock)",
+        "356271": "Meadowcrest Public School (Whitby)",
+        "446033": "Julie Payette Public School (Whitby)",
+        "451177": "R.H. Cornish Public School (Scugog)",
+        "455037": "Rosemary Brown Public School (Ajax)",
+        "515523": "Biidaasige Mandamin PS (Pickering)",
+        "526673": "Southwood Park Public School (Ajax)",
+        "559271": "Jeanne Sauvé Public School (Oshawa)",
+        "566870": "Uxbridge Public School (Uxbridge)",
+        "580847": "Michaëlle Jean Public School (Ajax)",
+        "890855": "Ajax High School (Ajax)",
+        "892025": "Anderson CVI (Whitby)",
+        "904392": "Donald A. Wilson Secondary School (Whitby)",
+        "905674": "Dunbarton High School (Pickering)",
+        "935310": "Pickering High School (Ajax)",
+        "936227": "Port Perry High School (Scugog)",
+        "937525": "R.S. McLaughlin Collegiate Vocational Institute (Oshawa)",
+        "948969": "Uxbridge Secondary School (Uxbridge)",
+        "073547": "Cadarackque Public School (Ajax)",
+        "093700": "Walter E. Harris Public School (Oshawa)",
+        "082686": "Captain Michael VandenBos Public School (Whitby)"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "decided": "2026-06-15",
+      "title": "Junior and Senior Kindergarten added at Uxbridge Public School",
+      "url": "https://media-003-ca.cdn.govstack.com/ddsb-ca/media/d03okgdj/june-18-2026_ups_approved_boundary_review__letter_to_families.pdf",
+      "schools": [
+        "566870"
+      ],
+      "summary": "Trustees approved a JK and SK program at Uxbridge Public School from September 2026, up to 58 spaces (two classes), so more children can enter Grade 1 French Immersion there. The Kindergarten boundary mirrors the school's Immersion boundary; there is no bus for JK/SK; staff will report back after two years on whether the school stays single-track or becomes dual-track.",
+      "match": "Uxbridge Public School (Uxbridge, JK-8, French Immersion single-track) is the only school with that name and city in the board's list; the other schools named in the review are not changed by this decision.",
+      "verified": "2026-11-26",
+      "id": "ddsb-decision-1",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans"
+    }
+  ]
+}

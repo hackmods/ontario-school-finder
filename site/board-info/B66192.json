@@ -1,0 +1,325 @@
+{
+  "board": "B66192",
+  "name": "Upper Canada District School Board",
+  "short": "UCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "ucdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration",
+      "url": "https://www.ucdsb.on.ca/for_families/registration",
+      "summary": "Kindergarten registration is online through the My Family Room parent portal; for secondary, register online or call the school. You need proof of age and proof of Ontario residency, and immunization records go to your local health unit. The page says registration is open for 2027-28 and a child who turns 4 by December 31, 2027 should register, but gives no deadline. Not every school's Kindergarten information session date is posted yet.",
+      "source_date": "Open for the 2027-28 school year",
+      "related": [
+        {
+          "title": "Kindergarten registration FAQs (documents list)",
+          "url": "https://www.ucdsb.on.ca/for_families/registration/kindergarten/kindergarten_registration_faqs"
+        },
+        {
+          "title": "Kindergarten information sessions and open houses",
+          "url": "https://www.ucdsb.on.ca/for_families/registration/kindergarten_information_sessions"
+        },
+        {
+          "title": "Secondary registration",
+          "url": "https://www.ucdsb.on.ca/for_families/registration/secondary_schools"
+        },
+        {
+          "title": "My Family Room",
+          "url": "https://www.ucdsb.on.ca/for_families/my_family_room"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School and transportation eligibility lookup (STEO)",
+      "url": "https://transportation.steo.ca/Eligibility.aspx?Page=School",
+      "summary": "The shared school finder run by Student Transportation of Eastern Ontario (STEO) for the UCDSB and the Catholic board: enter an address to see the school it is assigned to and whether it qualifies for a bus. The board's registration pages point families to it.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-fi",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Programming",
+      "url": "https://www.ucdsb.on.ca/programs___initiatives/school_programs_k-12/french_programming",
+      "summary": "The board says elementary schools offer French from core French to French Immersion, with half the school day in French in Immersion. It gives no board-wide entry grade or application steps. Some school sites say Immersion starts in JK (Rockland PS; Queen Elizabeth in Perth runs JK to Grade 6), so ask your local school. A map shows which schools offer Immersion.",
+      "program": "french-immersion",
+      "related": [
+        {
+          "title": "Rockland Public School",
+          "url": "https://rocklandps.ucdsb.on.ca/our_school/story_of_our_school"
+        },
+        {
+          "title": "The Queen Elizabeth School principal message",
+          "url": "https://queenelizabeth.ucdsb.on.ca/our_school/principal_s_message"
+        },
+        {
+          "title": "French programming map 2026-2027 (PDF)",
+          "url": "https://www.ucdsb.on.ca/UserFiles/Servers/Server_148343/File/Programs/French%20Programming/SnapShot%20Board%20Map%202026-2027%20with%20french%20programming.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Programming",
+      "url": "https://www.ucdsb.on.ca/programs___initiatives/school_programs_k-12/french_programming",
+      "summary": "In secondary school the board offers French Immersion courses in Grades 9 and 10, then university-preparation and open courses in Grades 11 and 12. A student earns 10 French credits in the program: 4 French as a second language courses and 6 other subjects taught in French. Core French is required from Kindergarten to Grade 9 and is optional from Grade 10; course availability varies by school.",
+      "program": "french-immersion",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration: secondary schools",
+      "url": "https://www.ucdsb.on.ca/for_families/registration/secondary_schools",
+      "summary": "We could not find a UCDSB page on asking to attend a school other than your assigned school, or on applying to a specialized program. The secondary registration page doesn't cover it, and says to contact your local school. The STEO policy says families whose child attends a school outside their zone provide their own transportation.",
+      "related": [
+        {
+          "title": "STEO eligibility policy POL100 (PDF)",
+          "url": "https://www.steo.ca/wp-content/uploads/2026/11/POL100-Eligibility-for-TSP-Policy-Revised-Nov-6-2026-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "STEO policy POL100: Eligibility for Transportation / Walking Distance (PDF)",
+      "url": "https://www.steo.ca/wp-content/uploads/2026/11/POL100-Eligibility-for-TSP-Policy-Revised-Nov-6-2026-1.pdf",
+      "summary": "Buses for the UCDSB and the Catholic board are run by STEO. A student may get transportation when living at least 0.8 km (JK and SK), 1.6 km (Grades 1 to 8) or 3.2 km (Grades 9 to 12) from the school, and only within the school's zone: families of a child at a school outside their zone provide their own transportation. Walks to a bus stop are capped at 0.8 km (Grades 1 to 8) or 1.6 km (Grades 9 to 12).",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.8,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "source_date": "Revised November 6, 2026",
+      "related": [
+        {
+          "title": "STEO 2026 transportation updates (walk distances and ride times)",
+          "url": "https://www.steo.ca/2026-transportation-updates/"
+        },
+        {
+          "title": "STEO policies",
+          "url": "https://www.steo.ca/student-information/policies/"
+        },
+        {
+          "title": "Board transportation page",
+          "url": "https://www.ucdsb.on.ca/for_families/transportation"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.ucdsb.on.ca/programs___initiatives/special_education",
+      "summary": "The board's special education page says programs for exceptional students are built on each student's strengths and needs through assessment, the IPRC (Identification, Placement and Review Committee) process and an Individual Education Plan (IEP). The page has a section for the board's Special Education Plan and parent guides, but its document list did not load when we read it. Ask the school or the board's special education department for the plan.",
+      "related": [
+        {
+          "title": "Special Education district plan page",
+          "url": "https://www.ucdsb.on.ca/our_board/district_plans/special_education"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.ucdsb.on.ca/programs___initiatives/special_education/special_education_advisory_committee___s_e_a_c_",
+      "summary": "SEAC advises the board on special education programs and services. Members include community parent support groups, trustees and members at large. It meets about monthly, usually the first Tuesday at 4:30 p.m. at the Brockville board office or remotely; the page lists dates through June 2027 and links to agendas and minutes.",
+      "source_date": "2026-27 meeting dates listed",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "2022-2027 Upper Canada District School Board Multi-Year Accessibility Plan (PDF)",
+      "url": "https://www.ucdsb.on.ca/UserFiles/Servers/Server_148343/File/Our_Board/Accessibility/Updated%202022-2027%20Upper%20Canada%20District%20School%20Board%20-%20Multi-Year%20Accessibility%20Plan%20-%20Accessible_May2026.pdf",
+      "summary": "The board's accessibility plan under Ontario's accessibility law, updated May 2026 according to the file name. It describes board-wide plans, not the features of a particular school building; ask the school about specific needs.",
+      "source_date": "2022-2027, updated May 2026",
+      "related": [
+        {
+          "title": "Accessibility page",
+          "url": "https://www.ucdsb.on.ca/our_board/district_plans/accessibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-esl",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "English as a Second Language",
+      "url": "https://www.ucdsb.on.ca/programs___initiatives/school_programs_k-12/english_as_a_second_language",
+      "summary": "English as a Second Language support is given in schools, K to 12. Tell the school at registration if your child needs it: staff do an initial language assessment then to plan supports. The page describes no separate welcome centre; call the board for other newcomer questions.",
+      "related": [
+        {
+          "title": "Registration",
+          "url": "https://www.ucdsb.on.ca/for_families/registration"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Community Planning & Partnerships",
+      "url": "https://www.ucdsb.on.ca/community/community_planning_partnerships",
+      "summary": "We could not find a current long-term accommodation plan with school capacity and enrolment tables. The board's planning pages cover surplus-space partnerships and an archived 2016-17 pupil accommodation review; school information profiles carry enrolment and facilities data by school. Capacity is building space, not open seats; ask the board for current plans.",
+      "related": [
+        {
+          "title": "Pupil Accommodation Review (2016-17 archive)",
+          "url": "https://www.ucdsb.on.ca/community/pupil_accommodation_review"
+        },
+        {
+          "title": "School Information Profiles",
+          "url": "https://www.ucdsb.on.ca/for_families/our_schools/school_information_profiles"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan (PDF)",
+      "url": "https://www.ucdsb.on.ca/UserFiles/Servers/Server_148343/File/Our_Board/District%20Plans/UCDSB%20Student%20Achievement%20Plan%20-%20Public%20Final%20-%20Flat.pdf",
+      "summary": "The board's student achievement plan, built on three priorities: core academic skills, student engagement and well-being, and preparing students for future success. These are board-wide goals, not this school's results. The plan page does not state a year.",
+      "related": [
+        {
+          "title": "Student Achievement Plan page",
+          "url": "https://www.ucdsb.on.ca/our_board/district_plans/SAP/"
+        },
+        {
+          "title": "Strategic plans and actions",
+          "url": "https://www.ucdsb.on.ca/our_board/district_plans/strategic_plans___actions"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.ucdsb.on.ca/for_families/parent_involvement/parent_involvement_committee",
+      "summary": "A committee of parents and caregivers from across the board, set up under Ontario Regulation 612, to support parent engagement. It has ward representatives, community members and board staff, and meets at least four times a school year. The page invites families to ask about joining for 2026-27.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "School Councils",
+      "url": "https://www.ucdsb.on.ca/for_families/parent_involvement/school_councils",
+      "summary": "Each school has a school council of parents, staff and community members. The page doesn't explain how to join; ask your child's school, or the board. It links a ministry guide for council members.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ucdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.ucdsb.on.ca/contact_us/student_and_family_support_office",
+      "summary": "Start with your child's teacher, then the principal, then the school's superintendent. If they can't settle it, contact the Student and Family Support Office, which says it acknowledges inquiries within 2 business days and aims to answer within 5. Trustees govern the board and don't handle individual family concerns.",
+      "related": [
+        {
+          "title": "Board of Trustees",
+          "url": "https://www.ucdsb.on.ca/our_board/board_of_trustees"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

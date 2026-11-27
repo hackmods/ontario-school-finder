@@ -1,0 +1,308 @@
+{
+  "board": "B29017",
+  "name": "Nipissing-Parry Sound Catholic District School Board",
+  "short": "Nipissing-Parry Sound Catholic",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "npscdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten and Elementary Registration",
+      "url": "https://www.npsc.ca/registration/Registration",
+      "summary": "Children who turn 4 by December 31 can start Kindergarten in September. Find your school with the locator, download and fill in the registration package, then email it with the listed documents to the school, which contacts you after processing. Vaccination records go to the North Bay Parry Sound District Health Unit. The page does not say whether non-Catholic children are admitted or give a registration window.",
+      "related": [
+        {
+          "title": "Elementary registration package (PDF)",
+          "url": "https://www.npsc.ca/UserFiles/Servers/Server_3536992/File/Registration/ELEMENTARY%20REGISTRATION%20PACKAGE-fillable%20(Oct%2015%202024).pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-register-secondary",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "St. Joseph-Scollard Hall (Secondary) Registration",
+      "url": "https://www.npsc.ca/registration/st_joseph-_scollard_hall___secondary__registration",
+      "summary": "Register for St. Joseph-Scollard Hall through the school's registration website. Bring originals of the birth certificate, immigration papers if not born in Canada, and proof of address. The school is open to all students meeting its admission criteria; students from elsewhere in Ontario can apply without a fee, subject to space. No dates are listed.",
+      "related": [
+        {
+          "title": "St. Joseph-Scollard Hall registration",
+          "url": "https://sjsh.npsc.ca/cms/one.aspx?pageId=323746"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Eligibility Query School Locator",
+      "url": "https://geoquery.npssts.ca/Eligibility.aspx?Page=School",
+      "summary": "The board's registration page sends families to this lookup, run by Nipissing-Parry Sound Student Transportation Services. Enter your address, board and grade to see your school and whether transportation is provided.",
+      "related": [
+        {
+          "title": "Transportation eligibility (NPSSTS)",
+          "url": "https://npssts.ca/eligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Early French Immersion",
+      "url": "https://www.npsc.ca/programs/french_as_a_second_language/french_immersion/early_french_immersion/",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "K"
+        ]
+      },
+      "summary": "Early French Immersion starts in Kindergarten: 50% French in Kindergarten, 90% in Grades 1 and 2, 70% in Grades 3 to 6 and 50% in Grades 7 and 8. The page names no schools, no application steps, waitlist or program transportation. Ask the board or school.",
+      "related": [
+        {
+          "title": "French Immersion",
+          "url": "https://www.npsc.ca/programs/french_as_a_second_language/french_immersion"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary School French Immersion",
+      "url": "https://www.npsc.ca/programs/french_as_a_second_language/french_immersion/secondary_school_french_immersion/",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "9"
+        ]
+      },
+      "summary": "For students who finished Early Immersion or came from a French-language school. Grade 9 is 50% French and students can earn up to 12 credits in French. An Immersion Certificate needs the four French language courses plus at least six other courses taught in French. St. Joseph-Scollard Hall is the board's high school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Kindergarten and Elementary Registration",
+      "url": "https://www.npsc.ca/registration/Registration",
+      "summary": "We found no NPSC page on asking to attend a school outside your area; the registration page does not address it and the policy list did not load. Ask the board at 705-472-1201. Buses run only within a school's boundary or program area.",
+      "related": [
+        {
+          "title": "Transportation eligibility (NPSSTS)",
+          "url": "https://npssts.ca/eligibility"
+        }
+      ],
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "npscdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation Eligibility (NPSSTS)",
+      "url": "https://npssts.ca/eligibility",
+      "facts": {
+        "walk_km": {
+          "Grades 1 to 3": 1,
+          "Grades 4 to 8": 1.6,
+          "Secondary": 3
+        }
+      },
+      "summary": "Nipissing-Parry Sound Student Transportation Services runs the buses for four boards. A student within walking distance of the school is not assigned a bus. The table lists 0.0 km for JK and SK, so there is no walking limit for them; the limits are 1.0 km for Grades 1 to 3, 1.6 km for Grades 4 to 8 and 3.0 km for secondary, measured along the shortest safe route. The child must live within the school's boundary or program area. Service is Monday to Friday and can serve a second address in the same boundary.",
+      "related": [
+        {
+          "title": "Transportation forms (NPSSTS)",
+          "url": "https://npssts.ca/forms"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.npsc.ca/programs/special_education",
+      "summary": "The board's special education page links to its Special Education Plan, which says students with special needs should be placed in a regular class when that meets their needs and parents agree, with other placements available. The pages we read do not explain IEPs or IPRCs; ask your school.",
+      "related": [
+        {
+          "title": "Special Education Plan 2025-2026 (PDF)",
+          "url": "https://www.npsc.ca/UserFiles/Servers/Server_3536992/File/Programs/Special%20Education/Special%20Education%20Plan/SEP%202025-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.npsc.ca/programs/special_education/special_education_advisory_committee/",
+      "summary": "SEAC advises the board on special education; it lists 11 members. The meeting and document sections did not load when we read it, so check the page for dates or call the board at 705-472-1201.",
+      "related": [
+        {
+          "title": "SEAC Terms of Reference (PDF)",
+          "url": "https://www.npsc.ca/UserFiles/Servers/Server_3536992/File/Programs/Special%20Education/SEAC%20Terms%20of%20Reference.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.npsc.ca/about/accessibility",
+      "summary": "The board's accessibility page links a Multi-Year Accessibility Plan covering 2017 to 2022; we found no newer plan on the page, only a 2021-2022 status report. The plan describes board-wide work, not the features of a particular school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2017-2022 (PDF)",
+          "url": "https://www.npsc.ca/UserFiles/Servers/Server_3536992/File/Accessibility/Mulit%20Year%20Accessibility%20Plan/NPSCMultiYearAccessibilityPlan_%202017%20-%202022.pdf"
+        }
+      ],
+      "source_date": "2017 to 2022",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Kindergarten and Elementary Registration",
+      "url": "https://www.npsc.ca/registration/Registration",
+      "summary": "We could not find an NPSC page for newcomer families or English language learners. Registration for secondary asks for immigration documents if a child was not born in Canada. Ask the school what language support is offered.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accommodation Reviews",
+      "url": "https://www.npsc.ca/About/Accommodation_Reviews",
+      "summary": "We found no long-term accommodation plan. The board's page has its Pupil Accommodation Review policy, the Ministry review guidelines, a page for a Corpus Christi and John XXIII review (no date or outcome shown) and one titled St. Joseph / Sacred Heart 2008-2009. Ask the board about any review now under way.",
+      "related": [
+        {
+          "title": "Pupil Accommodation Review policy (PDF)",
+          "url": "https://www.npsc.ca/UserFiles/Servers/Server_3536992/File/About/Accommodation%20Reviews/as-282-pupil-accommodation-review.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "NPSC Student Achievement Plan 2024-2025",
+      "url": "https://www.npsc.ca/about/npsc_student_achievement_plan_2024-2025",
+      "summary": "The board's plan under Ontario's student achievement law, covering the Ministry's priorities and tied to the board's strategic plan. It is described as a living document updated over time. The page text lists no targets; they are in the PDF. These are board-wide plans, not this school's.",
+      "related": [
+        {
+          "title": "2024-2025 NPSC Student Achievement Plan (PDF)",
+          "url": "https://www.npsc.ca/UserFiles/Servers/Server_3536992/File/About/Student%20Achievement%20Plan/2024-2025%20NPSC%20Student%20Achievement%20Plan.pdf"
+        }
+      ],
+      "source_date": "2024-2025 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.npsc.ca/parents/parent_involvement_committee",
+      "summary": "The committee advises the board, gathers ideas from school councils and links parents with the director and trustees. Each school has a Catholic School Advisory Council. The page gives no meeting dates or how to join; ask your school or call the board at 705-472-1201.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npscdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.npsc.ca/parents/student_and_family_support_office",
+      "summary": "Talk to the teacher first, then the principal or vice-principal. If the matter is complex or unresolved, send an inquiry to the Student and Family Support Office (705-494-3891). It acknowledges within 2 business days and aims to respond within 5.",
+      "related": [
+        {
+          "title": "Communication Protocol",
+          "url": "https://www.npsc.ca/parents/communication_protocol"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

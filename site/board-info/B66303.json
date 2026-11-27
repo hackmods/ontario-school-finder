@@ -1,0 +1,291 @@
+{
+  "board": "B66303",
+  "name": "Conseil scolaire Viamonde",
+  "short": "CS Viamonde",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "viamonde-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription à l'école",
+      "url": "https://csviamonde.ca/inscriptions-et-nouveaux-eleves/inscription-a-lecole",
+      "summary": "Start with the online pre-registration (admission request) form. A registration office representative then calls to check whether a parent is a French-language rights holder under section 23 of the Charter. If so, you get a registration kit and a list of documents: proof of citizenship, the child's birth certificate, proof of address and the latest report card if the child is in school. Other families go to the admission committee. Registration office: 1-877-342-3683.",
+      "related": [
+        {
+          "title": "Quand inscrire votre enfant à l'école?",
+          "url": "https://csviamonde.ca/inscriptions-et-nouveaux-eleves/quand-inscrire-votre-enfant-a-lecole"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-admission",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Qui peut s'inscrire dans nos écoles?",
+      "url": "https://csviamonde.ca/inscriptions-et-nouveaux-eleves/qui-peut-sinscrire-dans-nos-ecoles",
+      "summary": "Children of section 23 rights holders (a Canadian citizen parent whose first language is French, who was schooled in French in a minority-language province, or whose other child is or was in a French-language school) are admitted through the pre-registration form. Other families can ask for an admission committee (principal, a teacher and a francophone supervisory officer). The child sits oral and written French tests, other school-age children in the family also test, and the decision covers the whole family.",
+      "related": [
+        {
+          "title": "Directives administratives no 3,102: Admission des élèves (PDF)",
+          "url": "https://csviamonde.ca/fileadmin/3_102_Admission_des_Eleves_dir_adm.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-when",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Quand inscrire votre enfant à l'école?",
+      "url": "https://csviamonde.ca/inscriptions-et-nouveaux-eleves/quand-inscrire-votre-enfant-a-lecole",
+      "summary": "You can apply at any time. The board's main registration call for the next school year is launched each January, and most families register in the first months of the year. The page gave January to March 2026 for September 2026 kindergarten, and the board updates it yearly. A child must reach the age on or before December 31: 4 for maternelle (JK), 5 for jardin d'enfants (SK), 6 for Grade 1, with no exceptions.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Trouvez une école francophone en Ontario",
+      "url": "https://csviamonde.ca/decouvrir-nos-ecoles-et-nos-programmes/trouver-une-ecole",
+      "summary": "The board's school finder takes a full address or postal code and can filter by elementary or secondary. Each school has its own attendance zone and gives priority to students who live in it. If the tool does not find a school, call the registration office at 1-877-342-3683 or email inscription@csviamonde.ca.",
+      "related": [
+        {
+          "title": "Zones de fréquentation scolaire",
+          "url": "https://csviamonde.ca/inscriptions-et-nouveaux-eleves/zone-de-frequentation-scolaire"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-fsl-not-found",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Prospectus: Lamothe-Cadillac secondary school 2023-2024 (PDF)",
+      "url": "https://csviamonde.ca/fileadmin/user_upload/CSViamonde_Prospectus_LACA.pdf",
+      "summary": "French-language board, so there is no French Immersion. The board's registration and newcomer pages do not describe support for students still learning French, but at least one secondary school prospectus (Lamothe-Cadillac, Windsor, 2023-24) lists French language upgrading (actualisation linguistique en francais) among its programs. Availability varies by school; ask your school or 1-888-583-5383, ext. 7.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Zones de fréquentation scolaire",
+      "url": "https://csviamonde.ca/inscriptions-et-nouveaux-eleves/zone-de-frequentation-scolaire",
+      "summary": "To attend a school outside your zone, ask the school in your zone first; approval is not guaranteed. Reasons the page mentions include a mid-year move, difficulties at the zone school, health, or a special program elsewhere. Approval must be renewed every year, and you arrange transportation yourself unless the consortium grants a courtesy seat. Directive 3,102 says an out-of-zone request is received by the superintendent's office once the student is admitted.",
+      "related": [
+        {
+          "title": "Directives administratives no 3,102: Admission des élèves (PDF)",
+          "url": "https://csviamonde.ca/fileadmin/3_102_Admission_des_Eleves_dir_adm.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport",
+      "url": "https://csviamonde.ca/inscriptions-et-nouveaux-eleves/transport",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.8,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "A student may get a bus if the main residence is in the school's zone, the walk to school is longer than 0.8 km (JK and SK), 1.6 km (Grades 1 to 8) or 3.2 km (Grades 9 to 12), and the student can walk to a bus stop (up to 0.4, 0.8 or 1.6 km). Eligible students are registered automatically. Out-of-zone students arrange their own transport or ask for a courtesy seat. Francobus runs most routes; Windsor-Essex and Wellington-Dufferin use their own consortia.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Besoins particuliers en éducation spécialisée",
+      "url": "https://csviamonde.ca/services/enfance-en-difficulte",
+      "summary": "The board's special education page links its 2026-2027 annual Special Education Plan and a guide for parents. School teams work with families on classroom strategies, accommodations and, when needed, an individual education plan (PEI). The plan's table of contents also lists the CIPR (the board's IPRC committee). The student and family assistance office helps families find their way: 1-888-583-5383, ext. 7.",
+      "related": [
+        {
+          "title": "Plan annuel 2026-2027 de l'éducation spécialisée (PDF)",
+          "url": "https://csviamonde.ca/fileadmin/Plan_annuel_de_l_Education_specialisee_CSViamonde_2026_v2.pdf"
+        },
+        {
+          "title": "Guide des parents: Éducation de l'enfance en difficulté (PDF)",
+          "url": "https://csviamonde.ca/fileadmin/viamonde/Administration/CSVimonde_235184_Guide_des_parents_Education_de_l_enfance_en_difficulte_Full_Version_SinglePages.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Besoins particuliers en éducation spécialisée",
+      "url": "https://csviamonde.ca/services/enfance-en-difficulte",
+      "summary": "The board's Special Education Advisory Committee (Comité consultatif de l'éducation spécialisée) advises the board on special education programs and services and speaks for parents and guardians. It is described on the special education page; we found no separate committee page, member list or current meeting schedule. Ask the board for meeting information.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibilité (plan pluriannuel d'accessibilité)",
+      "url": "https://csviamonde.ca/administration-et-gouvernance/accessibilite",
+      "source_date": "Novembre 2014 (plan 2014-2025)",
+      "summary": "The board commits to removing barriers and links its multi-year accessibility plan as a PDF. That PDF is dated November 2014 and covers 2014 to 2025; we did not find a newer plan on the page. The page also has a way to send questions, comments or concerns about accessibility.",
+      "related": [
+        {
+          "title": "Plan d'accessibilité pluriannuel 2014-2025 (PDF)",
+          "url": "https://csviamonde.ca/fileadmin/user_upload/Plan_pluriannuel_en_accessibilite.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-newcomer",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Nouveaux arrivants au Canada ou en Ontario",
+      "url": "https://csviamonde.ca/inscriptions-et-nouveaux-eleves/nouveaux-arrivants-au-canada-ou-en-ontario",
+      "summary": "Viamonde schools have settlement workers (PIDEF, funded by Immigration, Refugees and Citizenship Canada) who help newly arrived families find francophone resources and help students settle in, including a student mentor program. The page has a guide comparing school levels with those in Quebec and francophone countries. It does not describe a reception or assessment centre. Ask your school or call 1-888-583-5383, ext. 7.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Constructions de nouvelles écoles: Planification",
+      "url": "https://csviamonde.ca/administration-et-gouvernance/constructions-de-nouvelles-ecoles/planification",
+      "summary": "Explains how the board finds where new French-language schools are needed and lists ten 2026 capital priorities with planned capacities (for example Innisfil, Yonge-Eglinton, Durham Est). The page says these are not approved or funded by the Ministry. Projections are forecasts and capacity is building space, not open seats. It has no table of school capacity and enrolment.",
+      "related": [
+        {
+          "title": "Projets en cours",
+          "url": "https://csviamonde.ca/administration-et-gouvernance/constructions-de-nouvelles-ecoles/projets-par-ecole"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Trajectoire 2026-2030 (plan et repères stratégiques)",
+      "url": "https://csviamonde.ca/trajectoire",
+      "summary": "The board's 2026 to 2030 strategic plan, with three axes: student success and well-being, staff growth, and the board's leadership in its communities. Each axis has measurable objectives. We did not find a separate student achievement plan, so this is the multi-year plan. A brochure is available to download.",
+      "related": [
+        {
+          "title": "Trajectoire: brochure (PDF)",
+          "url": "https://csviamonde.ca/fileadmin/viamonde/Administration/CSViamonde_458057_Trajectoire_Brochure_V2.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-cpp",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Comité de participation des parents",
+      "url": "https://csviamonde.ca/annee-scolaire-2026-2027/engagement-des-parents/comite-de-participation-des-parents-1",
+      "summary": "The parent involvement committee links families with the director of education and trustees and advises the board on parent engagement. It has 10 parent members chosen to represent the board's regions, plus staff and two trustees. It meets four times a year, and parents may apply when seats are open. The page showed an open call; contact the board for current seats.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Conseil d'école",
+      "url": "https://csviamonde.ca/annee-scolaire-2026-2027/engagement-des-parents/conseil-decole-1",
+      "summary": "Each Viamonde school has a school council of parents, community representatives, the principal, a staff member and, in secondary schools, students. It makes recommendations to the principal on matters such as student achievement, the code of conduct, programs and fundraising. Ask your school how to join; the page links the board's school council directive (3.24).",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "viamonde-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Bureau d'assistance aux élèves et aux familles",
+      "url": "https://csviamonde.ca/contact-2-1/bureau-dassistance-aux-eleves-et-aux-familles",
+      "summary": "Start with the teacher, then the principal, then the superintendent of education, who asks for proof the first two steps were tried. The assistance office takes situations that need higher-level follow-up after the school or service could not resolve them. It aims to acknowledge within 2 business days and to send an update with a date if a full answer takes longer than 5. Phone 1-888-583-5383, option 7; bureauassistance@csviamonde.ca.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

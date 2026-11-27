@@ -1,0 +1,397 @@
+{
+  "board": "B67121",
+  "name": "Hamilton-Wentworth Catholic District School Board",
+  "short": "HWCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "hwcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration",
+      "url": "https://www.hwcdsb.ca/school_life/school/registration",
+      "summary": "Find your home school with the School Locator, then use the board's online registration portal (a computer is recommended). After the form is reviewed you get an email to book a registration appointment with the school. The 2026-27 notice says to bring a birth certificate or passport, a Catholic baptismal certificate and proof of residency; elementary schools were open for in-person registration on August 31, 2026.",
+      "related": [
+        {
+          "title": "2026-2027 School Registration",
+          "url": "https://www.hwcdsb.ca/news/2025-2026/2026-2027_registration"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten Registration",
+      "url": "https://www.hwcdsb.ca/news/2025-2026/kindergarten_registration",
+      "summary": "Registration for September 2026 Kindergarten opened February 2, 2026 (the board posts a new notice each year). Children must be four by December 31 of the school year they begin Year 1 of Kindergarten. French Immersion families follow a separate route (see program records).",
+      "source_date": "Posted 01/21/2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-admission",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "SA06 Student Admission, Elementary and Secondary Schools (PDF)",
+      "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/Policies%20and%20Procedures/SA06%20Student%20Admissions%20-%20Elementary%20and%20Secondary_POLICY.pdf",
+      "summary": "Catholic elementary schools admit children baptized Roman Catholic (or Eastern Catholic). If neither the child nor a parent is Catholic, the board may admit the child if space allows, after an admissions committee reviews the request. Secondary schools are open to age-appropriate students living in the school's boundary.",
+      "related": [
+        {
+          "title": "SA06 Procedures (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/Policies%20and%20Procedures/SA06%20Student%20Admissions%20-%20Elementary%20and%20Secondary_PROCEDURES.pdf"
+        }
+      ],
+      "source_date": "Approved August 27, 2024",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Locator & Boundaries",
+      "url": "https://www.hwcdsb.ca/school_life/school/school_locator_boundaries",
+      "summary": "The board's lookup: enter an address to see its elementary and secondary schools, plus boundary maps by school (including French Immersion boundaries). The board notes the finder does not show transportation eligibility.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-fi-sk",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion",
+      "url": "https://www.hwcdsb.ca/school_life/languages/french_immersion",
+      "facts": {
+        "entry_grades": [
+          "K"
+        ]
+      },
+      "summary": "French Immersion starts in Year 2 of Kindergarten (SK) at five elementary schools and runs through Grade 12. To enrol an SK child, find your French Immersion boundary school with the School Locator and contact that school. Registration is in February, the same as the English track. The board says it cannot guarantee a Year 1 place, which is only possible if space allows.",
+      "related": [
+        {
+          "title": "SP02 French Immersion Program procedures (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/School%20Life/Languages/French%20Immersion/SP02%20French%20Immersion%20Program%20PROCEDURES%20(1).pdf"
+        },
+        {
+          "title": "Kindergarten registration notice",
+          "url": "https://www.hwcdsb.ca/news/2025-2026/kindergarten_registration"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-fi-jk",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "SP02 French Immersion Program, Procedures (PDF)",
+      "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/School%20Life/Languages/French%20Immersion/SP02%20French%20Immersion%20Program%20PROCEDURES%20(1).pdf",
+      "facts": {
+        "entry_grades": [
+          "JK"
+        ]
+      },
+      "summary": "Entry in Year 1 of Kindergarten is possible only if space is available. After February 1 parents tell the French Immersion school, which keeps a dated wait list, considered after all Year 2 children are placed. Priority goes first to Catholic children living in the school's English-track area, then to Catholic siblings, then other Catholic children in the program area, then others. Bus service is not provided at this level unless an empty seat is approved.",
+      "source_date": "Policy revised June 4, 2024",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-fi-late",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "SP02 French Immersion Program, Procedures (PDF)",
+      "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/School%20Life/Languages/French%20Immersion/SP02%20French%20Immersion%20Program%20PROCEDURES%20(1).pdf",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ]
+      },
+      "summary": "A student can join Grade 1 without French Immersion kindergarten if space is available, at the principal's discretion after a meeting with the family. Entry after Grade 1 involves a parent interview, the two latest report cards, and informal testing and an interview in English and French by an Immersion teacher.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.hwcdsb.ca/school_life/languages/french_immersion",
+      "summary": "French Immersion continues through Grade 12 at Cathedral High School (École Cathédrale). Students complete at least 10 courses taught in French (the procedures count four French Immersion courses plus six courses in French) for the certificate.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-transfer-elem",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "S03 Elementary School Students Out-of-Boundary Requests (PDF)",
+      "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/Policies%20and%20Procedures/Schools/HWCDSB%20Policy%20-%20S03%20-%20Elementary%20School%20Students%20Out-of-Boundary%20Requests.pdf",
+      "summary": "Elementary students may ask for an exception to their school boundary by applying before the first day of September, using a form from the requested school. Requests are not considered until all in-boundary students are placed, and approval depends on space. Each January the board sorts schools by how much approval a request needs.",
+      "related": [
+        {
+          "title": "SA06 Procedures, section on out-of-boundary requests (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/Policies%20and%20Procedures/SA06%20Student%20Admissions%20-%20Elementary%20and%20Secondary_PROCEDURES.pdf"
+        }
+      ],
+      "source_date": "Revised March 10, 2023",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-transfer-sec",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "S04 Secondary School Students Out-of-Boundary Requests (PDF)",
+      "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/Policies%20and%20Procedures/S04%20Secondary%20School%20Students%20Out-of-Boundary%20Requests%20POLICY.pdf",
+      "summary": "Grade 8 students may ask for an exception to their secondary boundary, applying on or before the first week of February with a form from the requested school. Approval is not guaranteed and depends on space.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "ST01 Student Transportation (PDF)",
+      "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/School%20Life/Languages/French%20Immersion/ST01%20Student%20Transportation%20POLICY.pdf",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 1.2,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Students living more than 1.2 km (kindergarten), 1.6 km (Grades 1 to 8) or 3.2 km (Grades 9 to 12) from their home school, inside its boundary, may be eligible. Distance is measured by the shortest walking route. Students who are not eligible may apply for an empty seat each year. The board provides buses from the home school to the French Immersion school. Hamilton-Wentworth Student Transportation Services runs the service.",
+      "related": [
+        {
+          "title": "Hamilton-Wentworth Student Transportation Services",
+          "url": "https://www.hamiltonschoolbus.ca/"
+        }
+      ],
+      "source_date": "Revised August 30, 2023",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.hwcdsb.ca/school_life/programs_curriculum/special_education",
+      "summary": "The board's special education page describes its approach and supports for each exceptionality, an annual survey, and an Entry to School process for students with extensive needs. Its 2026-2027 Special Education Programs and Services document and a parents' guide are linked. This page does not itself explain IEPs or IPRCs; ask your school or see the guide.",
+      "related": [
+        {
+          "title": "Special Education Programs and Services 2026-2027 (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/School%20Life/Programs%20and%20Curriculum/Special%20Education/2026-2027%20Special%20Education%20Programs%20and%20Services%20%20Final.pdf"
+        },
+        {
+          "title": "Parents'/Guardians' Guide 2026-2027 (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/School%20Life/Programs%20and%20Curriculum/Special%20Education/2026-2027%20Parent%20Guide%20to%20Special%20Education%20Programs%20and%20Services%20Final.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.hwcdsb.ca/our_board/committees_consultation/special_education_advisory_committee",
+      "summary": "The page lists SEAC's 2026-27 meetings (6:30 p.m. at the Catholic Education Centre, 90 Mulberry Street, monthly from September 2026 to June 2027), its members and its agendas and minutes.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility & AODA Feedback",
+      "url": "https://www.hwcdsb.ca/our_board/committees_consultation/accessibility_aoda_feedback",
+      "summary": "The board's Multi-Year Accessibility Plan 2023-2027, a January 2026 status report, and how to ask for accessible formats or report a barrier on the board's website. The plan is board-wide; ask a school about its building.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2023-2027 (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Committees%20and%20Consultation/Accessibility/HWCDSB%20Multi-Year%20Accessibility%20Plan%202023%20-%202027.pdf"
+        }
+      ],
+      "source_date": "2023-2027",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-esl",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "English as a Second Language (ESL)",
+      "url": "https://www.hwcdsb.ca/school_life/languages/english_as_a_second_language_esl",
+      "summary": "Support for newcomer students: ESL teachers in elementary schools and ESL support or classes in secondary schools. Secondary newcomers get an intake appointment with a language and math assessment. The page describes no separate welcome centre; newcomers register through the usual process.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-map",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-year Accommodation Plan 2024-2029 (PDF)",
+      "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/Plans/Multi-Year%20Accommodation%20Plan%202024-2029.pdf",
+      "summary": "The board's plan for school space: enrolment projections, capital needs by planning area and each school's capacity and utilization. Projections are forecasts, and capacity is building space, not open seats in a grade or program. It notes that the provincial moratorium on school consolidations remains in place. Boundary reviews, if any, are posted separately.",
+      "related": [
+        {
+          "title": "Boundary Reviews",
+          "url": "https://www.hwcdsb.ca/our_board/committees_consultation/boundary_reviews"
+        },
+        {
+          "title": "S09 Pupil Accommodation Review Procedures (PDF)",
+          "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/Policies%20and%20Procedures/S09%20Pupil%20Accommodation%20Review%20PROCEDURES.pdf"
+        }
+      ],
+      "source_date": "August 2024",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan (PDF)",
+      "url": "https://www.hwcdsb.ca/UserFiles/Servers/Server_370166/File/Our%20Board/Governance/BPS/SAP/HWCDSB%20Student%20Achievement%20Plan%20May%202026.pdf",
+      "summary": "The board's plan under Ontario's student achievement framework, with goals for literacy, math, graduation, well-being and participation, faith integration, and the home, parish and school link, shown with board and provincial results. Board-wide figures, not this school's.",
+      "related": [
+        {
+          "title": "Multi-Year Strategic Plan 2025-2028",
+          "url": "https://www.hwcdsb.ca/our_board/governance/multi-_year_strategic_plan"
+        }
+      ],
+      "source_date": "2024-2025 academic year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic Parent Involvement Committee",
+      "url": "https://www.hwcdsb.ca/our_board/committees_consultation/catholic_parent_involvement_committee",
+      "summary": "The board's parent committee. The page lists 2026-27 meeting dates (6:00 p.m. at the Father Kennedy Catholic Education Centre), members and minutes.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic School Council",
+      "url": "https://www.hwcdsb.ca/school_life/school/catholic_school_council",
+      "summary": "Guidelines and guides for Catholic school councils, which are parent-led groups at each school. Ask your school how to take part.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hwcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.hwcdsb.ca/student_and_family_support_office",
+      "summary": "Start with your child's teacher, then the principal. If it is not resolved, the Student and Family Support Office takes a request form or phone call, acknowledges within two business days and aims to answer within five.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion",
+      "url": "https://www.hwcdsb.ca/school_life/languages/french_immersion",
+      "verified": "2026-11-26",
+      "schools": {
+        "695343": "Cathedral High School (Hamilton)",
+        "784400": "St. Clare of Assisi Catholic Elementary School (Stoney Creek)",
+        "789720": "St. Eugene Catholic Elementary School (Hamilton)",
+        "814032": "St. Joseph Catholic Elementary School (Hamilton)",
+        "858102": "St. Vincent de Paul Catholic Elementary School (Hamilton)",
+        "863955": "Sts. Peter & Paul Catholic Elementary School (Hamilton)"
+      }
+    }
+  ]
+}

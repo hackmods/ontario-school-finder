@@ -1,0 +1,284 @@
+{
+  "board": "B28053",
+  "name": "Rainy River District School Board",
+  "short": "Rainy River DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "rrdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register a Student",
+      "url": "https://www.rrdsb.com/r_r_d_s_b_schools/school_registration",
+      "summary": "The board serves JK to Grade 12. Register online or with the paper form, or book a time at the school; schools take registrations through the year, plus the week before school starts and the week after it ends in June. After you submit, the school contacts you and you finish by handing in paperwork: proof of age and legal name, proof of citizenship or legal status, immunization record, proof of residence and proof of custody. Kindergarten has its own page.",
+      "related": [
+        {
+          "title": "Kindergarten Registration",
+          "url": "https://www.rrdsb.com/cms/One.aspx?portalId=73704&pageId=52744380"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten Registration",
+      "url": "https://www.rrdsb.com/cms/One.aspx?portalId=73704&pageId=52744380",
+      "summary": "Children who are four or five years old by December 31, 2026 can start Kindergarten in September (the page's current wording; the board updates it yearly). Find your school on the transportation consortium's boundary maps, complete the online registration, then attend your school's Kindergarten Registration Week open house; dates for each school are on a poster linked from the page. Bring proof of age or status, proof of residence and emergency contacts.",
+      "related": [
+        {
+          "title": "School Boundary Maps",
+          "url": "https://rrdtsc.rrdsb.com/our_schools/school_boundary_maps"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-address",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Boundary Maps",
+      "url": "https://rrdtsc.rrdsb.com/our_schools/school_boundary_maps",
+      "summary": "The Rainy River District Transportation Services Consortium, which serves this board and the Northwest Catholic board, posts a PDF attendance-boundary map for each school, including Fort Frances High School, the Fort Frances intermediate (Grades 7-8) and Rainy River High School. The board's own registration page points families here to work out their school. It is a set of maps, not an address search, so confirm with the school if your street is near a boundary.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-fi",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.rrdsb.com/programs_learning/french_as_a_second_language",
+      "summary": "We could not find a French Immersion or Extended French program at this board. Its French as a Second Language page only states a commitment to French oral proficiency and gives no entry grades or application. The Ministry's 2024-25 data lists these schools as Core French only. Ask the school or the board office (807-274-9855) what French is offered and from which grade.",
+      "program": "french-immersion",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policy 6.20 School Attendance Zones (PDF)",
+      "url": "https://www.rrdsb.com/UserFiles/Servers/Server_73620/File/Policies/6%20Facilities/6.20%20School%20Attendance%20Zones.pdf",
+      "summary": "Students are expected to attend the school in the zone where they live. Parents may ask for a school outside it, for reasons such as the program offered, childcare or a move during the year. The home and receiving principals decide with senior administration, weighing student well-being, building capacity and staffing, whether both schools can offer viable programs, and extra cost. Out-of-zone attendance is usually granted at the start of a year or semester.",
+      "source_date": "Date of Approval: 2025-06-03",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Walk Distance Policy",
+      "url": "https://rrdtsc.rrdsb.com/policy_procedures/walk_distance_policy",
+      "summary": "Students may ride the bus if they live inside the school's attendance boundary and farther away than the distances shown; JK and SK are picked up door to door when feasible, with a parent or guardian meeting the bus. Closer students are walk students, and bus riders in Grades 1 to 12 walk up to 500 m to a group stop. The consortium's joint policy also allows courtesy seats on existing routes when there is room and no new stop.",
+      "facts": {
+        "walk_km": {
+          "Grades 1 to 3": 1,
+          "Grades 4 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "related": [
+        {
+          "title": "Joint Transportation Policy (PDF)",
+          "url": "https://rrdtsc.rrdsb.com/policy_procedures/joint_transportation_policy"
+        },
+        {
+          "title": "Transportation FAQs",
+          "url": "https://rrdtsc.rrdsb.com/faqs"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Plan (PDF)",
+      "url": "https://www.rrdsb.com/governance/publications_bps_documents/special_education_plan",
+      "summary": "The board's Special Education Plan (the 2026-27 revision is posted) explains how students are identified, how the IPRC and IEP work, and what supports and placements exist. The board says most students with special needs are supported in regular classes with accommodations, with school teams of teachers, special education resource teachers and administrators, plus a Behaviour Support Team. A Parents' Guide to the IPRC is on the services page.",
+      "related": [
+        {
+          "title": "Special Education Services",
+          "url": "https://www.rrdsb.com/our_board/school_support___special_education_services/special_education_services_"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.rrdsb.com/governance/board_of_trustees_1/board_and_commitee_meetings/special_education_advisory_committee",
+      "summary": "The Special Education Advisory Committee meets on the second Wednesday of each month from 12:00 to 1:00 pm at the Education Centre or online through Microsoft Teams. Agendas and minutes are posted on the page, along with a link to the provincial handbook for SEAC members.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan (PDF)",
+      "url": "https://www.rrdsb.com/governance/publications_bps_documents/multi-_year_accessibility_plan",
+      "summary": "The board's accessibility plan covers December 2022 to December 2027 and was prepared by its Accessibility Committee. It describes how barriers are identified and removed, what has been done, and the barriers to be addressed in the plan period. An accessibility feedback form and accessible formats are available on request.",
+      "source_date": "December 2022",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Newcomer and English language support",
+      "url": "https://www.rrdsb.com/families/student_and_family_support_office",
+      "summary": "We could not find a Rainy River DSB page for newcomer families or English language learners; searches of the site found none. Ask your school what language support is offered, or contact the Student and Family Support Office (807-275-4986). Registration asks for proof of legal status in Canada.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-pfp",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Program and Facility Plan 2024-2029 (PDF)",
+      "url": "https://www.rrdsb.com/governance/publications_bps_documents/program_and_facility_plan",
+      "summary": "The board's five-year plan for schools: planned capital projects, program and boundary reviews, and a ten-year enrolment forecast by school and review area. It forecasts a decline of about 167 students over ten years and board-wide use of about 60% of capacity. Projections are forecasts, and capacity is building space, not the number of open seats. It lists upcoming reviews, for example Donald Young, Crossroads and Sturgeon Creek.",
+      "source_date": "April 2024",
+      "related": [
+        {
+          "title": "Program and Facility Plan page (Our Board)",
+          "url": "https://www.rrdsb.com/our_board/plant_operations___maintenance/program_and_facility_plan"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.rrdsb.com/governance/publications_bps_documents/student_achievement_plan",
+      "summary": "The board's annual improvement plan under the Ministry's framework, built around three priorities: achievement of learning outcomes in core academic skills, preparing students for future success, and student engagement and well-being. It links to the plan document with board results, goals and the actions the board will take. The page labels the linked plan 2025-2026; the document itself shows 2024-25 as its plan year.",
+      "related": [
+        {
+          "title": "Student Achievement Plan (PDF)",
+          "url": "https://www.rrdsb.com/UserFiles/Servers/Server_73620/File/Plans%20and%20Publications/RRDSB%20Student%20Achievement%20Plan.pdf"
+        },
+        {
+          "title": "Strategic Plan (PDF)",
+          "url": "https://www.rrdsb.com/governance/publications_bps_documents/strategic_plan"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.rrdsb.com/governance/board_of_trustees_1/board_and_commitee_meetings/parent_involvement_committee",
+      "summary": "The Parent Involvement Committee is made up of parents, trustees and board staff who work on parent engagement across the board. The page posts committee newsletters and annual reports and links to the Ministry's information on parent involvement committees.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Councils",
+      "url": "https://www.rrdsb.com/families/school_councils",
+      "summary": "Every school has a school council that advises the principal and, where appropriate, the board. Parents or guardians of students at the school can be members, and parents must be the majority. Councils have at least nine members, or eleven with student representatives, who are required in secondary schools. The page links the handbook, templates and board Policy 1.60.",
+      "related": [
+        {
+          "title": "School Councils: everything you need to know",
+          "url": "https://www.rrdsb.com/families/school_councils/everything_you_need_to_know"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rrdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policy 2.07 Responding to Concerns (PDF)",
+      "url": "https://www.rrdsb.com/UserFiles/Servers/Server_73620/File/Policies/2%20Organization%20&%20Administration/2.07%20Responding%20to%20Concerns.pdf",
+      "summary": "For a classroom concern, speak to the teacher first, then the principal, then the school superintendent, then the Director of Education. Trustees can be contacted at any time and will point you to the right process; school councils do not handle individual cases. The board acknowledges an inquiry within two school or business days. The Student and Family Support Office helps with matters needing follow-up beyond the school.",
+      "source_date": "Date of Approval: 2024-10-01",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.rrdsb.com/families/student_and_family_support_office"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

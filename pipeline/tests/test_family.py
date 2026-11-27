@@ -145,13 +145,18 @@ def test_board_file_schema(path):
             assert lv in ("elementary", "secondary"), r["id"]
         if r.get("program"):
             assert r["program"] in ("french-immersion", "extended-french", "shsm"), r["id"]
+        # "couldn't check" (the board's page couldn't be read) is a kind of not_found, never a claim about the board
+        if r.get("unchecked"):
+            assert r["kind"] == "not_found" and r["unchecked"] is True, r["id"]
         facts = r.get("facts") or {}
         for g in facts.get("entry_grades", []):
             assert g in family.GRADE_LABEL, f"{r['id']}: entry grade {g!r} (use JK, K or 1 to 12)"
         for k, v in (facts.get("walk_km") or {}).items():
             assert isinstance(v, (int, float)) and 0 < v <= 10 and k, f"{r['id']}: walk distance {k}={v}"
     for d in b.get("decisions") or []:
-        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", d["decided"]) and d["schools"] and d["match"]
+        # a board may publish only the month it decided; never invent a day
+        assert re.fullmatch(r"\d{4}-\d{2}(-\d{2})?", d["decided"]) and d["schools"] and d["match"], d["id"]
+        assert d["kind"] == "decision" and d["topic"] in family.BoardInfo.TOPICS, d["id"]
     for lst in b.get("school_programs") or []:
         assert lst["program"] in ("french-immersion", "extended-french") and lst["url"].startswith("https://") and lst["schools"]
         assert all(re.fullmatch(r"\d{6}", x) for x in lst["schools"])

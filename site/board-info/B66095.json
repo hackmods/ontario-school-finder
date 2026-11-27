@@ -1,0 +1,436 @@
+{
+  "board": "B66095",
+  "name": "York Region District School Board",
+  "short": "YRDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "lifecycle": "dates",
+      "title": "School Registration",
+      "url": "https://www2.yrdsb.ca/schools-programs/school-registration",
+      "summary": "Find your home school with the school locator, book an appointment with it, fill in the board's registration form, and bring original proof of your child's name and date of birth plus three proof-of-address documents. Kindergarten families can also register online through Edsby; the Kindergarten page says registration for the next school year opens in January. Some newcomer families register at the Reception Centre instead.",
+      "related": [
+        {
+          "title": "Kindergarten Registration",
+          "url": "https://www2.yrdsb.ca/schools-programs/elementary-school/kindergarten/kindergarten-registration"
+        },
+        {
+          "title": "Policy and Procedure #163.0, Student Registrations",
+          "url": "https://www2.yrdsb.ca/PP163-studentregistrations"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Find My School",
+      "url": "https://www2.yrdsb.ca/schools-programs/find-my-school",
+      "summary": "The board's School Locator shows the YRDSB elementary and secondary schools for a street address, including the French Immersion school that serves it. The board also lists every school and a regional map. Because of rapid growth, some new students are temporarily placed at another school; check with the local school.",
+      "related": [
+        {
+          "title": "School Locator",
+          "url": "https://schoollocator.yrdsb.ca/"
+        },
+        {
+          "title": "School Boundaries",
+          "url": "https://www2.yrdsb.ca/schools-programs/school-boundaries"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "lifecycle": "dates",
+      "title": "French Immersion Registration",
+      "url": "https://www2.yrdsb.ca/schools-programs/school-programs/french-second-language/french-immersion-registration",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "summary": "French Immersion starts in Grade 1; no French is needed beforehand. Registration for Grade 1 in September 2027 is January 15 to February 8, 2027, with information sessions on January 14, 2027 at 7 p.m.; later registrations are first come, first served. Children attend the immersion school serving their home address, which can be a different school for early and later grades. The page lists each area's program locations.",
+      "related": [
+        {
+          "title": "French as a Second Language",
+          "url": "https://www2.yrdsb.ca/schools-programs/school-programs/french-second-language"
+        },
+        {
+          "title": "Policy and Procedure #108.0 (overflow and primary dual track)",
+          "url": "https://www2.yrdsb.ca/PP108-studentaccomodation"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "French Immersion in Secondary School",
+      "url": "https://www2.yrdsb.ca/schools-programs/school-programs-nav/school-programs/french-second-language/french-immersion",
+      "summary": "Students who took elementary French Immersion can continue at ten named secondary schools and earn a French Immersion Certificate with at least 10 French credits (four French as a Second Language courses and six taught in French). There is no application: students attend the immersion secondary school for their area, found with the school locator.",
+      "related": [
+        {
+          "title": "School Locator",
+          "url": "https://schoollocator.yrdsb.ca/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "Policy and Procedure #108.0, Attendance Areas, Student Transfers and School Enrolment Management",
+      "url": "https://www2.yrdsb.ca/PP108-studentaccomodation",
+      "summary": "The board's policy on attendance areas and student transfers. Superintendents approve transfers after weighing enrolment, staffing, class size and programs, and a yearly list of secondary schools is closed to new transfers. The registration page says transfer requests are arranged through your home school. Students may also be directed to another school because of overflow or holding situations.",
+      "related": [
+        {
+          "title": "School Registration",
+          "url": "https://www2.yrdsb.ca/schools-programs/school-registration"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Policy and Procedure #680.0, Student Transportation",
+      "url": "https://www2.yrdsb.ca/PP-680-StudentTransportation",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 3": 1.2,
+          "Grades 4 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Eligible when living more than 1.2 km (JK to Grade 3), 1.6 km (Grades 4 to 8) or 3.2 km (Grades 9 to 12) from the school, measured by Student Transportation Services; secondary students served by public transit are not eligible. French Immersion transportation is approved for elementary students living in the transportation zone of the immersion program serving their home school. The text we read does not describe courtesy seats.",
+      "related": [
+        {
+          "title": "Student Transportation",
+          "url": "https://www2.yrdsb.ca/schools-programs/student-transportation"
+        },
+        {
+          "title": "Student Transportation Services of York Region",
+          "url": "https://net.schoolbuscity.com/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www2.yrdsb.ca/student-support/special-education",
+      "summary": "The board's special education hub covers the referral process, Identification, Placement and Review Committee (IPRC) meetings, Individual Education Plans, and specialized equipment. The full Special Education Plan is published section by section. Start with your child's teacher or school principal.",
+      "related": [
+        {
+          "title": "Special Education Plan",
+          "url": "https://www2.yrdsb.ca/student-support/special-education/special-education-plan"
+        },
+        {
+          "title": "Referral Process",
+          "url": "https://www2.yrdsb.ca/student-support/special-education/referral-process"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www2.yrdsb.ca/student-support/special-education/special-education-advisory-committee-seac",
+      "summary": "SEAC advises the board on special education programs and services. Its meetings are open to the public and are usually held virtually at 7 p.m. on the first Thursday of each month, with agendas posted a week ahead. Members include local community associations; the page lists contacts for questions."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Accessibility Reports and Plans",
+      "url": "https://www2.yrdsb.ca/about-us/human-rights-office/accessibility/accessibility-reports-and-plans",
+      "source_date": "2025 to 2030",
+      "summary": "Publishes the board's Multi-Year Accessibility Plan 2025 to 2030 under Ontario's accessibility law, plus compliance reports. The plan covers barriers in communication, employment, customer service and physical environments across the board; it does not describe individual school buildings, so ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Accessibility",
+          "url": "https://www2.yrdsb.ca/about-us/human-rights-office/accessibility"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-reception",
+      "topic": "newcomer",
+      "kind": "process",
+      "lifecycle": "contacts",
+      "title": "Reception Centre",
+      "url": "https://www2.yrdsb.ca/about-us/departments/inclusive-school-and-community-services/reception-centre",
+      "summary": "Open by appointment all year (booked with an online form) to help some families register and, for older students, get an English language assessment. It is for children with time-sensitive immigration documents, permanent residents new to Canadian schools, visa students and others the page lists; other families register at their school. Settlement workers work in schools.",
+      "related": [
+        {
+          "title": "General Information for Newcomers",
+          "url": "https://www2.yrdsb.ca/about-us/departments/inclusive-school-and-community-services/general-information-newcomers"
+        },
+        {
+          "title": "English as a Second Language (ESL) and English Literacy Development (ELD)",
+          "url": "https://www2.yrdsb.ca/student-support/english-second-language-esl-and-english-literacy-development-eld"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-capital",
+      "topic": "planning",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Capital Strategy",
+      "url": "https://www2.yrdsb.ca/board-plans/capital-strategy",
+      "summary": "The board's list of new schools, additions and replacements it asks the province to fund, plus emerging and longer-term growth areas. Projections are forecasts, and capacity is building space, not open seats. School boundary reviews and public meetings are posted on a separate page.",
+      "related": [
+        {
+          "title": "Boundary Information and Presentations",
+          "url": "https://www2.yrdsb.ca/board-plans/school-boundary-information-and-presentations"
+        },
+        {
+          "title": "2025-2026 Capital Priorities Program Submission List (PDF)",
+          "url": "https://www2.yrdsb.ca/sites/default/files/2025-12/Board-Report-2025-26-Capital-Priorities-Program-29Sept2025.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-dap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "District Action Plan",
+      "url": "https://www2.yrdsb.ca/board-plans/district-action-plan",
+      "summary": "The board's action plan, 'Building Unity, Achieving Excellence', sets goals under three priorities from the trustees' strategic plan: student achievement, health and well-being, and human rights and inclusive education. It names system actions such as a focus on literacy and mathematics.",
+      "related": [
+        {
+          "title": "Multi-Year Strategic Plan",
+          "url": "https://www2.yrdsb.ca/about-us/director-education/multi-year-strategic-plan"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "School Councils",
+      "url": "https://www2.yrdsb.ca/schools-programs/school-councils-0",
+      "summary": "Each school has a school council that gives input on school and board decisions. Parents can become members by completing the nomination form, due at the start of the school year; ask your school. The page links the school council handbook, forums and grants."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-peac",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Parent, Family and Community Engagement Advisory Committee (PEAC)",
+      "url": "https://www2.yrdsb.ca/schools-programs/school-councils/parent-family-and-community-engagement-advisory-committee-peac",
+      "summary": "The board's parent involvement committee. Its page covers its mandate, agendas and minutes, members, and an annual regional symposium. The member application opens in May and closes in June each year."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "yrdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www2.yrdsb.ca/student-and-family-support-office",
+      "summary": "Start with your child's teacher, then the principal, then the school superintendent. If it is still not settled, the Student and Family Support Office can help; it aims to acknowledge within 2 business days and answer within 5. Contact it by form, email or phone.",
+      "related": [
+        {
+          "title": "How can we help you",
+          "url": "https://www2.yrdsb.ca/how-can-we-help-you"
+        }
+      ]
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion Registration (elementary program locations, 2026-27)",
+      "url": "https://www2.yrdsb.ca/schools-programs/school-programs/french-second-language/french-immersion-registration",
+      "verified": "2026-11-26",
+      "schools": {
+        "111430": "Clearmeadow Public School (Newmarket)",
+        "122858": "Coppard Glen Public School (Markham)",
+        "134959": "Sir Wilfrid Laurier Public School (Markham)",
+        "201776": "Fred Varley Public School (Markham)",
+        "204170": "Franklin Street Public School (Markham)",
+        "205611": "Pierre Berton Public School (Vaughan)",
+        "229490": "Spring Lakes Public School (Stouffville)",
+        "234850": "Maple Leaf Public School (Newmarket)",
+        "240701": "Michaëlle Jean Public School (Richmond Hill)",
+        "270680": "Elder's Mills Public School (Woodbridge)",
+        "281581": "Julliard Public School (Maple)",
+        "291080": "Keswick Public School (Keswick)",
+        "307866": "Lester B. Pearson Public School (Aurora)",
+        "323195": "Louis-Honoré Frechetté Public School (Thornhill)",
+        "326712": "Mazo de la Roche Public School (Newmarket)",
+        "365190": "Milliken Mills Public School (Unionville)",
+        "382809": "Lorna Jackson Public School (Woodbridge)",
+        "413133": "Sam Chapman Public School (Markham)",
+        "450073": "Poplar Bank Public School (Newmarket)",
+        "453900": "Prince Charles Public School (Newmarket)",
+        "462820": "Victoria Square Public School (Markham)",
+        "479454": "Reesor Park Public School (Markham)",
+        "557674": "Beynon Fields Public School (Richmond Hill)",
+        "570460": "Ventura Park Public School (Thornhill)",
+        "618896": "Woodland Public School (Thornhill)",
+        "634565": "Windham Ridge Public School (Richmond Hill)",
+        "003913": "Adrienne Clarkson Public School (Richmond Hill)",
+        "065047": "Viola Desmond Public School (Maple)",
+        "003104": "Roméo Dallaire Public School (Maple)"
+      }
+    },
+    {
+      "program": "french-immersion",
+      "title": "French Immersion in Secondary School",
+      "url": "https://www2.yrdsb.ca/schools-programs/school-programs-nav/school-programs/french-second-language/french-immersion",
+      "verified": "2026-11-26",
+      "schools": {
+        "890202": "Bill Hogarth Secondary School (Markham)",
+        "892998": "Aurora High School (Aurora)",
+        "894672": "Pierre Elliot Trudeau High School (Markham)",
+        "917893": "Huron Heights Secondary School (Newmarket)",
+        "919586": "King City Secondary School (King City)",
+        "921661": "Langstaff Secondary School (Richmond Hill)",
+        "928682": "Newmarket High School (Newmarket)",
+        "947814": "Thornlea Secondary School (Thornhill)",
+        "949230": "Hodan Nalayeh Secondary School (Thornhill)",
+        "954292": "Woodbridge College (Woodbridge)"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "yrdsb-georgina-boundary-2026",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "Georgina Boundary Review (Black River, Sutton and Morning Glory public schools)",
+      "url": "https://www2.yrdsb.ca/board-plans/school-boundary-information-and-presentations",
+      "decided": "2025-10-07",
+      "summary": "The board's boundary page lists this review as approved on October 7, 2025. The updated presentation says the change takes effect in September 2026: new registrations in the affected areas go to Black River or Morning Glory, and existing students may stay at their current school until they graduate from it (with transportation if eligible) or move.",
+      "related": [
+        {
+          "title": "Georgina Boundary Review, updated presentation (PDF)",
+          "url": "https://www2.yrdsb.ca/sites/default/files/2025-10/Georgina-Boundary-Review-Updated-May2025.pdf"
+        }
+      ],
+      "schools": [
+        "050199",
+        "544256",
+        "372463"
+      ],
+      "match": "Names in the board listing matched by hand to this site's Black River PS and Sutton PS (both Sutton West) and Morning Glory PS (Pefferlaw), all JK-8 elementary. Fairwood PS appears in the review title but not in the updated presentation, so it is left out.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "yrdsb-aurora-boundary-2026",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "Aurora Heights and Devins Drive public schools boundary change",
+      "url": "https://www2.yrdsb.ca/board-plans/school-boundary-information-and-presentations",
+      "decided": "2025-10-07",
+      "summary": "The board's boundary page lists this change as approved on October 7, 2025. The public meeting presentation says it takes effect in September 2026: new registrations in the affected area go to Devins Drive, and existing Aurora Heights students may stay until they graduate from it (with transportation if eligible) or move.",
+      "related": [
+        {
+          "title": "Aurora Heights PS and Devins Drive PS public meeting presentation (PDF)",
+          "url": "https://www2.yrdsb.ca/sites/default/files/2025-10/AuroraHeightsPS-DevinsDrivePS-PublicMeeting-April162025.pdf"
+        }
+      ],
+      "schools": [
+        "028282",
+        "139343"
+      ],
+      "match": "Aurora Heights PS and Devins Drive PS matched by hand to this site's two Aurora JK-8 elementary schools of the same names.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

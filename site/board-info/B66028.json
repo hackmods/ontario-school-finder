@@ -1,0 +1,391 @@
+{
+  "board": "B66028",
+  "name": "Greater Essex County District School Board",
+  "short": "GECDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "gecdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registering for School",
+      "url": "https://www.publicboard.ca/our-schools/registering-for-school/",
+      "summary": "Complete the board's online registration form, then contact your school secretary to finish and book an appointment. You need proof of age and legal name, proof of status in Canada if not a citizen, an immunization record, and at least two proofs of residence (handwritten receipts are not accepted). The page lists no eligibility criteria; ask the school or board.",
+      "related": [
+        {
+          "title": "Online registration form",
+          "url": "https://register.publicboard.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten",
+      "url": "https://www.publicboard.ca/elementary/kindergarten/",
+      "summary": "For 2026-27 a child must be 4 by December 31, 2026 for Junior Kindergarten and 5 by that date for Senior Kindergarten. The page says Kindergarten registration begins in February and a Kindergarten Open House is held in February; it gives no exact dates. Register online, then contact your school secretary with your documents.",
+      "related": [
+        {
+          "title": "Registering for School",
+          "url": "https://www.publicboard.ca/our-schools/registering-for-school/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School Do I Attend? (WESTS BusPlanner)",
+      "url": "https://geoquery.buskids.ca/Eligibility",
+      "summary": "Enter a street address in the Windsor-Essex Student Transportation Services (WESTS) tool, which the board links as its way to confirm your area school. Pick the school year first. If the result looks wrong, contact the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "program": "french-immersion",
+      "lifecycle": "dates",
+      "title": "French as a Second Language",
+      "url": "https://www.publicboard.ca/FrenchAsASecondLanguage/",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "K",
+          "1"
+        ]
+      },
+      "summary": "GECDSB runs an early French Immersion model: students can start in JK, SK or Grade 1, up to October 1 of the Grade 1 year. Later entry needs demonstrated French listening, speaking, reading and writing for the grade. No French is needed at home. Families register through the board's registration page. The page gives no deadline, lottery or waitlist. Immersion students get transportation under board policy.",
+      "related": [
+        {
+          "title": "Kindergarten French Immersion",
+          "url": "https://www.publicboard.ca/secondary/french-as-a-second-language/kindergarten-french-immersion/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "program": "french-immersion",
+      "lifecycle": "rules",
+      "title": "French as a Second Language (secondary)",
+      "url": "https://www.publicboard.ca/secondary/french-as-a-second-language/",
+      "summary": "French Immersion continues into high school, where students take ten French credits (four French-language courses and six other subjects taught in French) and can earn a French Immersion certificate. The board names four secondary schools that offer it: Belle River District High School, Sandwich Secondary School, Tecumseh Vista Academy and W.F. Herman Academy. The page lists no secondary entry rules; email feedback@publicboard.ca.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-extended",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "program": "extended-french",
+      "lifecycle": "rules",
+      "title": "French as a Second Language (secondary)",
+      "url": "https://www.publicboard.ca/secondary/french-as-a-second-language/",
+      "summary": "Extended French is offered only at Erie Migration District School. Students take seven French credits: four French-language courses and three other subjects taught in French. The page does not give entry grades or how to apply; ask the school or feedback@publicboard.ca.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-out-of-district-elem",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Elementary Out of District Application",
+      "url": "https://www.publicboard.ca/elementary/elementary-out-of-district-application/",
+      "summary": "To attend an elementary school other than your area school, send the board's proof-of-residency form and out-of-district form by email. The page says applications must arrive by September 1 of the school year and that date is strictly enforced. A superintendent decides and replies by letter; space and boundary or accommodation reviews can lead to a no. Out-of-district students do not get transportation.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-out-of-district-sec",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Secondary Out of District Application",
+      "url": "https://www.publicboard.ca/secondary/starting-secondary-school/secondary-out-of-district-application/",
+      "summary": "Grade 8 students and Grade 9 to 11 students can ask for a secondary school other than their designated one; the page said both application windows were closed when we checked and gives no dates. Transfers depend on enrolment capacity, and transportation is not provided. Vincent Massey does not accept out-of-district applications. Some programs, such as the Enriched Program, eSTEAM and ESL, are placed separately.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation & Eligibility Policy E-01 (PDF)",
+      "url": "https://buskids.ca/wp-content/uploads/2024/10/E-01-Transportation-Eligibility-Policy-BK.pdf",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 1,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Windsor-Essex Student Transportation Services (WESTS) runs buses for GECDSB, the Catholic board and the French boards. A student may be eligible at more than 1.0 km (JK and SK), 1.6 km (Grades 1 to 8) or 3.2 km (secondary) from the designated school. Students at an out-of-boundary school are not eligible. Courtesy rides are possible only if a seat is free and the route is unchanged.",
+      "related": [
+        {
+          "title": "Check which school serves an address (WESTS BusPlanner)",
+          "url": "https://geoquery.buskids.ca/Eligibility"
+        },
+        {
+          "title": "Courtesy Ride Policy E-05 (PDF)",
+          "url": "https://buskids.ca/wp-content/uploads/2024/05/E-05-Courtesy-Ride-Policy.pdf"
+        },
+        {
+          "title": "Walk Distance to Bus Stop SD-01 (PDF)",
+          "url": "https://buskids.ca/wp-content/uploads/2024/05/SD-01-Walk-Distance.pdf"
+        }
+      ],
+      "source_date": "March 19, 2024",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Plan",
+      "url": "https://www.publicboard.ca/elementary/special-education/special-education-plan/",
+      "summary": "The board's 2025-26 Special Education Plan is posted here as a PDF, with its parent and caregiver guide to the special education process and pages on programs, services and registering a child with special needs. The board describes a cascade model that considers the regular class first. Questions go to your school principal.",
+      "related": [
+        {
+          "title": "Special Education Plan 2025 (PDF)",
+          "url": "https://www.publicboard.ca/media/katnimkw/gecdsb-special-education-plan-2025.pdf"
+        },
+        {
+          "title": "Parent and Caregiver Guide to Special Education Process",
+          "url": "https://www.publicboard.ca/elementary/special-education/parent-and-caregiver-guide-to-special-education-process/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.publicboard.ca/elementary/special-education/special-education-advisory-committee/",
+      "summary": "The board's SEAC meets ten times a year, on the second Wednesday of each month from September to June at 1 p.m. at the board office, 451 Park Street West, Windsor. Local associations nominate members, and trustees also sit on it. Agendas and minutes are posted publicly, and the page does not say whether the public may attend.",
+      "related": [
+        {
+          "title": "SEAC Handbook (PDF)",
+          "url": "https://www.publicboard.ca/media/ztdjzfeq/approved-gecdsb-seac-handbook-11-2025.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan",
+      "url": "https://www.publicboard.ca/about-gecdsb/accessibility/multi-year-accessibility-plan/",
+      "summary": "The board's 2022-2026 Multi-Year Accessibility Plan sets goals, actions and measures for removing barriers and meeting accessibility standards, including communications. The PDF is dated March 2023 in its file name. The plan period ends in 2026, so a newer plan may be posted soon.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan (PDF)",
+          "url": "https://www.publicboard.ca/media/2jeno34d/aoda-multi-year-accessibility-plan-final-march-2023.pdf"
+        }
+      ],
+      "source_date": "2022-2026 (March 2023)",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "English as a Second Language",
+      "url": "https://www.publicboard.ca/family-and-community/english-as-a-second-language/",
+      "summary": "Register at your home school first; with your permission it shares your details with the Newcomer Welcome Centre at 9367 Esplanade Drive, which books English and math assessments and sends program recommendations to your school. Bring immigration papers, proof of age, immunization and address records. ESL courses run at four secondary schools. Call (519) 255-3200.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accommodations (Long-Term Accommodation Plan)",
+      "url": "https://www.publicboard.ca/our-schools/accommodations/",
+      "summary": "The board's Long-Term Accommodation Plan 2023-2034 reviews enrolment trends, projections, building condition, utilization and French Immersion. Projections are forecasts, and capacity (OTG) is building space, not open seats. The page itself lists no boundary reviews or approved decisions for named schools.",
+      "related": [
+        {
+          "title": "Long-Term Accommodation Plan 2023-2034 (PDF)",
+          "url": "https://www.publicboard.ca/media/f3en4qmk/ltap-report-2023-2034-aoda.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan 2024-2025 (PDF)",
+      "url": "https://www.publicboard.ca/media/smpp12ad/sap-2024-2025.pdf",
+      "summary": "The board's Student Achievement Plan sets goals under three provincial priorities: core academic skills (literacy and math), preparation for future success (graduation, credits) and engagement and well-being (suspensions, attendance), with board and provincial results. This is the edition posted on the Plans and Reports page when we checked; the board's 2026-2030 Multi-Year Strategic Plan sits alongside it.",
+      "related": [
+        {
+          "title": "Plans and Reports",
+          "url": "https://www.publicboard.ca/about-gecdsb/plans-and-reports/"
+        },
+        {
+          "title": "2026-2030 Multi-Year Strategic Plan",
+          "url": "https://www.publicboard.ca/about-gecdsb/plans-and-reports/multi-year-strategic-plan/"
+        }
+      ],
+      "source_date": "2024-2025 Academic Year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "GEC Parent Involvement Committee",
+      "url": "https://www.publicboard.ca/family-and-community/parent-and-guardian-engagement/gec-parent-involvement-committee/",
+      "summary": "The Parent Involvement Committee works to improve communication between the board and parents and guardians and to remove barriers to engagement. Applications for 2026-27 were closed when we checked, with a note to check back next year. The page gives no meeting dates; agendas, minutes and reports are posted on a linked page.",
+      "related": [
+        {
+          "title": "PIC agendas, minutes and reports",
+          "url": "https://www.publicboard.ca/family-and-community/parent-and-guardian-engagement/gec-parent-involvement-committee/gecpic-agendas-minutes-and-reports/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Councils",
+      "url": "https://www.publicboard.ca/family-and-community/parent-and-guardian-engagement/school-councils/",
+      "summary": "School councils bring parents, students, staff and community members together to support student learning. The board's page does not explain how to join; ask your school's principal or call the board at (519) 255-3200. The Ministry's guide for council members is linked from the page.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gecdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Parent/Guardian to School Communication",
+      "url": "https://www.publicboard.ca/family-and-community/parent-and-guardian-engagement/parentguardian-to-school-communication/",
+      "summary": "Start with your child's classroom teacher, then the school principal. If the concern is still unresolved, contact the Student and Family Support Office by online form or at (519) 255-3200 ext. 10289; it connects you with the right superintendent. Include the student's name, school and a description. The page does not describe a trustee step.",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.publicboard.ca/family-and-community/parent-and-guardian-engagement/parentguardian-to-school-communication/student-and-family-support-office/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French as a Second Language",
+      "url": "https://www.publicboard.ca/FrenchAsASecondLanguage/",
+      "verified": "2026-11-26",
+      "schools": {
+        "222240": "Gore Hill Public School (Leamington)",
+        "300500": "Erie Migration District School (Kingsville)",
+        "440256": "W.F. Herman Academy (Windsor)",
+        "452734": "Legacy Oak Trail (Lasalle)",
+        "498513": "Sandwich West Public School (Lasalle)",
+        "539427": "Tecumseh Vista Academy (Tecumseh)",
+        "551941": "Lakeshore Discovery School (Emeryville)",
+        "902299": "Tecumseh Vista Academy (Tecumseh)",
+        "929727": "Belle River District High School (Belle River)",
+        "939765": "Sandwich Secondary School (Lasalle)",
+        "950009": "W.F. Herman Academy (Windsor)",
+        "018660": "Amherstburg Public School (Amherstburg)",
+        "041297": "Belle River Public School (Belle River)",
+        "041947": "Bellewood Public School (Windsor)",
+        "095885": "Central Public School (Windsor)",
+        "034361": "James L. Dunn Public School (Windsor)"
+      }
+    },
+    {
+      "program": "extended-french",
+      "title": "French as a Second Language (secondary)",
+      "url": "https://www.publicboard.ca/secondary/french-as-a-second-language/",
+      "verified": "2026-11-26",
+      "schools": {
+        "920100": "Erie Migration District School (Kingsville)"
+      }
+    }
+  ]
+}

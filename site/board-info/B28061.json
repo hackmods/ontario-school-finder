@@ -1,0 +1,358 @@
+{
+  "board": "B28061",
+  "name": "Lakehead District School Board",
+  "short": "Lakehead DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-register",
+      "topic": "registration",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "Register (2026-2027)",
+      "url": "https://www.lakeheadschools.ca/register/",
+      "summary": "Registration is online through the board's PowerSchool portal; families new to the board create an account and enter the school's name. Grade 9 students new to the board use separate paper forms for Westgate CVI, Hammarskjold or Superior CVI, while current students get theirs at their elementary school. The page lists no documents or eligibility rules, so ask the school or the board office.",
+      "related": [
+        {
+          "title": "Kindergarten registration",
+          "url": "https://www.lakeheadschools.ca/our-schools/kindergarten/"
+        },
+        {
+          "title": "Starting Grade 9",
+          "url": "https://www.lakeheadschools.ca/student-resources/starting-grade-9/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "lifecycle": "dates",
+      "title": "Kindergarten",
+      "url": "https://www.lakeheadschools.ca/our-schools/kindergarten/",
+      "summary": "For 2026-27, Junior Kindergarten is for children turning 4 in 2026 and Senior Kindergarten for children turning 5 in 2026. Register online if your child is not already at a Lakehead school; proof of age and address is needed. The page gives no registration dates, so contact your child's designated school. A child already in JK does not register again for English SK but must register for SK French Immersion.",
+      "related": [
+        {
+          "title": "Register",
+          "url": "https://www.lakeheadschools.ca/register/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Address Eligibility Lookup (Student Transportation Services of Thunder Bay)",
+      "url": "https://ststb.ca/en/schools/address-eligibility-lookup",
+      "summary": "The board's School Zones page sends families to this lookup, run by the Thunder Bay transportation consortium. Its \"Which School do I Attend?\" tool finds the school for an address, school board, grade and program. The consortium advises checking enrolment eligibility with the school before acting on a result.",
+      "related": [
+        {
+          "title": "School Zones",
+          "url": "https://www.lakeheadschools.ca/our-schools/school-zones/"
+        },
+        {
+          "title": "Find a School",
+          "url": "https://www.lakeheadschools.ca/our-schools/find-a-school/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "lifecycle": "dates",
+      "title": "Senior Kindergarten French Immersion",
+      "url": "https://www.lakeheadschools.ca/learning-programs/french-programs/french-immersion/senior-kindergarten-french-immersion/",
+      "facts": {
+        "entry_grades": [
+          "K"
+        ]
+      },
+      "summary": "Early French Immersion starts in Senior Kindergarten at three schools: Claude E. Garton, Ecole Elsie MacGill and Ecole Gron Morgan. Register at your neighbourhood school when English Kindergarten registration happens. Children already in JK at a Lakehead school fill in a paper SK French Immersion Intent Form instead. Parent information sessions are held in mid-January at the three schools. The page gives no lottery or waitlist details.",
+      "related": [
+        {
+          "title": "French Programs",
+          "url": "https://www.lakeheadschools.ca/learning-programs/french-programs/"
+        },
+        {
+          "title": "French Immersion questions and answers",
+          "url": "https://www.lakeheadschools.ca/learning-programs/french-programs/french-immersion/questions-answers/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "French Immersion at High School",
+      "url": "https://www.lakeheadschools.ca/learning-programs/french-programs/french-immersion/french-immersion-at-high-school/",
+      "summary": "French Immersion continues in high school at Hammarskjold High School, where courses are taught in French. Students who complete 10 French-language credits earn a French Immersion certificate alongside the diploma. The page does not say how students enter or mention transportation.",
+      "related": [
+        {
+          "title": "French Programs",
+          "url": "https://www.lakeheadschools.ca/learning-programs/french-programs/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "lifecycle": "rules",
+      "title": "School Zones",
+      "url": "https://www.lakeheadschools.ca/our-schools/school-zones/",
+      "summary": "We could not find a Lakehead page describing how to ask for a school outside your zone. The School Zones page only says families who choose a school outside their area arrange their own transportation. Ask the school you want or the board office at 807-625-5100.",
+      "related": [
+        {
+          "title": "Register",
+          "url": "https://www.lakeheadschools.ca/register/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "School Bus Transportation (Student Transportation Services of Thunder Bay)",
+      "url": "https://ststb.ca/en/about/policies-procedures/school-bus-transportation",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.8,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Buses are run by the Thunder Bay transportation consortium. Students may be eligible if they live farther than 0.8 km (JK and SK), 1.6 km (Grades 1 to 8) or 3.2 km (Grades 9 to 12) from their school and inside its zone. Students attending a school outside their zone provide their own transportation. The page does not mention courtesy seats or program transportation.",
+      "related": [
+        {
+          "title": "Address Eligibility Lookup",
+          "url": "https://ststb.ca/en/schools/address-eligibility-lookup"
+        },
+        {
+          "title": "Joint Pupil Transportation policy 704 (PDF, hosted by Thunder Bay Catholic)",
+          "url": "https://tbcschools.ca/wp-content/uploads/2025/09/704-Transportation-2024.docx.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.lakeheadschools.ca/learning-programs/special-education/",
+      "summary": "The board's special education page links its Special Education Plan for 2026-27 and parent guides to IPRCs (the identification and placement committee) and IEPs (individual education plans). Start with your child's teacher and principal; the guides explain the process.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-27 (PDF)",
+          "url": "https://www.lakeheadschools.ca/wp-content/uploads/2026/10/Special-Education-Plan-2026-27.pdf"
+        },
+        {
+          "title": "Parent Guide to Special Education, IPRCs and IEPs (PDF)",
+          "url": "https://www.lakeheadschools.ca/wp-content/uploads/2026/02/Parent-Guide-to-Special-Education-IPRCs-and-IEPs-Full.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.lakeheadschools.ca/about/committees/special-education-advisory-committee-seac/",
+      "summary": "SEAC meets monthly in person, 6:00 to 8:00 p.m., usually on the third Wednesday, and advises the board on special education. Parents and the public may attend as observers; to attend, contact the SEAC executive secretary listed on the page. The 2026-27 dates run from September 16, 2026 to June 16, 2027."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.lakeheadschools.ca/about/board/accessibility/",
+      "summary": "The board's accessibility page links its Multi-Year Accessibility Plan 2020-2025 and a 2023 compliance report, and explains how to give feedback by email, mail, phone or an in-person appointment. It describes board-wide plans, not the features of a particular school; ask the school about specific needs. The plan shown covers a period that has ended, so ask the board whether a newer one exists.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2020-2025 (PDF)",
+          "url": "https://www.lakeheadschools.ca/wp-content/uploads/2022/01/Multi-Year-Accessibility-Plan-2020-2025-1.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "lifecycle": "contacts",
+      "title": "English Language Learners Procedures (draft)",
+      "url": "https://www.lakeheadschools.ca/4005-english-language-learners-procedures-draft-for-review/",
+      "summary": "The board has a draft procedure (dated October 2024) on English Language Learners. Schools assess and monitor these students' progress, and the principal decides identification, programming and placement after talking with the student and parents. It is still marked draft and gives no family steps, so ask the school or the board office at 807-625-5100."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-planning",
+      "topic": "planning",
+      "kind": "rule",
+      "lifecycle": "plans",
+      "title": "Pupil Accommodation Review Policy 9010 (PDF)",
+      "url": "https://www.lakeheadschools.ca/wp-content/uploads/2021/12/9010-Pupil-Accommodation-Review-Policy.pdf",
+      "summary": "We found no current long-term accommodation plan or enrolment and capacity table for the board. This policy sets how the board studies schools whose space or viability is in question: a staff report, an accommodation review committee, and at least 30 business days before the first of two public meetings. Any enrolment projections in such plans are forecasts, and capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Procedures (PDF)",
+          "url": "https://www.lakeheadschools.ca/wp-content/uploads/2021/12/9010-Pupil-Accommodation-Review-Procedure.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-strategic",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Education Strategic Plan 2025-2029",
+      "url": "https://www.lakeheadschools.ca/about/board/strategic-plan-2025-2029/",
+      "source_date": "Approved April 22, 2025",
+      "summary": "We could not find a separate student achievement plan, so this is the board's multi-year strategic plan. It is built on three pillars, Belong, Succeed and Reconcile, and was approved on April 22, 2025.",
+      "related": [
+        {
+          "title": "Education Strategic Plan 2025-2029 (PDF)",
+          "url": "https://www.lakeheadschools.ca/wp-content/uploads/2026/04/2025-29-Education-Strategic-Plan.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.lakeheadschools.ca/about/committees/parent-involvement-committee/",
+      "summary": "The Parent Involvement Committee advises the board on parent engagement and supports school councils. It meets at least four times a year, 6:00 to 7:30 p.m. at the Jim McCuaig Education Centre; the next listed meeting is January 11, 2027. The board advertises member openings each fall; the 2026-27 deadline was October 30, 2026.",
+      "related": [
+        {
+          "title": "Get Involved",
+          "url": "https://www.lakeheadschools.ca/parents-guardians/get-involved/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "School Council Resources",
+      "url": "https://www.lakeheadschools.ca/parents-guardians/school-council-resources/",
+      "summary": "A page of links for school council members: the board's school council and fundraising policies, plus the Ministry's guide for school council members. It does not explain how to join a council, so ask your school's principal or the Parent Involvement Committee."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "lakehead-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.lakeheadschools.ca/parents-guardians/student-and-family-support-office/",
+      "summary": "Start with your child's teacher, then the principal. If it is still unresolved, contact the Student and Family Support Office, which aims to acknowledge within 2 business days and reply within 5. Include your name, your child's name and school, and what you have already tried. The page does not mention the superintendent or trustees."
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "Senior Kindergarten French Immersion",
+      "url": "https://www.lakeheadschools.ca/learning-programs/french-programs/french-immersion/senior-kindergarten-french-immersion/",
+      "verified": "2026-11-26",
+      "schools": {
+        "116073": "Ecole Elsie MacGill Public School (Thunder Bay)",
+        "130982": "Claude E. Garton Public School (Thunder Bay)",
+        "236136": "Ecole Gron Morgan Public School (Thunder Bay)"
+      }
+    },
+    {
+      "program": "french-immersion",
+      "title": "French Immersion at High School",
+      "url": "https://www.lakeheadschools.ca/learning-programs/french-programs/french-immersion/french-immersion-at-high-school/",
+      "verified": "2026-11-26",
+      "schools": {
+        "915424": "Hammarskjold High School (Thunder Bay)"
+      }
+    }
+  ]
+}

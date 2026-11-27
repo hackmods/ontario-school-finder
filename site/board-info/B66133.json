@@ -1,0 +1,391 @@
+{
+  "board": "B66133",
+  "name": "Halton District School Board",
+  "short": "Halton DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "hdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Register for School",
+      "url": "https://www.hdsb.ca/students-families/register-for-school/",
+      "summary": "Register in person at your home school with the Student Registration Form, or pre-register online and then book a document check with the school. You need proof of your child's age, two original proofs of address, citizenship or status documents and immunization records reported to Halton Region Public Health. Families new to Ontario can use the Welcome Centre.",
+      "related": [
+        {
+          "title": "Registering for Kindergarten",
+          "url": "https://www.hdsb.ca/academics-resources/kindergarten/registering-for-kindergarten/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Registering for Kindergarten",
+      "url": "https://www.hdsb.ca/academics-resources/kindergarten/registering-for-kindergarten/",
+      "summary": "The board says registration for the 2027-2028 school year is open now, with no closing date shown. A child must turn 4 by December 31, 2027 for Junior Kindergarten and 5 for Senior Kindergarten. Register for school first, then complete the Kindergarten Parent Questionnaire (online or in person from January) and report immunizations.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find Local School",
+      "url": "https://www.hdsb.ca/schools/find-local-school/",
+      "summary": "The board's lookup: enter a home address or school name to see your English and French Immersion home school. Rural addresses should also check the transportation eligibility tool. If the result looks wrong, the board's planning department (planhalton@hdsb.ca) handles discrepancies.",
+      "related": [
+        {
+          "title": "Transportation eligibility lookup (HSTS)",
+          "url": "https://geoquery.haltonbus.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion",
+      "url": "https://www.hdsb.ca/academics-resources/french-immersion/",
+      "summary": "French Immersion is optional and starts in Grade 2. Registration opens in December and closes at the end of January of the Grade 1 year; the page says registration for September Grade 2 entry opens in December 2026. Families from outside the board can register too. The page does not mention a lottery, waitlist or transportation, and says students at Core French-only schools may need to change schools.",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "2"
+        ],
+        "single_entry": true
+      },
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion (secondary)",
+      "url": "https://www.hdsb.ca/academics-resources/french-immersion/",
+      "summary": "French Immersion continues in high school at twelve HDSB secondary schools across the north, Oakville and Burlington (the page lists them and notes availability may change). The HDSB French Immersion Certificate needs 10 French-language credits: 4 French language credits and 6 subject credits taught in French. Course offerings vary by school.",
+      "program": "french-immersion",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Transfer Schools within the HDSB",
+      "url": "https://www.hdsb.ca/schools/transfer-schools-within-the-hdsb/",
+      "summary": "Out-of-area requests are made through the home school if the receiving school is open; only some elementary schools are open and all secondary schools were open for 2026-27. For 2026-27 the page gave elementary applications due February 27, 2026 and secondary due January 9, 2026; the board updates this yearly. Transferring students are not eligible for board transportation. Class size, space, staffing and cost are weighed.",
+      "related": [
+        {
+          "title": "Specialized programming applications (AP, APEX, IB, I-STEM)",
+          "url": "https://www.hdsb.ca/news-spotlight-on-schools/posts/specialized-programming-applications-are-now-open-at-the-halton-district-school-board/"
+        }
+      ],
+      "source_date": "2026-27 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Operating Procedure HS-1-002 Transportation Eligibility (Halton Student Transportation Services)",
+      "url": "https://www.haltonbus.ca/operating-procedure-hs-1-002-transportation-eligibility/",
+      "summary": "Halton Student Transportation Services runs buses for HDSB and Halton Catholic. Students living more than 1.6 km (JK to Grade 8) or 3.2 km (Grades 9 to 12) from their home school may be eligible. Students who choose a school outside their boundary are not transported. Courtesy seats may be requested separately; approval is not guaranteed.",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "source_date": "Revised March 2026",
+      "related": [
+        {
+          "title": "Courtesy seats (HS-1-004)",
+          "url": "https://www.haltonbus.ca/operating-procedure-hs-1-004-courtesy-seats/"
+        },
+        {
+          "title": "Buses and Transportation (HDSB)",
+          "url": "https://www.hdsb.ca/schools/buses-and-transportation/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Programs & Placements",
+      "url": "https://www.hdsb.ca/academics-resources/special-education-programs-placements/",
+      "summary": "The board's special education page links its Special Education Plan (reviewed each year) and the Working Together guide for parents, which explains Individual Education Plans (IEPs) and Identification, Placement and Review Committee (IPRC) meetings. The board favours early identification and early support. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://hdsb.ca/media/0u5l1hmy/hdsb-special-education-plan.pdf"
+        },
+        {
+          "title": "Working Together guide 2026-2027 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/hdsb-015-ca/media/5tuom4yo/working-together-guide-for-parents-guardians-and-students-2026-2027.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "HDSB Advisory Committees",
+      "url": "https://www.hdsb.ca/our-board/hdsb-advisory-committees/",
+      "summary": "The board's advisory committees page includes the Special Education Advisory Committee (SEAC), which advises the board on programs and services for exceptional students. When we checked, it was recruiting up to three community representatives (deadline October 30, 2026). The page gives no separate SEAC meeting page; ask the board for meeting dates.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan 2022-2027",
+      "url": "https://www.hdsb.ca/our-board/accessibility/",
+      "summary": "The board's system-wide plan under Ontario's accessibility law, covering programs, facilities, policies and training, with annual progress reports. It describes board-wide priorities, not the features of a particular school; ask the school about specific needs.",
+      "source_date": "2022-2027",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2022-2027 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/hdsb-015-ca/media/52vm3ccz/multi-year-accessibility-plan-2022-2027.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-welcome",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "New to Canada & Halton Region",
+      "url": "https://www.hdsb.ca/students-families/new-to-canada-halton-region/",
+      "summary": "The HDSB Welcome Centre helps new and returning families with registration, language and academic assessment and settlement support, with a main site in Milton and another in Burlington. A Youth Settlement Program offers interpretation and help finding community services. English as a Second Language and English Literacy Development support is described on the board's ESL page.",
+      "related": [
+        {
+          "title": "English as a Second Language",
+          "url": "https://www.hdsb.ca/academics-resources/english-as-a-second-language/"
+        },
+        {
+          "title": "Welcome Centre",
+          "url": "https://www.hdsb.ca/students-families/welcome-centre/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long Term Accommodation Plan (LTAP)",
+      "url": "https://www.hdsb.ca/our-board/publications/long-term-accommodation-plan-ltap/",
+      "summary": "The board's 2025/2026 plan for school space: 15-year enrolment projections, utilization and recommended capital priorities by area. Projections are forecasts and capacity is building space, not open seats in a grade or program. Project approvals were scheduled for June 16, 2026. Boundary reviews are listed on the board's accommodation planning page.",
+      "source_date": "2025/2026",
+      "related": [
+        {
+          "title": "Abridged printable 2025/2026 LTAP (PDF)",
+          "url": "https://www.hdsb.ca/media/dnqexpc2/ltap-2025-2026.pdf"
+        },
+        {
+          "title": "Accommodation Planning & School Boundary Reviews",
+          "url": "https://www.hdsb.ca/schools/accommodation-planning-school-boundary-reviews/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.hdsb.ca/our-board/publications/student-achievement-plan/",
+      "summary": "The board's plan under Ontario's student achievement framework for 2024-2025, built on provincial and EQAO data and three provincial priorities: core academic skills, preparing students for future success, and student engagement and well-being. These are board-wide figures, not this school's. The board's Multi-Year Strategic Plan 2024-2028 is a separate document.",
+      "source_date": "2024-2025",
+      "related": [
+        {
+          "title": "Student Achievement Plan 2024-25 (PDF)",
+          "url": "https://media-003-ca.cdn.govstack.com/hdsb-015-ca/media/r4yflvqt/student-achievement-plan-24-25.pdf"
+        },
+        {
+          "title": "Multi-Year Strategic Plan 2024-2028",
+          "url": "https://www.hdsb.ca/our-board/multi-year-strategic-plan/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee (PIC)",
+      "url": "https://www.hdsb.ca/students-families/get-involved/parent-involvement-committee-pic/",
+      "summary": "A parent-led board committee that advises on parent engagement, supports school councils and connects parents with the director and trustees. Members serve one- or two-year terms and recruit each fall. The page links meetings, minutes and the yearly PIC conference.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "School Councils",
+      "url": "https://www.hdsb.ca/students-families/get-involved/school-councils/",
+      "summary": "Every school has a council, chaired by parents, that advises the school and the board. Councils meet at least four times a year and any parent can attend; parent members are elected each fall for one-year terms. Ask your school how to take part.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "How to Resolve Issues and Concerns",
+      "url": "https://www.hdsb.ca/our-board/how-to-resolve-issues-and-concerns/",
+      "summary": "Start at the level closest to the issue: your child's teacher, then the principal, then the superintendent, then the Student and Family Support Office. Board governance matters go to your trustee. The board says it acknowledges inquiries within two business days and addresses them within five.",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.hdsb.ca/students-families/student-and-family-support-office/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion (secondary schools listed)",
+      "url": "https://www.hdsb.ca/academics-resources/french-immersion/",
+      "verified": "2026-11-26",
+      "schools": {
+        "890332": "Acton High School (Acton)",
+        "897353": "Burlington Central High School (Burlington)",
+        "901439": "Garth Webb Secondary School (Oakville)",
+        "912433": "Georgetown District High School (Georgetown)",
+        "918300": "Iroquois Ridge High School (Oakville)",
+        "924393": "M.M. Robinson High School (Burlington)",
+        "926736": "Milton District High School (Milton)",
+        "928160": "Nelson High School (Burlington)",
+        "932060": "Oakville Trafalgar High School (Oakville)",
+        "947539": "T.A. Blakelock High School (Oakville)",
+        "953121": "White Oaks Secondary School (Oakville)",
+        "967740": "Craig Kielburger Secondary School (Milton)"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "hdsb-sw-burlington-2026",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "Southwest Burlington Elementary Boundary Review",
+      "url": "https://www.hdsb.ca/schools/accommodation-planning-school-boundary-reviews/current-boundary-review-under-implementation/southwest-burlington-elementary-boundary-review/",
+      "decided": "2026-06-02",
+      "summary": "On June 2, 2026 trustees approved new English and French Immersion boundaries for eight Burlington elementary schools, starting September 2027. Students in JK to Grade 4 move to their newly assigned school unless they apply to stay by January 29, 2027 (no transportation for those who stay). Some Grade 5 to 8 students may finish at their current school with transportation. Check the review page for your address.",
+      "schools": [
+        "070777",
+        "094455",
+        "299855",
+        "304271",
+        "336122",
+        "445193",
+        "550361",
+        "557269"
+      ],
+      "match": "Names on the review page matched by hand to Burlington schools in this site's list: Burlington Central Elementary, Central PS, King's Road PS (Kings Road), Lakeshore PS, Maplehurst PS, Pineland PS, Tecumseh PS, Tom Thomson PS.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hdsb-oakville-ne1-2026",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "Oakville NE #1 Secondary School & French Immersion Review",
+      "url": "https://www.hdsb.ca/schools/accommodation-planning-school-boundary-reviews/current-boundary-reviews/oakville-ne-1-secondary-school-french-immersion-review/",
+      "decided": "2026-05-05",
+      "summary": "On May 5, 2026 trustees approved new boundaries for the new Oakville NE #1 secondary school, opening September 2027, and a change to the French Immersion boundary south of Dundas Street for three Oakville high schools. Implementation takes three or more years. Check the review page for how it affects your address.",
+      "schools": [
+        "953121",
+        "901439",
+        "947539"
+      ],
+      "match": "Secondary schools named on the review page (White Oaks SS, Garth Webb SS, T.A. Blakelock SS) matched by hand to Oakville schools in this site's list. The new Oakville NE #1 school is not in the list; elementary schools were not named in the resolution.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

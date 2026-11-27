@@ -1,0 +1,323 @@
+{
+  "board": "B29025",
+  "name": "Huron-Superior Catholic District School Board",
+  "short": "Huron-Superior CDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "hscdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/registration/",
+      "summary": "The board says you can register at any time for any grade. Find your school by address, then pre-register online and the school contacts you to finish in person (or ask for guided help). Bring proof of age (a birth certificate or baptismal record, among others), proof of address, proof of citizenship or immigration status and any court order. Kindergarten children must be four by December 31 of the year they start. The board's pages do not set out who may attend a Catholic school beyond asking for a baptismal certificate; see the non-Catholic form under transfers.",
+      "related": [
+        {
+          "title": "Kindergarten Registration",
+          "url": "https://www.hscdsb.on.ca/registration/kindergarten-registration/"
+        },
+        {
+          "title": "Elementary Registration",
+          "url": "https://www.hscdsb.on.ca/registration/elementary-registration/"
+        },
+        {
+          "title": "Secondary Student Registration",
+          "url": "https://www.hscdsb.on.ca/registration/secondary-student-registration/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which school do I attend? (Algoma and Huron-Superior Transportation Services)",
+      "url": "https://ahsts.mybusplanner.ca/Eligibility",
+      "summary": "For Sault Ste. Marie, the North District, Elliot Lake and Blind River, the board links to this lookup run by its transportation consortium; enter your address and choose the board. For Massey and Espanola the board points to a separate lookup at businfo.ca.",
+      "related": [
+        {
+          "title": "Elementary Registration",
+          "url": "https://www.hscdsb.on.ca/registration/elementary-registration/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/students/programs-initiatives/french-immersion/",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "K"
+        ]
+      },
+      "summary": "French Immersion starts in Kindergarten at selected schools and runs to Grade 8, in a 50-50 model with 150 minutes of French a day. Four schools are full Immersion (Elliot Lake, Wawa, and two in Sault Ste. Marie) and two are dual-track (Espanola, and St. Basil in Sault Ste. Marie). The page gives no application dates, steps, waitlist rules or transportation details; use the registration pages or ask the board at 705-945-5400.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/students/programs-initiatives/french-immersion/",
+      "summary": "French Immersion continues at St. Mary's College in Sault Ste. Marie. Students who complete 10 French Immersion courses earn a French Immersion Certificate at graduation.",
+      "related": [
+        {
+          "title": "French Immersion at St. Mary's College",
+          "url": "https://www.hscdsb.on.ca/stmaryscollege/academics/french-immersion/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Out-of-Zone Application Form (PDF)",
+      "url": "https://www.hscdsb.on.ca/wp-content/uploads/2024/09/Out-of-Zone-Application-Form-March-2024.pdf",
+      "source_date": "Revised March 2024",
+      "summary": "To ask for a school outside your zone, send the board's out-of-zone form, with your reason, to the Superintendent of Education responsible for special admissions, by mail or at frontdesk@hscdsb.on.ca. Parents provide daily transportation if approved. Non-Catholic families who want a Catholic school use a separate non-Catholic application, which asks for the latest report card. Changing between schools you are already registered at goes through the current principal, not registration.",
+      "related": [
+        {
+          "title": "Non-Catholic Application Form (PDF)",
+          "url": "https://www.hscdsb.on.ca/wp-content/uploads/2024/09/Non-Catholic-Application-Form.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policies - Algoma & Huron-Superior Transportation Services (AHSTS)",
+      "url": "https://ahsts.ca/policies/",
+      "source_date": "Amended November 15, 2023",
+      "facts": {
+        "walk_km": {
+          "SK to Grade 3": 0.75,
+          "Grades 4 to 8": 1.5,
+          "Grades 9 to 12": 2.25
+        }
+      },
+      "summary": "The board follows the rules of its transportation consortia (Algoma and Huron-Superior, and Sudbury); its own policy gives no distances. In Sault Ste. Marie, central Algoma and the north, the Algoma consortium buses students beyond 0.75 km (SK to Grade 3), 1.5 km (Grades 4 to 8) and 2.25 km (secondary); Junior Kindergarten gets door-to-door service when possible. The eastern area uses 1.6 km for Grades 1 to 8. Check your address with the consortium.",
+      "related": [
+        {
+          "title": "AHSTS Policies",
+          "url": "https://ahsts.ca/policies/"
+        },
+        {
+          "title": "Check transportation eligibility for an address",
+          "url": "https://ahsts.mybusplanner.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Department - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/departments/special-education-department/",
+      "summary": "The department page with the board's 2026-27 Special Education Plan and a parent communication guide. The page does not explain the IEP or IPRC steps itself, so read the plan or ask your school.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.hscdsb.on.ca/wp-content/uploads/2026/07/Special-Education-Plan-2026-2027.pdf"
+        },
+        {
+          "title": "Communication Guide for Parents (PDF)",
+          "url": "https://www.hscdsb.on.ca/wp-content/uploads/2024/12/HSCDSB-Parents-and-students-Communication-Guide-2024.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/departments/special-education-department/seac/",
+      "summary": "SEAC advises the board on special education and meets monthly in the school year, usually at 4:00 p.m. on Wednesdays, in person at the Catholic Education Centre or online. The page lists the 2026-27 dates and the members. Questions go to Seac.Inquiries@hscdsb.on.ca.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan (PDF)",
+      "url": "https://www.hscdsb.on.ca/wp-content/uploads/2025/09/Multi-Year-Accessibility-Plan-2018-2023-UPDATED-AUG-2023-revised-AUGUST-2025-FINAL6.pdf",
+      "source_date": "Updated August 2023, revised August 2025",
+      "summary": "The board's multi-year accessibility plan under Ontario's accessibility standards, posted on the Plant Services page. The file name says 2018-2023 but it was revised in August 2025. It describes board-wide plans, not a particular building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Plant Services",
+          "url": "https://www.hscdsb.on.ca/departments/plant-services-department/"
+        },
+        {
+          "title": "Policy 6005 Accessibility Standards (PDF)",
+          "url": "https://www.hscdsb.on.ca/wp-content/uploads/2026/06/6005-ACCESSIBILITY-STANDARDS-Policy_clean-version-May-28-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "New To Canada - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/parents/new-to-canada/",
+      "summary": "Newcomer families contact a school or email newtocanada@hscdsb.on.ca. The page lays out the steps: documents, grade placement by age, a family interview and an optional language assessment. English as a Second Language support is available through the board's multilingual learner teachers. No welcome centre is described.",
+      "related": [
+        {
+          "title": "New To Canada Students (registration)",
+          "url": "https://www.hscdsb.on.ca/registration/new-to-canada-students/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accommodation Reviews - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/departments/plant-services-department/accommodation-reviews/",
+      "summary": "The board posts its pupil accommodation review policy (4022) and the Ministry guidelines, and takes feedback on a review at ARC@hscdsb.on.ca. We found no long-term accommodation plan, no school capacity table and no current review. Capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Policy 4022 Pupil-School Accommodation Review (PDF)",
+          "url": "https://www.hscdsb.on.ca/wp-content/uploads/2025/03/4022-PUPIL-SCHOOL-ACCOMMODATION-REVIEW-Policy-March-2025.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/parents/elementor-26853/",
+      "source_date": "2025-26",
+      "summary": "The board's plan under Ontario's student achievement framework, posted each April: literacy and math, graduation readiness and pathways, and attendance, engagement and well-being. It uses 2023-24 EQAO data. These are board-wide goals, not a school's.",
+      "related": [
+        {
+          "title": "Student Achievement Plan 2025-26 (PDF)",
+          "url": "https://www.hscdsb.on.ca/wp-content/uploads/2026/05/Student-Achievement-Plan-2025-26-FINAL_2.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/parents/parent-involvement-committee/",
+      "summary": "The Parent Involvement Committee includes parent representatives, the Director of Education, a superintendent and a trustee, and posts its meeting dates and minutes. Applications were closed when we checked. The page says little about school councils; ask your school how to join its Catholic school council.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hscdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/parents/student-and-family-support/",
+      "summary": "Start with the teacher, then the principal. If it is still unresolved, or outside the school's scope, the Student and Family Support Office can explain next steps and connect you with your superintendent: use the online form or call 705-945-5421. It aims to respond within 48 hours.",
+      "related": [
+        {
+          "title": "Policy 4003 Processing of Complaints (PDF)",
+          "url": "https://www.hscdsb.on.ca/wp-content/uploads/2024/03/4003-PROCESSING-OF-COMPLAINTS-Policy-2024.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion - HSCDSB",
+      "url": "https://www.hscdsb.on.ca/students/programs-initiatives/french-immersion/",
+      "verified": "2026-11-26",
+      "schools": {
+        "731870": "St. Augustine French Immersion (Wawa)",
+        "745260": "Our Lady of Lourdes French Immersion (Elliot Lake)",
+        "755923": "Sacred Heart Catholic School (Espanola)",
+        "791024": "St. Francis French Immersion (Sault Ste. Marie)",
+        "792017": "St. Basil Catholic School (Sault Ste. Marie)",
+        "826901": "St. Mary's French Immersion (Sault Ste. Marie)"
+      }
+    }
+  ]
+}

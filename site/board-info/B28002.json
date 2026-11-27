@@ -1,0 +1,275 @@
+{
+  "board": "B28002",
+  "name": "District School Board Ontario North East",
+  "short": "DSB1",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "dsb1-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration",
+      "url": "https://www.dsb1.ca/registration",
+      "summary": "Families pre-register online through a short account in the board's portal, then the school contacts you to finish the process and asks for documents: proof of age (birth certificate or passport), proof of address, custody papers if they apply, and immunization records only for students arriving from outside Ontario. The page gives no kindergarten registration dates or age cutoffs.",
+      "related": [
+        {
+          "title": "Step-by-step registration guide (PDF)",
+          "url": "https://media.dsb1.ca/media/Default/medialib/simple-step-by-step-registration-guide.03f3041739.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport EnRoute school and transportation eligibility lookup",
+      "url": "https://enroute.mybusplanner.ca/Eligibility",
+      "summary": "The board points families to the Transport EnRoute consortium's lookup to see whether an address qualifies for busing and which school it is tied to. The board's own Find a School page is a directory of schools, not an address tool, and it has no boundary maps. The consortium has the final word on eligibility.",
+      "related": [
+        {
+          "title": "Find a School",
+          "url": "https://www.dsb1.ca/find-a-school"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-fi",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "program": "french-immersion",
+      "title": "French as a Second Language",
+      "url": "https://www.dsb1.ca/french-as-a-second-language",
+      "facts": {
+        "entry_grades": [
+          "K"
+        ]
+      },
+      "summary": "The board says it offers Core French or French Immersion beginning in Kindergarten, and that no prior French is needed by students or parents. The page does not describe how or when to apply, any lottery or waitlist, or transportation to the program. Ask the school or the board office, and check the Ministry flags for each school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-xfi",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "program": "extended-french",
+      "title": "French as a Second Language",
+      "url": "https://www.dsb1.ca/french-as-a-second-language",
+      "summary": "We looked for an Extended French option and for French Immersion continuing in high school and found neither on the board's French page. Ask the board office or the school what French programs run in Grades 9 to 12.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration",
+      "url": "https://www.dsb1.ca/registration",
+      "summary": "We looked for an out-of-area or school-of-choice request process on the registration, attendance and find-a-school pages and found none. The board's policy library did not load for automated reading. Ask the school or the board office (705-360-1151) how to ask to attend a school outside your area.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-transport",
+      "topic": "transportation",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Transportation",
+      "url": "https://www.dsb1.ca/student-transportation",
+      "summary": "Busing is run by the Transport EnRoute consortium, which the board belongs to. Neither the board's page nor the consortium's eligibility and FAQ pages state walk distances by grade; the consortium says eligibility depends on school, recognized address and grade, and that its own distance calculation is official. Use its lookup or call 1-705-707-0808.",
+      "related": [
+        {
+          "title": "Transport EnRoute: Transportation Eligibility",
+          "url": "https://transportenroute.ca/transportation-eligibility"
+        },
+        {
+          "title": "Transport EnRoute: Frequently Asked Questions",
+          "url": "https://transportenroute.ca/frequently-asked-questions"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.dsb1.ca/special-education",
+      "summary": "The board's special education page, with its 2026-2027 Special Education Plan and a parent guide. It lists the staff who support students, including resource teachers and behaviour analysts. The page itself does not explain IEPs or IPRCs; the parent guide may.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://media.dsb1.ca/media/Default/medialib/special-education-2026-2027-special-education-board-plan.9d260f1801.pdf"
+        },
+        {
+          "title": "Special Education Parent Guide (PDF)",
+          "url": "https://media.dsb1.ca/media/Default/medialib/special-education-parent-guide.a8a0e21243.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.dsb1.ca/special-education-advisory-committee-seac",
+      "summary": "The SEAC page lists 2026-27 meeting dates (October 28, December 9, January 20, February 24, March 31, April 28, May 26 and June 23) with agendas and minutes as they are posted. It does not say whether the public may attend or how to join; ask the board office.",
+      "related": [
+        {
+          "title": "SEAC Terms of Reference (PDF)",
+          "url": "https://media.dsb1.ca/media/Default/medialib/special-education-advisory-tor.ccb23e2932.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan (PDF)",
+      "url": "https://media.dsb1.ca/media/Default/medialib/multi-year-accessibilty-plan.6e87b81218.pdf",
+      "summary": "The board's multi-year accessibility plan, listed under Plans and Reports with an accessibility compliance report. It describes board-wide plans, not the features of a particular school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Accessibility Compliance Report (PDF)",
+          "url": "https://media.dsb1.ca/media/Default/medialib/accessibility-compliance-report.7048dc1213.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Registration",
+      "url": "https://www.dsb1.ca/registration",
+      "summary": "We could not find a DSB1 page for newcomer families or English language learners. Ask the school what support is offered, and when you register mention that your child is new to Canada or learning English.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-capital",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Capital Reports and Plans",
+      "url": "https://www.dsb1.ca/capital-reports-and-plans",
+      "summary": "The board lists a Five Year Capital Plan, but the one posted covers 2015-2020, and no long-term accommodation plan with school capacity and enrolment was found. The accommodation review page says no schools are currently under accommodation review or community consultation. Capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Accommodation Review and Community Consultations",
+          "url": "https://www.dsb1.ca/accommodation-review-and-community-consultations"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.dsb1.ca/student-achievement-plan-1",
+      "summary": "The board's plan under Ontario's student achievement framework, covering core academic skills, preparing students for future success, and student engagement and well-being. These are board-wide goals, not this school's. The page gives no school year; the board also has a 2025-2029 Strategic Plan.",
+      "related": [
+        {
+          "title": "Student Achievement Plan (PDF)",
+          "url": "https://media.dsb1.ca/media/Default/medialib/b28002_dsbontarionortheast_template5.1170a31284.pdf"
+        },
+        {
+          "title": "2025-2029 Strategic Plan",
+          "url": "https://www.dsb1.ca/2025-2029-strategic-plan"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee (PIC)",
+      "url": "https://www.dsb1.ca/parent-involvement-committee-pic",
+      "summary": "The PIC gives parents a direct link to the CEO and trustees. It meets three or four times a year at 6 p.m. on Microsoft Teams; 2026-27 dates are October 21, December 9, February 24 and April 22. Parent seats are still to be filled. A PDF explains how to join the PIC or a school council.",
+      "related": [
+        {
+          "title": "Join the School Council or Parent Involvement Committee (PDF)",
+          "url": "https://media.dsb1.ca/media/Default/medialib/join-the-school-council-or-parent-involvement-committee.8d025e1240.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "dsb1-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.dsb1.ca/student-and-family-support-office",
+      "summary": "Start with the teacher, then the principal or vice-principal, then your school's Superintendent of Education; if it is still not settled, the Student and Family Support Office helps (online form, supportoffice@dsb1.ca or 1-855-239-9067). The office aims to acknowledge within 2 business days and answer within 5. The page does not describe a trustee step.",
+      "verified": "2026-11-26"
+    }
+  ]
+}
