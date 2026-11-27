@@ -99,6 +99,11 @@ test.describe("school page for families", () => {
     }
   });
 
+  test("student figures say that 0% is rounded, not none", async ({ page }) => {
+    await page.goto(`/school/${PP}/`);
+    await expect(page.locator("#students")).toContainText("0% can still mean a few students");
+  });
+
   test("nearby schools show their programs", async ({ page }) => {
     await page.goto(`/school/${PP}/`);
     const row = page.locator("#nearby li", { hasText: "Notre Dame Catholic Elementary School" });

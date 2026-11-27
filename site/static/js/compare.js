@@ -387,7 +387,7 @@ function students(schools) {
     extraRaw: state.ctx?.province?.[schools[0].language]?.[f.key] ?? "",
   }));
   return `<section class="cmp-section" id="cmp-students"><h2>About the students <span class="badge">${esc(year || "")}</span></h2>
-    <p class="block-intro">Who each school serves. These describe the student population; they are not measures of quality.</p>
+    <p class="block-intro">Who each school serves. These describe the student population; they are not measures of quality. The Ministry rounds these to whole percentages, so 0% can still mean a few students. How many students are identified as gifted also depends on each board’s identification practice, so compare it within a board.</p>
     ${table("Students", schools, rows, { extraHead: `<th scope="col">Ontario median</th>`, extra: true })}</section>`;
 }
 
