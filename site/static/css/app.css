@@ -385,6 +385,7 @@ a.hero-art:hover .hero-go { text-decoration: underline; }
 .subnav .wrap::-webkit-scrollbar { display: none; }
 .subnav a { flex: none; display: inline-flex; align-items: center; min-height: 48px; padding: 0 12px; color: var(--ink-2); text-decoration: none; font-weight: 600; font-size: .9rem; border-bottom: 2px solid transparent; }
 .subnav a:hover, .subnav a.active { color: var(--ink); border-bottom-color: var(--brand); }
+.subnav.is-static { position: static; }
 
 .block { padding: 36px 0 8px; }
 .block > .wrap > h2 { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
@@ -835,4 +836,6 @@ table.mini caption { text-align: left; font-size: .8rem; color: var(--ink-3); pa
 .sel select:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
 .linkish { font: inherit; color: var(--brand); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
 .diff-only tr.cmp-same { display: none; }
+.cmp-diff-note { display: none; }
+@media print { .diff-only .cmp-diff-note { display: block; margin: 0 0 12px; } }
 .cmp-warn { display: block; padding: 8px 12px; }

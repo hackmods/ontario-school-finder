@@ -17,6 +17,19 @@
   </div>
 </div>
 
+{#- the school list has its own sticky A to Z strip, so this one stays put instead of stacking on it -#}
+<nav class="subnav is-static" aria-label="On this page">
+  <div class="wrap">
+    {% if indicators %}<a href="#indicators">Board results</a>{% endif %}
+    {% if spend_view or safe_view or fsl_enrol %}<a href="#context">Board context</a>{% endif %}
+    {% if board_info and board_info.topics %}<a href="#families">For families</a>{% endif %}
+    {% if medians %}<a href="#results">EQAO results</a>{% endif %}
+    {% if cs_board %}<a href="#class-sizes">Class sizes</a>{% endif %}
+    <a href="#schools">All {{ b.schools|length }} schools</a>
+    <a href="#sources">Sources</a>
+  </div>
+</nav>
+
 <section class="block">
   <div class="wrap">
     <div class="kpis">
