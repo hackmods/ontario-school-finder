@@ -48,7 +48,10 @@ The brief ([idea.md](idea.md)) was treated as a strong starting point. These are
 
 ## Hosting
 - CapRover (Docker + nginx) instead of GitHub/Cloudflare Pages, because that is where the owner's other sites run. Public address: **ontarioschoolfinder.ca** (canonical URLs, sitemap and share links use it; `www` and `ontario-schools.behind7proxies.com` redirect to it once `scripts/connect-domain.sh` has run). The site is still a plain static folder and can move to any static host.
-- The build context is one archive (`site.tar.gz`): CapRover's builder timed out ingesting ~16,000 loose files.
+- The build context is one archive: CapRover's builder timed out ingesting ~16,000 loose files. Since 2026-11-27 it is
+  `site.tar.xz`, not `.tar.gz`: with the French pages the gzip archive (316 MB) was refused by CapRover's upload
+  limit (413), while xz finds the templates repeated across pages (55 MB). The Dockerfile unpacks it in a first stage
+  with the image's own `xzcat`, so it doesn't rely on the build server having xz.
 
 ## Family pass (2026-11-26, PR #24)
 
