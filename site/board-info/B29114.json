@@ -1,0 +1,253 @@
+{
+  "board": "B29114",
+  "name": "Conseil scolaire catholique Franco-Nord",
+  "short": "CSC Franco-Nord",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "franconord-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Admissions au CSCFN (Information sur les inscriptions)",
+      "url": "https://www.franco-nord.ca/Information-sur-les-inscriptions",
+      "summary": "Children of French-language rights holders (section 23 of the Charter) are admitted when the family lives in the board's area; a child starting kindergarten must have turned 4 by December 31 of the school year. A parent who is not a rights holder can ask for admission through the board's admission committee, which checks the child's French and the family's commitment to French-language schooling. Register online or contact the school or board; the page says registrations are accepted at any time and does not list required documents.",
+      "related": [
+        {
+          "title": "Inscription électronique",
+          "url": "https://www.franco-nord.ca/Inscription-%C3%A9lectronique"
+        },
+        {
+          "title": "Maternelle et jardin d'enfants (4 à 6 ans): Information",
+          "url": "https://www.franco-nord.ca/Programmes-et-Services/Petite-Enfance/Maternelle-et-jardin-denfants-4-%C3%A0-6-ans/Information"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "franconord-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport scolaire (Nipissing-Parry Sound Student Transportation Services: eligibility lookup)",
+      "url": "https://geoquery.npssts.ca/Eligibility.aspx?Page=School",
+      "summary": "The board does not publish its own \"which school serves my address\" tool. The lookup run by its transportation consortium, Nipissing-Parry Sound Student Transportation Services, is the closest one: it checks an address for school and bus eligibility. Treat the result as a guide and confirm the school and zone with the board.",
+      "related": [
+        {
+          "title": "Nos écoles",
+          "url": "https://www.franco-nord.ca/Conseil/Nous-joindre/Nos-%C3%A9coles"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "franconord-program",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Apprendre ou enrichir son français",
+      "url": "https://www.franco-nord.ca/Programmes-et-Services/Pour-tous-les-%C3%A9l%C3%A8ves/Apprendre-ou-enrichir-son-fran%C3%A7ais",
+      "summary": "Franco-Nord has no French Immersion, since its schools teach in French. Students who need help building their French can get ALF (Actualisation linguistique du français), a transition program that supports them in class or in a more intensive format for as long as the student needs, which can be several years. The page gives no grades or application steps; ask the school or the board.",
+      "related": [
+        {
+          "title": "Appui aux nouveaux arrivants (PANA)",
+          "url": "https://www.franco-nord.ca/Programmes-et-Services/Pour-tous-les-%C3%A9l%C3%A8ves/Appui-aux-nouveaux-arrivants"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "franconord-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription (Franco-Nord)",
+      "url": "https://www.franco-nord.ca/Information-sur-les-inscriptions",
+      "summary": "We looked for a process to ask for a school other than the one for your zone and found none on the pages we read. The transportation page says only that families who move zones and keep a child at the original school provide their own transportation. Ask the school or the board.",
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "franconord-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport scolaire",
+      "url": "https://www.franco-nord.ca/Programmes-et-Services/Pour-tous-les-%C3%A9l%C3%A8ves/Transport-scolaire",
+      "summary": "Students may be bused when they live at least 0.5 km (kindergarten), 1.0 km (up to Grade 3), 1.6 km (Grades 4 to 8) or 3.0 km (secondary) from their assigned school, measured by the most direct route. A bus stop is within 1 km of home (0.5 km for kindergarten). Buses are arranged through Nipissing-Parry Sound Student Transportation Services. The page does not mention courtesy seats.",
+      "facts": {
+        "walk_km": {
+          "Kindergarten": 0.5,
+          "Up to Grade 3": 1,
+          "Grades 4 to 8": 1.6,
+          "Secondary": 3
+        }
+      },
+      "related": [
+        {
+          "title": "Nipissing-Parry Sound Student Transportation Services",
+          "url": "https://www.npssts.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "franconord-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Élèves ayant des besoins particuliers",
+      "url": "https://www.franco-nord.ca/Programmes-et-Services/Pour-tous-les-%C3%A9l%C3%A8ves/%C3%89l%C3%A8ves-ayant-des-besoins-particuliers",
+      "summary": "The board's special education page explains the IEP (plan d'enseignement individualisé), which staff write in consultation with the parent, and each school's identification, placement and review committee (CIPR), where parents may bring a support person. It points to the annual special education plan for 2014-2015, which is not linked and looks out of date, so ask the board for the current plan.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "franconord-seac",
+      "topic": "seac",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Comment puis-je m'impliquer comme parent?",
+      "url": "https://www.franco-nord.ca/Programmes-et-Services/Pour-tous-les-%C3%A9l%C3%A8ves/Comment-puis-je-mimpliquer-comme-parent",
+      "summary": "We could not read the board's committees and meetings lists, which load by script. The parent-involvement page says parents may attend public meetings of the special needs advisory committee (CCED) but gives no members or dates. Ask the board whether and when the committee meets.",
+      "related": [
+        {
+          "title": "Comités du conseil",
+          "url": "https://www.franco-nord.ca/Conseil/Comit%C3%A9s-du-conseil"
+        }
+      ],
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "franconord-accessibility",
+      "topic": "accessibility",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Publications et rapports",
+      "url": "https://www.franco-nord.ca/Conseil/Publications-et-rapports",
+      "summary": "We looked for the board's multi-year accessibility plan and did not find one. The publications and governance lists on the site load by script and showed no documents when read. Ask the board for its accessibility plan.",
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "franconord-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Appui aux nouveaux arrivants (PANA)",
+      "url": "https://www.franco-nord.ca/Programmes-et-Services/Pour-tous-les-%C3%A9l%C3%A8ves/Appui-aux-nouveaux-arrivants",
+      "summary": "The Programme d'appui aux nouveaux arrivants (PANA) helps newcomers to Ontario's French-language community settle in, and helps students catch up in speaking, reading and writing where needed. It is open to permanent residents, citizens and refugee claimants, and includes help enrolling children in school, finding housing, work or childcare, and with forms and translation.",
+      "related": [
+        {
+          "title": "Guide des familles francophones et francophiles nouvellement arrivées dans le Nord de l'Ontario",
+          "url": "https://www.franco-nord.ca/LinkClick.aspx?fileticket=Eyrmky-PsHfof4F1RLlkyQ%3d%3d&tabid=419&portalid=0"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "franconord-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Publications et rapports",
+      "url": "https://www.franco-nord.ca/Conseil/Publications-et-rapports",
+      "summary": "We looked for a long-term accommodation or capital plan and any pupil accommodation review and did not find one on the pages we read. Board plans are forecasts, and capacity is building space, not open seats. Ask the board for its plan.",
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "franconord-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plan stratégique",
+      "url": "https://www.franco-nord.ca/Conseil/Plan-strat%C3%A9gique",
+      "summary": "No separate student achievement plan was found, so this is the board's strategic plan. It has three axes: thriving, high-achieving students (literacy, math, graduation, engagement, well-being), valued and supported staff, and a sustainable board that promotes French and Catholic identity. The page does not say which years it covers.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "franconord-involvement",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Comment puis-je m'impliquer comme parent?",
+      "url": "https://www.franco-nord.ca/Programmes-et-Services/Pour-tous-les-%C3%A9l%C3%A8ves/Comment-puis-je-mimpliquer-comme-parent",
+      "summary": "Parents can join or attend the board's Comité de participation des parents (CPP), attend regular board meetings and public meetings of the special needs advisory committee, and join their school council (ask the principal for dates).",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "franconord-concerns",
+      "topic": "concerns",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Bureau d'assistance aux élèves et aux familles",
+      "url": "https://www.franco-nord.ca/Conseil/Bureau-dassistance-aux-%C3%A9l%C3%A8ves-et-aux-familles",
+      "summary": "The board has a Bureau d'assistance aux élèves et aux familles, but its page gives no steps for raising a concern and no contact details. The board's policy and directive lists load by script and could not be read, so a complaint procedure may exist there. A sensible order is the teacher or school first, then the board. Use the contact page or the information request form.",
+      "related": [
+        {
+          "title": "Coordonnées",
+          "url": "https://www.franco-nord.ca/Conseil/Nous-joindre/Coordonn%C3%A9es"
+        },
+        {
+          "title": "Demande d'information",
+          "url": "https://www.franco-nord.ca/Conseil/Nous-joindre/Demande-dinformation"
+        }
+      ],
+      "verified": "2026-11-26",
+      "unchecked": true
+    }
+  ]
+}

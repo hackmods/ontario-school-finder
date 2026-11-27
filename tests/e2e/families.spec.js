@@ -75,7 +75,8 @@ test.describe("school page for families", () => {
   });
 
   test("a board we haven't collected yet says so instead of guessing", async ({ page }) => {
-    await page.goto("/school/019186/");
+    // TDSB: its site refuses automated reading, so its records stay uncollected (docs/HANDOFF.md)
+    await page.goto("/school/018929/");
     await expect(page.locator("#attendance")).toContainText("Not yet collected for this board");
     await expect(page.locator("#supports")).toContainText("Special education in Ontario");
   });

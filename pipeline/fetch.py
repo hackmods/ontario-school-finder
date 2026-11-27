@@ -42,8 +42,17 @@ def _save_manifest(m: dict) -> None:
     config.MANIFEST.write_text(json.dumps(m, indent=2, sort_keys=True), encoding="utf-8")
 
 
-def record(source_id: str, *, url: str, path: Path | None, note: str = "") -> dict:
-    """Write (or refresh) the manifest entry for a source and return it."""
+def _now() -> str:
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def record(source_id: str, *, url: str, path: Path | None, note: str = "", resp: requests.Response | None = None,
+           new_bytes: bool = False) -> dict:
+    """Write (or refresh) the manifest entry for a source and return it.
+
+    ``retrieved`` is when these bytes were downloaded: it only moves when a download brought different bytes
+    (``new_bytes``). ``checked`` is the last time the publisher confirmed our copy is current. The server's ETag
+    and Last-Modified are kept so a refresh can ask "has it changed?" instead of downloading again."""
     m = _load_manifest()
     entry = m.get(source_id, {})
     entry.update({"url": url, "note": note})
@@ -52,10 +61,48 @@ def record(source_id: str, *, url: str, path: Path | None, note: str = "") -> di
         entry["sha256"] = hashlib.sha256(data).hexdigest()
         entry["bytes"] = len(data)
         entry["file"] = path.name
-    entry.setdefault("retrieved", datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
+    if resp is not None:
+        for key, header in (("etag", "ETag"), ("last_modified", "Last-Modified")):
+            if resp.headers.get(header):
+                entry[key] = resp.headers[header]
+        entry["checked"] = _now()
+    if new_bytes:
+        entry["retrieved"] = _now()
+    entry.setdefault("retrieved", _now())
     m[source_id] = entry
     _save_manifest(m)
     return entry
+
+
+# Set by ``python -m pipeline.build --refresh``: cached files are kept, but each one is checked with the
+# publisher once per run (a conditional request when the server gave an ETag or Last-Modified date).
+REVALIDATE = False
+_revalidated: set[str] = set()
+
+
+def _revalidate(source_id: str, url: str, path: Path, expect: str) -> Path:
+    """Ask the publisher whether a cached file changed; replace it only when it did."""
+    _revalidated.add(source_id)
+    entry = manifest_entry(source_id)
+    headers = {}
+    if entry.get("etag"):
+        headers["If-None-Match"] = entry["etag"]
+    if entry.get("last_modified"):
+        headers["If-Modified-Since"] = entry["last_modified"]
+    try:
+        resp = session().get(url, timeout=config.TIMEOUT, headers=headers)
+    except requests.RequestException:
+        return path  # can't reach it now: keep the copy we have (its retrieved date stays honest)
+    if resp.status_code == 304:
+        record(source_id, url=url, path=path, resp=resp)
+        return path
+    if resp.status_code != 200 or _looks_like_block_page(resp, expect) or (expect in ("xlsx", "zip") and not resp.content.startswith(b"PK")):
+        return path  # an error or a block page is never a reason to drop good data
+    changed = hashlib.sha256(resp.content).hexdigest() != entry.get("sha256")
+    if changed:
+        path.write_bytes(resp.content)
+    record(source_id, url=url, path=path, resp=resp, new_bytes=changed)
+    return path
 
 
 def manifest_entry(source_id: str) -> dict:
@@ -82,6 +129,8 @@ def download(source_id: str, url: str, *, expect: str, filename: str | None = No
     if path.exists() and path.stat().st_size > 0:
         if source_id not in _load_manifest():
             record(source_id, url=url, path=path)
+        if REVALIDATE and source_id not in _revalidated:
+            return _revalidate(source_id, url, path, expect)
         return path
     last_err: Exception | None = None
     for attempt in range(retries):
@@ -107,7 +156,7 @@ def download(source_id: str, url: str, *, expect: str, filename: str | None = No
         if expect == "zip" and not data.startswith(b"PK"):
             raise SourceUnavailable(f"{source_id}: expected a .zip file from {url}.")
         path.write_bytes(data)
-        record(source_id, url=url, path=path)
+        record(source_id, url=url, path=path, resp=resp, new_bytes=True)
         return path
     raise SourceUnavailable(f"{source_id}: could not download {url}: {last_err}")
 

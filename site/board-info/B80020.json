@@ -1,0 +1,105 @@
+{
+  "board": "B80020",
+  "name": "Grandview School Authority",
+  "short": "Grandview School",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "grandview-refer",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "About Our Program (Grandview School)",
+      "url": "https://grandviewkids.ca/grandview-school/gs-about-our-program/",
+      "summary": "Grandview School is inside Grandview Children's Centre in Ajax and admits children through a referral, not by address. A Grandview therapist submits the referral to the Admission Committee by January 31 and decisions are made by April 1. The child must be a Grandview client and old enough for at least junior kindergarten (four by December 31); placements are one year and far fewer than referrals. The page also lists clinical criteria and short post-surgery placements. Call the school for a tour.",
+      "related": [
+        {
+          "title": "Special Education Report 2026-2027 (PDF)",
+          "url": "https://grandviewkids.ca/wp-content/uploads/Special-Education-Report-2026-2027-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "grandview-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Report 2026-2027 (PDF)",
+      "url": "https://grandviewkids.ca/wp-content/uploads/Special-Education-Report-2026-2027-1.pdf",
+      "summary": "The authority's special education plan. IPRC identification is not formally made for Grandview students; parents take part through the referral, intake and transition meetings instead. Each student gets an IEP with a transition plan to help them move to their home school board, and the admissions committee also reviews moves in and out of the school.",
+      "source_date": "2026-2027",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "grandview-council",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Resources for Families (School Council)",
+      "url": "https://grandviewkids.ca/grandview-school/gs-resources-for-families/",
+      "summary": "At Grandview School the School Council also serves as the Special Education Advisory Committee. It includes parents of current and former students (the majority), a teacher, a non-teaching staff member and a Grandview Children's Centre representative, plus the principal. It meets about four times a year.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "grandview-involve",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Resources for Families (Partners in Education)",
+      "url": "https://grandviewkids.ca/grandview-school/gs-resources-for-families/",
+      "summary": "Families can join the School Community Council or in-school activities and curriculum days; no experience is needed. To join, contact the school office or your child's educator. The page also links the 2026-2027 parent handbook.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "grandview-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Access Plan (PDF)",
+      "url": "https://grandviewkids.ca/wp-content/uploads/Multi-Year-Access-Plan.pdf",
+      "summary": "The authority's AODA multi-year accessibility plan, posted on its Plans and Reports page with a 2025 accessibility compliance report. The plan notes it is shared on the school website and available in accessible formats.",
+      "related": [
+        {
+          "title": "Plans and Reports",
+          "url": "https://grandviewkids.ca/grandview-school/gs-plans-and-reports/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "grandview-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Parent Handbook 2026-2027 (PDF)",
+      "url": "https://grandviewkids.ca/wp-content/uploads/Parent-Handbook-2026-2027.pdf",
+      "summary": "A transportation form is completed at registration and a third-party company runs the buses, but space is limited and filing the form does not guarantee a place. The handbook calls busing a privilege, not a right. The families page lists Stock Transportation at 705-357-3187.",
+      "related": [
+        {
+          "title": "Resources for Families",
+          "url": "https://grandviewkids.ca/grandview-school/gs-resources-for-families/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

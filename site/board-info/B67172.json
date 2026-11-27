@@ -1,0 +1,339 @@
+{
+  "board": "B67172",
+  "name": "Catholic District School Board of Eastern Ontario",
+  "short": "CDSBEO",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "cdsbeo-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Registration",
+      "url": "https://www.cdsbeo.on.ca/students-parents/registration/",
+      "summary": "Find your school with the school locator, submit online pre-registration, then the school contacts you for an appointment. Bring a birth certificate, proof of address and, for JK to Grade 8, a baptismal certificate if the child is Catholic. JK needs age 4 and SK age 5 by December 31 of the school year. The page still shows 2026-27 dates when checked, so ask the board about 2027-28 timing. Catholic families go to their local school; others follow Administrative Procedure 206.",
+      "source_date": "2026-2027 registration open",
+      "related": [
+        {
+          "title": "Administrative Procedure 206, Admission of Students (PDF)",
+          "url": "https://cdsbeo.on.ca/policies/206-Admission_of_Students.pdf"
+        },
+        {
+          "title": "Kindergarten open house events",
+          "url": "https://cdsbeo.on.ca/students-parents/kindergarten-open-house-events/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-eligibility",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Administrative Procedure 206, Admission of Students (PDF)",
+      "url": "https://cdsbeo.on.ca/policies/206-Admission_of_Students.pdf",
+      "summary": "Elementary: children with a right to a Catholic education are admitted to their geographically appropriate school with a baptismal certificate (child or a parent) and direction of taxes to the English separate school; others may be considered case by case, in writing to the principal, and the board weighs space and class size. Secondary: any secondary student in the board's area may choose a Catholic secondary school, subject to boundaries, and must accept its Catholic character.",
+      "source_date": "Approved October 2023",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Locator",
+      "url": "https://www.cdsbeo.on.ca/our-schools/school-locator/",
+      "summary": "The board's school locator opens the shared STEO tool: enter only your street number and street name (no street type) to see your school. The page says to choose FI from the Program menu when registering for French Immersion.",
+      "related": [
+        {
+          "title": "STEO school and bus eligibility",
+          "url": "https://transportation.steo.ca/Default.aspx"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Programs",
+      "url": "https://www.cdsbeo.on.ca/our-programs/french-programs/",
+      "summary": "The board lists French Immersion (about half the day in French) as starting in Kindergarten or Grade 1, and the entry varies by school: its open house page shows some schools with Immersion from JK and others from Grade 1. Ask your school. The page does not say when to apply or how waitlists work. To register, select FI in the school locator, or contact FSL Programs.",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "1"
+        ]
+      },
+      "related": [
+        {
+          "title": "Kindergarten open house events (school grade ranges)",
+          "url": "https://cdsbeo.on.ca/students-parents/kindergarten-open-house-events/"
+        },
+        {
+          "title": "School Locator",
+          "url": "https://www.cdsbeo.on.ca/our-schools/school-locator/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-ef",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Programs",
+      "url": "https://www.cdsbeo.on.ca/our-programs/french-programs/",
+      "summary": "The board lists Extended French starting in Grade 9 at select secondary schools, continuing French alongside some core subjects. The page does not say which schools offer it or how to apply; ask the board's FSL Programs office or a secondary school. Core French is offered in elementary from Kindergarten or Grade 4.",
+      "program": "extended-french",
+      "facts": {
+        "entry_grades": [
+          "9"
+        ]
+      },
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Administrative Procedure 206, Admission of Students (PDF), section 4",
+      "url": "https://cdsbeo.on.ca/policies/206-Admission_of_Students.pdf",
+      "summary": "A parent, or a student 18 or older, may ask to attend a school other than the designated one by writing to the principal of the school wanted, with reasons. The board considers space and resources, childcare, siblings, educational program and compassionate grounds; approval may be reviewed yearly, and the family provides transportation.",
+      "source_date": "Approved October 2023",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "STEO policy POL100: Eligibility for Transportation / Walking Distance (PDF)",
+      "url": "https://www.steo.ca/wp-content/uploads/2026/11/POL100-Eligibility-for-TSP-Policy-Revised-Nov-6-2026-1.pdf",
+      "summary": "STEO runs buses for the Catholic board and the UCDSB. A student may get transportation when living at least 0.8 km (JK and SK), 1.6 km (Grades 1 to 8) or 3.2 km (Grades 9 to 12) from school and inside the school's zone; a child at a school outside the zone needs their own transportation. Walks to a bus stop are capped at 0.8 km (Grades 1 to 8) or 1.6 km (Grades 9 to 12).",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.8,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "source_date": "Revised November 6, 2026",
+      "related": [
+        {
+          "title": "STEO 2026 transportation updates (walk distances and ride times)",
+          "url": "https://www.steo.ca/2026-transportation-updates/"
+        },
+        {
+          "title": "STEO policies",
+          "url": "https://www.steo.ca/student-information/policies/"
+        },
+        {
+          "title": "Board transportation page",
+          "url": "https://www.cdsbeo.on.ca/students-parents/transportation-information/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.cdsbeo.on.ca/our-board/departments/speced/",
+      "summary": "The board's special education department page, with the Special Education Annual Report for 2025-2026 and a parent guide. It mentions Individual Education Plans but doesn't explain the IEP or IPRC steps; start with the teacher and principal, or the department at SpecialEducation@cdsbeo.on.ca.",
+      "source_date": "Annual Report 2025-2026",
+      "related": [
+        {
+          "title": "Special Education Annual Report 2025-2026 (PDF)",
+          "url": "https://www.cdsbeo.on.ca/download/159433/?tmstv=1795729274"
+        },
+        {
+          "title": "Special Education Parent Guide (PDF)",
+          "url": "https://www.cdsbeo.on.ca/download/103292/?tmstv=1795729274"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.cdsbeo.on.ca/our-board/committees/seac/",
+      "summary": "SEAC advises the board on special education policies, programs and services. Members include parents, trustees, staff and community associations; parents can join as members at large by emailing speced@cdsbeo.on.ca. About 10 public meetings a year, usually the last Wednesday at 4:30 p.m. at the Kemptville board office; minutes are posted by year.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "CDSBEO Multi-Year Accessibility Plan (PDF)",
+      "url": "https://www.cdsbeo.on.ca/download/103360/?tmstv=1795728953",
+      "summary": "The board's accessibility plan under Ontario's accessibility law, covering September 2025 to August 2026 and reviewed January 2026 by its planning committee. It describes board-wide barriers and measures, not the features of a particular school; ask the school about specific needs.",
+      "source_date": "September 2025 to August 2026, reviewed January 2026",
+      "related": [
+        {
+          "title": "Accessibility page",
+          "url": "https://www.cdsbeo.on.ca/our-schools/accessibility/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-ell",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "English Language Learners (ELL)",
+      "url": "https://www.cdsbeo.on.ca/our-programs/english-language-learners-ell/",
+      "summary": "Students learning English stay in regular classes with support from ESL and classroom teachers; some high schools also offer ESL credit courses. Many students take a STEP language assessment to plan supports. The board has no welcome centre page; newcomers register through the usual steps, and the board lists an International Education program for visa students.",
+      "related": [
+        {
+          "title": "Registration",
+          "url": "https://www.cdsbeo.on.ca/students-parents/registration/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Community Planning and Partnerships",
+      "url": "https://www.cdsbeo.on.ca/our-schools/community-planning-and-partnerships/",
+      "summary": "We could not find a long-term accommodation plan with a capacity and enrolment table by school. The board publishes yearly community planning meeting presentations covering enrolment and use of space, and a boundary review for two Carleton Place schools is in progress (nothing approved yet). Capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "School Boundary Review: Carleton Place",
+          "url": "https://www.cdsbeo.on.ca/school-boundary-review-carleton-place/"
+        },
+        {
+          "title": "Administrative Procedure 1112, School Boundary Review (PDF)",
+          "url": "https://cdsbeo.on.ca/policies/1112-School_Boundary_Review.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "CDSBEO Student Achievement Plan 2024-2025 (PDF)",
+      "url": "https://www.cdsbeo.on.ca/download/162378/?tmstv=1795729242",
+      "summary": "The board's student achievement plan, listed with its other business documents; the board's 2025-2030 strategic plan sits alongside it. These are board-wide plans, not a school's results. Ask the board or check its reporting page for a newer version.",
+      "source_date": "2024-2025",
+      "related": [
+        {
+          "title": "Business documents (reporting) page",
+          "url": "https://www.cdsbeo.on.ca/our-board/reporting/"
+        },
+        {
+          "title": "Multi-Year Strategic Plan 2025-2030 (PDF)",
+          "url": "https://www.cdsbeo.on.ca/wp-content/uploads/dlm_uploads/2025/04/2025-2030-cdsbeo-mysp-web-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.cdsbeo.on.ca/our-board/committees/parent-involvement-committee/",
+      "summary": "The board's parent committee, with parent members from the counties it serves, trustees and a superintendent. The page lists members for 2025-2027, next meeting and minutes by school year, and says joining your Catholic School Council is one of the best ways to be involved.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic School Councils",
+      "url": "https://www.cdsbeo.on.ca/students-parents/catholic-school-councils/",
+      "summary": "Each school has a Catholic school council that all parents and guardians may attend; councils meet at least four times a school year. Contact your child's school for details, or read the ministry's guide for members linked on the page.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cdsbeo-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student & Family Support Office",
+      "url": "https://www.cdsbeo.on.ca/students-parents/parent-communication-protocol/",
+      "summary": "Start with the teacher, then the principal or vice-principal, then the school's superintendent or the Student & Family Support Office, which has an intake form for concerns not settled at the school. It says it acknowledges within two business days and aims to reply within five.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

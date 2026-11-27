@@ -1,0 +1,411 @@
+{
+  "board": "B67148",
+  "name": "Waterloo Catholic District School Board",
+  "short": "WCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "wcdsb-register-elementary",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Entering Kindergarten",
+      "url": "https://www.wcdsb.ca/our-schools/register-for-school/entering-kindergarten/",
+      "summary": "Kindergarten registration for 2026-2027 is open at the 46 Catholic elementary schools; contact your school for its dates. Children born in 2022 are ready for JK and those born in 2021 for SK. Register online (use a computer) or in person at the school, then bring a baptismal certificate, proof of address, proof of age and, if not born in Canada, proof of status. New JK/SK families also fill in a school entry questionnaire.",
+      "source_date": "2026-2027 school year",
+      "related": [
+        {
+          "title": "Elementary Registration",
+          "url": "https://www.wcdsb.ca/our-schools/register-for-school/elementary-registration/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-eligibility",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Admission Criteria",
+      "url": "https://www.wcdsb.ca/our-schools/register-for-school/elementary-admission-criteria/",
+      "summary": "Elementary schools are open to Catholic children and children of Catholic parents; a Catholic baptismal certificate is required, and Catholic families declare separate school support. A child who is not baptized and whose parents are both non-Catholic should contact the school first for an interview with the principal and may still be considered under the board's admission policy. Registration is at the school.",
+      "related": [
+        {
+          "title": "Admission to Catholic Elementary Schools policy (APA001, PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2017/03/APA001-00_AdmissionsElemCatholicSchools.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-register-secondary",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary Registration",
+      "url": "https://www.wcdsb.ca/our-schools/register-for-school/secondary-registration/",
+      "summary": "Find your school, complete the online registration form (use a computer) or the paper form, and the school guidance office calls to book a registration appointment; for a future year you may not hear right away. The board says all its secondary schools are open access, and every student takes religious education. Bring a transcript, proof of address and proof of age.",
+      "related": [
+        {
+          "title": "Admissions Expectations",
+          "url": "https://www.wcdsb.ca/our-schools/register-for-school/admissions-expectations/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School-Finder Transportation Eligibility",
+      "url": "https://www.wcdsb.ca/our-schools/school-finder-transportation-eligibility/",
+      "summary": "The board points to the shared Student Transportation Services of Waterloo Region (STSWR) site, where you enter an address to see your assigned school and bus eligibility. The board also posts 2026-27 boundary maps for elementary, secondary and French Immersion on its accommodations page.",
+      "related": [
+        {
+          "title": "School Finder (STSWR)",
+          "url": "https://bpweb.stswr.ca/Eligibility.aspx?Page=Transportation"
+        },
+        {
+          "title": "Accommodations (boundary maps)",
+          "url": "https://www.wcdsb.ca/about-us/accommodations/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion - Grades 1 - 8",
+      "url": "https://www.wcdsb.ca/programs-and-services/fsl/french-immersion-grades-1-8/",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "summary": "French Immersion starts in Grade 1 with limited places at six schools, filled by lottery. The lottery opens when students return in January and closes January 31, in three phases: younger siblings, then WCDSB Senior Kindergarten students, then students from outside the board. The page says registration for 2026-27 is closed, all six programs are full, and the waitlist takes no new names; it says to check back in November 2027 for September 2027.",
+      "source_date": "2026/2027 school year",
+      "related": [
+        {
+          "title": "French Immersion Program Information, Lottery and FAQs (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2025/12/French-Immersion-Program-Information-Lottery-Info-FAQs-and-Map.pdf"
+        },
+        {
+          "title": "French Immersion Boundaries Map 2026-2027 (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2023/04/Boundary-FI-Handout-2026-2027.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion - Grades 9 - 12",
+      "url": "https://www.wcdsb.ca/programs-and-services/fsl/french-immersion-grades-9-12/",
+      "summary": "Secondary Immersion is offered at St. David, St. Benedict and Notre Dame (new in 2026). Students take ten courses in French; the Grade 9 prerequisite is 3200 hours of elementary French instruction. Registration is through course selection, and Grade 8 Immersion students are assumed to go to their feeder school. Immersion students from outside the school's English boundary get no yellow bus but may request a transit pass.",
+      "related": [
+        {
+          "title": "French Immersion Pathway for Grade 8 students (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/02/French-Immersion-Pathway-v2.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Out of Boundary Admissions",
+      "url": "https://www.wcdsb.ca/our-schools/register-for-school/out-of-boundary-admissions-2/",
+      "summary": "To attend a Catholic school other than your home school, send an Out of Boundary / Out of Region application; it does not guarantee admission. Applications are kept in date order and considered individually where the school has capacity. Out-of-boundary students are not eligible for transportation. Many schools are capped and take no out-of-boundary students; the board lists them on its accommodations page.",
+      "related": [
+        {
+          "title": "Accommodations (capped schools list)",
+          "url": "https://www.wcdsb.ca/about-us/accommodations/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation - APO012 (procedure memo, PDF)",
+      "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2021/01/APO012-00_Transportation.pdf",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 3": 0.8,
+          "Grades 4 to 8": 1.6,
+          "Secondary": 3.2
+        }
+      },
+      "summary": "Under the board's transportation procedure, students may be eligible from 0.8 km (JK to Grade 3), 1.6 km (Grades 4 to 8) or 3.2 km (secondary), with about 200 m of flexibility, measured by STSWR. Courtesy seats are not provided, and students outside their home school boundary are not transported, except in specified circumstances such as safety hazards, special needs or alternative programming. The page shows the procedure as reviewed September 2024.",
+      "source_date": "Reviewed/Revised September 2024",
+      "related": [
+        {
+          "title": "Transportation procedure APO012 (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2021/01/APO012-00_Transportation.pdf"
+        },
+        {
+          "title": "Bus eligibility search (STSWR)",
+          "url": "https://bpweb.stswr.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.wcdsb.ca/programs-and-services/special-education/",
+      "source_date": "Special Education Plan 2026-27",
+      "summary": "The board's special education page links its Special Education Plan for 2026-27 and says the preferred placement is a regular classroom with support, with time-limited withdrawal only occasionally and with parents' co-operation. An Individual Education Plan is developed by a team of parents, teacher, special education teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-27 (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/07/Special-Education-Plan-26-27.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.wcdsb.ca/programs-and-services/special-education/special-education-advisory-committee-seac/",
+      "summary": "SEAC advises the Board of Trustees on special education programs, budget, staffing and policies and is a resource for parents. Its members include trustees and community organizations such as the Waterloo Region Family Network and Autism Ontario. The board's calendar lists its meetings.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan 2024 - 2029 (PDF)",
+      "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2024/12/Multi-Year-Accessibility-Plan-2024-2029.pdf",
+      "source_date": "2024-2029",
+      "summary": "The board's multi-year accessibility plan for 2024 to 2029; its accessibility page also has compliance reports and a feedback form. It covers board-wide duties under Ontario's accessibility law, not the features of a particular school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Accessibility",
+          "url": "https://www.wcdsb.ca/about-us/accessibility/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Multilingual Language Learners (MLLs)",
+      "url": "https://www.wcdsb.ca/programs-and-services/multilingual-language-learners/",
+      "summary": "Newcomer families register at their local school with the online form and documents. If the student is a newcomer English language learner, the school sends their information to the board's Newcomer Reception Centre, where teacher assessors check English and prior schooling, after a wait in a queue, to set programming and supports.",
+      "related": [
+        {
+          "title": "Newcomer Reception Centre",
+          "url": "https://newcomer.wcdsb.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "2026 Long Term Accommodation Plan (PDF)",
+      "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/06/2026-Long-Term-Accommodation-Plan.pdf",
+      "source_date": "May 25, 2026",
+      "summary": "The board's annual accommodation plan, dated May 25, 2026 for trustees: enrolment forecasts, school capacity and use by review area, and planned projects such as new schools and additions. Projections are forecasts, and capacity is building space, not open seats in a grade or program. The accommodations page lists no ongoing boundary or closure review.",
+      "related": [
+        {
+          "title": "Accommodations",
+          "url": "https://www.wcdsb.ca/about-us/accommodations/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan (SAP)",
+      "url": "https://www.wcdsb.ca/about-us/student-achievement-plan-sap/",
+      "source_date": "Student Achievement Plan 2026",
+      "summary": "The board's Student Achievement Plan for 2026, under the provincial framework of core academic skills, preparation for future success, and engagement and well-being. These are board-wide plans, not this school's results.",
+      "related": [
+        {
+          "title": "Student Achievement Plan 2026 (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2026/05/SAP-Waterloo-Catholic-District-School-Board-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-cpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic Parent Involvement Committee",
+      "url": "https://www.wcdsb.ca/our-schools/catholic-parent-involvement-committee/",
+      "summary": "The board's parent committee, chaired by a parent, advises the Director of Education on ways to increase parent involvement in all schools. It has a parent hub page with resources.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic School Advisory Councils - APSC001",
+      "url": "https://www.wcdsb.ca/our-schools/catholic-school-councils/",
+      "summary": "Board policy says every school has a Catholic School Advisory Council that advises the principal; parents can use the nomination form on the page. Ask your school how to join.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.wcdsb.ca/support-office/",
+      "summary": "Speak to the teacher or staff member first, then the principal (and the superintendent of learning if still unresolved). If it is still not settled, send the Student and Family Support Office an inquiry; the board says it acknowledges within 2 business days and aims to answer within 5.",
+      "related": [
+        {
+          "title": "Board of Trustees",
+          "url": "https://www.wcdsb.ca/about-us/trustees/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion - Grades 1 - 8",
+      "url": "https://www.wcdsb.ca/programs-and-services/fsl/french-immersion-grades-1-8/",
+      "verified": "2026-11-26",
+      "schools": {
+        "718920": "Holy Rosary (Waterloo)",
+        "743186": "Our Lady of Fatima (Cambridge)",
+        "764450": "Sir Edgar Bauer (Waterloo)",
+        "771007": "St Anne (Kitchener)",
+        "820512": "St Luke (Waterloo)",
+        "845108": "St Peter (Cambridge)"
+      }
+    },
+    {
+      "program": "french-immersion",
+      "title": "French Immersion - Grades 9 - 12",
+      "url": "https://www.wcdsb.ca/programs-and-services/fsl/french-immersion-grades-9-12/",
+      "verified": "2026-11-26",
+      "schools": {
+        "708172": "Notre Dame (Kitchener)",
+        "776726": "St. Benedict CSS (Cambridge)",
+        "786217": "St. David CSS (Waterloo)"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "wcdsb-segalt-boundary-2026",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "Southeast Galt Boundary Review",
+      "url": "https://www.wcdsb.ca/about-us/accommodations/southeast-galt-boundary-review/",
+      "decided": "2025-05-26",
+      "summary": "On May 26, 2025 trustees approved Option 3: boundaries for Holy Spirit, St. Anne (Cambridge) and St. Vincent de Paul change in September 2026, or when the new Southeast Galt Catholic elementary school opens, which gets its own boundary. Out-of-boundary caps began September 1, 2025, with exceptions for current students and a Grade 7 legacy rule. Check the review page for the boundary for your address.",
+      "schools": [
+        "720208",
+        "770876",
+        "858013"
+      ],
+      "match": "Matched by name and city: Holy Spirit (Cambridge), St. Anne (C) = St Anne Catholic Elementary School (Cambridge, not the Kitchener school of the same name), St. Vincent de Paul (Cambridge). The new Southeast Galt school is not in our input list.",
+      "related": [
+        {
+          "title": "Board of Trustees Agenda, May 26, 2025 (PDF)",
+          "url": "https://www.wcdsb.ca/wp-content/uploads/sites/36/2025/05/2025-05-26_Board-of-Trustee-Agenda.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

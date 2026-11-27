@@ -1,0 +1,311 @@
+{
+  "board": "B28045",
+  "name": "Keewatin-Patricia District School Board",
+  "short": "KPDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "kpdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register a Student",
+      "url": "https://www.kpdsb.ca/schools/register_a_student",
+      "summary": "Registration is online through the board's PowerSchool registration form, with separate routes for Kindergarten, Grades 1 to 12 and international students. The board's Kindergarten site says children are four or five years old for the two-year full-day program and does not give a registration window or a document list; ask the school what to bring. The French Immersion Kindergarten FAQ says registrations are accepted all year.",
+      "related": [
+        {
+          "title": "Kindergarten information site (KatKP)",
+          "url": "https://www.katkp.ca/"
+        },
+        {
+          "title": "Kindergarten program FAQ (PDF)",
+          "url": "https://www.katkp.ca/wp-content/uploads/2023/03/KPDSB-Kindergarten-FAQ.pdf"
+        },
+        {
+          "title": "International students",
+          "url": "https://www.kpdsb.ca/schools/register_a_student/international_students"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-boundaries",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Attendance Boundaries (KatKP)",
+      "url": "https://www.katkp.ca/attendance-boundaries/",
+      "summary": "The board has no address search. Its Kindergarten site shows attendance boundary maps for Dryden, Kenora and Red Lake; open a map and find where you live. The bus consortium's eligibility tool (Edulog Web Query) also takes a home address, but it checks bus eligibility, not which school serves you. If unsure, ask the board office.",
+      "related": [
+        {
+          "title": "Check bus eligibility (NWO Student Services Consortium)",
+          "url": "https://www.nwobus.ca/check-eligibility/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-fi",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion Full-Day Kindergarten Program FAQ (PDF)",
+      "url": "https://www.katkp.ca/wp-content/uploads/2024/02/KPDSB-Kindergarten-French-Immersion-FAQ-2024-1.pdf",
+      "summary": "French Immersion is offered from Kindergarten at two dual-track schools: New Prospect Public School in Dryden and Valleyview Public School in Kenora, so families can switch to English at the same school. The FAQ says Grade 1 and up registrations are also accepted for the fall and that registration is accepted all year; to register, call the school. It describes no lottery or waitlist. No French at home is needed.",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "K",
+          "1"
+        ]
+      },
+      "source_date": "2024",
+      "related": [
+        {
+          "title": "French Language (board page)",
+          "url": "https://www.kpdsb.ca/what_we_provide/french_language"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Language",
+      "url": "https://www.kpdsb.ca/what_we_provide/french_language",
+      "summary": "French Immersion continues through Grade 12 at Dryden High School (Dryden) and Beaver Brae Intermediate and Beaver Brae Secondary (Kenora); secondary students earn 10 French credits. Extended French is an optional program at Beaver Brae in Kenora (7 French credits at secondary); the page does not say which grade it starts in.",
+      "program": "french-immersion",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-ef",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Language",
+      "url": "https://www.kpdsb.ca/what_we_provide/french_language",
+      "summary": "Extended French is an optional program at Beaver Brae in Kenora. The board page says secondary students earn 7 French credits and does not give the entry grade or how to apply. Ask the school or the board's French language programming contact.",
+      "program": "extended-french",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Boundaries & Calendars (NWO Student Services Consortium)",
+      "url": "https://www.nwobus.ca/school-boundaries-calendars/",
+      "summary": "Each school has an attendance boundary. The bus consortium, which serves the board, says parents may apply to the school principal to attend a school outside their boundary and are then responsible for transportation. The board's own site did not describe the request process or deadlines; ask the principal.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Check Eligibility (NWO Student Services Consortium)",
+      "url": "https://www.nwobus.ca/check-eligibility/",
+      "summary": "The Northwestern Ontario Student Services Consortium runs the board's buses. Students may be eligible when they live farther than the walk distance for their grade (JK/SK 0.5 km, Grades 1 to 3 1 km, Grades 4 to 8 1.6 km, Grades 9 to 12 3.2 km), measured by road or public route; families register with the consortium and check an address in its Edulog Web Query tool. A 2024 board French Immersion FAQ says students bused to an English program who meet the distance rules are also eligible for the French Immersion schools in Dryden and Kenora. The cited page does not mention courtesy seats.",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.5,
+          "Grades 1 to 3": 1,
+          "Grades 4 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "related": [
+        {
+          "title": "Kindergarten French Immersion FAQ (PDF, 2024)",
+          "url": "https://www.katkp.ca/wp-content/uploads/2024/02/KPDSB-Kindergarten-French-Immersion-FAQ-2024-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.kpdsb.ca/what_we_provide/special_education",
+      "summary": "The board aims to keep students in regular classrooms with support. Services depend on the student's needs as set by the In-School Team, a case conference and, where used, an Identification, Placement and Review Committee (IPRC). The page links the Special Education Plan, an IEP and accommodations concerns route, and a 2026-27 parents' guide.",
+      "related": [
+        {
+          "title": "Special Education Plan",
+          "url": "https://www.kpdsb.ca/what_we_provide/special_education/special_education_plan"
+        },
+        {
+          "title": "A Parent, Guardian and Caregivers Guide to Special Education 2026-27 (PDF)",
+          "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/special-education/A%20Parent,%20Guardian,%20and%20Caregivers%20Guide%20to%20Special%20Education%202026-27.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.kpdsb.ca/board/board_committees/special_education_advisory_committee_seac",
+      "summary": "The committee advises trustees on special education. It meets the third Wednesday of each month from September to June, by teleconference from several communities; call the Kenora board office for dates and sites. Members are mostly parents, with trustees and board staff.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-accessibility",
+      "topic": "accessibility",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.kpdsb.ca/board/accessibility",
+      "summary": "The board's accessibility page describes its commitment under the Accessibility for Ontarians with Disabilities Act and the five standard areas (customer service, built environment, employment, information and communication, transportation). We did not find a multi-year plan document on the page; it offers a feedback form. Ask the board for the current plan.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "English Language Learners",
+      "url": "https://www.kpdsb.ca/what_we_provide/english_language_learners",
+      "summary": "The page defines English language learners and sends questions about English language programming to a board contact. It does not describe an assessment or reception process, so ask the school at registration. International students (study permit holders) have their own registration page.",
+      "related": [
+        {
+          "title": "International students",
+          "url": "https://www.kpdsb.ca/schools/register_a_student/international_students"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "2024-2034 Long-Term Accommodation Plan (PDF)",
+      "url": "https://kpdsb.ss21.sharpschool.com/UserFiles/Servers/Server_431266/File/Departments/Facilities/Planning/Final%20KPDSB%20LTAP%20April%2023%202024.pdf",
+      "summary": "The board's ten-year plan for school space. It forecasts roughly flat enrolment (about 61% of capacity overall) and lists proposed actions such as accommodation reviews in Kenora and Red Lake. Projections are forecasts, capacity is building space not open seats, and proposed reviews are not decisions.",
+      "source_date": "April 23, 2024",
+      "related": [
+        {
+          "title": "Planning & Construction",
+          "url": "https://www.kpdsb.ca/departments/facilities/planning___construction"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.kpdsb.ca/what_we_provide/teaching___learning/student_achievement_plan",
+      "summary": "The board's achievement plan page lists nine focus areas: attendance, preparedness, senior math and science, job skills, credits and graduation, math, the literacy test, writing and reading. The page shows no year or documents, so the figures are board-wide and may be out of date.",
+      "related": [
+        {
+          "title": "2024-2029 Strategic Plan",
+          "url": "https://www.kpdsb.ca/board/strategic_plan"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee (PIC)",
+      "url": "https://www.kpdsb.ca/board/board_committees/parent_involvement_committee_pic",
+      "summary": "An advisory committee that links parents with the director of education and trustees, advises on parent engagement and supports school councils. The page does not list members or meeting dates; use the board committee schedule or ask the board office.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kpdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Communication & Concerns Process",
+      "url": "https://www.kpdsb.ca/students_families/communication___concerns_process",
+      "summary": "Start with your child's teacher or coach, then the principal or vice-principal, then the superintendent for your school. Trustees can be contacted any time but do not act as your representative. The board aims to acknowledge within 2 business days, and to give an estimated response date if a full answer takes longer than 5.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Language",
+      "url": "https://www.kpdsb.ca/what_we_provide/french_language",
+      "verified": "2026-11-26",
+      "schools": {
+        "406929": "New Prospect Public School (Dryden)",
+        "569739": "Valleyview Public School (Kenora)",
+        "583403": "Beaver Brae Intermediate (Kenora)",
+        "894230": "Beaver Brae Secondary (Kenora)",
+        "905283": "Dryden High School (Dryden)"
+      }
+    }
+  ]
+}

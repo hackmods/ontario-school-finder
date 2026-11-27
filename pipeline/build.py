@@ -2,6 +2,7 @@
 
     python -m pipeline.build            # use whatever is already cached
     python -m pipeline.build --clean    # delete downloaded files first (geocode cache is kept)
+    python -m pipeline.build --refresh  # keep downloads, re-download only files their publisher changed
 """
 from __future__ import annotations
 
@@ -121,6 +122,29 @@ def median(vals):
     return round(statistics.median(vals), 1) if vals else None
 
 
+def questionnaire_history(eqao_sq: dict) -> dict:
+    """For each latest-year questionnaire, the earlier years (newest first) that asked each question with exactly the
+    same wording and the same answers, and why the others are left out. Nothing is compared across a wording change."""
+    out = {}
+    for res in sources.EQAO_SQ_RESOURCES:
+        cur = eqao_sq[res["id"]]["questions"]
+        comparable: dict[str, list[str]] = {k: [] for k in cur}
+        excluded: dict[str, dict[str, str]] = {}
+        for h in sorted((r for r in sources.EQAO_SQ_HISTORY if r["kind"] == res["kind"] and r["grade"] == res["grade"]),
+                        key=lambda r: r["year"], reverse=True):
+            old = eqao_sq[h["id"]]["questions"]
+            for k, q in cur.items():
+                o = old.get(k)
+                why = ("not asked that year" if not o else "worded differently" if o["question"] != q["question"]
+                       else "different answers" if o["options"] != q["options"] or o["agree"] != q["agree"] else None)
+                if why:
+                    excluded.setdefault(k, {})[h["year"]] = why
+                else:
+                    comparable[k].append(h["id"])
+        out[res["id"]] = {"comparable": comparable, "excluded": excluded}
+    return out
+
+
 def build(clean: bool = False) -> dict:
     t0 = time.time()
     if clean and config.RAW.exists():
@@ -186,6 +210,12 @@ def build(clean: bool = False) -> dict:
         eqao_sq[res["id"]] = loaders.load_eqao_sq(res)
         rep.count(res["id"], eqao_sq[res["id"]]["stats"]["schools"], "schools in EQAO's questionnaire file")
         rep.suppressed[res["id"]] = {k: v for k, v in eqao_sq[res["id"]]["stats"].items() if k.startswith("code_")}
+    for res in sources.EQAO_SQ_HISTORY:
+        log(f"loading {res['id']} (EQAO student questionnaire, earlier year)")
+        eqao_sq[res["id"]] = loaders.load_eqao_sq(res, strict=False)
+        rep.count(res["id"], eqao_sq[res["id"]]["stats"]["schools"], "schools in EQAO's questionnaire file")
+    sq_history = questionnaire_history(eqao_sq)
+    sq_year = {r["id"]: r["year"] for r in sources.EQAO_SQ_RESOURCES + sources.EQAO_SQ_HISTORY}
     log("loading board context (suspensions, expulsions, spending, French enrolment)")
     susp = loaders.load_board_rates(sources.SUSPENSION_RESOURCE, what="suspension")
     expul = loaders.load_board_rates(sources.EXPULSION_RESOURCE, what="expulsion")
@@ -289,7 +319,8 @@ def build(clean: bool = False) -> dict:
             "phone": phone(c["Phone"]) if c else phone(r["Phone Number"]),
             "email": parse.clean_text(c["Email"]) if c else None,
             "website": parse.clean_url(c["Website"]) if c and parse.clean_text(c["Website"]) else parse.clean_url(r["School Website"]),
-            "board_website": parse.clean_url(c["Board Website"]) if c and parse.clean_text(c["Board Website"]) else parse.clean_url(r["Board Website"]),
+            "board_website": (sources.BOARD_WEBSITE_FIXES.get(board_number) or [None])[0]
+            or (parse.clean_url(c["Board Website"]) if c and parse.clean_text(c["Board Website"]) else parse.clean_url(r["Board Website"])),
             "region": parse.clean_text(c["Region"]) if c else None,
             "date_open": date_open(c["Date Open"]) if c else None,
             "status": "open" if c else "not-in-contact-list",
@@ -585,15 +616,31 @@ def build(clean: bool = False) -> dict:
             board = d["boards"].get(s["board_number"])
             prov = d["province"].get(s["language"])
             items = []
+            used_history = set()
             for key, q in d["questions"].items():
                 mine = org["items"].get(key, {"code": "N/D", **parse.flags("N/D")})
+                # earlier years of the same question (same wording and answers), newest first; different students each year
+                hist = []
+                for hid in sq_history[res["id"]]["comparable"].get(key, []):
+                    h = eqao_sq[hid]
+                    ho = h["schools"].get(s["bsid"])
+                    if not ho:
+                        continue
+                    hv = ho["items"].get(key, {"code": "N/D"})
+                    hist.append({"year": sq_year[hid], "source_id": hid, "agree_pct": hv.get("agree_pct"), "n": hv.get("n"), "code": hv.get("code"),
+                                 "board_pct": h["boards"].get(s["board_number"], {}).get("items", {}).get(key, {}).get("agree_pct"),
+                                 "province_pct": h["province"].get(s["language"], {}).get("items", {}).get(key, {}).get("agree_pct")})
+                    used_history.add(hid)
                 items.append({"key": key, **mine,
                               "board_pct": (board or {}).get("items", {}).get(key, {}).get("agree_pct"),
-                              "province_pct": (prov or {}).get("items", {}).get(key, {}).get("agree_pct")})
+                              "province_pct": (prov or {}).get("items", {}).get(key, {}).get("agree_pct"),
+                              "history": hist})
             blocks.append({"assessment": res["kind"], "grade": res["grade"], "year": res["year"], "source_id": res["id"],
-                           "withheld": org["withheld"], "respondents": org["respondents"], "items": items})
+                           "withheld": org["withheld"], "respondents": org["respondents"], "items": items,
+                           "history_sources": sorted(used_history, reverse=True)})
         s["student_experience"] = blocks
     rep.eqao_sq = sq_report
+    rep.eqao_sq_history = sq_history
 
     # ---------------- official attendance boundaries (boards' public map layers) ----------------
     log("official attendance boundaries")
@@ -621,7 +668,7 @@ def build(clean: bool = False) -> dict:
         used |= {e["source_id"] for e in s["eqao"]} | {e["source_id"] for e in s["enrolment"]}
         used |= {e["source_id"] for e in s["grade_enrolment"]} | {e["source_id"] for e in s["class_size"]}
         used |= {p["source_id"] for p in s["programs"].values() if p}
-        used |= {b["source_id"] for b in s["student_experience"]}
+        used |= {b["source_id"] for b in s["student_experience"]} | {h for b in s["student_experience"] for h in b.get("history_sources", [])}
         if s["official_area"]:
             used.add(s["official_area"]["source_id"])
         if s["earlyon_in_fsa"]:
@@ -747,7 +794,8 @@ def build(clean: bool = False) -> dict:
     sq_meta = {}
     for res in sources.EQAO_SQ_RESOURCES:
         sq_meta[res["id"]] = {"kind": res["kind"], "grade": res["grade"], "year": res["year"],
-                              "questions": list(eqao_sq[res["id"]]["questions"].values())}
+                              "questions": list(eqao_sq[res["id"]]["questions"].values()),
+                              "history": sq_history[res["id"]]}
     write_outputs(schools, boards, fsas, src_table, census, rep, [y for y, _ in eqao_years_all], prov_median, sq_meta)
     rep.elapsed = round(time.time() - t0)
     rep.write(config.REPORT, schools=schools, boards=boards, fsas=fsas, sources_table=src_table)
@@ -1021,6 +1069,10 @@ def write_outputs(schools, boards, fsas, src_table, census, rep, eqao_years, pro
                     w.writerow([s["bsid"], s["name"], b["year"], b["grade"], it["key"], qtext.get((b["source_id"], it["key"]), ""),
                                 it.get("n"), it.get("agree_pct"), it.get("agree_derived"), it.get("missing_pct"), it.get("code"),
                                 it.get("board_pct"), it.get("province_pct"), b["source_id"]])
+                    for h in it.get("history", []):  # earlier years: same question, same answers, different students
+                        w.writerow([s["bsid"], s["name"], h["year"], b["grade"], it["key"], qtext.get((b["source_id"], it["key"]), ""),
+                                    h.get("n"), h.get("agree_pct"), it.get("agree_derived"), None, h.get("code"),
+                                    h.get("board_pct"), h.get("province_pct"), h["source_id"]])
     with open(d / "enrolment.csv", "w", newline="", encoding="utf-8") as fh:
         w = csv.writer(fh)
         w.writerow(["bsid", "name", "year", "enrolment", "suppressed", "code", "source_id"])
@@ -1046,7 +1098,12 @@ def write_outputs(schools, boards, fsas, src_table, census, rep, eqao_years, pro
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--clean", action="store_true", help="delete downloaded files first (keeps the geocode cache)")
+    ap.add_argument("--refresh", action="store_true",
+                    help="keep downloaded files but ask each publisher whether its file changed; replace only those that did")
     args = ap.parse_args(argv)
+    if args.clean and args.refresh:
+        ap.error("--clean already downloads everything again; use one or the other")
+    fetch.REVALIDATE = args.refresh
     try:
         build(clean=args.clean)
     except (fetch.SchemaChanged, SourceUnavailable, parse.UnknownToken) as e:

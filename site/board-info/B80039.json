@@ -1,0 +1,113 @@
+{
+  "board": "B80039",
+  "name": "KidsAbility School Authority",
+  "short": "KidsAbility School",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "kidsability-refer",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "School Referrals (KidsAbility School)",
+      "url": "https://www.kidsability.ca/kidsability-school/kidsability-school-referrals/",
+      "summary": "KidsAbility School runs half-day, one-year junior kindergarten programs in Waterloo and Cambridge for children with complex needs. KidsAbility therapists start the referral with the family and submit it to the principal in February; a selection committee decides and families hear in the spring. The child must be a KidsAbility client, 4 years old by December 31, with moderate to severe needs. Applying does not guarantee a place.",
+      "related": [
+        {
+          "title": "Program and Referral Information Brochure (PDF)",
+          "url": "https://www.kidsability.ca/wp-content/uploads/2024/07/KAS-Brochure-Update-June-2024.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kidsability-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "KidsAbility School Authority Special Education Plan 2026 (PDF)",
+      "url": "https://www.kidsability.ca/wp-content/uploads/2026/06/Special-Education-Plan-2026-Revised.pdf",
+      "summary": "The authority's annual special education plan. Students are fully transitioned to the local boards by the end of the one-year Year One Kindergarten program; transition meetings start in the fall and a special education liaison teacher supports the move to community school. The plan also covers IPRC information, IEPs and early identification.",
+      "source_date": "2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kidsability-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "KidsAbility School Authority Special Education Plan 2026 (PDF), section 17",
+      "url": "https://www.kidsability.ca/wp-content/uploads/2026/06/Special-Education-Plan-2026-Revised.pdf",
+      "summary": "The school council, called the Special Education School Advisory Council or Parent Engagement Team, gives advice on parent engagement. It meets four to five times a year, is open to families of current or former KidsAbility clients and is consulted on the calendar, IEP and transition meeting timing and the strategic plan. Involvement is limited to one year.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kidsability-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "KidsAbility School Authority Special Education Plan 2026 (PDF), section 16",
+      "url": "https://www.kidsability.ca/wp-content/uploads/2026/06/Special-Education-Plan-2026-Revised.pdf",
+      "summary": "Transportation is provided for all students who attend KidsAbility School through a contracted local company whose drivers are trained on students' needs; the company holds an orientation for families before school starts.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kidsability-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "KidsAbility School Authority Multi-Year Accessibility Plan (PDF)",
+      "url": "https://www.kidsability.ca/wp-content/uploads/2025/04/KidsAbility-School-Authority-Multi-Year-Accessibility-Plan.pdf",
+      "summary": "The authority's AODA multi-year accessibility plan, dated 2025, available in accessible formats on request. Its accessibility compliance report is linked on the About page.",
+      "related": [
+        {
+          "title": "About KidsAbility School",
+          "url": "https://www.kidsability.ca/kidsability-school/about-us/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kidsability-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policy 1012 Expressions of Concern (PDF)",
+      "url": "https://www.kidsability.ca/wp-content/uploads/2026/04/1012-EXPRESSIONS-OF-CONCERN.pdf",
+      "summary": "Concerns are handled as close to the issue as possible: staff refer you to the teacher or the principal or senior administrator, who acknowledge the concern and follow up. Anonymous complaints may be looked at but cannot get a reply.",
+      "source_date": "Adopted April 1, 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kidsability-plan",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "KidsAbility School 2024-2027 Strategic Plan (PDF)",
+      "url": "https://www.kidsability.ca/wp-content/uploads/2024/06/KAS_Strategic-Plan_Final-1.pdf",
+      "summary": "The school's 2024-2027 strategic plan, with the mission of helping students succeed in school and life. It is a multi-year strategic plan, not a test-score achievement plan.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

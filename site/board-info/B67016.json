@@ -1,0 +1,297 @@
+{
+  "board": "B67016",
+  "name": "Huron-Perth Catholic District School Board",
+  "short": "Huron-Perth Catholic DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "hpcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Registration",
+      "url": "https://www.huronperthcatholic.ca/registration",
+      "related": [
+        {
+          "title": "Admission of Students, policy P 2.1.1 (PDF)",
+          "url": "https://www.huronperthcatholic.ca/documents/ca2496e0-539d-5175-a569-75e4e16f4c09?fingerprint=ppb20261021185718"
+        }
+      ],
+      "summary": "Contact your home school first, then register your child through the online registration link on the board's Student Registration page. Bring proof of age (birth certificate, birth registration form or passport), a baptismal certificate or proof of four secondary religious education courses, proof of full address, citizenship or immigration papers, and any custody orders. The page gives no kindergarten timing; ask the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (Huron Perth Student Transportation Services School Finder)",
+      "url": "https://hpsts.mybusplanner.ca/Eligibility",
+      "summary": "The shared Huron-Perth transportation consortium's School Finder lets you enter an address to see which schools serve it. The consortium runs buses for this board and Avon Maitland. The board's own pages do not describe a separate tool; Catholic admission also depends on the admission policy, so check the result with the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French as a Second Language",
+      "url": "https://www.huronperthcatholic.ca/French-as-a-Second-Language",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "summary": "French Immersion formally starts in Grade 1, the only entry point for students with no prior French instruction. The page gives no application window, lottery or waitlist and says to contact your local school. Elementary Immersion is at Jeanne Sauvé (Stratford), St. Mary's (Listowel) and St. Mary's (Goderich). It does not mention transportation to the program.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.huronperthcatholic.ca/French-as-a-Second-Language",
+      "program": "french-immersion",
+      "summary": "Secondary French Immersion is at St. Anne's (Clinton) and St. Michael (Stratford), with an enriched program that lets students earn ten credits in French. The page does not describe how Grade 8 students enter or whether an extended French option exists.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Admission of Students, policy P 2.1.1 (PDF)",
+      "url": "https://www.huronperthcatholic.ca/documents/ca2496e0-539d-5175-a569-75e4e16f4c09?fingerprint=ppb20261021185718",
+      "source_date": "Revised October 19, 2026",
+      "summary": "The board admits resident students whose family is Catholic (as the policy defines it) to their home school. Students who are out of boundary, non-resident, from non-Catholic families or international may request admission, judged on support for the board's mission, program availability and class size. The policy says these decisions are not subject to appeal. Details are in an administrative procedure (AP 2.1.15) that we did not find.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Transportation, policy P 3.5.1 (PDF)",
+      "url": "https://www.huronperthcatholic.ca/documents/376f6aab-fa56-5dce-8f5f-44a92b705807?fingerprint=ppb20251217005821",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 8": 1.6
+        }
+      },
+      "source_date": "Revised May 27, 2024",
+      "related": [
+        {
+          "title": "HPSTS Policy No 7 - Bus Eligible Distance (PDF)",
+          "url": "https://22.files.edl.io/d1e7/10/21/26/145624-91efa219-65c7-4a63-9143-3b7dfb89d6b9.pdf"
+        },
+        {
+          "title": "Am I Eligible? (HPSTS)",
+          "url": "https://hpsts.mybusplanner.ca/TransportationEligibility"
+        }
+      ],
+      "summary": "Buses are run by Huron Perth Student Transportation Services, shared with Avon Maitland. The consortium's Policy 7 says students from Junior Kindergarten to Grade 8 who live more than 1.6 km from school may be bused; secondary students inside an urban centre with a Catholic or public high school are not bused to it. Eligibility follows consortium rules, not the admission decision.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.huronperthcatholic.ca/special-education",
+      "related": [
+        {
+          "title": "2025-2026 Special Education Plan (PDF)",
+          "url": "https://www.huronperthcatholic.ca/documents/0f7ee985-388f-4a3e-8ea0-1e086fd4d308/2025-2026-HPCDSB-Special-Education-Plan.pdf"
+        },
+        {
+          "title": "Identification, Placement and Review Committee",
+          "url": "https://www.huronperthcatholic.ca/identification-placement-and-review-committee"
+        }
+      ],
+      "summary": "The board's special education page has the 2025-2026 Special Education Plan and plain explanations of the Individual Education Plan (IEP) and the Identification, Placement and Review Committee (IPRC) process. Start with your child's teacher and principal.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.huronperthcatholic.ca/special-education-advisory-committee",
+      "summary": "SEAC advises the board on special education programs and services, takes part in the yearly review of the Special Education Plan and in the budget process. It meets on the third Monday of each month at 4:00 p.m.; approved minutes are in the board meeting minutes. To join, contact the superintendent who leads SEAC through the page's form.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "HPCDSB Multi-Year Accessibility Plan (PDF)",
+      "url": "https://www.huronperthcatholic.ca/documents/71692cf3-1994-4ef9-9c68-ebb813f19158/HPCDSB-Multi-Year-Accessibility-Plan-December-2025-December-2030.pdf",
+      "source_date": "December 2025 to December 2030",
+      "related": [
+        {
+          "title": "Accessibility",
+          "url": "https://www.huronperthcatholic.ca/accessibility"
+        }
+      ],
+      "summary": "The board's accessibility plan for December 2025 to December 2030 under Ontario's accessibility law. It is board-wide, not a description of a particular school building; ask the school about specific needs. The board's accessibility page also lists annual reports.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-mll",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Multilingual Language Learners",
+      "url": "https://www.huronperthcatholic.ca/english-language-learners",
+      "summary": "Families new to Canada whose children's first language is not English can get help enrolling by contacting their local school. Settlement Workers in Schools are available through YMCA partnerships (Huron County and Perth County). The page does not describe language assessment or placement; ask the school or the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Board Policies",
+      "url": "https://www.huronperthcatholic.ca/board-policies",
+      "summary": "We could not find a published long-term accommodation plan or school-by-school capacity and enrolment tables on the board's site. The policies page lists a Pupil Accommodation Review Guidelines document (attendance boundary or consolidation reviews). Ask the board for any current accommodation plan; capacity is building space, not open seats.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "HPCDSB Student Achievement Action Plan (SAP) 2024-25",
+      "url": "https://www.huronperthcatholic.ca/news/hpcdsb-student-achievement-action-plan-sap-2024-25-20260429200539",
+      "source_date": "2024-25",
+      "related": [
+        {
+          "title": "Student Achievement Action Plan 2024-25 (PDF)",
+          "url": "https://www.huronperthcatholic.ca/documents/6082dc93-7bca-48e4-a280-a128709b45c2/HPCDSB-Student-Achievement-Action-Plan-SAP-2024-25.pdf?fingerprint=ppb20260505200944"
+        },
+        {
+          "title": "Strategic Plan 2024-2027",
+          "url": "https://www.huronperthcatholic.ca/our-vision-mission-and-strategic-plan"
+        }
+      ],
+      "summary": "The board's Student Achievement Action Plan for 2024-25, posted April 29, 2026 as a PDF. The page has no summary; ask the board whether a newer one has been published. These are board-wide plans, not one school's. The 2024-2027 Strategic Plan sets the wider priorities (academic excellence and faith formation).",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-cpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic Parent Involvement Committee",
+      "url": "https://www.huronperthcatholic.ca/catholic-parent-involvement-committee",
+      "summary": "A statutory committee linking parents with the Director of Education and trustees, focused on matters that affect more than one school. To join, contact the superintendent who leads it through the page's form; approved minutes are in the board meeting minutes.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-csac",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Catholic School Advisory Councils",
+      "url": "https://www.huronperthcatholic.ca/catholic-school-advisory-councils",
+      "summary": "School councils give parents and community members a voice at each school and make recommendations to the principal and board. Members are mostly parents, with staff, a student and community members. To join, contact your principal or a current member.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office & Parent Communication Protocol, policy P 2.1.16 (PDF)",
+      "url": "https://www.huronperthcatholic.ca/documents/2bfc592d-c161-490b-ba2e-4b3b9d71bfaa/P-2-1-16-Student-and-Family-Support-Office-Parent-Communication-Protocol.pdf?fingerprint=ppb20260225212124",
+      "source_date": "Revised February 23, 2026",
+      "related": [
+        {
+          "title": "Addressing Your Concerns",
+          "url": "https://www.huronperthcatholic.ca/addressing-your-concerns"
+        }
+      ],
+      "summary": "Concerns are meant to be settled at the lowest level first (the school), with the board's Student and Family Support Office as a further step for inquiries the school has not resolved. Matters of board policy, budget or accommodation reviews may go to the Director, the Chair or a trustee. The policy also lists outside bodies such as the Ombudsman of Ontario.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French as a Second Language",
+      "url": "https://www.huronperthcatholic.ca/French-as-a-Second-Language",
+      "verified": "2026-11-26",
+      "schools": {
+        "732788": "St. Mary's Catholic French Immersion Elementary (Listowel)",
+        "771686": "St. Anne's Catholic French Immersion Secondary (Clinton)",
+        "827940": "St. Mary's Catholic French Immersion Elementary (Goderich)",
+        "832545": "St. Michael Catholic French Immersion Secondary (Stratford)",
+        "832634": "Jeanne Sauvé Catholic French Immersion Elementary (Stratford)"
+      }
+    }
+  ]
+}

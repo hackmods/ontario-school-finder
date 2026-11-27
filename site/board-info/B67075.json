@@ -1,0 +1,430 @@
+{
+  "board": "B67075",
+  "name": "York Catholic District School Board",
+  "short": "YCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "lifecycle": "dates",
+      "title": "Admissions & Registration",
+      "url": "https://www.ycdsb.ca/admissions/",
+      "summary": "Register online (or with the PDF form), then book an appointment with the school to show original documents. The standard admission criteria ask for a Baptismal certificate (child or parent), proof of age, status in Canada, residency and English separate school support; other cases may be admitted under exceptions with prior approval from the Admissions Office. Elementary registration for 2027-28 starts January 4, 2027 and secondary registration started October 19, 2026.",
+      "related": [
+        {
+          "title": "Elementary Registration (JK-8)",
+          "url": "https://www.ycdsb.ca/admissions/elementary-admission-jk-8/"
+        },
+        {
+          "title": "Secondary Registration (9-12)",
+          "url": "https://www.ycdsb.ca/admissions/secondary-registration/"
+        },
+        {
+          "title": "Register My Child for Kindergarten",
+          "url": "https://www.ycdsb.ca/programs-services/kindergarten/registration/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "School Locator",
+      "url": "https://locator.ycdsb.ca/schoollocator/",
+      "summary": "The board's own lookup for your home school, and for the French Immersion school serving your address. The board's Long Term Accommodation Plan page also has a Find my Review Area tool for planning areas. Use the locator before registering, because the online form maps your address.",
+      "related": [
+        {
+          "title": "Find Your Local FI School",
+          "url": "https://www.ycdsb.ca/frenchimmersion/find-your-local-fi-school/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "lifecycle": "dates",
+      "title": "FI Application Forms (Elementary)",
+      "url": "https://www.ycdsb.ca/frenchimmersion/application-forms-elementary/",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "summary": "French Immersion begins in Grade 1 at 14 elementary schools; no French is needed at home. The page says the Grade 1 application for September 2027 opens December 2, 2026 for all schools (the information-night page says each school's application opens the day after its session, held in November 2026). Apply online with the form for your home immersion school. Transportation is not provided if you live outside the program's boundary.",
+      "related": [
+        {
+          "title": "French Immersion",
+          "url": "https://www.ycdsb.ca/frenchimmersion/"
+        },
+        {
+          "title": "2026 FI Parent Information Night",
+          "url": "https://www.ycdsb.ca/frenchimmersion/fi-parent-information-night/"
+        },
+        {
+          "title": "FI FAQs and Parent Resources",
+          "url": "https://www.ycdsb.ca/frenchimmersion/fi-faqs-parent-resources/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "French Immersion (FI)",
+      "url": "https://www.ycdsb.ca/programs-services/secondary/specialty-programs/fi/",
+      "summary": "Students who took elementary French Immersion can continue at five named Catholic high schools and earn a French Immersion certificate with 10 French credits (four French as a Second Language, six in French). It is a specialty program: families submit a Specialty Program application form and the online registration form. A June 2026 decision is phasing out the program at Our Lady of the Lake (see decisions).",
+      "related": [
+        {
+          "title": "Secondary Registration (9-12)",
+          "url": "https://www.ycdsb.ca/admissions/secondary-registration/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "Transfer to another YCDSB School",
+      "url": "https://www.ycdsb.ca/programs-services/secondary/current-secondary-students/transfer-to-another-ycdsb-school/",
+      "summary": "Elementary: register at your home school, then submit an Out of Boundary/Out of Region application (form TCH19) naming the school you want and why; approval depends on space in the grade and the right program, siblings of current students get priority, and transportation is not provided. Secondary: name the preferred school on form TCH19A and email it to that school; the principal and superintendent decide and acceptance is not guaranteed. St. Augustine, St. Theresa of Lisieux and St. Robert are capped schools with their own process.",
+      "related": [
+        {
+          "title": "Policy 226A, Admission to Elementary Schools (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/Policy-226A-Admission-Elementary-Schools.pdf"
+        },
+        {
+          "title": "Elementary Registration (JK-8)",
+          "url": "https://www.ycdsb.ca/admissions/elementary-admission-jk-8/"
+        },
+        {
+          "title": "Admissions & Registration",
+          "url": "https://www.ycdsb.ca/admissions/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Student Transportation and Active School Travel",
+      "url": "https://www.ycdsb.ca/student-transportation-and-active-school-travel/",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 3": 1.2,
+          "Grades 4 to 8": 1.6,
+          "Grades 9 to 12": 4.8,
+          "Grades 9 to 12 without public transit": 3.2
+        }
+      },
+      "summary": "Eligibility is based on distance from the home school: more than 1.2 km (JK to Grade 3), 1.6 km (Grades 4 to 8), 4.8 km (Grades 9 to 12) or 3.2 km for Grades 9 to 12 without public transit. Students attending a school or program outside their home area may not be eligible; different rules may apply to French Immersion and specialized programs. Student Transportation Services of York Region runs the buses for this board and the public board.",
+      "related": [
+        {
+          "title": "Check transportation eligibility (STSYR)",
+          "url": "https://bp.schoolbuscity.com/TransportationEligibility"
+        },
+        {
+          "title": "Student Transportation Services of York Region",
+          "url": "https://net.schoolbuscity.com/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.ycdsb.ca/programs-services/special-education/",
+      "summary": "The board's special education hub: placement in a regular classroom with supports is the first placement considered. It links the Individual Education Plan page, the Identification, Placement and Review Committee (IPRC) process, a parent guide and the 2026-2027 Special Education Plan. Talk to your child's teacher and principal first.",
+      "related": [
+        {
+          "title": "Special Education Plan",
+          "url": "https://www.ycdsb.ca/programs-services/special-education/special-education-plan/"
+        },
+        {
+          "title": "IPRC Process",
+          "url": "https://www.ycdsb.ca/programs-services/special-education/iprc/"
+        },
+        {
+          "title": "IEP",
+          "url": "https://www.ycdsb.ca/programs-services/special-education/iep/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.ycdsb.ca/programs-services/special-education/special-education-advisory-committee-seac/",
+      "summary": "SEAC advises the board on special education programs and services. It includes trustees and local agencies and associations, and members are a resource for families. The page lists the represented organizations and an email address for questions; it does not list meeting dates."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.ycdsb.ca/about/accessibility/",
+      "source_date": "2018-2023 plan (latest listed)",
+      "summary": "The board's accessibility page: how to give feedback (principal or manager first, then superintendent), how to request accessible formats, and related policies. The newest multi-year plan it lists is 2018-2023, so ask the board whether a newer one exists. It does not describe individual school buildings."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "lifecycle": "contacts",
+      "title": "Newcomer Reception Centre",
+      "url": "https://www.ycdsb.ca/admissions/newcomer-reception-centre/",
+      "summary": "Located at the Catholic Education Centre in Aurora; it assesses and places newcomer students at the secondary level and supports schools. Students in Canada under 3 years, out of Canada over 4 years, or from French-language schools need an assessment. Contact the Centre by email or phone to book; the page also links ESL/ELD centre schools and settlement services.",
+      "related": [
+        {
+          "title": "ESL/ELD Centre Schools",
+          "url": "https://www.ycdsb.ca/admissions/newcomer-reception-centre/esl-eld-centre-schools/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Long Term Accommodation Plan (LTAP) 2024-2029",
+      "url": "https://www.ycdsb.ca/about/departments/planning/ltap/",
+      "source_date": "Board approved November 2024; initiatives summary revised October 2026",
+      "summary": "The board's multi-year plan for school space, with enrolment and capacity profiles by review area and school, planned new schools, boundary and program reviews. Projections are forecasts, and capacity is building space, not open seats. A summary of initiatives revised in October 2026 is posted; it notes the provincial moratorium on school closures.",
+      "related": [
+        {
+          "title": "Summary of Accommodation Initiatives (2026) (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/Summary-of-Accommodation-Initiatives-2026.pdf"
+        },
+        {
+          "title": "LTAP 2024-2029, board approved (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/FINAL-LTAP_November-2024_BOARD-APPROVED.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-bip",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Board Improvement Plan",
+      "url": "https://www.ycdsb.ca/about/board-improvement-plan/",
+      "summary": "The board's improvement learning cycle for student achievement and well-being, Kindergarten to Grade 12. It sits within the board's strategic commitments: Catholic faith, continuous improvement of achievement, use of resources and engaging communities. The plan itself is a PDF linked from the page."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "York Catholic Parent Involvement Committee",
+      "url": "https://www.ycdsb.ca/parents/ycpic/",
+      "summary": "YCPIC is an official committee of the board that meets during the school year and advises the Director of Education on ways to increase parent involvement. The page explains its purpose and what parent engagement means."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-csc",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Catholic School Council",
+      "url": "https://www.ycdsb.ca/parents/csc/",
+      "summary": "Every school must have a Catholic School Council that helps the school engage parents and keep links with home and church. The board's policy and a constitution apply in every school; ask your school how to join."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-supervision",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Ministry Supervision",
+      "url": "https://www.ycdsb.ca/ministry-supervision/",
+      "summary": "On March 5, 2026 the Minister of Education placed the board under supervision. While it lasts, decisions normally made by trustees (other than denominational matters) are made by an appointed Supervisor. The page lists the supervisor's approved reports; check it for who decides before contacting a trustee."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "ycdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.ycdsb.ca/student-family-support-office/",
+      "summary": "Start with your child's teacher or principal. If it is unresolved, the Student and Family Support Office can connect you with your area superintendent or the right department; it acknowledges inquiries within 2 business days and aims for a full answer within 5. Bullying or bias concerns go through the board's Report It page.",
+      "related": [
+        {
+          "title": "Report It",
+          "url": "https://www.ycdsb.ca/report-it/"
+        }
+      ]
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "Find Your Local FI School",
+      "url": "https://www.ycdsb.ca/frenchimmersion/find-your-local-fi-school/",
+      "verified": "2026-11-26",
+      "schools": {
+        "696919": "Christ the King CES (Richmond Hill)",
+        "724220": "St. John XXIII CES (Unionville)",
+        "744026": "Our Lady of Fatima CES (Woodbridge)",
+        "757573": "St. Marguerite d'Youville CES (Richmond Hill)",
+        "761079": "St. John Bosco CES (Woodbridge)",
+        "763560": "Blessed Chiara Badano CES (Stouffville)",
+        "773689": "St. Anthony CES (Thornhill)",
+        "788082": "St. Edward CES (Markham)",
+        "789003": "St. Elizabeth Seton CES (Newmarket)",
+        "792306": "St. Francis Xavier CES (Markham)",
+        "806366": "St. Joseph (Aurora) CES (Aurora)",
+        "815411": "St. Joseph the Worker CES (Thornhill)",
+        "864080": "St. Thomas Aquinas CES (Keswick)",
+        "874361": "Blessed Trinity CES (Maple)"
+      }
+    },
+    {
+      "program": "french-immersion",
+      "title": "French Immersion (FI)",
+      "url": "https://www.ycdsb.ca/programs-services/secondary/specialty-programs/fi/",
+      "verified": "2026-11-26",
+      "schools": {
+        "691356": "St. Brother André CHS (Markham)",
+        "811780": "St. Maximilian Kolbe CHS (Aurora)",
+        "849901": "Father Bressani CHS (Woodbridge)",
+        "874888": "Our Lady Queen of the World CA (Richmond Hill)"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "ycdsb-queensville-boundary-2026",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "Notice of Completion: Queensville Boundary Review",
+      "url": "https://www.ycdsb.ca/notice-of-completion-queensville-boundary-review/",
+      "decided": "2026-01-27",
+      "summary": "On January 27, 2026 the trustees approved Boundary Option 1 as the attendance boundary for the new Queensville Catholic elementary school in East Gwillimbury, effective when it opens in September 2027. It takes in the Queensville, Mount Albert and northern East Gwillimbury study areas now served by Good Shepherd and Our Lady of Good Counsel. Secondary alignment does not change.",
+      "related": [
+        {
+          "title": "Queensville Boundary Review Final Report (PDF)",
+          "url": "https://www.ycdsb.ca/wp-content/uploads/Queensville-Boundary-Review-Final-Report.pdf"
+        }
+      ],
+      "schools": [
+        "708062",
+        "741744"
+      ],
+      "match": "The new Queensville school is not yet in this site's school list. Good Shepherd CES (East Gwillimbury) and Our Lady of Good Counsel CES (Sharon) are the two existing JK-8 schools the board's final report names as serving the study areas.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ycdsb-oll-secondary-fi-2026",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "Secondary French Immersion Program at Our Lady of the Lake CA (PDF)",
+      "url": "https://www.ycdsb.ca/wp-content/uploads/Sec-French-Immersion-Program-at-OLL.docx.pdf",
+      "decided": "2026-06-24",
+      "summary": "On June 24, 2026 the Ministry-appointed Supervisor approved phasing out the secondary French Immersion program at Our Lady of the Lake Catholic Academy. No new Grade 9 students enter from 2026-27 and the last graduating class is 2028-29. Elementary French Immersion there is not changed.",
+      "related": [
+        {
+          "title": "Ministry Supervision",
+          "url": "https://www.ycdsb.ca/ministry-supervision/"
+        }
+      ],
+      "schools": [
+        "748528"
+      ],
+      "match": "Matched by hand to Our Lady of the Lake Catholic Academy High School (Keswick, 9-12); the Grades 7-8 school of the same campus (748536) is not named because the decision covers the secondary program only.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "board": "B67180",
+  "name": "Ottawa Catholic School Board",
+  "short": "OCSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "ocsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register today",
+      "url": "https://www.ocsb.ca/our-schools/register/",
+      "summary": "Registration for 2026-27 starts with the board's online student registration form; the school then reviews it and contacts you. Have proof of your child's name, birth date and citizenship, immigration papers if born outside Canada, and proof of an Ottawa address. High school applicants add their latest report card (Grades 10 to 12 also a transcript). The board says children of all religions are welcome; the page gives no baptism rule or separate elementary and secondary eligibility, so ask Admissions@ocsb.ca.",
+      "related": [
+        {
+          "title": "Kindergarten",
+          "url": "https://www.ocsb.ca/our-schools/kindergarten/"
+        },
+        {
+          "title": "Admissions (General) policy",
+          "url": "https://docs.google.com/document/d/1__W94AydDTz6vCiwvcl4OPI9oa_tNvopT3YxsLODAKU/edit?usp=sharing"
+        }
+      ],
+      "source_date": "Admissions policy last amended May 12, 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten",
+      "url": "https://www.ocsb.ca/our-schools/kindergarten/",
+      "summary": "A child must turn four by December 31 of the start year. For a September 2027 start, the page says registration opens January 1, 2027, using the board's Register page. The kindergarten program is bilingual, half English and half French. Questions go to Admissions@ocsb.ca or 613-224-2222.",
+      "facts": {
+        "entry_grades": [
+          "JK"
+        ]
+      },
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Locator (home school by address)",
+      "url": "https://ocsb.mybusplanner.ca/Eligibility",
+      "summary": "Enter your address and your child's grade to see the designated home school. Some addresses show more than one school (an option area); once you choose, the child stays unless you move. The locator covers only the current school year and may miss new construction, so confirm with the school. The board says its maps should not be used alone to decide attendance or busing.",
+      "related": [
+        {
+          "title": "School boundaries and cross-boundary transfers",
+          "url": "https://www.ocsb.ca/our-schools/boundaries/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Programs",
+      "url": "https://www.ocsb.ca/our-schools/french/",
+      "summary": "Kindergarten is half French for all students and Grades 1 to 3 use Extended French (25% French). French Immersion (50% French) starts in Grade 4, and the page says Grade 4 is the choice point for students who want high school Immersion; teachers remind families in Grade 3. The page gives no application steps, deadline, waitlist or busing rule for Immersion: ask the school or the board.",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "4"
+        ]
+      },
+      "related": [
+        {
+          "title": "Kindergarten",
+          "url": "https://www.ocsb.ca/our-schools/kindergarten/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Programs",
+      "url": "https://www.ocsb.ca/our-schools/french/",
+      "summary": "Immersion continues in Grades 7 and 8 (4 of 8 classes in French) and Grades 9 to 12 (four Immersion French language arts courses plus six other subjects in French). Ten French courses earn a French Immersion certificate; students can switch to Core French later. The DELF exam is offered twice a year to some Grade 12 French students.",
+      "program": "french-immersion",
+      "related": [
+        {
+          "title": "High school courses",
+          "url": "https://www.ocsb.ca/our-schools/high-school/courses/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-efr",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Programs",
+      "url": "https://www.ocsb.ca/our-schools/french/",
+      "summary": "Grades 1 to 3 are Extended French: about 25% of instruction in French, with French language arts and social studies taught in French and other subjects in English. The page presents this as the step before Immersion in Grade 4.",
+      "program": "extended-french",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ]
+      },
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School boundaries: cross-boundary transfers",
+      "url": "https://www.ocsb.ca/our-schools/boundaries/",
+      "summary": "To attend a school outside your home boundary, contact your home school first and complete the board's transfer form (JK-6 or Grades 7-12). Transfers are not guaranteed and depend on space. They renew each year while the student stays, and the principal can cancel one for reasons such as attendance or a change of address. Parents provide transportation, except for JK-6 childcare reasons. The page lists no deadline.",
+      "related": [
+        {
+          "title": "Register today",
+          "url": "https://www.ocsb.ca/our-schools/register/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-transport",
+      "topic": "transportation",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation | School Bus",
+      "url": "https://www.ocsb.ca/parents/transportation/",
+      "summary": "Ottawa Catholic school buses are run by the Ottawa Student Transportation Authority (OSTA), shared with the public board. The board's page gives no walking distances or courtesy-seat rules, and we could not check OSTA's own site for its eligibility rules, so please ask OSTA or the school and use the School Locator to see if your child has service.",
+      "related": [
+        {
+          "title": "School Locator (eligibility)",
+          "url": "https://ocsb.mybusplanner.ca/Eligibility"
+        },
+        {
+          "title": "OSTA policy (OCSB)",
+          "url": "https://docs.google.com/document/d/1cYjfLSr8bO3CMZ1Ue9_l5-SfSb1bFlKI6b2MIE2meRE/edit?usp=drive_link"
+        }
+      ],
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "ocsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.ocsb.ca/our-schools/special-education/",
+      "summary": "The board's page links its Special Education Plan and explains that an Individual Education Plan (IEP) is built with parents each year and reviewed during the year. The Identification, Placement and Review Committee (IPRC) decides whether a student is identified as exceptional and where they are placed, with decisions reviewed at least yearly. A guide for families is linked.",
+      "related": [
+        {
+          "title": "Special Education Plan",
+          "url": "https://docs.google.com/document/d/1DpGVOp3SnhwZZnEk6nKlimhYHd2BXfD9/edit?usp=sharing"
+        },
+        {
+          "title": "Guide to Special Education for Families",
+          "url": "https://sites.google.com/ocsb.ca/guide-to-special-education/home"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.ocsb.ca/our-schools/special-education/",
+      "summary": "SEAC is a parent-led committee that advises the board on special education. It meets monthly at 6:30 pm at the board office on West Hunt Club Road, open to the public and hybrid, and posts agendas and minutes. Contact seac@ocsb.ca.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility Committee",
+      "url": "https://www.ocsb.ca/contact/committees/accessibility-committee/",
+      "summary": "The board's Accessibility Multi-Year Plan is linked from this page; the page gives no plan years. It says the plan is reviewed often and covers removing barriers for staff, students and visitors under Ontario accessibility law. It is board-wide, not a description of one school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Accessibility Multi-Year Plan",
+          "url": "https://drive.google.com/file/d/1zGCpa29zoh-PRaK1Gixys0QnWCubTaFF/view?usp=sharing"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-fwc",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Family Welcome Centre",
+      "url": "https://www.ocsb.ca/our-schools/family-welcome-centre/",
+      "summary": "Newcomer families register first, then book an appointment at the Family Welcome Centre (613-233-5670, Family.Welcome@ocsb.ca). It assesses students in Grades 2 to 12 who are new to Canada or whose first language is not English: an interview and an English oral, reading and writing check, plus math for Grades 9 to 12 from abroad. Results go to the family and the school. A Multicultural Liaison Officer can help with settling in.",
+      "related": [
+        {
+          "title": "English as a Second Language",
+          "url": "https://www.ocsb.ca/our-schools/english-as-a-second-language/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-capital",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Planning and Facilities (2024 Capital Plan)",
+      "url": "https://www.ocsb.ca/our-board/departments/planning-and-facilities/",
+      "summary": "The board's 2024 Capital Plan, produced about every five years, gives school-by-school enrolment projections and capital needs by review area, and lists approved new schools and additions. Projections are forecasts and capacity is building space, not open seats at any school. The page does not describe a long-term accommodation plan; accommodation reviews follow a board policy.",
+      "related": [
+        {
+          "title": "2024 Capital Plan (PDF)",
+          "url": "https://drive.google.com/file/d/1A9jaX5i7T_58I2JeNg-6uJBJdfr3YQLM/view?usp=drive_link"
+        },
+        {
+          "title": "Board policies",
+          "url": "https://www.ocsb.ca/our-board/policies/"
+        }
+      ],
+      "source_date": "Capital Plan memo dated June 19, 2024",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Our Commitments and Spiritual Theme (Student Achievement Plan)",
+      "url": "https://www.ocsb.ca/our-board/our-commitments-spiritual-theme/",
+      "summary": "The board posts its Strategic Plan and a Student Achievement Plan (the file is labelled 2024-25), which reports progress on Ontario's priorities. A Board Improvement and Equity Plan is described but not linked. These are board-wide, not figures for one school.",
+      "related": [
+        {
+          "title": "Student Achievement Plan 2024-25 (PDF)",
+          "url": "https://www.ocsb.ca/wp-content/uploads/2026/05/SAP-Student-Achievement-Plan-2024-25-B67180-1.pdf"
+        }
+      ],
+      "source_date": "2024-25",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Get Involved (Ottawa CSPA-PIC)",
+      "url": "https://www.ocsb.ca/parents/get-involved/",
+      "summary": "The Parent Involvement Committee (Ottawa CSPA-PIC) represents OCSB parents, holds monthly general meetings open to all parents and caregivers, and works with SEAC. Every school has a Catholic School Council with fall elections and open meetings; ask your principal how to join.",
+      "related": [
+        {
+          "title": "Meetings, agendas and minutes",
+          "url": "https://ottawacspa.ca/about/meetings-agendas-minutes"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-trustees",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Trustees",
+      "url": "https://www.ocsb.ca/our-board/trustees/",
+      "summary": "Elected trustees for the board, listed on the board's site; they are one step in raising a concern after the school and superintendent.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ocsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student & Family Support Office",
+      "url": "https://www.ocsb.ca/student-family-support-office/",
+      "summary": "Start with your child's teacher, then the principal, then the school's superintendent or your trustee. If it is still unresolved, send it to the Student & Family Support Office by online form, phone (613-224-4455 ext. 7376) or email. The office aims to confirm receipt within 2 business days. Hate, bias or bullying incidents for Grades 7 to 12 go through OCSBConnect.",
+      "related": [
+        {
+          "title": "Trustees",
+          "url": "https://www.ocsb.ca/our-board/trustees/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

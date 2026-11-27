@@ -1,0 +1,313 @@
+{
+  "board": "B29068",
+  "name": "Thunder Bay Catholic District School Board",
+  "short": "Thunder Bay Catholic",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "lifecycle": "dates",
+      "title": "Register",
+      "url": "https://tbcschools.ca/register/",
+      "summary": "Register online through the board's PowerSchool portal; first-time families create a profile. The board does not require a baptismal certificate, though schools may ask for one to prepare students for sacraments. Schools welcome families of all faiths. The board's admissions policy 701 (2019) sets extra conditions for elementary students who are not Catholic or whose parents are not separate school supporters, so ask the school. Welcome to Kindergarten Nights are December 2 and 3 at 6:00 p.m. for children starting in 2027.",
+      "related": [
+        {
+          "title": "School Admissions policy 701 (PDF)",
+          "url": "https://tbcschools.ca/wp-content/uploads/2023/07/701_SCHOOL_ADMISSIONS_POLICY2019.pdf"
+        },
+        {
+          "title": "Kindergarten programming",
+          "url": "https://tbcschools.ca/education/kindergarten-programming/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "School Admissions (policy 701, PDF)",
+      "url": "https://tbcschools.ca/wp-content/uploads/2023/07/701_SCHOOL_ADMISSIONS_POLICY2019.pdf",
+      "source_date": "Approved April 11, 2019; review date April 11, 2024",
+      "summary": "Students attend the school for the neighbourhood where they live. The board allows parents to choose another school if the principal, with the superintendent, finds there is room, and parents pay for and arrange transportation. The policy gives no deadline or form for this request, so ask the school you want. Nonresident students and non-Catholic elementary students need the board's admission form."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Address Eligibility Lookup (Student Transportation Services of Thunder Bay)",
+      "url": "https://ststb.ca/en/schools/address-eligibility-lookup",
+      "summary": "The board's registration page sends families to the Thunder Bay transportation consortium for school and bus eligibility. Its \"Which School do I Attend?\" tool works from your address, school board, grade and program. The consortium advises confirming enrolment eligibility with the school before acting on a result.",
+      "related": [
+        {
+          "title": "Student Transportation Services of Thunder Bay",
+          "url": "https://ststb.ca/en"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "lifecycle": "dates",
+      "title": "French Immersion Programming",
+      "url": "https://tbcschools.ca/education/french-immersion-programming/",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "K"
+        ]
+      },
+      "summary": "Early French Immersion is offered at St Bernard (north) and St Martin (south), with the program also listed at Bishop Gallagher and Pope John Paul II. The board's pages disagree on entry: the registration page says it begins in Year 1 of Kindergarten, while the board's French FAQ says Year 2. Admissions policy 701 says students are not admitted beyond Senior Kindergarten unless they come from a French program elsewhere. Registration opens after the December Welcome to Kindergarten Nights; ask the school which year your child starts. No waitlist or transportation details are given.",
+      "related": [
+        {
+          "title": "Register",
+          "url": "https://tbcschools.ca/register/"
+        },
+        {
+          "title": "FSL in Ontario: frequently asked questions",
+          "url": "https://tbcschools.ca/education/french-immersion-programming/fsl-in-ontario-frequently-asked-questions/"
+        },
+        {
+          "title": "School Admissions policy 701 (PDF)",
+          "url": "https://tbcschools.ca/wp-content/uploads/2023/07/701_SCHOOL_ADMISSIONS_POLICY2019.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "French Immersion Programming",
+      "url": "https://tbcschools.ca/education/french-immersion-programming/",
+      "summary": "The board says students can continue French Immersion at both of its high schools. The page does not name the schools or explain how students enter or register."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Pupil Transportation (policy 704, PDF)",
+      "url": "https://tbcschools.ca/wp-content/uploads/2025/09/704-Transportation-2024.docx.pdf",
+      "source_date": "Approved June 21, 2024",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.8,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "A joint policy of the board, Lakehead DSB and CSDCAB, run by the Thunder Bay consortium. Students living more than 0.8 km (JK and SK), 1.6 km (Grades 1 to 8) or 3.2 km (Grades 9 to 12) from school, inside the school's area, may be eligible. Seats may be offered as a courtesy where there is room. Students choosing a school outside their area arrange their own transportation.",
+      "related": [
+        {
+          "title": "Address Eligibility Lookup (STSTB)",
+          "url": "https://ststb.ca/en/schools/address-eligibility-lookup"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "lifecycle": "plans",
+      "title": "Special Education Programming",
+      "url": "https://tbcschools.ca/education/special-education-programming/",
+      "summary": "The board's special education page links the Special Education Annual Plan 2026-2027 and pages on IEPs (individual education plans), IPRCs (identification, placement and review) and its programs. The plan covers the IPRC process, placements and services. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Annual Plan 2026-2027 (PDF)",
+          "url": "https://tbcschools.ca/wp-content/uploads/2026/10/Special-Education-Plan-2026-20271.pdf"
+        },
+        {
+          "title": "Individual Education Plan (IEP)",
+          "url": "https://tbcschools.ca/education/special-education-programming/individual-education-plan-iep/"
+        },
+        {
+          "title": "Identification, Placement and Review (IPRC)",
+          "url": "https://tbcschools.ca/education/special-education-programming/identification-placement-review/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://tbcschools.ca/education/special-education-programming/special-education-advisory-committee-seac/",
+      "summary": "SEAC advises trustees on special education programs and services. It meets monthly from September to June, 9:30 to 11:30 a.m., at the board office, and visitors are welcome. The page still lists the 2025-26 dates; the board updates it each year."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan 2023-2027 (PDF)",
+      "url": "https://tbcschools.ca/wp-content/uploads/2024/08/Mult-Year-Accessibility-Plan-2023-2027.pdf",
+      "source_date": "Period December 2023 to December 2027",
+      "summary": "The board's accessibility plan for December 2023 to December 2027, covering how it finds and removes barriers and an inventory of accessible facilities. It describes board-wide plans; ask the school about a particular building. Accessible formats are available on request.",
+      "related": [
+        {
+          "title": "Accessibility Standards policy 809 (PDF)",
+          "url": "https://tbcschools.ca/wp-content/uploads/2025/11/809-Accessibility-Standards-2024.docx.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "lifecycle": "contacts",
+      "title": "International Programming",
+      "url": "https://tbcschools.ca/education/international-programming/",
+      "summary": "The board's International Programming page says it provides special supports for students learning English as a second language, including ESL teachers. The page is aimed at international students and gives no steps for newcomer families already in Ontario, so ask the school or the board office what support is available."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-planning",
+      "topic": "planning",
+      "kind": "rule",
+      "lifecycle": "plans",
+      "title": "Pupil Accommodation Review (policy 305, PDF)",
+      "url": "https://tbcschools.ca/wp-content/uploads/2024/01/305-Pupil-Accommodation-Review-Google-Docs.pdf",
+      "source_date": "Approved September 1, 2022",
+      "summary": "We found no long-term accommodation plan or enrolment and capacity table. This policy says the board does long-term capital planning and, before consolidating, closing or relocating a school, runs a pupil accommodation review under Ministry guidelines. Projections in such plans are forecasts, and capacity is building space, not open seats."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan 2024-2025 (PDF)",
+      "url": "https://tbcschools.ca/wp-content/uploads/2026/05/B29068_Thunder-Bay-CDSB_PR_2024-2025-secured.pdf",
+      "source_date": "2024-2025 academic year",
+      "summary": "The board's public report on its student achievement plan, with goals on literacy and EQAO results, graduation and credit accumulation, and student engagement and well-being, each with board and provincial results."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Catholic Parent Involvement Committee",
+      "url": "https://tbcschools.ca/resources/catholic-parent-involvement-committee/",
+      "summary": "A short page encouraging parents to take part in their child's learning and school community. It does not say how to join the committee or when it meets; use the board's Contact Us page."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Catholic School Councils (policy 907, PDF)",
+      "url": "https://tbcschools.ca/wp-content/uploads/2023/07/907_CATHOLIC_SCHOOL_COUNCILS.pdf",
+      "source_date": "Approved February 6, 2020",
+      "summary": "Each school sets up a Catholic School Council every year. Its purpose is to improve student achievement, keep the system accountable to parents and support the school's Catholic character, advising the principal and board. A majority of members are elected parents. Ask your school how to take part."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "tbcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://tbcschools.ca/about-us/departments/student-and-family-support-office/",
+      "summary": "Start with the teacher or staff member, then the principal. If it is unresolved, or involves several schools, use the Student and Family Support Office form; it aims to acknowledge within 2 business days and respond within 5. The office does not handle emergencies. The board's complaints policy 902 says most complaints are dealt with at school level first.",
+      "related": [
+        {
+          "title": "Disposition of Complaints policy 902 (PDF)",
+          "url": "https://tbcschools.ca/wp-content/uploads/2023/07/902_DISPOSITION_OF_COMPLAINTS_2020.pdf"
+        }
+      ]
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion Programming",
+      "url": "https://tbcschools.ca/education/french-immersion-programming/",
+      "verified": "2026-11-26",
+      "schools": {
+        "689637": "Bishop Gallagher (Thunder Bay)",
+        "758400": "Pope John Paul II (Thunder Bay)",
+        "778672": "St. Bernard (Thunder Bay)",
+        "823651": "St. Martin (Thunder Bay)"
+      }
+    }
+  ]
+}

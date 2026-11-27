@@ -1,0 +1,351 @@
+{
+  "board": "B66168",
+  "name": "Grand Erie District School Board",
+  "short": "Grand Erie",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "gedsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "How to Register",
+      "url": "https://granderie.ca/registration",
+      "related": [
+        {
+          "title": "Elementary registration",
+          "url": "https://granderie.ca/registration/registrationlinks/2025-26-elementary"
+        },
+        {
+          "title": "Secondary registration",
+          "url": "https://granderie.ca/registration/registrationlinks/secondary-school"
+        }
+      ],
+      "summary": "Find your school with the locator, gather your documents, then register through that school (online and in-person routes are on the Kindergarten page). You need proof of your child's birth date and status in Canada, proof of address, parent and emergency contacts, custody details if they apply, and a health-care assistance form if staff must give medication. Newcomer families start at the Grand Welcome Centre.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten",
+      "url": "https://granderie.ca/kindergarten",
+      "related": [
+        {
+          "title": "2026-27 Kindergarten registration",
+          "url": "https://granderie.ca/registration/registrationlinks/2026-27-kindergarten-registration"
+        }
+      ],
+      "summary": "Register online through the board's PowerSchool link or by contacting your home school, then call the school to arrange document checking (email, mail, or an in-person or virtual appointment). When we checked, the page said online registration for the 2027-28 school year was open and gave no deadline or age rule. Check bus eligibility with the transportation consortium before you register.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Boundary Maps",
+      "url": "https://granderie.ca/locate-a-school/school-boundary-maps",
+      "related": [
+        {
+          "title": "Elementary directory",
+          "url": "https://granderie.ca/locate-a-school/elementary-directory"
+        },
+        {
+          "title": "Secondary directory",
+          "url": "https://granderie.ca/locate-a-school/secondary-directory"
+        }
+      ],
+      "summary": "The board's School Locator app (run by the transportation consortium, a separate site with its own terms): enter a home address to see its area school, and switch map layers for secondary and French Immersion boundaries. The page gives no date for the boundary data, so confirm your school with the board before acting.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Elementary French Immersion Program",
+      "url": "https://granderie.ca/elementary/elementary-french-immersion-program",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "related": [
+        {
+          "title": "French Immersion registration",
+          "url": "https://granderie.ca/kindergarten/french-immersion-registration"
+        }
+      ],
+      "summary": "From September 2026 Grade 1 is the only elementary entry point; JK and SK at an Immersion school are taught in English. Children registered by Feb. 5, 2027 are placed at the Immersion school; later registrations are assessed one by one. Sibling priority needs registration and verification done by that date, and out-of-area requests are not permitted. Lotteries have been removed. Entry after Grade 1 is only for transfers from a board with at least 50% French instruction.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary French Immersion Programs",
+      "url": "https://granderie.ca/secondary/secondary-french-immersion-programs",
+      "program": "french-immersion",
+      "related": [
+        {
+          "title": "Secondary Program Review",
+          "url": "https://www.granderie.ca/secondary/program-review"
+        }
+      ],
+      "summary": "French Immersion continues in high school at Brantford Collegiate Institute, McKinnon Park Secondary School (new from September 2026, starting in Grade 9) and Simcoe Composite School; the Brantford-area program is being combined at Brantford Collegiate from September 2026. The page does not name an entry grade; Brantford and Brant County students get registration information through their elementary school in Grade 8. Ask the school's guidance head about applying from elsewhere.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-out-of-area",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Request to Attend a School Outside the Home Area School (procedure SO-043, PDF)",
+      "url": "https://granderie.ca/docs/default-source/by-law-policies-procedures-and-protocols/procedures/request_to_attend_a_school_outside_the_home_area_school_so-043.pdf?sfvrsn=dfa7e2dd_1",
+      "source_date": "Last updated 2023/06/16",
+      "summary": "The board expects students to attend their home area school. For elementary, you send a written request to the school you want, after the home school acknowledges it; requests for the next year are accepted from January 1 and answered in writing by the end of June. Secondary requests are decided by that school's principal. Approval depends mainly on enrolment and space, lasts one school year, and the form says it is rare. Transportation is the family's job unless courtesy seats are offered.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Transportation Policy TR-02 (PDF)",
+      "url": "https://granderie.ca/docs/default-source/by-law-policies-procedures-and-protocols/policies/student-transportation-policy-tr-02-4-24-2023.pdf?sfvrsn=780526f7_4",
+      "facts": {
+        "walk_km": {
+          "Elementary (urban)": 1.6,
+          "Secondary (urban)": 3.2,
+          "Walk to bus stop (up to)": 0.8
+        }
+      },
+      "source_date": "Last updated 2026/09/28",
+      "related": [
+        {
+          "title": "Check transportation eligibility for an address",
+          "url": "https://transinfobhn.ca/Eligibility.aspx?Page=Transportation"
+        },
+        {
+          "title": "Student Transportation Services Brant Haldimand Norfolk",
+          "url": "https://stsbhn.ca/"
+        }
+      ],
+      "summary": "Students inside their school's catchment get transportation if they live in a rural area, or in an urban area farther than 1.6 km (elementary) or 3.2 km (secondary) from the school or bus access point. Students may walk up to 0.8 km to a bus stop. Courtesy seats are only given when a bus has space at no extra cost, are applied for each year and can be withdrawn. Student Transportation Services Brant Haldimand Norfolk runs the buses.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Specialized Services",
+      "url": "https://granderie.ca/programs-services/specialized-services",
+      "related": [
+        {
+          "title": "Special Education Plan 2025-26 (PDF)",
+          "url": "https://granderie.ca/docs/default-source/publications/special-education-plan-2025-26.pdf"
+        },
+        {
+          "title": "Parent/Caregiver guide to special education and the IPRC",
+          "url": "https://granderie.ca/programs-services/specialized-services/parent-caregiver-guide-to-special-education---special-education-and-the-identification-placement-review-committee-(iprc)"
+        }
+      ],
+      "summary": "The board's special education page, with its Special Education Plan (2025-26 PDF) and guides to Individual Education Plans (IEPs) and the Identification, Placement and Review Committee (IPRC). Start with your child's teacher and principal about assessment, an IEP or an IPRC meeting.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://granderie.ca/programs-services/specialized-services/special-education-advisory-committee-(seac)",
+      "summary": "SEAC advises the board on special education programs, services and the annual plan and budget. It meets at least ten times a school year, virtually and open to the public to watch, and deals with board-wide issues rather than individual children. Members include representatives of local associations; the page invites applications from September 15 to October 15, 2026.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan 2022-27 (PDF)",
+      "url": "https://granderie.ca/docs/default-source/accessibility/accessibilityplan2022-27622cad69-d8c9-4d10-9a9b-0acaf07401fd.pdf?sfvrsn=c7ffcc73_1",
+      "related": [
+        {
+          "title": "Accessibility",
+          "url": "https://granderie.ca/community/accessibility"
+        }
+      ],
+      "summary": "The board's accessibility plan under Ontario's accessibility law, covering 2022 to 2027, with the barriers it plans to address. It is board-wide, not a description of a particular school building; ask the school about specific needs. Feedback goes to the board by phone or email.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-welcome",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "The Grand Welcome Centre",
+      "url": "https://granderie.ca/programs-services/welcome-centre",
+      "summary": "Newcomer and multilingual families book an appointment first. The Centre assesses English level, recommends a program, explains the Ontario school system and books the school registration appointment. It serves Kindergarten to Grade 12 students new to Canada, and some others, such as students whose first language is not English; it is in Brantford.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long-Term Accommodation Plan 2025-30 (PDF)",
+      "url": "https://granderie.ca/docs/default-source/publications/granderiedistrictschoolboardltap2025v31-compressed.pdf?sfvrsn=947c121c_1",
+      "source_date": "September 2025",
+      "summary": "The board's five-year plan for school space: 14 elementary and 4 secondary planning areas with capacity, enrolment, projections and proposed projects. Figures include forecasts, and capacity is building space, not open seats. The plan says accommodation reviews have been on hold since 2017 because of the provincial moratorium.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan 2025-26 (PDF)",
+      "url": "https://granderie.ca/docs/default-source/publications/student-achievement-plan-2025-26.pdf?sfvrsn=e982d7eb_16",
+      "source_date": "2025-26",
+      "related": [
+        {
+          "title": "Annual Learning and Operating Plan",
+          "url": "https://granderie.ca/board/alop"
+        }
+      ],
+      "summary": "The board's plan under Ontario's student achievement framework: literacy (EQAO, the OSSLT), graduation and credits, and engagement and well-being. It shows board results and points to the Annual Learning and Operating Plan for actions. These are board-wide figures, not this school's.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Grand Erie Parent Involvement Committee",
+      "url": "https://granderie.ca/family-resources/grand-erie-parent-involvement-committee",
+      "summary": "A parent and caregiver advisory body linking families with trustees and the Director. Its 2026-27 meetings are virtual on Teams and listed on the page; interested parents contact the committee chair by email.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "School Councils",
+      "url": "https://granderie.ca/family-resources/school-councils",
+      "summary": "Each school has a parent-led school council. The page offers a School Council Guide and tip sheets, and a school council orientation on October 19, 2026. It does not describe how to join; ask your school or the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "gedsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://granderie.ca/family-resources/student-and-family-support-office",
+      "related": [
+        {
+          "title": "Board of Trustees",
+          "url": "https://granderie.ca/board/board-of-trustees"
+        }
+      ],
+      "summary": "Start with your child's teacher, then the principal, then the Student and Family Support Office if it is still unresolved. The office says it acknowledges inquiries within 2 business days and aims to answer within 5. The page does not describe superintendent or trustee steps.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "Elementary French Immersion Program",
+      "url": "https://granderie.ca/elementary/elementary-french-immersion-program",
+      "verified": "2026-11-26",
+      "schools": {
+        "145602": "Lakewood Elementary School (Port Dover)",
+        "151130": "Dufferin Public School (board writes École Dufferin) (Brantford)",
+        "192880": "Confederation Elementary School (board writes École Confédération) (Brantford)",
+        "485306": "River Heights School (Caledonia)",
+        "586110": "Walsh Public School (Simcoe)",
+        "070254": "Burford District Elementary School (Burford)"
+      }
+    },
+    {
+      "program": "french-immersion",
+      "title": "Secondary French Immersion Programs",
+      "url": "https://granderie.ca/secondary/secondary-french-immersion-programs",
+      "verified": "2026-11-26",
+      "schools": {
+        "896187": "Brantford Collegiate Institute and Vocational School (Brantford)",
+        "898007": "McKinnon Park Secondary School (Caledonia)",
+        "941557": "Simcoe Composite School (Simcoe)"
+      }
+    }
+  ]
+}

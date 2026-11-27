@@ -1,0 +1,138 @@
+{
+  "board": "B80012",
+  "name": "Bloorview School Authority",
+  "short": "Bloorview School",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "bloorview-admit",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Admissions",
+      "url": "https://bloorviewschool.ca/admissions",
+      "summary": "Bloorview School is on the Holland Bloorview hospital campus and takes children by application, not address. The Integrated Education and Therapy program is for Kindergarten and Grade 1 children with a primary physical disability and complex needs who are Toronto residents and Holland Bloorview clients, or York Region residents and Children's Treatment Network clients. A referring professional sends the IET form and consents to registration@bloorviewschool.ca, then two short videos follow. For September 2027, forms are due January 15, 2027 and videos January 27, 2027; families hear in April.",
+      "related": [
+        {
+          "title": "Frequently Asked Questions",
+          "url": "https://bloorviewschool.ca/faq"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bloorview-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Plan 2026 (PDF)",
+      "url": "https://bloorviewschool.ca/vendor/ckuploads/files/SPECIAL%20EDUCATION%20PLAN%202026%20(June%2016%2C%202026)(2).pdf",
+      "summary": "The plan explains the school's model: a Kindergarten and Grade 1 early-intervention program plus classes for hospital patients with stays averaging about 64 days. The IPRC process is not used there; the child's home school board holds the IPRC. Every student has an IEP, and a transition liaison teacher helps families return to a community school, including those not offered a place.",
+      "source_date": "June 16, 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bloorview-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Council (and Special Education Plan consultation)",
+      "url": "https://bloorviewschool.ca/school-council",
+      "summary": "As a Section 68 school Bloorview has no Special Education Advisory Committee; its special education plan cites a regulation exemption. Its School Advisory Council is consulted on the annual review of the Special Education Plan, and its council page says the council advises the principal on the plan and on transition to the local school system.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026 (PDF)",
+          "url": "https://bloorviewschool.ca/vendor/ckuploads/files/SPECIAL%20EDUCATION%20PLAN%202026%20(June%2016%2C%202026)(2).pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bloorview-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Council",
+      "url": "https://bloorviewschool.ca/school-council",
+      "summary": "The School Council was set up in 1996 and has parents, community representatives and staff. It works with the principal and the authority on communication with families, educational concerns and family participation. Meetings may be virtual.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bloorview-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Policies & Planning (Multi-Year Accessibility Plan)",
+      "url": "https://bloorviewschool.ca/policies-planning",
+      "summary": "The policies page links the Multi-Year Accessibility Plan (it covers December 2012 to December 2025, reviewed in 2022) and an accessibility compliance report, plus the accessibility standards policy. No newer plan was posted when checked.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2012-2025 (PDF)",
+          "url": "https://bloorviewschool.ca/vendor/ckuploads/files/BSA%20Multi-Year%20Accessibility%20Plan%202021-2025%20-%20Reviewed%20April%202022%20(3).pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bloorview-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Frequently Asked Questions (transportation)",
+      "url": "https://bloorviewschool.ca/faq",
+      "summary": "Busing is provided at no cost for eligible students. Students in the Integrated Education and Therapy program must live in Toronto or York Region and transport is arranged at registration; hospital-classroom students who live in Toronto and York Region also get busing. The page gives no ride times, so ask the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bloorview-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "PCE 004 Expressions of Concern (PDF)",
+      "url": "https://bloorviewschool.ca/vendor/ckuploads/files/PCE_004%20-%20Expressions%20of%20Concern%20-%20Oct%202026.pdf",
+      "summary": "Concerns are handled as close to the issue as possible, starting with the teacher or principal, who acknowledge it, say when to expect a follow-up and report the resolution. Anonymous complaints are not addressed. A Student and Family Support Office, supervised by the Chief Executive Officer, helps with concerns not resolved at the school.",
+      "source_date": "Revised October 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "bloorview-plan",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Strategic Plan",
+      "url": "https://bloorviewschool.ca/strategic-plan",
+      "summary": "The authority's strategic plan, Building on Excellence - Innovating Forward, covers 2023 to 2028 and focuses on teaching, therapy and transition support. It is a multi-year strategic plan, not a test-score achievement plan.",
+      "related": [
+        {
+          "title": "Strategic Plan 2023-2028 (PDF)",
+          "url": "https://bloorviewschool.ca/vendor/ckuploads/files/Bloorview%20Strategic%20Plan_Building%20on%20Excellence%20-%20Innovating%20Forward(1).pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

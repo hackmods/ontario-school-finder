@@ -1,0 +1,360 @@
+{
+  "board": "B67024",
+  "name": "Windsor-Essex Catholic District School Board",
+  "short": "WECDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "wecdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register your child",
+      "url": "https://www.wecdsb.on.ca/schools/register",
+      "summary": "Only students new to the board need to register; current WECDSB students who want another WECDSB school should contact their school. For Grades 1 to 8 you can register online (an Aspen account is needed) or ask a school for a registration package. You need proof of age, a Roman Catholic baptismal certificate for the child or a parent, immunization records, proof of citizenship or status and proof of address.",
+      "related": [
+        {
+          "title": "Grades 1-8",
+          "url": "https://www.wecdsb.on.ca/schools/register/1-8"
+        },
+        {
+          "title": "Grades 9-12",
+          "url": "https://www.wecdsb.on.ca/schools/register/9-12"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-admission",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student Admission - Elementary and Secondary (policy ST:01, PDF)",
+      "url": "https://www.wecdsb.on.ca/common/pages/DownloadFileByUrl.aspx?key=ua9IANHkj9KDKNKBYpo8xJdJ8iwi3AaTi7myRNHcwiHa7lD4H7sNg%2bGYBZBvgbIPGLi0FYTbWCCYI%2bj8t81WR6wBe%2bHLLZiOmwae4JXVAfd%2b7MHfcB9%2bwGehWYBDWf%2b3v6cOtR5JSNOiMDFp2rG8zBOlyMWcaJ5GI7Es7k8IG9zSujTzGvfy7Ema1KbZSmAc78xZCVu6QT%2bAFPEGno%2blmYcFspL4TOje4azfGAFMo3Oc3pmI3nHdK9CcqKfUq5CPkpK78yVZUarLaFLkW6E%2f%2bghnilaI1vtg1WjHg2z5D%2fak28jz",
+      "summary": "A student has the right to attend a WECDSB school if the child or one parent or guardian is baptised Roman Catholic, with Catholic school tax support, age and residency requirements. At the secondary level the board says non-Catholic students may choose a Catholic secondary school. Non-Catholic elementary families may attend with approval through the Director's office and take part in religion classes and school religious activities.",
+      "source_date": "Review date 2028-2029; amended Feb. 27, 2024",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten 2026-2027",
+      "url": "https://www.wecdsb.on.ca/schools/register/kindergarten_2026-2027",
+      "summary": "For 2026-27 a child must be 4 by December 31, 2026 for Junior Kindergarten and 5 by that date for Senior Kindergarten. The board offers full-day kindergarten at all its schools; call your local Catholic school for its registration dates and times. The board's kindergarten page says registration takes place each year in February. Children already in JK do not re-register for SK.",
+      "related": [
+        {
+          "title": "Kindergarten program",
+          "url": "https://www.wecdsb.on.ca/programs/kindergarten"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which school should I attend?",
+      "url": "https://www.wecdsb.on.ca/schools/which_school_should_i_attend_",
+      "summary": "The board sends you to the Windsor-Essex Student Transportation Services (WESTS) tool, where you enter a street address to see the designated Catholic school; the board says a student's home school is set by residential address. Contact the board if the result seems wrong.",
+      "related": [
+        {
+          "title": "WESTS: Which School do I Attend?",
+          "url": "https://geoquery.buskids.ca/Eligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "program": "french-immersion",
+      "lifecycle": "dates",
+      "title": "French Immersion",
+      "url": "https://www.wecdsb.on.ca/programs/french_immersion",
+      "facts": {
+        "entry_grades": [
+          "JK"
+        ],
+        "single_entry": true
+      },
+      "summary": "WECDSB French Immersion begins in Junior Kindergarten; the board names nine elementary schools that offer it from JK and says designated school pathways continue to Grade 12. The page does not describe a Grade 1 or later entry, a registration window or a lottery or waitlist; ask your local immersion school. Transportation follows board policy, with pickup at central stops.",
+      "related": [
+        {
+          "title": "French Immersion contact",
+          "url": "https://www.wecdsb.on.ca/programs/french_immersion/contact_us"
+        },
+        {
+          "title": "Transportation policies (WESTS)",
+          "url": "https://buskids.ca/wests-policies/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "program": "french-immersion",
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.wecdsb.on.ca/programs/french_immersion",
+      "summary": "French Immersion continues in Grades 9 to 12 at five Catholic secondary schools: Cardinal Carter, Holy Names, St. Anne, St. Joseph's and St. Thomas of Villanova. Students who finish four French courses and at least six other subjects taught in French (10 credits) earn a Certificate of Bilingual Studies in French Immersion.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-ef",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "program": "extended-french",
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.wecdsb.on.ca/programs/french_immersion",
+      "summary": "We found no Extended French program on the board's program pages, only French Immersion. Ask the board's curriculum consultant, Modern Languages and Arts, at (519) 253-2481 ext. 1114 if you want to know about other French programs.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-out-of-boundary",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Out of Boundary Requests",
+      "url": "https://www.wecdsb.on.ca/schools/for_parents/out_of_boundary_requests",
+      "summary": "To attend a Catholic school other than your designated one, ask under procedure ST:01A. For elementary, first contact your home school's principal, who consults the other principal; secondary families submit a request form. Requests are considered in order of application and depend on school capacity and program. The board's page gives a deadline of March 5, 2027 for 2027-28. Out-of-boundary students get no transportation.",
+      "related": [
+        {
+          "title": "Procedure ST:01A (PDF)",
+          "url": "https://www.wecdsb.on.ca/common/pages/GetFile.ashx?key=tzBsBiTJ"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation & Eligibility Policy E-01 (PDF)",
+      "url": "https://buskids.ca/wp-content/uploads/2024/10/E-01-Transportation-Eligibility-Policy-BK.pdf",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 1,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Buses are run by Windsor-Essex Student Transportation Services (WESTS), a consortium of the four boards in the region. Under WESTS policy E-01 (March 2024), a student may be eligible beyond 1.0 km (JK and SK), 1.6 km (Grades 1 to 8) or 3.2 km (secondary) from the designated school. Students out of boundary are not eligible, and courtesy rides depend on a free seat.",
+      "related": [
+        {
+          "title": "Transportation (WECDSB)",
+          "url": "https://www.wecdsb.on.ca/schools/transportation"
+        },
+        {
+          "title": "Courtesy Ride Policy E-05 (PDF)",
+          "url": "https://buskids.ca/wp-content/uploads/2024/05/E-05-Courtesy-Ride-Policy.pdf"
+        },
+        {
+          "title": "Walk Distance to Bus Stop SD-01 (PDF)",
+          "url": "https://buskids.ca/wp-content/uploads/2024/05/SD-01-Walk-Distance.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.wecdsb.on.ca/programs/special_education",
+      "summary": "The board's Special Education Plan 2026 is posted from this page, with its philosophy of inclusion in the regular classroom and contacts in the special education department. The plan explains early identification and the Identification, Placement and Review Committee (IPRC) process that identifies exceptional students and decides their placement. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026 (PDF)",
+          "url": "https://www.wecdsb.on.ca/common/pages/GetFile.ashx?key=ZxeSBgru"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.wecdsb.on.ca/programs/special_education/special_education_advisory_committee",
+      "summary": "This page lists the board's SEAC members for 2022-2026 and the role of a SEAC representative, with contacts for the superintendent and the learning support executive assistant. It does not give meeting dates or how the public can attend; ask the board office at (519) 253-2481.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility at the WECDSB",
+      "url": "https://www.wecdsb.on.ca/about/accessibility",
+      "summary": "The board posts its Multi-Year Accessibility Plan 2023-2027 and an annual status report, along with its accessibility policies for customer service and integrated accessibility standards. Requests for documents in another format go to the Manager of Human Resources and Policy Development or any school principal.",
+      "related": [
+        {
+          "title": "Accessibility Multi-Year Plan 2023-2027 (PDF)",
+          "url": "https://www.wecdsb.on.ca/UserFiles/Servers/Server_58369/File/About/Departments/WECDSB%20Accessibility%20Plan%202023-2027.pdf"
+        }
+      ],
+      "source_date": "2023-2027",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "English as a Second Language",
+      "url": "https://www.wecdsb.on.ca/programs/esl",
+      "summary": "The board says it can assess the language level of elementary and secondary students and adults and place them in a program, with ESL and ELD courses in secondary schools, ESL support teachers and settlement workers in schools. To register, call the Manager of Newcomer Services at (519) 253-2481 ext. 1503. No separate assessment centre is described.",
+      "related": [
+        {
+          "title": "Register your child",
+          "url": "https://www.wecdsb.on.ca/schools/register"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Community Planning and Facility Partnerships",
+      "url": "https://www.wecdsb.on.ca/schools/community_use_of_schools/community_planning_and_facility_partnerships",
+      "summary": "We found no long-term accommodation plan, capacity table or current pupil accommodation review on the board's site. This page covers community partnerships and says consultation happens each year or before a Pupil Accommodation Review or a new school. Projections are forecasts and capacity is building space, not open seats. Ask the board about boundary or school plans.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Better Schools and Student Outcomes Act",
+      "url": "https://www.wecdsb.on.ca/schools/betterschools",
+      "summary": "The board posts its Student Achievement Plan on this page, as the Better Schools and Student Outcomes Act requires. It includes EQAO results, measures of preparedness, engagement and well-being, and planned actions for the next three years, and is revisited each year. The plan document loads in a viewer, so we could not read it; the board's priorities for 2025-2029 are linked on its mission page.",
+      "related": [
+        {
+          "title": "Strategic Directions and System Priorities 2025-2029",
+          "url": "https://www.wecdsb.on.ca/common/pages/GetFile.ashx?key=Dp2SBmNk"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.wecdsb.on.ca/schools/for_parents/pic",
+      "summary": "The Parent Involvement Committee is a formal advisory body linking parents with the Director of Education and trustees. It supports school councils and offers advice on parent engagement. Parents can attend a PIC meeting or its events; the page does not give dates or say how to apply as a member. Ask your school about its own school council.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wecdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student and Family Support Office",
+      "url": "https://www.wecdsb.on.ca/about/studentfamilysupportoffice",
+      "summary": "Speak first to the teacher, then the principal, then your school superintendent. If it is not resolved, fill in the inquiry form for the Student and Family Support Office, which says it acknowledges inquiries within 2 business days and aims to answer within 5. Include your name, your child's name and school, and what you have already tried.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion",
+      "url": "https://www.wecdsb.on.ca/programs/french_immersion",
+      "verified": "2026-11-26",
+      "schools": {
+        "694452": "Cardinal Carter Catholic Secondary School (Leamington)",
+        "697168": "Christ the King French Immersion Catholic Elementary School (Windsor)",
+        "715824": "Holy Names Catholic High School (Windsor)",
+        "736163": "St. Joseph's Catholic High School (Windsor)",
+        "757616": "Sacred Heart Catholic Elementary School (with French Immersion) (Lasalle)",
+        "771392": "St. Anne French Immersion Catholic Elementary School (Windsor)",
+        "771520": "St. Anne Catholic High School (Belle River)",
+        "802859": "St. John the Baptist Catholic Elementary School (with French Immersion) (Belle River)",
+        "806188": "St. Joseph Catholic Elementary School (with French Immersion) (River Canard)",
+        "819492": "St. Louis Catholic Elementary School (with French Immersion) (Leamington)",
+        "825964": "St. Mary French Immersion Catholic Elementary School (Maidstone)",
+        "839397": "St. André French Immersion Catholic Elementary School (Tecumseh)",
+        "848914": "Cardinal Carter Catholic Middle School (with French Immersion) (Leamington)",
+        "864170": "St. Thomas of Villanova Catholic Secondary School (Lasalle)"
+      }
+    }
+  ]
+}

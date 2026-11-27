@@ -1,0 +1,355 @@
+{
+  "board": "B28037",
+  "name": "Near North District School Board",
+  "short": "Near North DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Registration",
+      "url": "https://www.nearnorthschools.ca/schools/registration/",
+      "summary": "Find your zoned school with the transportation consortium locator, then submit the board's registration form (fillable PDF by email, paper drop-off, or an appointment by phone or in person) with the transportation form and supporting documents; the school contacts you. For September 2026 a child must turn 4 (JK) or 5 (SK) by December 31, 2026. Immunization records go to the health unit.",
+      "related": [
+        {
+          "title": "Kindergarten",
+          "url": "https://www.nearnorthschools.ca/schools/kindergarten/"
+        },
+        {
+          "title": "Student Registration administrative guideline (PDF)",
+          "url": "https://www.nearnorthschools.ca/wp-content/uploads/2025/09/Student-Registration-AG-May-2025.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Eligibility Query School Locator",
+      "url": "https://geoquery.npssts.ca/Eligibility.aspx?Page=School",
+      "summary": "The board's registration page tells families to find their zoned school with this tool run by the Nipissing-Parry Sound transportation consortium, before completing the registration package. A separate version of the lookup checks transportation eligibility.",
+      "related": [
+        {
+          "title": "District Map",
+          "url": "https://www.nearnorthschools.ca/board/district-map/"
+        },
+        {
+          "title": "Find a School",
+          "url": "https://www.nearnorthschools.ca/school-directory/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.nearnorthschools.ca/programs/fsl/",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "K"
+        ]
+      },
+      "summary": "French Immersion is offered from kindergarten: families choose the English or French Immersion kindergarten program when they register, and about 90 percent of the kindergarten day is in French. French falls to about 75 percent in Grades 3 and 4 and about 50 percent in Grades 5 to 8. Elementary Immersion is at four schools. The pages read give no separate application window, lottery or waitlist.",
+      "related": [
+        {
+          "title": "Kindergarten",
+          "url": "https://www.nearnorthschools.ca/schools/kindergarten/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.nearnorthschools.ca/programs/fsl/",
+      "summary": "Immersion continues at Chippewa, F.J. McElligott and West Ferris secondary schools. To earn the French Immersion certificate, a student takes at least four Immersion courses plus six other courses taught in French."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-ef",
+      "topic": "program",
+      "program": "extended-french",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Extended French",
+      "url": "https://www.nearnorthschools.ca/programs/fsl/extended-french/",
+      "facts": {
+        "entry_grades": [
+          "5"
+        ]
+      },
+      "summary": "Extended French starts at the beginning of Grade 5 and runs through Grade 12. The board offers it at four elementary and four secondary schools, and says it accepts registrations through its online registration process. The page gives no transportation details.",
+      "related": [
+        {
+          "title": "School Registration",
+          "url": "https://www.nearnorthschools.ca/schools/registration/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Out of Zone School Attendance (administrative guideline, PDF)",
+      "url": "https://www.nearnorthschools.ca/wp-content/uploads/2021/04/Administrative_Guideline_Out_of_Zone_Final.pdf",
+      "source_date": "Effective March 10, 2018",
+      "summary": "Students are expected to attend their home zoned school. A request for another school is considered only if space is available and there is no extra staffing, transportation or facility cost. Apply to the principal by May 15 for the next school year; approval lasts one year and decisions are normally made in June. Parents arrange transportation unless a seat is free on an existing route."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation Eligibility (NPSSTS)",
+      "url": "https://npssts.ca/eligibility",
+      "facts": {
+        "walk_km": {
+          "Grades 1 to 3": 1,
+          "Grades 4 to 8": 1.6,
+          "Secondary": 3
+        }
+      },
+      "summary": "Nipissing-Parry Sound Student Transportation Services runs the buses. The consortium lists a 0 km walking distance for Junior and Senior Kindergarten, so they qualify for a bus from anywhere inside their school's boundary or program area. Walking limits are 1.0 km for Grades 1 to 3, 1.6 km for Grades 4 to 8 and 3.0 km for secondary. Students are carried from one address to school and back to one address. A 2014 board motion says elementary students at a school outside their zone get no transportation unless it costs the board nothing, except for programs or special education.",
+      "related": [
+        {
+          "title": "Board transportation page",
+          "url": "https://www.nearnorthschools.ca/parents/transportation/"
+        },
+        {
+          "title": "Transportation policy changes (PDF)",
+          "url": "https://www.nearnorthschools.ca/wp-content/uploads/2017/05/Policy-Changes.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.nearnorthschools.ca/parents/special-education/",
+      "summary": "The board's special education page links its 2026-2027 Special Education Plan and a Parent Guide updated June 2026, plus contacts for the superintendent, principal and coordinators. The page itself does not explain IEPs and IPRCs; the guide is the place to look.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.nearnorthschools.ca/wp-content/uploads/2026/07/Special-Education-Plan-2026-2027-Final.pdf"
+        },
+        {
+          "title": "Parent Guide, June 2026 (PDF)",
+          "url": "https://www.nearnorthschools.ca/wp-content/uploads/2026/07/Parent-Guide-Revised-Version-June-2026.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Board and Trustee Committee Meetings",
+      "url": "https://www.nearnorthschools.ca/board/board-and-trustee-committee-meetings/",
+      "summary": "SEAC is listed on the board's committee meetings page, with 2026-27 meetings held from 1:00 to 3:00 p.m. (September 23 to June 9), agendas and minutes, and a membership list. The page does not describe SEAC's role or how to attend; ask the board.",
+      "related": [
+        {
+          "title": "SEAC membership list 2026-27 (PDF)",
+          "url": "https://www.nearnorthschools.ca/wp-content/uploads/2026/10/SEAC-Membership-List-2026-27-2.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility Standards for Customer Service",
+      "url": "https://www.nearnorthschools.ca/board/accessibility-standards-for-customer-service/",
+      "summary": "The board's 2023-2028 Multi-Year Accessibility Plan is linked from this page, which says the plan is currently under review. It describes board-wide commitments, not a particular school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2023-2028 (PDF)",
+          "url": "https://www.nearnorthschools.ca/wp-content/uploads/2023/11/2023-2028-Multi-Year-Accessibility-Plan.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "English as a Second Language",
+      "url": "https://www.nearnorthschools.ca/programs/english-as-a-second-language/",
+      "summary": "Newcomer families register at their local school, then talk to the principal about the child's language needs and bring proof of age, address and immunization, plus school records if available. The child then takes an initial assessment of English and math. The page does not describe a separate reception centre.",
+      "related": [
+        {
+          "title": "School Registration",
+          "url": "https://www.nearnorthschools.ca/schools/registration/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-capital",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Capital Planning",
+      "url": "https://www.nearnorthschools.ca/community/capital-planning/",
+      "source_date": "Updated Capital Plan approved February 25, 2020",
+      "summary": "The board's Capital Plan (approved 2016, revised February 2020) gives enrolment, capacity and condition by area. It is older, its projections are forecasts, and capacity is building space, not open seats. The page says new accommodation reviews wait for the Ministry's revised review guideline and the end of the moratorium.",
+      "related": [
+        {
+          "title": "Capital Plan (PDF)",
+          "url": "https://www.nearnorthschools.ca/wp-content/uploads/2020/02/Capital-Plan-2020.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan: Near North DSB 2024-2025 (PDF)",
+      "url": "https://www.nearnorthschools.ca/wp-content/uploads/2026/04/B28037_Near-North-DSB_Template_2024-25.pdf",
+      "summary": "The board's Student Achievement Plan for 2024-25 sets goals for literacy, graduation and readiness for future success, and student engagement and well-being, with its results beside provincial figures. The board's 2021-2026 Multi-Year Strategic Plan is on its strategic plan page.",
+      "related": [
+        {
+          "title": "Multi-Year Strategic Plan",
+          "url": "https://www.nearnorthschools.ca/multi-year-strategic-plan/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.nearnorthschools.ca/parent-involvement-committee/",
+      "summary": "The Parent Involvement Committee connects parents with the board and works with each school's advisory (school) council. Meetings run 6:00 to 7:30 p.m. and are open to everyone, with online attendance; 2026-27 dates are on the page. A school council is the way to apply for Parents Reaching Out grants. The page does not say how to join a council."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "nndsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Public Inquiries (administrative guideline, PDF)",
+      "url": "https://www.nearnorthschools.ca/wp-content/uploads/2017/04/public-inquires.pdf",
+      "source_date": "Revised August 31, 2015",
+      "summary": "Raise a school matter in order: the classroom teacher, then the principal, then the school superintendent, then the Director of Education, then your local trustee. After that, a parent may ask to present to the trustees at a regular board meeting. Parents may bring a representative to meetings with staff."
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion",
+      "url": "https://www.nearnorthschools.ca/programs/fsl/",
+      "verified": "2026-11-26",
+      "schools": {
+        "266063": "Alliance French Immersion Public School (North Bay)",
+        "348732": "Mattawa District Public School (Mattawa)",
+        "420428": "Parry Sound Public School (Parry Sound)",
+        "543993": "Sunset Park Public School (North Bay)",
+        "901385": "Chippewa Secondary School (North Bay)",
+        "925179": "F J McElligott Secondary School (Mattawa)",
+        "951463": "West Ferris Secondary School (North Bay)"
+      }
+    },
+    {
+      "program": "extended-french",
+      "title": "Extended French",
+      "url": "https://www.nearnorthschools.ca/programs/fsl/extended-french/",
+      "verified": "2026-11-26",
+      "schools": {
+        "328592": "Maple View Public School (North Bay)",
+        "420428": "Parry Sound Public School (Parry Sound)",
+        "536326": "White Woods Public School (Sturgeon Falls)",
+        "934275": "Parry Sound High School (Parry Sound)",
+        "943630": "Almaguin Highlands Secondary School (South River)",
+        "946109": "Northern Secondary School (Sturgeon Falls)",
+        "951463": "West Ferris Secondary School (North Bay)",
+        "070246": "Land of Lakes Public School (Burk's Falls)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "board": "B67318",
+  "name": "Conseil scolaire catholique MonAvenir",
+  "short": "CSC MonAvenir",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "monavenir-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription élémentaire",
+      "url": "https://cscmonavenir.ca/inscription-elementaire/",
+      "summary": "Find your school with the attendance-zone tool, then register in the Aspen portal on a computer (not a phone or tablet). The admissions team then contacts you, and the school finishes registration and collects documents: birth certificate, baptism certificate if applicable, immunization record, proof of residence, IMM form and passport if applicable, and the latest report card. Registration is accepted year-round. Children must be 4 (maternelle) or 5 (jardin d'enfants) by December 31.",
+      "related": [
+        {
+          "title": "Inscription",
+          "url": "https://cscmonavenir.ca/inscriptions/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-register-secondary",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription secondaire",
+      "url": "https://cscmonavenir.ca/inscription-secondaire/",
+      "summary": "Find your school with the attendance-zone tool, then register in the Aspen portal on a computer; the school contacts you afterward to finish. Documents include the birth certificate, immunization record, proof of residence, IMM form and passport if applicable, and the latest report card. Applications are accepted any time of year. Students of all faiths may be admitted if they accept the school's Catholic character and take the required religious courses.",
+      "related": [
+        {
+          "title": "Inscription",
+          "url": "https://cscmonavenir.ca/inscriptions/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-admission",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription élémentaire (admission)",
+      "url": "https://cscmonavenir.ca/inscription-elementaire/",
+      "summary": "Children of section 23 rights holders are admitted (a Canadian citizen parent whose first language is French, who was schooled in French, or whose child is or was in French-language school). If neither parent qualifies, an admission committee decides, weighing the family's ability to communicate in French. Elementary families must also show a Catholic baptism (child or parent) or go through a formal process, and be school taxpayers of the board or file the MPAC redirect form.",
+      "related": [
+        {
+          "title": "Admission policy ÉLV.1 (PDF)",
+          "url": "https://cscmonavenir.ca/publications/politiques/ELV.1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Nos écoles (recherche par secteur de fréquentation scolaire)",
+      "url": "https://cscmonavenir.ca/ecole/",
+      "summary": "Enter your full civic address in the search on the Nos écoles page to find the school for your area. Some addresses, especially in new developments or plazas, may not be detected. If so, email your full address with postal code to the planning office or call 1-800-274-3764, ext. 73625. Families who choose another school arrange transportation themselves.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-fsl-not-found",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Actualisation linguistique en francais 1 (cours)",
+      "url": "https://cscmonavenir.ca/cours/ffabo_actualisation-linguistique-en-francais-1/",
+      "summary": "French-language board, so there is no French Immersion. The board's course catalogue lists four levels of French language upgrading (actualisation linguistique en francais, ALF 1 to 4) for students learning French; level 1 is for beginners and has no prerequisite. The course pages do not say which schools offer them or how to enrol, so ask your school. The newcomer page describes settlement workers rather than language classes.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Demande de fréquentation scolaire hors secteur (ÉLV.1.3, PDF)",
+      "url": "https://cscmonavenir.ca/publications/politiques/ELV.1.3.pdf",
+      "source_date": "Révisée le 19 mars 2018",
+      "summary": "Meet the principal of the school you want, explain your reasons and give that principal the board's out-of-area admission form; the principal of your area school must also sign it. If approved, you provide transportation for as long as the child attends, though you may ask the consortium each year for a courtesy seat if one is available. The directive gives no deadline.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport scolaire",
+      "url": "https://cscmonavenir.ca/services/transport-scolaire/",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.8,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Transport is generally offered to students who live farther than 0.8 km (maternelle and jardin), 1.6 km (Grades 1 to 8) or 3.2 km (secondary) from their school; in some regions the English partner board's distances apply. Francobus runs most regions, with other consortia in Peterborough, Brant-Haldimand-Norfolk and Upper Grand. Families registering outside their attendance area arrange their own transport; the board has an out-of-area request form.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Service de l'éducation spécialisée",
+      "url": "https://cscmonavenir.ca/service-education-specialisee/",
+      "summary": "The page links the board's 2026-2027 Special Education Plan (which covers the CIPR, the IPRC committee, and individual education plans), annual reports and a guide to programs and services. Contact the service at 416-397-6564 or 1-800-274-3764. Start with your child's teacher and principal about needs at school.",
+      "related": [
+        {
+          "title": "Plan de l'éducation spécialisée 2026-2027 (PDF)",
+          "url": "https://cscmonavenir.ca/wp-content/uploads/2026/10/Plan-ES-complet-2026-CONSEIL-FINALE-REV-19-OCT-2026.pdf"
+        },
+        {
+          "title": "Guide des programmes et services en éducation spécialisée 2025-2026 (PDF)",
+          "url": "https://cscmonavenir.ca/wp-content/uploads/2026/05/Guide-des-programmes-et-services-en-ES-2025-2026.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Comité consultatif de l'éducation spécialisée",
+      "url": "https://cscmonavenir.ca/comite-consultatif-de-leducation-en-specialisee/",
+      "summary": "The committee advises the board on special education programs and services. It has 12 members (three trustees and nine from community groups), meets on the third Wednesday of each month, and posts minutes and presentations by school year. The board was seeking candidates for a term ending in November 2030; nomination forms are on the page.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibilité (plan pluriannuel d'accessibilité 2018)",
+      "url": "https://cscmonavenir.ca/accessibilite/",
+      "summary": "The board's multi-year accessibility plan is titled 2018. It covers how the board removes barriers in customer service, information and communications, employment and school transportation, and lists building access results for its schools. The page names a contact for accessibility questions and accessible formats.",
+      "related": [
+        {
+          "title": "Plan pluriannuel d'accessibilité 2018 (PDF)",
+          "url": "https://cscmonavenir.ca/wp-content/uploads/2024/10/Plan-pluriannuel-accessibilite-2018.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-newcomer",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Services d'accueil et d'intégration des nouveaux arrivants",
+      "url": "https://cscmonavenir.ca/services-daccueil-et-dintegration-des-nouveaux-arrivants/",
+      "summary": "Settlement workers in schools, funded by Immigration, Refugees and Citizenship Canada, meet families and students, explain the Ontario school system, run parent workshops and refer families to community services. The page lists workers by region and partner agencies for Toronto, Hamilton-Niagara and Durham. It does not describe a reception or assessment centre.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Projets de construction",
+      "url": "https://cscmonavenir.ca/projets-de-construction/",
+      "summary": "Lists the board's construction projects, and attendance-area reviews planned for Brampton, Cobourg, Brooklin and Durham Est, with an information session after each. The page is dated September 4, 2026 but most project notes end in 2025, so check dates with the board. Schedules are forecasts and capacity is building space, not open seats. No approved boundary change is listed.",
+      "related": [
+        {
+          "title": "Rapport d'avancement des projets de construction, juin 2025 (PDF)",
+          "url": "https://cscmonavenir.ca/wp-content/uploads/2025/06/2025_JUIN_Rapport_Avancement_des_projets_de_construction_F.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plan pour la réussite des élèves (PDF)",
+      "url": "https://cscmonavenir.ca/wp-content/uploads/2026/04/B67318_CS%20catholique%20MonAvenir_Gabarit%20public.pdf",
+      "source_date": "Année scolaire 2024-2025",
+      "summary": "The board's public student achievement plan for 2024-2025. It reports results against the provincial average for literacy and math tests, high school graduation and credits, skilled-trades programs, suspensions, attendance and student well-being. Its strategic plan, Horizon 2027, covers 2022 to 2027.",
+      "related": [
+        {
+          "title": "Plan stratégique Horizon 2027",
+          "url": "https://cscmonavenir.ca/horizon-2027/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-cpp",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Comité de participation des parents",
+      "url": "https://cscmonavenir.ca/comite-de-participation-des-parents/",
+      "summary": "The parent involvement committee advises the board on parent engagement and supports school councils. It includes one to three parents from each family of schools and one to three community members. The page had an open call for members with a recruitment letter dated September 17, 2026. It gives no meeting schedule; archives of past meetings are posted.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "monavenir-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Bureau d'assistance aux élèves et aux familles (BAÉF)",
+      "url": "https://cscmonavenir.ca/bureau-dassistance-eleves-et-familles/",
+      "summary": "Start with the classroom teacher, then the principal, then the superintendent of education. If that does not settle it, the assistance office can take the file; it sends you back to the school and superintendent first if you have not tried them. Phone 1-833-626-9640 or use the online form. Human rights concerns follow a separate form, and the page gives no response times.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

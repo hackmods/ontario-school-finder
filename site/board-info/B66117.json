@@ -1,0 +1,410 @@
+{
+  "board": "B66117",
+  "name": "Upper Grand District School Board",
+  "short": "Upper Grand DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "ugdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Admission and Registration",
+      "url": "https://www.ugdsb.ca/page/admission-and-registration",
+      "summary": "New students complete the board's online registration form, then the school verifies documents in person: proof of age, proof of address, immigration documents if born outside Canada, and custody papers if they apply. Kindergarten registration for 2027-28 opens January 5, 2027 at 7 am; children born in 2023 may attend JK and in 2022 SK. Immunization records go to public health, not the school. Moving within the board uses a separate form.",
+      "source_date": "Page lists 2026-27 and 2027-28 dates",
+      "related": [
+        {
+          "title": "Kindergarten Registration",
+          "url": "https://www.ugdsb.ca/page/kindergarten-registration"
+        },
+        {
+          "title": "School directory",
+          "url": "https://www.ugdsb.ca/page/school-directory"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Locator",
+      "url": "https://www.ugdsb.ca/page/school-locator",
+      "summary": "The board's own School Locator: start typing your address and pick it from the suggestions to see the school that serves it. The board says boundaries can change and it cannot guarantee the map is exact; questions go to the Planning Department. PDF boundary maps for each school are also posted.",
+      "related": [
+        {
+          "title": "Boundaries and Maps",
+          "url": "https://www.ugdsb.ca/page/boundaries-and-maps"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-fi-jk",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion Information and Application Process",
+      "url": "https://www.ugdsb.ca/page/french-immersion-information-and-application-process",
+      "summary": "Junior Kindergarten is the only entry point for new French Immersion students (since September 2017); French is the only language of instruction from JK to Grade 2. Apply at your designated Immersion school during January: for 2027-28 the window runs January 5 (7 am) to January 29, 2027 (4 pm). Each school has an enrolment cap; if on-time applications exceed it, a random draw is held (siblings in the program in-area first), and a waitlist follows. Late applications are first-come, first-served. Families offered a spot at another Immersion school get no transportation to it.",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "JK"
+        ]
+      },
+      "related": [
+        {
+          "title": "French Immersion",
+          "url": "https://www.ugdsb.ca/page/french-immersion"
+        },
+        {
+          "title": "French Immersion FAQ",
+          "url": "https://www.ugdsb.ca/page/french-immersion-faq"
+        },
+        {
+          "title": "French Immersion schools",
+          "url": "https://www.ugdsb.ca/page/french-immersion-schools"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion Schools",
+      "url": "https://www.ugdsb.ca/page/french-immersion-schools",
+      "summary": "The board's list of French Immersion schools includes four high schools that continue the program for Grades 9 to 12: John F. Ross CVI (Guelph), Centre Wellington DHS (Fergus), Erin DHS and Norwell DSS (Palmerston). Immersion students study in both languages until graduation and can earn a certificate of French Immersion studies. The page shows the 2025-26 school year.",
+      "program": "french-immersion",
+      "source_date": "2025-26 School Year",
+      "related": [
+        {
+          "title": "French Immersion",
+          "url": "https://www.ugdsb.ca/page/french-immersion"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-ooa",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Out of Area and Out of District",
+      "url": "https://www.ugdsb.ca/page/out-of-area-and-out-of-district",
+      "summary": "Attending a school other than your area school is by registration under Policy 521. Only schools on the board's yearly open list accept new out-of-area or out-of-district requests, and only in a short January window (for 2026-27 it closed January 30, 2026). The list is updated before the December break. Students may stay until they finish at that school. The board does not provide transportation for these students.",
+      "related": [
+        {
+          "title": "Open/Closed Schools",
+          "url": "https://www.ugdsb.ca/page/openclosed-schools"
+        },
+        {
+          "title": "How to submit an Out of Area registration",
+          "url": "https://www.ugdsb.ca/page/submit-an-out-of-area-registration"
+        },
+        {
+          "title": "Policy 521 Admission and Registration",
+          "url": "https://www.ugdsb.ca/page/policy-521-admission-and-registration"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation Eligibility (policy 002, Wellington-Dufferin Student Transportation Services)",
+      "url": "https://stwdsts.ca/transportation-eligibility/",
+      "summary": "The consortium that runs Upper Grand buses sets distances: a student whose home is inside the school's boundary and farther than 1.6 km (JK to Grade 6), 3.2 km (Grades 7 and 8) or 3.5 km (Grades 9 to 12) may qualify, measured property line to property line. Out-of-area students are not transported. Closer students inside the boundary may apply each year for a courtesy seat if one is free.",
+      "source_date": "Date revised November 21, 2017",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 6": 1.6,
+          "Grades 7 and 8": 3.2,
+          "Grades 9 to 12": 3.5
+        }
+      },
+      "related": [
+        {
+          "title": "Transportation (Upper Grand DSB)",
+          "url": "https://www.ugdsb.ca/page/transportation"
+        },
+        {
+          "title": "Courtesy Transportation policy 017",
+          "url": "https://stwdsts.ca/017-courtesy-transportation/"
+        },
+        {
+          "title": "Check transportation eligibility for an address",
+          "url": "https://www.findmyschool.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.ugdsb.ca/page/special-education",
+      "summary": "The board's special education page links its Special Education Plan (2026-2027) and a Caregiver Guide that explains the IPRC process: identifying a student as exceptional, placement, and how to appeal. Start with your child's teacher and principal. A separate caregiver resource site describes supports by learning profile.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://aptg.ca/C6Vj4S"
+        },
+        {
+          "title": "Caregiver Guide to Special Education (PDF)",
+          "url": "https://5il.ca/1qf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.ugdsb.ca/page/special-education-advisory-committee-seac",
+      "summary": "SEAC advises the board on special education programs and services. It includes local representatives of provincial associations, two trustees and community members. Per the special education page, it meets monthly on the second Wednesday during the school year, and meetings are open to the public.",
+      "related": [
+        {
+          "title": "SEAC agendas and minutes",
+          "url": "https://www.ugdsb.ca/page/seac-agendas-and-minutes"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility at the UGDSB",
+      "url": "https://www.ugdsb.ca/page/accessibility-at-the-ugdsb",
+      "summary": "Describes the board's accessibility commitments under the AODA, its accessibility standards policy, and how to send feedback, and links the Multi-Year Accessibility Plan 2023-2028. It describes board-wide plans, not the features of a particular school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2023-2028 (PDF)",
+          "url": "https://5il.ca/eym"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Kindergarten Registration",
+      "url": "https://www.ugdsb.ca/page/kindergarten-registration",
+      "summary": "We could not find a board-wide page for newcomer students or English language learners in Kindergarten to Grade 12. John F. Ross CVI (Guelph) has a Multi Language Learners department for secondary students, and the International Student Program page lists ESL courses for fee-paying international students. The board's ESL and LINC pages are for adults. For help registering, the board points families to its schools or Immigrant Services (519-836-2222) for an interpreter. Ask the school about language support.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long Term Accommodation Plan (LTAP)",
+      "url": "https://www.ugdsb.ca/page/long-term-accommodation-plan-ltap",
+      "summary": "The board's plan for school space, using demographics, enrolment projections and school utilization. It has a 2024 comprehensive Final Report (approved April 9, 2024) and an annual review, the latest presented in December 2025. Projections are forecasts, and capacity is building space, not open seats. The annual review also carries the open/closed school list.",
+      "source_date": "Annual review December 9, 2025",
+      "related": [
+        {
+          "title": "LTAP Final Report, March 14, 2024 (PDF)",
+          "url": "https://5il.ca/gx"
+        },
+        {
+          "title": "LTAP Annual Review Report, December 2025 (PDF)",
+          "url": "https://5il.ca/lmg"
+        },
+        {
+          "title": "Accommodation and Planning",
+          "url": "https://www.ugdsb.ca/page/accommodation-and-planning"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan 2024-2025",
+      "url": "https://www.ugdsb.ca/page/student-achievement-plan",
+      "summary": "The board's Student Achievement Plan for 2024-25 under Ontario's framework: goals and measures for reading, writing and math (EQAO and the OSSLT), graduation, credits, job-skills programs, suspensions, attendance and awareness of mental health supports, shown next to Ontario's results. These are board-wide figures, not any one school's.",
+      "source_date": "2024-2025 Academic Year",
+      "related": [
+        {
+          "title": "Multi-Year Plan (2022-2026+)",
+          "url": "https://www.ugdsb.ca/page/multi-year-plan"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee (PIC)",
+      "url": "https://www.ugdsb.ca/page/parent-involvement-committee-pic",
+      "summary": "The board's Parent Involvement Committee brings together parents, trustees, principals and the director. It supports family involvement, especially for families facing barriers, advises on board plans and gives school councils guidance and resources. It recruits parents from across the district.",
+      "related": [
+        {
+          "title": "PIC website",
+          "url": "https://www.ugdsb.ca/o/pic"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Councils",
+      "url": "https://www.ugdsb.ca/page/school-councils",
+      "summary": "Every school has a school council that advises the principal and the board. Councils have a parent majority plus the principal, staff and community members, and students at senior elementary and secondary schools. Policy 201 sets the rules; ask your school how to join.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ugdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "How the Student and Family Support Office Can Help",
+      "url": "https://www.ugdsb.ca/page/student-and-family-support-office",
+      "summary": "Start with your child's teacher, then the principal. If the concern is still not settled, the Student and Family Support Office answers questions and connects you to staff. It acknowledges inquiries within 2 business days and aims to answer within 5. Use its online form and say what steps you have already taken.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion Schools",
+      "url": "https://www.ugdsb.ca/page/french-immersion-schools",
+      "verified": "2026-11-26",
+      "schools": {
+        "158764": "École Guelph Lake PS (Guelph)",
+        "166472": "Edward Johnson PS (Guelph)",
+        "185191": "Brisbane PS (Erin)",
+        "185582": "Erin PS (Erin)",
+        "199699": "FA Hamilton PS (Guelph)",
+        "208620": "Gateway Drive PS (Guelph)",
+        "281522": "James McQueen PS (Fergus)",
+        "282324": "JD Hogarth PS (Fergus)",
+        "284254": "John McCrae PS (Guelph)",
+        "296082": "École King George PS (Guelph)",
+        "369535": "Mono-Amaranth PS (Mono)",
+        "431150": "Paisley Road PS (Guelph)",
+        "432458": "Palmerston PS (Palmerston)",
+        "434639": "Parkinson Centennial PS (Orangeville)",
+        "457159": "Princess Elizabeth PS (Orangeville)",
+        "477283": "Spencer Ave PS (Orangeville)",
+        "488879": "Rockwood Centennial PS (Rockwood)",
+        "506264": "École Harris Mill PS (Rockwood)",
+        "577014": "Victory PS (Guelph)",
+        "609552": "Willow Road PS (Guelph)",
+        "909050": "Erin DHS (Erin)",
+        "909831": "Centre Wellington DHS (Fergus)",
+        "918679": "JF Ross CVI (Guelph)",
+        "931284": "Norwell DSS (Palmerston)",
+        "061228": "École Arbour Vista PS (Guelph)",
+        "090247": "Centennial Hylands ES (Shelburne)"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "ugdsb-guelph-ss-2026",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "New Guelph Secondary School Boundary Review",
+      "url": "https://www.ugdsb.ca/page/new-guelph-secondary-school-boundary-review",
+      "decided": "2025-09-23",
+      "summary": "On September 23, 2025 trustees approved \"Option 11\" for the new Guelph secondary school, opening in 2026-27 with Grades 9 and 10. Westminster Woods, Sir Isaac Brock and Rickson Ridge public schools are redirected from Centennial CVI to the new school; its full Grade 9 to 12 boundary applies from September 2028. Check the review page for transition rules and maps.",
+      "related": [
+        {
+          "title": "LTAP Annual Review Report, December 2025 (PDF)",
+          "url": "https://5il.ca/lmg"
+        }
+      ],
+      "schools": [
+        "381646",
+        "460796",
+        "271678",
+        "899283",
+        "919827"
+      ],
+      "match": "Schools named in the motion matched by name and city to Westminster Woods PS, Sir Isaac Brock PS and Rickson Ridge PS (Guelph) and Centennial CVI (Guelph). The board's review page calls the new school \"Two Rivers SS (New Guelph SS)\", matched to Two Rivers Secondary School (Guelph, Grades 9-12).",
+      "verified": "2026-11-26"
+    }
+  ]
+}

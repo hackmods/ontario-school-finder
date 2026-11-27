@@ -1,0 +1,350 @@
+{
+  "board": "B67032",
+  "name": "London District Catholic School Board",
+  "short": "London Catholic (LDCSB)",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "ldcsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Elementary Registration",
+      "url": "https://www.ldcsb.ca/apps/pages/elementary",
+      "summary": "Confirm the child turns 4 by December 31 for Junior Kindergarten, find the designated school, complete the MPAC School Support Form, then register online. Have originals ready: birth certificate, a Roman Catholic baptismal certificate for the child or a parent, two proofs of address from the last 6 months (driver's licences and health cards are not accepted), status papers if born outside Canada, and custody papers if they apply. Students must attend their designated school; an exemption is possible only in exceptional cases (not for closed or full schools), so talk to the principal.",
+      "related": [
+        {
+          "title": "Admissions + Registration",
+          "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076552&type=d&pREC_ID=1375944"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-register-secondary",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary Registration",
+      "url": "https://www.ldcsb.ca/apps/pages/secondary",
+      "summary": "Students of any faith may attend, but all students take religion classes in all four years and take part in Catholic curriculum and faith celebrations. Register online with the original birth certificate, two proofs of address, status papers if not born in Canada and custody papers if they apply. Students from outside the board (TVDSB, French first-language, private school) transfer in at September or the semester break.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find Your Home School",
+      "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076461&type=d&pREC_ID=1360078",
+      "summary": "The board's school locator (enter an address) and an interactive boundary map. The board says the map is for general viewing only and results apply to the current school year; the school confirms the designated school once a registration is validated. The Admissions Office can help if the locator finds nothing.",
+      "related": [
+        {
+          "title": "School Locator",
+          "url": "https://mybaragar.com/index.cfm?event=page.SchoolLocatorPublic&DistrictCode=ON38"
+        },
+        {
+          "title": "Interactive boundary map",
+          "url": "https://boundaries.districtintelligence.com/event/page.webGisPublic/DistrictCode/on38"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French + French Immersion",
+      "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076461&type=d&pREC_ID=1360083",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "summary": "French Immersion is offered at four elementary schools (two in London, one in Woodstock, one in St. Thomas). Students living in the school's Immersion area may register by September 30 of their Grade 1 year; for other grades only students coming directly from a program with at least half of instruction in French (with a French card from their record) are admitted. The page does not describe an application window, a lottery or program busing.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French in Secondary Schools",
+      "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1169397&type=d&pREC_ID=1401060",
+      "summary": "Secondary French Immersion is offered at four high schools, each tied to an elementary Immersion school: Regina Mundi, Mother Teresa, St. Mary's (Woodstock) and St. Joseph's (St. Thomas). Only students coming from another Immersion or French first-language program are admitted. Immersion students earn at least ten French credits. St. Anthony Grade 8 students continue at Regina Mundi.",
+      "related": [
+        {
+          "title": "Enrolment Caps + Holding Areas",
+          "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076461&type=d&pREC_ID=1396498"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Elementary Registration",
+      "url": "https://www.ldcsb.ca/apps/pages/elementary",
+      "summary": "Students attend their designated school. A boundary exemption is possible only in exceptional cases and never for closed or at-capacity schools; talk to the principal of your designated school about the criteria. Students already in a board school use the board's online transfer form. Some schools are capped, and new students are placed at a named nearby school.",
+      "related": [
+        {
+          "title": "Secondary Registration",
+          "url": "https://www.ldcsb.ca/apps/pages/secondary"
+        },
+        {
+          "title": "Enrolment Caps + Holding Areas",
+          "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076461&type=d&pREC_ID=1396498"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation Eligibility (PDF)",
+      "url": "https://www.mybigyellowbus.ca/app/uploads/2022/10/trans-eligibility-1.pdf",
+      "facts": {
+        "walk_km": {
+          "Elementary": 1.6,
+          "Secondary": 3.2
+        }
+      },
+      "summary": "LDCSB students are bused by Southwestern Ontario Student Transportation Services (the board links to its site). Students attending their designated school are eligible if elementary students live more than 1.6 km, or secondary students more than 3.2 km, away. Elementary students who are ineligible but use an eligible daycare address may apply for a vacant seat. Capped-school placements are bused if the student meets eligibility.",
+      "related": [
+        {
+          "title": "Check bus eligibility (STS)",
+          "url": "https://www.mybigyellowbus.ca/bus-registration/check-bus-eligibility/"
+        }
+      ],
+      "source_date": "Revised February 2021",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076477&type=d&pREC_ID=1360116",
+      "summary": "An IPRC decides whether a student is identified as exceptional and where they are placed, and reviews this at least once a year; a parent, a student aged 16 or older, or the principal can ask for one. An Individual Education Plan follows within 30 school days of identification. The board's Special Education Plan and parent guides are linked.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://22.files.edl.io/fd72/07/07/26/152044-f7d4b1d4-613c-4210-8cc8-e98059a4235c.pdf"
+        },
+        {
+          "title": "Parent/Caregiver Guide to Special Education (PDF)",
+          "url": "https://22.files.edl.io/42c3/06/03/25/151401-a35c33e5-d709-4732-a9e1-4f1e3adefc72.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1080359&type=d&pREC_ID=1361363",
+      "summary": "SEAC makes recommendations to the board on special education programs and services. Meetings are usually at 6 p.m. at the Catholic Education Centre and are open to the public; the page lists the 2026-27 schedule from September 2026 to June 2027. Members are appointed by the board and include local association representatives and trustees.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan 2026-2031 (PDF)",
+      "url": "https://22.files.edl.io/30f7/09/29/26/171634-94531eb7-0a72-48b6-b45b-5ac56c128ace.pdf",
+      "summary": "The board's five-year accessibility plan under Ontario's accessibility law, covering customer service, information and communication, employment, transportation and buildings. It describes board-wide actions, not features of a specific school; ask the school about particular needs. The board also posts annual status reports.",
+      "related": [
+        {
+          "title": "Strategic Planning + Reporting",
+          "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076453&type=d&pREC_ID=1360064"
+        }
+      ],
+      "source_date": "2026-2031",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-welcome",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Welcome Centre",
+      "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076552&type=d&pREC_ID=1394265",
+      "summary": "Families of students new to Canada, or born in Canada with a first language other than English, contact the Welcome Centre to book an appointment. Staff assess the student's language and math skills and, for secondary students, the language assessment helps decide which school they register at. Settlement Workers in Schools help with community referrals and settlement paperwork.",
+      "related": [
+        {
+          "title": "New to Canada / International Students",
+          "url": "https://www.ldcsb.ca/apps/pages/international"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-capital",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Enrolment and Accommodation Report 2018/19 to 2023/24 (Capital Plan 2019) (PDF)",
+      "url": "https://22.files.edl.io/259a/11/05/19/163233-b4321124-1d1c-42cf-a438-35e1def5daa4.pdf",
+      "summary": "The board's latest listed accommodation plan, dated 2019: enrolment trends and projections, facility utilization against capacity, capital priorities and partnerships. It is old, and projections are forecasts; capacity is building space, not open seats. The board also lists current school boundary reviews and enrolment caps.",
+      "related": [
+        {
+          "title": "School Boundary Reviews",
+          "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1170796&type=d&pREC_ID=1401212"
+        },
+        {
+          "title": "Enrolment Caps + Holding Areas",
+          "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076461&type=d&pREC_ID=1396498"
+        }
+      ],
+      "source_date": "September 23, 2019",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan 2024-2025 (PDF)",
+      "url": "https://22.files.edl.io/8caf/05/07/26/172502-afdb11de-e638-4273-8fd1-ffd42955a755.pdf",
+      "summary": "The board's improvement plan for student achievement, listed on its Strategic Planning page. It reports results on literacy (provincial reading and writing assessments, the literacy test), graduation and preparation for future success, and well-being. The board's Multi-Year Strategic Plan 2023-27 sits beside it.",
+      "related": [
+        {
+          "title": "Multi-Year Strategic Plan 2023-27 (PDF)",
+          "url": "https://22.files.edl.io/cacd/07/03/26/124548-3fdb9b45-ff8a-4633-afd5-3f2235d08fe9.pdf"
+        },
+        {
+          "title": "Strategic Planning + Reporting",
+          "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076453&type=d&pREC_ID=1360064"
+        }
+      ],
+      "source_date": "2024-2025",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1080360&type=d&pREC_ID=1361367",
+      "summary": "The board's Parent Involvement Committee supports Catholic school councils, parent engagement in learning and welcoming schools. Meetings run in person and online, with schedules posted for 2026 and 2027. The page links a handbook; to join a public meeting, contact the board office before 3 p.m. on the meeting day.",
+      "related": [
+        {
+          "title": "Parent Involvement Committee Handbook (PDF)",
+          "url": "https://22.files.edl.io/4e8c/06/19/19/171749-c5e48ac3-fd78-4c3f-9569-3ce16a17db74.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ldcsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Contact Information",
+      "url": "https://www.ldcsb.ca/apps/pages/contact",
+      "summary": "Always start with your child's teacher, speak with the teacher again if needed, then the principal or vice-principal, then the Superintendent of Education for the school, and finally the Student and Family Support Office. The board aims to acknowledge inquiries within two business days. The steps listed do not include a trustee; the page links the Board of Trustees separately.",
+      "related": [
+        {
+          "title": "Board of Trustees",
+          "url": "https://www.ldcsb.ca/apps/pages/trustees"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French + French Immersion (elementary)",
+      "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1076461&type=d&pREC_ID=1360083",
+      "verified": "2026-11-26",
+      "schools": {
+        "704237": "Holy Family French Immersion (Woodstock)",
+        "772615": "St. Anthony French Immersion (London)",
+        "806137": "St. John French Immersion (London)",
+        "868698": "Monsignor Morrison (St. Thomas)"
+      }
+    },
+    {
+      "program": "french-immersion",
+      "title": "French in Secondary Schools",
+      "url": "https://www.ldcsb.ca/apps/pages/index.jsp?uREC_ID=1169397&type=d&pREC_ID=1401060",
+      "verified": "2026-11-26",
+      "schools": {
+        "733032": "Mother Teresa (London)",
+        "752827": "Regina Mundi (London)",
+        "810916": "St. Joseph's (St. Thomas)",
+        "831190": "St. Mary's (Woodstock)"
+      }
+    }
+  ]
+}

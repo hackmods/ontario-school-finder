@@ -1,0 +1,395 @@
+{
+  "board": "B66079",
+  "name": "Kawartha Pine Ridge District School Board",
+  "short": "KPR",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "kprdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Register for School",
+      "url": "https://www.kprschools.ca/our-schools/register-for-school/",
+      "source_date": "Kindergarten ages shown for September 2026",
+      "related": [
+        {
+          "title": "Kindergarten",
+          "url": "https://www.kprschools.ca/learning-and-programs/kindergarten/"
+        }
+      ],
+      "summary": "Kindergarten families request an account and register online through the board's Aspen portal (a laptop, desktop, Chromebook or full-size tablet is needed, not a phone). New students can register online or bring the PDF form to the school. After registration is confirmed you visit the school with a birth certificate, immunization record, proof of address, citizen verification and custody papers if they apply. The page lists JK as age four and SK as age five by December 31, 2026 (the 2026-27 year); the board updates it yearly.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find a School",
+      "url": "https://www.kprschools.ca/our-schools/find-a-school/",
+      "related": [
+        {
+          "title": "Find a School map app",
+          "url": "https://kprdsp.maps.arcgis.com/apps/instant/lookup/index.html?appid=4fa32449484b4b61aadec1406bf8a3b8"
+        }
+      ],
+      "summary": "The board's Find a School page links to a map app where you enter a home address to see which school your children should attend. The school directory on the page also gives each school's boundary map (PDF), principal, superintendent and bell times; some schools have separate French Immersion or Extended French maps. The Community Education Centres can answer area questions.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion",
+      "url": "https://www.kprschools.ca/learning-and-programs/french-immersion/",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "K"
+        ],
+        "single_entry": true
+      },
+      "related": [
+        {
+          "title": "Register for School: French Immersion questions",
+          "url": "https://www.kprschools.ca/our-schools/register-for-school/#FrenchImmersion"
+        },
+        {
+          "title": "Core French",
+          "url": "https://www.kprschools.ca/learning-and-programs/french-immersion/core-french/"
+        }
+      ],
+      "source_date": "Page undated; shows school start dates in September 2026",
+      "summary": "French Immersion starts in Senior Kindergarten and continues to Grade 12, at the designated Immersion schools the page lists by town. Some schools add one grade a year from September 2026. Families whose child is in Junior Kindergarten at another school can move to their designated Immersion school for SK without a transfer request; going a year early for JK needs a Student Transfer Request, reviewed case by case. The pages we read give no application deadline, lottery or waitlist, and no program-specific transportation.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion (secondary)",
+      "url": "https://www.kprschools.ca/learning-and-programs/french-immersion/",
+      "program": "french-immersion",
+      "summary": "Immersion continues in high school at five KPR schools: Adam Scott CVI, Bowmanville HS, Cobourg CI, Courtice SS and Port Hope HS (starting September 2026). East Northumberland SS and Campbellford DHS are listed as starting in September 2032. Students take four French courses plus six more credits taught in French, ten in all, and finishers get a KPR Immersion Certificate.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-ef",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Extended French",
+      "url": "https://www.kprschools.ca/learning-and-programs/french-immersion/extended-french/",
+      "program": "extended-french",
+      "facts": {
+        "entry_grades": [
+          "5"
+        ],
+        "single_entry": true
+      },
+      "summary": "Extended French starts in Grade 5, after a year of Core French, and runs through Grade 12. It is offered in Grades 5 to 8 at Brighton PS, Hillcrest PS (Campbellford) and Murray Centennial PS (Trenton), and in high school at Campbellford DHS and East Northumberland SS. The page gives no application process; it names the Principal of Program's office as the contact.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Schools Closed to Out-of-Boundary Students",
+      "url": "https://www.kprschools.ca/our-schools/register-for-school/schools-closed-to-out-of-boundary-students/",
+      "source_date": "2026-2027 school year",
+      "related": [
+        {
+          "title": "Register for School",
+          "url": "https://www.kprschools.ca/our-schools/register-for-school/"
+        }
+      ],
+      "summary": "To attend a school outside your boundary, submit the Student Transfer Request form to your home school. Transfers are accepted only if space remains after students living in the boundary are placed. The page names deadlines of January 31 and April 30, with decisions in April or by the second week of September, and lists the schools closed to out-of-boundary students for 2026-27 (Clarington, Northumberland and Peterborough).",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Buses and Transportation",
+      "url": "https://www.kprschools.ca/our-schools/buses-and-transportation/",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "related": [
+        {
+          "title": "STSCO",
+          "url": "https://www.stsco.ca/"
+        },
+        {
+          "title": "STSCO new riders",
+          "url": "https://www.stsco.ca/newRiders.asp"
+        }
+      ],
+      "summary": "A student may qualify for busing when their primary residence is beyond 1.6 km (JK to Grade 8) or 3.2 km (Grades 9 to 12) from their school, measured by a direct route on a public road or walkway. Student Transportation Services of Central Ontario (STSCO) runs the buses and answers questions on routes and eligibility. The page does not mention courtesy seats.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Plan",
+      "url": "https://www.kprschools.ca/learning-and-programs/special-education/special-education-plan/",
+      "source_date": "Special Education Plan 2026-2027",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/e0sde1co/special-education-plan-2026-2027.pdf"
+        },
+        {
+          "title": "Special Education",
+          "url": "https://www.kprschools.ca/learning-and-programs/special-education/"
+        }
+      ],
+      "summary": "The board's Special Education Plan for 2026-2027 explains its programs and services, including how the Identification, Placement and Review Committee (IPRC) works, assessments, placements and Individual Education Plans (IEPs). It includes a parent and guardian guide. Start with your child's teacher, the school's special education resource teacher or the principal.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.kprschools.ca/learning-and-programs/special-education/special-education-advisory-committee/",
+      "summary": "The SEAC page lists the committee's members: community association representatives, trustees and special education administrators. It does not give meeting dates; it names the Executive Assistant to the Superintendent of Education as the contact for details, including how to attend.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.kprschools.ca/our-board/commissioners-office-of-human-rights-equity-accessibility/accessibility/",
+      "source_date": "Plan 2023-27, file revised December 5, 2025",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2023-27 (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/jc4birvs/kpr-myap-2023-27-revdec5-2025.pdf"
+        },
+        {
+          "title": "Multi-Year Accessibility Plan Status Report (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/j4oi44yl/multi-year-accessibility-status-report.pdf"
+        }
+      ],
+      "summary": "The board's Multi-Year Accessibility Plan covers 2023 to 2027, in a version revised in December 2025, with a status report on progress. Both are linked from the board's Accessibility page.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policies and Regulations",
+      "url": "https://www.kprschools.ca/our-board/policies-and-regulations/policies/",
+      "summary": "We could not find a KPR page for newly arrived English language learners. The board's policies page lists Policy ES-3.17 and Regulation ES-3.17.1, Supporting Multilingual Language Learners, but we could not open them (the PDF link is broken and the copies need a sign-in). Ask your school or the board (705-742-9773) about English language support when you register. The International Students page covers full-time ESL for international students only.",
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "kprdsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long-Term Accommodation Plan and Accommodation Review",
+      "url": "https://www.kprschools.ca/our-board/plans-and-reports/long-term-accommodation-plan-and-accommodation-review/",
+      "source_date": "Plan 2025-2030",
+      "related": [
+        {
+          "title": "Student Accommodation Planning June 2026 Report Card (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/5ivaqqyl/student-accommodation-planning-2026-report-card.pdf"
+        },
+        {
+          "title": "Student Accommodation Planning",
+          "url": "https://www.kprschools.ca/our-board/student-accommodation-planning/"
+        }
+      ],
+      "summary": "The Long-Term Accommodation Plan 2025-2030 guides the board's decisions on buildings, programs and boundaries, and is updated yearly. Enrolment projections are forecasts, and capacity is the space in a building, not the number of open seats. The page also links a June 2026 accommodation planning report card, and regional accommodation planning pages list reviews in Clarington, Northumberland and Peterborough.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Board Action Plan",
+      "url": "https://www.kprschools.ca/our-board/strategic-planning/board-action-plan/",
+      "source_date": "Plan labelled 2024-25; strategic plan 2023-26",
+      "related": [
+        {
+          "title": "Board Action Plan 2024-25 (PDF)",
+          "url": "https://media-002-ca.cdn.govstack.com/kprschools-010-ca/media/ws1bcj4j/board-action-plan-2024-25-final.pdf"
+        },
+        {
+          "title": "Strategic Planning",
+          "url": "https://www.kprschools.ca/our-board/strategic-planning/"
+        }
+      ],
+      "summary": "We did not find a separate board improvement plan for student achievement. The Board Action Plan puts the 2023-26 Multi-Year Strategic Plan to work through three guiding principles and ten system actions, aimed at three goals: excelling in learning, succeeding in life and enriching communities. The PDF on the page is labelled 2024-25.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement",
+      "url": "https://www.kprschools.ca/student-and-family-support/parent-corner/parent-involvement/",
+      "summary": "The Parent Involvement Committee advises the board on ways to encourage parent and guardian involvement and approves spending of the Ministry's parent involvement funding. It has three parent members from each region plus community representatives, meets six times a year, and the board calls for volunteers each fall.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Councils",
+      "url": "https://www.kprschools.ca/student-and-family-support/school-councils/",
+      "related": [
+        {
+          "title": "School Council Support Guide",
+          "url": "https://www.kprschools.ca/student-and-family-support/school-councils/school-council-support-guide/"
+        }
+      ],
+      "summary": "Every school has a school council, an advisory committee where parents and guardians advise the principal on improving the school. Membership is voluntary and parents elect their own representatives; the page gives no sign-up steps, so contact your child's school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "kprdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "How Can We Help?",
+      "url": "https://www.kprschools.ca/our-board/about-us/how-can-we-help/",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.kprschools.ca/student-and-family-support/student-and-family-support-office/"
+        }
+      ],
+      "summary": "Start with your child's teacher, vice-principal or principal; the board says most concerns are settled there. If not, contact the school's superintendent (contacts are on the Find a School page), then the Student and Family Support Office. If unsure who to call, the Education Centre is at 705-742-9773. The page describes no trustee step. Bus concerns go to STSCO.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion",
+      "url": "https://www.kprschools.ca/learning-and-programs/french-immersion/",
+      "verified": "2026-11-26",
+      "schools": {
+        "102644": "C.R. Gummow P.S. (Cobourg)",
+        "110728": "The Pines Senior P.S. (Newcastle)",
+        "124907": "Dr. G.J. MacGillivray P.S. (Courtice)",
+        "147621": "Dr. M.S. Hawkins Senior P.S. (Port Hope)",
+        "166340": "Edmison Heights P.S. (Peterborough)",
+        "256897": "Hillcrest P.S. (Campbellford)",
+        "380733": "Murray Centennial P.S. (Trenton)",
+        "384747": "Newcastle P.S. (Newcastle)",
+        "402908": "Lakefield District P.S. (Lakefield)",
+        "434858": "Duke of Cambridge P.S. (Bowmanville)",
+        "449510": "Kaawaate East City P.S. (Peterborough)",
+        "454818": "Prince of Wales P.S. (Peterborough)",
+        "504632": "Courtice Intermediate (Courtice)",
+        "602361": "Westmount P.S. (Peterborough)",
+        "890464": "Adam Scott C.V.I. (Peterborough)",
+        "895539": "Bowmanville High School (Bowmanville)",
+        "903078": "Courtice Secondary School (Courtice)",
+        "936090": "Port Hope High School (Port Hope), starting September 2026",
+        "967836": "Cobourg Collegiate Institute (Cobourg)",
+        "002194": "Adam Scott Intermediate (Peterborough)",
+        "033812": "Beatrice Strong P.S. (Port Hope)",
+        "056723": "Ganaraska Trail P.S. (Port Hope)",
+        "062995": "Brighton P.S. (Brighton)"
+      }
+    },
+    {
+      "program": "extended-french",
+      "title": "Extended French",
+      "url": "https://www.kprschools.ca/learning-and-programs/french-immersion/extended-french/",
+      "verified": "2026-11-26",
+      "schools": {
+        "256897": "Hillcrest P.S. (Campbellford)",
+        "380733": "Murray Centennial P.S. (Trenton)",
+        "898260": "Campbellford District H.S. (Campbellford)",
+        "906719": "East Northumberland S.S. (Brighton)",
+        "062995": "Brighton P.S. (Brighton)"
+      }
+    }
+  ]
+}

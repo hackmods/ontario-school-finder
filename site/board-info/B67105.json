@@ -1,0 +1,376 @@
+{
+  "board": "B67105",
+  "name": "Durham Catholic District School Board",
+  "short": "Durham CDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-register-elem",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Elementary School Registration",
+      "url": "https://www.dcdsb.ca/contact-us/register-for-school/elementary-school-registration/",
+      "summary": "The board states that elementary admissions are open to Catholic children and children of Catholic parents. Apply online through the board's OSAS portal (choose Regular School, New Application); the home school then contacts you to bring documents: proof of age, residency status, a Durham address, religious denomination (such as a baptismal certificate) and health records. For help, contact your local DCDSB school or the board at 905-576-6150.",
+      "related": [
+        {
+          "title": "Register for School",
+          "url": "https://www.dcdsb.ca/contact-us/register-for-school/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-register-sec",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary School Registration",
+      "url": "https://www.dcdsb.ca/contact-us/register-for-school/secondary-school-registration/",
+      "summary": "The board says students of all faiths are welcome at its secondary schools. Apply online through the OSAS portal (Regular School, New Application); your local Catholic secondary school then contacts you to bring documents: proof of age, residency status, a Durham address, health records, and your latest report card or transcript. The page lists no registration dates."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-register-k",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Register for Kindergarten",
+      "url": "https://www.dcdsb.ca/our-programs-learning/academics/kindergarten/register-for-kindergarten/",
+      "summary": "The board says online registration for the 2027-2028 school year opens January 5, 2027. A JK child must turn 4 by December 31 of the start year, and SK children must be 5. Schools hold Welcome to Kindergarten sessions in April, May and June. Register at your designated school; the school then asks for proof of age, religious denomination and health records."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Find My Local Catholic School",
+      "url": "https://www.dcdsb.ca/our-schools/find-my-local-catholic-school/",
+      "summary": "Links to the board's school locator map for finding your local Catholic elementary or secondary school. The board warns that displayed boundaries may not always match its current boundaries; if a result looks wrong, contact the Planning and Admissions Department at admissions@dcdsb.ca or 905-576-6150 ext. 22211.",
+      "related": [
+        {
+          "title": "DCDSB School Locator",
+          "url": "https://schoollocator.dcdsb.ca/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion Registration",
+      "url": "https://www.dcdsb.ca/our-programs-learning/academics/specialized-programs/french-immersion/french-immersion-registration/",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "source_date": "Page shows both the 2027-2028 and the 2026-2027 cycle",
+      "summary": "French Immersion starts in Grade 1 for children in Senior Kindergarten; it does not start in Kindergarten. The page's notice gives the 2027-2028 registration window as November 20, 2026 to January 15, 2027, applying online through OSAS; acceptance emails follow in February. If demand is higher than space, priority goes to students in the boundary, then those with a childcare address there, then siblings. Later registrations go on a waitlist. Its FAQ still shows the previous year's dates.",
+      "related": [
+        {
+          "title": "French Immersion school listing",
+          "url": "https://www.dcdsb.ca/our-programs-learning/academics/specialized-programs/french-immersion/french-immersion-school-listing/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Secondary Programs",
+      "url": "https://www.dcdsb.ca/our-programs-learning/academics/french-and-french-immersion/french-secondary-programs/",
+      "summary": "French Immersion continues from Grade 9 at four secondary schools: Father Leo J. Austin (Whitby), Notre Dame (Ajax), St. Mary (Pickering) and Monsignor Paul Dwyer (Oshawa). Students need 10 of their 30 credits in French and receive a French certificate at graduation. Current board Immersion students choose courses with a guidance counsellor; busing follows the board's busing guidelines for students in the busing zone."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register for Kindergarten (Exception to School Attendance Areas, Policy PO428)",
+      "url": "https://www.dcdsb.ca/our-programs-learning/academics/kindergarten/register-for-kindergarten/",
+      "summary": "To attend a school other than your designated home school, register at the home school first, then ask for an Exception to School Attendance Areas (Policy PO428). It needs a need or legitimate reason, approval from both principals, and depends on space. No transportation is provided to out-of-boundary schools. The page, written for Kindergarten, lists schools with limited space for 2027-2028. For secondary, ask the board."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "DSTS Transportation Policy",
+      "url": "https://www.dsts.on.ca/transportation-policy",
+      "facts": {
+        "walk_km": {
+          "Elementary": 1.6,
+          "Secondary": 3.2
+        }
+      },
+      "summary": "Durham Student Transportation Services (DSTS) runs buses for both Durham boards. Students living more than 1.6 km (elementary) or 3.2 km (secondary) from their designated school may be eligible; the page gives no separate Kindergarten distance. Students attending a school other than their area school are not eligible, with a limited overflow exception for elementary students. The board's French Immersion page says cross-boundary students are not eligible.",
+      "related": [
+        {
+          "title": "Transportation (DCDSB)",
+          "url": "https://www.dcdsb.ca/our-schools/transportation/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Plan",
+      "url": "https://www.dcdsb.ca/our-programs-learning/student-services-special-education/special-education-plan/",
+      "summary": "The board's Special Education Plan, set out as a web page under the five provincial standards: consultation with SEAC, programs and services, the IPRC (Identification, Placement and Review Committee) process, IEPs (Individual Education Plans), placement options and staffing. The page reflects the 2025-2026 year with sections updated in 2026. A parent and guardian guide is on the board's Student Services page.",
+      "related": [
+        {
+          "title": "Student Services and Special Education",
+          "url": "https://www.dcdsb.ca/our-programs-learning/student-services-special-education/"
+        },
+        {
+          "title": "A Parent and Guardian Guide to Special Education",
+          "url": "https://www.dcdsb.ca/our-programs-learning/student-services-special-education/a-parentguardian-guide-to-special-education/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.dcdsb.ca/our-board/our-committees/special-education-advisory-committee/",
+      "summary": "SEAC advises the board on special education; members include trustees and local associations such as Autism Ontario and the Durham Down Syndrome Association. The page lists ten 2026-2027 meeting dates from September 15, 2026 to June 8, 2027, but no time or place. Agendas and minutes are on the board's committee calendar; call 905-576-6150 ext. 22279 to learn more."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "2023-2028 Multi-Year Accessibility Plan (PDF)",
+      "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/mu1hzck3/2023-2028-multi-year-accessibility-plan-aoda.pdf",
+      "source_date": "2023-2028",
+      "summary": "The board's accessibility plan under Ontario's accessibility law. It describes board-wide goals, not the features of a particular school building; ask the school about specific needs. The board also has an online accessibility form linked from its website footer.",
+      "related": [
+        {
+          "title": "Online Accessibility Form",
+          "url": "https://forms.dcdsb.ca/Online-Accessibility-Form"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-mll",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Multilingual Language Learners",
+      "url": "https://www.dcdsb.ca/our-programs-learning/multilingual-language-learners/",
+      "summary": "Register at your local school first; an ESL teacher or consultant then assesses English and math skills to set the level of support. Elementary ESL teachers work in classrooms; secondary schools offer five ESL course levels. Settlement workers in schools can connect families to services in about 30 languages. The page names no separate welcome or reception centre."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long-Term Accommodation Plan 2024-2028 (PDF)",
+      "url": "https://media-003-ca.cdn.govstack.com/dcdsb-001-ca/media/fsbnll3w/long-term-accommodation-plan-2024-2028-final.pdf",
+      "source_date": "2024-2028",
+      "summary": "The board's five-year plan for school property, new construction, program and boundary changes, and possible accommodation reviews. It includes enrolment projections and school capacity by municipality. Projections are forecasts, and capacity is building space, not open seats in a grade or program. Boundary reviews are listed on a separate board page.",
+      "related": [
+        {
+          "title": "Board Plans and Reports",
+          "url": "https://www.dcdsb.ca/our-board/board-plans-and-reports/"
+        },
+        {
+          "title": "Boundary Reviews",
+          "url": "https://www.dcdsb.ca/our-schools/boundary-reviews/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "2026-2027 Student Achievement Plan",
+      "url": "https://www.dcdsb.ca/our-board/board-plans-and-reports/2026-2027-student-achievement-plan/",
+      "source_date": "2026-2027",
+      "summary": "The board's yearly plan under Ontario's student achievement law, organized by faith and well-being, human rights and equity, Indigenous education, and improving student learning (literacy, mathematics and pathways). It sets goals and actions but no numeric targets. These are board-wide goals, not this school's results. The page includes a feedback form."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Durham Catholic Parent Involvement Committee",
+      "url": "https://www.dcdsb.ca/our-board/our-committees/durham-catholic-parent-involvement-committee/",
+      "summary": "A parent-run committee of the board that promotes parent engagement across the system, advises the board and works with Catholic school councils. Contact the chair at chair@dcpic.ca; the page links its meetings and how to join."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Get Involved (Catholic School Councils)",
+      "url": "https://www.dcdsb.ca/our-families/get-involved/",
+      "summary": "Every school has a Catholic school council of parents and staff that advises the principal. Executive elections are held at the first meeting of the school year, and all parents may attend and raise agenda items. Ask the school's main office for meeting dates, agendas and minutes."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "dcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Steps to Addressing Questions and Concerns",
+      "url": "https://www.dcdsb.ca/contact-us/steps-to-addressing-questions-concerns/",
+      "summary": "Start with your child's classroom educator, then the principal or vice-principal, then your Family of Schools superintendent or another senior administrator, then the Chief Executive Officer. The board aims to acknowledge concerns within two business days. Trustees can be contacted about policy; on operational matters they usually refer you back to these steps.",
+      "related": [
+        {
+          "title": "Board Directory",
+          "url": "https://www.dcdsb.ca/contact-us/board-directory/"
+        }
+      ]
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion School Listing",
+      "url": "https://www.dcdsb.ca/our-programs-learning/academics/specialized-programs/french-immersion/french-immersion-school-listing/",
+      "verified": "2026-11-26",
+      "schools": {
+        "710083": "Father Leo J. Austin Catholic Secondary School (Whitby)",
+        "738050": "Notre Dame Catholic Secondary School (Ajax)",
+        "741310": "Monsignor Paul Dwyer Catholic High School (Oshawa)",
+        "750435": "St. Kateri Tekakwitha Catholic School (Oshawa)",
+        "798258": "St. Isaac Jogues Catholic School (Pickering)",
+        "798460": "St. James Catholic School (Ajax)",
+        "805327": "St. John the Evangelist Catholic School (Whitby)",
+        "811696": "St. Joseph Catholic School (Uxbridge)",
+        "818844": "St. Leo Catholic School (Brooklin)",
+        "823015": "St. Mark the Evangelist Catholic School (Whitby)",
+        "826278": "St. Mary Catholic Secondary School (Pickering)",
+        "835668": "St. Monica Catholic School (Pickering)",
+        "840696": "St. Patrick Catholic School (Ajax)",
+        "854980": "St. Thomas Aquinas Catholic School (Oshawa)"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "decided": "2025-06-16",
+      "title": "Unnamed Kedron Catholic Elementary School boundary",
+      "url": "https://www.dcdsb.ca/our-schools/boundary-reviews/oshawa-program-and-boundary-study/approvals-and-implementation/",
+      "schools": [
+        "851764",
+        "803057",
+        "750435"
+      ],
+      "summary": "Trustees approved boundaries for a new Kedron Catholic elementary school in north Oshawa, expected to open in September 2027. Kindergarten to Grade 7 students in the new boundary move to it from St. Kateri Tekakwitha and St. John Bosco, and St. Anne's Study Areas 1 and 2 move to St. John Bosco. Grade 8 students are decided by a survey in Grade 7. If the opening is delayed, the same approach applies later.",
+      "match": "Matched by name and city (Oshawa, all JK-8): St. Anne Catholic Elementary School, St. John Bosco Catholic School and St. Kateri Tekakwitha Catholic School. The new Kedron school is not yet in the school list.",
+      "verified": "2026-11-26",
+      "id": "dcdsb-decision-1",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans"
+    },
+    {
+      "decided": "2025-12",
+      "title": "Seaton #1 Catholic elementary school and boundary changes in Ajax and Pickering",
+      "url": "https://www.dcdsb.ca/our-schools/boundary-reviews/seaton-1-and-boundary-changes-to-ajax-and-pickering-schools/",
+      "schools": [
+        "789178",
+        "858960",
+        "771406",
+        "781282",
+        "772020"
+      ],
+      "summary": "Trustees approved boundary revisions tied to the opening of a new Seaton #1 Catholic elementary school in Pickering, scheduled for 2027. St. Elizabeth Seton and St. Wilfrid have boundary revisions; St. Andre Bessette, St. Catherine of Siena and St. Jude have boundary changes. The page gives the month of approval but no exact day.",
+      "match": "Matched by name and city: St Elizabeth Seton (Pickering), St Wilfrid (Pickering), St Andre Bessette, St Catherine of Siena and St Jude (all Ajax), all JK-8. The new Seaton #1 school is not yet in the school list.",
+      "verified": "2026-11-26",
+      "id": "dcdsb-decision-2",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans"
+    }
+  ]
+}

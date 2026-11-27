@@ -1,0 +1,366 @@
+{
+  "board": "B67300",
+  "name": "Conseil scolaire catholique Providence",
+  "short": "CSC Providence",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "providence-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription à l'école catholique (Procédure d'inscription)",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1112643&type=d",
+      "summary": "Start with the board's admission criteria, find your area school with the lookup tool, then fill in the online form (use a desktop browser, or desktop mode on a phone). The area school contacts you to confirm with documents: birth or adoption certificate, baptism certificate, proof of address, immigration papers if any, past school records and custody papers. Registration is accepted at any time. For help call 1-833-285-2802.",
+      "related": [
+        {
+          "title": "Documents nécessaires à l’inscription",
+          "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1112643&type=d&pREC_ID=1380565"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-admission",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Critères d’admission",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1112643&type=d&pREC_ID=1380564",
+      "summary": "The board admits children of Catholic, French-speaking parents under section 23 of the Canadian Charter of Rights and Freedoms (rights holders). If no parent qualifies, a parent or guardian can ask for an admission committee, which is a meeting with board staff and the family. A child must be 4 by December 31 of the current year to start kindergarten. Eligibility is decided by the board, not by this site.",
+      "related": [
+        {
+          "title": "Procédure administrative PA-7.046 Admission des élèves (PDF)",
+          "url": "https://22.files.edl.io/5a0a/12/18/19/001819-ebf41ec5-b723-4323-96b8-f14f56a86e87.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Zones de fréquentation scolaire",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1112643&type=d&pREC_ID=1380566",
+      "summary": "The board points families to its transportation consortia's lookup tools: Bus Kids (WESTS) for Windsor and Essex County, and Francobus for Chatham-Kent, Sarnia, London, Woodstock and Owen Sound. If you cannot find your school, email your full address with postal code to the board or call 1-833-285-2802.",
+      "related": [
+        {
+          "title": "Windsor-Essex lookup (Bus Kids)",
+          "url": "https://geoquery.buskids.ca/Eligibility.aspx"
+        },
+        {
+          "title": "Francobus lookup",
+          "url": "https://infobus.francobus.ca/Eligibility.aspx"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-alf-elem",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "1e-6e (M-6)",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1109035&type=d&pREC_ID=1368310",
+      "summary": "French-language board, so there is no French Immersion. For children still learning French, elementary schools list a French language enrichment program (ALF, Actualisation linguistique en français) to build French skills before moving fully into the regular program, and a newcomer support program (PANA). The page gives no entry grades or application steps; ask the school.",
+      "related": [
+        {
+          "title": "Service d’aide aux nouveaux arrivants en Ontario",
+          "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1091993&type=d&pREC_ID=1368332"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-alf-sec",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "7e à la 12e",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1109036&type=d",
+      "summary": "Schools offering Grades 7 to 12 list ALF (French language enrichment) and PANA (newcomer support) among their programs for students who need them. The page gives no eligibility rules or application steps; ask the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Zones de fréquentation scolaire (demande hors zone)",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1112643&type=d&pREC_ID=1380566",
+      "summary": "Students attend the school for their address unless the receiving school's principal agrees to an exemption. Families send a written out-of-area request (board form, PDF) giving reasons. The board considers whether the school has room, whether the family will provide transportation, whether it costs the board nothing extra, and whether needed services are available. The page gives no deadline.",
+      "related": [
+        {
+          "title": "Demande d’admission hors zone (PDF form)",
+          "url": "https://22.files.edl.io/9eda/07/21/21/173522-d38ba657-68e5-41d2-a65f-2715da18bc6c.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport scolaire en Ontario",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1091993&type=d&pREC_ID=1368337",
+      "summary": "The board hands bus service to transportation consortia and follows their rules: Bus Kids (WESTS) in Windsor-Essex, Francobus elsewhere. Eligibility, policies and weather cancellations are on the consortium sites. Transportation is for students attending the school for their area; families who choose another school provide their own transportation.",
+      "related": [
+        {
+          "title": "Bus Kids (WESTS)",
+          "url": "https://buskids.ca/"
+        },
+        {
+          "title": "Francobus",
+          "url": "https://francobus.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-transport-wests",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "E-01 Transportation & Eligibility Policy (PDF)",
+      "url": "https://buskids.ca/wp-content/uploads/2024/10/E-01-Transportation-Eligibility-Policy-BK.pdf",
+      "summary": "For Windsor and Essex County (WESTS, which serves this board): students attending their designated area school may ride if they live farther than 1.0 km (JK and SK), 1.6 km (Grades 1 to 8) or 3.2 km (secondary) from it. Students may have to walk up to 1.0 km (elementary) or 2.0 km (secondary) to a bus stop. Kindergarten children must be met at the stop.",
+      "source_date": "March 19, 2024",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 1,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-transport-francobus",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Règles de base (Francobus)",
+      "url": "https://francobus.ca/index.php/regles-de-base/",
+      "summary": "For Chatham-Kent, Sarnia, London, Woodstock and Owen Sound (Francobus): students in their school's attendance zone may ride if they live farther than 0,8 km (maternelle et jardin), 1,6 km (Grades 1 to 8) or 3,2 km (Grades 9 to 12) by walking route. Students may walk up to 0,4, 0,8 or 1,6 km to the stop. Transport is by written request.",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.8,
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Éducation spécialisée – Service à l'élève",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1091992&type=d&pREC_ID=1368328",
+      "summary": "Describes the board's special education programs (classroom accommodations, individual education plans, resource-teacher help, life-skills programs) and support services (psychology, speech-language, social work, special education and self-regulation staff). Pupils identified by an IPRC get an IEP, and anyone with an IEP gets a transition plan. The board's annual plan for 2026-27 is posted.",
+      "related": [
+        {
+          "title": "Plan ÉS final 2026-2027 (PDF)",
+          "url": "https://22.files.edl.io/6e34/06/30/26/130952-1ec8f800-a7e3-42d7-8cc3-44f3f5b35bc3.pdf"
+        },
+        {
+          "title": "Éducation spécialisée – Guide des parents (PDF)",
+          "url": "https://22.files.edl.io/22d4/04/23/24/183542-9d50a3c9-781c-4584-ba31-74a76b1ca780.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Comités du conseil",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1091906&type=d&pREC_ID=1368264",
+      "summary": "The board's committee page lists the Special Education Advisory Committee (CCÉS) among its statutory committees but has no page of its own for it. The special education plan says the committee advises the board on special education programs and services and takes part in the yearly plan review and budget. Minutes are kept with the board's meeting minutes.",
+      "related": [
+        {
+          "title": "Plan ÉS final 2026-2027 (PDF), section on the CCÉS",
+          "url": "https://22.files.edl.io/6e34/06/30/26/130952-1ec8f800-a7e3-42d7-8cc3-44f3f5b35bc3.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Gabarit pluriannuel accessibilité 2025 (PDF)",
+      "url": "https://22.files.edl.io/fd5b/06/16/25/131317-9a0ce979-c991-4992-8ac4-746062c087f7.pdf",
+      "summary": "The board's multi-year accessibility plan, written on the province's template and posted under Plans et rapports. It describes past work (automatic door openers, ramps, parking, visual and audible alarms), how requests are handled, accessible employment practices, and says it is reviewed at least every five years.",
+      "related": [
+        {
+          "title": "Plans et rapports",
+          "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1091906&type=d&pREC_ID=1368276"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Service d'aide aux nouveaux arrivants en Ontario",
+      "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1091993&type=d&pREC_ID=1368332",
+      "summary": "The board offers meetings with newcomer students and families, orientation to Ontario schools, information workshops for parents, cultural interpretation help and referrals to settlement services. The newcomer support program (PANA) helps students settle into French-language schooling and catch up in subjects; at secondary level it offers four literacy-level courses.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-planning",
+      "topic": "planning",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "PA – 9.010 Examen des secteurs de fréquentation scolaire (PDF)",
+      "url": "https://22.files.edl.io/fe2a/01/11/23/180004-1639a057-1421-473e-9325-0a08feaf5335.pdf",
+      "summary": "We found no long-term accommodation plan or school-by-school capacity table on the board's site. This procedure (approved December 19, 2022) sets how the board reviews school attendance areas, with public consultation. The board ran a Chatham-Kent boundary review in 2023. Any figures in such reviews are forecasts, and capacity is building space, not open seats.",
+      "source_date": "Approved December 19, 2022",
+      "related": [
+        {
+          "title": "Chatham-Kent Boundary Review (2023)",
+          "url": "https://www.cscprovidence.ca/apps/pages/ESFCK_en"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plan pour la réussite des élèves (PDF)",
+      "url": "https://22.files.edl.io/5e4e/07/06/26/124922-3b8cf271-a616-46e6-817b-ac4fc16147f6.pdf",
+      "summary": "The board's student achievement plan sets goals and measured results for reading and writing, mathematics, graduation and student engagement and well-being, with provincial comparisons. The posted file shows results for 2023-24 and 2024-25. The board's 2021-2026 strategic plan is also posted.",
+      "related": [
+        {
+          "title": "Planification stratégique 2021-2026 (PDF)",
+          "url": "https://22.files.edl.io/c0e3/03/02/23/201606-d7d678c8-43e5-46f4-8883-e60094d1e48e.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "PA – 7.052.1 Comité de participation des parents (PDF)",
+      "url": "https://22.files.edl.io/4587/12/18/19/001821-f68064cc-a871-4c18-b4bf-481cf264a245.pdf",
+      "summary": "The Parent Involvement Committee is a board-level group linking parents to the director of education and trustees on issues affecting several schools. It is listed among the board's statutory committees; the committee page gives meeting links and agendas.",
+      "source_date": "Approved January 17, 2011; amended May 30, 2016",
+      "related": [
+        {
+          "title": "Comités du conseil",
+          "url": "https://www.cscprovidence.ca/apps/pages/index.jsp?uREC_ID=1091906&type=d&pREC_ID=1368264"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "PA – 7.052.2 Participation des parents : Conseils d’école (PDF)",
+      "url": "https://22.files.edl.io/98ca/12/18/19/001821-a2193635-8499-4f6f-9166-792c34bc1e53.pdf",
+      "summary": "School councils give parents a way to take part in their child's education. They make recommendations to the principal and the board, and work on communication between school, parents and community. The procedure sets out their roles and how they run.",
+      "source_date": "Approved January 17, 2011",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "providence-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Assistance aux élèves et aux familles",
+      "url": "https://www.cscprovidence.ca/apps/pages/Assistance_aux_eleves_et_aux_familles1",
+      "summary": "Start with your child's teacher, then the principal, then the superintendent through the board's Student and Family Assistance Office. The office can also help with concerns not tied to a school. Human rights complaints go to the board's equity office, and the Ontario Ombudsman is listed as a further resource. A confidential bullying report form is available.",
+      "related": [
+        {
+          "title": "PA 5.001.2 Traitement des préoccupations des familles (PDF)",
+          "url": "https://22.files.edl.io/7428/09/08/26/153449-1e6453e7-9c45-4cbe-a04d-8d6ad35a1dc5.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

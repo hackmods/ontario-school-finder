@@ -1,0 +1,169 @@
+{
+  "board": "B79910",
+  "name": "The Protestant Separate School Board of the Town of Penetanguishene",
+  "short": "Penetanguishene PSSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "pssbp-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Student Registration (Burkevale Protestant Separate School)",
+      "url": "https://www.pssbp.ca/burkevale/student-registration",
+      "summary": "Burkevale Protestant Separate School (JK to Grade 8) is the board's only school. Register online through the board's Edsembli account or with a paper form. You need proof of age, immunization confirmation filed with the Simcoe Muskoka health unit, proof of address, custody papers if relevant and a property tax designation form. Children born in 2022 may register for JK and 2021 for SK in 2026-2027. Since 2020-21 the board accepts new families living outside the Town of Penetanguishene only if a sibling attends or the student is a staff member's child; this is reviewed each year.",
+      "related": [
+        {
+          "title": "Policy D-2 Registration and Attendance (PDF)",
+          "url": "https://www.pssbp.ca/wp-content/uploads/D-2-REGISTRATION-AND-ATTENDANCE-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pssbp-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "E-1 Transportation of Students (PDF)",
+      "url": "https://www.pssbp.ca/wp-content/uploads/E-1-TRANSPORTATION-OF-STUDENTS-2.pdf",
+      "summary": "Students living inside their walking zone are not eligible for the bus unless agreed otherwise. A courtesy rider spot may be requested in writing from the principal if there is surplus space. The board does not provide buses for students living outside the Town of Penetanguishene.",
+      "facts": {
+        "walk_km": {
+          "Kindergarten": 0.8,
+          "Other elementary students": 1.6
+        }
+      },
+      "source_date": "Approved September 8, 2025",
+      "related": [
+        {
+          "title": "Bus delay and cancellation information (Simcoe County school bus)",
+          "url": "https://simcoecountyschoolbus.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pssbp-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Plans (PSSBP)",
+      "url": "https://www.pssbp.ca/for-families/special-education-plans",
+      "summary": "The board's special education page links its current Special Education Plan (2026-2027) and earlier plans, a parent and caregiver guide to the IEP, and Ministry resources. The plan explains the IPRC process, placements available and IEPs.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.pssbp.ca/wp-content/uploads/SPECIAL-EDUCATION-PLAN-2026-2027-FINAL.pdf"
+        },
+        {
+          "title": "Parent and Caregiver Guide to the IEP (PDF)",
+          "url": "https://www.pssbp.ca/wp-content/uploads/IEP_Parent_Caregiver_Guide.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pssbp-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "PSSBP Committees",
+      "url": "https://www.pssbp.ca/about/pssbp-committees",
+      "summary": "The board's committees page lists its Special Education Advisory Committee (four-year terms) with its chair, alternate and the supervisory officer. The board's policy says the committee may advise the board on special education programs and services and takes part in the annual review of the special education plan.",
+      "related": [
+        {
+          "title": "Policy 2-IX Special Education Advisory Committee (PDF)",
+          "url": "https://www.pssbp.ca/wp-content/uploads/2-SCHOOL-BOARD-AND-COMMITTEE-ROLES-IX-SPECIAL-EDUCATION-ADVISORY-COMMITTEE-2-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pssbp-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility Planning (AODA)",
+      "url": "https://www.pssbp.ca/accessibility-planning",
+      "summary": "The board's accessibility page links its Multi-Year Accessibility Plan and 2025 accessibility compliance report, and takes feedback by email, in person, by letter or through a feedback form. Feedback goes to the Supervisory Officer, who replies in writing.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan (PDF)",
+          "url": "https://www.pssbp.ca/wp-content/uploads/Multi-Year-Accessibility-Plan-PDF.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pssbp-plan",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Strategic Plan 2022-2027",
+      "url": "https://www.pssbp.ca/multi-year-strategic-plan",
+      "summary": "The board's multi-year strategic plan for 2022 to 2027, with its mission and vision and a multi-pillar approach to well-being, plus yearly implementation updates (the latest dated May 2026). The board does not post a separate achievement plan on this page.",
+      "related": [
+        {
+          "title": "Strategic Plan Implementation Update May 2026 (PDF)",
+          "url": "https://www.pssbp.ca/wp-content/uploads/REPORT-NO.-2026-13-Strategic-Plan-Implementation-Update.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pssbp-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "PSSBP Committees (Parent Involvement Committee)",
+      "url": "https://www.pssbp.ca/about/pssbp-committees",
+      "summary": "The board has a Parent Involvement Committee, listed with its chair, alternate and supervisory officer; its policy says it advises the board on family engagement and supports the school council. Burkevale's own school council page lists its members and links the council policy and by-laws.",
+      "related": [
+        {
+          "title": "Burkevale School Council",
+          "url": "https://www.pssbp.ca/burkevale/school-council"
+        },
+        {
+          "title": "Policy 2-V Parent Involvement (PDF)",
+          "url": "https://www.pssbp.ca/wp-content/uploads/2-SCHOOL-BOARD-AND-COMMITTEE-ROLES-V-PARENT-INVOLVEMENT-1-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pssbp-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Student and Family Support Office",
+      "url": "https://www.pssbp.ca/for-families/student-and-family-support-office",
+      "summary": "Start with the teacher or staff member, then the principal. If the principal cannot resolve it, contact the Supervisory Officer; the page also has a Student and Family Support inquiry form for matters needing help beyond the school.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

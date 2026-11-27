@@ -1,0 +1,301 @@
+{
+  "board": "B28118",
+  "name": "Conseil scolaire public du Grand Nord de l'Ontario",
+  "short": "CS Grand Nord",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "cspgno-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscrivez votre enfant",
+      "url": "https://grandnord.ca/parents/inscription/",
+      "summary": "Start with a short online form to reserve a place (child, school, parent contact and which admission situation applies). The board then sends the full form and next steps. Children of French-language rights holders under section 23 qualify; others can ask for an admission committee to assess their French. A separate transfer form is for children already in a Grand Nord school.",
+      "related": [
+        {
+          "title": "Accès à l’éducation en français",
+          "url": "https://grandnord.ca/parents/acces-a-leducation-en-francais/"
+        },
+        {
+          "title": "Formulaire de transfert",
+          "url": "https://grandnord.ca/parents/inscription/formulaire-de-transfert/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-admission",
+      "topic": "registration",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Accès à l’éducation en français",
+      "url": "https://grandnord.ca/parents/acces-a-leducation-en-francais/",
+      "summary": "Under section 23 of the Charter, children can attend a French-language school if a parent's first language learned and still understood is French, a parent was schooled in French at elementary level in Canada, or a sibling was or is in French-language school. Other children may ask the principal for an admission committee, which checks the child's understanding, speaking, reading and writing of French for their age and grade.",
+      "related": [
+        {
+          "title": "B-007 Admission, accueil et accompagnement (PDF)",
+          "url": "https://grandnord.ca/wp-content/uploads/2020/01/B-007-Admission-accueil-et-accompagnement-2.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (regional bus consortia)",
+      "url": "https://ahsts.mybusplanner.ca/Eligibility",
+      "summary": "The board runs no address lookup, but its bus consortia do, and its transportation page points to them. Algoma & Huron-Superior and East of Thunder Bay each have a public \"Which School do I Attend?\" page for an address (choose the Conseil scolaire public du Grand Nord); Thunder Bay city has its own address lookup. We could not open the Sudbury consortium's site (blocked), so for Sudbury-area addresses ask the board or school. The school can confirm any result.",
+      "related": [
+        {
+          "title": "Which School do I Attend? (East of Thunder Bay Transportation Consortium)",
+          "url": "https://etbtc.mybusplanner.ca/Eligibility"
+        },
+        {
+          "title": "Address Eligibility Lookup (Student Transportation Services of Thunder Bay)",
+          "url": "https://ststb.ca/en/schools/address-eligibility-lookup"
+        },
+        {
+          "title": "Transport scolaire",
+          "url": "https://grandnord.ca/ecoles/transport/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-alf",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Actualisation linguistique en français",
+      "url": "https://grandnord.ca/programmes/actualisation-linguistique-en-francais/",
+      "summary": "This French-language board has no French Immersion. Its ALF program is a francization program, through play, for students from kindergarten to Grade 2 who need extra help learning French. It has a parent guide and its own ALF site; contact the board's educational services (705 671-1533, ext. 2251) for details.",
+      "related": [
+        {
+          "title": "Guide des parents ALF (PDF)",
+          "url": "https://grandnord.ca/wp-content/uploads/2023/05/ALF-GuideParent2023.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscrivez votre enfant",
+      "url": "https://grandnord.ca/parents/inscription/",
+      "summary": "We did not find a published policy for asking to attend a school outside your area. The board has a transfer form for children moving between its schools, which moves records; the school can say whether a school other than your area school is possible. Ask the board.",
+      "related": [
+        {
+          "title": "Formulaire de transfert",
+          "url": "https://grandnord.ca/parents/inscription/formulaire-de-transfert/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport scolaire",
+      "url": "https://grandnord.ca/ecoles/transport/",
+      "summary": "The board may provide transportation but is not required to, and uses regional consortia: Sudbury and Manitoulin, the City of Thunder Bay, the district of Thunder Bay and Algoma, each with its own contact on the page. The board's page does not give walk distances; check eligibility with the consortium for your address.",
+      "related": [
+        {
+          "title": "E-001 Transport scolaire (PDF)",
+          "url": "https://grandnord.ca/wp-content/uploads/2020/01/E-001-Transport-scolaire-2.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Éducation spécialisée",
+      "url": "https://grandnord.ca/programmes/enfance-en-difficulte/",
+      "summary": "Describes early and ongoing screening from kindergarten, individual education plans (PEI) and the identification committee (CIPR) of a superintendent, principal and teacher. It has a parent guide, a pamphlet and the 2025-2026 annual special education report (revised July 2026); contact Student Services (705 671-1533, ext. 2218).",
+      "related": [
+        {
+          "title": "Rapport annuel en éducation spécialisée 2025-2026 (PDF)",
+          "url": "https://grandnord.ca/wp-content/uploads/2026/08/GN_Rapport-annuel-ES-2025-2026_revise-le-28-juillet-2026.pdf"
+        },
+        {
+          "title": "Guide aux parents (PDF)",
+          "url": "https://grandnord.ca/wp-content/uploads/2025/07/2025-Guide-aux-parents_revise-le-4-juillet-2025.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Comité consultatif chargé de l’éducation spécialisée",
+      "url": "https://grandnord.ca/gouvernance/comites/cced/",
+      "summary": "The board's special education advisory committee page lists meeting minutes; the latest shown is a meeting on September 30, 2024. For current dates or how to take part, ask the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibilité",
+      "url": "https://grandnord.ca/accessibilite/",
+      "summary": "The board's accessibility page gives its customer service standards and policy. The multi-year plan it links covers September 2019 to August 2024; we found no newer plan, so ask the board for the current one. Plans are board-wide, not about a particular school building.",
+      "related": [
+        {
+          "title": "Plan d’accessibilité pluriannuel 2019-2024 (PDF)",
+          "url": "https://grandnord.ca/wp-content/uploads/2023/12/Plan-daccessibilite-2019-2024.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Appui aux nouveaux arrivants",
+      "url": "https://grandnord.ca/parents/appui-aux-nouveaux-arrivants/",
+      "summary": "The board has a guide website for newly arrived families (PANA) and, through its partner the Centre de santé communautaire du Grand Sudbury, settlement workers in schools who help with finding a school, navigating the French-language system and local services. Contact details are on the page.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-ltap",
+      "topic": "planning",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "F-008 Examen des installations scolaires (PDF)",
+      "url": "https://grandnord.ca/wp-content/uploads/2020/01/F-008-Examen-des-installations-scolaires-1.pdf",
+      "source_date": "Révisée le 27 octobre 2020",
+      "summary": "The board's procedure for reviewing school facilities, which can lead to closing, consolidating or moving a school. It is a process document, not a plan: we found no long-term accommodation plan with capacity and enrolment on the board's site. Capacity is building space, not open seats, and any projections are forecasts.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plans d’action",
+      "url": "https://grandnord.ca/conseil/plans-daction/",
+      "source_date": "2025-2026",
+      "summary": "The board's student achievement plan for 2025-2026, built on provincial priorities, with goals and indicators such as literacy results and graduation rates next to the provincial figures. It also describes the board's global competencies. These are board-wide results, not a school's.",
+      "related": [
+        {
+          "title": "Plan pour la réussite des élèves (PDF)",
+          "url": "https://grandnord.ca/wp-content/uploads/2026/05/CSD-du-Grand-Nord-de-lOntario_PRE_version-publique-2.pdf"
+        },
+        {
+          "title": "Plan stratégique 2024-2029",
+          "url": "https://grandnord.ca/gouvernance/plan-strategique-du-conseil/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "H-002 Comité de participation des parents (PDF)",
+      "url": "https://grandnord.ca/wp-content/uploads/2020/01/H-002-DA-Comite-de-participation-des-parents-1-1.pdf",
+      "source_date": "Modifiée le 19 mars 2025",
+      "summary": "The directive for the Parent Involvement Committee, which links parents, trustees and the director of education and plans regional parent involvement initiatives. It sets the committee's duties and membership (at least four parents, with parents the majority at meetings). The committee's meetings page was last updated in 2021.",
+      "related": [
+        {
+          "title": "Réunions du comité de participation des parents",
+          "url": "https://grandnord.ca/gouvernance/comites/comite-participation-parents/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "H-001 Conseils d’école (PDF)",
+      "url": "https://grandnord.ca/wp-content/uploads/2020/01/H-001-Conseils-decole-3.pdf",
+      "source_date": "Modifiée le 12 février 2024",
+      "summary": "The directive on school councils, whose goals are better student achievement and well-being and more accountability to parents. Councils make recommendations to the principal and the board, and principals tell all parents the dates of elections and meetings in writing. Ask your school how to join.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspgno-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Bureau d’assistance aux élèves et aux familles",
+      "url": "https://grandnord.ca/parents/bureau-dassistance-aux-eleves-et-aux-familles/",
+      "summary": "Talk first to the teacher, then the principal. If the matter is still open, the Student and Family Assistance Office takes requests by online form; it says it acknowledges within 2 business days and aims to answer within 5 business days.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

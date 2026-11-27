@@ -1,0 +1,150 @@
+{
+  "board": "B80004",
+  "name": "Niagara Children's Centre School Authority",
+  "short": "Niagara Children's Centre School",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "npcc-apply",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "School Applications",
+      "url": "https://www.niagarachildrenscentre.com/schoolreferrals",
+      "summary": "Children join through an application, not by address. An admissions committee (the school principal, a special education consultant and the centre's clinical services manager) reviews each package. Applications for the next school year are open from mid-January until March Break, and families are told by April; the page says more applications arrive than there are places. Referrals come from the centre, community agencies and the local school boards; children already in a community school should talk to the school's resource teacher or principal.",
+      "related": [
+        {
+          "title": "Programs (admission criteria)",
+          "url": "https://www.niagarachildrenscentre.com/school-programs"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npcc-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Programs (Niagara Children's Centre School Authority)",
+      "url": "https://www.niagarachildrenscentre.com/school-programs",
+      "summary": "Students aged 4 to 21 with physical and communication disabilities learn in six mixed-age classrooms with a special education teacher, educational assistants and therapists. Every student has an IEP developed with parents and shared in November, February and June. Admission needs an Ontario health card, residence in Niagara, a need for a team approach and complex needs in two or more therapy areas.",
+      "related": [
+        {
+          "title": "For Families (transition planning)",
+          "url": "https://www.niagarachildrenscentre.com/school-families"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npcc-transition",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "For Families (Transition Planning)",
+      "url": "https://www.niagarachildrenscentre.com/school-families",
+      "summary": "The school is not meant to be a permanent placement (typically one to two years). Each move to or from a community school is planned with the family and the receiving school and written into the IEP transition plan. The school also provides a parent handbook and its complaints contact.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npcc-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "For Families (Transportation)",
+      "url": "https://www.niagarachildrenscentre.com/school-families",
+      "summary": "The school provides bus transportation for all enrolled students, arranged through Niagara Student Transportation Services (general@nsts.ca, 905-357-6787). Rides can take up to 90 minutes because of the area covered. The page gives no walk distances.",
+      "related": [
+        {
+          "title": "Niagara Student Transportation Services",
+          "url": "https://www.nsts.ca/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npcc-council",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Council",
+      "url": "https://www.niagarachildrenscentre.com/schoolcouncil",
+      "summary": "The school council advises the principal on the school calendar, programs, parent education, the budget and Ministry initiatives, and it also serves as the school's Special Education Advisory Committee. It has parent and school representatives; the page lists the next meeting (November 10, 2026, 6 p.m., in person) and asks families to contact the school office to attend.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npcc-involve",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Council (parent involvement)",
+      "url": "https://www.niagarachildrenscentre.com/schoolcouncil",
+      "summary": "Parents join the school council, which meets in person at the school, with minutes available on request by emailing the school secretary. The Parent and Guardian Handbook, linked on the For Families page, covers how the school involves families.",
+      "related": [
+        {
+          "title": "For Families",
+          "url": "https://www.niagarachildrenscentre.com/school-families"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npcc-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "For Families (Complaints Process)",
+      "url": "https://www.niagarachildrenscentre.com/school-families",
+      "summary": "The school's complaints process on its For Families page tells parents with any concern to contact the school principal by phone at 905-688-1890 ext. 230. No further steps are published there.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "npcc-plan",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Strategic Priorities",
+      "url": "https://www.niagarachildrenscentre.com/school-strategicpriorities",
+      "summary": "The school's strategic plan for 2025-2030 sets three pillars: Learning (communication, early literacy and numeracy, well-being), Community Connection and Culture. The page links the full plan document; it is a strategic plan, not a test-score achievement plan.",
+      "related": [
+        {
+          "title": "Niagara Children's Centre Strategic Plan (PDF)",
+          "url": "https://www.niagarachildrenscentre.com/uploads/school/Niagara%20Childrens%20Centre-Strat%20Plan-2025-26.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

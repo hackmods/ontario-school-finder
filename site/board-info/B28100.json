@@ -1,0 +1,275 @@
+{
+  "board": "B28100",
+  "name": "Conseil scolaire public du Nord-Est de l'Ontario",
+  "short": "CSPNE",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "cspne-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Comment inscrire votre enfant?",
+      "url": "https://cspne.ca/inscription/comment-inscrire-votre-enfant",
+      "summary": "Register with the board's online form, or book a time with the school principal to visit and register. A child of a parent who holds French-language rights under section 23 of the Charter may attend if the family lives in the board's area. Other families can go before an admission committee (principal, a teacher and a superintendent) that weighs the child's French and the family's use of and commitment to French; the directive says it answers within 5 working days. Kindergarten age is 4 by December 31.",
+      "related": [
+        {
+          "title": "Qui peut s’inscrire?",
+          "url": "https://cspne.ca/inscription/qui-peut-s-inscrire"
+        },
+        {
+          "title": "Formulaire d'inscription",
+          "url": "https://cspne.ca/inscription/formulaire-inscription"
+        },
+        {
+          "title": "Admission des élèves (ELE-adm-055DA, PDF)",
+          "url": "https://cspne.ca/sites/default/files/politiques/2025/ele-adm-055da.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (Transport EnRoute)",
+      "url": "https://enroute.mybusplanner.ca/Eligibility",
+      "summary": "The board's transportation page sends families to its two bus consortia. Transport EnRoute (Temagami to Hearst) has a public \"Which School do I Attend?\" page for an address; choose the Conseil scolaire public du Nord-Est de l'Ontario. In the North Bay, West Nipissing and Parry Sound area, use the NPSSTS version listed below. The school can confirm the result.",
+      "related": [
+        {
+          "title": "Which School do I Attend? (Nipissing-Parry Sound Student Transportation Services)",
+          "url": "https://geoquery.npssts.ca/Eligibility"
+        },
+        {
+          "title": "Transport scolaire",
+          "url": "https://cspne.ca/ecoles/transport-scolaire"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-francais",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Vous ne parlez pas français?",
+      "url": "https://cspne.ca/inscription/vous-ne-parlez-pas-francais",
+      "summary": "We found no page describing support for students who are still learning French (ALF, PANA or welcome classes). The closest page is for parents who do not speak French: staff will help with registration, the site has a translation tool, and a guide to translating school messages is posted. Ask the school or the board what language help is offered; French Immersion does not apply in a French-language board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Admission des élèves (ELE-adm-055DA, PDF)",
+      "url": "https://cspne.ca/sites/default/files/politiques/2025/ele-adm-055da.pdf",
+      "source_date": "Révisée le 27 février 2025",
+      "summary": "We found no published process for asking to attend a different school from your area school. The board's admission directive covers who may be admitted to the board (rights holders and the admission committee), not moves between schools. Ask the principal of the school you would like, and the bus consortium about transportation.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport scolaire",
+      "url": "https://cspne.ca/ecoles/transport-scolaire",
+      "summary": "The board offers transportation to eligible students through two consortia: Transport EnRoute (Temagami to Hearst) and Nipissing-Parry Sound Student Transportation Services (North Bay, West Nipissing, Parry Sound). In the NPSSTS area the published walking distances are 0 km for JK and SK, 1.0 km for Grades 1 to 3, 1.6 km for Grades 4 to 8 and 3.0 km for secondary. We found no distances on the EnRoute pages.",
+      "related": [
+        {
+          "title": "Eligibility (NPSSTS)",
+          "url": "https://npssts.ca/eligibility"
+        },
+        {
+          "title": "Transport EnRoute",
+          "url": "https://transportenroute.ca/fr"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Éducation spécialisée",
+      "url": "https://cspne.ca/education/services/education-specialisee",
+      "summary": "The board's special education page links its 2026-2027 plan of special education programs and services, a parent guide, and the Special Education Advisory Committee minutes. The plan describes the service model, early identification and the identification, placement and review committee (IPRC) process. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Plan des programmes et des services en éducation spécialisée 2026-2027 (PDF)",
+          "url": "https://cspne.ca/sites/default/files/documents/2026/plan-programmes-es-2.pdf"
+        },
+        {
+          "title": "Guide du parent - Services de l’éducation spécialisée (PDF)",
+          "url": "https://cspne.ca/sites/default/files/documents/2024/guide-services-leducation-specialisee-parent.pdf"
+        }
+      ],
+      "source_date": "2026-2027",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Comité consultatif pour éducation spécialisée",
+      "url": "https://cspne.ca/conseil/gouvernance/comites/comite-consultatif-education-specialisee",
+      "summary": "The board's Special Education Advisory Committee page lists its members and posts minutes of its meetings; the most recent we saw were for the 2024-2025 school year (the last dated June 6, 2025). Contact the board for how to take part.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibilité",
+      "url": "https://cspne.ca/conseil/qui-nous-sommes/accessibilite",
+      "summary": "The board's multi-year accessibility plan for 2021 to 2026 describes how it will prevent and remove barriers in employment, information, communications and transportation. The page lists the board's accessibility directives and says adapted formats are available on request from the facilities director.",
+      "related": [
+        {
+          "title": "Plan pluriannuel d’accessibilité 2021-2026 (PDF)",
+          "url": "https://cspne.ca/sites/default/files/documents-listes/2024/cspne-plan-pluriannuel-accessibilite-2021-2026.pdf"
+        }
+      ],
+      "source_date": "2021-2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Admission des élèves (ELE-adm-055DA, PDF)",
+      "url": "https://cspne.ca/sites/default/files/politiques/2025/ele-adm-055da.pdf",
+      "source_date": "Révisée le 27 février 2025",
+      "summary": "We found no welcome or assessment centre page. The admission directive sends some newcomer families to a faster admission committee review, such as French-speaking families from abroad who are not rights holders, or children whose parents speak neither French nor English. School staff also help families who do not speak French with registration.",
+      "related": [
+        {
+          "title": "Vous ne parlez pas français?",
+          "url": "https://cspne.ca/inscription/vous-ne-parlez-pas-francais"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-planning",
+      "topic": "planning",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Examen des installations scolaires destinées aux élèves",
+      "url": "https://cspne.ca/conseil/politiques/examen-installations-scolaires-destinees-aux-eleves",
+      "summary": "We found no long-term accommodation plan. The board's policy and directive (ENT-004, revised June 12, 2026) set the steps for a pupil accommodation review before schools are changed or closed, including public reports and community involvement. Capacity is building space, not open seats, and enrolment forecasts are projections.",
+      "related": [
+        {
+          "title": "ENT-004DA : Examen des installations scolaires destinées aux élèves (PDF)",
+          "url": "https://cspne.ca/sites/default/files/politiques/2026/ent-004da.pdf"
+        }
+      ],
+      "source_date": "Révisée le 12 juin 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-success",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Amélioration du rendement des élèves",
+      "url": "https://cspne.ca/education/amelioration-du-rendement-eleves",
+      "summary": "Under Ontario law the board publishes a multi-year Student Achievement Plan. It follows three provincial priorities: core academic skills, preparing students for success, and student engagement and well-being. The page posts the public report on the 2025-2026 plan with goals, key indicators and actions.",
+      "related": [
+        {
+          "title": "Plan pour la réussite des élèves CSPNE 2025-2026 (PDF)",
+          "url": "https://cspne.ca/sites/default/files/documents/2025/plan-reussite-eleves-cspne-2025-2026.pdf"
+        }
+      ],
+      "source_date": "2025-2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-involve",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Participation des parents",
+      "url": "https://cspne.ca/education/participation-parents",
+      "summary": "Each school has a school council of parents and staff; contact the principal to join. The Parent Involvement Committee has one representative per school and advises the board on how to involve and communicate with parents. The representative is not necessarily a school council member. The page links guides for council members.",
+      "related": [
+        {
+          "title": "Comité de participation des parents",
+          "url": "https://cspne.ca/conseil/gouvernance/comites/comite-participation-parents"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cspne-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Protocole de communication pour les parents",
+      "url": "https://cspne.ca/education/participation-parents/protocole-communication-parents",
+      "summary": "Start with your child's teacher, then the school. If your question or concern is still not answered, contact the board's Student and Family Assistance Office. The protocol aims to acknowledge a message within 2 working days and answer fully within 5. Bus concerns go to the bus consortium for your region.",
+      "related": [
+        {
+          "title": "Bureau d'assistance aux élèves et aux familles",
+          "url": "https://cspne.ca/bureau-assistance"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

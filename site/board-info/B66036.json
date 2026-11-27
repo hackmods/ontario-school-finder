@@ -1,0 +1,334 @@
+{
+  "board": "B66036",
+  "name": "Lambton Kent District School Board",
+  "short": "LKDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "lkdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration",
+      "url": "https://www.lkdsb.net/page/registration/",
+      "summary": "Parents are encouraged to register students who are new to a school (or not pre-registered) before the first day of the school year. You must show legal proof of age and proof of residency such as a utility or tax bill. A current immunization record must be on file with the local health unit. Check which school serves your address with the board's lookup, then contact the school principal with questions.",
+      "related": [
+        {
+          "title": "Which school will my child attend?",
+          "url": "https://class.mybusplanner.ca/Eligibility.aspx"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-register-k",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten Registration",
+      "url": "https://www.lkdsb.net/page/kindergarten-registration/",
+      "summary": "For children who will be four or five by December 31, 2027. Families find their school with the board's lookup, then make a parent account in the board's student information system and follow the steps to register. The page lists a Kindergarten Registration event on Wednesday, January 20 from 4:00 to 7:00 p.m. (no year is shown; the board updates the page yearly). Bring a birth certificate or proof of status, proof of residency and emergency contacts.",
+      "related": [
+        {
+          "title": "Which school will my child attend?",
+          "url": "https://class.mybusplanner.ca/Eligibility.aspx"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School Do I Attend? (CLASS BusPlanner)",
+      "url": "https://class.mybusplanner.ca/Eligibility.aspx",
+      "summary": "The lookup the board points families to: enter a street address and choose Lambton Kent District School Board to see the school that serves it. The same tool, run by the Chatham-Kent Lambton Administrative School Services (CLASS) transportation consortium, also serves St. Clair Catholic. Ask the school or board if the result looks wrong for your address.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Immersion",
+      "url": "https://www.lkdsb.net/page/french-immersion/",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "JK"
+        ]
+      },
+      "summary": "LKDSB runs early French Immersion that begins in Junior Kindergarten; no French is needed at home. Immersion Kindergarten registration happens at the same time as English Kindergarten registration. The page says instruction is in French from JK to Grade 2 and moves to half French and half English from Grade 3 to Grade 8. Eight elementary schools offer it. The page describes no lottery or waitlist and no later entry grade; ask the board about joining after JK.",
+      "related": [
+        {
+          "title": "Kindergarten Registration",
+          "url": "https://www.lkdsb.net/page/kindergarten-registration/"
+        },
+        {
+          "title": "Which school will my child attend?",
+          "url": "https://class.mybusplanner.ca/Eligibility.aspx"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion: secondary program",
+      "url": "https://www.lkdsb.net/page/french-immersion/",
+      "program": "french-immersion",
+      "summary": "French Immersion continues in high school at three LKDSB secondary schools: Chatham-Kent Secondary School, Lambton Central Collegiate and Vocational Institute (Petrolia) and Northern Collegiate Institute and Vocational School (Sarnia). The board page has sections on the courses taught in French and the credits needed for the certificates; ask the school for the current requirements.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Attendance Areas (Administrative Procedure A-AD-107) (PDF)",
+      "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/44efcd5c-83bc-48ec-82ad-462aed9438b6/School_Attendance_Areas_AP.pdf?disposition=inline",
+      "summary": "To attend a school outside your home attendance area, apply in writing through your home school principal to the principal of the school you want. Approval depends on room, on staffing and organization not being affected, and on the student not being under suspension or expulsion. A full school keeps a waiting list, first come first served. Reapply each year. Transportation is not normally provided for out-of-area students.",
+      "source_date": "Reviewed February 25, 2019",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-transport",
+      "topic": "transportation",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Can I Ride a Bus? (CLASS BusPlanner)",
+      "url": "https://class.mybusplanner.ca/TransportationEligibility",
+      "summary": "We could not read the transportation eligibility rules: the CLASS consortium site that publishes them (cklass.ca) refused automated reading, and the board's Transportation of Students policy page did not expose its text. The CLASS tool checks whether a given address qualifies for a bus. Ask CLASS or the school for the walk distances that apply. The board says out-of-area students are not normally bused.",
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "lkdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Plan",
+      "url": "https://www.lkdsb.net/page/special-education-plan/",
+      "summary": "The board's Special Education Plan, which it reviews every year with its Special Education Advisory Committee, with sections on programs and services, early identification, assessment and the identification process, plus a place to give feedback. A placement in a regular classroom is the first option an IPRC considers. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Programs and Services",
+          "url": "https://www.lkdsb.net/page/special-education-programs-services/"
+        },
+        {
+          "title": "Identification, Placement and Review Committee (IPRC)",
+          "url": "https://www.lkdsb.net/page/identification-placement-review-committee/"
+        },
+        {
+          "title": "Individual Education Plan (IEP)",
+          "url": "https://www.lkdsb.net/page/individual-education-plan/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.lkdsb.net/page/special-education-advisory-committee/",
+      "summary": "The page describes what SEAC does (advises the board on programs and services for exceptional students), who sits on it, and says it meets monthly in the school year with community members welcome. It links brochures for families and a list of meeting dates.",
+      "related": [
+        {
+          "title": "SEAC meetings",
+          "url": "https://www.lkdsb.net/page/special-education-advisory-committee-meetings/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan, January 2026 to December 2029 (PDF)",
+      "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/75260184-bbba-48cf-9718-1f8bf3f38230/FINAL_-_Multi-Year_Accessibility_Plan_-_2026-2.pdf?disposition=inline",
+      "summary": "The board's multi-year plan under the Accessibility for Ontarians with Disabilities Act, prepared by its Accessibility Committee and reviewed at least every five years. The board's accessibility page also has a feedback form and its annual compliance report.",
+      "related": [
+        {
+          "title": "Accessibility",
+          "url": "https://www.lkdsb.net/page/accessibility/"
+        }
+      ],
+      "source_date": "January 2026 to December 2029",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Registration",
+      "url": "https://www.lkdsb.net/page/registration/",
+      "summary": "We looked for a welcome or reception centre and English language learner supports for newcomer families and found none described on the board site. The registration page does not mention one. The board's International Education page lists English as a Second Language supports, but for its international (visa) students. Ask the school, or the Student and Family Support Office, what language supports are available for your child.",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.lkdsb.net/page/student-family-support-office/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accommodation Review",
+      "url": "https://www.lkdsb.net/page/accommodation-review/",
+      "summary": "The board's accommodation planning page: pupil accommodation reports, capital plans, reviews of school groups and the Ministry guidelines. Its long-term capital and accommodation plan has a page for each school with building capacity and enrolment, and projections. Projections are forecasts, and capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "2024-2025 Long Term Capital and Accommodation Plan (PDF)",
+          "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/e808588d-a0ae-4538-8676-6a31ba79445d/FINAL_2024_2025_LKDSB_LTCAP.pdf?disposition=inline"
+        }
+      ],
+      "source_date": "Plan dated January 2025",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.lkdsb.net/page/student-achievement-plan/",
+      "summary": "The board's Student Achievement Plan public reporting template (the former Board Improvement Plan), required every year, with board and provincial results on core academic skills, preparing students for future success, and engagement and well-being, plus the board's action plans. The posted version is for 2024-2025; the board said it was completing the tool for the next cycle by June 30, 2026.",
+      "related": [
+        {
+          "title": "Strategic Priorities (Multi-Year Strategic Plan 2026/27 to 2030/31)",
+          "url": "https://www.lkdsb.net/page/strategic-priorities/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.lkdsb.net/page/parent-involvement-committee/",
+      "summary": "The board-level committee that links parents with the board and supports school councils. The page posts agendas and minutes by school year, by-laws and an email for questions to the committee.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Councils (Policy P-AD-102) (PDF)",
+      "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/c247d006-cad9-4b6f-95fc-e7b7cda9f2fb/School_Council_-_Policy.pdf?disposition=inline",
+      "summary": "Board policy to set up a school council at every school, under Ontario Regulation 612/00. Each school posts its own council members and meeting dates on its website; ask your school for details on joining.",
+      "source_date": "Revised January 16, 2018",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "lkdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Public Concerns Regulations (R-AD-163) (PDF)",
+      "url": "https://files-backend.assets.thrillshare.ca/documents/asset/uploaded_file/1000008/Lkd/97cde7fc-be31-4546-9f2f-bbd19ad33222/Public-Concerns-Regulations.pdf?disposition=inline",
+      "summary": "For a school concern: first your child's teacher, then the principal, then the superintendent's administrative assistant, then the school superintendent, then the CEO, who may arrange mediation. Beyond that, the Ministry regional office or the Ontario Ombudsman. The Student and Family Support Office can also help; it aims to acknowledge within two business days and respond within five.",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.lkdsb.net/page/student-family-support-office/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion",
+      "url": "https://www.lkdsb.net/page/french-immersion/",
+      "verified": "2026-11-26",
+      "schools": {
+        "185841": "Errol Road (Sarnia)",
+        "247197": "Harwich Raleigh (Blenheim)",
+        "255394": "High Park (Sarnia)",
+        "258016": "Hillcrest (Petrolia)",
+        "356026": "McNaughton Ave (Chatham)",
+        "516074": "Sir John Moore (Corunna)",
+        "919322": "Chatham Kent Secondary School (Chatham)",
+        "921408": "Lambton Central Collegiate and Vocational Institute (Petrolia)",
+        "930636": "Northern Collegiate Institute & Vocational School (Sarnia)",
+        "066370": "Brooke Central (Alvinston)",
+        "088609": "Cathcart Blvd. (Sarnia)"
+      }
+    }
+  ]
+}

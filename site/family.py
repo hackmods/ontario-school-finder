@@ -4,7 +4,7 @@ Kept apart from generate.py so the rules are small, testable functions:
 - `grades_offered` reads the Ministry's grade range ("JK-8") into the grades a school offers;
 - `program_badges` is the one program vocabulary used on school pages, board lists and Compare
   (lib.js has the same labels for search results and map popups; a test keeps them in step);
-- `BoardInfo` serves the records in site/board-info.json to each school by board, level and program;
+- `BoardInfo` serves the records in site/board-info/ (one file per board) to each school by board, level and program;
 - `visit_questions` turns verified facts into questions to ask on a visit. No model, no guessing.
 """
 from __future__ import annotations
@@ -16,6 +16,17 @@ from pathlib import Path
 
 GRADE_ORDER = ["JK", "K"] + [str(i) for i in range(1, 13)]
 GRADE_LABEL = {"JK": "Junior kindergarten", "K": "Senior kindergarten", **{str(i): f"Grade {i}" for i in range(1, 13)}}
+
+
+def entry_grades(records: list[dict], program: str = "french-immersion") -> list[str] | None:
+    """Every entry grade a board publishes for a program (early and middle Immersion can both apply), in grade order."""
+    grades = {g for r in records if r.get("program") == program for g in (r.get("facts") or {}).get("entry_grades", [])}
+    return [g for g in GRADE_LABEL if g in grades] or None
+
+
+def grade_words(grades: list[str]) -> str:
+    """["K", "4"] -> "Senior kindergarten or Grade 4"."""
+    return " or ".join(GRADE_LABEL.get(g, f"Grade {g}") for g in grades)
 
 # One program vocabulary everywhere (keep in step with PROGRAM_LABELS in site/static/js/lib.js).
 PROGRAM_LABELS = {
@@ -103,20 +114,42 @@ def program_badges(s: dict, board_listed: dict | None = None) -> list[dict]:
 
 
 class BoardInfo:
-    """site/board-info.json, served per school. Records are inherited from the board, filtered by the
-    school's level (and program, for program records), plus anything recorded for the school itself."""
+    """site/board-info/: _meta.json plus one <board number>.json per board, served per school. Records are
+    inherited from the board, filtered by the school's level (and program, for program records), plus anything
+    recorded for the school itself and approved decisions that name it."""
 
     TOPICS = ["registration", "address_lookup", "program", "transfer", "transportation", "special_education", "seac",
               "accessibility", "newcomer", "planning", "achievement_plan", "involvement", "concerns"]
 
-    def __init__(self, path: Path, today: date | None = None):
-        self.raw = json.loads(path.read_text(encoding="utf-8"))
+    def __init__(self, folder: Path, today: date | None = None):
+        self.meta = json.loads((folder / "_meta.json").read_text(encoding="utf-8"))
         self.today = today or date.today()
-        self.refresh = self.raw.get("refresh_days", {})
-        self.boards = self.raw.get("boards", {})
-        self.schools = self.raw.get("schools", {})
-        self.decisions = self.raw.get("decisions", [])
-        self.lists = {k: v for k, v in self.raw.get("school_programs", {}).items() if not k.startswith("_")}
+        self.refresh = self.meta.get("refresh_days", {})
+        self.boards: dict[str, dict] = {}
+        self.schools: dict[str, dict] = {}
+        self.decisions: list[dict] = []
+        self.lists: dict[str, list[dict]] = {}
+        for p in sorted(folder.glob("B*.json")):
+            b = json.loads(p.read_text(encoding="utf-8"))
+            num = b["board"]
+            if p.stem != num:
+                raise ValueError(f"{p.name} holds board {num}")
+            self.boards[num] = b
+            for bsid, s in (b.get("schools") or {}).items():
+                self.schools[bsid] = s
+            self.decisions += [{**d, "board": num} for d in b.get("decisions") or []]
+            if b.get("school_programs"):
+                self.lists[num] = b["school_programs"]
+
+    @staticmethod
+    def files(folder: Path) -> list[Path]:
+        """Every file the site is built from (for the data version hash)."""
+        return [folder / "_meta.json", *sorted(folder.glob("B*.json"))]
+
+    def coverage(self) -> dict:
+        """How many boards have records, and the range of dates they were checked."""
+        checked = sorted(b.get("checked") for b in self.boards.values() if b.get("checked"))
+        return {"boards": len(self.boards), "first": checked[0] if checked else None, "last": checked[-1] if checked else None}
 
     def stale(self, rec: dict) -> bool:
         """True when a record is older than its lifecycle allows (deadlines go stale faster than rules)."""
@@ -129,9 +162,9 @@ class BoardInfo:
     def board_listed(self, s: dict) -> dict:
         """{program: {title, url, name_on_list, verified}} for programs the school's board lists it under."""
         out = {}
-        lst = self.lists.get(s["board_number"])
-        if lst and s["bsid"] in lst["schools"]:
-            out[lst["program"]] = {"title": lst["title"], "url": lst["url"], "name_on_list": lst["schools"][s["bsid"]], "verified": lst["verified"]}
+        for lst in self.lists.get(s["board_number"], []):
+            if s["bsid"] in lst["schools"]:
+                out[lst["program"]] = {"title": lst["title"], "url": lst["url"], "name_on_list": lst["schools"][s["bsid"]], "verified": lst["verified"]}
         return out
 
     def for_board(self, board: str) -> dict:
@@ -161,7 +194,7 @@ class BoardInfo:
             if s["bsid"] in d["schools"]:
                 by_topic.setdefault(d["topic"], []).append({**d, "stale": self.stale(d), "scope": "school"})
         return {"collected": bool(b), "board_name": b["name"] if b else s["board_name"], "topics": by_topic,
-                "checked": self.raw.get("checked")}
+                "checked": b.get("checked") if b else None}
 
 
 def visit_questions(s: dict, *, info: dict, badges: list[dict], offered: list[str] | None, class_status: dict | None,
@@ -175,8 +208,8 @@ def visit_questions(s: dict, *, info: dict, badges: list[dict], offered: list[st
                  f"(The Ministry lists {offered[0] if offered[0] not in ('JK', 'K') else 'kindergarten'} to Grade {offered[-1]}.)")
     if "french-immersion" in keys:
         prog = topics.get("program") or []
-        entry = next((r.get("facts", {}).get("entry_grades") for r in prog if r.get("facts", {}).get("entry_grades")), None)
-        when = f" (the board's entry grade is Grade {entry[0]})" if entry else ""
+        entry = entry_grades(prog)
+        when = f" (the board lists entry in {grade_words(entry)})" if entry else ""
         q.append(f"How do families apply for French Immersion{when}, when is the registration window, and is there a waitlist?")
         q.append("If my child lives outside this school's area, is transportation provided to the Immersion program?")
     if topics.get("transfer"):

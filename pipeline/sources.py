@@ -421,7 +421,7 @@ def all_resources() -> list[dict]:
         out.append({**r, "dataset": "class_size"})
     for r in EQAO_OPEN_RESOURCES:
         out.append({**r, "dataset": "eqao_repo"})
-    for r in EQAO_SQ_RESOURCES:
+    for r in EQAO_SQ_RESOURCES + EQAO_SQ_HISTORY:
         out.append({**r, "dataset": "eqao_sq"})
     out.append({**FSL_RESOURCE, "dataset": "fsl"})
     out.append({**SHSM_RESOURCE, "dataset": "shsm"})
@@ -499,6 +499,23 @@ EQAO_SQ_RESOURCES = [
          definitions="https://www.eqao.com/wp-content/uploads/2025/06/G10_2026_Aggregate_Field_Definitions.xlsx",
          note="First-time eligible students"),
 ]
+
+# Earlier questionnaire years, shown beside the latest only for questions EQAO asked with the same wording and
+# the same answers (checked every run against each year's field definitions). Definition workbooks are named by
+# the spring of the school year (G36_2025 = 2024-25). 2021-22 is left out: EQAO says that year's CSVs don't match
+# its own published results.
+EQAO_SQ_HISTORY = []
+for _y, _up, _defs_up in (("2024-25", "2025/11", "2025/11"), ("2023-24", "2025/06", "2025/06"), ("2022-23", "2025/06", "2025/06")):
+    _a, _b = _y.split("-")
+    _span, _spring = f"{_a}-20{_b}", f"20{_b}"
+    for _kind, _grade, _zip, _defs in (("g36", "3", "Grade-3", "G36"), ("g36", "6", "Grade-6", "G36"), ("g9", "9", "Grade-9", "G9"),
+                                       ("osslt", "10", "OSSLT", "G10")):
+        _label = "OSSLT" if _kind == "osslt" else f"Grade {_grade}"
+        EQAO_SQ_HISTORY.append(dict(
+            id=f"eqao-sq-{'osslt' if _kind == 'osslt' else 'g' + _grade}-{_y}", year=_y, label=f"{_label} questionnaire, {_y}", kind=_kind, grade=_grade,
+            url=f"https://www.eqao.com/wp-content/uploads/{_up}/{_zip}-{_span}-Student-Questionnaire-Results.zip",
+            definitions=f"https://www.eqao.com/wp-content/uploads/{_defs_up}/{_defs}_{_spring}_Aggregate_Field_Definitions.xlsx",
+            history=True, **({"note": "First-time eligible students"} if _kind == "osslt" else {})))
 
 SUSPENSION_RESOURCE = dict(
     id="suspensions-2007-22", year="2007-08 to 2021-22", label="suspensions, 2007-08 to 2021-22",
@@ -595,3 +612,16 @@ BOUNDARY_LAYERS = [
          where="YEAR='2025-2026'",
          url="https://services1.arcgis.com/Z2ZyXpStrYRDJ1cf/arcgis/rest/services/Elementary_Regular_Track_Boundary/FeatureServer/0"),
 ]
+
+
+# Board websites from the Ministry's contact list that no longer lead to the board, replaced by the board's own
+# current site. Only for links checked as broken (dead domain, parked domain, or a redirect to an unrelated site);
+# each new address was checked too. Recheck yearly: drop an entry once the Ministry's list is corrected.
+BOARD_WEBSITE_FIXES = {
+    "B80012": ("https://bloorviewschool.ca", "www.bloorviewschool.ca now redirects to an unrelated blog (checked 2026-11-26)"),
+    "B28118": ("https://grandnord.ca", "cspgno.ca no longer resolves; the board's site is grandnord.ca (checked 2026-11-26)"),
+    "B29106": ("https://cscdgr.education", "cscdgr.on.ca is a parked domain; the board's site is cscdgr.education (checked 2026-11-26)"),
+    "B29033": ("https://www.sudburycatholicschools.ca", "scdsb.edu.on.ca no longer resolves (checked 2026-11-26)"),
+    "B66214": ("https://www.rcdsb.on.ca", "renfrew.edu.on.ca returns an error; the board's site is rcdsb.on.ca (checked 2026-11-26)"),
+    "B74900": ("https://www.ilc.org", "the Ministry's list gives no website for the Independent Learning Centre (checked 2026-11-26)"),
+}

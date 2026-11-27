@@ -1,5 +1,5 @@
 """Family-facing rules: grades offered, one program vocabulary, board records inherited by schools, and
-the hand-checked site/board-info.json itself."""
+the hand-checked board records in site/board-info/ themselves."""
 import json
 import re
 import sys
@@ -12,7 +12,11 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "site"))
 import family  # noqa: E402
 
-INFO = ROOT / "site" / "board-info.json"
+INFO = ROOT / "site" / "board-info"
+BOARD_FILES = sorted(INFO.glob("B*.json"))
+# district school boards (English and French, public and Catholic) cover every topic; school authorities
+# (hospital and treatment-centre schools, isolate boards, provincial schools) only what applies to them
+DISTRICT = re.compile(r"B(28|29|66|67)\d{3}")
 
 
 @pytest.mark.parametrize("rng,expect", [
@@ -99,47 +103,86 @@ def test_dates_go_stale_before_rules(info):
 KINDS = {"rule", "process", "decision", "proposal", "projection", "plan", "not_found"}
 
 
-def all_records(raw):
-    for b in raw["boards"].values():
-        yield from b["records"]
-    for s in raw["schools"].values():
+def load(p):
+    return json.loads(p.read_text(encoding="utf-8"))
+
+
+def all_records(b):
+    yield from b["records"]
+    for s in (b.get("schools") or {}).values():
         yield from s["records"]
-    yield from raw["decisions"]
+    yield from b.get("decisions") or []
 
 
-def test_board_info_schema():
-    raw = json.loads(INFO.read_text(encoding="utf-8"))
-    ids = set()
-    for r in all_records(raw):
-        assert r["id"] not in ids, f"duplicate id {r['id']}"
-        ids.add(r["id"])
+def named_schools(b):
+    """Every school a board file names: school records, decisions and the board's own program lists."""
+    named = set(b.get("schools") or {}) | {x for d in b.get("decisions") or [] for x in d["schools"]}
+    return named | {x for lst in b.get("school_programs") or [] for x in lst["schools"]}
+
+
+META = load(INFO / "_meta.json")
+
+
+@pytest.mark.parametrize("path", BOARD_FILES, ids=lambda p: p.stem)
+def test_board_file_schema(path):
+    b = load(path)
+    assert b["board"] == path.stem and b["name"] and b["short"]
+    assert date.fromisoformat(b["checked"]) <= date.today()
+    prefix = None
+    for r in all_records(b):
+        prefix = prefix or r["id"].split("-")[0]
+        assert r["id"].split("-")[0] == prefix, f"{r['id']}: one id prefix per board file"
         assert r["topic"] in family.BoardInfo.TOPICS, r["id"]
         assert r["kind"] in KINDS, r["id"]
         assert r["url"].startswith("https://"), r["id"]
+        assert r["title"].strip(), r["id"]
         assert date.fromisoformat(r["verified"]) <= date.today(), r["id"]
         assert 40 <= len(r["summary"]) <= 600, f"{r['id']}: summary should be a few plain sentences"
-        assert r.get("lifecycle", "rules") in raw["refresh_days"], r["id"]
+        assert r.get("lifecycle", "rules") in META["refresh_days"], r["id"]
         for x in r.get("related", []):
             assert x["url"].startswith("https://") and x["title"], r["id"]
         for lv in r.get("applies", []):
             assert lv in ("elementary", "secondary"), r["id"]
-    for d in raw["decisions"]:
-        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", d["decided"]) and d["schools"] and d["match"]
-    for board, lst in ((k, v) for k, v in raw["school_programs"].items() if not k.startswith("_")):
-        assert board in raw["boards"] and lst["url"].startswith("https://") and lst["schools"]
-        assert all(re.fullmatch(r"\d{6}", b) for b in lst["schools"])
+        if r.get("program"):
+            assert r["program"] in ("french-immersion", "extended-french", "shsm"), r["id"]
+        # "couldn't check" (the board's page couldn't be read) is a kind of not_found, never a claim about the board
+        if r.get("unchecked"):
+            assert r["kind"] == "not_found" and r["unchecked"] is True, r["id"]
+        facts = r.get("facts") or {}
+        for g in facts.get("entry_grades", []):
+            assert g in family.GRADE_LABEL, f"{r['id']}: entry grade {g!r} (use JK, K or 1 to 12)"
+        for k, v in (facts.get("walk_km") or {}).items():
+            assert isinstance(v, (int, float)) and 0 < v <= 10 and k, f"{r['id']}: walk distance {k}={v}"
+    for d in b.get("decisions") or []:
+        # a board may publish only the month it decided; never invent a day
+        assert re.fullmatch(r"\d{4}-\d{2}(-\d{2})?", d["decided"]) and d["schools"] and d["match"], d["id"]
+        assert d["kind"] == "decision" and d["topic"] in family.BoardInfo.TOPICS, d["id"]
+    for lst in b.get("school_programs") or []:
+        assert lst["program"] in ("french-immersion", "extended-french") and lst["url"].startswith("https://") and lst["schools"]
+        assert all(re.fullmatch(r"\d{6}", x) for x in lst["schools"])
+    if DISTRICT.fullmatch(b["board"]):
+        missing = set(family.BoardInfo.TOPICS) - {r["topic"] for r in b["records"]}
+        assert not missing, f"{b['board']}: no record for {sorted(missing)} (use kind not_found when the board doesn't publish it)"
 
 
-def test_board_info_schools_exist_in_the_data():
+def test_record_ids_are_unique_across_boards():
+    seen = {}
+    for p in BOARD_FILES:
+        for r in all_records(load(p)):
+            assert r["id"] not in seen, f"{r['id']} in {p.name} and {seen.get(r['id'])}"
+            seen[r["id"]] = p.name
+
+
+@pytest.mark.parametrize("path", BOARD_FILES, ids=lambda p: p.stem)
+def test_board_file_names_only_its_own_schools(path):
     data = ROOT / "site" / "data" / "schools"
     if not data.exists():
         pytest.skip("site/data not built yet")
-    raw = json.loads(INFO.read_text(encoding="utf-8"))
-    named = set(raw["schools"]) | {b for d in raw["decisions"] for b in d["schools"]}
-    named |= {b for k, v in raw["school_programs"].items() if not k.startswith("_") for b in v["schools"]}
-    for bsid in named:
+    b = load(path)
+    for bsid in named_schools(b):
         p = data / f"{bsid}.json"
-        assert p.exists(), f"board-info.json names school {bsid}, which isn't in the data"
+        assert p.exists(), f"{path.name} names school {bsid}, which isn't in the data"
+        assert load(p)["board_number"] == b["board"], f"{path.name} names school {bsid} of another board"
 
 
 def test_visit_questions_are_built_from_page_facts(info):
@@ -150,3 +193,13 @@ def test_visit_questions_are_built_from_page_facts(info):
     text = " ".join(qs)
     assert "Grade 1" in text and "French Immersion" in text and "child care at the school" in text
     assert len(qs) <= 8
+
+
+def test_entry_grades_join_every_immersion_entry_point():
+    recs = [{"program": "french-immersion", "facts": {"entry_grades": ["4"]}},
+            {"program": "french-immersion", "facts": {"entry_grades": ["K"]}},
+            {"program": "extended-french", "facts": {"entry_grades": ["7"]}}, {"topic": "program"}]
+    assert family.entry_grades(recs) == ["K", "4"]
+    assert family.grade_words(["K", "4"]) == "Senior kindergarten or Grade 4"
+    assert family.entry_grades(recs, "extended-french") == ["7"]
+    assert family.entry_grades([{"topic": "program"}]) is None

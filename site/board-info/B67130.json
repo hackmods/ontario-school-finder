@@ -1,0 +1,297 @@
+{
+  "board": "B67130",
+  "name": "Wellington Catholic District School Board",
+  "short": "Wellington Catholic DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "wellcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration",
+      "url": "https://www.wellingtoncdsb.ca/registration",
+      "summary": "Elementary and kindergarten families pre-register online, then finish with the school: birth certificate or other proof of age, baptismal certificate (child's or a parent's), proof of address, immunization record (sent to public health), immigration documents if born outside Canada, and custody papers if they apply. Unbaptized children with no Catholic parent can ask through non-Catholic admission with the principal. All four secondary schools are open to students of any denomination. The board posts no registration dates.",
+      "related": [
+        {
+          "title": "Kindergarten Registration",
+          "url": "https://www.wellingtoncdsb.ca/registration/kindergarten_registration"
+        },
+        {
+          "title": "Elementary School Registration",
+          "url": "https://www.wellingtoncdsb.ca/registration/elementary_school_registration"
+        },
+        {
+          "title": "Secondary School Registration",
+          "url": "https://www.wellingtoncdsb.ca/registration/secondary_school_registration"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which school do I attend? (Find My School)",
+      "url": "https://www.findmyschool.ca/Eligibility.aspx?Page=School",
+      "summary": "The board's Find My School link goes to this lookup, shared with Wellington-Dufferin Student Transportation Services. Enter your address, choose Wellington Catholic DSB and the grade. The same site has a separate Transportation Eligibility check.",
+      "related": [
+        {
+          "title": "School Boundaries",
+          "url": "https://www.wellingtoncdsb.ca/schools/school_boundaries"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-fi",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Elementary schools",
+      "url": "https://www.wellingtoncdsb.ca/schools/elementary",
+      "summary": "We could not find a French Immersion or Extended French program on the Wellington Catholic site, in its programs list, or on its kindergarten and registration pages. Ask the board or your school what French instruction is offered.",
+      "program": "french-immersion",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-oob",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Out of Boundary Admissions",
+      "url": "https://www.wellingtoncdsb.ca/schools/out_of_boundary_admissions",
+      "summary": "To attend a school outside your area, meet the principal of the school you want, then submit the board's out-of-boundary application. Requests are considered case by case, mainly on available space and the reason, and approval is not guaranteed. Five schools or areas are closed to these requests, including St. Joseph (Guelph), St. Peter, St. Francis of Assisi and Mary Phelan. The page gives no deadline. Out-of-boundary students are not bused.",
+      "related": [
+        {
+          "title": "Admission of Students to Wellington Catholic Schools, policy 301BP (PDF)",
+          "url": "https://www.wellingtoncdsb.ca/UserFiles/Servers/Server_22179113/File/Our%20Board/Policies%20and%20Procedural/301BP%20Admission%20of%20Students%20to%20Wellington%20Catholic%20School.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation Eligibility (policy 002, Wellington-Dufferin Student Transportation Services)",
+      "url": "https://stwdsts.ca/transportation-eligibility/",
+      "summary": "The consortium that runs Wellington Catholic buses sets the distances: a student living inside the school's boundary and farther than 1.6 km (JK to Grade 8) or 3.2 km (Grades 9 to 12) may qualify, measured property line to property line. Out-of-boundary students do not qualify. Closer students inside the boundary may request a courtesy seat each year if one is free.",
+      "source_date": "Date revised November 21, 2017",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "related": [
+        {
+          "title": "Transportation (Wellington Catholic DSB)",
+          "url": "https://www.wellingtoncdsb.ca/schools/transportation"
+        },
+        {
+          "title": "Courtesy Transportation policy 017",
+          "url": "https://stwdsts.ca/017-courtesy-transportation/"
+        },
+        {
+          "title": "Check transportation eligibility for an address",
+          "url": "https://www.findmyschool.ca/Eligibility.aspx?Page=Transportation"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.wellingtoncdsb.ca/programs_and_services/special_education",
+      "summary": "The board's special education page posts its 2026-2027 Special Education Plan and links parent resources on IEPs and IPRCs, including signing them digitally. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.wellingtoncdsb.ca/UserFiles/Servers/Server_22179113/File/Programs%20and%20Services/Special%20Education/Special%20Education%20Plan%202026%202027%20-%20FINAL.pdf"
+        },
+        {
+          "title": "Special Education Resources (parents)",
+          "url": "https://www.wellingtoncdsb.ca/parent_resources/special_education_resources"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Committees and Meeting Minutes",
+      "url": "https://www.wellingtoncdsb.ca/our_board/committees_and_meeting_minutes",
+      "summary": "The board's committees page lists the Special Education Advisory Committee's 2026-27 meeting dates, roughly monthly from September 2026 to June 2027, with agendas and minutes for past meetings. It has no separate SEAC page.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.wellingtoncdsb.ca/our_board/accessibility",
+      "summary": "The board's accessibility page explains its commitment under the AODA and holds its accessibility plan as a downloadable document. It describes board-wide plans, not the features of a particular school; ask the school about specific needs. The page does not state the plan's years.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Multilingual Learning",
+      "url": "https://www.wellingtoncdsb.ca/programs_and_services/multilingual_learning",
+      "summary": "Multilingual learners are assessed by trained teachers when they start to find their level of English. In elementary, students join their age-appropriate grade with classroom adaptations and some small-group help. In secondary, Our Lady of Lourdes offers ESL and ELD credit courses open to all board students. The page lists local settlement agencies and gives no separate reception centre.",
+      "related": [
+        {
+          "title": "Kindergarten Registration (language help via SWIS)",
+          "url": "https://www.wellingtoncdsb.ca/registration/kindergarten_registration"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-aar",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Central West Guelph and Secondary Attendance Area and Grade Structure Review",
+      "url": "https://www.wellingtoncdsb.ca/schools/school_boundaries/2024_attendance_area_review",
+      "summary": "The board's recent accommodation review for central west Guelph and its secondary schools, with approved changes and a 2025 update. The board's Planning and Reporting page lists no long-term accommodation plan with capacity and enrolment tables. Projections are forecasts, and capacity is building space, not open seats.",
+      "source_date": "October 2025 update",
+      "related": [
+        {
+          "title": "AAR Final Staff Recommendations (PDF)",
+          "url": "https://www.wellingtoncdsb.ca/UserFiles/Servers/Server_22179113/File/School/AAR%20Documents/AAR%20Final%20Staff%20Recommendations.pdf"
+        },
+        {
+          "title": "School Boundaries",
+          "url": "https://www.wellingtoncdsb.ca/schools/school_boundaries"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.wellingtoncdsb.ca/our_board/student_achievement_plan",
+      "summary": "The board's 2025-26 Student Achievement Plan under Ontario's framework, covering core academic skills, preparing students for future success, and student engagement and well-being. These are board-wide goals, not a school's. The page links the plan as a PDF.",
+      "source_date": "2025-26",
+      "related": [
+        {
+          "title": "2025-26 Student Achievement Plan (PDF)",
+          "url": "https://www.wellingtoncdsb.ca/UserFiles/Servers/Server_22179113/File/Our%20Board/Student%20Achievement%20Plan/B67130_Wellington%20CDSB_SAP%2025-26-FINAL1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-cpic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "CPIC (Catholic Parent Involvement Committee)",
+      "url": "https://www.wellingtoncdsb.ca/parent_resources/cpic",
+      "summary": "CPIC brings together parents, trustees and staff, and gives school council members a place to share ideas and give input on achievement and well-being. The page lists each school's representative. The committees page shows 2026-27 meeting dates. Ask your school how to join its council.",
+      "related": [
+        {
+          "title": "Committees and Meeting Minutes",
+          "url": "https://www.wellingtoncdsb.ca/our_board/committees_and_meeting_minutes"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "wellcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student and Family Support Office",
+      "url": "https://www.wellingtoncdsb.ca/parent_resources/student_and_family_support_office",
+      "summary": "Start with your child's school, the teacher or principal. If it is not settled, or is sensitive, send the office's online support request form. It aims to acknowledge and respond within five business days. Hate, bias or bullying incidents go through the separate Safe Schools incident reporting tool.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "wellcdsb-central-west-2026",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "Central West Guelph and Secondary Attendance Area and Grade Structure Review",
+      "url": "https://www.wellingtoncdsb.ca/schools/school_boundaries/2024_attendance_area_review",
+      "decided": "2025-06-02",
+      "summary": "On June 2, 2025 trustees approved staff recommendations that take effect in 2026-27 unless noted: area SJ2 moves from St. Joseph to Sacred Heart (both Guelph), and Sacred Heart (Guelph) students are directed to St. James. A Grade 7-8 middle school at Our Lady of Lourdes was postponed to September 2027. The Rockwood move was deferred.",
+      "schools": [
+        "808830",
+        "756059",
+        "798690",
+        "745529"
+      ],
+      "match": "St. Joseph, Sacred Heart and St. James matched by name to Guelph schools (St Joseph Catholic School 808830, Sacred Heart Catholic School 756059, St James Catholic School 798690, Grades 9-12); Our Lady of Lourdes (745529). Sacred Heart Rockwood is not included because its move was deferred.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

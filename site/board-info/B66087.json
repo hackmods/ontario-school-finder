@@ -1,0 +1,389 @@
+{
+  "board": "B66087",
+  "name": "Trillium Lakelands District School Board",
+  "short": "Trillium Lakelands DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Registration",
+      "url": "https://www.tldsb.ca/school-registration/",
+      "summary": "New students, and students returning after time away from TLDSB, start with the board's online application request. You get a confirmation email with a file number, then the school contacts you to review and process the application. Students moving between TLDSB schools may not need the online form; call the home school. The page does not list required documents or general eligibility rules.",
+      "related": [
+        {
+          "title": "Kindergarten registration",
+          "url": "https://www.tldsb.ca/kindergarten-registration/"
+        },
+        {
+          "title": "Online application request",
+          "url": "https://ereg.tldsb.ca/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten",
+      "url": "https://www.tldsb.ca/kindergarten-registration/",
+      "summary": "Find your school with the school locator, register online, and the school will contact you to finish. The page says kindergarten registration usually takes place at the beginning of January but families can register at any time of year. Have proof of age, immunization record, a family doctor's name, and your 911 address ready. It currently announces 2027-2028 registration as opening soon, without a date.",
+      "related": [
+        {
+          "title": "Online application request",
+          "url": "https://ereg.tldsb.ca/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Eligibility (mybustoschool.ca)",
+      "url": "https://www.mybustoschool.ca/Eligibility",
+      "summary": "TLDSB's registration and transportation pages send families to this transportation consortium tool to find the home school and bus eligibility for an address. Enter your address, school board and grade. If anything seems wrong, ask the school or the transportation office.",
+      "related": [
+        {
+          "title": "School Registration",
+          "url": "https://www.tldsb.ca/school-registration/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "Kindergarten",
+      "url": "https://www.tldsb.ca/kindergarten-registration/",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ]
+      },
+      "summary": "French Immersion begins in Grade 1; kindergarten itself is not taught in French. Families planning Immersion can register their child in kindergarten at the closest Immersion school. The Immersion schools are listed on the board's French as an Additional Language pages, but the pages read do not give an application window, lottery or waitlist.",
+      "related": [
+        {
+          "title": "French as an Additional Language programs",
+          "url": "https://www.tldsb.ca/fal/fal-programs/"
+        },
+        {
+          "title": "French as an Additional Language FAQ",
+          "url": "https://www.tldsb.ca/fal/faq/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-fi-schools",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as an Additional Language programs",
+      "url": "https://www.tldsb.ca/fal/fal-programs/",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ]
+      },
+      "summary": "French Immersion runs from Grade 1 to Grade 8 at designated schools only, in Bracebridge, Haliburton, Huntsville and Lindsay, with about 60 percent of instruction in French in Grades 1 to 6 and 50 percent in Grades 7 and 8. Core French is offered from Grade 4. The board's FAQ page says Immersion students get bus service inside their home school's catchment area.",
+      "related": [
+        {
+          "title": "French as an Additional Language FAQ",
+          "url": "https://www.tldsb.ca/fal/faq/"
+        },
+        {
+          "title": "Leslie Frost PS / Central Senior School program review",
+          "url": "https://www.tldsb.ca/css-lfps/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as an Additional Language programs",
+      "url": "https://www.tldsb.ca/fal/fal-programs/",
+      "summary": "French Immersion continues in high school at Bracebridge Muskoka Lakes, Haliburton Highlands, Huntsville High and I.E. Weldon secondary schools. The board notes that availability depends on area and enrolment numbers."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-ef",
+      "topic": "program",
+      "program": "extended-french",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as an Additional Language programs",
+      "url": "https://www.tldsb.ca/fal/fal-programs/",
+      "summary": "Extended French is named only in the high school table, at Bracebridge Muskoka Lakes and Haliburton Highlands secondary schools. The page gives no further detail, and lists no Extended French in elementary school."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Registration",
+      "url": "https://www.tldsb.ca/school-registration/",
+      "summary": "We could not find a TLDSB page that explains how to ask to attend a school other than your home school. The registration page says new families register within their home school's area. Ask the principal of the school you are interested in, or the board, how requests are handled."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transportation Information",
+      "url": "https://www.tldsb.ca/transportation-information/",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "Eligible students are bused when they live at least 1.6 km (JK to Grade 8) or 3.2 km (Grades 9 to 12) from school; students may also be asked to walk up to 0.8 km (elementary) or 1.6 km (secondary) to a pickup point. Check eligibility for your address in the consortium's Parent Portal. The page does not cover courtesy seats or program transportation; call Transportation Services.",
+      "related": [
+        {
+          "title": "Check eligibility (mybustoschool.ca)",
+          "url": "https://www.mybustoschool.ca/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.tldsb.ca/special-education/",
+      "summary": "The board's special education page links its 2026-2027 Special Education Plan and a Parent/Guardian Guide that explains the IPRC (how a student is identified and placed, and how to appeal) and the IEP, the written plan of supports. Copies are also available at school offices.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2026/07/Special-Education-Plan-2026-2027.pdf"
+        },
+        {
+          "title": "Parent/Guardian Guide to Special Education 2026-2027 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2026/07/TLDSB-Parent_Guardian-Guide-to-Special-Education_2026-2027.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.tldsb.ca/special-education-advisory-committee/",
+      "summary": "SEAC advises the board on special education programs and services. It normally meets the first Tuesday of the month at 5 p.m. (dates for 2026-27 are on the page). The public may attend as observers with advance notice, by calling the Superintendent of Specialized Services. Individual student cases are not discussed there.",
+      "related": [
+        {
+          "title": "SEAC Terms of Reference (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2024/01/SEAC-Terms-of-Reference.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.tldsb.ca/accessibility/",
+      "summary": "The board's Multi-Year Accessibility Plan covers 2025 to 2030, with an Annual Accessibility Status Report for 2025. It describes board-wide commitments, not the features of a particular school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2025-2030 (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2025/10/FINAL-Multi-Year-Accessibility-Plan-2025.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration process (English as a Second Language)",
+      "url": "https://www.tldsb.ca/english-as-a-second-language/registration-process/",
+      "summary": "For Grades 1 to 8, newcomer families register at their home school, which then books an appointment with a Second Languages Consultant for an initial ESL assessment. Children can start attending as soon as they are registered. Bring identity and immigration papers, proof of address and any school records. English language learners who want French Immersion register at a local Immersion school.",
+      "related": [
+        {
+          "title": "ESL programs",
+          "url": "https://www.tldsb.ca/english-as-a-second-language/esl-programs/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-ltap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "TLDSB Long Term Accommodation Plan 2025-2029 (PDF)",
+      "url": "https://www.tldsb.ca/wp-content/uploads/2025/03/LTAP-Final-2025-2029.pdf",
+      "summary": "The board's plan for school space, with enrolment trends and a capacity table for each school by area, plus building condition and renewal. Enrolment projections are forecasts, and capacity is building space, not open seats. The board says it updates the plan each year.",
+      "related": [
+        {
+          "title": "Boundary and Program Reviews",
+          "url": "https://www.tldsb.ca/boundary-program-reviews/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-bsap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Annual Reports",
+      "url": "https://www.tldsb.ca/annual-reports/",
+      "summary": "The board publishes its Board Student Achievement Plan together with the Director's Annual Report each year; the latest on the page is 2025-2026. The page lists the documents but does not describe them.",
+      "related": [
+        {
+          "title": "2025-2026 BSAP and Annual Report (PDF)",
+          "url": "https://www.tldsb.ca/wp-content/uploads/2026/11/2025-2026-BSAP-and-Annual-Report.pdf"
+        },
+        {
+          "title": "Strategic Plan",
+          "url": "https://www.tldsb.ca/strategic-plan/"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "District School Council / Parent Involvement Committee",
+      "url": "https://www.tldsb.ca/dsc-pic-committee/",
+      "summary": "The DSC-PIC brings school council chairs, a trustee and a principal from each region and the director together to support parent involvement and give parents a voice at board level. Meetings start at 6 p.m., in person or online; 2026-27 dates are on the page and you can ask to join online."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Get Involved",
+      "url": "https://www.tldsb.ca/get-involved/",
+      "summary": "Each school elects a school council every year. It meets with the principal and links the school community and administration; members are mostly parents and guardians, with the principal, a teacher, another staff member and a community representative. To join, contact your school principal."
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "tldsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Communication and Collaboration with Parents/Guardians Procedure BD-2301 (PDF)",
+      "url": "https://www.tldsb.ca/wp-content/uploads/2026/09/Communication-and-Collaboration-with-Parents-and-guardians-Procedure-BD-2301-2026-update.pdf",
+      "source_date": "Last update: September 2026",
+      "summary": "Start with your child's classroom teacher, then the principal or vice-principal, then the school superintendent (or the relevant central department), and finally the Student and Family Support Office, which reviews whether board procedures were followed."
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French as an Additional Language programs",
+      "url": "https://www.tldsb.ca/fal/fal-programs/",
+      "verified": "2026-11-26",
+      "schools": {
+        "240761": "J. Douglas Hodgson Elementary School (Haliburton)",
+        "273597": "Huntsville Public School (Huntsville)",
+        "311685": "Leslie Frost Public School (Lindsay)",
+        "368946": "Monck Public School (Bracebridge)",
+        "575976": "Stuart Baker Elementary School (Haliburton)",
+        "895660": "Bracebridge Muskoka Lakes Secondary School (Bracebridge)",
+        "915297": "Haliburton Highlands Secondary School (Haliburton)",
+        "917761": "Huntsville High School (Huntsville)",
+        "918130": "I.E. Weldon Secondary School (Lindsay)",
+        "068454": "Riverside Public School (Huntsville)",
+        "099007": "Central Senior School (Lindsay)"
+      }
+    }
+  ]
+}

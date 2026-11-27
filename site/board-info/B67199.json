@@ -1,0 +1,318 @@
+{
+  "board": "B67199",
+  "name": "Renfrew County Catholic District School Board",
+  "short": "Renfrew County Catholic",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "rccdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Register",
+      "url": "https://rccdsb.ca/register/",
+      "summary": "Fill in the board's online registration form; the principal then contacts you, and registration is not complete until the school has every document: proof of age, immunization record, proof of address, proof of custody, citizenship or immigration papers, and a baptismal certificate. Non-Catholic families send a Non-Catholic Admission Form and the Superintendent of Education decides. Kindergarten registration opens the first week back in January; the page still showed a January 20, 2025 date, so confirm current dates with the school.",
+      "related": [
+        {
+          "title": "Kindergarten Parent Questionnaire (PDF)",
+          "url": "https://rccdsb.ca/wp-content/uploads/Kinder-Parent-Questionnaire1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Check My Zone (Renfrew County Joint Transportation Consortium)",
+      "url": "https://portal.onthebus.ca/Eligibility",
+      "summary": "The board's register page sends families to the Renfrew County Joint Transportation Consortium's BusPlanner lookup. Enter your address and choose the Catholic board to see your school and whether you can ride a bus. The transportation office has the final word if anything disagrees.",
+      "related": [
+        {
+          "title": "Boundary maps (Renfrew County Joint Transportation Consortium)",
+          "url": "https://www.onthebus.ca/bus-information/boundary-maps/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-fi",
+      "topic": "program",
+      "kind": "not_found",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language (FSL)",
+      "url": "https://rccdsb.ca/french-as-a-second-language-fsl/",
+      "program": "french-immersion",
+      "summary": "The board's French page describes Core French (40 minutes a day from Kindergarten) and Extended French in Grade 9, and does not mention French Immersion; we found no Immersion page on the site. The board's 2022 French brochure also lists Extended French from Kindergarten to Grade 3 at five elementary schools. Ask the board whether Immersion exists and which grades Extended French now runs.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-extended-french-elem",
+      "topic": "program",
+      "kind": "rule",
+      "program": "extended-french",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language brochure (PDF)",
+      "url": "https://rccdsb.ca/wp-content/uploads/FSL-brochure-2022-copy.pdf",
+      "facts": {
+        "entry_grades": [
+          "K"
+        ]
+      },
+      "summary": "The board's 2022 French brochure says Extended French runs from Kindergarten to Grade 3 at St. Joseph's in Arnprior, Our Lady of Lourdes and Holy Name in Pembroke, and St. Francis of Assisi and Our Lady of Sorrows in Petawawa. It does not say how to apply, what share is taught in French, or whether it continues past Grade 3; ask the school.",
+      "source_date": "2022 brochure",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-extended-french",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language (FSL)",
+      "url": "https://rccdsb.ca/french-as-a-second-language-fsl/",
+      "program": "extended-french",
+      "facts": {
+        "entry_grades": [
+          "9"
+        ]
+      },
+      "summary": "Extended French starts in Grade 9 at Bishop Smith Catholic High School. Students earn seven French credits: four language courses and three subjects taught in French. The page does not say how to apply or whether transportation is offered; ask the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register",
+      "url": "https://rccdsb.ca/register/",
+      "summary": "We found no board page on asking to attend a school outside your attendance area. The registration page says to confirm your school zone first. The bus consortium says it does not provide transportation to a school outside the attendance boundary. Ask the board or the school about a different school.",
+      "related": [
+        {
+          "title": "RCJTC P.01.17 Eligibility for Bussing (PDF)",
+          "url": "https://onthebus-ca.govstack.com/media/xwznk1pr/p0117_eligibility_for_bussing_aoda.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "RCJTC P.01.02 Eligibility for Transportation (PDF)",
+      "url": "https://onthebus-ca.govstack.com/media/2hshwbiv/p0102_eligibility_for_transportation_aoda.pdf",
+      "facts": {
+        "walk_km": {
+          "JK and SK": 0.5,
+          "Grades 1 to 6": 1.6,
+          "Grades 7 to 12 (rural)": 1.6,
+          "Grades 7 to 12 (urban)": 2.5
+        }
+      },
+      "summary": "The Renfrew County Joint Transportation Consortium runs the buses. A student may be bused if they live farther than 0.5 km (JK and SK), 1.6 km (Grades 1 to 6), 1.6 km (Grades 7 to 12, rural) or 2.5 km (Grades 7 to 12, urban) from the school or stop; safety hazards can change this. There is no bus to a school outside your boundary; a temporary seat is only possible if the bus has room, and is decided after September 30.",
+      "related": [
+        {
+          "title": "RCJTC P.01.17 Eligibility for Bussing (PDF)",
+          "url": "https://onthebus-ca.govstack.com/media/xwznk1pr/p0117_eligibility_for_bussing_aoda.pdf"
+        },
+        {
+          "title": "Transportation (RCCDSB)",
+          "url": "https://rccdsb.ca/transportation/"
+        }
+      ],
+      "source_date": "Date Reviewed May 25, 2019",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Plan",
+      "url": "https://rccdsb.ca/special-education-plan/",
+      "summary": "The board's Special Education Plan page links to its 2025-2026 plan, which the province requires every board to keep. The board's special education page describes a three-tier approach to support, and its parent guides explain IEPs and IPRCs. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Plan 2025-2026 (PDF)",
+          "url": "https://rccdsb.ca/wp-content/uploads/2025-2026-Report.pdf"
+        },
+        {
+          "title": "Parent guides for special education",
+          "url": "https://rccdsb.ca/parent-guides-for-special-education/"
+        },
+        {
+          "title": "Special Education",
+          "url": "https://rccdsb.ca/special-education/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://rccdsb.ca/special-education-advisory-committee/",
+      "summary": "Lists the committee's members and posts its minutes (the latest posted were April 9, 2025). The page gives no meeting schedule and does not say how the public can attend; call the board at 613-735-1031 to ask.",
+      "related": [
+        {
+          "title": "SEAC Handbook (PDF)",
+          "url": "https://rccdsb.ca/wp-content/uploads/SEAC-Handbook-2.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan 2026-2029 (PDF)",
+      "url": "https://rccdsb.ca/wp-content/uploads/RCCDSB-Accessibility-Plan-January-2026-2029-V1.pdf",
+      "summary": "The board's accessibility plan for 2026-2029, prepared by its Accessibility Working Group under the Accessibility for Ontarians with Disabilities Act. It describes board-wide plans, not the features of one school building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Accessibility for Ontarians with Disabilities",
+          "url": "https://rccdsb.ca/accessibility-for-ontarians-with-disabilities/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Register",
+      "url": "https://rccdsb.ca/register/",
+      "summary": "We could not find a Renfrew County Catholic page for newcomer families or English language learners. Registration asks for citizenship or immigration papers. Ask the school what language support is offered.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-planning",
+      "topic": "planning",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Major Board Documents",
+      "url": "https://rccdsb.ca/major-board-documents/",
+      "summary": "We looked for a long-term accommodation or capital plan and for pupil accommodation reviews and found none on the board's documents page or elsewhere on its site. The board publishes strategic plans instead. Ask the board whether a school space plan or review is under way.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "School Achievement Plan: Literacy 2026-2029 (PDF)",
+      "url": "https://rccdsb.ca/wp-content/uploads/2026_2027-SAP-Literacy.pdf",
+      "summary": "The board's 2026-27 achievement plans are posted as school plan templates for literacy, numeracy, engagement and well-being, and secondary. The literacy one sets board priorities for reading and writing instruction and has blank spaces for each school's EQAO results. These are board-wide plans, not figures for one school.",
+      "related": [
+        {
+          "title": "2026/2027 School Achievement Plan: Numeracy (PDF)",
+          "url": "https://rccdsb.ca/wp-content/uploads/2026_2027-SAP-Numeracy.pdf"
+        },
+        {
+          "title": "2026/2027 School Achievement Plan: Secondary (PDF)",
+          "url": "https://rccdsb.ca/wp-content/uploads/2026_2027-SAP-Secondary-.pdf"
+        },
+        {
+          "title": "Multi-Year Strategic Plan 2026-2029 (PDF)",
+          "url": "https://rccdsb.ca/wp-content/uploads/MYSP-2026-2029-Updated-Sept-24.-2026-8.5-x-11-in-1.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://rccdsb.ca/parent-involvement-committee/",
+      "summary": "The committee links parents with the director of education, trustees and board staff and has parent members from the Madawaska, Renfrew/Arnprior and Pembroke/Petawawa families of schools. It posted a virtual meeting for October 20, 2026. A joining form is available; ask your school about its school council.",
+      "related": [
+        {
+          "title": "Join the Parent Involvement Committee (PDF)",
+          "url": "https://rccdsb.ca/wp-content/uploads/Join-the-Parent-Involvement-Committee.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "rccdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student & Family Support Office",
+      "url": "https://rccdsb.ca/supportoffice/",
+      "summary": "Start with your child's school and principal. If you need more follow-up, send the Student & Family Support Office its online form (choose a category such as special education or transportation), email supportoffice@rccdsb.ca or call 613-775-0132. The page gives no response time.",
+      "related": [
+        {
+          "title": "Support office form",
+          "url": "https://rccdsb.ca/supportofficeform/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

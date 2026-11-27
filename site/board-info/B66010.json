@@ -1,0 +1,337 @@
+{
+  "board": "B66010",
+  "name": "Avon Maitland District School Board",
+  "short": "Avon Maitland DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "amdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Registration",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088899&type=d&pREC_ID=1366283",
+      "related": [
+        {
+          "title": "Families New to Canada",
+          "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1147069&type=d&pREC_ID=1387638"
+        }
+      ],
+      "summary": "Start with the board's online pre-registration form (you request an account first; it does not work on phones or tablets, and a paper copy is available at the school). After you get the confirmation email, call the school to book an appointment. Bring proof of address, proof of birth, custody papers if they apply, and immigration documents if required; immunization records go to Huron Perth Public Health. The page does not give kindergarten timing.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (Huron Perth Student Transportation Services School Finder)",
+      "url": "https://hpsts.mybusplanner.ca/Eligibility",
+      "summary": "The shared Huron-Perth transportation consortium's School Finder: enter your address to see which schools serve it. The board's registration page sends families here. The consortium serves both Avon Maitland and Huron-Perth Catholic; check the result with the school.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-fi",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French as a Second Language",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088920&type=d&pREC_ID=1366310",
+      "program": "french-immersion",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ],
+        "single_entry": true
+      },
+      "summary": "French Immersion starts in Grade 1 and that is the only entry point, unless the student has already been in a French Immersion program elsewhere. The page gives no application window, lottery or waitlist details: phone Bedford or Anne Hathaway Public School. Elementary Immersion is at the two Stratford schools (Grades 1 to 6) and Stratford Intermediate (Grades 7 and 8). Stratford students outside those two attendance areas may be given transportation; students outside Stratford may use existing routes to Stratford schools.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-fi-secondary",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088920&type=d&pREC_ID=1366310",
+      "program": "french-immersion",
+      "summary": "French Immersion continues in Grades 9 to 12 at Stratford District Secondary School. Students can take a seven-credit Extended Immersion pathway or a ten-credit French Immersion pathway; the ten-credit one earns a certificate. Core French is offered in secondary schools.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-border",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Border Crossing",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1147069&type=d&pREC_ID=1396780",
+      "summary": "Border Crossing is how to ask for a school outside your home school area. Ask your home school office for the form and hand it in there. The page says requests for the next year are due by February 1, later requests may not be looked at until late spring, and requests are renewed every year. Schools are marked green, yellow or red for how likely a new or renewal request is to be approved; decisions come in March, May or June (September for new requests to red schools). The page does not mention transportation.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Policy No 7 - Bus Eligible Distance (PDF)",
+      "url": "https://22.files.edl.io/d1e7/10/21/26/145624-91efa219-65c7-4a63-9143-3b7dfb89d6b9.pdf",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 8": 1.6
+        }
+      },
+      "source_date": "Last review October 2026",
+      "related": [
+        {
+          "title": "Am I Eligible? (HPSTS)",
+          "url": "https://hpsts.mybusplanner.ca/TransportationEligibility"
+        },
+        {
+          "title": "Policy No 1 - Courtesy Riders (PDF)",
+          "url": "https://22.files.edl.io/4be4/10/29/24/142054-6ec5d98f-1bb3-4d4a-8d01-3cf11e730ac3.pdf"
+        },
+        {
+          "title": "Huron Perth Student Transportation Services",
+          "url": "https://ourschoolbuses.ca/"
+        }
+      ],
+      "summary": "Huron Perth Student Transportation Services (shared with Huron-Perth Catholic) may bus students from Junior Kindergarten to Grade 8 who live more than 1.6 km from their school. Secondary students living inside an urban centre that has a public or Catholic high school are not bused to it; students outside it but in its attendance area are picked up at a designated point. Distances come from the consortium's software; check an address with the eligibility tool.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088920&type=d&pREC_ID=1366317",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://22.files.edl.io/c6fe/06/29/26/150731-988198f6-4060-4b8d-abbe-66457e2e1763.pdf"
+        },
+        {
+          "title": "Parent's Guide to the IPRC (PDF)",
+          "url": "https://22.files.edl.io/fd1d/02/21/24/132628-9ccf9e31-2d2d-4f0a-adba-fb0de42072dd.pdf"
+        }
+      ],
+      "summary": "The board's special education page, with the 2026-2027 Special Education Plan and parent guides to Individual Education Plans (IEPs) and the identification and placement process (IPRC). Programs and services depend on provincial funding. Start with your child's teacher and principal.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://amdsb.scholantisschools.com/apps/pages/index.jsp?uREC_ID=1088896&type=d&pREC_ID=1366276",
+      "summary": "SEAC advises the board on special education programs, budget and the yearly review of its Special Education Plan. Meetings are virtual, usually the first Wednesday of the month at 4:00 p.m., open to the public; ask the executive assistant named on the page for the link. Agendas and minutes for the current year are posted.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Multi-Year Accessibility Plan (2024-2029)",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088897&type=d&pREC_ID=1391929",
+      "source_date": "2024-2029",
+      "related": [
+        {
+          "title": "Accessibility Information",
+          "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088880&type=d&pREC_ID=1366277"
+        }
+      ],
+      "summary": "The board's five-year plan to find, remove and prevent barriers for students, staff, families and visitors, under Ontario's accessibility law. It is board-wide, not a description of a particular school building; ask the school about specific needs. The accessibility page also has a feedback form.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-mll",
+      "topic": "newcomer",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Support for Multilingual Language Learners",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088920&type=d&pREC_ID=1366307",
+      "related": [
+        {
+          "title": "Families New to Canada",
+          "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1147069&type=d&pREC_ID=1387638"
+        }
+      ],
+      "summary": "The board's Multilingual Language Learner team supports new students learning English. Students are placed in regular age-appropriate classes with programming adapted to their needs, after an initial English language assessment by an MLL support teacher. The page links an AMDSB Welcome Centre postcard (PDF) and registration for families new to Canada.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-pae",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Pupil Accommodation & Enrolment Projections",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1122198&type=d&pREC_ID=1366235",
+      "related": [
+        {
+          "title": "Long-Term Accommodation Plan",
+          "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1091747&type=d&pREC_ID=1401198"
+        },
+        {
+          "title": "Student accommodation data dashboards",
+          "url": "https://virtualwatson.ca/education/AMDSB"
+        },
+        {
+          "title": "North Perth Boundary Review Project 2024-2026",
+          "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1122198&type=d&pREC_ID=1396222"
+        }
+      ],
+      "summary": "The board's Long-Term Accommodation Plan (September 2026 update), enrolment projections (February 24, 2026) and data dashboards by school. The page says the moratorium on pupil accommodation reviews stays in place until the Ministry finishes new resources. Projections are forecasts, and capacity is building space, not open seats in a grade or program.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.amdsb.ca/apps/pages/SAP",
+      "source_date": "2025/26",
+      "related": [
+        {
+          "title": "Student Achievement Plan 2025/26 (PDF)",
+          "url": "https://22.files.edl.io/6150/04/30/26/172328-9693b2e0-8269-4fbc-aeab-bc09bded9d1e.pdf"
+        }
+      ],
+      "summary": "The board's yearly plan under Ontario's student achievement framework: core academic skills, preparing students for future success, and student engagement and well-being. The public reporting PDF for 2025/26 is linked. These are board-wide results, not one school's.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088880&type=d&pREC_ID=1383013",
+      "summary": "A parent and community committee that advises the Director of Education on parent engagement. It usually meets on Microsoft Teams from 6:00 to 7:30 p.m.; the 2026-2027 dates on the page are October 21, January 13, March 24 and May 12. To join, email the communications team at the address on the page.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "School Councils",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088899&type=d&pREC_ID=1366286",
+      "summary": "Every school has an active school council that advises on matters such as the code of conduct, calendar and budget priorities. Ask your school how to join.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "amdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Student & Family Support Office",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088880&type=d&pREC_ID=1400241",
+      "related": [
+        {
+          "title": "Parent Concern Flow Chart (PDF)",
+          "url": "https://22.files.edl.io/f48f/08/25/26/134321-3bde311a-3ea8-4b43-868c-cc3aef46db30.pdf"
+        },
+        {
+          "title": "Contact AMDSB",
+          "url": "https://www.amdsb.ca/apps/contact/"
+        }
+      ],
+      "summary": "Start with your child's teacher, then the principal, then the school's superintendent. If you still need help, the Student and Family Support Office takes an online form or a call; it says it acknowledges inquiries within 2 business days and aims to answer within 5.",
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French as a Second Language",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1088920&type=d&pREC_ID=1366310",
+      "verified": "2026-11-26",
+      "schools": {
+        "893395": "Stratford District Secondary School (Stratford)",
+        "019313": "École Anne Hathaway Public School (Stratford)",
+        "039306": "École Bedford Public School (Stratford)",
+        "097284": "Stratford Intermediate School (Stratford)"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "amdsb-north-perth-2025",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "North Perth Boundary Review Project 2024-2026",
+      "url": "https://www.amdsb.ca/apps/pages/index.jsp?uREC_ID=1122198&type=d&pREC_ID=1396222",
+      "decided": "2025-06-24",
+      "summary": "The board's trustees passed a motion on June 24, 2025: Grade 7 and 8 students in the Listowel Eastdale Public School and North Perth Westfield Elementary School areas move to Listowel District Secondary School, starting September 2026. Check the review page for how it applies to your address.",
+      "schools": [
+        "163619",
+        "459441",
+        "923095"
+      ],
+      "match": "Names on the review page matched by hand to Listowel Eastdale Public School, North Perth Westfield Elementary School and Listowel District Secondary School (all Listowel, grades JK-6, JK-8 and 9-12). The input also lists Listowel District Elementary (288162, grades 7-8), which may be the Grade 7-8 program at that site; left out because the page does not name it.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

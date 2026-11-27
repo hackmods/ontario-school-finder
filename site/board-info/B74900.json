@@ -1,0 +1,44 @@
+{
+  "board": "B74900",
+  "name": "Independent Learning Centre/TVOntario",
+  "short": "TVO ILC",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "ilc-enrol",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "How to Apply (TVO ILC)",
+      "url": "https://www.ilc.org/pages/how-to-apply",
+      "summary": "TVO ILC is an online high school for people at least 14 (or turning 14 by December 31 of the school year) who have completed Grade 8 and are not enrolled in an Ontario high school; current students go through their guidance counsellor. Choose courses, enter details, pay the $40 per course fee (partly subsidized for most Ontario residents, non-refundable), then upload proof of Ontario residency and citizenship and academic records. Homeschoolers first give their board a notice of intent and upload its reply letter.",
+      "related": [
+        {
+          "title": "How It Works",
+          "url": "https://www.ilc.org/pages/how-it-works"
+        },
+        {
+          "title": "Frequently Asked Questions",
+          "url": "https://www.ilc.org/pages/faq"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "ilc-access",
+      "topic": "accessibility",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Accessibility (TVO ILC)",
+      "url": "https://www.ilc.org/pages/accessibility",
+      "summary": "TVO's accessibility policy for goods and services (Ontario Regulation 191/11), plus tips for navigating the online courses, such as recommended browsers and operating-system tools for mouse customization, screen magnification and text-to-speech.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

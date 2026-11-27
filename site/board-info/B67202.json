@@ -1,0 +1,273 @@
+{
+  "board": "B67202",
+  "name": "Algonquin and Lakeshore Catholic District School Board",
+  "short": "ALCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "School Registration",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165053&type=d&pREC_ID=1392810",
+      "summary": "Create an account on the board's Aspen system (or go into the school), complete the pre-registration form (about 15 minutes), then contact the school for next steps. The school needs a birth certificate, taxation information, proof of residency and any custody or medical documents; a baptismal certificate is welcome but not required. The child is not registered until all documents are in. The board says it welcomes students of any religious background; its Admission to Catholic Schools policy (not readable by us) sets out eligibility.",
+      "related": [
+        {
+          "title": "Kindergarten Registration",
+          "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165053&type=d&pREC_ID=1396418"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (Tri-Board BusPlanner)",
+      "url": "https://triboard.mybusplanner.ca/Eligibility.aspx",
+      "summary": "The board says a child's school is determined by the home address and points families to the Tri-Board School Eligibility Tool: enter a street address, municipality and district to see the school that serves it."
+    },
+    {
+      "applies": [
+        "elementary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165169&type=d&pREC_ID=1393432",
+      "summary": "The board says French Immersion is offered in Grades K to 8 at École catholique Cathédrale, Nicholson Catholic College (Grades 7-8), Our Lady of Mount Carmel, St. Geneviève, St Mary (K-6), St Michael (K-6) and St Paul Catholic Secondary School (7-8). The page does not say how or when to apply, or whether there is a waitlist; ask the school. Core French is offered at all schools from Grade 1.",
+      "related": [
+        {
+          "title": "Long Term Accommodation Plan Report 2023 (PDF)",
+          "url": "https://22.files.edl.io/4f14/07/04/24/185405-2079793d-4ca8-496f-8570-7e559af196d6.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165169&type=d&pREC_ID=1393432",
+      "summary": "Secondary French Immersion and Extended French are offered in Grades 9 to 12. Nicholson Catholic College and Regiopolis-Notre Dame offer both Immersion and Extended; St Paul Catholic Secondary School and Holy Cross Catholic Secondary School offer Extended only. French Immersion students may take Higher Level French in the IB Diploma, and Grade 12 students can pursue the DELF certificate."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "lifecycle": "rules",
+      "title": "School Registration",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165053&type=d&pREC_ID=1392810",
+      "summary": "We could not read a published ALCDSB procedure for asking to attend a school other than your home school: the Admission to Catholic Schools policy is stored behind a Microsoft sign-in. Ask the school principal or the board how out-of-area requests work and when to apply. Bus service generally follows the home school.",
+      "unchecked": true
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-transport",
+      "topic": "transportation",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "School Bus Transportation",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165054&type=d&pREC_ID=1394621",
+      "summary": "Busing is run by Tri-Board Student Transportation and is a separate application from registering for school, including for kindergarten. The board's page sends families to Tri-Board to check eligibility and apply, and to sign up for bus delay and cancellation alerts. The board's page gives no walking distances; the Limestone board, which shares Tri-Board, publishes the rules it describes as common to the three boards.",
+      "related": [
+        {
+          "title": "Limestone DSB Policy 21: Student Transportation (PDF)",
+          "url": "https://www.limestone.on.ca/documents/aa7c72f4-ce14-4496-9770-b5696c6fdb98/v_-policy_21_student_transportation.pdf?fingerprint=ppb20251217014611"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165169&type=d&pREC_ID=1394981",
+      "summary": "The board's page describes early identification, how Educational Assistant support is allocated by school, and the classroom teacher's role in the Individual Education Plan (IEP) with the Special Education Resource Teacher. It names a 2026-27 special education guide, but that document sits behind a sign-in, so we could not read it. Ask the school about IPRC meetings."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-seac",
+      "topic": "seac",
+      "kind": "not_found",
+      "lifecycle": "contacts",
+      "title": "Get Involved",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165054&type=d&pREC_ID=1394615",
+      "summary": "The board's Get Involved page has a section on its Special Education Advisory Committee: it makes recommendations to the board and includes trustees, student services staff and community agency representatives. The page links a SEAC Handbook (PDF) but lists no meeting dates or SEAC contact; use the Student and Family Support Office at 613-354-2255, option 2."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165052&type=d&pREC_ID=1393780",
+      "summary": "The board's accessibility page gives its policy statement and describes a Multi-Year Accessibility Plan under Ontario's accessibility law, reviewed by an Accessibility Advisory Committee that meets at least three times a year. The page still describes the plan period as 2017-2022, so ask the board whether a newer plan exists. Requests for alternative formats: 613-354-2255."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Multilingual Learners",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165169&type=d&pREC_ID=1400736",
+      "summary": "The board offers English as a Second Language (ESL) and English Literacy Development (ELD) support in elementary and secondary schools. Elementary students are supported in their home school by the classroom teacher and a Multilingual Learner itinerant teacher; secondary students can take ESL and ELD credit courses. The page lists no separate welcome centre."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Facilities and Construction Projects",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165052&type=d&pREC_ID=1393062",
+      "source_date": "Long-Term Accommodation Plan 2023/24, September 18, 2023",
+      "summary": "The board's Long-Term Accommodation Plan looks 15 years ahead using enrolment, school use and demographics, and is updated about every five years. The page links the 2023 and 2018 reports, draft accommodation-review policies and current school building projects. Projections are forecasts and capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Long Term Accommodation Plan Report 2023 (PDF)",
+          "url": "https://22.files.edl.io/4f14/07/04/24/185405-2079793d-4ca8-496f-8570-7e559af196d6.pdf"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan (PDF)",
+      "url": "https://22.files.edl.io/c248/06/03/26/184101-7da7aba5-ecf2-4755-9313-0e261f286680.pdf",
+      "source_date": "2024-2025 Academic Year",
+      "summary": "The board's Student Achievement Plan under the province's framework, with literacy, math, graduation and well-being goals and board-versus-province results. The board's page presents it as the 2026-2027 plan, but the results charts in the PDF are labelled 2024-2025.",
+      "related": [
+        {
+          "title": "Student Achievement Plan",
+          "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165052&type=d&pREC_ID=1394975"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-csca",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Get Involved",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165054&type=d&pREC_ID=1394615",
+      "summary": "The Catholic School Council Association (CSCA) is the board-level parent advisory committee: two parent representatives from each family of schools, plus trustees, a principal, a diocesan representative and a community representative. It meets at least four times a year at 6:30 p.m. Each school also has a Catholic School Council."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "alcdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "Resolving An Issue",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165054&type=d&pREC_ID=1393540",
+      "summary": "Raise a concern in order: the classroom teacher, then the principal, then the school's superintendent, then the Chief Executive Officer/Chief Education Officer. The board does not respond to anonymous concerns. The Student and Family Support Office (613-354-2255, option 2) can also help; it aims to reply within 5 business days.",
+      "related": [
+        {
+          "title": "Student and Family Support Office",
+          "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165054&type=d&pREC_ID=1400440"
+        }
+      ]
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French as a Second Language",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165169&type=d&pREC_ID=1393432",
+      "verified": "2026-11-26",
+      "schools": {
+        "690932": "Nicholson Catholic College (7-8) (Belleville)",
+        "706264": "Our Lady of Mount Carmel Catholic School (Amherstview)",
+        "752932": "Regiopolis-Notre Dame Catholic High School (Kingston)",
+        "827681": "École catholique Cathédrale (Kingston)",
+        "831840": "St Mary Catholic School (K-6) (Trenton)",
+        "834301": "St. Geneviève Catholic School (Kingston)",
+        "834688": "St Michael Catholic School (K-6) (Belleville)",
+        "835099": "Nicholson Catholic College (Belleville)"
+      }
+    },
+    {
+      "program": "extended-french",
+      "title": "French as a Second Language",
+      "url": "https://www.alcdsb.on.ca/apps/pages/index.jsp?uREC_ID=1165169&type=d&pREC_ID=1393432",
+      "verified": "2026-11-26",
+      "schools": {
+        "715298": "Holy Cross Catholic Secondary School (Kingston)",
+        "752932": "Regiopolis-Notre Dame Catholic High School (Kingston)",
+        "835099": "Nicholson Catholic College (Belleville)",
+        "841358": "St Paul Catholic Secondary School (Trenton)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "board": "B66311",
+  "name": "Conseil des écoles publiques de l'Est de l'Ontario",
+  "short": "CEPEO",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "cepeo-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Nouvelle inscription",
+      "url": "https://cepeo.on.ca/nouvelle-inscription/",
+      "summary": "Admission rests on age (4 to 18 before December 31), living in Ontario in the board's territory, and French-language rights under section 23 of the Charter (a citizen parent who learned French first, schooled in French in Canada, or has another child in French-language school). A child whose parent does not meet this may still be admitted if the Admissions Committee (comité d'admission) approves. Register online through the Portail Famille on a computer; the current year is open at any time and registration for the next year opens in January. ",
+      "related": [
+        {
+          "title": "Documents pour inscription",
+          "url": "https://cepeo.on.ca/documents-pour-inscription/"
+        },
+        {
+          "title": "Inscription",
+          "url": "https://cepeo.on.ca/inscriptions/"
+        },
+        {
+          "title": "FAQ inscription",
+          "url": "https://cepeo.on.ca/faq-inscription"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Localisateur d'école",
+      "url": "https://cepeo.maps.arcgis.com/apps/webappviewer/index.html?id=9a28af9384954bd29915e270532ad913",
+      "summary": "The board's own school locator: enter your full address and postal code to see your CEPEO school. Every CEPEO school has an attendance area. If you live on the line between two areas, or the result differs from the transportation consortium's tool, the board asks you to contact the Admissions Office.",
+      "related": [
+        {
+          "title": "Nouvelle inscription",
+          "url": "https://cepeo.on.ca/nouvelle-inscription/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-program-accueil",
+      "topic": "program",
+      "kind": "process",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Classe d'accueil",
+      "url": "https://cepeo.on.ca/services/services-aux-eleves/classe-daccueil/",
+      "summary": "For students with little or no French, this page describes an intensive French and math class at École secondaire publique Omer-Deslauriers (Ottawa) for newcomers aged 12 to 17 who have been in Ontario at least a year and have had gaps in schooling. A student must be recommended by the home school. The page does not use the names ALF or PANA and describes no elementary program.",
+      "related": [
+        {
+          "title": "Inscription",
+          "url": "https://cepeo.on.ca/inscriptions/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport (attendance areas and exceptions)",
+      "url": "https://cepeo.on.ca/transport/",
+      "summary": "All CEPEO schools have attendance areas. The page lists cases where a student may attend a school outside the area, such as living within walking distance of another school (if space allows), health or difficult circumstances, a program the home school does not offer, or finishing the year after a move. It does not say how to apply, so ask the Admissions Office. Secondary students in the Ottawa region may choose their secondary school and get a free PRESTO card.",
+      "related": [
+        {
+          "title": "Inscription",
+          "url": "https://cepeo.on.ca/inscriptions/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport",
+      "url": "https://cepeo.on.ca/transport/",
+      "summary": "Busing is run by consortia: Consortium de transport scolaire d'Ottawa (CTSO) for Ottawa, Kemptville, Pembroke, Kingston and Trenton, and Consortium de transport scolaire de l'Est (CTSE) for Prescott-Russell, Stormont, Dundas and Glengarry. Eligibility depends on your home address; use the consortium's lookup. The page gives no walking distances and does not mention courtesy seats or program transportation.",
+      "related": [
+        {
+          "title": "CTSO eligibility check",
+          "url": "https://ctso.mybusplanner.ca/TransportationEligibility"
+        },
+        {
+          "title": "CTSE eligibility check",
+          "url": "https://www.ctse.ca/parents-et-eleves/verifier-ladmissibilite-de-votre-enfant/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-specialed",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Éducation spécialisée",
+      "url": "https://cepeo.on.ca/services/services-aux-eleves/education-specialisee/",
+      "summary": "Covers special education at CEPEO: the individual education plan (plan d'enseignement individualisé) and the identification, placement and review committee (CIPR/IPRC), which decides whether a child is identified as exceptional, where they are placed, and reviews this at least once a school year. The board's Plan des programmes et services 2026-2027 (PDF) and a parents' guide are linked from the page.",
+      "related": [
+        {
+          "title": "CIPR",
+          "url": "https://cepeo.on.ca/services/services-aux-eleves/education-specialisee/cipr/"
+        },
+        {
+          "title": "Plan d'enseignement individualisé",
+          "url": "https://cepeo.on.ca/services/services-aux-eleves/education-specialisee/plan-denseignement-individualise/"
+        },
+        {
+          "title": "Plan des programmes et services 2026-2027 (PDF)",
+          "url": "https://cepeo.on.ca/wp-content/uploads/2026/09/Plan_des_programmes-et-services_Education-Specialisee_-2026-2027.pdf"
+        },
+        {
+          "title": "Guide des parents, Éducation spécialisée 2026-27 (PDF)",
+          "url": "https://cepeo.on.ca/wp-content/uploads/2026/09/Guide-des-parents-EducationSpecialisee2026-27_CEPEO.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Réunions du Conseil et des comités",
+      "url": "https://cepeo.on.ca/a-propos/reunions-du-conseil-comites/",
+      "summary": "The board's meetings page lists minutes of the special education advisory committee (Comité consultatif de l'éducation spécialisée, CCED), with meetings from September 2025 to September 2026. The page does not describe the committee's role or how to join, so ask the board.",
+      "related": [
+        {
+          "title": "Nous joindre",
+          "url": "https://cepeo.on.ca/nous-joindre/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibilité",
+      "url": "https://cepeo.on.ca/accessibilite/",
+      "summary": "The board's accessibility page commits to an accessible digital environment under the AODA and offers a form for accessibility improvement requests, with a reply promised within 48 business hours. The page itself does not contain a multi-year plan. The board's policies page links a separate plan (\"Plan d'accessibilité pour les personnes ayant un handicap\"); we did not read it, and no years are shown.",
+      "related": [
+        {
+          "title": "Politiques",
+          "url": "https://cepeo.on.ca/a-propos/politiques/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Guide des nouveaux arrivants",
+      "url": "https://cepeo.on.ca/a-propos/equite-inclusion-et-droits-de-la-personne/guide-des-nouveaux-arrivants/",
+      "summary": "A guide for families new to the region: settlement, housing, health and other community services, and the registration steps (parent account in the Aspen family portal, send documents, attend an admissions committee meeting, request busing). A community worker can help with registration. It does not describe a language assessment. For secondary students with little French, see the Classe d'accueil.",
+      "related": [
+        {
+          "title": "Classe d'accueil",
+          "url": "https://cepeo.on.ca/services/services-aux-eleves/classe-daccueil/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Le CEPEO s'agrandit (construction)",
+      "url": "https://cepeo.on.ca/a-propos/construction/",
+      "summary": "Lists the board's major new-school and addition projects (ten named elementary and secondary projects plus renovation investments) and information sessions. We found no long-term accommodation plan, boundary review or capacity and enrolment table on the board's site. Any projections are forecasts, and capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Conformité de l'effectif des classes",
+          "url": "https://cepeo.on.ca/a-propos/conformite-de-leffectif-des-classes/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plan pour la réussite des élèves",
+      "url": "https://cepeo.on.ca/a-propos/plan-pour-la-reussite-des-eleves/",
+      "summary": "The board's public report on student success under Ontario's 2023 education law, comparing CEPEO and provincial results on the provincial priority indicators. The linked 2026 report is marked provisional until the Ministry validates the data. The page states no board-specific targets.",
+      "related": [
+        {
+          "title": "Rapport CEPEO 2026 (PDF)",
+          "url": "https://cepeo.on.ca/wp-content/uploads/2026/08/Rapport-CEPEO-2026_finale-1.pdf"
+        },
+        {
+          "title": "Plan stratégique 2026-2031",
+          "url": "https://cepeo.on.ca/a-propos/strategie2031/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Conseils d'école",
+      "url": "https://cepeo.on.ca/parents/participation-des-parents/conseils-decole/",
+      "summary": "School councils are advisory bodies, with a majority of parents plus students, community members, staff and the principal. They work on student achievement, community outreach and well-being. The page leaves meeting details to the Ministry's guide and your school.",
+      "related": [
+        {
+          "title": "Participation des parents",
+          "url": "https://cepeo.on.ca/parents/participation-des-parents/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Réunions du Conseil et des comités (Comité de participation des parents)",
+      "url": "https://cepeo.on.ca/a-propos/reunions-du-conseil-comites/",
+      "summary": "The board's meetings page lists minutes of the Comité de participation des parents (parent involvement committee) from October 2024 to January 2026. It does not explain how to join, so ask the board.",
+      "related": [
+        {
+          "title": "Participation des parents",
+          "url": "https://cepeo.on.ca/parents/participation-des-parents/"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cepeo-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Bureau d'assistance aux élèves et aux familles",
+      "url": "https://cepeo.on.ca/parents/bureau-dassistance-aux-eleves-et-aux-familles/",
+      "summary": "Start with your child's teacher, vice-principal, principal or superintendent. If the school has not resolved it, send a request through the Bureau d'assistance form; it acknowledges within two school days and aims to respond within five. Transportation concerns go to the busing consortium.",
+      "related": [
+        {
+          "title": "Comment communiquer avec le CEPEO",
+          "url": "https://cepeo.on.ca/parents/comment-communiquer-avec-le-cepeo/"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

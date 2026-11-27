@@ -1,0 +1,379 @@
+{
+  "board": "B66222",
+  "name": "Hastings and Prince Edward District School Board",
+  "short": "HPEDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "hpedsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Register for School",
+      "url": "https://www.hpedsb.on.ca/register_for_school",
+      "summary": "First confirm your home school with the Tri-Board transportation lookup. Then register online (the Aspen portal; use a laptop or desktop, not a phone) or print the paper form, and book a time with the school office to show original documents. You need proof of your child's legal name and birth date, proof of an address in the board's area, and your immunization record; custody orders if they apply. Cell phone bills and driver's licences are not accepted as proof of address.",
+      "related": [
+        {
+          "title": "Out of country registration",
+          "url": "https://www.hpedsb.on.ca/cms/One.aspx?portalId=8476458&pageId=22342849"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-kindergarten",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Kindergarten",
+      "url": "https://www.hpedsb.on.ca/programs___learning/programs/kindergarten",
+      "summary": "All elementary schools offer two years of Kindergarten (JK, then SK). The page is currently set up for the 2027-2028 school year: JK children turn four in 2027 and SK children turn five in 2027. Steps are the same as for any registration (check your home school, register online or on paper, show documents), plus a family questionnaire for the school. The page gives no registration dates; ask the school or the board.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (Tri-Board Student Transportation Services)",
+      "url": "https://triboard.mybusplanner.ca/Eligibility",
+      "summary": "The board has no address tool of its own. It sends families to the Tri-Board transportation consortium's lookup: choose the district, enter your address and school year to see the school that serves it. Registration pages tell families to check this before registering. The board's Schools page lists each school and groups them into regional school groups but has no boundary maps.",
+      "related": [
+        {
+          "title": "Schools (board page)",
+          "url": "https://www.hpedsb.on.ca/about_us/contact/schools"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French Programs",
+      "url": "https://www.hpedsb.on.ca/programs___learning/programs/french_programs",
+      "facts": {
+        "entry_grades": [
+          "4"
+        ],
+        "single_entry": true
+      },
+      "summary": "French Immersion starts in Grade 4 (later entry is allowed but the board warns it is harder) and is offered at five host schools, with at least 3,800 hours of French by the end of Grade 8. Pre-registration goes to the host school; the 2026 deadline was January 30, 2026 and the board posts new dates each year. Priority goes to students in the host school's area; if classes are full, students may be wait-listed. Parents arrange transportation.",
+      "related": [
+        {
+          "title": "French Immersion program information 2026-2027 (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/French/French%20Immersion%20information.pdf"
+        },
+        {
+          "title": "French Immersion information nights 2026 (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/French/French%20Immersion%20info%20night%20dates%202026.pdf"
+        }
+      ],
+      "source_date": "For the 2026-2027 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-ef",
+      "topic": "program",
+      "program": "extended-french",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "Extended French information (PDF)",
+      "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/French/Extended%20French%20information%202026.pdf",
+      "facts": {
+        "entry_grades": [
+          "5"
+        ]
+      },
+      "summary": "Extended French starts in Grade 5 (the board's French page says Grades 5 to 8) with French as the language of instruction for at least 25% of the day, and is offered at York River Public School in Bancroft only. The 2026 information night was January 15, 2026 and registration was due to the school by January 30, 2026; the board updates these dates each year. Later entry is possible.",
+      "related": [
+        {
+          "title": "French Programs",
+          "url": "https://www.hpedsb.on.ca/programs___learning/programs/french_programs"
+        }
+      ],
+      "source_date": "For the 2026-2027 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary School French Programs (PDF)",
+      "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/secondary_french_information_2023.pdf",
+      "summary": "Secondary French Immersion is offered at Bayside Secondary School (10 of 30 credits taught in French) and is meant for students finishing French Immersion or Extended French in Grade 8, or with equal French. Students in the board choose a French pathway during the Grade 8 to 9 transition; students from outside should ask the secondary school. Ask the school office about transportation. Core French is offered at most high schools.",
+      "source_date": "Information for the 2023-2024 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-ef-secondary",
+      "topic": "program",
+      "program": "extended-french",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Secondary School French Programs (PDF)",
+      "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/secondary_french_information_2023.pdf",
+      "summary": "Secondary Extended French is offered at Prince Edward Collegiate Institute in Picton, with 7 of 30 credits taught in French, for students coming out of French Immersion or Extended French in Grade 8, or with equal French. This document is from 2023-2024, so ask the school to confirm the program is still offered as described.",
+      "source_date": "Information for the 2023-2024 school year",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French Immersion information nights 2026 (PDF)",
+      "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/French/French%20Immersion%20info%20night%20dates%202026.pdf",
+      "summary": "We found no general HPEDSB page on attending a school outside your area. The only published step is for program schools: register first at the host school, then complete Form 340-1, Request for Transfer, to ask for a school outside your area. For anything else, ask the principal or the board's Education Centre how requests are handled.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Can I Ride a Bus? (Tri-Board Student Transportation Services)",
+      "url": "https://triboard.mybusplanner.ca/TransportationEligibility",
+      "summary": "Tri-Board Student Transportation Services runs buses for this board, and its lookup tells you by address whether a student may ride. The board's own pages give no walk distances; Limestone's published policy, described as common to the three Tri-Board boards, uses 1.6 km (JK to Grade 6) and 3.2 km (Grades 7 to 12). The board says transportation to a French Immersion school is only offered if a route exists, there is room, and it costs the board nothing extra.",
+      "related": [
+        {
+          "title": "French Immersion program information 2026-2027 (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/French/French%20Immersion%20information.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education Programs",
+      "url": "https://www.hpedsb.on.ca/programs___learning/programs/special_education_programs",
+      "summary": "Most students are supported in the regular classroom; each student receiving special education has an Individual Education Plan (IEP). The page describes elementary resource programs and secondary regional programs, with yearly program summaries. We did not find the board's full Special Education Plan on the pages we read. The Special Needs Support page has a guide to accessing supports and an IEP guide.",
+      "related": [
+        {
+          "title": "Special Needs Support",
+          "url": "https://www.hpedsb.on.ca/community/services_available/special_needs_support"
+        },
+        {
+          "title": "Elementary Resource Program Summary 2026-2027 (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/Special%20Education/Elementary%20Resource%20Program%20Summary%202026-2027.pdf"
+        },
+        {
+          "title": "Secondary Regional Program Summary 2026-2027 (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/Special%20Education/Secondary%20Regional%20Program%20Summary%202026-2027.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee",
+      "url": "https://www.hpedsb.on.ca/community/resources_available/special_education_advisory_committee",
+      "summary": "SEAC advises the board on special education programs and services; members include associations, parents or guardians, and board and community representatives. It usually meets on the fourth Thursday of the month at 4:00 p.m. You can attend in person after emailing Student Services, or watch the live stream on the board's YouTube channel. The page links the 2026-2027 meeting schedule.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility Plan and Inquiries",
+      "url": "https://www.hpedsb.on.ca/community/resources_available/accessibility_plan_and_inquiries",
+      "summary": "The board's Multi-Year Annual Accessibility Plan covers September 2025 to August 2030, and the page also links its accessibility procedure and a 2025 compliance report. It is a board-wide plan, not a list of what each school building offers; ask the school about specific needs. The page gives a phone number and a Facility Services link for feedback.",
+      "related": [
+        {
+          "title": "Multi-Year Annual Accessibility Plan, Sept 2025 to Aug 2030 (PDF)",
+          "url": "https://www.hpeschools.ca/UserFiles/Servers/Server_8476374/File/Multi-Year%20Annual%20Accessibility%20Plan%20Final%20(Sept%202025%20to%20Aug%202030)%20May_2026.pdf"
+        }
+      ],
+      "source_date": "September 2025 to August 2030",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Out of country registration",
+      "url": "https://www.hpedsb.on.ca/cms/One.aspx?portalId=8476458&pageId=22342849",
+      "summary": "Families moving to Canada first confirm the home school, check the board's eligibility and documents guidelines (fee-exempt status depends on status in Canada), then contact Business Services to start admission. Free help registering comes from Settlement Workers in Schools, run by Quinte Immigration Services. We did not find a board welcome centre or an English language learner page.",
+      "related": [
+        {
+          "title": "Settlement Workers in Schools overview (PDF)",
+          "url": "https://www.hpeschools.ca/UserFiles/Servers/Server_8476374/File/Register%20for%20school/SWIS%20Overview%20(SchoolBoards).pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-ltcap",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Long-Term Capital and Accommodation Plan",
+      "url": "https://www.hpedsb.on.ca/board/board_resources/long-_term_capital_and_accommodation_plan",
+      "summary": "A 10-year plan (Winter 2026, prepared for the 2025/26 year) with current and projected enrolment and capacity for each school group. It recommends a board-wide elementary French Immersion delivery review. Projections are forecasts, and capacity is building space, not open seats in a grade or program. The page also links the board's accommodation review policy and past reviews.",
+      "related": [
+        {
+          "title": "Long-Term Capital and Accommodation Plan 2025/26 (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Long%20Term%20Capital%20Accommodation%20Plan.pdf"
+        }
+      ],
+      "source_date": "Winter 2026",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.hpedsb.on.ca/board/connection_pieces/student_achievement_plan",
+      "summary": "The board's plan under Ontario's student achievement framework, built around three provincial priorities: core academic skills, preparation for future success, and student engagement and well-being. The page links the plan as a PDF but gives no plan years. These are board-wide goals, not results for one school.",
+      "related": [
+        {
+          "title": "Student Achievement Plan (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/B66222_Hastings%20&%20Prince%20Edward%20DSB_Template%201.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.hpedsb.on.ca/community/getting_involved/parent_involvement_committee",
+      "summary": "A board-level parent committee that works with school councils. Each school council elects one representative to attend, using an HPEDSB email account the principal provides. The 2026-2027 meetings, all at 6:00 p.m., are October 21 and November 18, 2026, and February 10 and May 12, 2027.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Family and Community Engagement",
+      "url": "https://www.hpedsb.on.ca/community/getting_involved/family_community_engagement",
+      "summary": "Every school has a school council of the principal, parents or guardians, staff and community members. School councils can apply for Parents Reaching Out grants. The page also introduces the Parent Involvement Committee and SEAC. Ask your school how to join its council.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "hpedsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Looking for Help with Questions or Concerns?",
+      "url": "https://www.hpedsb.on.ca/community/resources_available/looking_for_help_with_questions_or_concerns_",
+      "summary": "The board's poster sets the order: talk to the teacher, then the principal, then the superintendent, and finally the chief executive officer. Trustees can be contacted at any time, and the Student and Family Support Office helps families find the right person. The page also links the Ontario Ombudsman. The process is in the board's Procedure 108.",
+      "related": [
+        {
+          "title": "Looking for help poster (PDF)",
+          "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Looking%20for%20help%20poster%20(5).pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Programs",
+      "url": "https://www.hpedsb.on.ca/programs___learning/programs/french_programs",
+      "verified": "2026-11-26",
+      "schools": {
+        "246034": "Harry J. Clarke Public School (Belleville)",
+        "300125": "Central Hastings School (Madoc)",
+        "453382": "Prince Charles Public School (Trenton)",
+        "473211": "Prince Edward Collegiate Institute - Elementary (Picton)",
+        "512796": "Bayside Public School (Belleville)",
+        "893803": "Bayside Secondary School (Belleville)"
+      }
+    },
+    {
+      "program": "extended-french",
+      "title": "Extended French information (PDF)",
+      "url": "https://www.hpedsb.on.ca/UserFiles/Servers/Server_8476374/File/Programs%20&%20Learning/French/Extended%20French%20information%202026.pdf",
+      "verified": "2026-11-26",
+      "schools": {
+        "407275": "York River Public School (Bancroft)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "board": "B76686",
+  "name": "Provincial and Demonstration Schools",
+  "short": "Provincial and Demonstration Schools",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "pds-deaf",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School for the Deaf Admissions",
+      "url": "https://www.pdsbnet.ca/schools/admissions/school_for_the_deaf_admissions",
+      "summary": "A student applies to a provincial school for the Deaf while registered at the home school in the board where they live. Requirements include being under 21 on the first day of the school year, an audiogram and a recommendation from the home board's IPRC that the student be placed at a School for the Deaf. A referral package starts the process; consultants review records, observe the student and interview the family, and the Superintendent decides.",
+      "related": [
+        {
+          "title": "Application Process",
+          "url": "https://www.pdsbnet.ca/schools/admissions/school_for_the_deaf_admissions/application_process"
+        },
+        {
+          "title": "Catchment Area",
+          "url": "https://www.pdsbnet.ca/schools/admissions/school_for_the_deaf_admissions/catchment_area"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pds-blind",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School for the Blind Admissions",
+      "url": "https://www.pdsbnet.ca/schools/admissions/school_for_the_blind_admissions",
+      "summary": "W. Ross Macdonald School in Brantford takes students who are blind, low vision or Deafblind and who need an alternate medium to print. The student must be an Ontario resident pupil registered at the home school, under 21 and recommended by the home board's IPRC. Steps include a tour, an admissions package, a one-week trial with assessments and an admissions committee decision. Students living farther than 115 km or 70 minutes away can use lodging.",
+      "related": [
+        {
+          "title": "Application Process",
+          "url": "https://www.pdsbnet.ca/schools/admissions/school_for_the_blind_admissions/application_process"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pds-demo",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "dates",
+      "title": "Demonstration Schools Admissions",
+      "url": "https://www.pdsbnet.ca/schools/admissions/demonstration_schools_admissions",
+      "summary": "The three demonstration schools (Amethyst, Sagonaska, Trillium) give one-year intensive programs to students with severe learning disabilities. The district school board applies on the student's behalf after an IPRC recommends it, and a provincial committee decides. Consultation packages are due by November 1 and the full application by February 1 for the following September; a demonstration school teacher assesses the student first.",
+      "related": [
+        {
+          "title": "Criteria for Placement",
+          "url": "https://www.pdsbnet.ca/schools/admissions/demonstration_schools_admissions/criteria_for_placement"
+        },
+        {
+          "title": "Application Process",
+          "url": "https://www.pdsbnet.ca/schools/admissions/demonstration_schools_admissions/application_process"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pds-iep",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Individual Education Plan",
+      "url": "https://www.pdsbnet.ca/parents/resources/individual_education_plan",
+      "summary": "Every student placed at a provincial or demonstration school has an Individual Education Plan, implemented and reviewed under provincial special education rules. The branch also offers Resource Services consultants who visit district boards and First Nations schools to support Deaf, blind, low vision and Deafblind students.",
+      "related": [
+        {
+          "title": "School Age Services (Resource Services)",
+          "url": "https://resourceservices.pdsbnet.ca/school_age_services"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pds-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Council",
+      "url": "https://www.pdsbnet.ca/parents/school_council",
+      "summary": "Each provincial and demonstration school has a school council of parents and school team members that meets during the school year. A Provincial and Demonstration Schools Council (PDSC) advises branch management and meets two to three times a year.",
+      "related": [
+        {
+          "title": "Provincial and Demonstration Schools Council (PDSC)",
+          "url": "https://www.pdsbnet.ca/cms/one.aspx?pageId=356967"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "pds-plan",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Strategic Plan (2024-27)",
+      "url": "https://www.pdsbnet.ca/about_us/strategic_plan",
+      "summary": "The branch's 2024-27 multi-year strategic plan sets goals for student achievement, preparing students for the future and engagement and well-being. It is a strategic plan, not a test-score achievement plan.",
+      "verified": "2026-11-26"
+    }
+  ]
+}

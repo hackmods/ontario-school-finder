@@ -1,0 +1,292 @@
+{
+  "board": "B67334",
+  "name": "Conseil des écoles catholiques du Centre-Est",
+  "short": "CECCE",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "id": "cecce-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Inscription",
+      "url": "https://www.ecolecatholique.ca/inscription",
+      "summary": "Register online through the Aspen parent portal on a computer, at any time; some schools keep waitlists, so register early. Students need to live in Ontario in the board's territory, and a parent should have French as a first language or have done elementary school in French in Canada; otherwise a committee may review the request. The page says children of all faiths are welcome, and asks for a baptism certificate (child or parent) for JK to Grade 6. Other documents: proof of age, address, status in Canada and prior schooling.",
+      "related": [
+        {
+          "title": "Directives administratives",
+          "url": "https://www.ecolecatholique.ca/directives-administratives"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Trouver une école",
+      "url": "https://www.ecolecatholique.ca/trouver-une-ecole",
+      "summary": "Lists every school (filter by region and grade) and links a map to find the closest school. The page does not explain attendance areas or boundaries; the board's directive ADM-05 covers them. The transportation consortium also has an address lookup.",
+      "related": [
+        {
+          "title": "Carte des écoles",
+          "url": "https://app4.ecolecatholique.ca/web/cartovista/index.html"
+        },
+        {
+          "title": "CTSO eligibility check",
+          "url": "https://ctso.mybusplanner.ca/Eligibility.aspx"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-program-fsl",
+      "topic": "program",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Appui linguistique et académique",
+      "url": "https://www.ecolecatholique.ca/appui-linguistique-et-academique",
+      "summary": "The page says the former ALF (French language upgrading) and PANA (newcomer support) programs are no longer in effect: students learning French and newly arrived students follow the same curriculum as everyone else. Settlement workers (travailleurs d'établissement) in several elementary and secondary schools help newly arrived families. The page does not say how students are placed.",
+      "related": [
+        {
+          "title": "Nous joindre",
+          "url": "https://www.ecolecatholique.ca/nous-joindre"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-transfer",
+      "topic": "transfer",
+      "kind": "not_found",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Directives administratives",
+      "url": "https://www.ecolecatholique.ca/directives-administratives",
+      "summary": "We looked for how to ask for a school outside your area and found no page describing it. The board's directives list admission rules (ADM-13 elementary, ADM-28 secondary) and school attendance areas (ADM-05) but we did not open them. Within the board, moving schools does not need a new registration; contact the new school. Ask the board about out-of-area requests.",
+      "related": [
+        {
+          "title": "Inscription",
+          "url": "https://www.ecolecatholique.ca/inscription"
+        }
+      ],
+      "verified": "2026-11-26",
+      "unchecked": true
+    },
+    {
+      "id": "cecce-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Transport scolaire",
+      "url": "https://www.ecolecatholique.ca/transport",
+      "summary": "Busing is run by the Consortium de transport scolaire d'Ottawa (CTSO) and depends on the distance from your main address (or daycare, JK to Grade 8) to your designated school. Kindergarten has no minimum distance; Grades 1 to 8 need 1.6 km and Grades 9 to 12 need 3.2 km. The page does not mention courtesy seats or program transportation.",
+      "facts": {
+        "walk_km": {
+          "Grades 1 to 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "related": [
+        {
+          "title": "CTSO eligibility check",
+          "url": "https://ctso.mybusplanner.ca/TransportationEligibility"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-specialed",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Éducation spécialisée",
+      "url": "https://www.ecolecatholique.ca/education-specialisee",
+      "summary": "Explains the individual education plan (PEI) and the identification, placement and review committee (CIPR/IPRC), and links the board's Plan des programmes et services en éducation spécialisée (PDF, not in an accessible format; an adapted copy can be requested) and a parent and guardian guide to special education.",
+      "related": [
+        {
+          "title": "Plan des programmes et services (PDF)",
+          "url": "https://www.ecolecatholique.ca/sites/default/files/2026-07/Plan-programmes-services-education-spe-VF.pdf"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Comités du Conseil",
+      "url": "https://www.ecolecatholique.ca/comites-du-conseil",
+      "summary": "Describes the special education advisory committee (Comité consultatif pour l'éducation spécialisée), which advises the board on programs for students with special needs. Members include parent representatives from community associations. Meetings are virtual, usually at about 7 p.m. The latest call for members closed October 9, 2026 for terms starting November 2026; ask the board about future openings.",
+      "related": [
+        {
+          "title": "Éducation spécialisée",
+          "url": "https://www.ecolecatholique.ca/education-specialisee"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Plan pluriannuel d'accessibilité",
+      "url": "https://www.ecolecatholique.ca/plan-pluriannuel-daccessibilite",
+      "summary": "The board's multi-year accessibility plan for 2025 to 2030 under the AODA, last revised October 2025. It sets out how the board finds and removes barriers in buildings, services and communications, and is reviewed each year. Copies are available from the board's capital services office.",
+      "source_date": "Last revised October 2025",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Appui linguistique et académique (nouveaux arrivants)",
+      "url": "https://www.ecolecatholique.ca/appui-linguistique-et-academique",
+      "summary": "Newly arrived students follow the regular curriculum, with no separate reception program described. Settlement workers in several schools help families with school integration and with services such as housing, legal help, jobs and childcare. Contact the board to find which schools have one.",
+      "related": [
+        {
+          "title": "Nous joindre",
+          "url": "https://www.ecolecatholique.ca/nous-joindre"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Projets de construction",
+      "url": "https://www.ecolecatholique.ca/construction",
+      "summary": "Lists new schools and additions (such as Fernbank, Riverside-Sud, Notre-Dame, Leitrim, Carleton Place) with their planned pupil spaces and timing. Attendance areas for several are still to be decided, and no approved boundary review or long-term accommodation plan is on the page. Figures are plans, and capacity is building space, not open seats.",
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Reddition de comptes (Plan pour la réussite des élèves)",
+      "url": "https://www.ecolecatholique.ca/reddition-de-comptes",
+      "summary": "Publishes the board's public report on its Plan pour la réussite des élèves, with three priorities: basic school skills, readiness for success, and engagement and well-being. The latest report listed is for 2024-2025 and the board updates it each year. The PDF is not in an accessible format; an adapted copy can be requested.",
+      "related": [
+        {
+          "title": "Plan stratégique 2021-2026",
+          "url": "https://www.ecolecatholique.ca/plan-strategique"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Parents bénévoles",
+      "url": "https://www.ecolecatholique.ca/parents-benevoles",
+      "summary": "The Comité de participation des parents is the board-level parent advisory body. It meets at least four times a year, usually online, with two-year terms starting in December. Applicants must be a parent or guardian of a CECCE student and a CECCE taxpayer who supports the board's Catholic values. The page also sets police record check rules for volunteers.",
+      "related": [
+        {
+          "title": "Comités du Conseil",
+          "url": "https://www.ecolecatholique.ca/comites-du-conseil"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-councils",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Parents bénévoles (conseils d'école)",
+      "url": "https://www.ecolecatholique.ca/parents-benevoles",
+      "summary": "Parents can join their school's advisory council; find your school's page and look under Zone parents, Conseil d'école. Directive GEN-09 sets out how councils are made up and run. A members' guide covers duties, elections, meetings and funds.",
+      "related": [
+        {
+          "title": "Directives administratives",
+          "url": "https://www.ecolecatholique.ca/directives-administratives"
+        }
+      ],
+      "verified": "2026-11-26"
+    },
+    {
+      "id": "cecce-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Bureau d'assistance aux élèves et aux familles du CECCE",
+      "url": "https://www.ecolecatholique.ca/bureau-dassistance-aux-eleves-et-aux-familles-du-cecce",
+      "summary": "Go in order: teacher, then principal or vice-principal, then the superintendent, then a written request to the Director of Education. If it is still unresolved, contact the Bureau d'assistance (acknowledges in 2 business days and aims to respond within 5). Trustees can also be contacted at any time.",
+      "related": [
+        {
+          "title": "Équipe administrative",
+          "url": "https://www.ecolecatholique.ca/equipe-administrative"
+        },
+        {
+          "title": "Table politique",
+          "url": "https://www.ecolecatholique.ca/table-politique"
+        }
+      ],
+      "verified": "2026-11-26"
+    }
+  ]
+}

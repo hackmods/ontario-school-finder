@@ -1,0 +1,467 @@
+{
+  "board": "B66109",
+  "name": "Simcoe County District School Board",
+  "short": "SCDSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-register",
+      "topic": "registration",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Registration (Elementary)",
+      "url": "https://www.scdsb.on.ca/elementary/planning_for_school/registration",
+      "summary": "Apply with the board's online registration form (an SCDSB Community Account is optional) or a paper form if internet access is a barrier. Submitting it is only an application: the school then meets you in person and you bring original proof of birthdate, home address and status. Immunization records go to the health unit, not the school. Families new to Canada also meet the Newcomer Welcome Centre. The page does not give kindergarten registration dates.",
+      "related": [
+        {
+          "title": "Registration (Secondary)",
+          "url": "https://www.scdsb.on.ca/secondary/planning_for_high_school/registration"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Home School Locator",
+      "url": "https://www4.scdsb.on.ca/app/HomeSchoolLocator",
+      "summary": "The board's own lookup: choose your municipality, enter your house number and street, pick a grade, and it shows the school for that address. The Simcoe County Student Transportation Consortium has a similar \"Which School Do I Attend?\" tool for SCDSB and Simcoe Muskoka Catholic addresses.",
+      "related": [
+        {
+          "title": "Which School Do I Attend? (Simcoe County Student Transportation Consortium)",
+          "url": "https://scstc.ca/Eligibility"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "dates",
+      "title": "French as a Second Language",
+      "url": "https://www.scdsb.on.ca/elementary/french_as_a_second_language",
+      "facts": {
+        "entry_grades": [
+          "1"
+        ]
+      },
+      "summary": "French Immersion starts in Grade 1. Families apply online in December of Senior Kindergarten; places are given by a digitally randomized lottery, and each designated site is limited to 40 Grade 1 students. The board's Grade 1 page for 2027-28 shows the window as Nov. 30, 2026 (9 a.m.) to Dec. 11, 2026 (4 p.m.); the board posts new dates each year. Your site depends on your home address. Students living outside the school's walk zone can use program transportation from central community stops.",
+      "related": [
+        {
+          "title": "Grade 1 French Immersion application",
+          "url": "https://www.scdsb.on.ca/cms/One.aspx?portalId=210982&pageId=12587752"
+        },
+        {
+          "title": "French Immersion FAQ (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/FAQ's%20French%20Immersion%20-%20July%2014,%202026.pdf"
+        },
+        {
+          "title": "Designated sites and feeder schools 2026-27 (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/Elementary/French%20as%20a%20Second%20Language/FI-Designated-Sites_2026-27.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-fi-later",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "process",
+      "applies": [
+        "elementary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.scdsb.on.ca/elementary/french_as_a_second_language",
+      "facts": {
+        "entry_grades": [
+          "2",
+          "3",
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "summary": "Families who miss the Grade 1 window, move in later, or want to start in Grades 2 to 8 complete the FI Request form and send it to the French Immersion site for their home address. Entry depends on space at that site, a conversation with the principal about the child's French background is required, and the board's FAQ says children are waitlisted if classes are full.",
+      "related": [
+        {
+          "title": "French Immersion FAQ (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/FAQ's%20French%20Immersion%20-%20July%2014,%202026.pdf"
+        },
+        {
+          "title": "FI Request Form (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/Elementary/French%20as%20a%20Second%20Language/FI%20Request%20Form.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "applies": [
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "French as a Second Language",
+      "url": "https://www.scdsb.on.ca/elementary/french_as_a_second_language",
+      "facts": {
+        "entry_grades": [
+          "9"
+        ]
+      },
+      "summary": "French Immersion courses are offered in Grade 9 at seven high schools (Banting Memorial, Barrie North, Collingwood Collegiate, Georgian Bay, Innisdale, Nantyr Shores and Twin Lakes). Students who continue take 10 French courses by the end of Grade 12, which the board's FAQ links to a Certificate of French Immersion Studies.",
+      "related": [
+        {
+          "title": "French Immersion FAQ (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/FAQ's%20French%20Immersion%20-%20July%2014,%202026.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-out-of-area",
+      "topic": "transfer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Out-of-Attendance Area Request",
+      "url": "https://www.scdsb.on.ca/elementary/planning_for_school/out-of-attendance_area_request",
+      "summary": "Register at your home school first, then submit the online request form. It goes to the home principal, then the requested school's principal, then a superintendent who decides. Approval depends on space and class-loading rules, and many schools are closed to requests (including every French Immersion school). Transportation is the family's responsibility. The 2026-27 accommodation plan says most elementary schools are closed to these requests.",
+      "related": [
+        {
+          "title": "Out-of-Attendance Area Request (Secondary)",
+          "url": "https://www.scdsb.on.ca/secondary/planning_for_high_school/out-of-attendance_area_request"
+        },
+        {
+          "title": "2026-27 Accommodation Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "TE01 Transportation Eligibility (PDF)",
+      "url": "https://main.simcoecountyschoolbus.ca/wp-content/uploads/TE01.pdf",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 8": 1.6,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "summary": "The Simcoe County Student Transportation Consortium runs buses for the board. Students attending their designated school and living outside its walk zone (1.6 km for elementary, 3.2 km for secondary, measured from the property line) may be eligible. Students who choose another school are not normally eligible; they may apply for a courtesy seat or out-of-area transportation through the school, which are annual and only if space allows.",
+      "related": [
+        {
+          "title": "Can I Ride a Bus? (check an address)",
+          "url": "https://scstc.ca/TransportationEligibility"
+        },
+        {
+          "title": "TE06 Out-of-Attendance Area Students (PDF)",
+          "url": "https://main.simcoecountyschoolbus.ca/wp-content/uploads/TE06.pdf"
+        },
+        {
+          "title": "TE07 Courtesy Seats (PDF)",
+          "url": "https://main.simcoecountyschoolbus.ca/wp-content/uploads/TE07.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.scdsb.on.ca/elementary/special_education",
+      "summary": "The board's special education page links its Special Education Plan (programs, services and philosophy), a short guide to Individual Education Plans (IEPs) and a Parent's Guide covering the Identification, Placement and Review Committee (IPRC) process, including appeals. Start with your child's teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/Elementary/Special%20Education/Special-Education-Plan.pdf"
+        },
+        {
+          "title": "IEP brochure (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/Elementary/Special%20Education/IEP-Brochure.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Special Education (SEAC section)",
+      "url": "https://www.scdsb.on.ca/elementary/special_education",
+      "summary": "The Special Education Advisory Committee advises the board on special education programs and services. The same page links the SEAC handbook, terms of reference, 2026-27 meeting dates, the membership list and a nomination package for joining.",
+      "related": [
+        {
+          "title": "SEAC 2026-27 meeting dates (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/Elementary/Special%20Education/SEAC-2026-27-Meeting-Dates.pdf"
+        },
+        {
+          "title": "SEAC handbook (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/Elementary/Special%20Education/SEAC-Handbook.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-accessibility",
+      "topic": "accessibility",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.scdsb.on.ca/about/policies_and_procedures/accessibility",
+      "summary": "The board's accessibility page links its current Multi-Year Accessibility Plan for 2024 to 2029, the steps it is taking under the Accessibility for Ontarians with Disabilities Act, 2005, and earlier plans.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2024-29 (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Accessibility/SCDSB-Multi-Year-Accessibility-Plan-2024-29.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-newcomer",
+      "topic": "newcomer",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "Newcomer Welcome Centre",
+      "url": "https://thelearningcentres.com/programs/newcomer_welcome_centre/",
+      "summary": "Run with the board by Learning Centres in Barrie. Families new to Canada (landed within four years, or other groups listed on the page) register online with the board, then the centre books an appointment of about 1 to 2 hours: document check, information about Ontario schools, and English and math assessments for Grades 1 to 12 to help place the student.",
+      "related": [
+        {
+          "title": "Newcomer Welcome Centre (SCDSB)",
+          "url": "https://www.scdsb.on.ca/community/newcomer_welcome_centre"
+        },
+        {
+          "title": "Multilingual learning (elementary)",
+          "url": "https://www.scdsb.on.ca/elementary/english_language_learning"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "2026-27 Accommodation Plan (PDF)",
+      "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/2026-27-Accommodation-Plan.pdf",
+      "summary": "The board's yearly accommodation plan covers capital priorities, new schools, holding areas, which schools are closed to out-of-area students, and enrolment and utilization by area. Enrolment projections are forecasts and capacity is building space, not open seats. Current and past attendance area reviews are on the board's Accommodation Planning Reviews page.",
+      "related": [
+        {
+          "title": "Accommodation Planning Reviews",
+          "url": "https://www.scdsb.on.ca/about/capital_planning/attendance_area_reviews"
+        },
+        {
+          "title": "Capital and accommodation plans",
+          "url": "https://www.scdsb.on.ca/about/capital_planning"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-achievement",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.scdsb.on.ca/about/goals_reporting/student_achievement_plan",
+      "source_date": "2024-25",
+      "summary": "The board posts its Student Achievement Plan each spring using the Ministry's public reporting template, showing results and actions toward provincial priorities. When we checked, the page showed the 2024-25 plan with a separate additional-data document.",
+      "related": [
+        {
+          "title": "2024-25 Student Achievement Plan (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Goals%20and%20Reporting/2024-25-SAP.pdf"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.scdsb.on.ca/elementary/parent/parent_involvement_committee",
+      "summary": "A county-wide advisory committee of parents, community members, staff and trustees that supports school councils and advises the board. It meets at least four times a year, with agendas and recordings online. The page lists a member list and an application form to join, with a deadline of Dec. 16 for 2026-27.",
+      "related": [
+        {
+          "title": "Board and committee meetings",
+          "url": "https://www.scdsb.on.ca/board/board_and_committee_meetings"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "School Councils",
+      "url": "https://www.scdsb.on.ca/elementary/parent/school_councils",
+      "summary": "Each school has a council of elected parents, community members, staff and sometimes students. Anyone can attend meetings, and elections are held within 30 days of the school year starting. Ask the principal or a current member how to take part.",
+      "related": [
+        {
+          "title": "Parent Involvement Committee",
+          "url": "https://www.scdsb.on.ca/elementary/parent/parent_involvement_committee"
+        }
+      ]
+    },
+    {
+      "verified": "2026-11-26",
+      "id": "scdsb-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "lifecycle": "rules",
+      "title": "How to communicate your appreciation or concern (PDF)",
+      "url": "https://cdnsm5-ss14.sharpschool.com/UserFiles/Servers/Server_210898/File/About/Contact%20Us/HowToCommunicateAppreciationConcern.pdf",
+      "summary": "Follow the steps in order: meet the teacher, then the principal, then your school's superintendent of education, then the Associate Director, and finally the Chief Executive Officer. The board suggests putting concerns in writing once you reach the superintendent. Trustee contacts are on the board website.",
+      "related": [
+        {
+          "title": "Trustees",
+          "url": "https://www.scdsb.on.ca/board/trustees"
+        },
+        {
+          "title": "Contact us",
+          "url": "https://www.scdsb.on.ca/about/contact_us"
+        }
+      ]
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French as a Second Language",
+      "url": "https://www.scdsb.on.ca/elementary/french_as_a_second_language",
+      "verified": "2026-11-26",
+      "schools": {
+        "181757": "Ernest Cumberland ES (Alliston)",
+        "186666": "Alliston Union PS (Alliston)",
+        "195812": "Ferndale Woods ES (Barrie)",
+        "221740": "Goodfellow PS (Stroud)",
+        "244996": "Harriett Todd PS (Orillia)",
+        "257346": "Hillcrest PS (Barrie)",
+        "273988": "Huron Park PS (Midland)",
+        "414123": "Oakley Park PS (Barrie)",
+        "429619": "Worsley ES (Wasaga Beach)",
+        "451649": "Portage View PS (Barrie)",
+        "466951": "Mundy's Bay PS (Midland)",
+        "480037": "Regent Park PS (Orillia)",
+        "505808": "Ardagh Bluffs PS (Barrie)",
+        "580520": "W.R. Best Memorial PS (Shanty Bay)",
+        "585599": "W.H. Day ES (Bradford)",
+        "586846": "Warnica PS (Barrie)",
+        "618562": "Harvest Hills PS (Bradford)",
+        "893064": "Banting Memorial High School (Alliston)",
+        "893323": "Barrie North Collegiate (Barrie)",
+        "902551": "Collingwood Collegiate (Collingwood)",
+        "918253": "Innisdale Secondary School (Barrie)",
+        "927724": "Nantyr Shores Secondary School (Alcona)",
+        "928151": "Georgian Bay District Secondary School (Midland)",
+        "948870": "Twin Lakes Secondary School (Orillia)",
+        "080268": "Cameron Street PS (Collingwood)",
+        "003131": "Admiral Collingwood ES (Collingwood)"
+      }
+    }
+  ],
+  "decisions": [
+    {
+      "id": "scdsb-orillia-aar-2027",
+      "topic": "planning",
+      "kind": "decision",
+      "lifecycle": "plans",
+      "title": "Orillia attendance area review (AAR 2024:02)",
+      "url": "https://www.scdsb.on.ca/about/capital_planning/attendance_area_reviews",
+      "decided": "2026-03-25",
+      "summary": "On March 25, 2026 the board of trustees approved new school boundaries for Orillia-area schools. They take effect Sept. 6, 2027, when a new Orillia elementary school opens; students in the new area will go to Grade 9 at Twin Lakes SS. The board's letter says students in Grade 7 in 2026-27 may stay at their current school for Grade 8. Check the review page for your address.",
+      "related": [
+        {
+          "title": "Approval letter to families, March 26, 2026 (PDF)",
+          "url": "https://www.scdsb.on.ca/UserFiles/Servers/Server_210898/File/About/Capital%20Plan/Attendance%20Area%20Reviews/AAR-approval-letter-to-families_26March2026.pdf"
+        }
+      ],
+      "schools": [
+        "125482",
+        "244996",
+        "087934",
+        "337862",
+        "419346",
+        "480037",
+        "636037",
+        "968729",
+        "948870"
+      ],
+      "match": "Nine schools named in the approval letter matched by hand to this site's Orillia schools (Couchiching Heights, Harriett Todd, Lions Oval, Marchmont, Orchard Park, Regent Park, Severn Shores PS; Orillia SS; Twin Lakes SS).",
+      "verified": "2026-11-26"
+    }
+  ]
+}

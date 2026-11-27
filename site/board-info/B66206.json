@@ -1,0 +1,350 @@
+{
+  "board": "B66206",
+  "name": "Limestone District School Board",
+  "short": "Limestone DSB",
+  "checked": "2026-11-26",
+  "records": [
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-register",
+      "topic": "registration",
+      "kind": "process",
+      "lifecycle": "dates",
+      "title": "Register a Student",
+      "url": "https://www.limestone.on.ca/registration/",
+      "summary": "Registration starts online in the board's ASPEN system (a first-time family creates an account; phones and tablets are not supported). The parent or guardian then takes original documents to the school during school hours: proof of age, proof of address, immunization reported directly to KFL&A Public Health (schools do not accept immunization records), and any custody papers. Registration is not confirmed until the school has everything and the principal approves. Kindergarten: the child turns 4 (Year 1) or 5 (Year 2) by December 31; the board encourages pre-registering in February.",
+      "related": [
+        {
+          "title": "Kindergarten and Early Learning",
+          "url": "https://www.limestone.on.ca/kindergarten/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-locator",
+      "topic": "address_lookup",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Which School do I Attend? (Tri-Board BusPlanner)",
+      "url": "https://triboard.mybusplanner.ca/Eligibility.aspx",
+      "summary": "The board sends families to the Tri-Board Student Transportation lookup: enter a street address and pick the municipality and district to see the school that serves it. Limestone says to check this before registering, because students are enrolled by default in their home-address school.",
+      "related": [
+        {
+          "title": "School Finder (list of Limestone schools)",
+          "url": "https://www.limestone.on.ca/school-finder/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-fi",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.limestone.on.ca/french_immersion/",
+      "facts": {
+        "entry_grades": [
+          "JK",
+          "K",
+          "1"
+        ]
+      },
+      "summary": "Early French Immersion starts in Year 1 Kindergarten, Year 2 Kindergarten or Grade 1, with no French needed at home. Teaching is entirely in French from Kindergarten to Grade 2, then 80% in French in Grades 3 to 4 and 70% in Grades 5 to 8. The board lists the schools that offer it and points families to the normal registration process; it publishes no separate lottery or deadline. Transportation may be provided within the school's boundary under Tri-Board rules.",
+      "related": [
+        {
+          "title": "Kindergarten and Early Learning",
+          "url": "https://www.limestone.on.ca/kindergarten/"
+        },
+        {
+          "title": "Register a Student",
+          "url": "https://www.limestone.on.ca/registration/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-fi-secondary",
+      "topic": "program",
+      "program": "french-immersion",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "French Immersion",
+      "url": "https://www.limestone.on.ca/french_immersion/",
+      "summary": "French Immersion continues in Grades 9 to 12 at three Limestone high schools: Frontenac, Napanee District and Kingston Secondary School. Students earn the Limestone Certificate of French Study (Immersion) with 10 immersion credits, four of them in French language studies."
+    },
+    {
+      "applies": [
+        "elementary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-efi",
+      "topic": "program",
+      "program": "extended-french",
+      "kind": "process",
+      "lifecycle": "dates",
+      "title": "Choices at 7",
+      "url": "https://www.limestone.on.ca/choices_at_7/",
+      "facts": {
+        "entry_grades": [
+          "7"
+        ]
+      },
+      "summary": "Extended French Immersion (late immersion) begins in Grade 7 at Harrowsmith Public School, Module de l'Acadie or Module Vanier, with about 70% of teaching in French. Families apply to the school they choose (the one closest to home if they want bus consideration); Grade 6 students already in Limestone French Immersion move on without applying, and students from other boards use online registration. Application links stay open through 2026-27; information nights run December 2026 to February 2027. Families are responsible for transportation to Choices programs unless Tri-Board approves a seat.",
+      "related": [
+        {
+          "title": "Extended/Late Immersion",
+          "url": "https://www.limestone.on.ca/extended_late_immersion/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-transfer",
+      "topic": "transfer",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "Register a Student",
+      "url": "https://www.limestone.on.ca/registration/",
+      "summary": "A student may attend a school other than the home-boundary school when space is available, by submitting the board's transfer request (Form 305) to the school and getting approval. The board does not provide transportation outside the home boundary. Specialized programs such as Choices at 7 and Choices at 9 have their own application steps.",
+      "related": [
+        {
+          "title": "Choices at 7",
+          "url": "https://www.limestone.on.ca/choices_at_7/"
+        },
+        {
+          "title": "Choices at 9",
+          "url": "https://www.limestone.on.ca/choices_at_9/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-transport",
+      "topic": "transportation",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "Student Transportation (Policy 21) (PDF)",
+      "url": "https://www.limestone.on.ca/documents/aa7c72f4-ce14-4496-9770-b5696c6fdb98/v_-policy_21_student_transportation.pdf?fingerprint=ppb20251217014611",
+      "facts": {
+        "walk_km": {
+          "JK to Grade 6": 1.6,
+          "Grades 7 and 8": 3.2,
+          "Grades 9 to 12": 3.2
+        }
+      },
+      "source_date": "Last Revised July 2021",
+      "summary": "Students who live inside their school's boundary and at least 1.6 km away (JK to Grade 6) or 3.2 km away (Grades 7 to 12) may be eligible for busing, with a stop no more than 0.8 km (1.6 km in secondary) from home. Tri-Board Student Transportation runs the service for Limestone, ALCDSB and the Hastings and Prince Edward board. Students outside their boundary, and those in Choices programs, are generally responsible for their own transport unless Tri-Board approves a seat.",
+      "related": [
+        {
+          "title": "Student Transportation, Administrative Procedure 162 (PDF)",
+          "url": "https://www.limestone.on.ca/documents/0e4c5618-cec5-5399-93c6-f86779a1c14c/AP_162_Student_Transportation.pdf?fingerprint=ppb20251217013130"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-sped",
+      "topic": "special_education",
+      "kind": "rule",
+      "lifecycle": "plans",
+      "title": "Special Education",
+      "url": "https://www.limestone.on.ca/special-education-programs-and-services/",
+      "summary": "The board's special education page describes its support model: the Identification, Placement and Review Committee (IPRC) first considers the regular classroom with support, with more intensive supports as need rises. The page links the Special Education Plan 2026-2027 and a parents' guide to the IPRC process. Start with the classroom teacher and principal.",
+      "related": [
+        {
+          "title": "Special Education Plan 2026-2027 (PDF)",
+          "url": "https://www.limestone.on.ca/documents/444d5de7-8405-4dd8-ae5a-5f461b069a00/LDSB-Special-Education-Plan-2026-2027.pdf?fingerprint=ppb20260706113027"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-seac",
+      "topic": "seac",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Special Education Advisory Committee (SEAC)",
+      "url": "https://www.limestone.on.ca/special-education-advisory-committee/",
+      "summary": "SEAC can make recommendations to the board on special education programs and services for students. Its members include trustees, local community associations, members at large and board staff. The page lists current members and links a SEAC handbook; meetings are held at the Education Centre on Portsmouth Avenue."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-access",
+      "topic": "accessibility",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Accessibility",
+      "url": "https://www.limestone.on.ca/accessibility/",
+      "source_date": "Multi-Year Accessibility Plan 2026-2029",
+      "summary": "The board's accessibility page links its Multi-Year Accessibility Plan 2026-2029 (PDF) and describes an Accessibility Advisory Committee that meets at least three times a year. The plan is about board-wide barriers, not a particular school's building; ask the school about specific needs.",
+      "related": [
+        {
+          "title": "Multi-Year Accessibility Plan 2026-2029 (PDF)",
+          "url": "https://www.limestone.on.ca/documents/3521fd4d-ff65-4e3c-9675-4c2ea4d3edb5/Multi-Year-Accessibility-Plan-2026-2029.pdf?fingerprint=ppb20260428201346"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-newcomer",
+      "topic": "newcomer",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Multilingual Language Learners",
+      "url": "https://www.limestone.on.ca/Multilingual_Language_Learners/",
+      "summary": "English language support is available to all multilingual learners. In elementary schools a Multilingual Language Learner (MLL) teacher does an initial assessment and supports the student and classroom teacher; parents should tell the principal at registration. Secondary students who need it can take a full-time MLL program at Bayridge, Loyalist or Kingston Secondary School."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-planning",
+      "topic": "planning",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Accommodation Planning",
+      "url": "https://www.limestone.on.ca/accommodation_planning/",
+      "source_date": "Long-Term Accommodation Plan presented to Trustees May 24, 2016",
+      "summary": "The board's page explains its Long-Term Accommodation Plan (a 15-year report presented in May 2016) and says no new Pupil Accommodation Reviews are planned while the provincial pause stands. The plan is a resource report, not a decision. Projections are forecasts and capacity is building space, not open seats.",
+      "related": [
+        {
+          "title": "Pupil Accommodation Reviews",
+          "url": "https://www.limestone.on.ca/pupil_accommodation_reviews/"
+        }
+      ]
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-sap",
+      "topic": "achievement_plan",
+      "kind": "plan",
+      "lifecycle": "plans",
+      "title": "Student Achievement Plan",
+      "url": "https://www.limestone.on.ca/student-achievement-plan/",
+      "source_date": "2024-2025 Student Achievement Plan",
+      "summary": "The board's Student Achievement Plan sets goals under the province's framework: literacy, math, graduation and well-being. The page shows Limestone and provincial results (for example EQAO Grade 3 reading and Grade 6 math) and the actions the board will take. It was showing the 2024-2025 report when we checked, and the board invites feedback through an online form."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-pic",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "contacts",
+      "title": "Parent Involvement Committee",
+      "url": "https://www.limestone.on.ca/parent-involvement-committee/",
+      "summary": "The Parent Involvement Committee (PIC) is a parent-majority committee linked to the Director and trustees that works to support parent engagement across the district. It meets at the Education Centre, 220 Portsmouth Avenue, at 6:00 p.m. unless noted, and has a 2SLGBTQIA+ focus group."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-council",
+      "topic": "involvement",
+      "kind": "rule",
+      "lifecycle": "rules",
+      "title": "School Council",
+      "url": "https://www.limestone.on.ca/school-council/",
+      "summary": "Every school has a School Council where parents and others contribute to student achievement and well-being. The board offers a School Council Tool Kit, and councils send representatives to the Parent Involvement Committee."
+    },
+    {
+      "applies": [
+        "elementary",
+        "secondary"
+      ],
+      "verified": "2026-11-26",
+      "id": "limestone-concerns",
+      "topic": "concerns",
+      "kind": "process",
+      "lifecycle": "rules",
+      "title": "Question or Concern Resolution Process",
+      "url": "https://www.limestone.on.ca/question-or-concern-resolution-process/",
+      "summary": "Raise a concern in order: the classroom teacher first, then the principal or vice-principal, then your school's Family of Schools Superintendent, then the Director of Education. The board asks that concerns be handled at the level closest to the issue and gives a main number (613-544-6920) to ask for the superintendent."
+    }
+  ],
+  "school_programs": [
+    {
+      "program": "french-immersion",
+      "title": "French Immersion",
+      "url": "https://www.limestone.on.ca/french_immersion/",
+      "verified": "2026-11-26",
+      "schools": {
+        "206199": "Module Vanier (Kingston)",
+        "226482": "École Maple Elementary School (Kingston)",
+        "281786": "École James R. Henderson Public School (Kingston)",
+        "449873": "École Polson Park Public School (Kingston)",
+        "483540": "École Publique Rideau Public School (Kingston)",
+        "599271": "Module de l'Acadie (Kingston)",
+        "911135": "Frontenac Secondary School (Kingston)",
+        "927902": "Napanee District Secondary School (Napanee)",
+        "931089": "Kingston Secondary School (Kingston)",
+        "018791": "Amherstview Public School (Amherstview)"
+      }
+    },
+    {
+      "program": "extended-french",
+      "title": "Extended/Late Immersion",
+      "url": "https://www.limestone.on.ca/extended_late_immersion/",
+      "verified": "2026-11-26",
+      "schools": {
+        "206199": "Module Vanier (Kingston)",
+        "245909": "Harrowsmith Public School (Harrowsmith)",
+        "599271": "Module de l'Acadie (Kingston)",
+        "911135": "Frontenac Secondary School (Kingston)",
+        "931089": "Kingston Secondary School (Kingston)"
+      }
+    }
+  ]
+}
