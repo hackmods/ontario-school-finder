@@ -73,7 +73,7 @@
   <div class="wrap">
     <h2>{{ _("Board context") }}</h2>
     <p class="block-intro">{{ _("How the board spends its money, how often students are suspended, and how many take French programs. These describe the whole board, not any one school.") }}</p>
-    <div class="grid grid-2 grid-top">
+    <div class="cards">
       {% if spend_view %}
       <div class="card">
         <h3>{{ icon("building", "card-ic") }}{{ _("Spending per student") }} <span class="badge">{{ spend_view.year }}</span></h3>
@@ -125,11 +125,11 @@
   <div class="wrap">
     <h2>{{ _("For families: registering, programs, supports and plans") }}</h2>
     <p class="block-intro">{{ _("Collected by hand from {board}’s own pages, each linked and dated. Every school page of this board shows the items that apply to it. Published rules are kept apart from decisions made case by case.", board=b.name) }}</p>
-    <div class="grid grid-2 grid-top">
-      <div class="card"><h3>{{ _("Registering and getting in") }}</h3>{{ records(T.get("registration", []) + T.get("address_lookup", []) + T.get("transfer", []) + T.get("transportation", [])) }}</div>
-      <div class="card"><h3>{{ _("Programs") }}</h3>{{ records(T.get("program", [])) }}</div>
-      <div class="card"><h3>{{ _("Learning supports") }}</h3>{{ records(T.get("special_education", []) + T.get("seac", []) + T.get("accessibility", []) + T.get("newcomer", [])) }}</div>
-      <div class="card"><h3>{{ _("Plans, priorities and getting involved") }}</h3>{{ records(T.get("planning", []) + T.get("achievement_plan", []) + T.get("involvement", []) + T.get("concerns", [])) }}</div>
+    <div class="cards">
+      <div class="card"><h3>{{ icon("info", "card-ic") }}{{ _("Registering and getting in") }}</h3>{{ records(T.get("registration", []) + T.get("address_lookup", []) + T.get("transfer", []) + T.get("transportation", [])) }}</div>
+      <div class="card"><h3>{{ icon("school", "card-ic") }}{{ _("Programs") }}</h3>{{ records(T.get("program", [])) }}</div>
+      <div class="card"><h3>{{ icon("child", "card-ic") }}{{ _("Learning supports") }}</h3>{{ records(T.get("special_education", []) + T.get("seac", []) + T.get("accessibility", []) + T.get("newcomer", [])) }}</div>
+      <div class="card"><h3>{{ icon("map", "card-ic") }}{{ _("Plans, priorities and getting involved") }}</h3>{{ records(T.get("planning", []) + T.get("achievement_plan", []) + T.get("involvement", []) + T.get("concerns", [])) }}</div>
     </div>
   </div>
 </section>
@@ -141,7 +141,7 @@
   <div class="wrap">
     <h2>{{ _("Student experience across the board") }} <span class="badge">{{ board_sq[0].year }}</span></h2>
     <p class="block-intro">{{ _("What students across {board} said in EQAO’s questionnaire, answered when they wrote the assessment: students’ own views of themselves and their learning, not a measure of the board’s quality. These are EQAO’s figures for every student in the board who answered, beside Ontario’s. Earlier years appear only when EQAO asked the same question with the same answers; each year is a different group of students. Each school’s page has its own figures.", board=b.name) }}</p>
-    <div class="grid grid-2 grid-top">
+    <div class="cards">
     {% for blk in board_sq %}
       <div class="card sq-card">
         <h3>{{ _(blk.grade) }}{% if blk.respondents %} <span class="badge">{{ _("{n} students answered", n=(blk.respondents)|num) }}</span>{% endif %}</h3>
@@ -154,7 +154,7 @@
           <tbody>
           {% for it in blk.rows %}
             <tr role="row"><th scope="row" role="rowheader">{{ _("“{question}”", question=_(it.question)) }}<div class="small muted">{{ _(it.label) }}: {% for a in it.agree %}{{ _(a)|lower }}{{ _(" or ") if not loop.last }}{% endfor %}</div></th>
-              <td class="n" role="cell" data-label="{{ _('Whole board') }}">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}{{ pc }}</b>{% if it.n %}<div class="small muted">{{ _("of {n}", n=(it.n)|num) }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier">{{ _("Earlier:") }} {% for h in it.history %}{{ h.year }} {% if h.agree_pct is not none %}{{ h.agree_pct }}{{ pc }}{% else %}<span class="code" title="{{ code_text(h.code) }}">{{ h.code }}</span>{% endif %}{{ "" if loop.last else " · " }}{% endfor %}</div>{% endif %}</td>
+              <td class="n" role="cell" data-label="{{ _('Whole board') }}">{% if it.agree_pct is not none %}<b>{{ it.agree_pct }}{{ pc }}</b>{% if it.n %}<div class="small muted">{{ _("of {n}", n=(it.n)|num) }}</div>{% endif %}{% else %}<span class="code" title="{{ code_text(it.code) }}">{{ it.code }}</span>{% endif %}{% if it.history %}<div class="small muted sq-earlier"><span>{{ _("Earlier:") }}</span>{% for h in it.history %}<span>{{ h.year }} <b>{% if h.agree_pct is not none %}{{ h.agree_pct }}{{ pc }}{% else %}<span class="code" title="{{ code_text(h.code) }}">{{ h.code }}</span>{% endif %}</b></span>{% endfor %}</div>{% endif %}</td>
               <td class="n" role="cell" data-label="{{ _('Ontario') }}">{{ pct(it.province_pct) }}</td></tr>
           {% endfor %}
           </tbody>

@@ -154,6 +154,21 @@ def wide_line_chart(rows: list[dict], years: list[str], **kw) -> str:
     return eqao_chart(rows, years, w=360, h=210, cls="v-narrow", **kw) + eqao_chart(rows, years, w=720, h=230, cls="v-wide", **kw)
 
 
+def card_line_chart(rows: list[dict], years: list[str], **kw) -> str:
+    """A chart inside a card (EQAO results): a phone-sized copy and a card-sized copy, so its labels keep about
+    the size of the text around them in a phone column and in a half-page card on a desktop (one copy drawn at
+    360px and stretched to 560px made the labels half as big again as the card's text). The card-sized copy comes
+    first: a page without CSS shows it."""
+    return eqao_chart(rows, years, w=560, h=250, cls="v-md", **kw) + eqao_chart(rows, years, w=360, h=210, cls="v-sm", **kw)
+
+
+def card_bar_chart(points: list[dict], *, title: str) -> str:
+    """Bars for a half-page card (enrolment beside the building's capacity): card-sized and phone-sized copies."""
+    if not points:
+        return ""
+    return bar_chart(points, title=title, w=560, h=240, cls="v-md") + bar_chart(points, title=title, w=360, h=190, cls="v-sm")
+
+
 def wide_bar_chart(points: list[dict], *, title: str) -> str:
     if not points:
         return ""

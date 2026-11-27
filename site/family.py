@@ -14,6 +14,7 @@ import re
 from datetime import date
 from pathlib import Path
 
+import i18n
 from i18n import _
 
 GRADE_ORDER = ["JK", "K"] + [str(i) for i in range(1, 13)]
@@ -226,8 +227,11 @@ def visit_questions(s: dict, *, info: dict, badges: list[dict], offered: list[st
     keys = {b["key"] for b in badges}
     topics = info.get("topics", {})
     if offered:
-        q.append(_("Which grades will the school offer next year, and is there room in the grade my child is entering? (The Ministry lists {first} to Grade {last}.)",
-                   first=offered[0] if offered[0] not in ("JK", "K") else _("kindergarten"), last=offered[-1]))
+        first = _("kindergarten") if offered[0] in ("JK", "K") else _(GRADE_LABEL[offered[0]])
+        span = _("{first} to {last}", first=first, last=_(GRADE_LABEL[offered[-1]]))
+        if i18n.CURRENT.lang == "fr":  # mid-sentence in French: "de 9e année à 12e année"
+            span = span[:1].lower() + span[1:]
+        q.append(_("Which grades will the school offer next year, and is there room in the grade my child is entering? (The Ministry lists {span}.)", span=span))
     if "french-immersion" in keys:
         prog = topics.get("program") or []
         entry = entry_grades(prog)

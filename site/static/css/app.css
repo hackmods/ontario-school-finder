@@ -248,7 +248,7 @@ a > .badge-count { margin-left: 8px; } /* the header nav and the phone menu (fle
 .btn-sm { min-height: 44px; padding: 0 14px; font-size: .875rem; }
 .btn[aria-pressed="true"] { --b: var(--brand-tint); --bd: var(--brand-soft); --c: var(--brand); }
 
-.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
 .chip {
   display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 14px;
   border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface);
@@ -280,6 +280,12 @@ a > .badge-count { margin-left: 8px; } /* the header nav and the phone menu (fle
 .grid-2 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); }
 .grid-3 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
 .grid-4 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); }
+/* Groups of cards on school and board pages: one column on phones, two balanced columns from 760px.
+   Each card keeps its own height and the next one stacks under it, so a short card never leaves a hole
+   beside a long one (reading order runs down the first column, then the second). One card fills the row. */
+.cards { column-gap: 16px; }
+.cards > * { break-inside: avoid; margin: 0 0 16px; }
+@media (min-width: 760px) { .cards:not(:has(> :only-child)) { columns: 2; } }
 .section { padding: clamp(32px, 6vw, 64px) 0; }
 .section-tight { padding: 24px 0; }
 .eyebrow { font: 700 .76rem/1.2 var(--font); letter-spacing: .09em; text-transform: uppercase; color: var(--brand); margin: 0 0 10px; }
@@ -427,6 +433,12 @@ a.hero-art:hover .hero-go { text-decoration: underline; }
   .chart svg.v-wide { display: none; }
   .chart svg.v-narrow { display: block; }
 }
+/* charts in a card: the card-sized copy from 460px wide, the phone copy below */
+.chart svg.v-sm { display: none; }
+@container (max-width: 460px) {
+  .chart svg.v-md { display: none; }
+  .chart svg.v-sm { display: block; }
+}
 .chart .grid-line { stroke: var(--line); stroke-width: 1; }
 .chart .axis-label { fill: var(--ink-3); font: 500 12px var(--font); }
 .chart .gap-band { fill: var(--surface-2); }
@@ -462,6 +474,8 @@ details.data-table summary { cursor: pointer; color: var(--ink-2); font-weight: 
 details.data-table summary::-webkit-details-marker { display: none; }
 details.data-table summary::before { content: "+"; display: inline-grid; place-items: center; width: 20px; height: 20px; margin-right: 8px; border-radius: 6px; background: var(--surface-2); font-weight: 700; }
 details.data-table[open] summary::before { content: "–"; }
+/* a closed card that is only a "show more" line: a slim row, not a tall empty card */
+details.data-table.card:not([open]) { padding-block: 4px; }
 .code { font: 600 .78rem/1 var(--mono); color: var(--accent); background: var(--accent-tint); padding: 2px 6px; border-radius: 6px; white-space: nowrap; }
 
 /* ---------- lists ---------- */
@@ -699,8 +713,9 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 .src-groups { display: grid; gap: 20px; }
 .src-pub { font-size: .86rem; font-weight: 650; color: var(--ink-2); letter-spacing: 0; margin: 0 0 8px; }
 .src-pub a { color: inherit; font-weight: 500; }
-.src-list { grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); gap: 8px; }
-.src-list li { padding: 10px 14px; min-width: 0; }
+/* source tiles flow in columns at their own height (a 2-file tile isn't stretched to match an 8-file one) */
+.src-list { display: block; columns: 340px; column-gap: 8px; }
+.src-list li { padding: 10px 14px; min-width: 0; break-inside: avoid; margin: 0 0 8px; }
 .src-list li > .t { font-weight: 650; overflow-wrap: anywhere; }
 .src-list li > .m { display: block; font-size: .8rem; color: var(--ink-3); margin-top: 2px; }
 .src-set .yrs { display: flex; flex-wrap: wrap; gap: 4px; margin: 6px 0 4px; }
@@ -790,7 +805,8 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 .prog-list .off b { color: var(--ink-2); }
 .prog-list .d { display: block; font-size: .85rem; color: var(--ink-3); }
 .shsm-list { list-style: none; padding: 0; margin: 0; }
-.chip-static { display: inline-flex; align-items: center; gap: .3em; min-height: 34px; padding: 4px 12px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface-2); font-size: .88rem; font-weight: 600; color: var(--ink); }
+/* a label with a note ("Business · 16 years"): plain text inside, so a long label wraps as one line of text */
+.chip-static { display: inline-block; max-width: 100%; padding: 6px 12px; border-radius: 18px; border: 1px solid var(--line-2); background: var(--surface-2); font-size: .88rem; font-weight: 600; line-height: 1.35; color: var(--ink); }
 
 /* board context: spending split, suspensions, French programs */
 .ctx-big { margin: 4px 0 12px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
@@ -834,7 +850,8 @@ a.card:hover { border-color: var(--brand-soft); box-shadow: var(--shadow-2); tra
 .rec-head .t { font-weight: 650; }
 .rec p { margin: 6px 0 0; font-size: .92rem; }
 .rec .rec-meta { font-size: .78rem; color: var(--ink-3); }
-.rec-kind { font-size: .72rem; }
+/* a record's status can be a long phrase (more so in French): let it wrap inside the card */
+.rec-kind { font-size: .72rem; white-space: normal; max-width: 100%; border-radius: 12px; }
 .rec-links { margin: 6px 0 0; padding-left: 18px; font-size: .88rem; }
 .rec-missing { margin: 0; }
 table.mini { margin: 8px 0 0; font-size: .86rem; border-collapse: collapse; }
@@ -843,6 +860,10 @@ table.mini td.n { text-align: right; font-variant-numeric: tabular-nums; }
 table.mini caption { text-align: left; font-size: .8rem; color: var(--ink-3); padding-bottom: 2px; }
 .note-inline { padding: 8px 10px; border-radius: var(--r-1); background: var(--warn-tint); margin: 0 0 10px; }
 .sq-table th[scope=row] { font-weight: 500; }
+/* earlier years under a figure: one year per line, never split inside "2024-25 47%" */
+.sq-earlier { margin-top: 4px; line-height: 1.35; }
+.sq-earlier > span { display: block; white-space: nowrap; }
+.sq-earlier b { font-weight: 600; color: var(--ink-2); }
 .sq-dist { list-style: none; margin: 0 0 6px; padding: 0; font-size: .86rem; }
 .sq-dist li { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px dotted var(--line); padding: 2px 0; }
 .questions { margin: 0; padding-left: 22px; display: grid; gap: 8px; }

@@ -1,10 +1,19 @@
 # Handoff: open items and lessons
 
-State at the end of 2026-11-26: PRs #1–#21 merged (Dependabot's #14 closed as superseded by #18),
-`main` deployed to https://ontarioschoolfinder.ca (CapRover app `ontario-schools`). The repo is
-**public** with no licence (all rights reserved). There is no GitHub Actions CI: `./check.sh` on
-your own machine is the definition of done (it passed on 2026-11-26). The browser suite also runs
-against production: `BASE_URL=https://ontarioschoolfinder.ca npx playwright test` (52 passed).
+State at the end of 2026-11-27: PRs #1–#29 merged. **`main` is ahead of production**: the live site is
+the #26 build (2026-11-26 22:03). #27 (rounding note), #28 (French version, capacity for 26 boards,
+school links, board questionnaire) and #29 (school and board page layout) are merged but not deployed,
+because the CapRover CLI sign-in for `captain-01` expired. To deploy from the main checkout:
+
+1. `caprover login -u https://captain.behind7proxies.com -n captain-01` (asks for the CapRover password).
+2. `bash scripts/publish.sh` (rebuilds with `CONTACT_EMAIL` from your environment, checks counts, deploys).
+3. Check `https://ontarioschoolfinder.ca/build.json` shows the new build time and `/fr/` loads. `deploy.sh`
+   exits 0 even when the CapRover sign-in has expired, so always check `build.json`.
+
+The built site is about 1.8 GB with the French pages. The repo is **public** with no licence (all rights
+reserved). There is no GitHub Actions CI: `./check.sh` on your own machine is the definition of done (it
+passed on 2026-11-27). The browser suite also runs against production:
+`BASE_URL=https://ontarioschoolfinder.ca npx playwright test`.
 
 ## Open items for the owner
 

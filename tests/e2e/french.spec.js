@@ -88,7 +88,7 @@ test.describe("French version", () => {
   test("French pages fit a phone screen", async ({ browser }) => {
     const ctx = await browser.newContext({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1 });
     const page = await ctx.newPage();
-    for (const url of ["/fr/", `/fr/school/${PP}/`, "/fr/board/B66150/", `/fr/compare/?ids=${PP},455989`, "/fr/methodology/", "/fr/search/?q=Ottawa"]) {
+    for (const url of ["/fr/", `/fr/school/${PP}/`, "/fr/school/724777/", "/fr/board/B66150/", `/fr/compare/?ids=${PP},455989`, "/fr/methodology/", "/fr/search/?q=Ottawa"]) {
       await page.goto(url);
       await page.waitForLoadState("networkidle");
       const over = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
